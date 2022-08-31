@@ -20,7 +20,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optional): Adds third-party audience data, co-op based device graph
+* Adobe Audience Manager (optional): Adds third-party audience data.
 * Adobe Analytics or Customer Journey Analytics(optional): Adds the ability to build segments based on historical customer and behavioral data with fine grained segmentation
 
 ## Integration Patterns
