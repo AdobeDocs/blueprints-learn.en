@@ -158,6 +158,48 @@ During the daily identity overlap process, if the corresponding identity exists 
 
 Segment revocation/deletion from the sender is an on-demand process where the list of all profiles with the revoked segment-IDs are obtained from the receiver. The segment-IDs are removed from the segment membership of those identities and reingested at the receiver. This action overwrites the existing segment membership fragment, which deletes the membership for that segment.
 
+## Use Segment Match in Programmatic Deals
+
+With the growing restrictions around third-party cookies and device identifiers, programmatic advertising is looking for new ways to build and target audiences. A growing number of 'universal ID' solutions have been proposed however the industry is still in flux with no agreed upon, scalable way to achieve the same level of targeting while balancing applicable privacy concerns. 
+
+You can use Adobe Experience Platform Segment Match in privacy-centric audience collaboration and enhance programmatic private deals between advertisers and publishers. With Segment Match, you can:
+
+* Split **Ad trafficking** and **Audience** workflows.
+* Allow partner brands to share audience metadata for mutually shared, and consenting identities using durable identifiers such as hashed email and hashed phone number within a consent-enforced process.
+
+### Use cases
+
+* Targeting first-party audiences through programmatic private deals.
+* Suppression of first-party audience via programmatic private deals.
+* Targeting look-alike audiences from first-party audiences seeded via programmatic private deals.
+
+>[!BEGINSHADEBOX]
+
+**Consider the following example workflow between a brand (Luma) and a media network (ACME):**
+
+1. A brand (Luma) conducts an audience match with a media network (ACME) via Segment Match.
+2. ACME pushes the audience(s) to ad server or Programmatic SSP via Adobe Real-Time CDP Destination(s).
+3. ACME sets up a Private Inventory Deal (ID) with the applicable targeting criteria, including the audience established in the previous step. The Private Inventory Deal ID is then pushed to Luma's DSP.
+4. Luma sets up a Private Inventory Deal and traffic campaign/ad creative.
+5. The campaign then delivers via programmatic Private Inventory Deal.
+6. Next, the ad server or SSP delivers ad impressions that meet the established targeting criteria. (Additional targeting criteria, such as frequency capping, are available through ad server and/or DSP, depending on whether a Guaranteed deal or a Preferred deal was established in the agreement).
+7. Traffic is driven to Luma's brand properties.
+8. ACME then shares back the post-campaign insights or audiences via Segment Match for re-targeting.
+
+>[!ENDSHADEBOX]
+
+![A diagram of the workflow between brand and publisher.](./assets/segment-match-blueprints.png)
+
+>[!IMPORTANT]
+>
+> While the solution outlined above provides an easy way to target first-party data via programmatic private deals, there may be some considerations before executing, including, but not limited to the following examples:
+>
+>* Consent: Applicable consent collection by the brand, publisher, or retail media network, to leverage data in this manner.
+>
+>* Policies amd License agreements: Adherence to any applicable policies (including privacy policies, third-party vendor agreements) by the brand, publisher, or retail media network, to leverage and activate data in this manner.
+
+
+
 ## More information
 
 * [Segment Match](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#) 
