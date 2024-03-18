@@ -29,6 +29,7 @@ A full list of Customer Journey Analytics use cases can be found in the Customer
 ![Architecture diagram](assets/CJA.svg){zoomable="yes"}
 
 Example primary use cases included the following.
+
 | Blueprint | Description |  Experience Cloud Applications |
 |---|---|---|
 | **[Cross Channel Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>|
