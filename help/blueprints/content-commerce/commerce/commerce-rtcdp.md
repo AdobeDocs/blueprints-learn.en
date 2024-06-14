@@ -6,7 +6,7 @@ exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
 ---
 # Adobe Commerce & RTCDP
 
-The [!DNL Data Connection] extension helps Adobe Commerce customers seamlessly intergrate with Adobe Experience Platform to enrich the customer profile and personalize experiences in digital storefront and other channels.
+The [!DNL Data Connection] extension helps Adobe Commerce customers seamlessly integrate with Adobe Experience Platform to enrich the customer profile and personalize experiences in digital storefront and other channels.
 
 ## Technical Capablities Enabled
 
@@ -63,4 +63,4 @@ For complete list of events supported, please refer to [Commerce Events](https:/
 |:----|:----|
 |Platform Connector|[Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html)|
 |Commerce Destination|[Adobe Commerce Connection in RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)|
-|Edge Personalization|[Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html)| |
+|Edge Personalization|[Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html)|
