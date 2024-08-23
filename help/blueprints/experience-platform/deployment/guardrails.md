@@ -40,7 +40,7 @@ The following pages provide information about guardrails for Adobe Experience Pl
 
 The following diagram depicts the primary edge and hub observed latencies to be aware of when architecting use case on the Experience Platform and Applications. 
 
-![Experience Platform [!DNL Edge Network] and hub primary observed latencies.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network and hub primary observed latencies"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] and hub primary observed latencies.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network and hub primary observed latencies"){width="1000" zoomable="yes"}
 
 ### Data ingestion {#data-ingestion}
 
