@@ -26,7 +26,7 @@ Using account-based engagement, marketers can unlock three key use cases:
 
 ## Architecture
 
-![Reference architecture for the B2B Account Audience Activation Blueprint](assets/b2b-blueprint-account-audience-activation.png)
+![Reference architecture for B2B Account Audience Activation Blueprint](assets/b2b-blueprint-account-audience-activation.png)
 
 ## Account audience destinations
 
