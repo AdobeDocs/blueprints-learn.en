@@ -28,9 +28,6 @@ Using account-based engagement, marketers can unlock three key use cases:
 
 ![Reference architecture for the B2B Account Audience Activation Blueprint](assets/b2b-blueprint-account-audience-activation.png)
 
-<img src="assets/b2b-activation.svg" alt="Reference architecture for the B2B Account Audience Activation Blueprint" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-<br>
-
 ## Account audience destinations
 
 * (Companies) LinkedIn Matched Audiences
