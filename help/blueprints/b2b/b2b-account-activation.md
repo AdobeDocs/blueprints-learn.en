@@ -60,9 +60,11 @@ Using account-based engagement, marketers can unlock three key use cases:
     * Required mapping for [(Companies) LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Implementation considerations
+
 LinkedIn matched audiences have a few requirements, including the minimum audience size of 300 matched members. If the account audience activated for the company's linked matched audience destination does not meet the requirement, the audience definition needs to be modified to increase the audience size to launch a LinkedIn campaign.
 
 ## Related Documentation
+
 * [B2B Edition of Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Create and activate Account Audience Tutorial Video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
 * [Create Account Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
