@@ -26,6 +26,8 @@ Use account, opportunity, and lead information tied to a individual customer to 
 
 ## Architecture
 
+![Reference architecture for the B2B Activation Blueprint](assets/b2b-activation.png)
+
 <img src="assets/b2b-activation.svg" alt="Reference architecture for the B2B Activation Blueprint" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 <br>
 
