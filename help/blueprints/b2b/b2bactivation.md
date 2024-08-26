@@ -28,9 +28,6 @@ Use account, opportunity, and lead information tied to a individual customer to 
 
 ![Reference architecture for the B2B Activation Blueprint](assets/b2b-activation.png)
 
-<img src="assets/b2b-activation.svg" alt="Reference architecture for the B2B Activation Blueprint" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-<br>
-
 ## Guardrails
 
 * Note that Marketo Engage related guardrails and implementation steps are only relevant when Marketo Engage is used as a source and/or destination.
