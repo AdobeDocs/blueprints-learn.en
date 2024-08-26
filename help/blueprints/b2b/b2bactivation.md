@@ -22,7 +22,7 @@ Use account, opportunity, and lead information tied to a individual customer to 
 ## Integration patterns
 
 * B2B data sources (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform B2B Edition -> Destinations
-Various B2B data souces can be used to map account, lead, opportunity, and people data to the B2B Edition of Real-time Customer Data Platform.
+* Various B2B data sources can be used to map account, lead, opportunity, and people data to the B2B Edition of Real-time Customer Data Platform.
 
 ## Architecture
 
