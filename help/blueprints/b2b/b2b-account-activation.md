@@ -42,12 +42,12 @@ Using account-based engagement, marketers can unlock three key use cases:
 
 * Capped at 50 account segments per sandbox.
 * Batch segmentation evaluation.
-* Automatically evaluated every 24 hours following the completion of the batch audience run and profile export jobs.
-* No edge, streaming, or ad-hoc evaluation support.
+    * Automatically evaluated every 24 hours following the completion of the batch audience run and profile export jobs.
+    * No edge, streaming, or ad-hoc evaluation support.
 * Account attributes are available for export.
 * Events of people.
-* Up to 30 days of event lookback, no ordering of event predicates.
-* AND / OR are supported (so you can say "A and B have to happen,"  but you can't say "A must happen 3 days before B").
+    * Up to 30 days of event lookback, no ordering of event predicates.
+    * AND / OR are supported (so you can say "A and B have to happen,"  but you can't say "A must happen 3 days before B").
 * For cloud storage destinations, the export schedule supports the "After segment evaluation" option.
 * [B2B Profile & Segmentation Guardrails](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
