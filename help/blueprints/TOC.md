@@ -42,6 +42,7 @@ role: Architect, Developer, User
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B activation](/help/blueprints/b2b/b2bactivation.md)
+  + [B2B account activation](/help/blueprints/b2b/b2b-account-activation.md)
   + Marketo Engage and Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
     + [Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
     + [Intake and create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
