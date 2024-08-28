@@ -2,6 +2,7 @@
 title: B2B Account Activation to Advertising Destinations and File Destinations
 description: Use account-based engagement to create audiences and target them via destinations.
 solution: Real-Time Customer Data Platform
+exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
 ---
 # B2B account activation to advertising destinations and file destinations
 
