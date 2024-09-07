@@ -6,12 +6,22 @@ thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---
 # Guardrails
+Guardrails reflect system constraints, expected latencies, and performance expectations to optimize customer architecture and use case performance and help to ensure stability, avoid errors or unexpected results.
 
-Guardrails are recommended thresholds that provide guidance for data, observed latencies and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements, service level agreements are documented in the Product Descriptions linked below and in the customer license agreements. Guardrails are intended to provide guidance in architecting solutions for specific customer use cases to ensure stability and execution.
+## Types of Guardrails
 
-For information on specific service level agreements for applications and features, refer to the [Application and feature descriptions](#application-feature-descriptions) section at the bottom of this page.
+| Guardrail type | Description |
+|---|---|
+| Performance guardrail (Soft limit) | Performance guardrails are usage limits that relate to the scoping of your use cases and outline expected performance under normal conditions. When exceeded, you may experience performance degradation and latency. Performance Guardrails are documented in the Experience League documents under the guardrail sections for each Solution as outlined below.|
+| Static Limit (Hard limit) | These are system enforced limits that cannot be exceeded. Static limits are typically contractually bound and outlined in the customer contract and the [Product Descriptions](https://helpx.adobe.com/legal/product-descriptions.html).|
 
-Note that for any customer use case that has strict latency or volume requirements, Adobe recommends reviewing your use case in detail with your Adobe Account Team and Implementation partner. In certain cases it is advisable to test and observe a given use case implementation prior to production launch of the use case to observe and understand expected behavior - as each customer implementation has varying factors at play including the nature and cadence of data ingestion, the specifics of the segment rules being built and the various activation channels and payloads - each use case implementation will have varying observed performance. As such it is best to establish and test the expected performance up front to ensure proper architecture and implementation according to the latency and performance requirements of the use case. 
+>[!NOTE]
+>
+> Guardrails are not intended to be Service Level Agreements, but rather guidance for optimal configurations and expected system behavior. Any guardrails that are system or contractual limits or Service Level Agreements will be documented specifically in the customer contracts and product descriptions. If you are interested in learning about custom limits, please contact your customer care representative.
+
+>[!NOTE]
+>
+> For use cases with strict latency or performance needs, Adobe suggests discussing the details with your Adobe Account Team and Implementation Partner. Each customer setup can vary across data ingestion patterns, segment rules, and activation channels. It's important to test and review your use case before launching to understand how it will behave.
 
 
 ## Guardrails Reference Documentation for Adobe Experience Platform and Applications
@@ -71,19 +81,3 @@ The diagram below displays expected latency values when working with [Customer J
 The diagram below displays expected latency values when working with [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Click the image to see a high-resolution version.
 
 ![Working with Adobe Journey Optimizer high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Working with Adobe Journey Optimizer high-level visual overview and latency values"){width="1000" zoomable="yes"}
-
-## Application and feature descriptions {#application-feature-descriptions}
-
-For information on feature-specific service level agreements, refer to the product descriptions below:
-
-* [Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
-* [B2B Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Intelligent Services](https://helpx.adobe.com/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
