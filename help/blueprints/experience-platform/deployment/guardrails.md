@@ -23,7 +23,6 @@ Guardrails reflect system constraints, expected latencies, and performance expec
 >
 > For use cases with strict latency or performance needs, Adobe suggests discussing the details with your Adobe Account Team and Implementation Partner. Each customer setup can vary across data ingestion patterns, segment rules, and activation channels. It's important to test and review your use case before launching to understand how it will behave.
 
-
 ## Guardrails Reference Documentation for Adobe Experience Platform and Applications
 
 The following pages provide information about guardrails for Adobe Experience Platform features, services, and applications:
