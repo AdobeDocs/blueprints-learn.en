@@ -28,19 +28,8 @@ See the following documentation for guidance on implementation and configuration
 
 * If a corresponding profile does not exist in RTCDP that CJA sent, will a new profile be created, or are audiences only recorded from CJA for profiles that are already present? Yes, a new profile will be created. As a result if your RTCDP implementation is for known customers only, the CJA audience rules should be written to filter for only profiles with known identities. This will ensure that the RTCDP Profile count does not increase from anonymous profiles if not desired.
 
-* Does CJA send the audience data over as pipeline events or a flat file that also goes to data lake as well? CJA audiences are streamed over pipeline to RTCDP Profile Service, however the data is also stored in data lake as a dataset.
-
 * What identities does CJA send over? CJA sends over whichever identities were configured as the "person ID" during CJA configuration.
 
 * What is set as the primary identity? Whatever identity the user selected when they set up CJA as the primary "person" ID.
 
 * Does the identity service process the CJA messages as well? i.e. can CJA add identities to a profile identity graph through audience sharing? No, identity service does not process the CJA messages.
-
-## Related blog posts
-
-* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
-* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
-* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [[!DNL Demonstrating the Power of Adobe's New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
-* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)

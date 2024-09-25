@@ -202,7 +202,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Profiles and audiences built in Real-time Customer Data Platform can be made available for peersonalization in Adobe Commerce. </li>
+<li>Profiles and audiences built in Real-time Customer Data Platform can be made available for personalization in Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
