@@ -95,7 +95,7 @@ Refer to the [Marketo Engage connector documentation](https://experienceleague.a
     
 ### Guardrails
 
-The Journey Optimizer B2B Edition guardrails are detailed in the [Product Description page]().
+The Journey Optimizer B2B Edition guardrails are detailed in the [Product Description page](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
 
 Implementation-related guardrails
 
