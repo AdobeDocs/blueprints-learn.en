@@ -1,7 +1,7 @@
 ---
 title: Buying Group-based Marketing and Journey Management Blueprint
 description: Learn how to ideate, design, and build a journey that qualifies leads to a buying group in Adobe Journey Optimizer B2B Edition.
-solution: Journey Optimizer B2B
+solution: Journey Optimizer B2B Edition
 ---
 # Buying Group-based Marketing and Journey Management blueprint
 
