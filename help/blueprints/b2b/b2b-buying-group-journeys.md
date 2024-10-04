@@ -139,7 +139,7 @@ The following steps provide guidance for enabling the Buying Group capability in
 
    To create a segment, follow the steps in the [account audiences documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). The use of Segment Builder with the data fields you have identified as key for your Account Audience would be the key activity in defining the Audience.
 
-  At this stage, you know the Account leads to focus on through RTCDP and to use for the building blocks of the buying group.
+   At this stage, you know the Account leads to focus on through RTCDP and to use for the building blocks of the buying group.
 
 1. Define the roles template.
 
