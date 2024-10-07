@@ -33,11 +33,11 @@ The following KPIs align well with measuring the success of use cases:
 
 ## Account-based marketing
 
-A common use case, and the focus in this blueprint, is an account-based marketing initiative that explores the point where your created buying group is populated with a lead when they are associated with a role and solution interest.
+A common use case, and the focus in this blueprint, is an account-based marketing initiative. This use case explores the point where your created buying group is populated with a lead when they are associated with a role and solution interest.
 
 As you lead an individual through the journey, you gather more information on the lead (Buying Group Workflow), through forms, CRM Sync, and LinkedIn activation.
 
-When a lead clearly demonstrates the solution interest, it indicates a business event defined by a business lens. At this point, the business is confident that this lead is really interested in a product and in Journey Optimizer B2B Edition the lead is associated with a buying group for that solution in a roles template (such as influencers, decision makers, champions, and sponsors).
+When a lead clearly demonstrates the solution interest, it indicates a business event defined by a business lens. At this point, the business is confident that this lead is really interested in a product. In Journey Optimizer B2B Edition, the lead is associated with a buying group for that solution in a roles template (such as influencers, decision makers, champions, and sponsors).
 
 As the following diagram illustrates, you can collect details in forms or through LinkedIn activation and qualify a solution intent when interaction with a chat-bot occurred.
 
@@ -79,7 +79,7 @@ With any implementation of data driven marketing automation, the design of schem
 
 The schemas are specifically enriched with B2B data elements to support the rich relationship in profiles and include the account perspective through the `sourceKey` to tie events and profiles to the account schema. Schemas are a representation of your organizational requirements and the data collected and profiled. To meet these needs, B2B schemas are flexible and are an extension of the required B2B elements.
 
-When designing the data schema for your organization, it is a best practice to represent and label the main entities in your ERD with the high level entities in the first diagram in the [RTCDP B2B schema documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b). This process is very helpful for understanding the required data elements that you need to define in each schema.
+When designing the data schema for your organization, it is a best practice to represent and label the main entities in your ERD with the high-level entities. (Refer to the first diagram in the [RTCDP B2B schema documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)). This process is very helpful for understanding the required data elements that you need to define in each schema.
 
 At this stage, Experience Events are not yet able to influence journeys. In addition to the Experience Event schemas, it is recommended that you add properties to the account that represent major decisions based on user activities. These properties are used for split path elements in the journey designer.
 
@@ -91,7 +91,7 @@ At this stage, Experience Events are not yet able to influence journeys. In addi
 
 To enrich the account data elements, you can use Marketo Engage and its B2B data to enrich the RTCDP and Journey Optimizer B2B Edition Account view. Setting up the Marketo Engage Source Connector and mapping Marketo Engage data to RTCDP schema attributes allows data to flow from Marketo Engage to RTCDP, and if designated, to the profile.
 
-Refer to the [Marketo Engage connector documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) for detailed information about the connector configuration and the required field mapping across to the schema defined at the previous step.
+For detailed information about the connector configuration and the required field mapping to the schema, refer to the [Marketo Engage connector documentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
     
 ### Guardrails
 
@@ -112,7 +112,7 @@ Review the [Real-Time CDP Guardrails documentation](https://experienceleague.ado
 
 ## Implementation
 
-The following steps provide guidance for enabling the Buying Group capability in your Journey Optimizer B2B Edition instance and include an additional activation to support expansion of your account base with a focus on buying group missing role templates.
+The following steps provide guidance for enabling buying groups in your Journey Optimizer B2B Edition instance, including audience activation to support expansion of your account base with a focus on missing buying group role templates.
 
 ### Pre-requisite steps
 
@@ -125,7 +125,7 @@ The following steps provide guidance for enabling the Buying Group capability in
    * Use the [RTCDP B2B schema creation script](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) to generate the initial schema
    * Add use case specific fields to the schemas generated to complete the schema to fit the organization need.
 
-   At this stage, you have the connection between Marketo Engage and RTCDP set up and the schema structure to accept the Account and person data to populate the datasets for the Account Segments is defined. The next step is to connect RTCDP with Marketo Engage and Journey Optimizer B2B Edition.
+   At this stage, you have the connection between Marketo Engage and RTCDP and the schema structure to accept the account and person data to populate the datasets for the Account Segments is defined. The next step is to connect RTCDP with Marketo Engage and Journey Optimizer B2B Edition.
 
 1. Configure the Marketo Engage connector, including the mapping of Marketo Engage to the XDM structure.
 
@@ -135,7 +135,7 @@ The following steps provide guidance for enabling the Buying Group capability in
 
 1. Create Account audiences in Journey Optimizer B2B Edition or RTCDP.
 
-   Enable the Scheduling all audiences option in the Customer → Audiences → Browse page to enable Account Audiences. (In cases where this does not work, you must create a Customer Profile segment to be able to enable Account Audiences to be created)
+   Enable the Scheduling all audiences option in the Customer → Audiences → Browse page to enable Account Audiences. (In cases where this does not work, you must create a Customer Profile segment to be able to enable Account Audiences to be created.)
 
    To create a segment, follow the steps in the [account audiences documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). The use of Segment Builder with the data fields you have identified as key for your Account Audience would be the key activity in defining the Audience.
 
