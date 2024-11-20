@@ -2,6 +2,7 @@
 title: Buying Group-based Marketing and Journey Management Blueprint
 description: Learn how to ideate, design, and build a journey that qualifies leads to a buying group in Adobe Journey Optimizer B2B Edition.
 solution: Journey Optimizer B2B Edition
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 ---
 # Buying Group-based Marketing and Journey Management blueprint
 
@@ -20,7 +21,7 @@ Buying groups represent a group of people at the company who are interested in a
 As a result of the enhanced B2B abilities provided by Journey Optimizer B2B Edition, you can now address these challenges:
 
 * A lack of _customer-first_ marketing campaigns.
-* Inconsistent Marketing Qualified lead (MQL) conversion to Sales Qualified lead (SQL), requiring alignment of initiatives with sales to nurture MQL
+* Inconsistent Marketing Qualified Lead (MQL) conversion to Sales Qualified Lead (SQL), requiring alignment of initiatives with sales to nurture MQL
 * Lack of a saleable mechanism to identify and target _compete_ accounts.
 * Concentration risk in revenue and pipeline.
 
