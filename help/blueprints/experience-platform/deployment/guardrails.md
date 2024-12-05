@@ -1,7 +1,7 @@
 ---
 title: Experience Platform and Application Guardrails 
 description: Guardrails define the performance expectations and impact for the components and services within Adobe Experience Platform and Applications
-solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
+solution: Experience Platform, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---

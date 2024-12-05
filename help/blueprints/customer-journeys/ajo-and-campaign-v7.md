@@ -37,7 +37,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 ## Guardrails
 
-[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
