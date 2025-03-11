@@ -24,8 +24,8 @@ role: Architect, Developer, User
     + [Activation to social & advertising channels](/help/blueprints/audience-activation/advertising-activation.md)
     + [Activation to file & enterprise streaming destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer activity hub](/help/blueprints/audience-activation/customer-activity.md)
-    + [Target & RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
     + [Segment match](/help/blueprints/audience-activation/segment-match.md)
+    + [Target & RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B activation](/help/blueprints/b2b/b2bactivation.md)
