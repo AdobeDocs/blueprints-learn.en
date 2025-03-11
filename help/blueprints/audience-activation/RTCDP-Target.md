@@ -1,45 +1,32 @@
 ---
-title: Web/Mobile Personalization Overview - Adobe Target & RTCDP
-description: Synchronize web personalization with email and other known and anonymous channel personalization.
-landing-page-description: Synchronize web personalization with email and other known and anonymous channel personalization.
-short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
+title: Real-time Customer Data Platform & Adobe Target
+description: Integrate RTCDP profiles and audiences with Adobe Target.
+landing-page-description: Integrate RTCDP profiles and audiences with Adobe Target.
+short-description: Integrate RTCDP profiles and audiences with Adobe Target.
+solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
 
-# Web/Mobile Personalization with known customer data blueprint
+# Real-time Customer Data Platform integration with Adobe Target
 
 ## Use cases
 
 * Online personalization with known customer data
 * Landing page optimization
 * Personalization based on prior product/content views, product/content affinity, environmental attributes, and demographics in addition to offline data such as transactions, loyalty and CRM data, and modeled insights
-* Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target or Adobe Journey Optimizer Decisioning.
+* Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target
 
 ## Applications
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Journey Optimizer Decisioning
-* Adobe Audience Manager (optional): Adds third-party audience data
-* Adobe Analytics or Customer Journey Analytics(optional): Adds the ability to build segments based on historical customer and behavioral data with fine grained segmentation
 
 ### Reference documentation
 
 * [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
-* [Adobe Journey Optimizer Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/gs-decision)
 * [Edge Datastream Configuration](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
-* [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
-
-## Approaches
-
-One approach for known customer personalization on web/mobile is to integrate the Real-time Customer Data Platform with Adobe Target. The below guide goes into depth on how Real-time Customer Data Platform can be integrated to power known customer personalization with Adobe Target.
-
-Known customer web/mobile personalization can also be implemented with Adobe Journey Optimizer Decisioning which natively leverages the Experience Platform Real-time Customer Profile and Segmentation. Please refer to the [Adobe Journey Optimizer guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home), where either [Code Based Experiences](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/get-started-code-based) or [Web Channel Experiences](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web) can be used.
-
-Architecture blueprints are also available in the and the [Journey Optimizer Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer) and [Journey Optimizer Decisioning Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview).
 
 ## Integration patterns
 

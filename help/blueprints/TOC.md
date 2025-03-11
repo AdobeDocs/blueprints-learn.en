@@ -10,12 +10,6 @@ role: Architect, Developer, User
 # Digital Experience Blueprints {#architecture}
 
 + [Digital Experiences Blueprints](/help/blueprints/overview.md)
-+ Vertical industry blueprints{#vertical-blueprints}
-  + [Overview](/help/blueprints/vertical-blueprints/overview.md)
-  + [Apparel](/help/blueprints/vertical-blueprints/apparel.md)
-  + [Retail](/help/blueprints/vertical-blueprints/retail.md)
-  + [Telecommunications](/help/blueprints/vertical-blueprints/telecommunications.md)
-  + [Travel & hospitality](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Architecture Overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,19 +20,14 @@ role: Architect, Developer, User
     + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
-  + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-  + Known Customer Activation (RTCDP) {#known-customer-audience-activation}
+  + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+  + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
     + [Activation to social & advertising channels](/help/blueprints/audience-activation/advertising-activation.md)
     + [Activation to file & enterprise streaming destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer activity hub](/help/blueprints/audience-activation/customer-activity.md)
     + [Segment match](/help/blueprints/audience-activation/segment-match.md)
-  + [Activation with Experience Cloud applications](/help/blueprints/audience-activation/platform-and-applications.md)
-  + Web & Mobile Personalization{#web-personalization}
-    + [Overview](/help/blueprints/audience-activation/web-personalization/overview.md)
-    + [Behavioral personalization - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
-    + [Known customer personalization - Target & RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
-    + [Decision management](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
+    + [Target & RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B activation](/help/blueprints/b2b/b2bactivation.md)
@@ -76,13 +65,6 @@ role: Architect, Developer, User
     + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
     + [Real-Time CDP with Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
     + [Journey Optimizer with Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Data Collection, Access, & Export{#data-ingestion}
-  + [Overview](/help/blueprints/data-ingestion/overview.md)
-  + [Multi-sandbox event-forwarding data collection](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
-  + [Data preparation & ingestion](/help/blueprints/data-ingestion/ingestion.md)
-  + [Data access & export](/help/blueprints/data-ingestion/egress.md)
-  + [Event forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
-  + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data analysis & intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom data science for profile enrichment](/help/blueprints/data-insights/data-science.md)
