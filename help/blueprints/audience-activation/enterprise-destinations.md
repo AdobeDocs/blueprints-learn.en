@@ -24,7 +24,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 ## Guardrails
 
-[Refer to the guardrails as outlined on the Audience and Profile Activation Overview page.](overview.md)  
+[Refer to the guardrails as outlined on the guardrails page.](../experience-platform/deployment/guardrails.md)  
 
 ## Implementation steps
 
