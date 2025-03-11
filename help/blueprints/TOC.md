@@ -19,7 +19,6 @@ role: Architect, Developer, User
     + [Application SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
     + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
-  + [Overview](/help/blueprints/audience-activation/overview.md)
   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
