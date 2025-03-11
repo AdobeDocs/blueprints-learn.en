@@ -21,7 +21,6 @@ role: Architect, Developer, User
 + Audience & Profile Activation{#audience-activation}
   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-    + [Overview](/help/blueprints/audience-activation/known.md)
     + [Activation to social & advertising channels](/help/blueprints/audience-activation/advertising-activation.md)
     + [Activation to file & enterprise streaming destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer activity hub](/help/blueprints/audience-activation/customer-activity.md)
