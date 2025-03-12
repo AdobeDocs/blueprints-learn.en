@@ -30,7 +30,7 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 
 ## Architecture
 
-<img src="assets/anonymous_activation.svg" alt="Reference architecture for the Anonymous Audience Activation Blueprint" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+![Reference architecture for the Anonymous Audience Activation Blueprint](assets/anonymous_activation.svg)
 
 <br>
 
