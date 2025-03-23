@@ -1,9 +1,7 @@
 ---
 title: Customer Journey blueprints
 description: Deliver individual, just-in-time customer experiences across screens.
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
-kt: 
-thumbnail:
+solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 ---
 # Customer Journey blueprints
