@@ -16,7 +16,7 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 * **Cross-Channel Engagement**: Engage buying groups across multiple channels, including email, SMS, ads, chat, events, and webinars, to streamline demand generation and qualification
 * **AI-Driven Insights**: Utilize AI-driven insights to optimize content delivery and engagement strategies for individual buyers and entire buying groups
 * **Unified Data Activation**: Activate unified account lists from Adobe Real-Time Customer Data Platform to provide the most recent and complete data for buying group creation and management
-* **Enhanced Collaboration**: Coordinate marketing and sales efforts to create more precise selling opportunities and accelerate pipeline creation◊
+* **Enhanced Collaboration**: Coordinate marketing and sales efforts to create more precise selling opportunities and accelerate pipeline creation
 
 ## Applications
 
@@ -33,6 +33,8 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 |[Journey Optimizer B2B Edition - Marketo Engage assets](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-dam/marketo-engage-design-studio)|Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, enabling easy asset management for account journeys.|
 
 ## Architecture
+
+![Solution architecture for AJO B2B with Marketo only data](./assets/ajo-b2b-marketo-only.png){zoomable="yes"}
 
 ## Guardrails
 
@@ -79,8 +81,9 @@ When implementing Adobe Journey Optimizer B2B Edition, it's crucial to understan
 
 * **Identity Stitching**: The platform stitches identities using default identifiers such as Marketo ID, CRM ID, and email. This helps in creating a comprehensive profile by merging data from different sources.
 * **Potential Risks**: Using email as an identifier for stitching can lead to unintentional identity collapse. This means that different individuals sharing the same email address might be incorrectly merged into a single profile, which can negatively impact CRM data integrity.
-* **Merging Strategy**: The platform employs a time-based merging strategy, where the last value ingested for a particular profile attribute is used. This ensures that the most recent data is reflected in the profile.
-* **Considerations for Email**: It’s important to carefully evaluate whether email should be used as an identifier for stitching profile fragments. While it can be useful, the risk of identity collapse must be weighed against the benefits.
+* **Merging Strategy**: B2B CDP employs a time-based merging strategy, where most recent lastUpdatedDate for a particular profile attribute is used. This ensures that the most recent data is reflected in the profile.
+* **Considerations for Email**: It's essential to thoroughly assess the use of email as an identifier for merging profile fragments. While it can be beneficial, the risk of identity collapse must be carefully considered against the advantages. One downside is that without email as an identifier, external audience membership created by AJO B2B won't be integrated into the existing profile.
+* **Marketo Person Integration**: When multiple Marketo persons are merged in AJO B2B, the person with the lowest Marketo Lead ID is prioritized for syncing back from B2B CDP and used in AJO B2B.
 
 By keeping these points in mind, you can make informed decisions about how to configure identity stitching in Adobe Journey Optimizer B2B Edition, ensuring accurate and reliable customer profiles.
 
@@ -165,7 +168,15 @@ order by
     personCount desc
 ```
 
+### Options
+
+#### Removing Email as Identity
+
 After your analysis, if you determine email is not a valid field to use as an identity field, then the Person schema can be modified to [remove email as an identity field](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity)
+
+#### Block Updates from Adobe Experience Platform
+
+If keeping email as an identity field is best for your use cases there is the option to [block field updates](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) coming from AJO B2B and allows AJO B2B on primarily on Marketo data.
 
 ## Related documentation
 
