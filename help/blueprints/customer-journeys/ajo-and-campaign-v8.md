@@ -1,7 +1,8 @@
 ---
 title: Journey Optimizer with Adobe Campaign v8 blueprint
 description: Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to natively send messages by utilizing the real-time messaging server in Campaign
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
 ---
 # Journey Optimizer with Adobe Campaign v8 blueprint 
