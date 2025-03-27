@@ -2,6 +2,7 @@
 title: Campaign v8 blueprint, Campaign & Platform
 description: Learn about the blueprint for Campaign v8.
 solution: Campaign,Campaign v8
+version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 ---
 # Campaign v8 blueprint
