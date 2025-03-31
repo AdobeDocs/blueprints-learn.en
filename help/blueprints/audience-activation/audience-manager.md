@@ -26,8 +26,6 @@ Anonymous audience activation is the ability to target and personalize to audien
 
 Both Audience Manager and Real-time Customer Data Platform can be leveraged to power Anonymous Audience Activation for onsite and advertising destinations. Note that Real-time Customer Data Platform supports only a subset of advertising destinations with anonymous device identifiers as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
-Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time Customer Data Platform advertising destinations for anonymous device based targeting. Beyond these, Real-time Customer Data Platform supports numerous known customer based destinations as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) and as described in the [Known Customer Activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-
 ## Architecture
 
 ![Reference architecture for the Anonymous Audience Activation Blueprint](assets/anonymous_activation.svg)
@@ -40,13 +38,4 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 
 ## Implementation steps for Real-time Customer Data Platform
 
-* For implementation steps of Real-time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-
-## Related documentation
-
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [Experience Cloud [!UICONTROL Audiences]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Adobe Analytics Segment Sharing through Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* [Known Customer Activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
+* For implementation steps of Real-time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).
