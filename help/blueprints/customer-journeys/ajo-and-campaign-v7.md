@@ -85,7 +85,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
     * Identity for [!DNL Edge Network]
     * Mobile Core
 1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
-1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)
 
     >[!IMPORTANT]
     >Mobile tokens may need to be collected in both Journey Optimizer and Campaign if there is desire send real-time communications via Journey Optimizer and batch push notifications via Campaign. Campaign v8 requires the exclusive use of the Campaign SDK for capturing push tokens.
