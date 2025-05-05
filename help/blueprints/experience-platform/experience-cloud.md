@@ -14,7 +14,7 @@ These diagrams show how Experience Cloud applications, application services, and
 
 The following diagram illustrates the various components of Adobe Experience Cloud across Data Insights & Audiences, Content & Commerce, Customer Journeys, Marketing Workflow, built and integrated on the foundation of the Adobe Experience Platform.
 
-<img src="assets/AEC.jpg" alt="Experience Cloud Overview" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Experience Cloud Overview" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Integration architecture of data & insights, content & commerce, and experience delivery
