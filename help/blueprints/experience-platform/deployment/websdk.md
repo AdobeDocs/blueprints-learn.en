@@ -11,7 +11,7 @@ exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 
 For an overview and detail on the Web and Mobile SDK, and the [!DNL Edge Network] Server API see the following.
 
-* [Web SDK overview](https://experienceleague.adobe.com/docs/web-sdk.html)
+* [Web SDK overview](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
 * [Mobile SDK overview](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
