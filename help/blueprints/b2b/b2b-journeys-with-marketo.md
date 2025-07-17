@@ -37,21 +37,6 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 
 ![Solution architecture for AJO B2B with Marketo only data](./assets/ajo-b2b-marketo-only.png){zoomable="yes"}
 
-## Guardrails
-
-* Capped at 50 account segments per sandbox.
-* Batch segmentation evaluation.
-  * Automatically evaluated every 24 hours following the completion of the batch audience run and profile export jobs.
-  * No edge, streaming, or ad-hoc evaluation support.
-* Account attributes are available for export.
-* Events of people.
-  * Up to 30 days of event lookback, no ordering of event predicates.
-  * AND / OR is supported (so you can say "A and B have to happen,"  but you can't say "A must happen 3 days before B").
-* Max of 5 million accounts across all account journeys
-* A max of 40 million people across all account journeys
-* Max of 1,000 people per account in a buying group and journey
-* [Profile & Segmentation Guardrails](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-
 ## Implementation steps
 
 * Install B2B schemas and namespaces using either option below
@@ -198,6 +183,19 @@ After your analysis, if you determine email is not a valid field to use as an id
 #### Block Updates from Adobe Experience Platform
 
 If keeping email as an identity field is best for your use cases, there is the option to [block field updates](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) coming from AJO B2B and allows AJO B2B to run primarily on Marketo data.
+
+## Guardrails
+
+For a comprehensive understanding of the guardrails applicable to B2B Journeys with Marketo Engage, please refer to the following official documentation:
+
+* [Adobe Journey Optimizer B2B Edition – Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
+Includes specific guardrails and usage parameters for Journey Optimizer B2B Edition.
+* [Adobe Experience Platform Deployment Guardrails](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails?lang=en)
+Covers general architectural and deployment guardrails across Adobe Experience Platform solutions.
+* [Adobe Marketo Engage – Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
+Details performance and usage guardrails for Marketo Engage, including activation and CRM sync considerations.
+* [Real-Time CDP Guardrails](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview?lang=en)
+Provides guidance on data ingestion, segmentation, and activation limits within the Real-Time Customer Data Platform.
 
 ## Related documentation
 
