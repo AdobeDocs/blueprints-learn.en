@@ -54,14 +54,14 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
   * Recommendation is not to enable profile before taking into account the [Implementation considerations](#implementation-considerations)
   * Recommendation to ingest Persons, Companies, Opportunities and Activities at a minimum as these objects are the most useful when creating your Account audiences
 * Implement [Identity Graph Linking Rules](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) for People:
-  * Define how Person records are linked using identity namespaces (for example, email, b2b_person).
+  * Define how Person records are linked using identity namespaces.
   * Configure identity namespaces and identity stitching rules in AEP.
   * Validate linking using sample Person data and preview tools.
 * Enable the Person, Companies, Opportunities and Activities data sets for [profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 * Define your first [Account Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/account-audience-overview)
-* Define [buying groups](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) using the Account Audience
-  * The buying group job runs daily, processing new accounts qualifying as Account audience or newly associated people
-  * Buying group maintenance runs every Friday at midnight CT, so removing members or adding newly qualified members only occurs on Fridays
+* [Buying groups](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) can be defined using an Account Audience
+  * When an account qualifies for the Account Audience, the buying group job runs daily to create buying groups and assign roles to associated people as soon as the audience updates.
+  * In addition, buying group maintenance runs every Friday at midnight CT. This weekly process handles updates such as removing members who no longer qualify or adding newly qualified members that were not captured during the initial audience update.
 
 ## Recommended Setup
 
@@ -111,6 +111,11 @@ from
 #### Duplicate emails
 
 This query returns the number of person records that will be merged as part of the platform's identity stitching
+
+>[!NOTE]
+>
+>The dataset table marketo_person_ajo_b2b is used to provide a complete example of how to work with the Marketo Person dataset.
+>You can find your sandbox's dataset in the [Datasets](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) workspace.
 
 ```sql
 
