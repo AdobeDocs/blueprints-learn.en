@@ -63,7 +63,7 @@ The following outlines the supported patterns of mapping Experience Platform and
 
 #### Experience Platform - Marketo Destination Connector:
 
-* Streaming segment sharing from Real-time Customer Data Platform to Marketo Engage can take up to 15 minutes. Backfilling profiles that already existed in the segment prior to activation for the first time can take up to 24 hours.
+* Streaming segment sharing from Real-time Customer Data Platform to Marketo Engage can take up to 15 minutes after segment evaluation. Backfilling profiles that already existed in the segment prior to activation for the first time can take up to 24 hours.
 * Batch segmentation is shared once per day based on the Experience Platform segmentation schedule. B2B segments that use multi-entity relationships, for example, segments that use data in the account and opportunity objects, are always executed in batch mode.
 
 #### Marketo Engage Guardrails:
