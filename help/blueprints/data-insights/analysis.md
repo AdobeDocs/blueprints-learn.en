@@ -36,14 +36,6 @@ Additional common use cases for the query service are outlined here [Query Servi
 Refer to the Query Service Product Documentation for details on best practices and guardrails.
 [Query Service Guidance](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
 
-## Implementation steps
-
-1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
-1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
-1. [Ingest data](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) into [!DNL Experience Platform].
-1.  Confirm that data is available to [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
-1.  [Connect Business Intelligence tools and SQL clients to [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) for visualization, data query, and exploration.
-
 ## Related documentation
 
 * [Adobe [!DNL Experience Platform] Intelligence product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)

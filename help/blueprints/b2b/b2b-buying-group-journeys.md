@@ -100,7 +100,7 @@ The Journey Optimizer B2B Edition guardrails are detailed in the [Product Descri
 
 Implementation-related guardrails
 
-* All B2B Audience guardrails are described in the [B2B Audience and Profile Activation blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails) are directly transposed to the Journey Optimizer B2B Edition success.
+* All B2B Audience guardrails are described in the [B2B Audience and Profile Activation blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) are directly transposed to the Journey Optimizer B2B Edition success.
 * If activation is required through Marketo Engage channels in the account journey or where CRM Sync is used to enrich the account, the [Marketo Engage related guardrails](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) are relevant.
 
 Review the [Real-Time CDP Guardrails documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) for additional details for RTCDP Guardrails.

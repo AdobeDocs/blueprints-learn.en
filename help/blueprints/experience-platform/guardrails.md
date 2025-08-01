@@ -51,34 +51,4 @@ The following pages provide information about guardrails for Adobe Experience Pl
 
 The following diagram depicts the primary edge and hub observed latencies to be aware of when architecting use case on the Experience Platform and Applications. 
 
-![Experience Platform [!DNL Edge Network] and hub primary observed latencies.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network and hub primary observed latencies"){width="1000" zoomable="yes"}
-
-### Data ingestion {#data-ingestion}
-
-The diagram below displays expected data ingestion latency values through [streaming ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) and [batch ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) when bringing data into Real-Time CDP. Click the image to see a high-resolution version.
-
-![Data ingestion high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Data ingestion high-level visual overview and latency values"){width="1000" zoomable="yes"}
-
-### Segmentation {#segmentation}
-
-The diagram below displays expected latency values when working with audiences in the [Real-Time CDP segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html). Click the image to see a high-resolution version.
-
-![Segmentation high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Segmentation high-level visual overview and latency values"){width="1000" zoomable="yes"}
-
-### Real-time Customer Data Platform & [!DNL Edge Network] {#adobe-edge-latency}
-
-The diagram below displays expected latency values when leveraging the [!DNL Edge Network] - for example to leverage RTCDP audiences in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Click the image to see a high-resolution version.
-
-![Adobe Edge Network and Experience Platform high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exporting audiences to Adobe Target high-level visual overview and latency"){width="1000" zoomable="yes"}
-
-### Customer Journey Analytics {#customer-journey-analytics}
-
-The diagram below displays expected latency values when working with [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Click the image to see a high-resolution version.
-
-![Working with Customer Journey Analytics high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Working with Customer Journey Analytics high-level visual overview and latency values"){width="1000" zoomable="yes"}
-
-### Journey Optimizer {#journey-optimizer}
-
-The diagram below displays expected latency values when working with [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Click the image to see a high-resolution version.
-
-![Working with Adobe Journey Optimizer high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Working with Adobe Journey Optimizer high-level visual overview and latency values"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] and hub primary observed latencies.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Experience Platform Edge Network and hub primary observed latencies"){width="1000" zoomable="yes"}

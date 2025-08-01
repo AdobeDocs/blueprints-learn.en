@@ -14,10 +14,10 @@ role: Architect, Developer, User
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform data flow](/help/blueprints/experience-platform/platform-data-flow.md)
+  + [Experience Platform Guardrails](/help/blueprints/experience-platform/guardrails.md)
   + Deployment{#deployment}
     + [Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
     + [Application SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
-    + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}

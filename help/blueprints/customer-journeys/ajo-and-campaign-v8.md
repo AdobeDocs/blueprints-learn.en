@@ -36,7 +36,7 @@ Review the following prerequisites for each application.
 
 * [Journey Optimizer Guardrails product limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Guardrails and end-to-end latency guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Guardrails and end-to-end latency guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Implementation steps
 

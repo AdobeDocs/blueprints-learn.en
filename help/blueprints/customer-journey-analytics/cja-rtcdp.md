@@ -20,7 +20,7 @@ See the following documentation for guidance on implementation and configuration
 
 ## Guardrail diagram for Customer Journey Analytics blueprints
 
-* For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md)
+* For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/guardrails.md)
 
 ![Guardrail diagram](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
