@@ -21,15 +21,3 @@ See the following documentation for guidance on implementation and configuration
 ## Guardrail diagram for Customer Journey Analytics blueprints
 
 * For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/guardrails.md)
-
-![Guardrail diagram](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
-
-## Frequently asked questions
-
-* If a corresponding profile does not exist in RTCDP that CJA sent, will a new profile be created, or are audiences only recorded from CJA for profiles that are already present? Yes, a new profile will be created. As a result if your RTCDP implementation is for known customers only, the CJA audience rules should be written to filter for only profiles with known identities. This will ensure that the RTCDP Profile count does not increase from anonymous profiles if not desired.
-
-* What identities does CJA send over? CJA sends over whichever identities were configured as the "person ID" during CJA configuration.
-
-* What is set as the primary identity? Whatever identity the user selected when they set up CJA as the primary "person" ID.
-
-* Does the identity service process the CJA messages as well? i.e. can CJA add identities to a profile identity graph through audience sharing? No, identity service does not process the CJA messages.
