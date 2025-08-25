@@ -34,7 +34,7 @@ Digital experience blueprints provide system and data flow architecture diagrams
   </td>
   <td>
     <a href="customer-journeys/journey-optimizer.md">
-      <img alt="Journey Optimizer Overview Diagram" src="customer-journeys/assets/ajo-architecture.svg" />
+      <img alt="Journey Optimizer Overview Diagram" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
     </a>
     <div>
       <a href="customer-journeys/journey-optimizer.md">

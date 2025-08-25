@@ -59,7 +59,7 @@ role: Architect, Developer, User
   + Deprecated Blueprints{#deprecated-blueprints}
     + Campaign Standard{#campaign-standard}
       + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
-      + [Real-Time CDP with Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/)
+      + [Real-Time CDP with Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
     + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
