@@ -46,7 +46,7 @@ role: Architect, Developer, User
 + Customer Journeys{#customer-journeys}
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + Journey Optimizer{#journey-optimizer}
-    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer.md)
+    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
     + [Third-party messaging](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
     + [Journey Optimizer with Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
   + Decision Management{#decision-management}

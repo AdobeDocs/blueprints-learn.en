@@ -26,6 +26,7 @@ The selection between these tools depends on architectural considerations such a
 <br>
 
 ## Deprecated Blueprints
+
 | Blueprint | Architecture |
 |---|:---:|
 | **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
