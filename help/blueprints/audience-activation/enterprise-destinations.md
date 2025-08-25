@@ -27,4 +27,4 @@ Additional detail on configuration of cloud storage and enterprise destinations 
 
 ## Guardrails
 
-[Refer to the guardrails as outlined on the guardrails page.](../experience-platform/deployment/guardrails.md)
+[Refer to the guardrails as outlined on the guardrails page.](../experience-platform/guardrails.md)

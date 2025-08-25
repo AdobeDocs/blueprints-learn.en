@@ -32,7 +32,7 @@ Use account, opportunity, and lead information tied to a individual customer to 
 
 * Note that Marketo Engage related guardrails and implementation steps are only relevant when Marketo Engage is used as a source and/or destination.
 
-* For additional details and guardrails for data model, size, and segmentation refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md)
+* For additional details and guardrails for data model, size, and segmentation refer to the [deployment guardrails document](../experience-platform/guardrails.md)
 
 
 ### Multiple Instance and IMS Org Support:
