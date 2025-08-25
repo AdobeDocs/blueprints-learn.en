@@ -20,8 +20,8 @@ The selection between these tools depends on architectural considerations such a
 
 | Blueprint | Description | Architecture |
 |---|---|:---:|
-| **[Adobe Journey Optimizer](journey-optimizer.md)** | Combines real-time journey orchestration with batch campaign capabilities, enabling marketers to deliver both contextual, event-driven experiences and scheduled, multi-step campaigns across modern channels like email, mobile, web, and in-app messaging. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | Focused on batch-based, multi-channel campaign management, ideal for traditional marketing channels like email, SMS, and direct mail. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combines real-time journey orchestration with batch campaign capabilities, enabling marketers to deliver both contextual, event-driven experiences and scheduled, multi-step campaigns across modern channels like email, mobile, web, and in-app messaging. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | Focused on batch-based, multi-channel campaign management, ideal for traditional marketing channels like email, SMS, and direct mail. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 
 <br>
 
@@ -29,4 +29,4 @@ The selection between these tools depends on architectural considerations such a
 
 | Blueprint | Architecture |
 |---|:---:|
-| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
