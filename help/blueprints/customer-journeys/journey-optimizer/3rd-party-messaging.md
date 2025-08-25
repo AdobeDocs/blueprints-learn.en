@@ -12,19 +12,19 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 
 ## Architecture
 
-<img src="assets/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ## Prerequisites
 
-Adobe Experience Platform
+**Adobe Experience Platform**
 
 * Schemas and datasets must be configured in the system before you can configure Journey Optimizer data sources
 * For Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
 * For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
 
-3rd-party Messaging Application
+**3rd-party Messaging Application**
 
 * Must support REST API calls for sending transactional payloads
 
@@ -36,6 +36,7 @@ Adobe Experience Platform
 
 [Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
+<br>
 
 ## Implementation steps
 

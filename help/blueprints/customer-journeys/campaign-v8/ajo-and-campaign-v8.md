@@ -5,16 +5,18 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
 ---
-# Journey Optimizer with Adobe Campaign v8 blueprint 
+# Journey Optimizer with Adobe Campaign v8 Blueprint 
 
 Demonstrates how Adobe [!DNL Journey Optimizer] can be used with Adobe [!DNL Campaign] to natively send messages by utilizing the real-time messaging server in [!DNL Campaign].
 
 ## Architecture
 
-<img src="assets/ajo-campaign-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/ajo-campaign-v8-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
 >Using both Journey Optimizer and Campaign to send messages independently of each other is possible but has some technical considerations that need to be thought through. If you wish to pursue this route please work with your Pre-Sales Enterprise Architect to ensure that you have an understanding of what will be required to support the implementation.
+
+<br>
 
 ## Prerequisites
 

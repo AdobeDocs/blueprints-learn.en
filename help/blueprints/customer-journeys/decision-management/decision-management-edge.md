@@ -4,13 +4,13 @@ description: Deliver personalized offers to consumers across channels including 
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 ---
-# Journey Optimizer - [!DNL Decision Management] on the Edge blueprint
+# Journey Optimizer - [!DNL Decision Management] on the Edge Blueprint
 
 [!DNL Decision Management] is a service provided as part of [!DNL Journey Optimizer]. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
 >[!MORELIKETHIS]
 >
->To learn more about [!DNL Decision Management], see the [blueprint overview](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) or visit the [product documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html).
+>To learn more about [!DNL Decision Management], see the [blueprint overview](decision-management-overview.md) or visit the [product documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html).
 
 [!DNL Decision Management] can be deployed in one of two ways. The first is via the [!DNL Experience Platform] Hub, which is a single data center architecture. In the "hub" approach offers are executed, personalized, and delivered in second latency. Thus the hub architecture is best suited for customer experience that do not demand sub-second latency, examples include offer decisions which are provided for kiosks or agent assisted experiences such as in call centers or in person interactions. 
 
@@ -18,7 +18,7 @@ The second approach is via the Experience Platform [!DNL Edge Network], which is
 
 This blueprint will cover the specifics of Decision Management on the Edge.
 
-To learn more about Decision Management on the hub refer to the [Decision Management on the hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) blueprint.
+To learn more about Decision Management on the hub refer to the [Decision Management on the hub](decision-management-hub.md) blueprint.
 
 ## Use cases for Decision Management on the edge
 
@@ -28,7 +28,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 ## Architecture
 
-<img src="../assets/offers_edge.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/offers_edge.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Integration patterns
 

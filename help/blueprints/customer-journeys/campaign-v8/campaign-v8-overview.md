@@ -1,24 +1,43 @@
 ---
-title: Campaign v8 blueprint, Campaign & Platform
+title: Campaign v8 Blueprint, Campaign & Platform
 description: Learn about the blueprint for Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 ---
-# Campaign v8 blueprint
+# Campaign v8 Blueprint
 
-Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.
+Adobe Campaign v8 is a next-generation campaign management platform designed for traditional marketing channels like email and direct mail. It offers robust ETL and data management capabilities to support complex segmentation and audience targeting, along with a powerful orchestration engine for building multi-touch, batch-driven marketing programs.
 
-It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
+It also includes a scalable real-time messaging server that enables transactional communications—such as password resets, order confirmations, and e-receipts—by accepting complete payloads from external systems for immediate delivery.
 
 ## Use cases
 
-* Highly complex batch based messaging programs.
-* Onboarding and re-marketing campaigns.
-* Direct Mail advertising, brochure and magazine campaigns
-* Simple transactional messaging (such as password reset, email receipts, order confirmations, and so on).
-* Integration of Campaign data to Adobe Experience Platform for analysis and profile building.
-* Sharing of Real-time Customer Data Platform audiences to Campaign.
+>[!BEGINTABS]
+
+>[!TAB Batch Campaign Execution]
+
+- Design and deliver large-scale, scheduled marketing campaigns across email, SMS, and direct mail.
+- Ideal for promotional blasts, newsletters, and seasonal offers with complex segmentation and targeting.
+
+>[!TAB Multi-Touch Orchestration]
+
+- Build multi-step, multi-channel programs that guide customers through a predefined marketing journey.
+- Supports audience re-entry, conditional logic, and time-based transitions.
+
+>[!TAB Data Management & ETL]
+
+- Ingest, transform, and manage customer data from various sources to support precise targeting.
+- Enables creation of custom schemas, calculated fields, and audience definitions.
+
+>[!TAB Transactional Messaging]
+
+- Send real-time, predefined messages triggered by external systems (e.g., password resets, order confirmations, e-receipts).
+- Uses a scalable messaging server that accepts full payloads from IT systems for immediate delivery.
+
+>[!ENDTABS]
+
+<br>
 
 ## Architecture diagrams
 
@@ -26,18 +45,22 @@ Learn more about [Campaign v8 deployment models](https://experienceleague.adobe.
 
 ### Campaign enterprise (FFDA) deployment
 
-<img src="assets/P4-architecture.png" alt="Reference architecture for Campaign v8 Blueprint (P4)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/campaign-v8-ffda.svg" alt="Reference architecture for Campaign v8 (FFDA) Deployment Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Campaign v8 FDA deployment
 
-<img src="assets/P1-P3-architecture.png" alt="Reference architecture for Campaign v8 Blueprint (P1-P3)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/campaign-v8-fda.svg" alt="Reference architecture for Campaign v8 (FDA) Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+<br>
 
 ## Integration patterns
 
-| Scenario | Description | Capabilities |
+| Scenario | Description | Technical Considerations |
 | :-- | :--- | :--- |
 | [[!DNL Real-time Customer Data Platform] with Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe [!DNL Campaign] to deliver personalized conversations | <ul><li>Sharing of profiles and audiences from the [!DNL Real-Time CDP] to Adobe [!DNL Campaign] via use of cloud storage file exchange and Adobe [!DNL Campaign] ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the [!DNL Real-Time CDP] from Adobe [!DNL Campaign] to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
-| [[!DNL Journey Optimizer] with Adobe [!DNL Campaign]](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe [!DNL Campaign] transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of [!DNL Journey Optimizer] to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe [!DNL Campaign] to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from [!DNL Journey Optimizer] so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
+| [[!DNL Journey Optimizer] with Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe [!DNL Campaign] transactional messaging system to send the message | <ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from [!DNL Journey Optimizer] so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
+
+<br>
 
 ## Prerequisites
 
