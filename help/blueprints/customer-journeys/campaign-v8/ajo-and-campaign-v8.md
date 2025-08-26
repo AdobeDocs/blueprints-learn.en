@@ -7,14 +7,14 @@ exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
 ---
 # Journey Optimizer with Adobe Campaign v8 Blueprint 
 
-Demonstrates how Adobe [!DNL Journey Optimizer] can be used with Adobe [!DNL Campaign] to natively send messages by utilizing the real-time messaging server in [!DNL Campaign].
+Demonstrates how Adobe [!DNL Journey Optimizer] can be used with Adobe [!DNL Campaign] natively to send messages by utilizing the real-time messaging server in [!DNL Campaign].
 
 ## Architecture
 
 <img src="images/ajo-campaign-v8-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
->Using both Journey Optimizer and Campaign to send messages independently of each other is possible but has some technical considerations that need to be thought through. If you wish to pursue this route please work with your Pre-Sales Enterprise Architect to ensure that you have an understanding of what will be required to support the implementation.
+>Using both Journey Optimizer and Campaign to send messages independently of each other is possible but has some technical considerations that need to be thought through. If you wish to pursue this route, please work with your Pre-Sales Enterprise Architect to ensure that you have an understanding of what will be required to support the implementation
 
 <br>
 
@@ -25,13 +25,13 @@ Review the following prerequisites for each application.
 ### Adobe Experience Platform
 
 * Schemas and datasets must be configured in the system before you can configure Journey Optimizer data sources
-* For Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
-* For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
+* For Experience Event class-based schemas, add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
+* For Individual Profile class-based schemas, add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
 * Journey Optimizer and Campaign are provisioned in the same IMS Org
 
 ### Campaign v8
 
-* Execution instance of the real-time messaging service (i.e Message Center) must be hosted by Adobe Managed Cloud Services
+* Adobe Managed Cloud Services must be hosting the Execution instance of the real-time messaging service (i.e. Message Center)
 * All message authoring is done within the Campaign instance itself
 
 ## Guardrails
@@ -68,7 +68,8 @@ Follow the implementations for each application described below.
 
 ### Journey Optimizer
 
-1. Configure your [!DNL Experience Platform] datasource and determine what fields should be cached as part of the profileStreaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion.
+1. Configure your [!DNL Experience Platform] datasource and determine what fields should be cached
+1. Streaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion.
 1. Configure external data sources.
 1. Configure custom actions for Campaign instance.
 
