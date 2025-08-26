@@ -63,8 +63,8 @@ This blueprint outlines the technical capabilities of the application and provid
 
 | Scenario | Description |
 | :-- | :-- |
-| [Journeys]() | AJO Journeys in Adobe Journey Optimizer are automated, personalized customer experiences triggered by real-time events or audience segments, allowing marketers to deliver relevant messages across channels like email, SMS, and push notifications. |
-| [Campaign Orchestration]() | AJO Campaign Orchestration enables marketers to design and execute personalized, cross-channel campaigns using real-time data and audience insights. It supports dynamic targeting, message delivery, and journey logic to optimize customer engagement across email, SMS, push, and custom channels. | |
+| [Journeys](journey-optimizer-journeys.md) | AJO Journeys in Adobe Journey Optimizer are automated, personalized customer experiences triggered by real-time events or audience segments, allowing marketers to deliver relevant messages across channels like email, SMS, and push notifications. |
+| [Campaign Orchestration](journey-optimizer-campaigns.md) | AJO Campaign Orchestration enables marketers to design and execute personalized, cross-channel campaigns using real-time data and audience insights. It supports dynamic targeting, message delivery, and journey logic to optimize customer engagement across email, SMS, push, and custom channels. | |
 
 <br>
 
