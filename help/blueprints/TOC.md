@@ -47,6 +47,8 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/customer-journeys/overview.md)
   + Journey Optimizer{#journey-optimizer}
     + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+    + [AJO Journeys](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+    + [AJO Campaigns](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
     + [Third-party messaging](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
   + Decision Management{#decision-management}
     + [Overview](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
