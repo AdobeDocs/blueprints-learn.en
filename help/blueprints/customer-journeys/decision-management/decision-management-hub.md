@@ -4,9 +4,9 @@ description: Deliver personalized offers to consumers across channels including 
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 ---
-# Decision Management on the Hub blueprint
+# Decision Management on the Hub Blueprint
 
-To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
+To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](decision-management-overview.md)
 
 Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
@@ -18,7 +18,7 @@ The second approach is via the Experience [!DNL [!DNL Edge Network]], which is a
 
 This blueprint will cover the specifics of Decision Management on the hub.
 
-To learn more about Decision Management on the Edge refer to the [Decision Management on the edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en) blueprint.
+To learn more about Decision Management on the Edge refer to the [Decision Management on the edge](decision-management-edge.md) blueprint.
 
 ## Use cases for Decision Management on the hub
 
@@ -35,21 +35,21 @@ To learn more about Decision Management on the Edge refer to the [Decision Manag
 
 ## Architecture
 
-<img src="../assets/offers_hub.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/offers_hub.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Guardrails
 
 * For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * For Decision Management guardrails refer to the following [Decision Management Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Guardrails and End to End Latency Guidance](/help/blueprints/experience-platform/guardrails.md)
 
 ## Implementation patterns
 
 * Implemented in email, SMS, and outbound channels via direct integration with [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
 * For server API based implementation of Decision Management leverage the [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
 * For implementation of batch based decisioning to deliver offers in bulk to a message delivery application use the [Batch Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
-* For Edge based real-time experiences use the Web/Mobile SDK or the Edge Decisioning API as outlined in the [Decision Management on the Edge blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en).
+* For Edge based real-time experiences use the Web/Mobile SDK or the Edge Decisioning API as outlined in the [Decision Management on the Edge blueprint](decision-management-edge.md)
 
 ## Related documentation
 
