@@ -10,9 +10,10 @@ Modern marketing teams require platforms that can support both reactive engageme
 
 Adobe Journey Optimizer and Adobe Campaign v8 both support two foundational models for customer engagement:
 
-Customer-triggered journeys: Event-driven, real-time orchestration based on individual behaviors and signals.
-Brand-initiated campaigns: Strategically timed pushes that introduce audiences into engagement funnels based on segmentation or business logic.
-Both solutions enable outbound communication across traditional and digital channels. AJO additionally supports integration with inbound channels (e.g., web and mobile apps) through audience state sharing and decisioning services, allowing for unified cross-channel personalization.
+- Customer-triggered journeys: Event-driven, real-time orchestration based on individual behaviors and signals.
+- Brand-initiated campaigns: Strategically timed pushes that introduce audiences into engagement funnels based on segmentation or business logic.
+
+Both solutions enable outbound communication across traditional and digital channels. AJO additionally supports integration with inbound channels (e.g. web and mobile apps) through audience state sharing and decisioning services, allowing for unified cross-channel personalization.
 
 The selection between these tools depends on architectural considerations such as latency tolerance, channel requirements, data integration strategy, and scalability.
 
@@ -20,7 +21,7 @@ The selection between these tools depends on architectural considerations such a
 
 | Blueprint | Description | Architecture |
 |---|---|:---:|
-| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combines real-time journey orchestration with batch campaign capabilities, enabling marketers to deliver both contextual, event-driven experiences and scheduled, multi-step campaigns across modern channels like email, mobile, web, and in-app messaging. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combines event-driven, 1:1 profile orchestration, with audience-based brand communications across multiple channels like email, sms, web, push, in-app messaging, desktop, etc. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Reference architecture for Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 | **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | Focused on batch-based, multi-channel campaign management, ideal for traditional marketing channels like email, SMS, and direct mail. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
 
 <br>

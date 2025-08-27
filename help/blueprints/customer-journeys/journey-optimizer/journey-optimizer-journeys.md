@@ -18,7 +18,7 @@ Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deli
 ## Architectural Considerations for Journeys
 
 - **Profile Freshness**: AJO Journeys rely on real-time updates to the customer profile. Ensure that data sources feeding into Adobe Experience Platform (AEP) are configured for low-latency ingestion to maintain profile accuracy.
-- **Scalable Event Processing:** Ensure infrastructure can handle high volumes of journey triggers and message delivery.
+- **Scalable Event Processing:** Ensure that infrastructure can handle high volumes of journey triggers and message delivery.
 - **Modular Integration:** Design APIs and custom actions to connect AJO with external systems for dynamic personalization.
 - **Identity Resolution**: Accurate stitching of customer identities across devices and channels is critical. Misaligned identities can lead to broken or misdirected journeys.
 - **Segment Qualification Timing**: Audience-based journeys depend on segment membership. Understand how often segments are evaluated and how that timing affects journey entry and personalization.
@@ -31,14 +31,14 @@ Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deli
 
 [[!DNL Journey Optimizer] Guardrails Product Link](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
 <br>
 
 ## Related documentation
 
-- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
-- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
-- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform)
+- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home)
+- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile)
+- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home)
+- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer)

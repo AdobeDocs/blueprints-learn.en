@@ -15,39 +15,21 @@ This blueprint outlines the technical capabilities of the application and provid
 ## Use cases
 
 >[!BEGINTABS]
-
 >[!TAB Journey Use Cases (Event-Driven, Real-Time)]
-- **Abandonment Recovery**  
-  Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
 
-- **Onboarding & Activation Flows**  
-  Guide new users through multi-step onboarding journeys based on behavior and milestones.
-
-- **Transactional Messaging**  
-  Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
-
-- **Behavioral Retargeting**  
-  Re-engage users based on browsing history, product views, or app usage patterns.
-
-- **Contextual Upsell/Cross-Sell**  
-  Deliver personalized offers based on real-time profile attributes and recent interactions.
+- **Abandonment Recovery**: Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
+- **Onboarding & Activation Flows**: Guide new users through multi-step onboarding journeys based on behavior and milestones.
+- **Transactional Messaging**: Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
+- **Behavioral Retargeting**: Re-engage users based on browsing history, product views, or app usage patterns.
+- **Contextual Upsell/Cross-Sell**: Deliver personalized offers based on real-time profile attributes and recent interactions.
 
 >[!TAB Campaign Orchestration Use Cases (Scheduled, Brand-Initiated)]
 
-- **Promotional Campaigns**  
-  Launch multi-step, multi-channel campaigns for product launches, seasonal offers, or sales events.
-
-- **Lifecycle Marketing**  
-  Automate recurring campaigns like birthday messages, renewal reminders, or loyalty milestones.
-
-- **Audience-Based Funnel Pushes**  
-  Segment and push audiences into structured journeys based on business logic or CRM attributes.
-
-- **Newsletter & Content Distribution**  
-  Schedule and deliver personalized content to targeted segments across email and mobile.
-
-- **Re-engagement Campaigns**  
-  Identify dormant users and reintroduce them into engagement flows based on inactivity thresholds.
+- **Promotional Campaigns**: Launch multi-step, multi-channel campaigns for product launches, seasonal offers, or sales events.
+- **Lifecycle Marketing**: Automate recurring campaigns like birthday messages, renewal reminders, or loyalty milestones.
+- **Audience-Based Funnel Pushes**: Segment and push audiences into structured journeys based on business logic or CRM attributes.
+- **Newsletter & Content Distribution**: Schedule and deliver personalized content to targeted segments across email and mobile.
+- **Re-engagement Campaigns**: Identify dormant users and reintroduce them into engagement flows based on inactivity thresholds.
 
 >[!ENDTABS]
 
@@ -73,7 +55,7 @@ This blueprint outlines the technical capabilities of the application and provid
 | Integration | Description | Technical Considerations |
 | :-- | :-- | :-- |
 | [3rd-party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can integrate with third-party messaging platforms to orchestrate and deliver personalized customer communications. | <ul><li>The third-party system must support **bearer token authentication**</li><li>**Static IPs are not supported** due to the multi-tenant architecture.</li><li>Be aware of **API rate limits** on third-party systems; customers may need to purchase additional capacity to handle traffic originating from **Adobe Journey Optimizer**.</li><li>**Decision Management** is not supported within message payloads or delivery logic.</li></ul> |
-| [[!DNL Journey Optimizer] with Adobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can orchestrate 1:1, in-the-moment experiences using Real-Time Customer Profile data, while leveraging Adobe Campaign v8's native transactional messaging capabilities to execute final message delivery. | <ul><li>Messaging throughput up to 1,000,000 messages per hour</li><li>No throttling is applied, so use cases must be technically vetted by an Enterprise Architect</li><li>Decision Management is not supported in messages sent by Campaign</li></ul> |
+| [[!DNL Journey Optimizer] with Adobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can integrate with Adobe Campaign v8's transactional messaging capabilities to execute final message delivery. | <ul><li>There is no throttling of messages. Cap of 4,000 messages per 5 minutes.</li><li>Only supports event-initiated journey's</li><li>Decision Management is not supported in messages sent by Campaign</li></ul> |
 
 <br>
 
@@ -82,8 +64,8 @@ This blueprint outlines the technical capabilities of the application and provid
 Adobe [!DNL Experience Platform]:
 
 - Schemas and datasets must be configured in the system before you can configure [!DNL Journey Optimizer] data sources
-- For XDM Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
-- For XDM Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with [!DNL Journey Optimizer]
+- For XDM Experience Event class-based schemas, add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
+- For XDM Individual Profile class-based schemas, add the 'Profile test details' field group to be able to load test profiles for use with [!DNL Journey Optimizer]
 
 <br>
 
@@ -106,12 +88,12 @@ Mobile Push:
 
 [[!DNL Journey Optimizer] Guardrails Product Link](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
 ## Related documentation
 
-- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
-- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
-- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform)
+- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home)
+- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile)
+- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home)
+- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer)
