@@ -131,7 +131,7 @@ The following prerequisites exist for this blueprint.
 
 ## Implementation steps
 
-See the getting started guide for [Implementing Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
+See the getting started guide for [Implementing Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## Related documentation
 

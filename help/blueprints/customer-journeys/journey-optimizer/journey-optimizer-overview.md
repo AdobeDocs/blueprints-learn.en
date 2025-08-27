@@ -17,18 +17,18 @@ This blueprint outlines the technical capabilities of the application and provid
 >[!BEGINTABS]
 >[!TAB Journey Use Cases (Event-Driven, Real-Time)]
 
-- **Abandonment Recovery**: Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
-- **Onboarding & Activation Flows**: Guide new users through multi-step onboarding journeys based on behavior and milestones.
-- **Transactional Messaging**: Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
-- **Behavioral Retargeting**: Re-engage users based on browsing history, product views, or app usage patterns.
-- **Contextual Upsell/Cross-Sell**: Deliver personalized offers based on real-time profile attributes and recent interactions.
+- **Abandonment Recovery:** Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
+- **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promoitions or benefits
+- **Transactional Messaging:** Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
+- **Contextal Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
+- **Contextual Upsell/Cross-Sell:** Deliver personalized offers based on real-time profile attributes and recent interactions.
 
 >[!TAB Campaign Orchestration Use Cases (Scheduled, Brand-Initiated)]
 
 - **Promotional Campaigns**: Launch multi-step, multi-channel campaigns for product launches, seasonal offers, or sales events.
 - **Lifecycle Marketing**: Automate recurring campaigns like birthday messages, renewal reminders, or loyalty milestones.
-- **Audience-Based Funnel Pushes**: Segment and push audiences into structured journeys based on business logic or CRM attributes.
-- **Newsletter & Content Distribution**: Schedule and deliver personalized content to targeted segments across email and mobile.
+- **Audience-Based Funnel Pushes**: Segment and push audiences into structured campaigns based on business logic or CRM attributes.
+- **Newsletter & Content Distribution**: Schedule and deliver personalized content to targeted audiences across email and mobile.
 - **Re-engagement Campaigns**: Identify dormant users and reintroduce them into engagement flows based on inactivity thresholds.
 
 >[!ENDTABS]
@@ -86,14 +86,14 @@ Mobile Push:
 
 ## Guardrails
 
-[[!DNL Journey Optimizer] Guardrails Product Link](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Guardrails Product Link](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Related documentation
 
-- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform)
-- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home)
-- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile)
-- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home)
-- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer)
+- [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform.html)
+- [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+- [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
