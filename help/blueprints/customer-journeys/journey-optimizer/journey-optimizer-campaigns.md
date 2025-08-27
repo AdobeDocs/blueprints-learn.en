@@ -1,7 +1,8 @@
 ---
-title: "[!DNL Journey Optimizer] - Campaign Orchestration"
+title: '[!DNL Journey Optimizer] - Campaign Orchestration'
 description: Enables marketers to coordinate scheduled, audience-based, multi-step marketing communications across outbound messaging channels.
 solution: Journey Optimizer
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
 ---
 # [!DNL Journey Optimizer] - Campaign Orchestration Blueprint
 

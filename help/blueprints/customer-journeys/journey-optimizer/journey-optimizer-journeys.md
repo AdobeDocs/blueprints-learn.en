@@ -1,7 +1,8 @@
 ---
-title: "[!DNL Journey Optimizer] - Triggered Messaging and Adobe Experience Platform Blueprint"
+title: '[!DNL Journey Optimizer] - Triggered Messaging and Adobe Experience Platform Blueprint'
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Journey Optimizer
+exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
 ---
 # [!DNL Journey Optimizer] - Journeys Blueprint
 
