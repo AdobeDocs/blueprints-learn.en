@@ -30,8 +30,7 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 | Integration | Description |
 | :-- | :--- |
 |[Marketo Engage connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)| Adobe Experience Platform facilitates the ingestion of data from Marketo, providing capabilities to structure, label, and enhance the data using its services.|
-|[Journey Optimizer B2B Edition - Marketo Engage action](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions)| Synchronize Account-Based Marketing in Journey Optimizer B2B Edition with lead-based efforts in Marketo Engage using people-based actions to manage list memberships, people partitions, and request campaigns.|
-|[Journey Optimizer B2B Edition - Marketo Engage assets](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-dam/marketo-engage-design-studio)|Marketo Engage Design Studio is the default asset source for Journey Optimizer B2B Edition, enabling easy asset management for account journeys.|
+|[Journey Optimizer B2B Edition - Marketo Engage actions](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions)| Synchronize Account-Based Marketing in Journey Optimizer B2B Edition with lead-based efforts in Marketo Engage using people-based actions to manage list memberships, and request campaigns.|
 
 ## Architecture
 
@@ -39,29 +38,39 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 
 ## Implementation steps
 
-* Install B2B schemas and namespaces using either option below
-  * Using [Postman collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)
-  * Using [templates](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) in the Platform UI
-* Build a data dictionary defining the mapping between Marketo fields and Experience Platform XDM schema
-  * Use the [Marketo Object Metadata](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/export-all-object-metadata) as a starting point
-  * [Customize the XDM schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/overview) to include your custom fields
-  * Review the standard [XDM fields](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/field-mapping) supported by Journey Optimizer B2B Edition. If you need additional fields, please open a support ticket to have them configured
-    * **workEmail.address** is required on the Person data set
-    * **accountName** is required on the Account data set
-  * Add a new XDM field column to the exported Marketo metadata spreadsheet to record the intended mapping
-* Configure the [Marketo Engage source connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-  * Use the data dictionary defined above to define the [Import mapping](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) for the source connector
-  * Recommendation is not to enable profile before taking into account the [Implementation considerations](#implementation-considerations)
-  * Recommendation to ingest Persons, Companies, Opportunities and Activities at a minimum as these objects are the most useful when creating your Account audiences
-* Implement [Identity Graph Linking Rules](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) for People:
-  * Define how Person records are linked using identity namespaces.
-  * Configure identity namespaces and identity stitching rules in AEP.
-  * Validate linking using sample Person data and preview tools.
-* Enable the Person, Companies, Opportunities and Activities data sets for [profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
-* Define your first [Account Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/account-audience-overview)
-* [Buying groups](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) can be defined using an Account Audience
-  * When an account qualifies for the Account Audience, the buying group job runs daily to create buying groups and assign roles to associated people as soon as the audience updates.
-  * In addition, buying group maintenance runs every Friday at midnight CT. This weekly process handles updates such as removing members who no longer qualify or adding newly qualified members that were not captured during the initial audience update.
+1. Install B2B schemas and namespaces using either of the following options:
+   * Use [Postman collection](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
+   * Use [templates](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) in the Platform UI
+1. Create relational schemas as needed to represent business entities, such as purchases, licenses, or event registrations for journey decisioning and email personalization.
+1. Complete the [XDM configuration](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
+   * Review the set of standard XDM fields that are selected by default in Journey Optimizer B2B Edition, also known as _managed fields_. Review the set of managed fields by going to XDM Configuration in **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
+      * Select the **[!UICONTROL Standard]** tab, then click **[!UICONTROL Edit managed fields]** for both XDM Individual Profile and XDM Business Account.
+      * Select the **[!UICONTROL Only show selected fields]** option to see the current list of selected fields.
+      * Add or remove fields as needed.
+        * `workEmail.address` is required on the Person data set.
+        * `accountName` is required on the Account data set.
+   * Configure the set of XDM fields that you want to use for the _Update person profile_ and _Update account profile_ actions in journeys. These fields are also known as _updatable fields_.
+      * on the _[!UICONTROL Standard]_ tab, click **[!UICONTROL Edit updatable fields]** for both XDM Individual Profile and XDM Business Account.
+      * Select the schema, dataset, and fields that you want to update.
+   * Configure the relational schemas and the fields that you want to use in journeys.
+      * Select the **[!UICONTROL Relational]** tab, the click **[!UICONTROL Select relational XDM schema]**.
+      * Select the schema, namespace, and fields that you want to use.
+   * Configure the experience events that you would like to use in journeys.
+      * Select the **[!UICONTROL Events]** tab, and then click **[!UICONTROL Select experience event]**.
+      * Select experience event and fields that you want to use.
+1. Configure the [Marketo Engage source connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+   * Use the data dictionary to define the [Import mapping](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) for the source connector.
+   * It is recommended not to enable the profile before taking  the [Implementation considerations](#implementation-considerations) into account.
+   * It is also recommended that you ingest Persons, Companies, Opportunities, and Activities at a minimum because these objects are the most useful when creating your account audiences.
+1. Implement [Identity Graph Linking Rules](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) for People:
+   * Define how Person records are linked using identity namespaces.
+   * Configure identity namespaces and identity stitching rules in Experience Platform.
+   * Validate linking using sample Person data and preview tools.
+1. Enable the Person, Companies, Opportunities, and Activities data sets for [profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+1. Define your first [Account Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
+1. Use the account audience to define a [buying groups](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview).
+   * When an account qualifies for the account audience, the buying group job runs daily to create buying groups and assign roles to associated people as soon as the audience updates.
+   * In addition, buying group maintenance runs every Friday at midnight CT. This weekly process handles updates such as removing members who no longer qualify or adding newly qualified members that were not captured during the initial audience update.
 
 ## Recommended Setup
 
@@ -72,11 +81,11 @@ To streamline implementation and ensure compatibility with Adobe Journey Optimiz
 * **Use the default mappings for the Marketo Source Connector:**
   * Leverage the out-of-the-box field mappings provided by Adobe to simplify data ingestion and reduce configuration overhead.
 * **Use default mappings for AJO B2B:**
-  * Adopt the [standard field mappings](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/field-mapping) for Journey Optimizer B2B Edition to ensure compatibility with buying group logic and journey orchestration.
+  * Adopt the [standard field mappings](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) for Journey Optimizer B2B Edition to ensure compatibility with buying group logic and journey orchestration.
 * **Block field updates on all fields except email:**
   * In Marketo Engage, configure field management to [block updates](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) from Adobe Experience Platform for all fields except _email_. This helps maintain data integrity while still enabling identity resolution.
 * **Implement identity linking rules using email as a unique identity namespace**
-  * Configure [identity graph linking rules](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) in Adobe Experience Platform to use _email_ explicitly as a unique identity namespace. These rules ensure that profiles are accurately stitched across data sources where _email_ is present, enabling robust identity resolution. Following Adobe’s best practices, define linking rules that prioritize email as a stable and globally unique identifier to maintain a consistent and privacy-compliant identity graph.
+  * Configure [identity graph linking rules](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) in Adobe Experience Platform to use _email_ explicitly as a unique identity namespace. These rules ensure that profiles are accurately stitched across data sources where _email_ is present, enabling robust identity resolution. Following Adobe's best practices, define linking rules that prioritize email as a stable and globally unique identifier to maintain a consistent and privacy-compliant identity graph.
 This setup provides a balance between ease of deployment and data governance, ensuring a reliable foundation for orchestrating B2B journeys.
 
 ## Implementation considerations
@@ -110,7 +119,7 @@ from
 
 #### Duplicate emails
 
-This query returns the number of person records that will be merged as part of the platform's identity stitching
+This query returns the number of person records to be merged as part of the platform's identity stitching.
 
 >[!NOTE]
 >
@@ -195,7 +204,7 @@ For a comprehensive understanding of the guardrails applicable to B2B Journeys w
 
 * [Adobe Journey Optimizer B2B Edition – Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Includes specific guardrails and usage parameters for Journey Optimizer B2B Edition.
-* [Adobe Experience Platform Deployment Guardrails](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails?lang=en)
+* [Adobe Experience Platform Deployment Guardrails](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Covers general architectural and deployment guardrails across Adobe Experience Platform solutions.
 * [Adobe Marketo Engage – Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Details performance and usage guardrails for Marketo Engage, including activation and CRM sync considerations.
@@ -212,3 +221,4 @@ Provides guidance on data ingestion, segmentation, and activation limits within 
 * [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
 * [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 * [Adobe Journey Optimizer B2B Edition Documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+* [XDM field management (Journey Optimizer B2B Edition)](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)
