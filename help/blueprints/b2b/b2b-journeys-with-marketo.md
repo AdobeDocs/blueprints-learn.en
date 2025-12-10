@@ -66,9 +66,9 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
    * Define how Person records are linked using identity namespaces.
    * Configure identity namespaces and identity stitching rules in Experience Platform.
    * Validate linking using sample Person data and preview tools.
-1. Enable the Person, Companies, Opportunities, and Activities data sets for [profile](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
-1. Define your first [Account Audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
-1. Use the account audience to define a [buying groups](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview).
+1. Enable the Person, Companies, Opportunities, and Activities data sets for [profiles](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+1. Define your first [account audience](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
+1. Use the account audience to define a [buying group](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) or an [account journey](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview).
    * When an account qualifies for the account audience, the buying group job runs daily to create buying groups and assign roles to associated people as soon as the audience updates.
    * In addition, buying group maintenance runs every Friday at midnight CT. This weekly process handles updates such as removing members who no longer qualify or adding newly qualified members that were not captured during the initial audience update.
 
