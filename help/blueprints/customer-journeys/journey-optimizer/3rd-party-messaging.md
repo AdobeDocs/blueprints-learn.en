@@ -53,7 +53,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [Enable the schemas and datasets for Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile).
+1. [Enable the schemas and datasets for Profile](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile).
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Journey usage.
 
