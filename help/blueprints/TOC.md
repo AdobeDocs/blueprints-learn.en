@@ -19,13 +19,13 @@ role: Architect, Developer, User
     + [Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
     + [Application SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
 + Audience & Profile Activation{#audience-activation}
-  + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+  + [Device Based - Anonymous Audience Targeting with Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-    + [Activation to social & advertising channels](/help/blueprints/audience-activation/advertising-activation.md)
-    + [Activation to file & enterprise streaming destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
-    + [Customer activity hub](/help/blueprints/audience-activation/customer-activity.md)
-    + [Segment match](/help/blueprints/audience-activation/segment-match.md)
-    + [Target & RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+    + [Audience Activation to Social and Advertising Destinations](/help/blueprints/audience-activation/advertising-activation.md)
+    + [Audience and Profile Activation to Enterprise Destinations blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)
+    + [Real-time Profile Access for Support and Sales Scenarios](/help/blueprints/audience-activation/customer-activity.md)
+    + [Audience Collaboration with Segment Match](/help/blueprints/audience-activation/segment-match.md)
+    + [Known Customer Personalization with Target](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B activation](/help/blueprints/b2b/b2bactivation.md)

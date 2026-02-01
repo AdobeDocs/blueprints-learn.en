@@ -1,11 +1,11 @@
 ---
-title: Activation to social and advertising destinations from RTCDP
+title: Audience Activation to Social and Advertising Destinations
 description: Learn how to ingest customer data from multiple sources to build a single profile view of the customer. 
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 ---
-# Activation to social and advertising destinations from RTCDP
+# Audience Activation to Social and Advertising Destinations
 
 Ingest customer data from multiple sources to build a single profile view of the customer. You can segment these profiles to built audiences for marketing and personalization, share these audiences to Ad Networks such as Facebook and Google to target and personalization campaigns against those audiences. 
 

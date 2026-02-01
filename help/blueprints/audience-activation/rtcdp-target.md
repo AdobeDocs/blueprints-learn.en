@@ -1,5 +1,5 @@
 ---
-title: Real-time Customer Data Platform & Adobe Target
+title: Known Customer Personalization with Target
 description: Integrate RTCDP profiles and audiences with Adobe Target.
 landing-page-description: Integrate RTCDP profiles and audiences with Adobe Target.
 short-description: Integrate RTCDP profiles and audiences with Adobe Target.
@@ -9,7 +9,7 @@ thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
 
-# Real-time Customer Data Platform integration with Adobe Target
+# Known Customer Personalization with Target
 
 ## Use cases
 
