@@ -22,7 +22,7 @@ role: Developer, User
   + [Device Based - Anonymous Audience Targeting with Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
     + [Audience Activation to Social and Advertising Destinations](/help/blueprints/audience-activation/advertising-activation.md)
-    + [Audience and Profile Activation to Enterprise Destinations blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)
+    + [Audience and Profile Activation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Real-time Profile Access for Support and Sales Scenarios](/help/blueprints/audience-activation/customer-activity.md)
     + [Real-time Edge Profile Access for Web and Mobile Personalization](/help/blueprints/audience-activation/real-time-lookup.md)
     + [Audience Collaboration with Segment Match](/help/blueprints/audience-activation/segment-match.md)
