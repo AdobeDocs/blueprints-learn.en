@@ -33,6 +33,7 @@ role: Developer, User
   + [B2B account activation](/help/blueprints/b2b/b2b-account-activation.md)
   + [Buying Group-based marketing and journey management](/help/blueprints/b2b/b2b-buying-group-journeys.md)
   + [B2B Journeys using Marketo Data](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+  + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
   + Marketo Engage and Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
     + [Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
     + [Intake and create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
@@ -42,6 +43,7 @@ role: Developer, User
   + [Adobe Commerce & RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
+  + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
   + [Sharing CJA audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
   + [CJA and Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Customer Journeys{#customer-journeys}
