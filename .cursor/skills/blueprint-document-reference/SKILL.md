@@ -5,7 +5,7 @@ description: Reference for creating and editing Adobe Digital Experience Bluepri
 
 # Blueprint Document Reference
 
-Use this skill when creating or editing blueprint documents in this repository. Blueprints are repeatable implementations that address established business problems and include architecture diagrams, technical considerations, and links to Adobe Experience League documentation.
+Use this skill when creating or editing blueprint documents in this repository. Blueprints are repeatable implementations that address established business problems and include architecture diagrams, technical considerations, and links to related Adobe Experience League documentation.
 
 ## When to Apply
 
