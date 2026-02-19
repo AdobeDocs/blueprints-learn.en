@@ -2,7 +2,6 @@
 title: AJO B2B Paid Media Controller
 description: Priority of campaigns and activation of accounts to Paid Media destinations
 solution: Journey Optimizer B2B Edition
-exl-id:
 ---
 # Overview
 
