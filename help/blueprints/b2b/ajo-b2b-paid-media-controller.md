@@ -1,3 +1,9 @@
+---
+title: AJO B2B Paid Media Controller
+description: Priority of campaigns and activation of accounts to Paid Media destinations
+solution: Journey Optimizer B2B Edition
+exl-id:
+---
 # Overview
 
 Marketing teams running B2B paid media at scale face a recurring problem: **accounts end up in multiple campaigns at once** (persona, category awareness, solution-led, pursuit), which dilutes messaging, causes audience fatigue, and forces manual list work—uploads, exclusions, and suppression—across LinkedIn Account Match (Account Destination). Without **waterfall prioritization** and **automated campaign assignment**, there is no single place to decide which account gets which message, and operations do not scale.
