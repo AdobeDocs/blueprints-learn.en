@@ -4,7 +4,9 @@ description: Priority of campaigns and activation of accounts to Paid Media dest
 solution: Journey Optimizer B2B Edition
 exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 ---
-# Overview
+# AJO B2B - Account Journey Orchestration - Paid Media Controller
+
+## Overview
 
 Marketing teams running B2B paid media at scale face a recurring problem: **accounts end up in multiple campaigns at once** (persona, category awareness, solution-led, pursuit), which dilutes messaging, causes audience fatigue, and forces manual list work—uploads, exclusions, and suppression—across LinkedIn Account Match (Account Destination). Without **waterfall prioritization** and **automated campaign assignment**, there is no single place to decide which account gets which message, and operations do not scale.
 
@@ -92,7 +94,7 @@ The following steps give guidance for implementing the Paid Media Controller wit
 1. **Create the controller journey in AJO B2B.**
 
    - **Read audience:** Select the qualified-account audience from Real-Time CDP.
-   - **Split path:** Add nodes in waterfall order. Each node evaluates conditions (e.g., "in Pursuit audience," "solution interest = X," "persona = Y," "intent category = Z"). Accounts that match exit to the corresponding activation; others continue to the next split.
+   - **Split path:** Create a path for each paid media audiences, starting with Path 1 as your top priority and proceeding in priority order. For each path, add attributes to set the criteria for qualification (e.g., “in Pursuit audience,” “solution interest = X,” “persona = Y,” “intent category = Z”). Accounts evaluate through the split path node a in waterfall fashion, qualifying for the first path that they meet criteria for.
    - **Activate to Destination:** For each path, add an Activate to Destination node to the correct LinkedIn (or other) campaign/destination.
 
 2. **Validate mutual exclusivity.**
@@ -104,7 +106,7 @@ The following steps give guidance for implementing the Paid Media Controller wit
 
 <img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-### 4.2.3. Audience activation
+### Audience activation
 
 1. **Activate to LinkedIn (and other destinations).**
 
