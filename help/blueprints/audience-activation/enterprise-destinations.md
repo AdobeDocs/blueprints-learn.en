@@ -1,11 +1,11 @@
 ---
-title: Audience and Profile Activation to Enterprise Destinations blueprint
+title: Audience and Profile Activation to Enterprise Destinations
 description: Audience and Profile Activation to Enterprise Destinations
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
-# Audience and Profile Activation to Enterprise Destinations blueprint
+# Audience and Profile Activation to Enterprise Destinations
 
 Share profile and audience changes and events in streaming or batch from [!UICONTROL Real-time Customer Data Platform] to enterprise data stores and applications. These profile and audience events can be used to initiate a sales or support action to the customer such as following up on an abandoned application process or webinar registration or to update enterprise applications with the latest customer attributes and intelligence from [!UICONTROL Real-time Customer Data Platform].
 
