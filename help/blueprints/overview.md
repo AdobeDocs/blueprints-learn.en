@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
 # Customer experience orchestration blueprints
 
-Customer experience orchestration (formerly, _Digital Experience_) blueprints provide system and data flow architecture diagrams to help better understand how Adobe Experience Platform and Applications are integrated and implemented. The blueprints provide a visual representation of inter-system and component data and content flows, sequence of operations, and dependencies to help inform use case design and architecture of Adobe Experience Platform and Applications.
+Customer experience orchestration (formerly, _digital experience_) blueprints provide system and data flow architecture diagrams to help better understand how Adobe Experience Platform and Applications are integrated and implemented. The blueprints provide a visual representation of inter-system and component data and content flows, sequence of operations, and dependencies to help inform use case design and architecture of Adobe Experience Platform and Applications.
 
 ## Popular blueprints
 
