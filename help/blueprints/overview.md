@@ -1,14 +1,14 @@
 ---
-title: Digital Experience Blueprints
-description: Digital experience blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
+title: Customer Experience Orchestration Blueprints
+description: Customer experience orchestration blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
-# Digital Experience Blueprints
+# Customer experience orchestration blueprints
 
-Digital experience blueprints provide system and data flow architecture diagrams to help better understand how Adobe Experience Platform and Applications are integrated and implemented. The blueprints provide a visual representation of inter-system and component data and content flows, sequence of operations, and dependencies to help inform use case design and architecture of Adobe Experience Platform and Applications.
+Customer experience orchestration (formerly, _digital experience_) blueprints provide system and data flow architecture diagrams to help better understand how Adobe Experience Platform and Applications are integrated and implemented. The blueprints provide a visual representation of inter-system and component data and content flows, sequence of operations, and dependencies to help inform use case design and architecture of Adobe Experience Platform and Applications.
 
-## Popular Blueprints
+## Popular blueprints
 
 <table>
 <tr>
