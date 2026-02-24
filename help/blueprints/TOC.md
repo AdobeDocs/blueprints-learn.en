@@ -33,6 +33,7 @@ role: Developer, User
   + [B2B account activation](/help/blueprints/b2b/b2b-account-activation.md)
   + [Buying group-based marketing and journey management](/help/blueprints/b2b/b2b-buying-group-journeys.md)
   + [B2B journeys using Marketo data](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+  + [B2B Paid Media Controller](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
   + Marketo Engage and Workfront integration blueprint{#marketo-engage-and-workfront-integration-blueprint}
     + [Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
     + [Intake and create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
