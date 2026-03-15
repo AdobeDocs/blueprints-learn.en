@@ -2,9 +2,6 @@
 title: B2B Customer Journey Analytics blueprint
 description: Include B2B account, opportunity, and buying-group data in Customer Journey Analytics for account-based reporting and journey analysis.
 solution: Customer Journey Analytics
-kt: 
-thumbnail: 
-exl-id:
 ---
 
 # B2B Customer Journey Analytics blueprint
