@@ -4,7 +4,7 @@ description: Execute triggered messages and experiences using Adobe Experience P
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 ---
-# [!DNL Journey Optimizer] Blueprints
+# [!DNL Journey Optimizer] blueprints
 
 Adobe [!DNL Journey Optimizer] is a cloud-native application built on Adobe Experience Platform that enables real-time and scheduled orchestration of customer journeys across multiple channels. It supports event-driven triggers, audience segmentation, and decisioning services to deliver personalized experiences through email, SMS, push, web, and in-app messaging. It integrates with inbound and outbound systems, allowing for unified audience state management and contextual engagement across the customer lifecycle.
 

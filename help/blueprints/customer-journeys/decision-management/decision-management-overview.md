@@ -4,7 +4,7 @@ description: Deliver personalized offers across customer journeys.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 ---
-# Journey Optimizer - Decision Management Blueprints
+# Journey Optimizer - Decision Management blueprints
 
 Please refer to the following documentation for [Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 

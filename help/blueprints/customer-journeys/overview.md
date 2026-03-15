@@ -4,7 +4,7 @@ description: Deliver individual, just-in-time and orchestrated customer experien
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 ---
-# Customer Journey Blueprints
+# Customer Journey blueprints
 
 Modern marketing teams require platforms that can support both reactive engagement—responding to individual customer behaviors—and proactive outreach—initiating campaigns that guide audiences into conversion funnels. These use cases span channels like email, SMS, push, and increasingly, web and in-app experiences.
 
@@ -26,7 +26,7 @@ The selection between these tools depends on architectural considerations such a
 
 <br>
 
-## Deprecated Blueprints
+## Deprecated blueprints
 
 | Blueprint | Architecture |
 |---|:---:|
