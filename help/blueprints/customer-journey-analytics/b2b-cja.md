@@ -6,7 +6,7 @@ kt:
 thumbnail: 
 exl-id:
 ---
-<!-- markdownlint-disable-next-line MD025 -->
+
 # B2B Customer Journey Analytics blueprint
 
 Customer Journey Analytics B2B Edition enables account-based reporting and analysis for B2B organizations. Unlike person-centric B2C analytics, this blueprint places the **account** at the center of the data model so you can analyze complex B2B purchase journeys across multiple stakeholders, buying groups, and sales cycles. Use [!DNL Customer Journey Analytics] to unify behavioral data with B2B dimensions—accounts, opportunities, campaigns, and marketing lists—for journey-based insights and audience creation.
