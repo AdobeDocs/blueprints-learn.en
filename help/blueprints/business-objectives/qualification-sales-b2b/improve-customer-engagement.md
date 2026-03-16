@@ -1,9 +1,9 @@
 ---
 title: Improve Customer Engagement
-description: "Learn how to increase interaction frequency and depth across all digital and physical touchpoints."
+description: Learn how to increase interaction frequency and depth across all digital and physical touchpoints.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 9a2143c7-f962-4651-886a-a4be6ceff3fc
 ---
-
 # Improve customer engagement
 
 Increase interaction frequency and depth across all digital and physical touchpoints. This objective focuses on delivering relevant, timely interactions that encourage deeper relationships and more frequent engagement with the brand across channels.

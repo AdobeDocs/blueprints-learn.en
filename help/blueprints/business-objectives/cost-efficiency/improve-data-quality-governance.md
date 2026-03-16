@@ -1,9 +1,9 @@
 ---
 title: Improve Data Quality & Governance
-description: "Learn how to ensure clean, complete, and compliant data for accurate targeting, reduced waste, and reliable analytics."
+description: Learn how to ensure clean, complete, and compliant data for accurate targeting, reduced waste, and reliable analytics.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: ecede85f-9af8-4d97-a33c-a14dfe1ed61c
 ---
-
 # Improve data quality & governance
 
 Ensure clean, complete, and compliant data for accurate targeting, reduced waste, and reliable analytics. This objective focuses on establishing the data foundation required for all downstream marketing activities, ensuring that customer data is accurate, consistent, properly governed, and compliant with regulations.

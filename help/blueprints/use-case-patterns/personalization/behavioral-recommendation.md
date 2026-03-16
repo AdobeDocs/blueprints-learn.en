@@ -1,9 +1,9 @@
 ---
 title: Behavioral Recommendation
-description: "Learn how to generate item and content recommendations using selection strategies and ranking models."
+description: Learn how to generate item and content recommendations using selection strategies and ranking models.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
 ---
-
 # Behavioral recommendation
 
 This guide covers how to implement behavioral product and content recommendations using [!DNL Adobe Journey Optimizer] (AJO) Decisioning, [!DNL Real-Time Customer Data Platform] (RT-CDP), and [!DNL Adobe Experience Platform] (AEP). It is designed for solution architects, marketing technologists, and implementation engineers who need to deliver personalized recommendation experiences across web, mobile app, and email channels.

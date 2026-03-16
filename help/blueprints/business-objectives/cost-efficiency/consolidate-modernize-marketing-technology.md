@@ -1,9 +1,9 @@
 ---
 title: Consolidate & Modernize Marketing Technology
-description: "Learn how to reduce tool fragmentation and technical debt by migrating to unified, scalable platforms."
+description: Learn how to reduce tool fragmentation and technical debt by migrating to unified, scalable platforms.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
 ---
-
 # Consolidate & modernize marketing technology
 
 Reduce tool fragmentation and technical debt by migrating to unified, scalable platforms. This objective focuses on simplifying the marketing technology stack by consolidating point solutions into integrated platforms that share data, governance, and workflows.

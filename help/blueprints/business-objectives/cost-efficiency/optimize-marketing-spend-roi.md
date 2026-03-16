@@ -1,9 +1,9 @@
 ---
 title: Optimize Marketing Spend & ROI
-description: "Learn how to improve return on marketing investment through better targeting, attribution, audience suppression, and budget allocation."
+description: Learn how to improve return on marketing investment through better targeting, attribution, audience suppression, and budget allocation.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
 ---
-
 # Optimize marketing spend & ROI
 
 Improve return on marketing investment through better targeting, attribution, audience suppression, and budget allocation. This objective addresses the full cycle of marketing spend optimization from audience precision through performance measurement and continuous reallocation to highest-performing channels and tactics.

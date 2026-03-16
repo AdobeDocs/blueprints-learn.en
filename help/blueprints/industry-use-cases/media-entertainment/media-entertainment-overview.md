@@ -1,9 +1,9 @@
 ---
 title: Media & Entertainment Use Cases
-description: "Discover how media and entertainment organizations use Adobe Experience Platform to personalize content discovery, reduce subscriber churn, and grow audience engagement."
+description: Discover how media and entertainment organizations use Adobe Experience Platform to personalize content discovery, reduce subscriber churn, and grow audience engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
 ---
-
 # Media & Entertainment Use Cases
 
 Media and entertainment organizations use Adobe Experience Platform to unify audience data from streaming platforms, content libraries, and subscriber accounts into a single view of each viewer or listener. This foundation enables personalized content discovery, proactive subscriber retention, and engagement strategies that keep audiences coming back for more.

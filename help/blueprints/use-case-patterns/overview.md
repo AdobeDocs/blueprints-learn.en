@@ -1,10 +1,10 @@
 ---
 title: Use Case Patterns
-description: "Learn about the use case patterns for implementing Adobe Experience Platform and applications to achieve key business objectives."
+description: Learn about the use case patterns for implementing Adobe Experience Platform and applications to achieve key business objectives.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
+exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
 ---
-
 # Use case patterns
 
 Use case patterns define repeatable implementation approaches for Adobe Experience Platform and applications. Each pattern describes a specific capability, the function chain that delivers it, the applications involved, and the [key business objectives](/help/blueprints/business-objectives/overview.md) it supports.

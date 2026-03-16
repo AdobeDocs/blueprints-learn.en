@@ -1,9 +1,9 @@
 ---
 title: Improve Lead Qualification & Conversion
-description: "Learn how to increase lead quality and accelerate pipeline progression through scoring, nurturing, and personalized follow-up."
+description: Learn how to increase lead quality and accelerate pipeline progression through scoring, nurturing, and personalized follow-up.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 4454b148-79f9-49f9-97ca-f305df00fe0b
 ---
-
 # Improve lead qualification & conversion
 
 Increase lead quality and accelerate pipeline progression through scoring, nurturing, and personalized follow-up. This objective focuses on identifying high-potential leads through buying group analysis, multi-stakeholder engagement tracking, and automated qualification workflows that accelerate the path from prospect to opportunity.

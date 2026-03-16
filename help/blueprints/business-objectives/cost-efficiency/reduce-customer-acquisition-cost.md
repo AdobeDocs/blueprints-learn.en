@@ -1,9 +1,9 @@
 ---
 title: Reduce Customer Acquisition Cost
-description: "Learn how to improve targeting efficiency, suppress existing customers from acquisition campaigns, and optimize media spend."
+description: Learn how to improve targeting efficiency, suppress existing customers from acquisition campaigns, and optimize media spend.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: 2e913e53-a4f8-4d03-bfd6-f82de5104516
 ---
-
 # Reduce customer acquisition cost
 
 Improve targeting efficiency, suppress existing customers from acquisition campaigns, and optimize media spend. This objective focuses on maximizing the return from acquisition investments by ensuring marketing dollars reach genuinely new prospects through precise audience targeting and intelligent suppression.

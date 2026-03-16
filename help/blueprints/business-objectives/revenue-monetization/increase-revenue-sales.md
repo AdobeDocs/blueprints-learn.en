@@ -1,9 +1,9 @@
 ---
 title: Increase Revenue & Sales
-description: "Learn how to drive top-line revenue growth through optimized digital channels, campaigns, and customer journeys."
+description: Learn how to drive top-line revenue growth through optimized digital channels, campaigns, and customer journeys.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
 ---
-
 # Increase revenue & sales
 
 Drive top-line revenue growth through optimized digital channels, campaigns, and customer journeys. This objective encompasses the full spectrum of revenue-driving activities from acquisition through retention, leveraging data-driven targeting and multi-channel engagement to maximize transaction volume and value.

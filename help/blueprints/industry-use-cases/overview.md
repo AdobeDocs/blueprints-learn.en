@@ -1,10 +1,10 @@
 ---
 title: Industry Use Cases
-description: "Discover industry-specific use cases for Adobe Experience Platform organized by vertical, with links to implementation patterns."
+description: Discover industry-specific use cases for Adobe Experience Platform organized by vertical, with links to implementation patterns.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
+exl-id: e08a8582-af33-4a40-a34e-ada29ecef41b
 ---
-
 # Industry use cases
 
 Industry use cases show how organizations in specific verticals apply Adobe Experience Platform and applications to achieve measurable business outcomes. Each use case describes a concrete business scenario, its expected impact, and links to the [use case pattern](/help/blueprints/use-case-patterns/overview.md) that provides detailed implementation guidance.

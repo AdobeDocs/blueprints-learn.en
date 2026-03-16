@@ -1,9 +1,9 @@
 ---
 title: Retail Use Cases
-description: "Discover how retail organizations use Adobe Experience Platform to personalize shopping experiences, recover abandoned carts, and drive customer loyalty."
+description: Discover how retail organizations use Adobe Experience Platform to personalize shopping experiences, recover abandoned carts, and drive customer loyalty.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
 ---
-
 # Retail Use Cases
 
 Retail organizations use Adobe Experience Platform to unify customer data from online stores, physical locations, and loyalty programs into a single view of each shopper. This foundation enables personalized shopping experiences, timely outreach that recovers lost revenue, and loyalty strategies that keep customers coming back.

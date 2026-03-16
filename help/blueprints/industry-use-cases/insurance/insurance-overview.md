@@ -1,9 +1,9 @@
 ---
 title: Insurance Use Cases
-description: "Discover how insurance organizations use Adobe Experience Platform to personalize policy management, improve claims experiences, and drive customer retention."
+description: Discover how insurance organizations use Adobe Experience Platform to personalize policy management, improve claims experiences, and drive customer retention.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: a082598f-555b-49a4-b201-a55bee793959
 ---
-
 # Insurance Use Cases
 
 Insurance organizations use Adobe Experience Platform to unify policyholder data across policy management, claims, and engagement systems to deliver personalized communications at every stage of the customer relationship. By connecting behavioral signals with policy and claims information, insurers can proactively engage customers with relevant offers, timely service updates, and meaningful support that drives retention and lifetime value.

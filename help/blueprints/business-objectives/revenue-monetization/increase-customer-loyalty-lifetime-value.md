@@ -1,9 +1,9 @@
 ---
 title: Increase Customer Loyalty & Lifetime Value
-description: "Learn how to deepen customer relationships and maximize long-term value through loyalty programs, rewards, and personalized engagement."
+description: Learn how to deepen customer relationships and maximize long-term value through loyalty programs, rewards, and personalized engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
 ---
-
 # Increase customer loyalty & lifetime value
 
 Deepen customer relationships and maximize long-term value through loyalty programs, rewards, and personalized engagement. This objective focuses on building lasting customer relationships that drive repeat purchases, higher lifetime value, and brand advocacy through consistent, value-driven experiences.

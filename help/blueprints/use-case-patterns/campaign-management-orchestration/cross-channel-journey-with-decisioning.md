@@ -1,9 +1,9 @@
 ---
 title: Cross-Channel Journey with Decisioning
-description: "Learn how to orchestrate a multi-step journey incorporating real-time decisioning to select optimal channel, content, or offer."
+description: Learn how to orchestrate a multi-step journey incorporating real-time decisioning to select optimal channel, content, or offer.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
 ---
-
 # Cross-channel journey with decisioning
 
 This guide provides a complete implementation reference for cross-channel journey with decisioning. It is designed for solution architects, marketing technologists, and implementation engineers who need to orchestrate multi-step, multi-channel journeys that incorporate real-time decisioning at one or more journey nodes.

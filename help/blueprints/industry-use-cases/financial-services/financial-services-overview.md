@@ -1,9 +1,9 @@
 ---
 title: Financial Services Use Cases
-description: "Discover how financial services organizations use Adobe Experience Platform to personalize product offers, prevent churn, and deepen customer relationships."
+description: Discover how financial services organizations use Adobe Experience Platform to personalize product offers, prevent churn, and deepen customer relationships.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
 ---
-
 # Financial Services Use Cases
 
 Financial services organizations rely on Adobe Experience Platform to unify customer data across banking, lending, and investment channels, enabling personalized experiences that strengthen relationships and drive growth. By bringing together account activity, transaction history, and behavioral signals, these organizations can deliver the right offer at the right moment while maintaining the trust and compliance their customers expect.

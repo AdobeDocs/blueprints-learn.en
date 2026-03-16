@@ -1,9 +1,9 @@
 ---
 title: Deliver Personalized Customer Experiences
-description: "Learn how to tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage."
+description: Learn how to tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
 ---
-
 # Deliver personalized customer experiences
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage. This objective focuses on using real-time customer data and decisioning to deliver relevant, contextual experiences across every channel and touchpoint in the customer journey.

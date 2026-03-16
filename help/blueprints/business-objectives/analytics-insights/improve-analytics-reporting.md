@@ -1,9 +1,9 @@
 ---
 title: Improve Analytics & Reporting
-description: "Learn how to enhance reporting capabilities for faster, more actionable marketing insights through unified dashboards and self-service tools."
+description: Learn how to enhance reporting capabilities for faster, more actionable marketing insights through unified dashboards and self-service tools.
 solution: Experience Platform, Customer Journey Analytics
+exl-id: 9a663191-c89a-41f6-9a10-f99101880ac9
 ---
-
 # Improve analytics & reporting
 
 Enhance reporting capabilities for faster, more actionable marketing insights through unified dashboards and self-service tools. This objective focuses on providing teams with comprehensive, cross-channel analytics that enable faster identification of trends, opportunities, and issues.

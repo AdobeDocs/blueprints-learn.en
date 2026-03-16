@@ -1,9 +1,9 @@
 ---
 title: Multi-Step Orchestrated Journey
-description: "Learn how to guide a profile through a branching, multi-touch journey with waits, conditions, and multiple message actions over time."
+description: Learn how to guide a profile through a branching, multi-touch journey with waits, conditions, and multiple message actions over time.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
 ---
-
 # Multi-step orchestrated journey
 
 This guide provides a comprehensive implementation blueprint for building multi-step orchestrated journeys using [!DNL Adobe Journey Optimizer] (AJO) and [!DNL Real-Time Customer Data Platform] (RT-CDP). It is designed for solution architects, marketing technologists, and implementation engineers who need to orchestrate branching, multi-touch customer journeys that deliver multiple messages over time.

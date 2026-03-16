@@ -1,9 +1,9 @@
 ---
 title: Improve Customer Onboarding
-description: "Learn how to accelerate time-to-value for new customers with streamlined, personalized welcome experiences and activation journeys."
+description: Learn how to accelerate time-to-value for new customers with streamlined, personalized welcome experiences and activation journeys.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 3a156fbb-b078-469a-8604-0d6d340e9941
 ---
-
 # Improve customer onboarding
 
 Accelerate time-to-value for new customers with streamlined, personalized welcome experiences and activation journeys. This objective focuses on guiding new customers through their initial experience with timely, relevant communications that drive product adoption and early engagement.

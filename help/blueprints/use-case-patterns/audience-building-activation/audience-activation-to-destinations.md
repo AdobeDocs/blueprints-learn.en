@@ -1,9 +1,9 @@
 ---
 title: Audience activation to destinations
-description: "Learn how to evaluate and publish audience segments to external destinations for targeting or suppression using Adobe Real-Time CDP."
+description: Learn how to evaluate and publish audience segments to external destinations for targeting or suppression using Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
+exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
 ---
-
 # Audience activation to destinations
 
 This guide provides a complete implementation reference for activating audiences from Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP) to external destinations. It is designed for solution architects, marketing technologists, and implementation engineers who need to evaluate audience segments and publish them to ad platforms, cloud storage, CRM systems, or data partners for targeting, suppression, lookalike modeling, or analytics enrichment.

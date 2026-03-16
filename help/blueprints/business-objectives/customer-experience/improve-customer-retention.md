@@ -1,9 +1,9 @@
 ---
 title: Improve Customer Retention
-description: "Learn how to keep existing customers engaged and renewing through value-driven experiences and ongoing relationship nurturing."
+description: Learn how to keep existing customers engaged and renewing through value-driven experiences and ongoing relationship nurturing.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
 ---
-
 # Improve customer retention
 
 Keep existing customers engaged and renewing through value-driven experiences and ongoing relationship nurturing. This objective focuses on identifying at-risk customers, delivering timely interventions, and maintaining ongoing engagement to reduce churn and sustain long-term relationships.

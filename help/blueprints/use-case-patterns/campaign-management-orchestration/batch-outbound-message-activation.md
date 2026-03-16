@@ -1,9 +1,9 @@
 ---
 title: Batch Outbound Message Activation
-description: "Learn how to evaluate an audience and deliver a scheduled outbound message in a single batch execution."
+description: Learn how to evaluate an audience and deliver a scheduled outbound message in a single batch execution.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
 ---
-
 # Batch outbound message activation
 
 This guide provides a complete implementation reference for delivering scheduled outbound messages to defined audience segments using [!DNL Adobe Journey Optimizer] (AJO) and [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP). It is designed for solution architects, marketing technologists, and implementation engineers who need to understand all viable implementation approaches, the decision considerations that drive each choice, and where to find detailed documentation on [!DNL Adobe Experience League].

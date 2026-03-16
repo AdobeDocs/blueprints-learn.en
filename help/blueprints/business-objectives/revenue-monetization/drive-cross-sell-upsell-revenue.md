@@ -1,9 +1,9 @@
 ---
 title: Drive Cross-Sell & Upsell Revenue
-description: "Learn how to promote complementary and premium products or services to existing customers based on behavior and purchase history."
+description: Learn how to promote complementary and premium products or services to existing customers based on behavior and purchase history.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
 ---
-
 # Drive cross-sell & upsell revenue
 
 Promote complementary and premium products or services to existing customers based on behavior and purchase history. This objective focuses on increasing customer value by presenting the right product recommendations and offers at the right time through personalized decisioning and multi-channel engagement.

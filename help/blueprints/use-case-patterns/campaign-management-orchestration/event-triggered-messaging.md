@@ -1,9 +1,9 @@
 ---
 title: Event-Triggered Messaging
-description: "Learn how to deliver contextual, real-time messages in response to behavioral or system events."
+description: Learn how to deliver contextual, real-time messages in response to behavioral or system events.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 ---
-
 # Event-triggered messaging
 
 This guide provides a comprehensive implementation blueprint for event-triggered messaging using [!DNL Adobe Journey Optimizer] (AJO), [!DNL Real-Time Customer Data Platform] (RT-CDP), and [!DNL Adobe Experience Platform] (AEP). It is designed for solution architects, marketing technologists, and implementation engineers who need to deliver contextual, real-time messages in response to behavioral or system events.

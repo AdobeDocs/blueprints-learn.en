@@ -1,9 +1,9 @@
 ---
 title: Healthcare Use Cases
-description: "Discover how healthcare organizations use Adobe Experience Platform to improve patient engagement, streamline care coordination, and drive better health outcomes."
+description: Discover how healthcare organizations use Adobe Experience Platform to improve patient engagement, streamline care coordination, and drive better health outcomes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
 ---
-
 # Healthcare Use Cases
 
 Healthcare organizations use Adobe Experience Platform to build unified patient profiles and deliver personalized, timely communications across every touchpoint. By connecting clinical, behavioral, and preference data in one place, care teams can engage patients more effectively while maintaining the highest standards of privacy and compliance.

@@ -1,9 +1,9 @@
 ---
 title: Improve Marketing Attribution
-description: "Learn how to accurately measure the impact of marketing touchpoints, channels, and campaigns on conversion and revenue outcomes."
+description: Learn how to accurately measure the impact of marketing touchpoints, channels, and campaigns on conversion and revenue outcomes.
 solution: Experience Platform, Customer Journey Analytics
+exl-id: 67686f67-15ee-4beb-919e-36a0c0c371a3
 ---
-
 # Improve marketing attribution
 
 Accurately measure the impact of marketing touchpoints, channels, and campaigns on conversion and revenue outcomes. This objective focuses on establishing cross-channel attribution models that connect marketing activities to business results for better budget allocation and campaign optimization.

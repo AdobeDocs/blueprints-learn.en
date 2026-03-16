@@ -1,9 +1,9 @@
 ---
 title: Buying Group-Based Marketing & Journey Management
-description: "Learn how to develop account-level journeys that qualify leads into buying groups to improve B2B marketing effectiveness."
+description: Learn how to develop account-level journeys that qualify leads into buying groups to improve B2B marketing effectiveness.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
 ---
-
 # Buying group-based marketing & journey management
 
 This guide provides a comprehensive implementation reference for buying group-based marketing and journey management. It is designed for solution architects, marketing technologists, and implementation engineers who need to implement account-level journey orchestration with buying group management using [!DNL Adobe Journey Optimizer B2B Edition] and [!DNL Real-Time CDP B2B Edition].

@@ -1,9 +1,9 @@
 ---
 title: Automotive Use Cases
-description: "Discover how automotive organizations use Adobe Experience Platform to personalize the vehicle purchase journey, improve service retention, and build owner loyalty."
+description: Discover how automotive organizations use Adobe Experience Platform to personalize the vehicle purchase journey, improve service retention, and build owner loyalty.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
 ---
-
 # Automotive use cases
 
 Automotive organizations use Adobe Experience Platform to unify customer data from dealership interactions, online vehicle research, service records, and connected car systems into a single view of each owner. This foundation enables personalized experiences throughout the entire ownership lifecycle, from initial vehicle research through purchase, service, and loyalty.

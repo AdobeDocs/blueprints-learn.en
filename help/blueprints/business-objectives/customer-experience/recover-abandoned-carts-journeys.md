@@ -1,9 +1,9 @@
 ---
 title: Recover Abandoned Carts & Journeys
-description: "Learn how to re-engage users who dropped off during purchase, application, or enrollment flows with timely, personalized follow-ups."
+description: Learn how to re-engage users who dropped off during purchase, application, or enrollment flows with timely, personalized follow-ups.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
 ---
-
 # Recover abandoned carts & journeys
 
 Re-engage users who dropped off during purchase, application, or enrollment flows with timely, personalized follow-ups. This objective focuses on capturing lost revenue by detecting abandonment events in real time and delivering contextual messages that address barriers and incentivize completion.

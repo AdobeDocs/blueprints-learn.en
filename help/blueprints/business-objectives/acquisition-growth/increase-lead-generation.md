@@ -1,9 +1,9 @@
 ---
 title: Increase Lead Generation
-description: "Learn how to generate more qualified leads for the sales pipeline through forms, events, content, and multi-channel engagement."
+description: Learn how to generate more qualified leads for the sales pipeline through forms, events, content, and multi-channel engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
 ---
-
 # Increase lead generation
 
 Generate more qualified leads for the sales pipeline through forms, events, content, and multi-channel engagement. This objective focuses on growing the volume of qualified prospects entering the funnel through targeted outreach and optimized conversion paths.

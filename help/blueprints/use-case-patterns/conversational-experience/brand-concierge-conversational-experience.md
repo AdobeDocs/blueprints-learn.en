@@ -1,9 +1,9 @@
 ---
 title: Brand Concierge Conversational Experience
-description: "Learn how to transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery."
+description: Learn how to transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: a9545328-316d-446a-9308-18af61c58d1c
 ---
-
 # Brand Concierge conversational experience
 
 This guide provides a comprehensive implementation reference for AI-powered conversational experiences using [!DNL Adobe Brand Concierge], integrated with [!DNL Adobe Experience Platform] (AEP) and [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). It is designed for solution architects, marketing technologists, and implementation engineers who need to deploy brand-safe conversational agents across digital properties.

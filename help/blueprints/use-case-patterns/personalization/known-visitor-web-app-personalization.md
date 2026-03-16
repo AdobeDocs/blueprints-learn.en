@@ -1,9 +1,9 @@
 ---
 title: Known-Visitor Web/App Personalization
-description: "Learn how to deliver personalized content, offers, or promotions to identified visitors based on real-time profile and segment membership."
+description: Learn how to deliver personalized content, offers, or promotions to identified visitors based on real-time profile and segment membership.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
 ---
-
 # Known-visitor web/app personalization
 
 This reference plan provides a complete implementation guide for delivering personalized content to identified visitors across digital surfaces using [!DNL Adobe Journey Optimizer] (AJO) and [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP). It is designed for solution architects, marketing technologists, and implementation engineers who need to understand all viable implementation approaches, the decisions that must be made at each phase, and the Experience League documentation that supports configuration.

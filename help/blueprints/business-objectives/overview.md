@@ -1,10 +1,10 @@
 ---
 title: Key Business Objectives
-description: "Learn about the key business objectives that Adobe Experience Platform use case patterns help organizations achieve."
+description: Learn about the key business objectives that Adobe Experience Platform use case patterns help organizations achieve.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
+exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
 ---
-
 # Key business objectives
 
 Key business objectives define the strategic outcomes that organizations seek to achieve through their digital experience initiatives. Each objective maps to one or more [use case patterns](/help/blueprints/use-case-patterns/overview.md) that describe how to implement Adobe Experience Platform and applications to deliver those outcomes.

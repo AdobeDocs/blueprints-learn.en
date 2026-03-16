@@ -1,9 +1,9 @@
 ---
 title: B2B Analytics
-description: "Learn how to include B2B account-level information in cross-channel customer journey analysis."
+description: Learn how to include B2B account-level information in cross-channel customer journey analysis.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
+exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
 ---
-
 # B2B analytics
 
 This guide provides a comprehensive implementation reference for B2B account-level analytics using [!DNL Customer Journey Analytics] ([!DNL CJA]) B2B Edition and [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B Edition. It is designed for solution architects, marketing technologists, and implementation engineers who need to incorporate B2B account-level information into cross-channel customer journey analysis.

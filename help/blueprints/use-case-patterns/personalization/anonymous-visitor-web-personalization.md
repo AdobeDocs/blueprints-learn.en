@@ -1,9 +1,9 @@
 ---
 title: Anonymous Visitor Web Personalization
-description: "Learn how to deliver personalized web content to unidentified visitors based on in-session behavioral signals."
+description: Learn how to deliver personalized web content to unidentified visitors based on in-session behavioral signals.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
 ---
-
 # Anonymous visitor web personalization
 
 This reference plan provides implementation guidance for delivering personalized web content to anonymous (unidentified) visitors based on in-session behavioral signals. It covers the complete implementation lifecycle -- from [!DNL Web SDK] configuration and edge audience definition through content delivery and performance reporting -- and is designed for solution architects, marketing technologists, and implementation engineers working with [!DNL Adobe Journey Optimizer] (AJO), [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP), and [!DNL Adobe Experience Platform] (AEP).

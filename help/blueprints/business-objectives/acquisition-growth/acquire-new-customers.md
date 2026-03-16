@@ -1,9 +1,9 @@
 ---
 title: Acquire New Customers
-description: "Learn how to expand the customer base through targeted acquisition campaigns, lookalike audiences, and paid media optimization."
+description: Learn how to expand the customer base through targeted acquisition campaigns, lookalike audiences, and paid media optimization.
 solution: Experience Platform, Real-Time Customer Data Platform
+exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
 ---
-
 # Acquire new customers
 
 Expand the customer base through targeted acquisition campaigns, lookalike audiences, and paid media optimization. This objective focuses on reaching new prospects at scale while maintaining cost efficiency through precise audience targeting and suppression of existing customers.

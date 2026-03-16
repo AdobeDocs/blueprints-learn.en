@@ -1,9 +1,9 @@
 ---
 title: B2B Audience Activation
-description: "Learn how to activate account-based B2B audiences across web, email, and advertising channels."
+description: Learn how to activate account-based B2B audiences across web, email, and advertising channels.
 solution: Real-Time Customer Data Platform
+exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
 ---
-
 # B2B audience activation
 
 This guide provides a comprehensive implementation reference for activating account-based B2B audiences using [!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B Edition. It is designed for solution architects, marketing technologists, and implementation engineers who need to build, evaluate, and activate account-level audiences across web, email, advertising, and CRM channels.

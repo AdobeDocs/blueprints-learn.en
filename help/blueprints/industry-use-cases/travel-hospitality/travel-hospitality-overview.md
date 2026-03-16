@@ -1,9 +1,9 @@
 ---
 title: Travel & Hospitality Use Cases
-description: "Discover how travel and hospitality organizations use Adobe Experience Platform to personalize booking experiences, recover abandoned reservations, and build guest loyalty."
+description: Discover how travel and hospitality organizations use Adobe Experience Platform to personalize booking experiences, recover abandoned reservations, and build guest loyalty.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
 ---
-
 # Travel & Hospitality Use Cases
 
 Travel and hospitality organizations use Adobe Experience Platform to bring together guest data from booking engines, loyalty programs, property management systems, and digital touchpoints into a single view of each traveler. This unified foundation powers personalized experiences that inspire bookings, recover abandoned reservations, and build the kind of guest loyalty that drives repeat visits.

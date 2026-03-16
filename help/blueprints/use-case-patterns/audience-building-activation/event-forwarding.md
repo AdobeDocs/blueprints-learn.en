@@ -1,9 +1,9 @@
 ---
 title: Event Forwarding
-description: "Learn how to forward real-time event data collected via Edge Network to non-Adobe destinations for analytics, storage, or advertising."
+description: Learn how to forward real-time event data collected via Edge Network to non-Adobe destinations for analytics, storage, or advertising.
 solution: Experience Platform
+exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
 ---
-
 # Event forwarding
 
 This guide covers the implementation of server-side event forwarding using [!DNL Adobe Experience Platform] Edge Network. It is designed for solution architects, marketing technologists, and implementation engineers who need to distribute real-time event data collected via the Edge Network to non-Adobe destinations — such as third-party analytics platforms, cloud storage endpoints, advertising networks, or custom webhooks.

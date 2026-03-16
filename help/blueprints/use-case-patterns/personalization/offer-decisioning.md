@@ -1,9 +1,9 @@
 ---
 title: Offer Decisioning
-description: "Learn how to use centralized decision logic to select the next-best offer or content for a profile across channels."
+description: Learn how to use centralized decision logic to select the next-best offer or content for a profile across channels.
 solution: Journey Optimizer, Real-Time Customer Data Platform
+exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
 ---
-
 # Offer decisioning
 
 This guide provides a comprehensive implementation reference for offer decisioning using [!DNL Adobe Journey Optimizer] (AJO) Decisioning and [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP). It is designed for solution architects, marketing technologists, and implementation engineers who need to implement centralized offer selection logic that determines the next-best offer for each customer profile across channels.

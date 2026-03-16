@@ -1,9 +1,9 @@
 ---
 title: B2B Use Cases
-description: "Discover how B2B organizations use Adobe Experience Platform to accelerate pipeline, improve lead quality, and drive customer expansion."
+description: Discover how B2B organizations use Adobe Experience Platform to accelerate pipeline, improve lead quality, and drive customer expansion.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
+exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
 ---
-
 # B2B Use Cases
 
 Business-to-business organizations use Adobe Experience Platform to unify account and person-level data, enabling marketing and sales teams to deliver coordinated, relevant experiences across every stage of the buying journey. From pipeline acceleration to customer expansion, these use cases show how B2B teams turn complex data into measurable business outcomes.

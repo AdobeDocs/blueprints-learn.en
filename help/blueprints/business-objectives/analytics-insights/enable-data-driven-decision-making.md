@@ -1,9 +1,9 @@
 ---
 title: Enable Data-Driven Decision Making
-description: "Learn how to empower teams with self-service analytics, real-time customer insights, and AI-powered predictions to guide strategy."
+description: Learn how to empower teams with self-service analytics, real-time customer insights, and AI-powered predictions to guide strategy.
 solution: Experience Platform, Customer Journey Analytics
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
 ---
-
 # Enable data-driven decision making
 
 Empower teams with self-service analytics, real-time customer insights, and AI-powered predictions to guide strategy. This objective focuses on making customer and performance data accessible and actionable for decision-makers across the organization.

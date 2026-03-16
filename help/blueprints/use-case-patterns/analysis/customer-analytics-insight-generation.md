@@ -1,9 +1,9 @@
 ---
 title: Customer Analytics & Insight Generation
-description: "Learn how to build cross-channel analysis workspaces, computed metrics, and dashboards for behavior and performance analysis."
+description: Learn how to build cross-channel analysis workspaces, computed metrics, and dashboards for behavior and performance analysis.
 solution: Customer Journey Analytics, Experience Platform
+exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
 ---
-
 # Customer analytics & insight generation
 
 This guide provides a complete implementation reference for customer analytics and insight generation. It covers how to connect [!DNL Adobe Experience Platform] datasets to [!DNL Customer Journey Analytics], configure data views, build freeform analysis workspaces, create computed metrics, publish dashboards and mobile scorecards, and optionally publish CJA-defined audiences back to [!DNL Adobe Experience Platform] for activation.
