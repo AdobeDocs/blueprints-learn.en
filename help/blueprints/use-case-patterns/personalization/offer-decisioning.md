@@ -24,15 +24,15 @@ This pattern differs from known-visitor web/app personalization in scope -- offe
 
 The following business objectives are supported by this use case pattern.
 
-**[Deliver personalized customer experiences](../../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 **KPIs:** Engagement, Conversion Rates, Customer Satisfaction (CSAT)
 
-**[Drive cross-sell & upsell revenue](../../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
+**[Drive cross-sell & upsell revenue](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 Promote complementary and premium products or services to existing customers based on behavior and purchase history.
 **KPIs:** Upsell/Cross Sell %, Incremental Revenue, Customer Lifetime Value
 
-**[Increase customer loyalty & lifetime value](../../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
+**[Increase customer loyalty & lifetime value](../../business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)**
 Deepen customer relationships and maximize long-term value through loyalty programs, rewards, and personalized engagement.
 **KPIs:** Customer Lifetime Value, Retention, Upsell/Cross Sell %
 

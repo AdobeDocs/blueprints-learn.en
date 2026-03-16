@@ -51,19 +51,19 @@ Find use cases tailored to your industry, each mapped to implementation patterns
 
 <table>
 <tr>
-  <td><a href="industry-use-cases/retail/overview.md"><strong>Retail</strong></a></td>
-  <td><a href="industry-use-cases/financial-services/overview.md"><strong>Financial Services</strong></a></td>
-  <td><a href="industry-use-cases/healthcare/overview.md"><strong>Healthcare</strong></a></td>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>Retail</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>Financial Services</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>Healthcare</strong></a></td>
 </tr>
 <tr>
-  <td><a href="industry-use-cases/automotive/overview.md"><strong>Automotive</strong></a></td>
-  <td><a href="industry-use-cases/travel-hospitality/overview.md"><strong>Travel & Hospitality</strong></a></td>
-  <td><a href="industry-use-cases/telecommunications/overview.md"><strong>Telecommunications</strong></a></td>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>Automotive</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>Travel & Hospitality</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>Telecommunications</strong></a></td>
 </tr>
 <tr>
-  <td><a href="industry-use-cases/media-entertainment/overview.md"><strong>Media & Entertainment</strong></a></td>
-  <td><a href="industry-use-cases/insurance/overview.md"><strong>Insurance</strong></a></td>
-  <td><a href="industry-use-cases/b2b/overview.md"><strong>B2B</strong></a></td>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>Media & Entertainment</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>Insurance</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
 </tr>
 </table>
 

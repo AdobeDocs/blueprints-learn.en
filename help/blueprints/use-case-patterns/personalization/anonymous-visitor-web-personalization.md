@@ -24,7 +24,7 @@ Unlike known-visitor web/app personalization, which leverages the full unified p
 
 The following business objectives are supported by this use case pattern.
 
-**[Increase website engagement](../../../business-objectives/acquisition-growth/increase-website-engagement.md)**
+**[Increase website engagement](../../business-objectives/acquisition-growth/increase-website-engagement.md)**
 
 Improve time on site, pages per session, and interaction with web content through relevant experiences tailored to anonymous visitor signals.
 
@@ -34,7 +34,7 @@ Improve time on site, pages per session, and interaction with web content throug
 | Engagement |
 | Conversion Rates |
 
-**[Deliver personalized customer experiences](../../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage -- even for visitors who have not yet identified themselves.
 
@@ -44,7 +44,7 @@ Tailor content, offers, and messaging to individual preferences, behaviors, and 
 | Conversion Rates |
 | Customer Satisfaction (CSAT) |
 
-**[Increase conversion rates](../../../business-objectives/revenue-monetization/increase-conversion-rates.md)**
+**[Increase conversion rates](../../business-objectives/revenue-monetization/increase-conversion-rates.md)**
 
 Improve the percentage of visitors and prospects who complete desired actions such as purchases, sign-ups, or form submissions by presenting the most relevant content based on behavioral context.
 

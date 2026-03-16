@@ -24,7 +24,7 @@ Organizations use this pattern to respond to customer actions in real time, incr
 
 The following business objectives are supported by this use case pattern.
 
-**[Recover abandoned carts & journeys](../../../business-objectives/customer-experience/recover-abandoned-carts-journeys.md)**
+**[Recover abandoned carts & journeys](../../business-objectives/customer-experience/recover-abandoned-carts-journeys.md)**
 
 Re-engage users who dropped off during purchase, application, or enrollment flows with timely, personalized follow-ups.
 
@@ -32,7 +32,7 @@ Re-engage users who dropped off during purchase, application, or enrollment flow
 | --- |
 | Conversion Rates, Incremental Revenue, Engagement |
 
-**[Increase conversion rates](../../../business-objectives/revenue-monetization/increase-conversion-rates.md)**
+**[Increase conversion rates](../../business-objectives/revenue-monetization/increase-conversion-rates.md)**
 
 Improve the percentage of visitors and prospects who complete desired actions such as purchases, sign-ups, or form submissions.
 
@@ -40,7 +40,7 @@ Improve the percentage of visitors and prospects who complete desired actions su
 | --- |
 | Conversion Rates, Lead Conversion, Cost Per Lead |
 
-**[Deliver personalized customer experiences](../../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
+**[Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 
@@ -48,7 +48,7 @@ Tailor content, offers, and messaging to individual preferences, behaviors, and 
 | --- |
 | Engagement, Conversion Rates, Customer Satisfaction (CSAT) |
 
-**[Improve customer onboarding](../../../business-objectives/customer-experience/improve-customer-onboarding.md)**
+**[Improve customer onboarding](../../business-objectives/customer-experience/improve-customer-onboarding.md)**
 
 Accelerate time-to-value for new customers with streamlined, personalized welcome experiences and activation journeys.
 
