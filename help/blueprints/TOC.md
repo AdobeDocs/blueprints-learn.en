@@ -9,8 +9,8 @@ role: Developer, User
 
 # Customer experience orchestration blueprints {#architecture}
 
-+ [Customer experience orchestrations blueprints](/help/blueprints/overview.md)
-+ Example Key Business Objectives for AEP & Apps{#business-objectives}
++ [Customer experience orchestration blueprints](/help/blueprints/overview.md)
++ Key Business Objectives for AEP & Apps{#business-objectives}
   + [Overview](/help/blueprints/business-objectives/overview.md)
   + Acquisition & Growth{#acquisition-growth}
     + [Acquire New Customers](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
