@@ -10,6 +10,68 @@ role: Developer, User
 # Customer experience orchestration blueprints {#architecture}
 
 + [Customer experience orchestrations blueprints](/help/blueprints/overview.md)
++ Example Key Business Objectives for AEP & Apps{#business-objectives}
+  + [Overview](/help/blueprints/business-objectives/overview.md)
+  + Acquisition & Growth{#acquisition-growth}
+    + [Acquire New Customers](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
+    + [Increase Lead Generation](/help/blueprints/business-objectives/acquisition-growth/increase-lead-generation.md)
+    + [Increase Website Engagement](/help/blueprints/business-objectives/acquisition-growth/increase-website-engagement.md)
+  + Revenue & Monetization{#revenue-monetization}
+    + [Increase Conversion Rates](/help/blueprints/business-objectives/revenue-monetization/increase-conversion-rates.md)
+    + [Increase Revenue & Sales](/help/blueprints/business-objectives/revenue-monetization/increase-revenue-sales.md)
+    + [Drive Cross-Sell & Upsell Revenue](/help/blueprints/business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+    + [Increase Customer Loyalty & Lifetime Value](/help/blueprints/business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)
+  + Cost & Efficiency{#cost-efficiency}
+    + [Reduce Customer Acquisition Cost](/help/blueprints/business-objectives/cost-efficiency/reduce-customer-acquisition-cost.md)
+    + [Optimize Marketing Spend & ROI](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
+    + [Improve Data Quality & Governance](/help/blueprints/business-objectives/cost-efficiency/improve-data-quality-governance.md)
+    + [Consolidate & Modernize Marketing Technology](/help/blueprints/business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)
+  + Customer Experience{#customer-experience-objectives}
+    + [Deliver Personalized Customer Experiences](/help/blueprints/business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+    + [Improve Customer Retention](/help/blueprints/business-objectives/customer-experience/improve-customer-retention.md)
+    + [Improve Customer Onboarding](/help/blueprints/business-objectives/customer-experience/improve-customer-onboarding.md)
+    + [Recover Abandoned Carts & Journeys](/help/blueprints/business-objectives/customer-experience/recover-abandoned-carts-journeys.md)
+  + Analytics & Insights{#analytics-insights}
+    + [Improve Analytics & Reporting](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)
+    + [Enable Data-Driven Decision Making](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)
+    + [Improve Marketing Attribution](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)
+  + Qualification & Sales (B2B){#qualification-sales-b2b}
+    + [Improve Lead Qualification & Conversion](/help/blueprints/business-objectives/qualification-sales-b2b/improve-lead-qualification-conversion.md)
+    + [Improve Customer Engagement](/help/blueprints/business-objectives/qualification-sales-b2b/improve-customer-engagement.md)
++ Use Case Patterns{#use-case-patterns}
+  + [Overview](/help/blueprints/use-case-patterns/overview.md)
+  + Audience Building & Activation{#audience-building-activation}
+    + [Audience Activation to Destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
+    + [Audience Collaboration with Segment Match](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
+    + [Event Forwarding](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
+    + [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+  + Personalization{#personalization-patterns}
+    + [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
+    + [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
+    + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
+    + [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+  + Campaign Management & Orchestration{#campaign-orchestration-patterns}
+    + [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
+    + [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
+    + [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
+    + [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+    + [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+  + Analysis{#analysis-patterns}
+    + [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
+    + [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+  + Conversational Experience{#conversational-experience-patterns}
+    + [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
++ Industry Use Cases Examples{#industry-use-cases}
+  + [Overview](/help/blueprints/industry-use-cases/overview.md)
+  + [Automotive](/help/blueprints/industry-use-cases/automotive/overview.md)
+  + [B2B](/help/blueprints/industry-use-cases/b2b/overview.md)
+  + [Financial Services](/help/blueprints/industry-use-cases/financial-services/overview.md)
+  + [Healthcare](/help/blueprints/industry-use-cases/healthcare/overview.md)
+  + [Insurance](/help/blueprints/industry-use-cases/insurance/overview.md)
+  + [Media & Entertainment](/help/blueprints/industry-use-cases/media-entertainment/overview.md)
+  + [Retail](/help/blueprints/industry-use-cases/retail/overview.md)
+  + [Telecommunications](/help/blueprints/industry-use-cases/telecommunications/overview.md)
+  + [Travel & Hospitality](/help/blueprints/industry-use-cases/travel-hospitality/overview.md)
 + Architecture overviews{#architecture-overview}
   + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
   + [Experience Platform & applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -70,65 +132,3 @@ role: Developer, User
 + Data Analysis, Intelligence, & AI/ML{#data-exploration}
   + [Data analysis & intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom data science for profile enrichment](/help/blueprints/data-insights/data-science.md)
-+ Key Business Objectives{#business-objectives}
-  + [Overview](/help/blueprints/business-objectives/overview.md)
-  + Acquisition & Growth{#acquisition-growth}
-    + [Acquire New Customers](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
-    + [Increase Lead Generation](/help/blueprints/business-objectives/acquisition-growth/increase-lead-generation.md)
-    + [Increase Website Engagement](/help/blueprints/business-objectives/acquisition-growth/increase-website-engagement.md)
-  + Revenue & Monetization{#revenue-monetization}
-    + [Increase Conversion Rates](/help/blueprints/business-objectives/revenue-monetization/increase-conversion-rates.md)
-    + [Increase Revenue & Sales](/help/blueprints/business-objectives/revenue-monetization/increase-revenue-sales.md)
-    + [Drive Cross-Sell & Upsell Revenue](/help/blueprints/business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
-    + [Increase Customer Loyalty & Lifetime Value](/help/blueprints/business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)
-  + Cost & Efficiency{#cost-efficiency}
-    + [Reduce Customer Acquisition Cost](/help/blueprints/business-objectives/cost-efficiency/reduce-customer-acquisition-cost.md)
-    + [Optimize Marketing Spend & ROI](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
-    + [Improve Data Quality & Governance](/help/blueprints/business-objectives/cost-efficiency/improve-data-quality-governance.md)
-    + [Consolidate & Modernize Marketing Technology](/help/blueprints/business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)
-  + Customer Experience{#customer-experience-objectives}
-    + [Deliver Personalized Customer Experiences](/help/blueprints/business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
-    + [Improve Customer Retention](/help/blueprints/business-objectives/customer-experience/improve-customer-retention.md)
-    + [Improve Customer Onboarding](/help/blueprints/business-objectives/customer-experience/improve-customer-onboarding.md)
-    + [Recover Abandoned Carts & Journeys](/help/blueprints/business-objectives/customer-experience/recover-abandoned-carts-journeys.md)
-  + Analytics & Insights{#analytics-insights}
-    + [Improve Analytics & Reporting](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)
-    + [Enable Data-Driven Decision Making](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)
-    + [Improve Marketing Attribution](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)
-  + Qualification & Sales (B2B){#qualification-sales-b2b}
-    + [Improve Lead Qualification & Conversion](/help/blueprints/business-objectives/qualification-sales-b2b/improve-lead-qualification-conversion.md)
-    + [Improve Customer Engagement](/help/blueprints/business-objectives/qualification-sales-b2b/improve-customer-engagement.md)
-+ Use Case Patterns{#use-case-patterns}
-  + [Overview](/help/blueprints/use-case-patterns/overview.md)
-  + Audience Building & Activation{#audience-building-activation}
-    + [Audience Activation to Destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
-    + [Audience Collaboration with Segment Match](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
-    + [Event Forwarding](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
-    + [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
-  + Personalization{#personalization-patterns}
-    + [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
-    + [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
-    + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
-    + [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
-  + Campaign Management & Orchestration{#campaign-orchestration-patterns}
-    + [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
-    + [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
-    + [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
-    + [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-    + [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
-  + Analysis{#analysis-patterns}
-    + [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
-    + [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
-  + Conversational Experience{#conversational-experience-patterns}
-    + [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
-+ Industry Use Cases{#industry-use-cases}
-  + [Overview](/help/blueprints/industry-use-cases/overview.md)
-  + [Automotive](/help/blueprints/industry-use-cases/automotive/overview.md)
-  + [B2B](/help/blueprints/industry-use-cases/b2b/overview.md)
-  + [Financial Services](/help/blueprints/industry-use-cases/financial-services/overview.md)
-  + [Healthcare](/help/blueprints/industry-use-cases/healthcare/overview.md)
-  + [Insurance](/help/blueprints/industry-use-cases/insurance/overview.md)
-  + [Media & Entertainment](/help/blueprints/industry-use-cases/media-entertainment/overview.md)
-  + [Retail](/help/blueprints/industry-use-cases/retail/overview.md)
-  + [Telecommunications](/help/blueprints/industry-use-cases/telecommunications/overview.md)
-  + [Travel & Hospitality](/help/blueprints/industry-use-cases/travel-hospitality/overview.md)
