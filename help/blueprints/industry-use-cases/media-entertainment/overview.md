@@ -27,7 +27,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Recommendation models require a cold-start strategy for new subscribers who lack viewing history, typically falling back to trending, editorially curated, or regionally popular content.
 - Content licensing and availability windows must be factored into recommendation logic so that users are never recommended titles that are unavailable in their region or have been removed from the catalog.
 
----
 
 ## Subscription Churn Prevention
 
@@ -48,7 +47,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - The journey must suppress retention messaging for subscribers who have already renewed or upgraded, requiring real-time integration with the subscription billing system.
 - [!DNL Journey Optimizer] decisioning rules should account for the subscriber's plan type, tenure, and past offer redemption history to avoid presenting offers that feel generic or repetitive.
 
----
 
 ## New Content Release Notifications
 
@@ -69,7 +67,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Notification volume must be managed carefully through frequency capping to prevent subscribers from feeling overwhelmed during periods of heavy content releases.
 - Time zone and viewing habit data should inform delivery timing so that notifications arrive when each subscriber is most likely to engage, rather than at a single global send time.
 
----
 
 ## Personalized Homepage Experience
 
@@ -90,7 +87,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Content row strategies, such as "Continue Watching," "Because You Watched," and "Trending Now," each require distinct data inputs and ranking logic that must be orchestrated into a cohesive page layout.
 - [!DNL Experience Platform] Web SDK implementation must capture homepage interactions, including row scrolls, tile clicks, and hover behavior, to continuously refine the ranking models.
 
----
 
 ## Watchlist and Favorites Reminders
 
@@ -111,7 +107,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Reminders should highlight contextual details such as expiring availability windows or new seasons of saved series to create natural urgency without feeling pushy.
 - Content that has been removed from the catalog or is no longer available in the subscriber's region must be automatically excluded from reminder messages and replaced with alternative recommendations.
 
----
 
 ## Free Trial Conversion Campaigns
 
@@ -132,7 +127,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Users who convert before the trial ends should be automatically moved from the conversion journey into a new subscriber welcome flow, preventing continued trial-focused messaging.
 - [!DNL Journey Optimizer] journey conditions should account for trial plan type, referral source, and device usage to tailor the conversion approach for different audience segments.
 
----
 
 ## Live Event Viewing Reminders
 
@@ -153,7 +147,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Interest matching should incorporate both explicit preferences, such as favorite teams or genres, and implicit signals like past live event viewing patterns to identify relevant events for each subscriber.
 - Multi-device notification coordination is important so that a subscriber does not receive redundant reminders on their phone, tablet, and smart TV simultaneously.
 
----
 
 ## Personalized Playlist Generation
 
@@ -174,7 +167,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Contextual signals such as time of day, day of week, and listening device can inform playlist mood and energy level, creating playlists that feel appropriate for the moment.
 - [!DNL Experience Platform] behavioral data must capture granular listening events including skips, replays, saves, and session duration to continuously refine the recommendation models.
 
----
 
 ## Cross-Platform Content Sync
 
@@ -195,7 +187,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Recommendation models should account for device context, as content preferences may differ between a mobile commute session and an evening living room session on a large screen.
 - [!DNL Real-Time Customer Data Platform] profile merge policies must be configured to handle simultaneous sessions on multiple devices without creating conflicting state updates.
 
----
 
 ## Social Sharing Personalization
 
@@ -216,7 +207,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Privacy controls must ensure that viewing activity is only shared when the user explicitly initiates sharing; passive or automatic sharing of watch history without consent can damage trust.
 - Social platform integration must comply with each network's sharing policies and handle authentication, rate limits, and content format requirements for platforms like Instagram, TikTok, and X.
 
----
 
 ## Premium Feature Upsell
 
@@ -237,7 +227,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Upsell timing should avoid moments of frustration, such as immediately after a paywall block, and instead leverage positive engagement moments when the subscriber is most receptive.
 - [!DNL Journey Optimizer] decisioning rules must coordinate upsell offers across in-app messages, email, and push notifications to present a consistent offer without overwhelming the subscriber across channels.
 
----
 
 ## Content Completion Campaigns
 

@@ -27,7 +27,6 @@ Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patter
 - Fallback content strategies are essential for visitors whose location cannot be determined or who arrive through anonymizing services.
 - Integration with the reservation system's availability feed ensures that featured properties and itineraries are actually bookable, preventing frustration from promoting sold-out options.
 
----
 
 ## Cart Abandonment Recovery Journey
 
@@ -48,7 +47,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Personalized incentives such as complimentary upgrades or resort credits should be managed through business rules that account for margin, seasonality, and the customer's loyalty tier.
 - Suppression logic must exclude customers who completed their booking through another channel, such as a call center or travel agent, to avoid irrelevant follow-up messages.
 
----
 
 ## High-Intent Visitor Targeting
 
@@ -69,7 +67,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - The scoring model should distinguish between research intent and booking intent, since travelers often research months before they are ready to purchase.
 - [!DNL Real-Time Customer Data Platform] computed attributes can aggregate behavioral signals across sessions to maintain an up-to-date intent score for each visitor.
 
----
 
 ## Post-Booking Upsell Campaigns
 
@@ -90,7 +87,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Inventory and availability for ancillary products must be checked at the time of offer presentation, since excursion capacity and upgrade availability change continuously.
 - [!DNL Journey Optimizer] personalization should account for the number of travelers in the booking, recommending family-appropriate excursions for family bookings and couples-oriented experiences for two-person reservations.
 
----
 
 ## Win-Back Campaigns for Lapsed Customers
 
@@ -111,7 +107,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Offers should escalate across the journey, starting with inspirational content and progressing to monetary incentives only if earlier messages do not generate engagement.
 - Customer records must be checked against the reservation system for any bookings made through offline channels such as travel agents or call centers to avoid sending win-back messages to customers who are actually active.
 
----
 
 ## Dynamic Itinerary Recommendations
 
@@ -132,7 +127,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Seasonal factors should heavily influence recommendations; customers who previously booked summer Mediterranean cruises should see similar seasonal options rather than off-season alternatives.
 - [!DNL Experience Platform] profile merge policies must correctly unify browsing behavior from multiple devices so that research conducted on mobile is reflected in desktop recommendations.
 
----
 
 ## Recently Browsed Products on Homepage
 
@@ -153,7 +147,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - The recency window for displayed items should be tuned to travel booking cycles; showing a cruise viewed three months ago may still be relevant, unlike a retail product viewed that long ago.
 - Privacy considerations require that recently viewed content be tied to the customer's consent status, and an option to clear browsing history should be easily accessible.
 
----
 
 ## Exit Intent Modal with Targeted Offers
 
@@ -174,7 +167,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Modal frequency should be strictly limited to prevent visitors from seeing the same offer on every visit, which erodes the urgency and perceived exclusivity of the promotion.
 - [!DNL Journey Optimizer] offer eligibility rules should consider the visitor's loyalty tier and booking history to present appropriately valued incentives, offering premium guests meaningful perks rather than small discounts.
 
----
 
 ## Loyalty Program Personalization
 
@@ -195,7 +187,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Point balance changes from bookings, stays, and partner transactions should trigger recalculation of personalization rules in near real time, so that a customer who just earned enough points for a reward sees that option immediately.
 - [!DNL Real-Time Customer Data Platform] audiences should be structured around loyalty tiers and key engagement milestones such as approaching the next tier or at risk of tier demotion.
 
----
 
 ## Multi-Channel Booking Reminders
 
@@ -216,7 +207,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Timing and frequency rules should coordinate across channels to avoid overwhelming the customer; an email and a push notification about the same booking should be spaced appropriately rather than sent simultaneously.
 - Integration with the property management or central reservation system must verify that the originally selected room type, rate, and dates are still available before sending the reminder, updating the message if availability has changed.
 
----
 
 ## Seasonal Campaign Personalization
 
@@ -237,7 +227,6 @@ Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/c
 - Pricing and availability feeds for seasonal inventory must be integrated so that promoted deals reflect real-time rates and actual room or cabin availability during the featured travel periods.
 - [!DNL Experience Platform] audiences should combine seasonal preference data with recency indicators to prioritize customers who are in their typical planning window for the upcoming season.
 
----
 
 ## Group Booking Recommendations
 

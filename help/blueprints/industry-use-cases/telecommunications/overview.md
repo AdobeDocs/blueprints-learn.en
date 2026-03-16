@@ -27,7 +27,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Incorporate device usage telemetry (storage capacity, battery health, performance metrics) to strengthen recommendation relevance.
 - Coordinate with retail and e-commerce platforms to maintain a consistent upgrade experience across digital and in-store channels.
 
----
 
 ## Plan Optimization Campaigns
 
@@ -48,7 +47,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Account for promotional pricing rules and contract obligations when generating plan recommendations.
 - Integrate with self-service portals so subscribers can complete plan changes directly from campaign touchpoints.
 
----
 
 ## Churn Prevention for High-Value Customers
 
@@ -69,7 +67,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Connect competitive intelligence data (port-out requests, competitor plan comparisons) to refine risk scoring and offer strategies.
 - Establish governance rules to prevent over-contacting at-risk subscribers, which can accelerate churn rather than prevent it.
 
----
 
 ## New Customer Onboarding Journey
 
@@ -90,7 +87,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Coordinate with the customer support platform to ensure agents are aware of a subscriber's onboarding stage if they call in with questions.
 - Support multiple onboarding paths for different customer segments such as individual subscribers, family plan administrators, and business accounts.
 
----
 
 ## Data Usage Alerts and Recommendations
 
@@ -111,7 +107,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Account for shared data pools on family plans by alerting both the individual user and the plan administrator.
 - Implement frequency capping to avoid alert fatigue for subscribers who consistently use high amounts of data each billing cycle.
 
----
 
 ## Service Outage Notifications
 
@@ -132,7 +127,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Connect to the billing and credits system to automate service credit offers for extended outages based on the subscriber's plan and the duration of the disruption.
 - Coordinate messaging across channels to provide consistent status updates and avoid sending conflicting information as the situation evolves.
 
----
 
 ## Family Plan Management
 
@@ -153,7 +147,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Integrate parental control and content filtering systems to support family-specific features in personalization.
 - Ensure privacy controls are in place so individual member usage details are shared appropriately with the plan administrator based on account permissions.
 
----
 
 ## 5G Upgrade Campaigns
 
@@ -174,7 +167,6 @@ Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/c
 - Coordinate with retail inventory systems to ensure promoted devices and plans are available in the subscriber's preferred store or online.
 - Segment messaging by usage profile so heavy data users receive performance-focused benefits while casual users receive coverage and reliability messaging.
 
----
 
 ## Bill Payment Reminders
 
@@ -195,7 +187,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Implement escalation logic that adjusts reminder urgency and frequency as the due date approaches, while respecting communication preferences.
 - Support multiple payment methods (auto-pay enrollment, digital wallet, bank transfer) and personalize the presented options based on the subscriber's history.
 
----
 
 ## Add-On Service Recommendations
 
@@ -216,7 +207,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Use device and usage data to inform recommendations, such as suggesting device insurance for subscribers with new premium devices or cloud storage for those running low on device storage.
 - Coordinate with in-app and web personalization to reinforce add-on recommendations across self-service touchpoints.
 
----
 
 ## Network Performance Personalization
 
@@ -237,7 +227,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Use [!DNL Adobe Experience Platform] edge services to deliver low-latency personalization within the app experience without impacting performance.
 - Implement feedback loops so subscribers can report coverage issues, enriching network data while demonstrating responsiveness to their experience.
 
----
 
 ## Loyalty Program Engagement
 

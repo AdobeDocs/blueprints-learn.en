@@ -27,7 +27,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Configure suppression rules to prevent renewal messages from being sent to policyholders who have already renewed or who have active claims that may affect their renewal terms.
 - Coordinate timing with agent or broker assignments so that direct-to-customer messages align with any outreach the assigned agent may also be conducting.
 
----
 
 ## Cross-Sell Product Recommendations
 
@@ -48,7 +47,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Apply regulatory compliance rules to ensure product recommendations comply with state-specific insurance marketing and suitability requirements.
 - Coordinate decisioning output with the agent portal so that recommended products are visible to assigned agents who may be having direct conversations with the customer.
 
----
 
 ## Claims Process Personalization
 
@@ -69,7 +67,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Implement suppression rules during active claims investigations to prevent marketing or cross-sell messages from reaching customers at sensitive moments.
 - Ensure all claims-related data flowing into the customer profile is labeled with appropriate data governance restrictions to prevent its use outside of service communications.
 
----
 
 ## Risk Assessment and Prevention
 
@@ -90,7 +87,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Apply data governance labels to distinguish risk assessment data used for customer education from data used in actuarial underwriting decisions.
 - Coordinate risk prevention content with the policyholder's specific coverage so that recommendations are relevant to the perils their policy actually covers.
 
----
 
 ## Policy Change Notifications
 
@@ -111,7 +107,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Configure channel priority logic based on the urgency and type of change — for example, coverage reductions may warrant more immediate channels than informational updates.
 - Maintain a delivery audit trail for all policy change notifications to support regulatory compliance documentation and dispute resolution.
 
----
 
 ## Quote Abandonment Recovery
 
@@ -132,7 +127,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Apply consent and privacy rules to ensure follow-up is only sent to prospects who have opted in to marketing communications, particularly for customers who have not yet established a policy relationship.
 - Include deep links that return the prospect directly to their saved quote rather than requiring them to restart the process from the beginning.
 
----
 
 ## Life Stage-Based Product Offers
 
@@ -153,7 +147,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Coordinate life stage offers with the assigned agent or broker so they are prepared to support the customer with a consultative conversation when the offer is delivered.
 - Apply data governance labels to any third-party data sources used for life stage inference to ensure compliance with data privacy regulations and fair marketing practices.
 
----
 
 ## Discount and Savings Opportunities
 
@@ -174,7 +167,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Apply state-specific regulatory rules to discount communications, as certain states have restrictions on how insurance discounts can be marketed and applied.
 - Track discount adoption outcomes to continuously refine the decisioning model and prioritize the savings messages that resonate most with different customer segments.
 
----
 
 ## Claims Fraud Prevention
 
@@ -195,7 +187,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Implement role-based access controls to ensure fraud indicators are only visible to authorized investigation teams and are never surfaced in standard agent or customer service views.
 - Coordinate with the [!DNL Adobe Experience Platform] identity resolution service to detect patterns across related profiles, such as shared addresses or phone numbers linked to multiple suspicious claims.
 
----
 
 ## Wellness and Prevention Programs
 
@@ -216,7 +207,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Design journey logic that adjusts program intensity and communication frequency based on each participant's engagement level to prevent fatigue and encourage sustained participation.
 - Ensure wellness incentive and reward tracking complies with applicable insurance regulations around policyholder inducements and premium discount programs.
 
----
 
 ## Agent and Broker Coordination
 
@@ -237,7 +227,6 @@ Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/c
 - Apply data governance labels to restrict which customer data elements are shared with external broker partners versus captive agents, respecting contractual and regulatory data sharing boundaries.
 - Implement feedback loops from agent interactions back into the customer profile so that insights from in-person or phone conversations enrich the unified view and improve future personalization.
 
----
 
 ## Catastrophic Event Response
 

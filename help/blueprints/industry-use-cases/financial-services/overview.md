@@ -27,7 +27,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Configure journey throttling to avoid overwhelming prospects with multiple communications during short evaluation windows.
 - Account for data latency between branch or advisor interactions and digital engagement to keep nurture messaging relevant.
 
----
 
 ## Product Recommendation for Existing Customers
 
@@ -48,7 +47,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Coordinate offer delivery across online banking, mobile app, email, and advisor channels to prevent conflicting or duplicate recommendations.
 - Implement frequency capping per product category to avoid recommendation fatigue, especially for high-consideration products like mortgages and investment accounts.
 
----
 
 ## Churn Prevention Campaigns
 
@@ -69,7 +67,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Ensure retention offers comply with fair lending and equal treatment regulations so that high-risk segments receive equitable treatment.
 - Build suppression logic to exclude customers who are churning due to fraud or compliance actions, where retention outreach would be inappropriate.
 
----
 
 ## Personalized Account Dashboard
 
@@ -90,7 +87,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Comply with accessibility standards and ensure personalized content meets the same regulatory disclosure requirements as static content.
 - Coordinate personalization logic between web and mobile channels so customers see a consistent experience regardless of device.
 
----
 
 ## Life Stage-Based Product Offers
 
@@ -111,7 +107,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Layer regulatory suitability checks into offer decisioning so that recommended products align with the customer's verified financial situation.
 - Build cooling-off periods between life stage campaigns to prevent overlapping outreach when multiple indicators fire in a short window.
 
----
 
 ## Transaction-Based Alerts and Recommendations
 
@@ -132,7 +127,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Separate mandatory security alerts from optional recommendation messages in the messaging architecture to ensure compliance notifications are never suppressed.
 - Account for high transaction volumes during peak periods such as paydays and holidays by designing throughput capacity that scales with demand.
 
----
 
 ## Credit Card Application Abandonment Recovery
 
@@ -153,7 +147,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Implement time-decay logic so that recovery outreach stops after a defined window, as stale application data may no longer be valid for pre-qualification.
 - Coordinate with the application system to suppress recovery messages for applicants who completed via a different channel such as a branch visit or phone call.
 
----
 
 ## Investment Portfolio Recommendations
 
@@ -174,7 +167,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Clearly label personalized investment content as educational or informational where required, distinguishing it from formal investment advice that carries fiduciary obligations.
 - Refresh recommendation models on a regular cadence to account for market shifts, portfolio drift, and changes in customer goals.
 
----
 
 ## Fraud Alert Personalization
 
@@ -195,7 +187,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Store alert interaction history to improve future alert relevance and reduce false-positive fatigue for customers who frequently travel or make atypical purchases.
 - Ensure all fraud alert content and workflows comply with banking security regulations and do not expose sensitive account details in message previews or subject lines.
 
----
 
 ## Loyalty Program Engagement
 
@@ -216,7 +207,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Coordinate loyalty messaging with broader marketing campaigns to prevent message fatigue and conflicting offers across programs.
 - Track redemption attribution across channels to measure which personalized communications drive the highest program return on investment.
 
----
 
 ## Mortgage Pre-Approval Campaigns
 
@@ -237,7 +227,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Coordinate campaign timing with rate environment changes so that outreach aligns with favorable borrowing conditions and avoids outdated rate references.
 - Build handoff workflows to loan officers so that digitally nurtured leads transition smoothly into the formal application and underwriting process.
 
----
 
 ## Personalized Financial Education Content
 

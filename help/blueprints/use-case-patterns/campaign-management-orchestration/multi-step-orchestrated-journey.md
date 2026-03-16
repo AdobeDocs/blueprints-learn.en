@@ -369,7 +369,6 @@ Configure channel surfaces for EACH channel used in the journey (email, SMS, pus
 - [IP warmup plans](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
 - [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 
----
 
 ### Phase 2: Create message content
 
@@ -435,7 +434,6 @@ Should shared content blocks (headers, footers, legal text) be created as reusab
 - [Design a push notification](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
 - [Preview and test your content](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
----
 
 ### Phase 3: Design and activate the journey
 
@@ -563,7 +561,6 @@ What is the maximum duration a profile can remain in the journey?
 - [Test your journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [Publish the journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
----
 
 ### Phase 4: Configure governance and optimization
 
@@ -626,7 +623,6 @@ Should any journey message include an A/B or multivariate test?
 - [Create a content experiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Consent in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
----
 
 ### Phase 5: Configure reporting and monitoring
 

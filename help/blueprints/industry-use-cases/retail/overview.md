@@ -27,7 +27,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Recommendation models require a cold-start strategy for new visitors who lack browsing history, typically falling back to trending or best-selling products.
 - Page load performance must be monitored carefully, as personalization calls should not add noticeable latency to the shopping experience.
 
----
 
 ## Abandoned Cart Email Recovery
 
@@ -48,7 +47,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Frequency capping rules should prevent customers from receiving multiple abandon cart emails in a short period, especially if they abandon carts frequently.
 - Consent and suppression lists must be checked before sending, and customers who completed their purchase through another channel should be excluded in real time.
 
----
 
 ## Inventory-Based Urgency Campaigns
 
@@ -69,7 +67,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Messaging must be truthful and comply with consumer protection regulations; displaying false scarcity can damage brand trust and may violate advertising standards in certain markets.
 - On-site messaging and email channels should be coordinated so that a customer who already purchased does not continue to receive urgency notifications for the same product.
 
----
 
 ## Cross-Sell and Upsell Recommendations
 
@@ -90,7 +87,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Cross-sell recommendations at checkout must load quickly and not disrupt the purchase flow; slow or intrusive suggestions can actually reduce conversion.
 - [!DNL Journey Optimizer] decision rules should include fallback offers so that every eligible customer receives a recommendation, even when the top-ranked option is unavailable.
 
----
 
 ## New Customer Welcome Series
 
@@ -111,7 +107,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Product recommendations within welcome emails should reflect what the customer browsed or purchased during their first visit, not generic best-sellers.
 - Customers who make a purchase during the welcome series should branch into a post-purchase flow rather than continuing to receive acquisition-focused messaging.
 
----
 
 ## Price Drop Alerts
 
@@ -132,7 +127,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Notifications should include the original price, new price, and savings amount to clearly communicate the value; vague "price reduced" messages underperform specific savings callouts.
 - [!DNL Real-Time Customer Data Platform] segments for price-sensitive shoppers can be used to prioritize alert delivery and tailor the messaging tone.
 
----
 
 ## Replenishment Reminders
 
@@ -153,7 +147,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Reminders should include a direct reorder link or one-click repurchase option to minimize friction and maximize conversion from the notification.
 - Customers who have already reordered through another channel (in-store, subscription service) must be suppressed to avoid sending irrelevant reminders.
 
----
 
 ## Personalized Category Pages
 
@@ -174,7 +167,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - A/B testing infrastructure should be in place to measure the revenue impact of personalized sorting versus default merchandising rules on an ongoing basis.
 - [!DNL Experience Platform] Web SDK implementation must capture category page interactions (scroll depth, product clicks, filter usage) to continuously refine the ranking models.
 
----
 
 ## Post-Purchase Follow-Up Campaigns
 
@@ -195,7 +187,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Review request timing should be optimized based on the product category; electronics may need a longer usage period before a meaningful review, while apparel can be reviewed shortly after delivery.
 - Customers who initiate a return or exchange should be automatically removed from the standard post-purchase flow and redirected to a service recovery path.
 
----
 
 ## VIP Customer Exclusive Offers
 
@@ -216,7 +207,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Channel preferences vary significantly among high-value customers; some prefer email, others respond to app notifications or direct mail, so the journey should adapt delivery channels based on past engagement.
 - [!DNL Journey Optimizer] decisioning must coordinate across channels to prevent a VIP customer from receiving the same offer via email, push, and SMS simultaneously.
 
----
 
 ## Out-of-Stock Notifications
 
@@ -237,7 +227,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - The notification sign-up mechanism must capture channel preference (email or text message) and comply with opt-in requirements for each channel, particularly for SMS.
 - [!DNL Real-Time Customer Data Platform] profile attributes should track which products each customer is watching so that duplicate notifications are prevented if the same product restocks multiple times.
 
----
 
 ## Social Proof Personalization
 

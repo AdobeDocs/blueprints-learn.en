@@ -351,7 +351,6 @@ The evaluation method should accommodate the most demanding destination. If any 
 - [Audience Composition overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Evaluation methods](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
 
----
 
 ### Phase 2: Destination configuration
 
@@ -429,7 +428,6 @@ Repeat this phase for each destination. Each connection is independent -- you ma
 - [Destination SDK overview](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
 - [Destination SDK configuration options](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
----
 
 ### Phase 3: Audience activation
 
@@ -491,7 +489,6 @@ Repeat the activation workflow for each destination. The same audience can be ac
 - [Activate audiences on-demand to batch destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
 - [Monitor dataflows for destinations](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
 
----
 
 ### Phase 4: Governance validation
 
@@ -540,7 +537,6 @@ Repeat the activation workflow for each destination. The same audience can be ac
 - [Consent and preferences](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 - [Consent policy enforcement](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
 
----
 
 ### Phase 5: Monitoring and validation
 

@@ -27,7 +27,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Apply consent management policies so that reminders are only sent through channels the patient has explicitly opted into.
 - Configure suppression rules to prevent duplicate or excessive reminders when appointments are rescheduled in quick succession.
 
----
 
 ## Medication Adherence Campaigns
 
@@ -48,7 +47,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Implement robust consent management to ensure patients have agreed to receive medication-related communications and can withdraw consent at any time.
 - Design journey logic to detect non-engagement patterns and escalate to care team notifications when a patient may be at risk of non-adherence.
 
----
 
 ## Preventive Care Reminders
 
@@ -69,7 +67,6 @@ Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/c
 - Implement frequency capping to avoid overwhelming patients who qualify for multiple preventive care recommendations simultaneously.
 - Maintain an audit trail of all preventive care communications sent for regulatory reporting and quality measure documentation.
 
----
 
 ## Post-Visit Follow-Up Campaigns
 
@@ -90,7 +87,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Configure timing rules that account for visit type — for example, post-surgical follow-ups may require different timing than routine check-up surveys.
 - Include secure links to the patient portal for survey completion and appointment scheduling rather than collecting health information through unsecured channels.
 
----
 
 ## Chronic Disease Management Programs
 
@@ -111,7 +107,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Integrate with remote patient monitoring devices and patient-reported outcome systems to feed real-time health data into journey decision points.
 - Build care team escalation paths within the journey so that non-engagement or concerning health trends trigger alerts to the appropriate clinical staff.
 
----
 
 ## New Patient Onboarding Journey
 
@@ -132,7 +127,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Ensure portal activation links and credentials are delivered through secure, HIPAA-compliant channels and expire after a defined period.
 - Design the journey to detect portal activation and form completion events so that subsequent steps adapt rather than repeating information the patient has already acted on.
 
----
 
 ## Personalized Health Content Delivery
 
@@ -153,7 +147,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Implement content fatigue rules to avoid over-delivering content on a single topic and to balance educational material across a patient's various health needs.
 - Track content engagement signals (opens, clicks, time spent) to continuously refine content relevance without collecting or storing additional protected health information.
 
----
 
 ## Lab Results Notification
 
@@ -174,7 +167,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Implement provider-hold logic so that notifications are only sent after the ordering physician has reviewed and released the results for patient viewing.
 - Ensure all notification links point to authenticated, encrypted patient portal sessions that meet HIPAA security requirements.
 
----
 
 ## Insurance Coverage Verification
 
@@ -195,7 +187,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Configure message timing to allow sufficient lead time before the appointment for patients to resolve any coverage issues or contact their insurance provider.
 - Include clear instructions and contact information for the billing department so patients can ask questions or provide updated insurance details before their visit.
 
----
 
 ## Telehealth Appointment Reminders
 
@@ -216,7 +207,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Integrate with the telehealth platform to detect when a patient has successfully connected so that secondary reminder messages can be suppressed.
 - Provide a fallback path to technical support contact information for patients who have not connected within a defined window before the appointment start time.
 
----
 
 ## Wellness Program Engagement
 
@@ -237,7 +227,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Design journey logic that adjusts challenge difficulty and communication frequency based on each patient's engagement patterns to avoid discouragement or fatigue.
 - Ensure reward and incentive tracking complies with applicable healthcare regulations around patient inducements and anti-kickback requirements.
 
----
 
 ## Care Team Coordination
 

@@ -31,7 +31,6 @@ Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-bu
 - Map person-to-account relationships to ensure individual engagement signals roll up to account-level scoring and segmentation.
 - Coordinate with [!DNL Marketo Engage] to align marketing automation campaigns with platform-driven account audiences.
 
----
 
 ## Lead Scoring and Nurturing
 
@@ -52,7 +51,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Coordinate lead scoring models with [!DNL Marketo Engage] to avoid conflicting scores across platforms.
 - Set score decay rules to ensure leads that go quiet are deprioritized over time.
 
----
 
 ## Content Personalization for Prospects
 
@@ -73,7 +71,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Integrate with your content management system to dynamically swap hero banners, resource recommendations, and calls to action.
 - Ensure [!DNL Marketo Engage] web tracking data feeds into the unified profile for a complete behavioral picture.
 
----
 
 ## Event Registration and Follow-Up
 
@@ -94,7 +91,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Coordinate event journeys with [!DNL Marketo Engage] program statuses to maintain consistent reporting across systems.
 - Design separate journey branches for registrants who attended versus those who did not, with tailored content for each.
 
----
 
 ## Product Trial Conversion Campaigns
 
@@ -115,7 +111,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Sync trial status and conversion events back to [!DNL Salesforce] or [!DNL Microsoft Dynamics] so sales representatives have full visibility into trial activity.
 - Coordinate with [!DNL Marketo Engage] nurture programs to avoid overlapping communications during the trial period.
 
----
 
 ## Customer Success and Onboarding
 
@@ -136,7 +131,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Integrate customer success platform data to surface health scores and flag at-risk accounts for proactive intervention.
 - Sync onboarding status and adoption metrics back to [!DNL Salesforce] or [!DNL Microsoft Dynamics] so customer success managers can prioritize outreach.
 
----
 
 ## Contract Renewal Campaigns
 
@@ -157,7 +151,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Use decisioning to select the optimal renewal incentive (discount, extended terms, premium upgrade) based on account lifetime value and churn probability.
 - Coordinate renewal outreach with customer success and sales teams to avoid conflicting messages through [!DNL Marketo Engage] and CRM task assignment.
 
----
 
 ## Upsell and Expansion Opportunities
 
@@ -178,7 +171,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Sync expansion opportunities and recommended offers back to [!DNL Salesforce] or [!DNL Microsoft Dynamics] so sales teams can follow up on marketing-generated pipeline.
 - Coordinate with [!DNL Marketo Engage] to ensure expansion messaging does not conflict with ongoing support or renewal communications.
 
----
 
 ## Competitive Replacement Campaigns
 
@@ -199,7 +191,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Coordinate with [!DNL Marketo Engage] to suppress competitive campaigns for prospects already in active sales cycles or existing customers.
 - Track competitive displacement pipeline in [!DNL Salesforce] or [!DNL Microsoft Dynamics] with dedicated campaign attribution to measure program effectiveness.
 
----
 
 ## Webinar and Demo Scheduling
 
@@ -220,7 +211,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Sync demo requests and scheduling data with [!DNL Salesforce] or [!DNL Microsoft Dynamics] to ensure sales teams receive timely notifications and context.
 - Coordinate invitation cadence with [!DNL Marketo Engage] communication limits to prevent over-messaging prospects who qualify for multiple events.
 
----
 
 ## Case Study and ROI Personalization
 
@@ -241,7 +231,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Integrate content engagement signals (downloads, time on page, shares) back into the unified profile to inform lead scoring and sales outreach.
 - Coordinate with [!DNL Marketo Engage] to include personalized proof-point content in nurture email sequences, not just on-site experiences.
 
----
 
 ## Customer Advocacy Programs
 
