@@ -15,15 +15,15 @@ Browse by industry to find use cases relevant to your organization, then follow 
 
 | Industry | Key Themes |
 | --- | --- |
-| [Automotive](automotive/overview.md) | Vehicle purchase journey, service lifecycle, connected car experiences, owner loyalty |
-| [B2B](b2b/overview.md) | Account-based marketing, lead scoring, pipeline acceleration, customer expansion |
-| [Financial Services](financial-services/overview.md) | Product recommendations, churn prevention, life-stage offers, fraud personalization |
-| [Healthcare](healthcare/overview.md) | Appointment management, medication adherence, patient onboarding, care coordination |
-| [Insurance](insurance/overview.md) | Policy renewal, claims experience, risk prevention, cross-sell optimization |
-| [Media & Entertainment](media-entertainment/overview.md) | Content recommendations, subscription retention, trial conversion, cross-platform engagement |
-| [Retail](retail/overview.md) | Product personalization, cart recovery, cross-sell optimization, loyalty engagement |
-| [Telecommunications](telecommunications/overview.md) | Device upgrades, churn prevention, plan optimization, network engagement |
-| [Travel & Hospitality](travel-hospitality/overview.md) | Booking personalization, abandonment recovery, loyalty programs, seasonal campaigns |
+| [Automotive](automotive/automotive-overview.md) | Vehicle purchase journey, service lifecycle, connected car experiences, owner loyalty |
+| [B2B](b2b/b2b-overview.md) | Account-based marketing, lead scoring, pipeline acceleration, customer expansion |
+| [Financial Services](financial-services/financial-services-overview.md) | Product recommendations, churn prevention, life-stage offers, fraud personalization |
+| [Healthcare](healthcare/healthcare-overview.md) | Appointment management, medication adherence, patient onboarding, care coordination |
+| [Insurance](insurance/insurance-overview.md) | Policy renewal, claims experience, risk prevention, cross-sell optimization |
+| [Media & Entertainment](media-entertainment/media-entertainment-overview.md) | Content recommendations, subscription retention, trial conversion, cross-platform engagement |
+| [Retail](retail/retail-overview.md) | Product personalization, cart recovery, cross-sell optimization, loyalty engagement |
+| [Telecommunications](telecommunications/telecommunications-overview.md) | Device upgrades, churn prevention, plan optimization, network engagement |
+| [Travel & Hospitality](travel-hospitality/travel-hospitality-overview.md) | Booking personalization, abandonment recovery, loyalty programs, seasonal campaigns |
 
 ## How use cases connect to implementation guidance
 
