@@ -72,7 +72,7 @@ role: Developer, User
   + [Retail](/help/blueprints/industry-use-cases/retail/retail-overview.md)
   + [Telecommunications](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
   + [Travel & Hospitality](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
-+ Architecture Diagrams{#architecture-diagrams}
++ Architecture Diagrams and Blueprints{#architecture-diagrams}
   + Architecture overviews{#architecture-overview}
     + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
     + [Experience Platform & applications](/help/blueprints/experience-platform/platform-applications.md)
@@ -103,8 +103,6 @@ role: Developer, User
       + [Intake and create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Review and approve](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Customer success stories](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-  + Content & commerce{#content-commerce}
-    + [Adobe Commerce & Real-Time CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
   + Customer Journey Analytics{#customer-journey-analytics}
     + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
     + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
