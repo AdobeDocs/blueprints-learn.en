@@ -68,7 +68,7 @@ Use cases tailored to specific industries, each mapped to implementation pattern
 </tr>
 </table>
 
-[View all industry use cases](industry-use-cases/overview.md)
+[View all industry use cases](industry-use-cases/use-case-catalog.md)
 
 ## Architecture diagrams and blueprints
 
