@@ -3,7 +3,7 @@ title: Custom Data Science for Profile Enrichment Blueprint
 description: Learn how data science-based insights can be ingested into [!DNL Experience Platform] to enrich the Real-time Customer Profile.
 solution: Data Collection
 kt: 7203
-exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
+exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669
 ---
 # Custom data science for profile enrichment blueprint
 
