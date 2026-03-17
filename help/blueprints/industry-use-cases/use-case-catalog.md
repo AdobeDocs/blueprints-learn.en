@@ -2,7 +2,7 @@
 title: Use Case Catalog
 description: Browse industry use cases by vertical, maturity level, or implementation pattern to find the right starting point for your Adobe Experience Platform journey.
 doc-type: overview-page
-exl-id: 7a3c2f1e-9b4d-4e6a-8f5c-2d1b3a4e7c9f
+exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
 ---
 # Use case catalog
 
