@@ -62,7 +62,6 @@ role: Developer, User
   + Conversational Experience{#conversational-experience-patterns}
     + [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + Industry Use Cases Examples{#industry-use-cases}
-  + [Overview](/help/blueprints/industry-use-cases/overview.md)
   + [Use Case Catalog](/help/blueprints/industry-use-cases/use-case-catalog.md)
   + [Automotive](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
   + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
