@@ -4,7 +4,7 @@ description: Explore key business objectives, use case patterns, and industry us
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
-# Customer experience orchestration blueprints
+# Customer experience orchestration business obectives, use cases, and architecture diagrams
 
 This site contains **Key Business Objectives** which outline example primary business value and objectives that can be acheived with Adobe Experience Platform and Applications. **Use case patterns** describe common platform and application capabilities with repeatable implementation approaches. **Industry use cases** apply patterns to vertical-specific business scenarios. **Architecture Diagrams and Blueprints** are visual architecture and data flow reference diagrams that illustrate system integration points, data and content flows, and sequence of operations — providing a technical reference for solution design. Together these layers connect business value to implemenation dependencies and architecture.
 
