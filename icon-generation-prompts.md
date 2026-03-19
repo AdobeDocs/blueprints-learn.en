@@ -1,6 +1,6 @@
 # Icon Generation Prompts for Missing Use Cases
 
-46 use cases across 7 industries need icons generated. For each, copy the prompt into your preferred image generation tool (Adobe Firefly, Midjourney, DALL-E), generate at 1024x1024 pixels, and save as PNG to the path listed.
+46 use cases across 7 industries need icons generated. For each prompt generate at 1024x1024 pixels, and save as PNG to the path listed.
 
 ## Design Style Reference
 
