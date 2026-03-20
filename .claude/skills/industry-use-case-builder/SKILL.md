@@ -1,6 +1,6 @@
 ---
 name: industry-use-case-builder
-description: Guide creation of new industry use cases for the Adobe Experience Platform blueprints repository. Use this skill when adding a new use case to an industry vertical (retail, automotive, healthcare, financial services, insurance, media & entertainment, telecommunications, travel & hospitality, B2B), when the user wants to add business scenarios to industry pages, or when updating the use case catalog. Handles the full workflow: gathering use case details, assessing maturity level, generating content, updating the industry overview page and use case catalog, and invoking the use-case-icon-generator skill for icon creation.
+description: "Guide creation of new industry use cases for the Adobe Experience Platform blueprints repository. Use this skill when adding a new use case to an industry vertical (retail, automotive, healthcare, financial services, insurance, media & entertainment, telecommunications, travel & hospitality, B2B), when the user wants to add business scenarios to industry pages, or when updating the use case catalog. Handles the full workflow: gathering use case details, assessing maturity level, generating content, updating the industry overview page and use case catalog, and invoking the use-case-icon-generator skill for icon creation."
 ---
 
 # Industry Use Case Builder

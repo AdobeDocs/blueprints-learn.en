@@ -1,6 +1,6 @@
 ---
 name: use-case-pattern-builder
-description: Guide creation of new use case pattern content for the Adobe Experience Platform blueprints repository. Use this skill when adding a new use case pattern, creating implementation guidance content, or when the user mentions adding patterns to the blueprints site. Handles the full workflow: gathering pattern information, generating the markdown file with correct template structure, and updating all cross-reference pages (TOC.md, overview.md).
+description: "Guide creation of new use case pattern content for the Adobe Experience Platform blueprints repository. Use this skill when adding a new use case pattern, creating implementation guidance content, or when the user mentions adding patterns to the blueprints site. Handles the full workflow: gathering pattern information, generating the markdown file with correct template structure, and updating all cross-reference pages (TOC.md, overview.md)."
 ---
 
 # Use Case Pattern Builder
