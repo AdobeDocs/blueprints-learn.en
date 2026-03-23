@@ -18,11 +18,11 @@ Personalize marketing communications and content for target accounts based on ac
 
 ### Business impact
 
-Organizations implementing account-based marketing personalization typically see a 30-40% increase in account engagement rate, driving stronger pipeline and faster deal progression.
+Organizations implementing account-based marketing personalization see improved account engagement, driving stronger pipeline and faster deal progression.
 
 ### How to implement
 
-Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level audiences and activate personalized content across channels. This pattern is purpose-built for account-based strategies, supporting both account and person-level targeting.
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level audiences and activate personalized content across channels. This pattern is purpose-built for account-based strategies, supporting both account and person-level targeting. This is the right pattern when targeting must operate at the account level rather than the individual level — standard RT-CDP audience activation does not support the account-based data model required for ABM strategies.
 
 ### Technical considerations
 
@@ -38,11 +38,11 @@ Automatically score leads based on profile data and behavior, then route high-sc
 
 ### Business impact
 
-Companies that implement behavioral lead scoring and automated nurturing typically achieve a 25-35% increase in lead-to-opportunity conversion, accelerating pipeline velocity and improving sales productivity.
+Companies that implement behavioral lead scoring and automated nurturing see improved lead-to-opportunity conversion, accelerating pipeline velocity and improving sales productivity.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to design branching nurture journeys that respond to lead score changes and behavioral triggers. This pattern supports the conditional logic needed to route leads between nurture tracks and sales handoff workflows.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to design branching nurture journeys that respond to lead score changes and behavioral triggers. This pattern supports the conditional logic needed to route leads between nurture tracks and sales handoff workflows. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on lead score changes and behavioral events — a single triggered message cannot accommodate the dependency logic between scoring stages and routing decisions.
 
 ### Technical considerations
 
@@ -58,11 +58,11 @@ Personalize website content, resources, and offers based on prospect's industry,
 
 ### Business impact
 
-B2B organizations personalizing web experiences for known prospects typically see a 20-30% increase in content engagement, leading to more qualified pipeline and shorter sales cycles.
+B2B organizations personalizing web experiences for known prospects see improved content engagement, leading to more qualified pipeline and shorter sales cycles.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern to deliver tailored content experiences based on unified prospect profiles. This pattern leverages real-time profile data to serve the most relevant resources, case studies, and calls to action for each visitor.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern to deliver tailored content experiences based on unified prospect profiles. This pattern leverages real-time profile data to serve the most relevant resources, case studies, and calls to action for each visitor. This is the right pattern when personalization is driven by profile attributes and segment membership rather than a behavioral affinity model — enabling account-level and individual-level attributes to govern the experience.
 
 ### Technical considerations
 
@@ -78,11 +78,11 @@ Automate personalized event registration confirmations, reminders, and post-even
 
 ### Business impact
 
-Automated, personalized event communication workflows typically drive a 40-50% increase in event attendance, maximizing return on event investment and strengthening prospect relationships.
+Automated, personalized event communication workflows drive improved event attendance, maximizing return on event investment and strengthening prospect relationships.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate the full event lifecycle from registration through post-event nurture. This pattern supports time-based triggers, conditional branching by event type, and multi-channel follow-up sequences.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate the full event lifecycle from registration through post-event nurture. This pattern supports time-based triggers, conditional branching by event type, and multi-channel follow-up sequences. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on event registration and attendance — time-based messaging alone cannot handle the complex branching logic between registered, attended, and no-show paths.
 
 ### Technical considerations
 
@@ -98,11 +98,11 @@ Engage trial users with personalized product recommendations, training resources
 
 ### Business impact
 
-Organizations that deploy personalized trial conversion campaigns typically see a 25-35% increase in trial-to-paid conversion, directly impacting new business revenue and reducing customer acquisition costs.
+Organizations that deploy personalized trial conversion campaigns see improved trial-to-paid conversion, directly impacting new business revenue and reducing customer acquisition costs.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to build time-based and behavior-based conversion journeys for trial users. This pattern supports conditional paths based on product usage milestones, enabling targeted nudges at the right moments.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to build time-based and behavior-based conversion journeys for trial users. This pattern supports conditional paths based on product usage milestones, enabling targeted nudges at the right moments. This is the right pattern when the use case requires a sequenced, multi-message flow triggered by usage milestones with conditional branching — event-triggered messaging cannot handle the predictive timing and dependency logic needed for milestone-based nurturing.
 
 ### Technical considerations
 
@@ -118,11 +118,11 @@ Personalize customer onboarding journeys with relevant training, resources, and 
 
 ### Business impact
 
-Organizations with personalized onboarding programs typically achieve a 50-60% increase in feature adoption within the first 90 days, directly contributing to higher retention and expansion revenue.
+Organizations with personalized onboarding programs see improved feature adoption in the first 90 days, directly contributing to higher retention and expansion revenue.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate onboarding sequences tailored to product, plan tier, and customer segment. This pattern supports milestone-based progression, ensuring customers receive the right guidance at each stage of their onboarding.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate onboarding sequences tailored to product, plan tier, and customer segment. This pattern supports milestone-based progression, ensuring customers receive the right guidance at each stage of their onboarding. This is the right pattern when the use case requires a sequenced, multi-message flow with conditional advancement based on product usage milestones — event-triggered messaging cannot accommodate the complex staging logic required for guided onboarding progression.
 
 ### Technical considerations
 
@@ -138,11 +138,11 @@ Proactively engage customers approaching contract renewal with personalized offe
 
 ### Business impact
 
-Companies that implement proactive, personalized renewal campaigns typically see a 30-40% increase in renewal rate, protecting recurring revenue and reducing the cost of customer re-acquisition.
+Companies that implement proactive, personalized renewal campaigns see improved renewal rates, protecting recurring revenue and reducing the cost of customer re-acquisition.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to deliver the right renewal offer through the right channel at the right time. This pattern combines journey orchestration with offer decisioning, enabling dynamic renewal incentives based on account value and usage.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to deliver the right renewal offer through the right channel at the right time. This pattern combines journey orchestration with offer decisioning, enabling dynamic renewal incentives based on account value and usage. This is the right pattern when the journey must coordinate delivery across channels and offer selection requires account value and usage constraints — journey orchestration alone does not provide the real-time decisioning layer needed to dynamically match renewal incentives.
 
 ### Technical considerations
 
@@ -158,11 +158,11 @@ Identify customers ready for product upgrades or additional licenses based on us
 
 ### Business impact
 
-Organizations that systematically identify and act on expansion signals typically generate a 20-30% increase in expansion revenue, improving net revenue retention and customer lifetime value.
+Organizations that systematically identify and act on expansion signals generate increased expansion revenue, improving net revenue retention and customer lifetime value.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to deliver personalized upsell and expansion offers based on real-time usage and account signals. This pattern uses decisioning to match each account with the most relevant expansion offer across channels.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to deliver personalized upsell and expansion offers based on real-time usage and account signals. This pattern uses decisioning to match each account with the most relevant expansion offer across channels. This is the right pattern when the journey must coordinate delivery across channels and offer selection requires eligibility rules governing which expansion offers match specific accounts — journey orchestration alone does not provide the decisioning layer needed for constraint-driven offer matching.
 
 ### Technical considerations
 
@@ -178,11 +178,11 @@ Target prospects using competitor products with personalized messaging, migratio
 
 ### Business impact
 
-B2B organizations running targeted competitive replacement campaigns typically achieve a 15-25% increase in competitive win rate, capturing market share and displacing incumbent vendors.
+B2B organizations running targeted competitive replacement campaigns see improved competitive win rates, capturing market share and displacing incumbent vendors.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate multi-touch competitive campaigns tailored to the specific competitor and prospect profile. This pattern supports conditional branching based on competitor identified, enabling messaging that addresses the unique pain points of each competitive scenario.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate multi-touch competitive campaigns tailored to the specific competitor and prospect profile. This pattern supports conditional branching based on competitor identified, enabling messaging that addresses the unique pain points of each competitive scenario. This is the right pattern when the use case requires a sequenced, multi-message flow with conditional branching based on the specific competitor and prospect profile — event-triggered messaging cannot handle the complexity of competitor-specific branching logic across multiple touchpoints.
 
 ### Technical considerations
 
@@ -198,11 +198,11 @@ Personalize webinar invitations and demo scheduling based on prospect's interest
 
 ### Business impact
 
-Personalized webinar and demo invitation programs typically achieve a 35-45% increase in webinar attendance rate, driving more qualified pipeline from live engagement opportunities.
+Personalized webinar and demo invitation programs see improved webinar attendance rates, driving more qualified pipeline from live engagement opportunities.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to send personalized invitations when prospects demonstrate interest signals aligned with upcoming webinar or demo topics. This pattern responds in real time to behavioral triggers, ensuring invitations arrive when interest is highest.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to send personalized invitations when prospects demonstrate interest signals aligned with upcoming webinar or demo topics. This pattern responds in real time to behavioral triggers, ensuring invitations arrive when interest is highest. This is the right pattern when the trigger is a discrete customer action aligned with webinar relevance and the required response is a single, time-sensitive invitation — rather than a multi-step sequence or ongoing nurture program.
 
 ### Technical considerations
 
@@ -218,11 +218,11 @@ Deliver personalized case studies, ROI calculators, and success stories based on
 
 ### Business impact
 
-Organizations that personalize proof-point content typically see a 25-35% increase in case study engagement, contributing to stronger deal confidence and faster close rates.
+Organizations that personalize proof-point content see improved case study engagement, contributing to stronger deal confidence and faster close rates.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern to dynamically surface the most relevant case studies and ROI evidence based on each prospect's profile. This pattern matches visitor attributes to a content library, ensuring every prospect sees proof points from their industry and peer group.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern to dynamically surface the most relevant case studies and ROI evidence based on each prospect's profile. This pattern matches visitor attributes to a content library, ensuring every prospect sees proof points from their industry and peer group. This is the right pattern when personalization is driven by profile attributes and segment membership rather than a behavioral affinity model — enabling industry and company size attributes to match prospects with relevant proof points.
 
 ### Technical considerations
 
@@ -238,11 +238,11 @@ Identify and engage satisfied customers for advocacy opportunities such as refer
 
 ### Business impact
 
-Structured customer advocacy programs typically drive a 20-30% increase in advocacy participation, generating a steady stream of references, case studies, and testimonials that support new business acquisition.
+Structured customer advocacy programs drive improved advocacy participation, generating a steady stream of references, case studies, and testimonials that support new business acquisition.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to build advocacy identification and engagement workflows that respond to satisfaction and usage signals. This pattern supports progressive advocacy asks, starting with lightweight participation (e.g., a review) and advancing to deeper commitments (e.g., a reference call or case study).
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to build advocacy identification and engagement workflows that respond to satisfaction and usage signals. This pattern supports progressive advocacy asks, starting with lightweight participation (e.g., a review) and advancing to deeper commitments (e.g., a reference call or case study). This is the right pattern when the use case requires a sequenced, multi-message flow with conditional advancement based on satisfaction and usage signals — a single triggered message cannot accommodate the progressive engagement logic needed to escalate advocacy requests over time.
 
 ### Technical considerations
 
@@ -250,3 +250,62 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Define advocacy eligibility criteria that combine satisfaction thresholds, usage milestones, and account tenure to avoid premature outreach.
 - Sync advocacy status and participation history back to [!DNL Salesforce] or [!DNL Microsoft Dynamics] so sales teams can reference customer advocates during prospecting.
 - Coordinate with [!DNL Marketo Engage] to suppress advocacy outreach during active support escalations or renewal negotiations.
+
+## B2B Account-Based Audience Activation
+
+Build account-level audiences combining firmographic data, buying group signals, and person-level engagement, then activate them to LinkedIn, demand-side platforms, and CRM destinations. Account-based audience activation enables B2B organizations to target entire buying organizations with coordinated digital advertising rather than individual contacts, aligning paid media spend with account pipeline priorities.
+
+### Business impact
+
+B2B organizations with account-based audience activation see stronger pipeline influence from paid media programs, with particularly high impact when audience segments are aligned with sales territory priorities and updated frequently as account engagement scores change.
+
+### How to implement
+
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level segments using account-person relationships and activate them to B2B-capable paid media destinations. This is the right pattern when audience construction must operate at the account level — combining signals from multiple contacts within a buying organization — rather than at the individual person level.
+
+### Technical considerations
+
+- B2B identity graph configuration must accurately link known individuals to their account records; gaps in account-person associations will result in incomplete buying group signal aggregation.
+- Account audience segments should be refreshed on a schedule that aligns with campaign flight dates and pipeline review cadence — segments that drift from current pipeline state reduce the efficiency of media spend.
+- LinkedIn Matched Audiences and similar B2B platforms match on professional email addresses, which may differ from the personal email addresses stored in CRM; both email types should be included in audience payloads.
+- Activation audiences should exclude accounts in active deal stages where paid advertising could create awkward overlap with direct sales outreach.
+
+
+## Buying Group Journey Orchestration
+
+Orchestrate account-level journeys that nurture buying group members based on their roles, engagement scores, and account qualification status, with automated handoff to sales. Coordinating journey logic at the buying group level rather than the individual level ensures that each stakeholder receives messaging appropriate to their role and decision stage while maintaining consistency within the account.
+
+### Business impact
+
+B2B organizations using buying group journey orchestration see improved opportunity creation rates from marketing-sourced pipeline and faster progression through early deal stages, particularly when sales handoff is triggered automatically based on measurable engagement thresholds.
+
+### How to implement
+
+Use the [Buying Group-Based Marketing](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) pattern to build account-qualified journeys that segment buying group members by role, evaluate group-level engagement signals, and orchestrate coordinated multi-person, multi-touch campaigns with conditional branching based on account status. This is the right pattern when journey logic must operate at the account-group level rather than the individual person level — standard person-level journey orchestration cannot handle the group-qualification and cross-person coordination requirements of B2B buying group management.
+
+### Technical considerations
+
+- Buying group membership definitions must be maintained in the B2B data model, linking known contacts to their accounts and assigning them roles such as champion, economic buyer, or technical evaluator.
+- Account engagement scoring must aggregate signals from multiple individuals within the buying group; a single contact's engagement is insufficient to determine account-level readiness.
+- Journey suppression must be synchronized with CRM opportunity stages to prevent marketing automation messages from conflicting with active sales conversations.
+- Sales alert and handoff notifications must integrate with the CRM and sales engagement platform so that representatives receive timely, actionable context when accounts reach the handoff threshold.
+
+
+## Account-Based Marketing (ABM) Personalization
+
+Personalize marketing communications and content for target accounts based on account profile, engagement history, and buying signals. ABM personalization goes beyond account targeting by customizing message content and web experiences to each account's specific industry, size, and known business challenges — creating relevance that generic campaign messages cannot achieve.
+
+### Business impact
+
+B2B organizations with account-level personalization report improved engagement rates on outbound campaigns and higher conversion from web to pipeline for targeted accounts, with particularly strong results when personalization extends to landing pages and website experiences visited through paid media.
+
+### How to implement
+
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to activate account-level profiles for personalization across web and outbound channels. This is the right pattern when the primary requirement is account-level targeting for personalization rather than contact-level journey orchestration — account profile data drives the personalization decisions rather than individual behavioral signals.
+
+### Technical considerations
+
+- Account firmographic data — industry, company size, geography, technology stack — must be current and consistently modeled to drive meaningful content personalization beyond generic industry-level targeting.
+- Web personalization for known B2B visitors requires IP-to-account resolution or direct authentication; IP-based resolution has lower accuracy and should not be relied upon for high-value account decisions.
+- Content must be developed for each account segment targeted with personalization; activating personalization without sufficient content variations will result in some accounts receiving unchanged experiences.
+- Personalization decisions at the account level should align with the current CRM stage and sales activity to avoid serving top-of-funnel awareness content to accounts already in active deals.

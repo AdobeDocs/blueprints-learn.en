@@ -61,7 +61,7 @@ The following scenarios illustrate common applications of batch outbound message
 
 The following table defines the KPIs used to measure campaign effectiveness.
 
-| KPI | Description | Measurement Method |
+| KPI | Description | Measurement approach |
 | --- | --- | --- |
 | Delivery Rate | Percentage of messages successfully delivered to recipients | Delivered / Sent x 100 |
 | Open Rate | Percentage of delivered messages opened by recipients | Unique Opens / Delivered x 100 |
@@ -139,17 +139,17 @@ This plan exercises the following functions from the application function catalo
 
 Complete the following before beginning implementation.
 
-- AJO sandbox is provisioned and active
-- Sending subdomain is delegated and verified (SPF, DKIM, DMARC configured)
-- IP pool is assigned and warmed up for production sending volume
-- At least one active channel surface (email, SMS, or push) exists
-- User accounts have campaign/journey creation and content authoring permissions
-- XDM profile schema includes attributes needed for audience segmentation and message personalization
-- XDM event schema captures conversion events for post-campaign tracking
-- Profile data is ingested and unified via Identity Service
-- Web SDK or Analytics tagging is active on the CTA destination page to capture conversion events
-- Consent fields are populated on profiles for the target messaging channel
-- Content assets (images, logos, brand guidelines) are available for message design
+- [ ] AJO sandbox is provisioned and active
+- [ ] Sending subdomain is delegated and verified (SPF, DKIM, DMARC configured)
+- [ ] IP pool is assigned and warmed up for production sending volume
+- [ ] At least one active channel surface (email, SMS, or push) exists
+- [ ] User accounts have campaign/journey creation and content authoring permissions
+- [ ] XDM profile schema includes attributes needed for audience segmentation and message personalization
+- [ ] XDM event schema captures conversion events for post-campaign tracking
+- [ ] Profile data is ingested and unified via Identity Service
+- [ ] Web SDK or Analytics tagging is active on the CTA destination page to capture conversion events
+- [ ] Consent fields are populated on profiles for the target messaging channel
+- [ ] Content assets (images, logos, brand guidelines) are available for message design
 
 ## Implementation options
 

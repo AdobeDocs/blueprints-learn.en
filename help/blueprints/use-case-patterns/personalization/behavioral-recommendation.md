@@ -8,7 +8,7 @@ exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
 
 This guide covers how to implement behavioral product and content recommendations using [!DNL Adobe Journey Optimizer] (AJO) Decisioning, [!DNL Real-Time Customer Data Platform] (RT-CDP), and [!DNL Adobe Experience Platform] (AEP). It is designed for solution architects, marketing technologists, and implementation engineers who need to deliver personalized recommendation experiences across web, mobile app, and email channels.
 
-It presents all viable implementation options, decision considerations at each phase, and links to [!DNL Adobe Experience League] documentation. Behavioral Recommendation generates item-level or content-level recommendations using behavioral signals -- product views, purchases, content interactions, search queries -- combined with AJO Decisioning selection strategies and ranking models. Unlike offer decisioning, which selects from a curated set of marketing offers using explicit eligibility rules, this pattern operates on large item catalogs (products, articles, videos) and uses behavioral affinity signals and ML-based ranking to surface the most relevant items for each visitor.
+It presents all viable implementation options, decision considerations at each phase, and links to [!DNL Adobe Experience League] documentation. Behavioral Recommendation generates item-level or content-level recommendations using behavioral signals -- product views, purchases, content interactions, search queries -- combined with AJO Decisioning selection strategies and ranking models. Unlike offer decisioning — which governs a bounded set of offers, promotions, or incentives using eligibility rules and business constraints — this pattern operates on large, continuously changing item catalogs (products, articles, videos) where selection is driven by behavioral affinity signals rather than governed eligibility.
 
 ## Use case overview
 
@@ -26,31 +26,19 @@ The following business objectives are supported by this use case pattern.
 
 Promote complementary and premium products or services to existing customers based on behavior and purchase history.
 
-| KPI | Description |
-| --- | --- |
-| Upsell/Cross-Sell % | Percentage of customers who purchase recommended complementary or premium items |
-| Incremental Revenue | Additional revenue attributable to recommendation-driven purchases |
-| Customer Lifetime Value | Long-term value increase from deeper product engagement |
+**KPIs:** Upsell/Cross Sell %, Incremental Revenue, Customer Lifetime Value
 
 ### [Increase conversion rates](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 Improve the percentage of visitors and prospects who complete desired actions such as purchases, sign-ups, or form submissions.
 
-| KPI | Description |
-| --- | --- |
-| Conversion Rates | Percentage of visitors who convert after engaging with recommendations |
-| Lead Conversion | Rate at which recommendation-engaged visitors become customers |
-| Cost Per Lead | Reduction in acquisition cost through organic recommendation engagement |
+**KPIs:** Conversion Rates, Lead Conversion, Cost Per Lead
 
 ### [Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 
-| KPI | Description |
-| --- | --- |
-| Engagement | Interaction frequency with recommendation surfaces (clicks, views, add-to-cart) |
-| Conversion Rates | Lift in conversion rates for recommendation-engaged visitors vs. control |
-| Customer Satisfaction (CSAT) | Customer satisfaction improvement from relevant, personalized experiences |
+**KPIs:** Engagement, Conversion Rates, Customer Satisfaction (CSAT)
 
 ## Example tactical use cases
 
@@ -69,7 +57,7 @@ The following are common tactical implementations of this pattern:
 
 The following KPIs help measure the effectiveness of behavioral recommendation implementations.
 
-| KPI | Measurement Approach |
+| KPI | Measurement approach |
 | --- | --- |
 | Recommendation Click-Through Rate (CTR) | Clicks on recommended items divided by recommendation impressions |
 | Recommendation Conversion Rate | Purchases or desired actions from recommendation clicks divided by total recommendation clicks |
@@ -145,14 +133,14 @@ This plan exercises the following functions from the Application Function Catalo
 
 Complete the following before beginning implementation:
 
-- AJO Decisioning is provisioned and enabled in the target sandbox
-- [!DNL Web SDK] or [!DNL Mobile SDK] is deployed and collecting behavioral events with product/content identifiers
-- Product or content catalog data is available for ingestion (product name, category, price, image URL, availability)
-- Behavioral event schemas include item/product identifiers that link to catalog items
-- Datastream is configured with [!DNL Adobe Journey Optimizer] service enabled (required for Edge decisioning)
-- Merge policy with `isActiveOnEdge: true` is configured (required for real-time web/app recommendations)
-- For email recommendations (Option C): email channel surface is configured and validated
-- For email recommendations (Option C): target audience is defined and evaluating
+- [ ] AJO Decisioning is provisioned and enabled in the target sandbox
+- [ ] [!DNL Web SDK] or [!DNL Mobile SDK] is deployed and collecting behavioral events with product/content identifiers
+- [ ] Product or content catalog data is available for ingestion (product name, category, price, image URL, availability)
+- [ ] Behavioral event schemas include item/product identifiers that link to catalog items
+- [ ] Datastream is configured with [!DNL Adobe Journey Optimizer] service enabled (required for Edge decisioning)
+- [ ] Merge policy with `isActiveOnEdge: true` is configured (required for real-time web/app recommendations)
+- [ ] For email recommendations (Option C): email channel surface is configured and validated
+- [ ] For email recommendations (Option C): target audience is defined and evaluating
 
 ## Implementation options
 

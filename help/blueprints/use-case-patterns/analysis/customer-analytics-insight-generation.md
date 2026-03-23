@@ -154,16 +154,16 @@ The following table lists the AEP application functions used in this pattern.
 
 The following prerequisites must be met before implementing this use case pattern.
 
-- CJA product entitlement is provisioned for the organization
-- CJA product profiles are configured with appropriate user access (workspace creation, data view access)
-- AEP sandbox contains the target datasets with data flowing (web events, app events, campaign data, CRM records)
-- XDM schemas are defined for all source datasets with appropriate field groups
-- Person ID field is identified and consistently available across all datasets that will be connected
-- Identity namespaces are configured in AEP for the Person ID used in CJA connection stitching
-- Stakeholder requirements are documented -- which KPIs, which audiences will consume dashboards, what level of detail
-- For mobile scorecards: stakeholders have the [!DNL Adobe Analytics] dashboards mobile app installed
-- For Option C (Audience Publishing): AEP Real-Time Customer Profile is enabled in the target sandbox
-- For Option D (Guided Analysis): CJA SKU includes guided analysis capabilities
+- [ ] CJA product entitlement is provisioned for the organization
+- [ ] CJA product profiles are configured with appropriate user access (workspace creation, data view access)
+- [ ] AEP sandbox contains the target datasets with data flowing (web events, app events, campaign data, CRM records)
+- [ ] XDM schemas are defined for all source datasets with appropriate field groups
+- [ ] Person ID field is identified and consistently available across all datasets that will be connected
+- [ ] Identity namespaces are configured in AEP for the Person ID used in CJA connection stitching
+- [ ] Stakeholder requirements are documented -- which KPIs, which audiences will consume dashboards, what level of detail
+- [ ] For mobile scorecards: stakeholders have the [!DNL Adobe Analytics] dashboards mobile app installed
+- [ ] For Option C (Audience Publishing): AEP Real-Time Customer Profile is enabled in the target sandbox
+- [ ] For Option D (Guided Analysis): CJA SKU includes guided analysis capabilities
 
 ## Implementation options
 

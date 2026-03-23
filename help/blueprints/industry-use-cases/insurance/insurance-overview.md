@@ -14,11 +14,11 @@ Send personalized policy renewal reminders and offers based on each customer's p
 
 ### Business impact
 
-Organizations that implement personalized policy renewal campaigns typically see a 25 to 35 percent improvement in renewal rates, directly reducing customer churn and protecting recurring premium revenue.
+Organizations that implement personalized policy renewal campaigns see improved renewal rates, directly reducing customer churn and protecting recurring premium revenue.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Policy renewal dates are natural event triggers that initiate timely, personalized outreach at the moment policyholders are making their renewal decision.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This approach builds a timed renewal sequence that progresses from initial notice through escalating reminders and, if needed, a final urgency message, adapting the cadence and offer based on whether the policyholder has engaged with earlier touches. This is the right pattern when the timing is driven by a contract date rather than a discrete customer event, and the business intent requires a sequenced, multi-message flow over 30 or more days with conditional branching based on engagement — event-triggered messaging handles reactive responses to discrete events but cannot accommodate the calendar-based scheduling logic or escalation dependencies required for a renewal campaign.
 
 ### Technical considerations
 
@@ -34,17 +34,17 @@ Recommend additional insurance products such as life, home, or auto coverage bas
 
 ### Business impact
 
-Personalized cross-sell recommendations typically drive a 20 to 30 percent improvement in cross-sell conversion rates, increasing policies per household and overall customer lifetime value.
+Personalized cross-sell recommendations drive improved cross-sell conversion rates, increasing policies per household and overall customer lifetime value.
 
 ### How to implement
 
-Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. Real-time decisioning evaluates each customer's existing coverage, life stage, and behavioral signals to select the most relevant product recommendation from the available catalog.
+Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. Real-time decisioning evaluates each customer's existing coverage, life stage, and behavioral signals to select the most relevant product recommendation from the available catalog. This is the right pattern when product selection must account for eligibility rules, underwriting guidelines, and regulatory suitability requirements — constraints that require governed decisioning logic rather than behavioral affinity ranking alone.
 
 ### Technical considerations
 
 - Integrate policy data from all product lines into a unified customer profile so the decisioning engine has a complete view of existing coverage when selecting recommendations.
 - Configure eligibility rules within the decisioning model to exclude products that a customer already holds or that conflict with underwriting guidelines for their risk profile.
-- Apply regulatory compliance rules to ensure product recommendations comply with state-specific insurance marketing and suitability requirements.
+- Engage your legal and compliance teams to validate that product recommendation eligibility rules align with applicable state insurance marketing and suitability requirements before go-live.
 - Coordinate decisioning output with the agent portal so that recommended products are visible to assigned agents who may be having direct conversations with the customer.
 
 
@@ -54,11 +54,11 @@ Personalize claims process communications, status updates, and support resources
 
 ### Business impact
 
-Personalized claims communications typically achieve a 40 to 50 percent improvement in claims satisfaction scores, reducing complaints and strengthening the likelihood of policy renewal after a claim.
+Personalized claims communications achieve improved claims satisfaction scores, reducing complaints and strengthening the likelihood of policy renewal after a claim.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. The claims process is a multi-stage experience with distinct phases — filing, investigation, adjustment, and settlement — that each require tailored communications and adaptive timing.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. The claims process is a multi-stage experience with distinct phases — filing, investigation, adjustment, and settlement — that each require tailored communications and adaptive timing. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on claims status events — a single triggered message cannot accommodate the dependency logic between sequential claims phases.
 
 ### Technical considerations
 
@@ -74,11 +74,11 @@ Provide personalized risk assessment information and prevention tips based on ea
 
 ### Business impact
 
-Personalized risk prevention outreach typically drives a 30 to 40 percent improvement in prevention engagement, contributing to reduced claim frequency and improved customer satisfaction.
+Personalized risk prevention outreach drives improved prevention engagement, contributing to reduced claim frequency and improved customer satisfaction.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Risk prevention education is most effective as a sustained, multi-touch journey that delivers relevant guidance over time and adapts based on customer engagement and seasonal risk factors.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Risk prevention education is most effective as a sustained, multi-touch journey that delivers relevant guidance over time and adapts based on customer engagement and seasonal risk factors. This is the right pattern when the journey must deliver content over extended periods with seasonal timing adjustments and engagement-based branching — event-triggered messaging cannot handle predictive scheduling or the multi-step cadence needed for sustained education.
 
 ### Technical considerations
 
@@ -94,16 +94,16 @@ Send personalized notifications about policy changes, coverage updates, and new 
 
 ### Business impact
 
-Personalized policy change notifications typically achieve a 50 to 60 percent improvement in notification acknowledgment rates, reducing customer service inquiries and improving overall policyholder understanding.
+Personalized policy change notifications achieve improved notification acknowledgment rates, reducing customer service inquiries and improving overall policyholder understanding.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Policy change events from the administration system serve as natural triggers for immediate, relevant notifications through each customer's preferred channel.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Policy change events from the administration system serve as natural triggers for immediate, relevant notifications through each customer's preferred channel. This is the right pattern when the trigger is a system event (policy change) rather than customer behavior, and the required communication is immediate and reactive rather than a sustained nurture sequence.
 
 ### Technical considerations
 
 - Integrate with the policy administration system to capture endorsement, amendment, and renewal change events in real time, ensuring notifications reflect the most current policy state.
-- Apply regulatory compliance rules to ensure notifications meet state-mandated communication requirements for policy changes, including required language and delivery timeframes.
+- Work with your legal team to confirm that policy change notifications meet applicable state-mandated timing, language, and delivery channel requirements before activating automated communications.
 - Configure channel priority logic based on the urgency and type of change — for example, coverage reductions may warrant more immediate channels than informational updates.
 - Maintain a delivery audit trail for all policy change notifications to support regulatory compliance documentation and dispute resolution.
 
@@ -114,11 +114,11 @@ Re-engage customers who started but did not complete an insurance quote with per
 
 ### Business impact
 
-Quote abandonment recovery campaigns typically drive a 20 to 30 percent improvement in quote completion rates, converting more prospects into policyholders and reducing customer acquisition costs.
+Quote abandonment recovery campaigns drive improved quote completion rates, converting more prospects into policyholders and reducing customer acquisition costs.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Quote abandonment is a behavioral event that triggers timely follow-up while the prospect's interest and intent are still fresh.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Quote abandonment is a behavioral event that triggers timely follow-up while the prospect's interest and intent are still fresh. This is the right pattern when a discrete customer behavior (abandonment) is the trigger and the required response is time-sensitive re-engagement — rather than a multi-step nurture sequence or complex offer decisioning.
 
 ### Technical considerations
 
@@ -134,11 +134,11 @@ Identify customers entering new life stages — such as marriage, home purchase,
 
 ### Business impact
 
-Life stage-based product offers typically achieve a 35 to 45 percent improvement in life stage product adoption rates, deepening customer relationships during key decision-making moments.
+Life stage-based product offers achieve improved life stage product adoption rates, deepening customer relationships during key decision-making moments.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. Life stage transitions benefit from cross-channel orchestration combined with real-time decisioning to select the most relevant product and deliver it through the customer's preferred channel at the optimal moment.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. Life stage transitions benefit from cross-channel orchestration combined with real-time decisioning to select the most relevant product and deliver it through the customer's preferred channel at the optimal moment. This is the right pattern when the journey must coordinate delivery across multiple channels to ensure consistent offers while leveraging decisioning to select the most appropriate product for the detected life stage — multi-step orchestration alone cannot provide the real-time eligibility and suitability evaluation required for insurance product recommendations.
 
 ### Technical considerations
 
@@ -154,11 +154,11 @@ Identify and communicate personalized discount opportunities — such as bundlin
 
 ### Business impact
 
-Personalized discount and savings communications typically drive a 25 to 35 percent improvement in discount utilization rates, improving customer satisfaction and reducing price-driven churn.
+Personalized discount and savings communications drive improved discount utilization rates, improving customer satisfaction and reducing price-driven churn.
 
 ### How to implement
 
-Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. Real-time decisioning evaluates each customer's eligibility for available discounts and selects the most impactful savings opportunity to present at the right moment.
+Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. Real-time decisioning evaluates each customer's eligibility for available discounts and selects the most impactful savings opportunity to present at the right moment. This is the right pattern when discount selection must account for stacking limitations, regulatory restrictions, and accurate actuarial calculations — constraints that require governed decisioning logic rather than simple eligibility checks alone.
 
 ### Technical considerations
 
@@ -174,11 +174,11 @@ Use intelligent fraud detection to identify suspicious claims patterns and perso
 
 ### Business impact
 
-Intelligent claims fraud prevention programs typically achieve a 15 to 25 percent improvement in fraud detection rates, reducing fraudulent payouts and lowering overall claims costs.
+Intelligent claims fraud prevention programs achieve improved fraud detection rates, reducing fraudulent payouts and lowering overall claims costs.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Fraud risk scoring events trigger appropriate investigation communications and process adjustments in real time, ensuring that flagged claims receive immediate attention.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Fraud risk scoring events trigger appropriate investigation communications and process adjustments in real time, ensuring that flagged claims receive immediate attention. This is the right pattern when a system-derived event (fraud risk score) is the trigger and the required action is immediate internal process adjustment with careful customer communication — rather than a multi-step journey or decisioning scenario.
 
 ### Technical considerations
 
@@ -194,18 +194,18 @@ Personalize wellness program communications, participation reminders, and reward
 
 ### Business impact
 
-Personalized wellness and prevention program communications typically drive a 30 to 40 percent improvement in program participation rates, contributing to better health outcomes and reduced claims frequency.
+Personalized wellness and prevention program communications drive improved program participation rates, contributing to better health outcomes and reduced claims frequency.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Wellness programs are sustained engagement experiences with milestones, challenges, and rewards that require adaptive orchestration based on each participant's activity and progress.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Wellness programs are sustained engagement experiences with milestones, challenges, and rewards that require adaptive orchestration based on each participant's activity and progress. This is the right pattern when the use case requires a long-term, multi-message flow with engagement-based branching and adaptive timing adjustments — event-triggered messaging cannot handle the complex milestone logic or the need to adjust communication cadence based on sustained activity tracking.
 
 ### Technical considerations
 
 - Integrate with wearable device and health application data feeds using [!DNL Adobe Experience Platform] streaming ingestion, applying clear data governance labels to distinguish wellness data from underwriting or claims data.
 - Implement separate consent mechanisms for wellness data collection to ensure participants understand how their health activity data is used and can opt out without affecting their policy.
 - Design journey logic that adjusts program intensity and communication frequency based on each participant's engagement level to prevent fatigue and encourage sustained participation.
-- Ensure wellness incentive and reward tracking complies with applicable insurance regulations around policyholder inducements and premium discount programs.
+- Engage your legal and compliance teams to review wellness incentive structures and premium discount programs for compliance with applicable state insurance regulations before launch.
 
 
 ## Agent and Broker Coordination
@@ -214,11 +214,11 @@ Enable personalized communication and coordination between customers and their a
 
 ### Business impact
 
-Effective agent and broker coordination communications typically result in a 35 to 45 percent improvement in agent engagement, leading to stronger customer relationships and higher retention driven by trusted advisory interactions.
+Effective agent and broker coordination communications result in improved agent engagement, leading to stronger customer relationships and higher retention driven by trusted advisory interactions.
 
 ### How to implement
 
-Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. Agent coordination is best delivered through scheduled batch activations that provide agents with prioritized customer outreach lists, talking points, and recommended actions on a regular cadence.
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. Agent coordination is best delivered through scheduled batch activations that provide agents with prioritized customer outreach lists, talking points, and recommended actions on a regular cadence. This is the right pattern when the audience is large and pre-defined, delivery timing is scheduled on a recurring basis rather than event-driven, and no real-time branching or decisioning is required.
 
 ### Technical considerations
 
@@ -234,11 +234,11 @@ Proactively communicate with customers in affected areas during natural disaster
 
 ### Business impact
 
-Proactive catastrophic event response communications typically achieve a 60 to 70 percent improvement in customer communication rates during events, significantly accelerating claims filing and strengthening long-term customer trust and loyalty.
+Proactive catastrophic event response communications achieve improved customer communication rates during events, accelerating claims filing and strengthening long-term customer trust and loyalty.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Catastrophic event declarations serve as high-priority triggers for immediate, personalized outreach to all policyholders in the affected geographic area.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Catastrophic event declarations serve as high-priority triggers for immediate, personalized outreach to all policyholders in the affected geographic area. This is the right pattern when a high-priority external event is the trigger and the required response is immediate, broad geographic outreach with time-critical information — rather than individual customer behavior patterns or complex sequencing.
 
 ### Technical considerations
 
@@ -246,3 +246,23 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Build geographic audience segments using policyholder address data and property location information to accurately identify customers in the affected area without over-communicating to unaffected customers.
 - Configure high-priority message routing that overrides standard frequency capping and suppression rules to ensure critical safety and claims information reaches customers immediately.
 - Pre-build message templates and journey configurations for common catastrophic event types so that communications can be activated within hours of an event declaration rather than requiring content creation during the crisis.
+
+
+## Policyholder Portal Content Personalization
+
+Personalize the authenticated self-service portal and mobile app experience for policyholders by surfacing the most relevant coverage information, tools, and resources based on their browsing behavior, policy portfolio, and recent service interactions. A portal that adapts to each policyholder's current context reduces friction and makes it easier for customers to find what they need when they need it.
+
+### Business impact
+
+Personalizing the policyholder portal experience drives measurable improvements in self-service task completion and digital engagement, reducing inbound contact center volume and strengthening customer satisfaction with the digital channel.
+
+### How to implement
+
+Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. Behavioral signals from authenticated portal sessions — coverage calculator usage, policy document views, claims status checks, and FAQ topic engagement — train a recommendation model that dynamically surfaces the most relevant content and tools for each policyholder's current context. This is the right pattern when personalization is driven by implicit behavioral signals within an authenticated session and the goal is relevance ranking of a content or resource catalog — rather than Offer Decisioning, which requires governed eligibility and actuarial approval before presenting a product offer, or Cross-Channel with Decisioning, which is more appropriate when coordinating a product offer across multiple channels.
+
+### Technical considerations
+
+- Apply data governance labels to behavioral signals collected in the policyholder portal to distinguish engagement analytics from regulated insurance data, and restrict any signals derived from claims history from flowing into personalization models without explicit actuarial and compliance review.
+- Integrate the behavioral model with the policy management system to ensure that content and tool recommendations reflect each policyholder's active policy portfolio — surfacing auto coverage tools for auto policyholders and property resources for homeowners — without exposing raw policy data to the recommendation model beyond product-line classification.
+- Implement state-specific compliance controls to ensure that behavioral personalization does not constitute an insurance recommendation or marketing solicitation under applicable state regulations, particularly when behavioral signals could imply coverage gap detection.
+- Coordinate portal personalization signals with the agent portal so that agents serving policyholders who have shown strong self-service research behavior receive a consolidated view of the customer's digital engagement alongside their service history.

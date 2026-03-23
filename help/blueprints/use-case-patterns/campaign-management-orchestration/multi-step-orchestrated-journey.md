@@ -18,6 +18,9 @@ These journeys are the most complex campaign pattern in AJO. They combine audien
 
 This pattern subsumes the simpler patterns -- batch outbound message activation for single-send campaigns and event-triggered messaging for single-event responses. Use this pattern when the use case requires nurturing a profile through multiple interactions over time.
 
+>[!NOTE]
+>If your journey requires dynamic selection of the optimal offer, content, or channel at individual decision points, see [Cross-channel journey with decisioning](cross-channel-journey-with-decisioning.md). That pattern extends this one with AJO Decisioning integration.
+
 ## Key business objectives
 
 The following business objectives are supported by this use case pattern.
@@ -43,6 +46,8 @@ Accelerate time-to-value for new customers with streamlined, personalized welcom
 Win back inactive or lapsed customers with targeted reactivation campaigns based on behavioral signals.
 
 **KPIs:** Engagement, Retention, Conversion Rates
+
+[Learn more about improving customer retention](/help/blueprints/business-objectives/customer-experience/improve-customer-retention.md)
 
 ### Recover abandoned carts and journeys
 

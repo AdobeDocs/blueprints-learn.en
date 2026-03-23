@@ -82,7 +82,7 @@ The following applications are used in this use case pattern.
 
 The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational function | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | A sandbox must be active with appropriate user roles and permissions configured. Users managing event forwarding need Data Collection permissions in [!DNL Adobe Admin Console], including rights to manage event forwarding properties, extensions, and rules. | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM schemas must be defined for the event data flowing through the Edge Network. The datastream must reference a valid XDM ExperienceEvent schema so that event forwarding rules can access structured fields for filtering, transformation, and mapping. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
@@ -94,7 +94,7 @@ The following foundational capabilities must be in place for this use case patte
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting function | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Not Applicable | Event forwarding operates on raw event data, not profile-level computed attributes. Computed attributes are not available in the event forwarding context. | |
 | Data Lifecycle Management | Recommended | If event data is also being ingested into AEP datasets (via the same datastream), data retention policies (expiration) should be configured for those datasets to manage storage costs and regulatory compliance. Event forwarding itself does not store data, but the parallel AEP ingestion path does. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |

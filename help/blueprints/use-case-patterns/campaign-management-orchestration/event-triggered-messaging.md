@@ -75,7 +75,7 @@ The following scenarios illustrate how event-triggered messaging can be applied 
 
 The following KPIs help measure the effectiveness of event-triggered messaging implementations.
 
-| KPI | Description | Measurement |
+| KPI | Description | Measurement approach |
 | --- | --- | --- |
 | Conversion Rate | Percentage of triggered message recipients who complete the desired action (purchase, sign-up, renewal) | Conversions / Messages Delivered * 100 |
 | Incremental Revenue | Additional revenue attributable to event-triggered messages compared to no-send control groups | Revenue from triggered sends - Control group baseline |

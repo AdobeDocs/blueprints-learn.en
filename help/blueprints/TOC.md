@@ -71,6 +71,7 @@ role: Developer, User
   + [Media & Entertainment](/help/blueprints/industry-use-cases/media-entertainment/media-entertainment-overview.md)
   + [Retail](/help/blueprints/industry-use-cases/retail/retail-overview.md)
   + [Telecommunications](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
+  + [Technology](/help/blueprints/industry-use-cases/technology/technology-overview.md)
   + [Travel & Hospitality](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
 + Architecture Diagrams and Blueprints{#architecture-diagrams}
   + Architecture overviews{#architecture-overview}

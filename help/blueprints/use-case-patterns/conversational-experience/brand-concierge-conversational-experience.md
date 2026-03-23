@@ -52,7 +52,7 @@ Improve the percentage of visitors and prospects who complete desired actions su
 
 Expand the customer base through targeted acquisition campaigns, lookalike audiences, and paid media optimization.
 
-**KPIs:** Upsell/Cross Sell %, Incremental Revenue, Customer Lifetime Value
+**KPIs:** New Customers, Customer Acquisition Cost, Prospect/Lead Conversion
 
 [Learn more about acquiring new customers](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
 
@@ -159,16 +159,16 @@ This plan exercises the following functions from the Application Function Catalo
 
 The following items must be in place before implementation begins.
 
-- [!DNL Adobe Brand Concierge] entitlement is active for the organization
-- AEP and [!DNL RT-CDP] licenses are provisioned with sufficient profile and event volume entitlements
-- Brand guidelines document available defining voice, tone, approved messaging, and prohibited topics
-- Product catalog or content repository prepared for integration (AEM assets, PIM data, or structured product feed)
-- Web properties identified for conversational experience deployment with technical access for SDK integration
-- Live agent infrastructure available if handoff is required (contact center platform, CRM integration)
-- Consent management framework in place for conversational data capture and profiling
-- [!DNL Web SDK] or [!DNL Mobile SDK] already deployed on target properties (or planned for concurrent deployment)
-- Stakeholder alignment on conversation scope (product advisory only, site navigation, or both)
-- Privacy and legal review completed for AI-powered conversational data capture and usage
+- [ ] [!DNL Adobe Brand Concierge] entitlement is active for the organization
+- [ ] AEP and [!DNL RT-CDP] licenses are provisioned with sufficient profile and event volume entitlements
+- [ ] Brand guidelines document available defining voice, tone, approved messaging, and prohibited topics
+- [ ] Product catalog or content repository prepared for integration (AEM assets, PIM data, or structured product feed)
+- [ ] Web properties identified for conversational experience deployment with technical access for SDK integration
+- [ ] Live agent infrastructure available if handoff is required (contact center platform, CRM integration)
+- [ ] Consent management framework in place for conversational data capture and profiling
+- [ ] [!DNL Web SDK] or [!DNL Mobile SDK] already deployed on target properties (or planned for concurrent deployment)
+- [ ] Stakeholder alignment on conversation scope (product advisory only, site navigation, or both)
+- [ ] Privacy and legal review completed for AI-powered conversational data capture and usage
 
 ## Implementation options
 
