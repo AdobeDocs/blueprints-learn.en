@@ -1,10 +1,10 @@
 ---
-title: Audience Collaboration with Segment Match
+title: Audience Collaboration
 description: Learn how to share and match audience segments across sandboxes or organizations using Segment Match.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: 7014849c-5e32-4ec3-a531-c0e8ce896f44
 ---
-# Audience collaboration with Segment Match
+# Audience Collaboration
 
 This guide provides a comprehensive implementation reference for audience collaboration using [!DNL Segment Match] in [!DNL Real-Time CDP] and [!DNL Adobe Experience Platform]. It is designed for solution architects, marketing technologists, and implementation engineers who need to share and match audience segments across sandboxes or organizations in a privacy-safe manner.
 
