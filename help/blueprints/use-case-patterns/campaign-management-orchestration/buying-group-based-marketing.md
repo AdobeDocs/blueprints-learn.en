@@ -150,18 +150,18 @@ This plan exercises the following functions from the application function catalo
 
 Complete the following before beginning implementation.
 
-- [!DNL AJO B2B Edition] license provisioned and enabled on the target sandbox
-- [!DNL RT-CDP B2B Edition] license provisioned and enabled on the target sandbox
-- CRM system ([!DNL Salesforce] or [!DNL Microsoft Dynamics 365]) accessible with appropriate API credentials for bidirectional data sync
-- [!DNL Marketo Engage] instance connected (if using [!DNL Marketo] as the marketing automation platform) with source connector configured
-- B2B XDM schemas deployed: Account, Person, Opportunity, Campaign, and Campaign Member classes with required field groups
-- Account and person data ingested into AEP with person-to-account relationships resolved
-- Email channel configured: subdomain delegated, IP pool warmed, and channel surface created for B2B email sending
-- SMS provider configured (if SMS channel is used in account journeys): [!DNL Sinch], [!DNL Twilio], or [!DNL Infobip] credentials provisioned
-- Sales team onboarded to CRM Sales Insights component ([!DNL Salesforce] AppExchange package or [!DNL Dynamics] solution installed)
-- Content assets prepared: B2B email templates, brand themes, and visual fragments for nurture and sales alert emails
-- Solution interest taxonomy defined: list of products/services that will have associated buying groups
-- Buying group role templates designed: personas and roles required for each solution interest (for example, Economic Buyer, Technical Evaluator, Champion)
+- [ ] [!DNL AJO B2B Edition] license provisioned and enabled on the target sandbox
+- [ ] [!DNL RT-CDP B2B Edition] license provisioned and enabled on the target sandbox
+- [ ] CRM system ([!DNL Salesforce] or [!DNL Microsoft Dynamics 365]) accessible with appropriate API credentials for bidirectional data sync
+- [ ] [!DNL Marketo Engage] instance connected (if using [!DNL Marketo] as the marketing automation platform) with source connector configured
+- [ ] B2B XDM schemas deployed: Account, Person, Opportunity, Campaign, and Campaign Member classes with required field groups
+- [ ] Account and person data ingested into AEP with person-to-account relationships resolved
+- [ ] Email channel configured: subdomain delegated, IP pool warmed, and channel surface created for B2B email sending
+- [ ] SMS provider configured (if SMS channel is used in account journeys): [!DNL Sinch], [!DNL Twilio], or [!DNL Infobip] credentials provisioned
+- [ ] Sales team onboarded to CRM Sales Insights component ([!DNL Salesforce] AppExchange package or [!DNL Dynamics] solution installed)
+- [ ] Content assets prepared: B2B email templates, brand themes, and visual fragments for nurture and sales alert emails
+- [ ] Solution interest taxonomy defined: list of products/services that will have associated buying groups
+- [ ] Buying group role templates designed: personas and roles required for each solution interest (for example, Economic Buyer, Technical Evaluator, Champion)
 
 ## Implementation options
 

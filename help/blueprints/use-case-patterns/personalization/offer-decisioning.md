@@ -18,7 +18,7 @@ Organizations frequently need to present the most relevant offer, promotion, or 
 
 Offer decisioning addresses this by centralizing all offer selection logic in AJO's Decision Management engine. Rather than hardcoding offer assignments into individual campaigns or channels, the decision engine evaluates each profile's attributes, audience membership, and contextual signals to determine the best offer in real time. This centralization ensures that the same customer receives consistent, optimized offers regardless of which channel they engage through.
 
-This pattern differs from known-visitor web/app personalization in scope -- offer decisioning is channel-agnostic and centralized, while known-visitor personalization focuses on digital surface personalization. It differs from behavioral recommendation in approach -- offer decisioning uses explicit eligibility rules and ranking strategies, while behavioral recommendation emphasizes behavioral signal-driven recommendations using selection strategies and ML models.
+This pattern differs from known-visitor web/app personalization in scope -- offer decisioning is channel-agnostic and centralized, while known-visitor personalization focuses on digital surface personalization. It differs from behavioral recommendation in catalog model -- use offer decisioning when the eligible item set is governed by business rules, eligibility constraints, or regulatory requirements (promotions, financial products, incentives). Use behavioral recommendation when the item set is large, continuously changing, and selection is driven by behavioral similarity or affinity signals (product catalogs, content libraries).
 
 ## Key business objectives
 
@@ -222,6 +222,10 @@ For code-based experiences, the application retrieves the decision response and 
 
 - [Deliver offers using the Edge Decisioning API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api/offer-delivery-api/edge-decisioning-api)
 - [Code-based experience channel](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/get-started-code-based)
+
+**How this differs from Known-visitor web/app personalization Option B:**
+
+The infrastructure is identical — both use AJO Decisioning at the edge with Web SDK and an edge-active merge policy. The difference is the catalog governance model. This option governs a bounded offer catalog with eligibility rules, capping counters, and validity dates — use it when business or regulatory constraints determine which offers can be shown and how often. [Known-visitor web/app personalization](known-visitor-web-app-personalization.md) Option B selects from content items using segment membership or ranking strategies without offer lifecycle management. If your item set is large, continuously changing, and does not require capping or eligibility governance, use Known-visitor Option B instead.
 
 ### Option C: Journey decision node
 

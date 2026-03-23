@@ -14,11 +14,11 @@ Show personalized product recommendations on homepage, category pages, and produ
 
 ### Business impact
 
-Retailers typically see a 20-30% increase in click-through rates and a 15-25% improvement in conversion rates when serving personalized recommendations instead of static product listings.
+Retailers see improved click-through rates and conversion rates when serving personalized recommendations instead of static product listings.
 
 ### How to implement
 
-Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses AI-driven recommendation models that continuously learn from customer interactions to surface the most relevant products for each individual.
+Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses AI-driven recommendation models that continuously learn from customer interactions to surface the most relevant products for each individual. This is the right pattern when the item set is large and continuously changing and selection is driven by behavioral affinity — rather than a bounded set of offers governed by eligibility rules.
 
 ### Technical considerations
 
@@ -34,11 +34,11 @@ Automatically send personalized email reminders to customers who abandoned their
 
 ### Business impact
 
-Effective cart recovery programs deliver a 25-35% cart recovery rate and can generate an additional $100,000 to $500,000 in monthly revenue depending on store volume.
+Effective cart recovery programs improve cart recovery rates and can generate meaningful incremental revenue depending on store volume.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the purchase intent is still high.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the purchase intent is still high. This is the right pattern when a discrete customer action is the trigger and the required response is a single, time-sensitive message — rather than a multi-step sequence or dynamic offer selection.
 
 ### Technical considerations
 
@@ -54,11 +54,11 @@ Trigger real-time alerts and campaigns when product inventory is low, creating u
 
 ### Business impact
 
-Low-inventory urgency campaigns typically drive a 30-40% increase in conversion for featured products while also helping reduce overstock by accelerating sell-through of slow-moving items.
+Low-inventory urgency campaigns drive improved conversion for featured products while also helping reduce overstock by accelerating sell-through of slow-moving items.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to inventory threshold events, automatically activating urgency messaging when stock levels drop below defined limits.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to inventory threshold events, automatically activating urgency messaging when stock levels drop below defined limits. This is the right pattern when the trigger is a system event rather than a customer behavior, and the required communication is immediate and reactive rather than a sustained nurture sequence.
 
 ### Technical considerations
 
@@ -74,11 +74,11 @@ Display relevant cross-sell and upsell products at checkout, in email, and on pr
 
 ### Business impact
 
-Well-executed cross-sell and upsell strategies increase average order value by $25-$75 and lift revenue per transaction by 10-15%.
+Well-executed cross-sell and upsell strategies increase average order value and lift revenue per transaction, contributing to stronger overall basket economics.
 
 ### How to implement
 
-Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. This approach uses centralized decision logic to evaluate all available offers and select the best cross-sell or upsell option for each customer and context.
+Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. This approach uses centralized decision logic to evaluate all available offers and select the best cross-sell or upsell option for each customer and context. This is the right pattern when offer selection must account for margin, inventory availability, and product relationship rules — business constraints that require governed decisioning logic rather than behavioral affinity ranking alone.
 
 ### Technical considerations
 
@@ -94,11 +94,11 @@ Automate a multi-email welcome series for new customers with personalized produc
 
 ### Business impact
 
-A well-designed welcome series drives a 40-50% engagement rate among new customers and meaningfully improves lifetime value by building brand affinity early.
+A well-designed welcome series drives strong engagement among new customers and meaningfully improves lifetime value by building brand affinity early.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-touch nurture journey guides new customers through a sequence of brand introduction, product discovery, and incentive messages, adapting based on their engagement.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-touch nurture journey guides new customers through a sequence of brand introduction, product discovery, and incentive messages, adapting based on their engagement. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on engagement events — a single triggered message cannot accommodate the dependency logic between steps.
 
 ### Technical considerations
 
@@ -114,11 +114,11 @@ Notify customers via email or push notification when products in their wishlist 
 
 ### Business impact
 
-Price drop alerts generate a 20-30% conversion rate among recipients and measurably increase customer satisfaction by helping shoppers feel they are getting the best value.
+Price drop alerts generate improved conversion rates among recipients and measurably increase customer satisfaction by helping shoppers feel they are getting the best value.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to product price change events, matching them against customer interest signals to deliver timely notifications.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to product price change events, matching them against customer interest signals to deliver timely notifications. This is the right pattern when the trigger is a catalog system event and the delivery window is time-sensitive — a sustained journey would be too slow, and no multi-step follow-up is needed beyond the initial notification.
 
 ### Technical considerations
 
@@ -134,11 +134,11 @@ Send automated reminders to customers for products they purchase regularly, such
 
 ### Business impact
 
-Replenishment reminder programs deliver a 30-40% repeat purchase rate and significantly improve customer retention by making it effortless for shoppers to restock the products they rely on.
+Replenishment reminder programs drive improved repeat purchase rates and improve customer retention by making it effortless for shoppers to restock the products they rely on.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This recurring scheduled journey uses purchase frequency predictions to send reminders at the optimal time before a customer is likely to need a refill.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This recurring scheduled journey uses purchase frequency predictions to send reminders at the optimal time before a customer is likely to need a refill. This is the right pattern when there is no discrete triggering event and timing must be calculated from purchase frequency models that recalibrate dynamically — event-triggered messaging cannot handle predictive scheduling or timing adjustments when customers reorder early or late.
 
 ### Technical considerations
 
@@ -154,11 +154,11 @@ Dynamically personalize category pages to show the most relevant products first 
 
 ### Business impact
 
-Personalized category pages drive a 25-35% increase in category page engagement and meaningfully improve product discovery, particularly for retailers with large catalogs.
+Personalized category pages drive improved category page engagement and meaningfully improve product discovery, particularly for retailers with large catalogs.
 
 ### How to implement
 
-Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses selection strategies and ranking models to reorder products on category pages based on each visitor's profile and real-time behavior.
+Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses selection strategies and ranking models to reorder products on category pages based on each visitor's profile and real-time behavior. This is the right pattern when the task is ranking a large, open product set using behavioral affinity signals — offer decisioning is not appropriate here because there are no eligibility rules or business constraints limiting which products appear.
 
 ### Technical considerations
 
@@ -174,11 +174,11 @@ Send post-purchase emails with product care tips, related product suggestions, r
 
 ### Business impact
 
-Effective post-purchase campaigns increase review submission rates by 15-20% and drive a 10-15% repeat purchase rate, turning one-time buyers into loyal customers.
+Effective post-purchase campaigns increase review submission rates and drive improved repeat purchase rates, turning one-time buyers into loyal customers.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step post-purchase flow uses branching logic to tailor follow-up messages based on product type, customer segment, and engagement with earlier emails in the series.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step post-purchase flow uses branching logic to tailor follow-up messages based on product type, customer segment, and engagement with earlier emails in the series. This is the right pattern because the follow-up spans multiple days, depends on fulfillment status events, and branches based on product category and return events — a single triggered message cannot support the conditional logic required across the full post-purchase timeline.
 
 ### Technical considerations
 
@@ -194,11 +194,11 @@ Identify high-value customers and provide exclusive offers, early access to sale
 
 ### Business impact
 
-VIP programs typically generate a 50-70% engagement rate from top-tier customers and measurably improve customer lifetime value by reducing churn among the most profitable segment.
+VIP programs generate strong engagement from top-tier customers and measurably improve customer lifetime value by reducing churn among the most profitable segment.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. This approach combines journey orchestration with real-time decisioning for offer selection, ensuring each VIP customer receives the most relevant exclusive offer across every channel.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. This approach combines journey orchestration with real-time decisioning for offer selection, ensuring each VIP customer receives the most relevant exclusive offer across every channel. This is the right pattern when the journey must coordinate delivery across channels to prevent duplicate offers and when offer selection requires eligibility rules and business constraints — multi-step orchestration alone does not provide the real-time decisioning layer needed to govern which exclusive offer each VIP receives.
 
 ### Technical considerations
 
@@ -214,11 +214,11 @@ Allow customers to sign up for notifications when out-of-stock products become a
 
 ### Business impact
 
-Back-in-stock notifications achieve a 40-50% conversion rate among subscribers and meaningfully reduce lost sales for high-demand products that experience temporary stockouts.
+Back-in-stock notifications achieve strong conversion rates among subscribers and meaningfully reduce lost sales for high-demand products that experience temporary stockouts.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach triggers notifications on back-in-stock events, matching inventory updates against customer notification sign-ups to deliver timely alerts.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach triggers notifications on back-in-stock events, matching inventory updates against customer notification sign-ups to deliver timely alerts. This is the right pattern because the trigger is a discrete inventory system event, delivery is time-critical (inventory may sell out again quickly), and the communication is a single notification rather than an ongoing journey.
 
 ### Technical considerations
 
@@ -234,11 +234,11 @@ Display personalized social proof, including reviews, ratings, and "customers wh
 
 ### Business impact
 
-Personalized social proof increases conversion rates by 10-15% and improves shopper confidence, particularly for first-time buyers and higher-priced products where purchase hesitation is greatest.
+Personalized social proof increases conversion rates and improves shopper confidence, particularly for first-time buyers and higher-priced products where purchase hesitation is greatest.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach personalizes web content for identified visitors, selecting the most relevant reviews and social proof elements based on the customer's profile, preferences, and browsing context.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach personalizes web content for identified visitors, selecting the most relevant reviews and social proof elements based on the customer's profile, preferences, and browsing context. This is the right pattern when personalization is driven by profile attributes and segment membership rather than a behavioral affinity model — behavioral recommendation is not appropriate here because social proof selection depends on who the customer is, not which items they have browsed.
 
 ### Technical considerations
 
@@ -246,3 +246,43 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Social proof elements should load asynchronously to avoid blocking the main product page render, since review data may come from a third-party review platform with variable response times.
 - Privacy regulations require that any customer data used to match reviews to visitors is handled according to consent preferences; displaying "customers like you" content implies profiling that may require disclosure.
 - [!DNL Experience Platform] audience membership can be used to select which reviews to highlight, showing outdoor enthusiasts reviews from fellow outdoor shoppers rather than generic top-rated reviews.
+
+
+## AI Product Advisor
+
+Online retailers carry thousands of SKUs across complex category hierarchies, making it difficult for shoppers to find the right product without extended browsing or abandoned searches. An AI-powered product advisor engages shoppers in natural multi-turn dialogue — asking qualifying questions about needs, preferences, and budget — then narrows the assortment to a curated set of personalized recommendations. The experience mirrors the guidance a knowledgeable in-store associate would provide, delivered at digital scale.
+
+### Business impact
+
+Retailers that deploy guided conversational discovery see improved conversion rates and average order value compared to unassisted browsing, while also reducing product returns through better-informed purchase decisions.
+
+### How to implement
+
+Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) pattern. This approach deploys the Product Advisor Agent against a structured product catalog, using AEP Agent Orchestrator and real-time customer profile data to generate brand-safe, personalized product recommendations through natural dialogue. This is the right pattern when the goal is interactive, multi-turn conversational discovery driven by customer-stated needs — distinct from event-triggered messaging, which is one-directional and reactive to a specific action, and from personalized web experiences, which display recommendations passively rather than engaging customers in conversation. It requires AEP Agent Orchestrator and brand governance configuration.
+
+### Technical considerations
+
+- The product catalog must be structured with rich attribute data — including size, material, compatibility, availability, and pricing — because the Product Advisor Agent grounds recommendations in catalog content and cannot reliably advise on products with incomplete attributes.
+- Real-time customer profile lookup via RT-CDP must be configured with edge activation so that purchase history, browsing behavior, and loyalty tier data are accessible during the live conversation without latency that would disrupt the experience.
+- Brand governance guardrails must be defined to specify how the agent handles out-of-stock items, competitive product comparisons, promotional pricing claims, and prohibited topics, ensuring every response aligns with retail brand standards.
+- Conversational events — including intent signals, product interactions, and recommendation acceptance — must be captured as XDM ExperienceEvents and streamed back to AEP, enriching customer profiles with product affinity data that improves future personalization across all channels.
+
+
+## Cross-Channel Attribution Analysis
+
+Measure how each marketing touchpoint — paid search, email, social, and in-store promotions — contributes to online and offline purchase conversions. Retailers who rely on last-touch attribution systematically undervalue upper-funnel channels and make budget allocation decisions based on an incomplete picture of the purchase path.
+
+### Business impact
+
+Retail marketing teams that move from last-touch to multi-touch attribution gain a clearer view of which channels drive purchase intent, leading to better-informed budget decisions and improved return on marketing spend.
+
+### How to implement
+
+Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) pattern. This approach connects online and offline event data — web clicks, email engagements, loyalty transactions, and point-of-sale records — to Customer Journey Analytics, where attribution models can be configured and compared across the full purchase path. This is the right pattern when the goal is measurement and insight generation across a complex, multi-channel journey — rather than activating audiences or triggering messages — and when the analysis requires Customer Journey Analytics rather than a CDP or campaign orchestration tool.
+
+### Technical considerations
+
+- Point-of-sale and e-commerce transaction data must share a consistent customer identifier so that in-store and online conversions can be stitched into a single cross-channel view in CJA.
+- Multiple attribution models — first-touch, last-touch, linear, and time-decay — should be configured in the CJA data view so analysts can compare them side by side without rebuilding the analysis.
+- Paid media impression and click data from external ad platforms must be ingested via source connectors or batch uploads to include paid channels in the attribution path alongside owned channels.
+- Conversion windows and credit lookback periods need to be defined per channel type, since the relevant attribution window for a paid search click differs significantly from that of a seasonal email campaign.

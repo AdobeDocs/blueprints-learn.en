@@ -27,9 +27,12 @@ This pattern is appropriate when:
 
 The target audience includes marketers managing lifecycle programs, loyalty journeys, win-back sequences, and onboarding flows where personalization at scale requires automated decision-making at each touchpoint.
 
+>[!NOTE]
+>If your journey does not require dynamic decisioning at individual nodes — for example, a fixed-sequence nurture or onboarding program — see [Multi-step orchestrated journey](multi-step-orchestrated-journey.md). That pattern is simpler to configure and does not require AJO Decisioning.
+
 ## Key business objectives
 
-The following business objectives are addressed by this use case pattern.
+The following business objectives are supported by this use case pattern.
 
 **[Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)**
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.

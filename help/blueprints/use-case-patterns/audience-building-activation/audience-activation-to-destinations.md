@@ -20,9 +20,12 @@ This pattern applies whenever the goal is to get audience data to an external sy
 
 Typical stakeholders include digital marketing teams managing paid media, data teams enriching warehouses, CRM teams preparing contact lists for campaigns, and privacy teams ensuring governance compliance on outbound data flows.
 
+>[!NOTE]
+>If your organization uses [!DNL Real-Time CDP] B2B Edition and activates to account-based destinations, see [B2B audience activation](b2b-audience-activation.md). That pattern shares the same activation mechanics but uses a B2B account-and-person data model and requires the B2B Edition license.
+
 ## Key business objectives
 
-The following business objectives are addressed by this use case pattern.
+The following business objectives are supported by this use case pattern.
 
 ### Acquire new customers
 
@@ -61,7 +64,7 @@ Improve return on marketing investment through better targeting, attribution, au
 
 ## Key performance indicators
 
-| KPI | Description | Measurement guidance |
+| KPI | Description | Measurement approach |
 | --- | --- | --- |
 | Customer Acquisition Cost (CAC) | Cost to acquire a new customer via activated audiences | Total media spend / new customers attributed to activated audiences |
 | Audience Match Rate | Percentage of activated profiles successfully matched at the destination | Profiles matched at destination / profiles exported from RT-CDP |

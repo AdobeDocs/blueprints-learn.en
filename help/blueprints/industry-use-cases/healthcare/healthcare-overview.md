@@ -8,17 +8,20 @@ exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
 
 Healthcare organizations use Adobe Experience Platform to build unified patient profiles and deliver personalized, timely communications across every touchpoint. By connecting clinical, behavioral, and preference data in one place, care teams can engage patients more effectively while maintaining the highest standards of privacy and compliance.
 
+>[!IMPORTANT]
+>Healthcare use cases involve protected health information (PHI) subject to HIPAA and other applicable regulations. Before implementing any of these patterns, ensure that [!DNL Adobe Experience Platform] is provisioned as a HIPAA-eligible service and that a Business Associate Agreement (BAA) is in place with Adobe. The technical considerations in each section highlight key compliance requirements but are not exhaustive. Work with your legal, compliance, and security teams to validate your implementation against all applicable regulatory requirements.
+
 ## Appointment Reminder Automation
 
 Send personalized appointment reminders through email, text message, and push notifications based on each patient's communication preferences and appointment type. Automated reminders reduce missed appointments and keep schedules running smoothly, freeing staff to focus on patient care.
 
 ### Business impact
 
-Organizations that implement automated appointment reminders typically see a 30 to 40 percent improvement in appointment show rates and a significant reduction in costly no-shows.
+Organizations that implement automated appointment reminders see measurable improvements in appointment show rates and a meaningful reduction in costly no-shows.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Appointment creation and update events from the scheduling system serve as natural triggers for timely, relevant reminder messages.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Appointment creation and update events from the scheduling system serve as natural triggers for timely, relevant reminder messages. This is the right pattern when a discrete appointment event is the trigger and the required response is a single, time-sensitive notification — rather than a sustained engagement sequence, since patients need immediate confirmation without follow-up steps.
 
 ### Technical considerations
 
@@ -34,11 +37,11 @@ Send personalized reminders and educational content to help patients stay on tra
 
 ### Business impact
 
-Personalized medication adherence campaigns typically drive a 20 to 30 percent improvement in adherence rates, leading to measurably better health outcomes and fewer hospital readmissions.
+Personalized medication adherence campaigns help drive improvements in adherence rates, leading to better health outcomes and fewer hospital readmissions.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Medication adherence requires a sustained, multi-touch approach with escalating reminders, educational touchpoints, and follow-up check-ins over the course of a treatment plan.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Medication adherence requires a sustained, multi-touch approach with escalating reminders, educational touchpoints, and follow-up check-ins over the course of a treatment plan. This is the right pattern because medication management requires a sequenced, multi-message flow over days or weeks with conditional branching based on refill events and engagement signals — a single triggered message cannot accommodate the dependency logic between educational steps and escalation paths.
 
 ### Technical considerations
 
@@ -54,11 +57,11 @@ Proactively remind patients about recommended preventive care such as vaccinatio
 
 ### Business impact
 
-Proactive preventive care outreach typically results in a 25 to 35 percent increase in preventive care completion rates, contributing to improved population health and reduced long-term treatment costs.
+Proactive preventive care outreach results in improved preventive care completion rates, contributing to better population health and reduced long-term treatment costs.
 
 ### How to implement
 
-Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. Preventive care reminders are best delivered through scheduled batch campaigns that evaluate patient eligibility against clinical guidelines on a regular cadence.
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. Preventive care reminders are best delivered through scheduled batch campaigns that evaluate patient eligibility against clinical guidelines on a regular cadence. This is the right pattern when the audience is pre-defined by clinical guideline criteria, delivery timing is scheduled on a regular cadence rather than event-driven, and no real-time branching or decisioning is required.
 
 ### Technical considerations
 
@@ -74,11 +77,11 @@ Automatically send post-visit surveys, care instructions, and follow-up appointm
 
 ### Business impact
 
-Automated post-visit follow-up campaigns typically achieve a 40 to 50 percent improvement in survey response rates and measurably higher patient satisfaction scores.
+Automated post-visit follow-up campaigns achieve improved survey response rates and higher patient satisfaction scores.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Visit completion events from the electronic health records system provide a natural, timely trigger for follow-up communications tailored to the encounter type.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Visit completion events from the electronic health records system provide a natural, timely trigger for follow-up communications tailored to the encounter type. This is the right pattern when a discrete visit completion event is the trigger and the required response is immediate follow-up tailored to encounter type — rather than a multi-step sequence, since each visit generates its own independent follow-up need.
 
 ### Technical considerations
 
@@ -94,11 +97,11 @@ Personalize chronic disease management communications, educational content, and 
 
 ### Business impact
 
-Personalized chronic disease management programs typically see a 30 to 40 percent increase in program engagement rates, leading to improved disease management outcomes and reduced emergency care utilization.
+Personalized chronic disease management programs see increased program engagement rates, leading to improved disease management outcomes and reduced emergency care utilization.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Chronic disease management is inherently a long-running, multi-touchpoint experience that requires adaptive messaging based on patient engagement and health milestones.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Chronic disease management is inherently a long-running, multi-touchpoint experience that requires adaptive messaging based on patient engagement and health milestones. This is the right pattern because chronic disease management requires adaptive messaging over an extended period with conditional branching based on clinical metrics and engagement patterns — event-triggered messaging cannot handle the ongoing, dynamic re-evaluation needed to adjust interventions based on evolving health data.
 
 ### Technical considerations
 
@@ -114,11 +117,11 @@ Automate a multi-step onboarding journey for new patients that includes welcome 
 
 ### Business impact
 
-Automated new patient onboarding journeys typically drive a 50 to 60 percent improvement in portal activation rates and significantly higher early patient engagement.
+Automated new patient onboarding journeys help drive improvements in portal activation rates and stronger early patient engagement.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Patient onboarding is a naturally sequential, multi-step process where each communication builds on the previous one and adapts based on whether the patient has completed key actions.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Patient onboarding is a naturally sequential, multi-step process where each communication builds on the previous one and adapts based on whether the patient has completed key actions. This is the right pattern because onboarding requires a sequenced, dependent flow over multiple days with branching based on patient actions (portal activation, form completion) — a single message or batch approach cannot accommodate the interdependencies between steps or adapt to progressive completion.
 
 ### Technical considerations
 
@@ -134,11 +137,11 @@ Deliver personalized health education content, wellness tips, and resources tail
 
 ### Business impact
 
-Personalized health content delivery typically achieves a 35 to 45 percent increase in content engagement rates, leading to measurably improved patient education and health literacy.
+Personalized health content delivery achieves higher content engagement rates, leading to improved patient education and health literacy.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. Health content delivery benefits from real-time decisioning that selects the most relevant content for each patient based on their conditions, preferences, and past engagement, delivered through their preferred channel.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. Health content delivery benefits from real-time decisioning that selects the most relevant content for each patient based on their conditions, preferences, and past engagement, delivered through their preferred channel. This is the right pattern when content selection must account for patient conditions, consent preferences, and channel preferences while preventing duplicate or fatiguing delivery — multi-step orchestration alone does not provide the real-time decisioning layer needed to match dynamic content inventory to individual patient needs.
 
 ### Technical considerations
 
@@ -154,11 +157,11 @@ Notify patients when lab results are available through their preferred communica
 
 ### Business impact
 
-Automated lab results notifications typically drive a 60 to 70 percent increase in result viewing rates, improving patient communication and enabling faster clinical follow-up when results require action.
+Automated lab results notifications help drive higher result viewing rates, improving patient communication and enabling faster clinical follow-up when results require action.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Lab result availability is a discrete event that calls for an immediate, single notification through the patient's preferred channel.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Lab result availability is a discrete event that calls for an immediate, single notification through the patient's preferred channel. This is the right pattern when a discrete lab result event is the trigger and the required response is a single, immediate notification — rather than a multi-message sequence, since patients need a prompt alert to check their portal without additional follow-up communications.
 
 ### Technical considerations
 
@@ -174,11 +177,11 @@ Proactively verify and communicate insurance coverage information to patients be
 
 ### Business impact
 
-Proactive insurance coverage verification typically results in a 25 to 35 percent improvement in pre-visit coverage confirmation rates and a meaningful reduction in billing disputes and patient complaints.
+Proactive insurance coverage verification results in improved pre-visit coverage confirmation rates and a meaningful reduction in billing disputes and patient complaints.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Appointment scheduling events serve as the trigger to initiate coverage verification and communicate results to the patient before the visit.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Appointment scheduling events serve as the trigger to initiate coverage verification and communicate results to the patient before the visit. This is the right pattern when a discrete appointment scheduling event is the trigger and the required response is a single, time-sensitive notification about coverage — rather than a multi-step engagement sequence, since the patient needs one clear message before their appointment.
 
 ### Technical considerations
 
@@ -194,11 +197,11 @@ Send personalized reminders for telehealth appointments that include connection 
 
 ### Business impact
 
-Personalized telehealth appointment reminders typically drive a 40 to 50 percent improvement in virtual visit show rates and accelerate overall telehealth adoption across the patient population.
+Personalized telehealth appointment reminders help drive improvements in virtual visit show rates and accelerate overall telehealth adoption across the patient population.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Telehealth appointment scheduling events provide a natural trigger for timely reminders that include connection details and preparation guidance.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Telehealth appointment scheduling events provide a natural trigger for timely reminders that include connection details and preparation guidance. This is the right pattern when a discrete telehealth appointment event is the trigger and the required response is a single, immediate reminder with technical guidance — rather than a multi-step sequence, since patients need clear pre-appointment instructions without subsequent follow-up messaging.
 
 ### Technical considerations
 
@@ -214,11 +217,11 @@ Personalize wellness program communications, challenges, and rewards based on ea
 
 ### Business impact
 
-Personalized wellness program engagement campaigns typically achieve a 30 to 40 percent increase in program participation rates, contributing to improved health outcomes and stronger patient loyalty.
+Personalized wellness program engagement campaigns achieve increased program participation rates, contributing to improved health outcomes and stronger patient loyalty.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Wellness programs are sustained engagement experiences with multiple milestones, challenges, and reward touchpoints that require adaptive orchestration based on patient participation and progress.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Wellness programs are sustained engagement experiences with multiple milestones, challenges, and reward touchpoints that require adaptive orchestration based on patient participation and progress. This is the right pattern because wellness programs require a sequenced, multi-message flow over an extended period with conditional branching based on participation milestones and engagement patterns — event-triggered messaging cannot handle the sustained, adaptive orchestration needed to adjust challenges and rewards based on ongoing progress tracking.
 
 ### Technical considerations
 
@@ -234,11 +237,11 @@ Enable personalized communication and coordination between patients and their ca
 
 ### Business impact
 
-Effective care team coordination communications typically result in a 35 to 45 percent improvement in care team engagement and measurably better care coordination outcomes across multi-provider care plans.
+Effective care team coordination communications result in improved care team engagement and better care coordination outcomes across multi-provider care plans.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Care team coordination involves multiple stakeholders and ongoing communication flows that must adapt based on care plan milestones, patient status changes, and provider actions.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Care team coordination involves multiple stakeholders and ongoing communication flows that must adapt based on care plan milestones, patient status changes, and provider actions. This is the right pattern because care coordination requires adaptive, multi-step messaging flows that branch based on care plan milestones and provider actions across multiple stakeholders — a single message or simpler pattern cannot accommodate the complex interdependencies and role-based message routing needed across clinical teams.
 
 ### Technical considerations
 
@@ -246,3 +249,43 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Integrate with care management and electronic health records systems to receive care plan updates, referral completions, and transition-of-care events that trigger coordination messages.
 - Design separate communication paths for patient-facing and provider-facing messages, ensuring that clinical terminology is used appropriately for providers while patient messages remain clear and accessible.
 - Maintain a complete audit trail of all care coordination communications for compliance with care continuity regulations and accreditation requirements.
+
+
+## Patient Journey Funnel and Care Gap Analysis
+
+Map the end-to-end patient journey from initial web research through appointment scheduling, care delivery, and follow-up to identify where patients disengage and which populations have gaps in recommended preventive or chronic care. Health systems that lack cross-channel journey visibility cannot distinguish between scheduling friction and patient disengagement — limiting their ability to improve access and close care gaps at scale.
+
+### Business impact
+
+Understanding where patients drop out of care pathways and which member segments have the highest concentration of care gaps enables care management and marketing teams to focus outreach resources on the populations and friction points that will yield the greatest improvement in care adherence.
+
+### How to implement
+
+Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) pattern. This approach connects web and portal behavioral data, appointment system records, and care claims data to Customer Journey Analytics, where fallout analysis measures drop-off at each scheduling or care step and cohort analysis identifies which member segments have the lowest care adherence rates. This is the right pattern when the goal is insight generation and population-level analysis — understanding where journeys break down and who is most at risk — rather than triggering outreach or activating a suppression list.
+
+### Technical considerations
+
+- Appointment and claims data from clinical systems must be mapped to HIPAA-compliant XDM schemas before ingestion into AEP, and data use labels must be applied to restrict access to protected health information within CJA data views.
+- Patient or member identifiers across the web portal, scheduling system, and EHR must be resolved to a consistent person ID in the CJA connection to produce a coherent cross-system journey view without duplicating individuals.
+- Care gap analysis requires look-up datasets that encode clinical guideline definitions — such as recommended screening intervals by age and condition — so that CJA derived fields can flag members who have not completed recommended care within the guideline window.
+- Scheduling funnel analysis should capture both completed and abandoned scheduling sessions, including exit points in multi-step scheduling flows, so that friction points are visible at the step level rather than as aggregate drop-off rates.
+
+
+## Patient Portal Content Personalization
+
+Personalize the authenticated patient portal experience by surfacing the most relevant health content, tools, and resources based on each patient's in-session browsing behavior and engagement history. A portal that adapts to what a patient is actively researching — rather than presenting the same static experience to every visitor — makes it easier for patients to find what they need and encourages deeper engagement with available health resources.
+
+### Business impact
+
+Personalizing the patient portal experience based on engagement behavior drives improved content discovery and self-service completion rates, helping patients navigate their care more confidently without requiring care team intervention.
+
+### How to implement
+
+Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. In-session behavioral signals from the authenticated portal — including content page views, health tool usage, FAQ topic engagement, and appointment scheduling activity — train a recommendation model that surfaces the most relevant resources for each patient based on what they are actively exploring, without requiring clinical data as an input. This is the right pattern when personalization is driven by implicit behavioral signals within an authenticated session and the goal is relevance ranking of a content and resource catalog — rather than governed eligibility decisioning, which is more appropriate when clinical criteria must gate what a patient sees.
+
+### Technical considerations
+
+- Limit behavioral signals used for recommendations to portal interaction data — content views, tool usage, and navigation patterns — and implement data use labels that prevent any inferred health interests from flowing outside the authenticated portal session or into marketing channels.
+- Implement a clinically reviewed content library as the recommendation pool so that the model can only surface pre-approved health education materials, ensuring every recommended resource has been validated for accuracy before deployment.
+- Ensure the recommendation system meets HIPAA technical safeguard requirements for the authenticated portal environment, including session timeout controls and audit logging of which content was presented to each patient and when.
+- Provide patients with visible controls to clear their portal browsing history and opt out of behavioral personalization, maintaining transparency and trust in how their engagement data is used within the portal experience.

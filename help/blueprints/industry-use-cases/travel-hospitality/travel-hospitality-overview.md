@@ -14,11 +14,11 @@ Show personalized cruise, hotel, and destination recommendations on the homepage
 
 ### Business impact
 
-Personalizing the homepage for new visitors typically drives a 15-20% increase in conversion rate by presenting travel options that match the visitor's location and interests rather than generic content.
+Personalizing the homepage for new visitors drives improved conversion rates by presenting travel options that match the visitor's location and interests rather than generic content.
 
 ### How to implement
 
-Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) pattern. This approach delivers tailored content to visitors who have not yet identified themselves, using available signals such as geolocation, device type, and referral source to personalize the experience from the very first page.
+Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) pattern. This approach delivers tailored content to visitors who have not yet identified themselves, using available signals such as geolocation, device type, and referral source to personalize the experience from the very first page. This is the right pattern when the visitor has not yet identified themselves and personalization must rely on available signals such as geolocation, device type, and referral source — known-visitor personalization requires an authenticated profile that does not yet exist.
 
 ### Technical considerations
 
@@ -34,11 +34,11 @@ Automatically detect when a customer abandons their booking cart and trigger a m
 
 ### Business impact
 
-Effective booking recovery programs achieve a 25-35% cart recovery rate and can generate an additional $50,000 to $200,000 in monthly revenue depending on booking volume and average trip value.
+Effective booking recovery programs achieve meaningful cart recovery rates and can generate significant incremental revenue depending on booking volume and average trip value.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the customer's travel intent is still high.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the customer's travel intent is still high. This is the right pattern when the trigger is a real-time customer behavior event and the required response is a single, time-sensitive message — rather than a multi-step nurture sequence or dynamic offer selection that changes based on customer response.
 
 ### Technical considerations
 
@@ -54,11 +54,11 @@ Identify visitors with high purchase intent using AI-powered propensity scoring 
 
 ### Business impact
 
-Targeting high-intent visitors with personalized offers drives a 30-40% increase in conversion for these segments, concentrating marketing investment where it delivers the greatest return.
+Targeting high-intent visitors with personalized offers drives improved conversion for these segments, concentrating marketing investment where it delivers the greatest return.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach uses real-time profile data and behavioral signals to personalize the web experience for identified visitors, delivering tailored content and offers that match their level of purchase readiness.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach uses real-time profile data and behavioral signals to personalize the web experience for identified visitors, delivering tailored content and offers that match their level of purchase readiness. This is the right pattern when personalization is driven by profile attributes and propensity scores for identified customers rather than a behavioral affinity model — and when the customer has already authenticated, making their segment membership and intent signals available.
 
 ### Technical considerations
 
@@ -74,11 +74,11 @@ After a customer completes a booking, automatically trigger upsell campaigns for
 
 ### Business impact
 
-Post-booking upsell campaigns typically increase average order value by $200-$500 and lift ancillary revenue by 15-25%, turning a single booking into a significantly more valuable transaction.
+Post-booking upsell campaigns increase average order value and lift ancillary revenue, turning a single booking into a significantly more valuable transaction.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step journey guides booked customers through a timed sequence of upsell opportunities, adapting the offers based on what the guest has already purchased and their engagement with earlier messages.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step journey guides booked customers through a timed sequence of upsell opportunities, adapting the offers based on what the guest has already purchased and their engagement with earlier messages. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on engagement events and inventory availability — a single triggered message cannot accommodate the dependency logic between upsell moments or timing adjustments based on travel date proximity.
 
 ### Technical considerations
 
@@ -94,11 +94,11 @@ Identify customers who have not booked in twelve or more months and engage them 
 
 ### Business impact
 
-Well-targeted win-back campaigns achieve a 10-15% reactivation rate among lapsed customers, recovering revenue from guests who might otherwise never return.
+Well-targeted win-back campaigns achieve meaningful reactivation rates among lapsed customers, recovering revenue from guests who might otherwise never return.
 
 ### How to implement
 
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step journey re-engages lapsed customers with a progressive series of messages that evolve from inspiration to incentive based on the customer's response.
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-step journey re-engages lapsed customers with a progressive series of messages that evolve from inspiration to incentive based on the customer's response. This is the right pattern when there is no discrete triggering event and timing must be calculated from customer lifecycle models and seasonal booking patterns — event-triggered messaging cannot handle the progressive escalation logic or the need to time offers around typical travel planning windows.
 
 ### Technical considerations
 
@@ -114,11 +114,11 @@ Show personalized cruise itineraries and destinations based on the customer's pa
 
 ### Business impact
 
-Personalized itinerary recommendations drive a 20-30% increase in engagement with itinerary pages, helping customers find the right trip faster and reducing the drop-off that occurs when travelers feel overwhelmed by too many options.
+Personalized itinerary recommendations drive improved engagement with itinerary pages, helping customers find the right trip faster and reducing the drop-off that occurs when travelers feel overwhelmed by too many options.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach personalizes website content for identified visitors, using their profile data and behavioral history to surface the most relevant itineraries and destinations.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach personalizes website content for identified visitors, using their profile data and behavioral history to surface the most relevant itineraries and destinations. This is the right pattern when personalization is driven by profile attributes and booking history rather than a behavioral affinity model — allowing rules-based logic to account for travel logistics like departure ports and dates alongside customer preferences.
 
 ### Technical considerations
 
@@ -134,11 +134,11 @@ Display recently viewed cruises, hotels, or destinations on the homepage to remi
 
 ### Business impact
 
-Showing recently browsed travel products on the homepage increases return visit engagement by 15-20%, helping customers pick up where they left off and shortening the path to booking.
+Showing recently browsed travel products on the homepage increases return visit engagement, helping customers pick up where they left off and shortening the path to booking.
 
 ### How to implement
 
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach uses the visitor's stored profile data to render previously viewed items on the homepage, creating continuity across browsing sessions.
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach uses the visitor's stored profile data to render previously viewed items on the homepage, creating continuity across browsing sessions. This is the right pattern when personalization relies on persistent profile data across sessions and devices rather than real-time behavioral affinity — and when the rules for relevance are time-based (recency) rather than algorithmic ranking.
 
 ### Technical considerations
 
@@ -154,11 +154,11 @@ When a visitor shows exit intent, display a personalized modal with relevant off
 
 ### Business impact
 
-Exit intent modals with personalized travel offers recover a 5-10% conversion rate among visitors who would otherwise leave without booking, capturing revenue that would be entirely lost.
+Exit intent modals with personalized travel offers recover meaningful conversions among visitors who would otherwise leave without booking, capturing revenue that would be entirely lost.
 
 ### How to implement
 
-Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. This approach uses centralized decision logic to evaluate all available offers and select the most relevant one for the departing visitor based on their session behavior and profile data.
+Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern. This approach uses centralized decision logic to evaluate all available offers and select the most relevant one for the departing visitor based on their session behavior and profile data. This is the right pattern when offer selection must account for loyalty tier eligibility and business constraints around frequency capping — constraints that require governed decisioning logic rather than a simple behavioral recommendation or single triggered message.
 
 ### Technical considerations
 
@@ -174,11 +174,11 @@ Personalize the website experience, offers, and communications based on the cust
 
 ### Business impact
 
-Tier-based personalization drives a 25-35% increase in engagement from loyalty members, deepening the relationship and accelerating the earning and redemption behaviors that sustain long-term revenue.
+Tier-based personalization drives improved engagement from loyalty members, deepening the relationship and accelerating the earning and redemption behaviors that sustain long-term revenue.
 
 ### How to implement
 
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. This approach combines journey orchestration with real-time decisioning to deliver the right offer through the right channel for each loyalty member, adapting to their tier, preferences, and recent activity.
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. This approach combines journey orchestration with real-time decisioning to deliver the right offer through the right channel for each loyalty member, adapting to their tier, preferences, and recent activity. This is the right pattern when the journey must coordinate delivery across channels to prevent duplicate offers and when offer selection requires tier-based eligibility rules and redemption constraints — journey orchestration alone does not provide the multi-channel decisioning layer needed.
 
 ### Technical considerations
 
@@ -194,11 +194,11 @@ Send personalized booking reminders via email, text message, and push notificati
 
 ### Business impact
 
-Multi-channel booking reminders improve booking completion rates by 20-30%, recovering significant revenue from customers who intended to book but were sidetracked before finishing.
+Multi-channel booking reminders improve booking completion rates, recovering significant revenue from customers who intended to book but were sidetracked before finishing.
 
 ### How to implement
 
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach triggers reminders automatically when an incomplete booking event is detected, delivering timely messages across the customer's preferred channels.
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach triggers reminders automatically when an incomplete booking event is detected, delivering timely messages across the customer's preferred channels. This is the right pattern when the trigger is a discrete customer action (starting a booking) and the required response is time-sensitive delivery across preferred channels — rather than a multi-step sequence where each message depends on previous engagement or availability changes.
 
 ### Technical considerations
 
@@ -214,11 +214,11 @@ Personalize campaigns and offers based on seasonal preferences, past seasonal bo
 
 ### Business impact
 
-Seasonally personalized campaigns lift seasonal booking conversion by 15-25%, ensuring that marketing investment is concentrated on the destinations and travel products most likely to resonate with each customer.
+Seasonally personalized campaigns lift seasonal booking conversion, ensuring that marketing investment is concentrated on the destinations and travel products most likely to resonate with each customer.
 
 ### How to implement
 
-Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. This approach delivers personalized seasonal campaign messages to large audiences on a scheduled basis, segmenting customers by their seasonal travel patterns and preferences.
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern. This approach delivers personalized seasonal campaign messages to large audiences on a scheduled basis, segmenting customers by their seasonal travel patterns and preferences. This is the right pattern when the audience is large and pre-defined by seasonal booking history, delivery timing is scheduled based on seasonal planning windows rather than event-driven, and no real-time branching or decisioning is required.
 
 ### Technical considerations
 
@@ -234,11 +234,11 @@ Identify customers who frequently book group travel and proactively recommend gr
 
 ### Business impact
 
-Proactive group booking recommendations increase average order value by $1,000-$3,000 per booking, capturing the full value of group travel transactions that might otherwise be split across multiple individual reservations.
+Proactive group booking recommendations increase average order value per booking, capturing the full value of group travel transactions that might otherwise be split across multiple individual reservations.
 
 ### How to implement
 
-Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses AI-driven models that learn from customer booking patterns and behavior to recommend the most relevant group travel options for each customer.
+Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) pattern. This approach uses AI-driven models that learn from customer booking patterns and behavior to recommend the most relevant group travel options for each customer. This is the right pattern when the item set is large and continuously changing — group packages evolving with pricing and availability — and selection is driven by behavioral patterns of group booking history rather than a bounded set of offers governed by eligibility rules.
 
 ### Technical considerations
 
@@ -246,3 +246,23 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Group package pricing must be pulled from the reservation system dynamically, since group rates often differ from individual rates and may require minimum party sizes or advance booking windows.
 - Recommendation content should address the unique needs of group organizers, including information about group dining options, meeting spaces, block booking discounts, and group excursion availability.
 - [!DNL Real-Time Customer Data Platform] profile enrichment should flag customers as group travel organizers based on their booking patterns, enabling targeted campaigns during peak group planning periods such as family reunion season or corporate retreat windows.
+
+
+## AI Booking Concierge
+
+Travel and hospitality organizations offer complex, high-consideration purchase journeys in which guests must navigate flights, rooms, room categories, ancillary services, and loyalty benefits before committing to a booking. Static browse-and-filter interfaces create decision fatigue and increase drop-off. An AI booking concierge engages guests in natural conversation to understand their travel intent, party size, preferences, and budget, then guides them step by step through itinerary planning, accommodation selection, and add-on options — all while surfacing loyalty benefits relevant to the guest's tier.
+
+### Business impact
+
+Conversational booking guidance improves itinerary completion rates and ancillary attachment, while reducing call center volume for guests who would otherwise phone to clarify options.
+
+### How to implement
+
+Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) pattern. This approach deploys the Product Advisor Agent against the property and itinerary catalog, using AEP Agent Orchestrator and real-time customer profile data to surface personalized options and loyalty-relevant recommendations through guided multi-turn dialogue. This is the right pattern when the goal is interactive, multi-turn conversational discovery that builds toward a complex booking decision — distinct from event-triggered messaging, which reacts to discrete traveler actions with one-directional outreach, and from personalized web experiences, which surface recommendations passively without engaging the guest in dialogue. It requires AEP Agent Orchestrator and brand governance configuration.
+
+### Technical considerations
+
+- Availability and rate data must be kept current through near-real-time integration between the reservation system and the Brand Concierge content layer, since recommending unavailable room types or incorrect pricing within a conversation erodes trust immediately.
+- Real-time customer profile lookup must surface loyalty tier, stay history, and stated preferences so that the agent can proactively acknowledge the guest's status and tailor recommendations without requiring the guest to re-explain their preferences on each visit.
+- Brand governance must define how the agent handles rate match inquiries, competitor references, and situations where the guest's preferred dates or room type are unavailable, ensuring the agent responds gracefully within brand voice rather than presenting a dead end.
+- Conversational intent signals — including destination interest, travel party composition, and ancillary preferences expressed during dialogue — must flow back to AEP as ExperienceEvent data, enriching guest profiles to inform downstream email, loyalty, and re-engagement campaigns.

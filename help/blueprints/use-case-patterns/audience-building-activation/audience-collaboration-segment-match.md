@@ -60,7 +60,7 @@ Improve return on marketing investment through better targeting, attribution, au
 
 The following KPIs help measure the success of audience collaboration implementations.
 
-| KPI | Description | Measurement method |
+| KPI | Description | Measurement approach |
 | --- | --- | --- |
 | Audience Overlap Rate | Percentage of profiles in the shared segment that match between sender and receiver | [!DNL Segment Match] overlap estimation report |
 | Matched Audience Size | Number of profiles successfully matched and available for activation | [!DNL Segment Match] share status and audience population count |

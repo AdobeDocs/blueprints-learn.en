@@ -157,16 +157,16 @@ This plan exercises the following functions from the Application Function Catalo
 
 The following items must be in place before implementation begins.
 
-- [!DNL CJA] B2B Edition license is active and provisioned for the organization
-- [!DNL RT-CDP] B2B Edition license is active with B2B schemas and account profiles configured
-- B2B XDM schemas are defined (Account, Opportunity, Account Person Relation, Opportunity Person Relation, Marketing List Members)
-- [!DNL Marketo Engage] and/or CRM source connectors are configured and actively ingesting data
-- Account-level behavioral event data (web visits, email interactions, form submissions) is flowing into AEP with account association
-- Person-to-account relationships are established in the identity graph
-- At least 30 days of historical B2B engagement data is available for meaningful analysis
-- Stakeholders have agreed on buying group role definitions and solution interest mappings
-- [!DNL CJA] user accounts are provisioned with appropriate product profiles for B2B Edition features
-- Target KPIs and reporting requirements have been defined by marketing and sales leadership
+- [ ] [!DNL CJA] B2B Edition license is active and provisioned for the organization
+- [ ] [!DNL RT-CDP] B2B Edition license is active with B2B schemas and account profiles configured
+- [ ] B2B XDM schemas are defined (Account, Opportunity, Account Person Relation, Opportunity Person Relation, Marketing List Members)
+- [ ] [!DNL Marketo Engage] and/or CRM source connectors are configured and actively ingesting data
+- [ ] Account-level behavioral event data (web visits, email interactions, form submissions) is flowing into AEP with account association
+- [ ] Person-to-account relationships are established in the identity graph
+- [ ] At least 30 days of historical B2B engagement data is available for meaningful analysis
+- [ ] Stakeholders have agreed on buying group role definitions and solution interest mappings
+- [ ] [!DNL CJA] user accounts are provisioned with appropriate product profiles for B2B Edition features
+- [ ] Target KPIs and reporting requirements have been defined by marketing and sales leadership
 
 ## Implementation options
 

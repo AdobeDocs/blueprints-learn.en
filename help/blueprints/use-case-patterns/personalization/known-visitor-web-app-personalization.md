@@ -22,37 +22,25 @@ The pattern supports both deterministic personalization (where specific content 
 
 ## Key business objectives
 
-The following business objectives are addressed by this use case pattern.
+The following business objectives are supported by this use case pattern.
 
 ### Deliver personalized customer experiences
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage. For more information, see [Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md).
 
-| KPI | Description |
-| --- | --- |
-| Engagement | Interaction frequency and depth with personalized content across digital surfaces |
-| Conversion Rates | Percentage of visitors who complete desired actions after receiving personalized content |
-| Customer Satisfaction (CSAT) | Overall satisfaction improvement driven by relevant, personalized digital experiences |
+**KPIs:** Engagement, Conversion Rates, Customer Satisfaction (CSAT)
 
 ### Increase website engagement
 
 Improve time on site, pages per session, and interaction with web content through relevant experiences. For more information, see [Increase website engagement](../../business-objectives/acquisition-growth/increase-website-engagement.md).
 
-| KPI | Description |
-| --- | --- |
-| Time On (web) Page | Increased dwell time on personalized content areas |
-| Engagement | Interaction rates with personalized elements (clicks, scrolls, interactions) |
-| Conversion Rates | Improved conversion from personalized content versus default content |
+**KPIs:** Time On (web) Page, Engagement, Conversion Rates
 
 ### Increase mobile app engagement
 
 Drive daily active usage, feature adoption, and in-app conversions through personalized in-app experiences.
 
-| KPI | Description |
-| --- | --- |
-| Engagement | In-app interaction rates with personalized messages and content cards |
-| Retention | Improved app retention driven by personalized experiences |
-| Conversion Rates | In-app conversion improvements from personalized offers and recommendations |
+**KPIs:** Engagement, Retention, Conversion Rates
 
 ## Example tactical use cases
 
@@ -71,7 +59,7 @@ The following are common tactical implementations of this pattern:
 
 The following KPIs help measure the effectiveness of this use case pattern.
 
-| KPI | Measurement Approach | Benchmark Guidance |
+| KPI | Measurement approach | Benchmark guidance |
 | --- | --- | --- |
 | Personalization Engagement Rate | Clicks and interactions with personalized content elements divided by impressions | Personalized content should outperform default content by 20-50% |
 | Conversion Rate Lift | Conversion rate for personalized experiences versus control/default experiences | Target 10-30% lift over non-personalized experiences |
@@ -247,6 +235,10 @@ This approach supports sophisticated personalization scenarios including next-be
 - [Create personalized offers](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Create decisions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 - [Ranking strategies](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/ranking/ranking-strategies)
+
+**How this differs from Offer decisioning Option B:**
+
+The infrastructure is identical — both use AJO Decisioning at the edge with Web SDK and an edge-active merge policy. The difference is what is being selected. This option manages content items where the selection criterion is personalization fit (segment membership, behavioral ranking). [Offer decisioning](offer-decisioning.md) Option B manages a governed offer catalog where eligibility rules, capping limits, and validity windows are business requirements. If your item set requires per-profile impression capping, regulatory eligibility constraints, or offer lifecycle management, use Offer decisioning Option B instead.
 
 ### Option C: Multi-surface personalization (web + in-app + content card)
 
