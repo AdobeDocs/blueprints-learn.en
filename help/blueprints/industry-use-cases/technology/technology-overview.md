@@ -2,7 +2,7 @@
 title: Technology Use Cases
 description: Discover how technology organizations use Adobe Experience Platform to unify data collection, forward events in real time, and power analytics and activation across digital products.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+exl-id: 2e4d9a1e-af46-4422-b00c-224a955101ee
 ---
 # Technology Use Cases
 
