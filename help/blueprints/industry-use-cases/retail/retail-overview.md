@@ -286,3 +286,202 @@ Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patt
 - Multiple attribution models — first-touch, last-touch, linear, and time-decay — should be configured in the CJA data view so analysts can compare them side by side without rebuilding the analysis.
 - Paid media impression and click data from external ad platforms must be ingested via source connectors or batch uploads to include paid channels in the attribution path alongside owned channels.
 - Conversion windows and credit lookback periods need to be defined per channel type, since the relevant attribution window for a paid search click differs significantly from that of a seasonal email campaign.
+
+## Audience Segmentation & Activation for Paid Media
+
+Build high-value audience segments from unified customer profiles and activate them across paid media destinations such as Google Ads, Meta, and The Trade Desk for acquisition and retargeting campaigns. Unifying behavioral, transactional, and loyalty data enables more precise targeting that reduces wasted ad spend and improves campaign return on investment.
+
+### Business impact
+
+Retailers who activate high-quality first-party audiences see improved match rates on paid media platforms, reduced cost per acquisition, and stronger return on ad spend compared to relying on third-party segments.
+
+### How to implement
+
+Use the [Audience Activation to Destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) pattern to evaluate audience membership against unified profiles and publish segments to connected paid media destinations on a scheduled or streaming basis. This is the right pattern when the primary requirement is segment publication to external systems rather than orchestrated messaging or real-time decisioning.
+
+### Technical considerations
+
+- Identity resolution across web, mobile, and loyalty data is required to build complete customer profiles before activation — fragmented profiles reduce audience quality and match rates.
+- Destination connectors must be configured for each paid media platform, with appropriate consent flags respected at the profile level to prevent non-consented data from being activated.
+- Segment refresh frequency should align with campaign objectives — acquisition audiences may need daily refreshes while retargeting audiences benefit from near-real-time updates to exclude recent purchasers.
+- Overlap analysis between acquisition and retention audiences helps prevent cross-contamination where existing customers receive new-customer acquisition messaging.
+
+
+## Customer Suppression for Acquisition Campaigns
+
+Suppress existing customers and recent converters from acquisition ad spend by activating exclusion audiences to paid media destinations, reducing wasted spend. Continuously syncing suppression lists ensures that paid budgets target net-new prospects rather than people who have already converted or are actively engaged.
+
+### Business impact
+
+Suppressing existing customers from acquisition campaigns reduces wasted paid media spend, improves cost per acquisition metrics, and prevents existing customers from receiving messaging that is irrelevant to their relationship stage.
+
+### How to implement
+
+Use the [Audience Activation to Destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) pattern to publish exclusion audiences — recent purchasers, active subscribers, high-value customers — to each paid media destination on a frequent schedule. This is the right pattern when the objective is segment publication for suppression rather than orchestrating a customer-facing journey.
+
+### Technical considerations
+
+- Suppression audiences require a clear definition of who to exclude — typically customers who purchased within the last 30-90 days, active loyalty members, and recent email converts.
+- Exclusion lists must be refreshed frequently enough to exclude purchasers before ads serve; stale suppression lists cause the most brand friction in high-volume retail periods.
+- Identity matching quality directly affects suppression accuracy — poor email or device ID matching will result in existing customers still seeing acquisition ads.
+- Ensure that suppression audiences are separate from retention audiences so that win-back campaigns can still reach lapsed customers who should not be suppressed.
+
+
+## Personalized Web Experiences for Known Visitors
+
+Deliver personalized hero banners, product recommendations, and promotional content to authenticated website visitors based on their real-time profile, segment membership, and behavioral history. When returning customers see experiences tailored to their loyalty status, purchase history, and preferences, engagement rates and conversion improve significantly compared to generic homepage experiences.
+
+### Business impact
+
+Retailers who personalize for known visitors see meaningful improvement in engagement metrics including time on site, pages per session, and conversion rate, with the greatest impact among loyalty members who visit frequently.
+
+### How to implement
+
+Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern to deliver profile-driven personalized experiences at page load using real-time segment membership and profile attributes. This is the right pattern when the experience must be driven by identity-linked profile data rather than session-only signals — and when content decisions do not require complex offer ranking or business constraints.
+
+### Technical considerations
+
+- Authentication must occur before profile-driven personalization can activate; the website needs a mechanism to identify the visitor and resolve their ECID to a known profile.
+- Real-time profile lookups must complete within the page load latency budget, typically requiring edge-deployed profile evaluation rather than server-side API calls on the critical rendering path.
+- Content variations must be designed for all audience segments that will be targeted, including a default experience for visitors who don't match any personalization rule.
+- Personalization decisions should be logged for analysis, enabling A/B testing of content variations and attribution of engagement improvements to specific segments.
+
+
+## Anonymous Visitor Web Personalization
+
+Personalize content for unidentified website visitors using in-session behavioral signals such as pages viewed, product categories browsed, and referral source. Since the majority of retail web traffic is anonymous, personalizing for unrecognized visitors significantly expands the reach of on-site personalization beyond the authenticated segment.
+
+### Business impact
+
+Retailers serving personalized experiences to anonymous visitors see improved engagement and first-visit conversion rates, with particularly strong impact on visitors arriving from specific campaign sources or browsing high-intent category pages.
+
+### How to implement
+
+Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) pattern to evaluate in-session behavioral signals at the edge and serve relevant content variations without requiring authentication. This is the right pattern when personalization must work immediately from the first interaction without relying on a persistent profile — particularly for acquisition traffic and visitors who have not yet logged in.
+
+### Technical considerations
+
+- In-session personalization relies on streaming event data collected via Edge Network; the edge evaluation rules must be deployed and tested before traffic is sent to them.
+- Content variations should be designed around high-signal in-session behaviors — referral source, first page viewed, product category explored — rather than low-signal attributes that don't reliably predict intent.
+- Privacy requirements must be evaluated carefully; some jurisdictions treat behavioral personalization as requiring consent even for anonymous visitors.
+- Personalization rules for anonymous visitors should be simpler and faster to evaluate than known-visitor rules, as edge latency constraints are more stringent.
+
+
+## Welcome Series Journey
+
+Orchestrate a multi-step welcome journey for newly registered customers, delivering onboarding content, product education, and a first-purchase incentive across email and push channels. A well-designed welcome series sets the tone for the customer relationship and significantly increases the likelihood that a new registrant converts to their first purchase.
+
+### Business impact
+
+Welcome series programs drive meaningful improvements in new customer activation rates and first-purchase conversion, with the strongest impact when the series combines educational content with a timely, personalized incentive.
+
+### How to implement
+
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to design a multi-day onboarding sequence with wait steps, channel branching based on engagement, and suppression when the first purchase goal is achieved. This is the right pattern when the use case requires a sequenced, time-spaced communication flow with conditional logic — a single triggered message is insufficient to guide a new customer through the onboarding experience.
+
+### Technical considerations
+
+- Journey entry should be triggered by account registration events in real time so the first welcome message arrives promptly while registration intent is high.
+- The journey must include exit conditions that suppress remaining messages when a new customer completes their first purchase — continuing the welcome series after purchase undermines message relevance.
+- Channel preference must be respected throughout; push notification steps require app installation and push opt-in, with email fallback for customers without opt-in.
+- Personalization in the welcome series improves conversion but requires enough profile data to be meaningful — new profiles often need a fallback to bestsellers or trending products.
+
+
+## Cart Abandonment Recovery
+
+Trigger real-time email and push notifications when a customer abandons their shopping cart, with personalized product reminders and time-limited incentives to complete the purchase. Cart abandonment is among the highest-ROI use cases in retail, recovering revenue from customers who have already demonstrated strong purchase intent.
+
+### Business impact
+
+Well-executed cart abandonment programs recover a meaningful share of abandoned revenue, with recovery rates highest when the first message arrives within one hour of abandonment and includes the exact items left in the cart.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to respond to the cart abandon event with an immediate triggered communication while purchase intent is still active. This is the right pattern when a discrete customer action is the trigger and the primary requirement is a timely, personalized response — rather than a multi-week nurture sequence or complex offer decisioning with business constraints.
+
+### Technical considerations
+
+- Cart abandon detection requires a defined inactivity threshold (typically 30-60 minutes) to avoid messaging customers who are still actively browsing or completing the checkout flow.
+- Email content must dynamically render current product images, prices, and inventory status at send time, as items may sell out or change price between abandonment and message delivery.
+- Suppression logic must exclude customers who completed their purchase through another channel between abandonment detection and message send.
+- Frequency capping rules should prevent repeat cart abandonment messages in short windows, particularly for customers who habitually abandon carts as a browsing behavior.
+
+
+## Post-Purchase Engagement Journey
+
+Deliver post-purchase communications including order confirmation, shipping updates, cross-sell recommendations, and review requests through an orchestrated multi-step journey. The post-purchase window is one of the highest-engagement moments in the customer lifecycle, making it an ideal time to build loyalty and introduce relevant complementary products.
+
+### Business impact
+
+Retailers with structured post-purchase journeys see improved repeat purchase rates and customer review submission rates, contributing to both long-term loyalty and social proof that supports future acquisition.
+
+### How to implement
+
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to orchestrate a sequence of post-purchase communications timed to key milestones: order confirmation, shipment, delivery, and post-delivery follow-up. This is the right pattern when the use case spans multiple days with multiple objectives — a single triggered message cannot accommodate the arc from transactional confirmation to loyalty building to review solicitation.
+
+### Technical considerations
+
+- Order management system integration is required to receive real-time purchase and shipment events; delays in event ingestion create awkward timing in post-purchase communications.
+- Cross-sell recommendations in the post-purchase sequence require real-time product catalog data and recommendation model inference at message render time to reflect current inventory and pricing.
+- Review request messages must comply with platform terms of service for incentivized reviews and should be timed after the customer has had sufficient time to use the product.
+- Channel coordination is important — customers should not receive both email and push for the same milestone unless they have engaged with the first channel.
+
+
+## Loyalty Tier Upgrade Campaign
+
+Identify customers approaching loyalty tier thresholds and deliver targeted campaigns encouraging them to reach the next tier with personalized offers based on purchase history and preferences. When customers are within reach of a tier upgrade, targeted messaging with personalized incentives creates urgency and drives incremental purchase behavior.
+
+### Business impact
+
+Loyalty tier upgrade campaigns drive incremental purchase volume and improve program engagement, with the strongest impact among mid-tier members who are close to the next threshold and have shown recent purchase activity.
+
+### How to implement
+
+Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern to build a tier proximity campaign that enters customers when they reach a defined spend threshold below their next tier level and guides them through a sequence of benefit messaging and incentive offers. This is the right pattern when the use case requires monitoring a calculated profile attribute over time and orchestrating a multi-step campaign tied to the customer's progress toward a goal.
+
+### Technical considerations
+
+- Loyalty platform data — points balance, tier status, tier thresholds — must be ingested and kept current in the customer profile so that tier proximity calculations are accurate.
+- Tier upgrade campaigns should be suppressed for customers who have already achieved the target tier or whose loyalty status has changed since campaign entry.
+- Personalized incentives in the upgrade campaign should be constrained to offers the customer is genuinely eligible for and that do not undermine the perceived value of the tier structure.
+- The campaign must include clear exit conditions for customers who complete their tier upgrade mid-journey, pivoting to a congratulations message rather than continuing the persuasion sequence.
+
+
+## Cross-Channel Campaign Orchestration
+
+Orchestrate coordinated marketing campaigns across email, SMS, push, and web channels with journey branching, wait steps, and frequency capping to maximize engagement without fatigue. Coordinated cross-channel orchestration ensures that customers receive a coherent campaign experience regardless of which channel they respond to first, eliminating duplicate messaging and conflicting offers.
+
+### Business impact
+
+Retailers with cross-channel orchestration capabilities see higher campaign engagement and conversion rates than single-channel campaigns, while also reducing unsubscribe rates driven by channel fatigue from uncoordinated messaging.
+
+### How to implement
+
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to build campaigns that route customers through personalized channel sequences based on their engagement history, channel preferences, and real-time response signals. This is the right pattern when the campaign requires governed offer selection, channel preference routing, and dynamic branching based on in-journey engagement — rather than a fixed sequence sent to all campaign recipients.
+
+### Technical considerations
+
+- Global frequency caps must be configured across all channels to prevent customers from receiving excessive communications when multiple journeys are running simultaneously.
+- Channel preference data must be current and actionable — preference profiles that are months out of date will route customers to channels they no longer engage with.
+- Journey orchestration logic should handle re-entry gracefully, preventing customers from entering the same campaign twice while ensuring they are not excluded from genuinely new campaigns.
+- Real-time engagement signals (email opens, link clicks, web sessions) should feed back into the journey to enable channel switching and early exit for customers who have already converted.
+
+
+## Brand Concierge Conversational Experience
+
+Deploy an AI-powered, brand-safe conversational agent across digital properties to provide personalized product guidance, site navigation help, and seamless handoff to live agents. An on-site AI concierge extends personalized service at scale, helping shoppers discover products, compare options, and complete purchases without requiring human agent intervention for common queries.
+
+### Business impact
+
+Retailers with AI concierge capabilities report improved self-service resolution rates, reduced inbound support volume for product and navigation questions, and higher conversion among customers who engage with conversational guidance before purchase.
+
+### How to implement
+
+Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) pattern to deploy a governed AI agent grounded in product catalog data, brand guidelines, and real-time customer profile context. This is the right pattern when the use case requires natural language interaction over a large, dynamic product set — rather than a scripted chatbot with fixed intents or a pattern that matches a specific channel like email.
+
+### Technical considerations
+
+- The AI agent must be grounded in current product catalog data including descriptions, specifications, availability, and pricing to provide accurate guidance; stale product data leads to incorrect recommendations.
+- Brand safety guardrails must be configured to prevent the agent from discussing competitor products, making pricing commitments that conflict with promotions, or responding to off-topic queries.
+- Handoff logic to live agents requires integration with the service platform and should be triggered when the AI agent cannot resolve the customer's query after a defined number of turns.
+- Profile data integration enables the agent to personalize responses based on purchase history and loyalty status, but this requires identity resolution before the conversational session begins.

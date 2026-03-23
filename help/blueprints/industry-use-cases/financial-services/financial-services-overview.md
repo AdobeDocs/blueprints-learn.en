@@ -286,3 +286,42 @@ Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patt
 - CRM product tenure and account status data should be joined in the CJA connection alongside behavioral data so that churn analysis can correlate pre-attrition behaviors with actual account closure outcomes.
 - Data governance labels must be applied to any sensitive financial or identity fields included in the CJA connection to prevent PII exposure in shared dashboards accessed by analysts without data steward permissions.
 - Retention cohort analysis requires sufficient historical data depth — typically 12 to 24 months — so dataset retention policies in AEP must be configured to preserve the event history needed for meaningful cohort comparisons.
+
+## Next-Best Offer Decisioning
+
+Use centralized decision logic to select the most relevant offer for each customer across channels, combining eligibility rules, business constraints, and AI-powered ranking strategies. Centralizing offer selection ensures that each customer receives the most contextually appropriate financial product offer while respecting regulatory eligibility requirements and business constraints.
+
+### Business impact
+
+Financial services organizations using centralized next-best offer decisioning see improved product uptake rates and higher revenue per customer interaction, with the strongest performance when offer selection accounts for both propensity scores and eligibility guardrails.
+
+### How to implement
+
+Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) pattern to build a centralized decision engine that evaluates customer eligibility, applies business constraints, and uses AI ranking to select the optimal offer for each customer interaction across web, app, and outbound channels. This is the right pattern when offer selection is too complex for rule-based personalization alone — requiring a combination of eligibility logic, priority rules, and adaptive ranking to make the optimal selection from a catalog of offers.
+
+### Technical considerations
+
+- Offer eligibility rules must be maintained in the decisioning engine and kept in sync with product eligibility criteria from core banking or product systems to prevent ineligible offers from surfacing.
+- AI ranking models require sufficient training data from past offer interactions to generate reliable propensity scores; newly launched products need fallback ranking strategies until enough data accumulates.
+- Regulatory requirements in financial services may restrict what can be offered to whom and via which channel; decisioning logic must encode these constraints as hard rules rather than soft preferences.
+- Offer fatigue tracking is important — customers who repeatedly receive offers for the same product they have not accepted should have that offer deprioritized or suppressed after a defined number of exposures.
+
+
+## Customer Journey Analytics Dashboard
+
+Build cross-channel analytics workspaces combining web, app, email, and call center data to visualize customer journeys, identify drop-off points, and measure campaign attribution. A unified analytics workspace gives product and marketing teams a complete view of how customers move across channels and touchpoints, enabling data-driven decisions about where to invest in journey improvement.
+
+### Business impact
+
+Financial services organizations with cross-channel journey analytics reduce time-to-insight for campaign and product teams, enabling faster identification of high-impact optimization opportunities across onboarding flows, application funnels, and customer service journeys.
+
+### How to implement
+
+Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) pattern to stitch together event streams from all digital and offline channels into a unified analysis dataset, then build workspace visualizations that expose journey flows, funnel drop-off, and attribution models. This is the right pattern when the primary requirement is analytical insight and visualization rather than real-time activation — the data is used to inform decisions rather than trigger customer-facing actions.
+
+### Technical considerations
+
+- Cross-channel data stitching requires a consistent customer identifier across all source systems; organizations with fragmented identity strategies will see incomplete journeys that undermine the analysis.
+- Call center and offline interaction data must be ingested and timestamped accurately to place them correctly in the journey sequence relative to digital touchpoints.
+- Data latency between source systems and the analytics workspace affects how quickly insights are available; high-frequency analysis use cases may require near-real-time ingestion rather than daily batch feeds.
+- Privacy and data governance controls must be applied to analytics datasets to prevent personally identifiable information from appearing in dashboards accessible to analysts who should not have access to individual customer records.

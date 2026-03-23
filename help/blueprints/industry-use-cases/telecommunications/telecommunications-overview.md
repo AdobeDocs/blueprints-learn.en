@@ -286,3 +286,22 @@ Use the [Customer Analytics & Insight Generation](/help/blueprints/use-case-patt
 - Customer service contact data — including contact reason codes, channel used, and resolution status — must be ingested as events with timestamps that allow analysts to build sequential paths from network incident through service contact through churn in CJA flow or fallout visualizations.
 - Subscriber contract and plan data, including contract end dates, plan tier, and tenure, should be available as lookup dimensions in the CJA data view so that churn analysis can be segmented by contract proximity and value tier rather than treating the subscriber base as homogeneous.
 - Network telemetry data volumes can be extremely large; dataset sampling strategies or pre-aggregation in AEP should be considered to keep CJA connection query performance within acceptable ranges for analyst self-service use.
+
+## Churn Prevention & Win-Back
+
+Use predictive models and behavioral signals to identify at-risk customers and trigger personalized retention campaigns with tailored offers before they churn. Telecommunications providers face persistent churn pressure, and reaching at-risk subscribers with the right offer before they contact the cancellation queue is significantly more cost-effective than win-back campaigns after the fact.
+
+### Business impact
+
+Telecom providers with proactive churn prevention programs see meaningful reductions in voluntary churn for targeted segments, with the strongest impact among mid-value customers where targeted retention offers are more cost-effective than blanket discounts.
+
+### How to implement
+
+Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to build a retention journey that identifies at-risk subscribers based on churn propensity scores, selects the appropriate retention offer using decisioning logic, and delivers it across the subscriber's preferred channels with follow-up steps if the first outreach is ignored. This is the right pattern when both offer selection and journey orchestration are required — a single triggered message cannot accommodate the offer ranking logic and multi-touch follow-up needed for effective retention.
+
+### Technical considerations
+
+- Churn propensity models must be trained on historical churn data that includes network experience, billing events, service calls, and device age — models trained on engagement data alone often underperform against telecom-specific churn drivers.
+- Retention offers must be constrained by cost-to-retain thresholds per customer value segment; the decisioning engine should prevent high-cost retention offers from being applied to low-value subscribers.
+- Real-time churn signal processing must detect contract inquiry events and service cancellation page visits to trigger urgent retention responses before the subscriber escalates.
+- Customer service integration is critical — subscribers who call the retention queue should be recognized as journey participants so agents have the retention offer context ready before the call begins.

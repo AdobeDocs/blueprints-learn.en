@@ -250,3 +250,62 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Define advocacy eligibility criteria that combine satisfaction thresholds, usage milestones, and account tenure to avoid premature outreach.
 - Sync advocacy status and participation history back to [!DNL Salesforce] or [!DNL Microsoft Dynamics] so sales teams can reference customer advocates during prospecting.
 - Coordinate with [!DNL Marketo Engage] to suppress advocacy outreach during active support escalations or renewal negotiations.
+
+## B2B Account-Based Audience Activation
+
+Build account-level audiences combining firmographic data, buying group signals, and person-level engagement, then activate them to LinkedIn, demand-side platforms, and CRM destinations. Account-based audience activation enables B2B organizations to target entire buying organizations with coordinated digital advertising rather than individual contacts, aligning paid media spend with account pipeline priorities.
+
+### Business impact
+
+B2B organizations with account-based audience activation see stronger pipeline influence from paid media programs, with particularly high impact when audience segments are aligned with sales territory priorities and updated frequently as account engagement scores change.
+
+### How to implement
+
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level segments using account-person relationships and activate them to B2B-capable paid media destinations. This is the right pattern when audience construction must operate at the account level — combining signals from multiple contacts within a buying organization — rather than at the individual person level.
+
+### Technical considerations
+
+- B2B identity graph configuration must accurately link known individuals to their account records; gaps in account-person associations will result in incomplete buying group signal aggregation.
+- Account audience segments should be refreshed on a schedule that aligns with campaign flight dates and pipeline review cadence — segments that drift from current pipeline state reduce the efficiency of media spend.
+- LinkedIn Matched Audiences and similar B2B platforms match on professional email addresses, which may differ from the personal email addresses stored in CRM; both email types should be included in audience payloads.
+- Activation audiences should exclude accounts in active deal stages where paid advertising could create awkward overlap with direct sales outreach.
+
+
+## Buying Group Journey Orchestration
+
+Orchestrate account-level journeys that nurture buying group members based on their roles, engagement scores, and account qualification status, with automated handoff to sales. Coordinating journey logic at the buying group level rather than the individual level ensures that each stakeholder receives messaging appropriate to their role and decision stage while maintaining consistency within the account.
+
+### Business impact
+
+B2B organizations using buying group journey orchestration see improved opportunity creation rates from marketing-sourced pipeline and faster progression through early deal stages, particularly when sales handoff is triggered automatically based on measurable engagement thresholds.
+
+### How to implement
+
+Use the [Buying Group-Based Marketing](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) pattern to build account-qualified journeys that segment buying group members by role, evaluate group-level engagement signals, and orchestrate coordinated multi-person, multi-touch campaigns with conditional branching based on account status. This is the right pattern when journey logic must operate at the account-group level rather than the individual person level — standard person-level journey orchestration cannot handle the group-qualification and cross-person coordination requirements of B2B buying group management.
+
+### Technical considerations
+
+- Buying group membership definitions must be maintained in the B2B data model, linking known contacts to their accounts and assigning them roles such as champion, economic buyer, or technical evaluator.
+- Account engagement scoring must aggregate signals from multiple individuals within the buying group; a single contact's engagement is insufficient to determine account-level readiness.
+- Journey suppression must be synchronized with CRM opportunity stages to prevent marketing automation messages from conflicting with active sales conversations.
+- Sales alert and handoff notifications must integrate with the CRM and sales engagement platform so that representatives receive timely, actionable context when accounts reach the handoff threshold.
+
+
+## Account-Based Marketing (ABM) Personalization
+
+Personalize marketing communications and content for target accounts based on account profile, engagement history, and buying signals. ABM personalization goes beyond account targeting by customizing message content and web experiences to each account's specific industry, size, and known business challenges — creating relevance that generic campaign messages cannot achieve.
+
+### Business impact
+
+B2B organizations with account-level personalization report improved engagement rates on outbound campaigns and higher conversion from web to pipeline for targeted accounts, with particularly strong results when personalization extends to landing pages and website experiences visited through paid media.
+
+### How to implement
+
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to activate account-level profiles for personalization across web and outbound channels. This is the right pattern when the primary requirement is account-level targeting for personalization rather than contact-level journey orchestration — account profile data drives the personalization decisions rather than individual behavioral signals.
+
+### Technical considerations
+
+- Account firmographic data — industry, company size, geography, technology stack — must be current and consistently modeled to drive meaningful content personalization beyond generic industry-level targeting.
+- Web personalization for known B2B visitors requires IP-to-account resolution or direct authentication; IP-based resolution has lower accuracy and should not be relied upon for high-value account decisions.
+- Content must be developed for each account segment targeted with personalization; activating personalization without sufficient content variations will result in some accounts receiving unchanged experiences.
+- Personalization decisions at the account level should align with the current CRM stage and sales activity to avoid serving top-of-funnel awareness content to accounts already in active deals.

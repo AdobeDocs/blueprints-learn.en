@@ -289,3 +289,22 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Implement a clinically reviewed content library as the recommendation pool so that the model can only surface pre-approved health education materials, ensuring every recommended resource has been validated for accuracy before deployment.
 - Ensure the recommendation system meets HIPAA technical safeguard requirements for the authenticated portal environment, including session timeout controls and audit logging of which content was presented to each patient and when.
 - Provide patients with visible controls to clear their portal browsing history and opt out of behavioral personalization, maintaining transparency and trust in how their engagement data is used within the portal experience.
+
+## Patient Engagement & Appointment Reminders
+
+Send personalized appointment reminders, health tips, and follow-up care communications through compliant, consent-aware multi-channel journeys. Automated, personalized appointment reminders reduce no-show rates while ensuring communications comply with healthcare privacy regulations and patient consent preferences.
+
+### Business impact
+
+Healthcare organizations with automated appointment reminder programs see meaningful reductions in no-show and late-cancellation rates, improving provider schedule utilization and patient health outcomes through better appointment adherence.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to respond to appointment scheduling events with timely, personalized reminders timed at optimal intervals before the appointment date. This is the right pattern when the communication is triggered by a specific patient interaction event and the response is a time-sensitive, individualized message — rather than a multi-week nurture sequence or complex offer selection.
+
+### Technical considerations
+
+- All patient communications must comply with applicable healthcare privacy regulations; messaging content must avoid including protected health information beyond what is strictly necessary for the communication.
+- Consent management must be enforced at the channel level — patients who have not opted into SMS reminders must not receive texts, even when SMS would be the most effective reminder channel for their demographic.
+- Integration with the scheduling system must deliver appointment events in near real time to enable reminder timing that is accurate to the actual appointment schedule, including same-day reschedules and cancellations.
+- Multi-channel reminder sequences must include suppression logic so that patients who confirm their appointment do not continue to receive reminder messages for that appointment.
