@@ -266,3 +266,40 @@ Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-pa
 - Real-time customer profile lookup must surface loyalty tier, stay history, and stated preferences so that the agent can proactively acknowledge the guest's status and tailor recommendations without requiring the guest to re-explain their preferences on each visit.
 - Brand governance must define how the agent handles rate match inquiries, competitor references, and situations where the guest's preferred dates or room type are unavailable, ensuring the agent responds gracefully within brand voice rather than presenting a dead end.
 - Conversational intent signals — including destination interest, travel party composition, and ancillary preferences expressed during dialogue — must flow back to AEP as ExperienceEvent data, enriching guest profiles to inform downstream email, loyalty, and re-engagement campaigns.
+
+## Birthday Campaigns for Guests
+
+Target guests on their birthday with a personalized birthday message and an exclusive offer. Birthday campaigns strengthen guest relationships by acknowledging a personal milestone and encouraging a celebratory booking or visit.
+
+### Business impact
+
+Birthday messages create an emotional touchpoint that differentiates the brand and drives incremental bookings, as guests are more likely to plan a getaway or dining experience around their birthday when presented with a compelling, personalized offer.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to send a personalized birthday message and offer when the guest's birthday date arrives. This is the right pattern when a single event-driven message is sent based on a profile attribute date trigger.
+
+### Technical considerations
+
+- Birthday date must be captured in the guest profile and validated to avoid sending messages on incorrect dates.
+- Offers should have a defined validity window (such as the birthday month) to give guests reasonable time to plan and book a stay or experience.
+- Guests without a birthday on file should be excluded from the campaign rather than sent a generic message.
+- Offer personalization should consider past booking preferences (destination, property type, room category) to present relevant suggestions.
+
+## Destination Promotion Campaigns
+
+Target guests to make a reservation during an ongoing travel destination promotion. Destination promotions drive bookings by connecting travelers with timely offers for promoted destinations aligned to their interests.
+
+### Business impact
+
+Targeted destination promotions improve booking conversion by reaching travelers most likely to be interested based on past travel history and stated preferences, reducing promotional waste and improving campaign ROI.
+
+### How to implement
+
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern to send promotional messages to qualified audience segments during active destination campaign windows. This is the right pattern when a scheduled batch of personalized promotional messages needs to reach a defined audience during a time-bound campaign.
+
+### Technical considerations
+
+- Promotion start and end dates must be managed to ensure messages are only sent during the active promotion window.
+- Audience segmentation should leverage past booking history, browsing behavior, and destination affinity to target guests most likely to engage with the promoted destination.
+- Guests who have already booked for the promoted destination and travel dates should be suppressed from acquisition messaging.

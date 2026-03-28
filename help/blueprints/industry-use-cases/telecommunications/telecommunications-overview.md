@@ -228,26 +228,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Implement feedback loops so subscribers can report coverage issues, enriching network data while demonstrating responsiveness to their experience.
 
 
-## Loyalty Program Engagement
-
-Personalize loyalty program communications, rewards, and offers based on the customer's tier, points balance, and redemption history — while arbitrating in real time across app, web, SMS, and retail store channels to prevent duplicate or conflicting offers from reaching the same subscriber. Tier-based eligibility constraints govern which rewards, partner redemptions, and promotions each subscriber can access, and those rules must be enforced at the decisioning layer rather than embedded in individual campaign logic. The loyalty program must also coordinate with active retention and upgrade campaigns so that churn prevention offers and loyalty rewards complement rather than double-deliver to subscribers who are simultaneously in multiple journeys.
-
-### Business impact
-
-Personalized loyalty program engagement drives improved program participation and reward redemption, driving higher retention rates among enrolled subscribers.
-
-### How to implement
-
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern to orchestrate personalized loyalty communications that highlight relevant rewards, notify subscribers of tier progress, and present redemption opportunities aligned with their preferences and behaviors. This is the right pattern when the journey must coordinate delivery across channels to prevent duplicate loyalty offers and when offer selection requires tier status and redemption history — multi-step orchestration alone does not provide the real-time decisioning layer needed.
-
-### Technical considerations
-
-- Integrate the loyalty platform to access real-time points balances, tier status, and redemption history for accurate personalization.
-- Connect partner reward catalogs to present a broad range of redemption options tailored to each subscriber's demonstrated interests and past redemptions.
-- Coordinate loyalty messaging with other campaign journeys to ensure retention offers and loyalty rewards complement rather than conflict with each other.
-- Support tier progression nudges by calculating how close a subscriber is to the next tier and presenting actionable steps to reach it.
-
-
 ## AI Plan Advisor
 
 Telecommunications subscribers face a persistent challenge: understanding how their current plan compares to available options, and whether a different plan would better fit their actual usage. Static plan comparison pages require subscribers to self-interpret data they may not fully understand, leading to suboptimal plan selections, bill shock, and preventable churn. An AI plan advisor engages subscribers in natural conversation, reviews their usage patterns from their real-time profile, asks qualifying questions about device needs and household requirements, and guides them to the plan — or combination of plans and add-ons — that best fits their situation.
