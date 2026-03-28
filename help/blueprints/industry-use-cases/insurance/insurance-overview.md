@@ -128,26 +128,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Include deep links that return the prospect directly to their saved quote rather than requiring them to restart the process from the beginning.
 
 
-## Life Stage-Based Product Offers
-
-Identify customers entering new life stages — such as marriage, home purchase, growing family, or retirement — and offer relevant insurance products that match their evolving protection needs. Life stage targeting helps policyholders build the right coverage at the right time.
-
-### Business impact
-
-Life stage-based product offers achieve improved life stage product adoption rates, deepening customer relationships during key decision-making moments.
-
-### How to implement
-
-Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) pattern. Life stage transitions benefit from cross-channel orchestration combined with real-time decisioning to select the most relevant product and deliver it through the customer's preferred channel at the optimal moment. This is the right pattern when the journey must coordinate delivery across multiple channels to ensure consistent offers while leveraging decisioning to select the most appropriate product for the detected life stage — multi-step orchestration alone cannot provide the real-time eligibility and suitability evaluation required for insurance product recommendations.
-
-### Technical considerations
-
-- Build life stage detection models using behavioral signals such as address changes, beneficiary updates, and online research patterns, combined with policy change events.
-- Configure the decisioning engine with product eligibility and suitability rules that match each life stage to the appropriate coverage recommendations.
-- Coordinate life stage offers with the assigned agent or broker so they are prepared to support the customer with a consultative conversation when the offer is delivered.
-- Apply data governance labels to any third-party data sources used for life stage inference to ensure compliance with data privacy regulations and fair marketing practices.
-
-
 ## Discount and Savings Opportunities
 
 Identify and communicate personalized discount opportunities — such as bundling, safe driver, loyalty, and paperless billing discounts — based on each customer's profile and behavior. Proactive savings communications demonstrate value and strengthen the price-value relationship.

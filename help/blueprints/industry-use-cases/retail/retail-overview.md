@@ -485,3 +485,111 @@ Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-pa
 - Brand safety guardrails must be configured to prevent the agent from discussing competitor products, making pricing commitments that conflict with promotions, or responding to off-topic queries.
 - Handoff logic to live agents requires integration with the service platform and should be triggered when the AI agent cannot resolve the customer's query after a defined number of turns.
 - Profile data integration enables the agent to personalize responses based on purchase history and loyalty status, but this requires identity resolution before the conversational session begins.
+
+## Check-in Reminder with App Download CTA
+
+Remind guests to check-in, and encourage them to download the app in order to access information easily. Timely check-in reminders paired with app download prompts drive mobile engagement and enable richer in-venue experiences.
+
+### Business impact
+
+Retailers that combine check-in reminders with app download calls-to-action see increased app adoption rates and higher in-store engagement, as customers who use the mobile app tend to interact more frequently with promotions and venue content.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to trigger a check-in reminder with app download CTA based on event attendance or reservation data. This is the right pattern when a single timely message needs to be sent in response to a known event or schedule trigger.
+
+### Technical considerations
+
+- Check-in reminders must be timed appropriately relative to the event or visit date to maximize engagement without being perceived as too early or too late.
+- App download deep links should route to the correct app store based on the customer's device platform (iOS or Android).
+- Customers who already have the app installed should receive a different message variant that skips the download CTA and focuses on check-in functionality.
+
+## Birthday Campaigns for Fans
+
+Target fans on their birthday with a personalized birthday message and an exclusive offer. Birthday campaigns create emotional connections with fans and drive incremental purchases through timely, personalized outreach.
+
+### Business impact
+
+Birthday campaigns consistently deliver above-average open and conversion rates because they arrive at a moment of personal significance, creating goodwill and encouraging fans to treat themselves with a special purchase.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to send a personalized birthday message when the customer's birthday date arrives. This is the right pattern when a single event-driven message is sent based on a profile attribute date trigger.
+
+### Technical considerations
+
+- Birthday date must be captured in the customer profile and validated to avoid sending messages on incorrect dates.
+- Offers should have a defined validity window (such as the birthday week) to create urgency while giving customers reasonable time to redeem.
+- Fans without a birthday on file should be excluded from the campaign rather than sent a generic message.
+
+## Birthday Campaigns for Shoppers
+
+Target shoppers on their birthday with a personalized birthday message and an exclusive offer. Birthday campaigns build brand loyalty by acknowledging customers personally and encouraging a celebratory purchase.
+
+### Business impact
+
+Personalized birthday offers drive higher redemption rates than generic promotions because they align with a moment when shoppers are already inclined to make discretionary purchases for themselves.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to trigger a birthday message and offer based on the shopper's birth date profile attribute. This is the right pattern when a single personalized message needs to be delivered on a specific calendar date tied to the customer profile.
+
+### Technical considerations
+
+- Birthday date must be stored as a profile attribute and should be collected during registration or loyalty sign-up.
+- Offer personalization should consider the shopper's purchase history and preferences to present relevant product suggestions alongside the birthday discount.
+- Duplicate suppression logic is needed for customers who appear in multiple systems to avoid sending multiple birthday messages.
+
+## Game Day Promotion Campaigns
+
+Target fans to buy tickets for an upcoming game with personalized promotions and offers. Game day promotions drive ticket sales by reaching the right audience with timely, event-specific messaging.
+
+### Business impact
+
+Targeted game day promotions improve ticket sell-through rates by reaching fans with relevant offers based on their team preferences, past attendance, and proximity to the venue.
+
+### How to implement
+
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern to send promotional messages to segmented fan audiences ahead of upcoming games. This is the right pattern when a batch of personalized messages needs to be sent to a pre-built audience segment on a scheduled basis.
+
+### Technical considerations
+
+- Game schedule data must be integrated to trigger promotions at the right lead time before each event.
+- Audience segmentation should account for team affinity, geographic proximity, and past attendance patterns to maximize relevance.
+- Customers who have already purchased tickets for the promoted game should be suppressed from acquisition messaging and may instead receive upsell offers for upgrades or add-ons.
+
+## Product Promotion Campaigns
+
+Target shoppers to buy products during an ongoing product promotion campaign. Promotional campaigns drive revenue by connecting the right customers with timely offers aligned to active promotions.
+
+### Business impact
+
+Targeted product promotion campaigns outperform broad-reach promotions by focusing on shoppers most likely to convert, reducing promotional waste and improving return on marketing spend.
+
+### How to implement
+
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern to send promotional messages to qualified audience segments during active campaign windows. This is the right pattern when a scheduled batch of personalized promotional messages needs to reach a defined audience during a time-bound campaign.
+
+### Technical considerations
+
+- Promotion start and end dates must be managed to ensure messages are only sent during the active promotion window.
+- Audience segmentation should leverage purchase history, browsing behavior, and product affinity to target shoppers most likely to engage with the promoted products.
+- Frequency capping should be applied to prevent promotional fatigue, especially when multiple campaigns run concurrently.
+
+## Shopping Cart Abandon
+
+Re-engage customers who abandon their shopping cart with personalized reminders and incentives to complete the purchase. Cart abandonment recovery is one of the highest-ROI use cases in retail marketing.
+
+### Business impact
+
+Cart abandonment recovery campaigns recover a meaningful percentage of otherwise lost revenue by re-engaging shoppers at the moment of highest purchase intent with personalized reminders and incentives.
+
+### How to implement
+
+Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to trigger a recovery message when a cart abandonment event is detected. This is the right pattern when a single real-time message needs to be sent in response to a behavioral event such as leaving items in the cart without completing checkout.
+
+### Technical considerations
+
+- Cart abandonment detection requires a defined inactivity threshold (typically 30-60 minutes) to distinguish true abandonment from customers who are still browsing.
+- Cart contents must be passed in the event payload to enable personalized product reminders in the recovery message.
+- Customers who complete their purchase between the abandonment event and the message send must be suppressed to avoid irrelevant messaging.
