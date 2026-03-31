@@ -2,11 +2,13 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
+landing-page-name: home-tutorials
+landing-page-breadcrumb-title: Tutorials
 type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use
