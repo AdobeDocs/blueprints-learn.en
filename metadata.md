@@ -6,7 +6,7 @@ type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use
