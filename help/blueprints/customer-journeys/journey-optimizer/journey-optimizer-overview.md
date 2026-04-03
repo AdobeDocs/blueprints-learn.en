@@ -18,9 +18,9 @@ This blueprint outlines the technical capabilities of the application and provid
 >[!TAB Journey (Event-Driven, Real-Time)]
 
 - **Abandonment Recovery:** Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
-- **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promoitions or benefits
+- **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promotions or benefits
 - **Transactional Messaging:** Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
-- **Contextal Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
+- **Contextual Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
 - **Contextual Upsell/Cross-Sell:** Deliver personalized offers based on real-time profile attributes and recent interactions.
 
 >[!TAB Campaign Orchestration (Scheduled, Brand-Initiated)]
