@@ -105,3 +105,4 @@ Automotive organizations use Adobe Experience Platform to unify customer data fr
 - Customer-to-dealer assignment logic should consider proximity, dealer specialization, language preferences, and any existing dealer relationship to provide the best match.
 - Lead routing rules must ensure that when a customer expresses purchase interest online, the inquiry reaches the appropriate dealer quickly with full context about the customer's research activity.
 - [!DNL Experience Platform] identity resolution must handle scenarios where a customer interacts with multiple dealerships, maintaining a unified profile while respecting each dealer's view of their own customer relationships.
+
