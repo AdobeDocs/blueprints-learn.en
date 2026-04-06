@@ -28,26 +28,6 @@ Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patter
 - Integration with the reservation system's availability feed ensures that featured properties and itineraries are actually bookable, preventing frustration from promoting sold-out options.
 
 
-## Cart Abandonment Recovery Journey
-
-Automatically detect when a customer abandons their booking cart and trigger a multi-step email journey with personalized offers to encourage completion. Abandoned reservations represent one of the largest revenue leaks in travel and hospitality, and timely follow-up while the travel intent is still fresh recovers a meaningful share of those bookings.
-
-### Business impact
-
-Effective booking recovery programs achieve meaningful cart recovery rates and can generate significant incremental revenue depending on booking volume and average trip value.
-
-### How to implement
-
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the customer's travel intent is still high. This is the right pattern when the trigger is a real-time customer behavior event and the required response is a single, time-sensitive message — rather than a multi-step nurture sequence or dynamic offer selection that changes based on customer response.
-
-### Technical considerations
-
-- Cart abandon detection thresholds should account for the longer consideration cycles typical in travel purchases; a 2-4 hour delay before the first reminder is often more appropriate than the 30-60 minutes used in retail.
-- Email content must dynamically pull current pricing, room or cabin availability, and imagery from the reservation system at send time, since travel inventory and rates change frequently.
-- Personalized incentives such as complimentary upgrades or resort credits should be managed through business rules that account for margin, seasonality, and the customer's loyalty tier.
-- Suppression logic must exclude customers who completed their booking through another channel, such as a call center or travel agent, to avoid irrelevant follow-up messages.
-
-
 ## High-Intent Visitor Targeting
 
 Identify visitors with high purchase intent using AI-powered propensity scoring and target them with personalized offers and content. Recognizing which visitors are most likely to book allows the organization to focus its most compelling offers and sales outreach on the travelers who are closest to making a decision.

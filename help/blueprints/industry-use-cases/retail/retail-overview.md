@@ -28,26 +28,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - Page load performance must be monitored carefully, as personalization calls should not add noticeable latency to the shopping experience.
 
 
-## Abandoned Cart Email Recovery
-
-Automatically send personalized email reminders to customers who abandoned their shopping cart, including the exact items left behind and relevant offers to encourage completion. Cart abandonment is one of the largest sources of lost revenue in retail, and timely follow-up can recover a significant share of those sales.
-
-### Business impact
-
-Effective cart recovery programs improve cart recovery rates and can generate meaningful incremental revenue depending on store volume.
-
-### How to implement
-
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. This approach responds to a real-time cart abandon event, sending a timely reminder while the purchase intent is still high. This is the right pattern when a discrete customer action is the trigger and the required response is a single, time-sensitive message — rather than a multi-step sequence or dynamic offer selection.
-
-### Technical considerations
-
-- Cart abandon detection requires defining a threshold for inactivity (commonly 30-60 minutes) before triggering the first reminder, avoiding messages to customers who are still actively shopping.
-- Email content must dynamically pull current product images, prices, and availability from the catalog at send time, since items may sell out or change price between abandonment and delivery.
-- Frequency capping rules should prevent customers from receiving multiple abandon cart emails in a short period, especially if they abandon carts frequently.
-- Consent and suppression lists must be checked before sending, and customers who completed their purchase through another channel should be excluded in real time.
-
-
 ## Inventory-Based Urgency Campaigns
 
 Trigger real-time alerts and campaigns when product inventory is low, creating urgency and encouraging immediate purchase. Shoppers who see that only a few items remain are motivated to act quickly rather than delay their decision.
@@ -66,7 +46,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Threshold levels should be configured per product category, since a "low stock" threshold for a high-volume commodity differs significantly from one for a luxury item.
 - Messaging must be truthful and comply with consumer protection regulations; displaying false scarcity can damage brand trust and may violate advertising standards in certain markets.
 - On-site messaging and email channels should be coordinated so that a customer who already purchased does not continue to receive urgency notifications for the same product.
-
 
 ## Cross-Sell and Upsell Recommendations
 
@@ -87,27 +66,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Cross-sell recommendations at checkout must load quickly and not disrupt the purchase flow; slow or intrusive suggestions can actually reduce conversion.
 - [!DNL Journey Optimizer] decision rules should include fallback offers so that every eligible customer receives a recommendation, even when the top-ranked option is unavailable.
 
-
-## New Customer Welcome Series
-
-Automate a multi-email welcome series for new customers with personalized product recommendations, brand storytelling, and special offers. The first few interactions after a customer joins shape their long-term relationship with the brand, making this series one of the highest-impact programs a retailer can run.
-
-### Business impact
-
-A well-designed welcome series drives strong engagement among new customers and meaningfully improves lifetime value by building brand affinity early.
-
-### How to implement
-
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. This multi-touch nurture journey guides new customers through a sequence of brand introduction, product discovery, and incentive messages, adapting based on their engagement. This is the right pattern when the use case requires a sequenced, multi-message flow over days with conditional branching based on engagement events — a single triggered message cannot accommodate the dependency logic between steps.
-
-### Technical considerations
-
-- The journey entry trigger must reliably capture new customer creation events from all registration sources, including web, mobile app, in-store point-of-sale, and third-party marketplaces.
-- Wait steps between emails should be configured based on engagement data; customers who open and click may receive the next message sooner, while less engaged customers benefit from more spacing.
-- Product recommendations within welcome emails should reflect what the customer browsed or purchased during their first visit, not generic best-sellers.
-- Customers who make a purchase during the welcome series should branch into a post-purchase flow rather than continuing to receive acquisition-focused messaging.
-
-
 ## Price Drop Alerts
 
 Notify customers via email or push notification when products in their wishlist or previously viewed items drop in price. Shoppers who showed interest but did not purchase are highly responsive to price reductions, making this one of the most efficient ways to convert consideration into sales.
@@ -126,7 +84,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Customer interest signals (wishlist additions, product page views, time spent on product pages) must be stored and matched efficiently against potentially thousands of daily price changes.
 - Notifications should include the original price, new price, and savings amount to clearly communicate the value; vague "price reduced" messages underperform specific savings callouts.
 - [!DNL Real-Time Customer Data Platform] segments for price-sensitive shoppers can be used to prioritize alert delivery and tailor the messaging tone.
-
 
 ## Replenishment Reminders
 
@@ -147,7 +104,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Reminders should include a direct reorder link or one-click repurchase option to minimize friction and maximize conversion from the notification.
 - Customers who have already reordered through another channel (in-store, subscription service) must be suppressed to avoid sending irrelevant reminders.
 
-
 ## Personalized Category Pages
 
 Dynamically personalize category pages to show the most relevant products first based on each customer's preferences, past purchases, and browsing behavior. When shoppers see products aligned with their tastes at the top of the page, they discover what they want faster and convert at higher rates.
@@ -167,7 +123,6 @@ Use the [Behavioral Recommendation](/help/blueprints/use-case-patterns/personali
 - A/B testing infrastructure should be in place to measure the revenue impact of personalized sorting versus default merchandising rules on an ongoing basis.
 - [!DNL Experience Platform] Web SDK implementation must capture category page interactions (scroll depth, product clicks, filter usage) to continuously refine the ranking models.
 
-
 ## Post-Purchase Follow-Up Campaigns
 
 Send post-purchase emails with product care tips, related product suggestions, review requests, and loyalty program information. The period immediately after a purchase is when customers are most engaged with the brand, making it an ideal window to deepen the relationship and encourage future activity.
@@ -186,7 +141,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Product-specific content (care instructions, usage guides, accessory suggestions) requires a content mapping system that associates each product category with relevant follow-up materials.
 - Review request timing should be optimized based on the product category; electronics may need a longer usage period before a meaningful review, while apparel can be reviewed shortly after delivery.
 - Customers who initiate a return or exchange should be automatically removed from the standard post-purchase flow and redirected to a service recovery path.
-
 
 ## VIP Customer Exclusive Offers
 
@@ -226,27 +180,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - When a popular product is restocked in limited quantity, notifications should be staggered or prioritized by sign-up date to avoid sending alerts to more customers than the available inventory can serve.
 - The notification sign-up mechanism must capture channel preference (email or text message) and comply with opt-in requirements for each channel, particularly for SMS.
 - [!DNL Real-Time Customer Data Platform] profile attributes should track which products each customer is watching so that duplicate notifications are prevented if the same product restocks multiple times.
-
-
-## Social Proof Personalization
-
-Display personalized social proof, including reviews, ratings, and "customers who bought this also bought" suggestions, based on each customer's profile and preferences. Tailoring social proof to reflect the experiences of similar customers builds trust more effectively than generic ratings alone.
-
-### Business impact
-
-Personalized social proof increases conversion rates and improves shopper confidence, particularly for first-time buyers and higher-priced products where purchase hesitation is greatest.
-
-### How to implement
-
-Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) pattern. This approach personalizes web content for identified visitors, selecting the most relevant reviews and social proof elements based on the customer's profile, preferences, and browsing context. This is the right pattern when personalization is driven by profile attributes and segment membership rather than a behavioral affinity model — behavioral recommendation is not appropriate here because social proof selection depends on who the customer is, not which items they have browsed.
-
-### Technical considerations
-
-- Review and rating data must be structured and tagged by customer attributes (such as purchase context, customer segment, and product use case) to enable meaningful filtering and personalization.
-- Social proof elements should load asynchronously to avoid blocking the main product page render, since review data may come from a third-party review platform with variable response times.
-- Privacy regulations require that any customer data used to match reviews to visitors is handled according to consent preferences; displaying "customers like you" content implies profiling that may require disclosure.
-- [!DNL Experience Platform] audience membership can be used to select which reviews to highlight, showing outdoor enthusiasts reviews from fellow outdoor shoppers rather than generic top-rated reviews.
-
 
 ## AI Product Advisor
 
@@ -306,7 +239,6 @@ Use the [Audience Activation to Destinations](/help/blueprints/use-case-patterns
 - Segment refresh frequency should align with campaign objectives — acquisition audiences may need daily refreshes while retargeting audiences benefit from near-real-time updates to exclude recent purchasers.
 - Overlap analysis between acquisition and retention audiences helps prevent cross-contamination where existing customers receive new-customer acquisition messaging.
 
-
 ## Customer Suppression for Acquisition Campaigns
 
 Suppress existing customers and recent converters from acquisition ad spend by activating exclusion audiences to paid media destinations, reducing wasted spend. Continuously syncing suppression lists ensures that paid budgets target net-new prospects rather than people who have already converted or are actively engaged.
@@ -346,7 +278,6 @@ Use the [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patter
 - Content variations must be designed for all audience segments that will be targeted, including a default experience for visitors who don't match any personalization rule.
 - Personalization decisions should be logged for analysis, enabling A/B testing of content variations and attribution of engagement improvements to specific segments.
 
-
 ## Anonymous Visitor Web Personalization
 
 Personalize content for unidentified website visitors using in-session behavioral signals such as pages viewed, product categories browsed, and referral source. Since the majority of retail web traffic is anonymous, personalizing for unrecognized visitors significantly expands the reach of on-site personalization beyond the authenticated segment.
@@ -366,7 +297,6 @@ Use the [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patter
 - Privacy requirements must be evaluated carefully; some jurisdictions treat behavioral personalization as requiring consent even for anonymous visitors.
 - Personalization rules for anonymous visitors should be simpler and faster to evaluate than known-visitor rules, as edge latency constraints are more stringent.
 
-
 ## Welcome Series Journey
 
 Orchestrate a multi-step welcome journey for newly registered customers, delivering onboarding content, product education, and a first-purchase incentive across email and push channels. A well-designed welcome series sets the tone for the customer relationship and significantly increases the likelihood that a new registrant converts to their first purchase.
@@ -385,7 +315,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - The journey must include exit conditions that suppress remaining messages when a new customer completes their first purchase — continuing the welcome series after purchase undermines message relevance.
 - Channel preference must be respected throughout; push notification steps require app installation and push opt-in, with email fallback for customers without opt-in.
 - Personalization in the welcome series improves conversion but requires enough profile data to be meaningful — new profiles often need a fallback to bestsellers or trending products.
-
 
 ## Cart Abandonment Recovery
 
@@ -426,7 +355,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Review request messages must comply with platform terms of service for incentivized reviews and should be timed after the customer has had sufficient time to use the product.
 - Channel coordination is important — customers should not receive both email and push for the same milestone unless they have engaged with the first channel.
 
-
 ## Loyalty Tier Upgrade Campaign
 
 Identify customers approaching loyalty tier thresholds and deliver targeted campaigns encouraging them to reach the next tier with personalized offers based on purchase history and preferences. When customers are within reach of a tier upgrade, targeted messaging with personalized incentives creates urgency and drives incremental purchase behavior.
@@ -445,7 +373,6 @@ Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/cam
 - Tier upgrade campaigns should be suppressed for customers who have already achieved the target tier or whose loyalty status has changed since campaign entry.
 - Personalized incentives in the upgrade campaign should be constrained to offers the customer is genuinely eligible for and that do not undermine the perceived value of the tier structure.
 - The campaign must include clear exit conditions for customers who complete their tier upgrade mid-journey, pivoting to a congratulations message rather than continuing the persuasion sequence.
-
 
 ## Cross-Channel Campaign Orchestration
 
@@ -466,7 +393,6 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Journey orchestration logic should handle re-entry gracefully, preventing customers from entering the same campaign twice while ensuring they are not excluded from genuinely new campaigns.
 - Real-time engagement signals (email opens, link clicks, web sessions) should feed back into the journey to enable channel switching and early exit for customers who have already converted.
 
-
 ## Brand Concierge Conversational Experience
 
 Deploy an AI-powered, brand-safe conversational agent across digital properties to provide personalized product guidance, site navigation help, and seamless handoff to live agents. An on-site AI concierge extends personalized service at scale, helping shoppers discover products, compare options, and complete purchases without requiring human agent intervention for common queries.
@@ -485,24 +411,6 @@ Use the [Brand Concierge Conversational Experience](/help/blueprints/use-case-pa
 - Brand safety guardrails must be configured to prevent the agent from discussing competitor products, making pricing commitments that conflict with promotions, or responding to off-topic queries.
 - Handoff logic to live agents requires integration with the service platform and should be triggered when the AI agent cannot resolve the customer's query after a defined number of turns.
 - Profile data integration enables the agent to personalize responses based on purchase history and loyalty status, but this requires identity resolution before the conversational session begins.
-
-## Check-in Reminder with App Download CTA
-
-Remind guests to check-in, and encourage them to download the app in order to access information easily. Timely check-in reminders paired with app download prompts drive mobile engagement and enable richer in-venue experiences.
-
-### Business impact
-
-Retailers that combine check-in reminders with app download calls-to-action see increased app adoption rates and higher in-store engagement, as customers who use the mobile app tend to interact more frequently with promotions and venue content.
-
-### How to implement
-
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to trigger a check-in reminder with app download CTA based on event attendance or reservation data. This is the right pattern when a single timely message needs to be sent in response to a known event or schedule trigger.
-
-### Technical considerations
-
-- Check-in reminders must be timed appropriately relative to the event or visit date to maximize engagement without being perceived as too early or too late.
-- App download deep links should route to the correct app store based on the customer's device platform (iOS or Android).
-- Customers who already have the app installed should receive a different message variant that skips the download CTA and focuses on check-in functionality.
 
 ## Birthday Campaigns for Fans
 
@@ -576,20 +484,3 @@ Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/c
 - Audience segmentation should leverage purchase history, browsing behavior, and product affinity to target shoppers most likely to engage with the promoted products.
 - Frequency capping should be applied to prevent promotional fatigue, especially when multiple campaigns run concurrently.
 
-## Shopping Cart Abandon
-
-Re-engage customers who abandon their shopping cart with personalized reminders and incentives to complete the purchase. Cart abandonment recovery is one of the highest-ROI use cases in retail marketing.
-
-### Business impact
-
-Cart abandonment recovery campaigns recover a meaningful percentage of otherwise lost revenue by re-engaging shoppers at the moment of highest purchase intent with personalized reminders and incentives.
-
-### How to implement
-
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern to trigger a recovery message when a cart abandonment event is detected. This is the right pattern when a single real-time message needs to be sent in response to a behavioral event such as leaving items in the cart without completing checkout.
-
-### Technical considerations
-
-- Cart abandonment detection requires a defined inactivity threshold (typically 30-60 minutes) to distinguish true abandonment from customers who are still browsing.
-- Cart contents must be passed in the event payload to enable personalized product reminders in the recovery message.
-- Customers who complete their purchase between the abandonment event and the message send must be suppressed to avoid irrelevant messaging.

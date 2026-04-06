@@ -148,22 +148,22 @@ Use the [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patte
 - Ensure privacy controls are in place so individual member usage details are shared appropriately with the plan administrator based on account permissions.
 
 
-## 5G Upgrade Campaigns
+## Upgrade Campaigns
 
-Target customers eligible for 5G network upgrades with personalized offers and benefits based on their location and usage patterns. As 5G coverage expands, reaching subscribers in newly covered areas with relevant messaging accelerates adoption and increases network utilization.
+Target customers eligible for upgrades with personalized offers and benefits based on their location and usage patterns. As new coverage expands, reaching subscribers in newly covered areas with relevant messaging accelerates adoption and increases network utilization.
 
 ### Business impact
 
-Targeted 5G upgrade campaigns drive improved 5G adoption rates among eligible subscribers, supporting network investment returns and competitive differentiation.
+Targeted upgrade campaigns drive improved adoption rates among eligible subscribers, supporting network investment returns and competitive differentiation.
 
 ### How to implement
 
-Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern to segment subscribers based on 5G coverage availability, device compatibility, and plan eligibility, then deliver personalized upgrade campaigns highlighting the benefits most relevant to each subscriber's usage profile. This is the right pattern when the audience is pre-defined and large, delivery timing is scheduled rather than event-driven, and no real-time branching or decisioning is required — the campaign can be fully planned in advance based on coverage rollout timelines.
+Use the [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) pattern to segment subscribers based on coverage availability, device compatibility, and plan eligibility, then deliver personalized upgrade campaigns highlighting the benefits most relevant to each subscriber's usage profile. This is the right pattern when the audience is pre-defined and large, delivery timing is scheduled rather than event-driven, and no real-time branching or decisioning is required — the campaign can be fully planned in advance based on coverage rollout timelines.
 
 ### Technical considerations
 
-- Integrate network coverage maps to accurately identify subscribers in areas with active 5G service and avoid promoting upgrades where coverage is not yet available.
-- Connect device compatibility data to determine which subscribers need a new device versus those who already have 5G-capable hardware.
+- Integrate network coverage maps to accurately identify subscribers in areas with active service and avoid promoting upgrades where coverage is not yet available.
+- Connect device compatibility data to determine which subscribers need a new device versus those who already have capable hardware.
 - Coordinate with retail inventory systems to ensure promoted devices and plans are available in the subscriber's preferred store or online.
 - Segment messaging by usage profile so heavy data users receive performance-focused benefits while casual users receive coverage and reliability messaging.
 
