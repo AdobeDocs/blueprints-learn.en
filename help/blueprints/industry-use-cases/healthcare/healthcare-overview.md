@@ -91,26 +91,6 @@ Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-
 - Include secure links to the patient portal for survey completion and appointment scheduling rather than collecting health information through unsecured channels.
 
 
-## Chronic Disease Management Programs
-
-Personalize chronic disease management communications, educational content, and monitoring reminders based on each patient's specific condition and treatment plan. Sustained, relevant engagement helps patients take an active role in managing their health over time.
-
-### Business impact
-
-Personalized chronic disease management programs see increased program engagement rates, leading to improved disease management outcomes and reduced emergency care utilization.
-
-### How to implement
-
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Chronic disease management is inherently a long-running, multi-touchpoint experience that requires adaptive messaging based on patient engagement and health milestones. This is the right pattern because chronic disease management requires adaptive messaging over an extended period with conditional branching based on clinical metrics and engagement patterns — event-triggered messaging cannot handle the ongoing, dynamic re-evaluation needed to adjust interventions based on evolving health data.
-
-### Technical considerations
-
-- Design journey branching logic that adapts based on condition-specific metrics (for example, blood glucose trends for diabetes management or blood pressure readings for hypertension programs).
-- Implement strict data governance with [!DNL Adobe Experience Platform] data usage labels to classify and protect condition-specific health data throughout the journey.
-- Integrate with remote patient monitoring devices and patient-reported outcome systems to feed real-time health data into journey decision points.
-- Build care team escalation paths within the journey so that non-engagement or concerning health trends trigger alerts to the appropriate clinical staff.
-
-
 ## New Patient Onboarding Journey
 
 Automate a multi-step onboarding journey for new patients that includes welcome information, patient portal access instructions, and appointment scheduling guidance. A smooth onboarding experience sets the tone for an engaged, long-term patient relationship.

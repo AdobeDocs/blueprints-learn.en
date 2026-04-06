@@ -148,46 +148,6 @@ Use the [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/o
 - Track discount adoption outcomes to continuously refine the decisioning model and prioritize the savings messages that resonate most with different customer segments.
 
 
-## Claims Fraud Prevention
-
-Use intelligent fraud detection to identify suspicious claims patterns and personalize investigation communications while maintaining customer trust. Effective fraud prevention protects honest policyholders by keeping premiums fair and ensuring legitimate claims are processed quickly.
-
-### Business impact
-
-Intelligent claims fraud prevention programs achieve improved fraud detection rates, reducing fraudulent payouts and lowering overall claims costs.
-
-### How to implement
-
-Use the [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) pattern. Fraud risk scoring events trigger appropriate investigation communications and process adjustments in real time, ensuring that flagged claims receive immediate attention. This is the right pattern when a system-derived event (fraud risk score) is the trigger and the required action is immediate internal process adjustment with careful customer communication — rather than a multi-step journey or decisioning scenario.
-
-### Technical considerations
-
-- Integrate fraud risk scores from the claims analytics system into the customer profile while applying strict data governance labels to prevent fraud investigation data from appearing in customer-facing communications.
-- Design communication paths that maintain a professional, respectful tone for customers whose claims are under review, preserving the relationship regardless of investigation outcome.
-- Implement role-based access controls to ensure fraud indicators are only visible to authorized investigation teams and are never surfaced in standard agent or customer service views.
-- Coordinate with the [!DNL Adobe Experience Platform] identity resolution service to detect patterns across related profiles, such as shared addresses or phone numbers linked to multiple suspicious claims.
-
-
-## Wellness and Prevention Programs
-
-Personalize wellness program communications, participation reminders, and reward notifications for health and life insurance customers based on their goals and engagement level. Active wellness programs improve policyholder health outcomes and build a stronger, more engaged customer base.
-
-### Business impact
-
-Personalized wellness and prevention program communications drive improved program participation rates, contributing to better health outcomes and reduced claims frequency.
-
-### How to implement
-
-Use the [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) pattern. Wellness programs are sustained engagement experiences with milestones, challenges, and rewards that require adaptive orchestration based on each participant's activity and progress. This is the right pattern when the use case requires a long-term, multi-message flow with engagement-based branching and adaptive timing adjustments — event-triggered messaging cannot handle the complex milestone logic or the need to adjust communication cadence based on sustained activity tracking.
-
-### Technical considerations
-
-- Integrate with wearable device and health application data feeds using [!DNL Adobe Experience Platform] streaming ingestion, applying clear data governance labels to distinguish wellness data from underwriting or claims data.
-- Implement separate consent mechanisms for wellness data collection to ensure participants understand how their health activity data is used and can opt out without affecting their policy.
-- Design journey logic that adjusts program intensity and communication frequency based on each participant's engagement level to prevent fatigue and encourage sustained participation.
-- Engage your legal and compliance teams to review wellness incentive structures and premium discount programs for compliance with applicable state insurance regulations before launch.
-
-
 ## Agent and Broker Coordination
 
 Enable personalized communication and coordination between customers and their assigned agents or brokers based on policy needs, service history, and preferences. Better coordination creates a seamless experience where customers feel supported by a knowledgeable advisor who understands their full relationship.
