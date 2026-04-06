@@ -1,6 +1,6 @@
 ---
 title: Telecommunications Use Cases
-description: Discover how telecommunications organizations use Adobe Experience Platform to reduce churn, drive device upgrades, and improve customer engagement.
+description: Discover how telecommunications organizations use Adobe Experience Platform to reduce churn, drive device and plan upgrades, and improve customer engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
 ---
