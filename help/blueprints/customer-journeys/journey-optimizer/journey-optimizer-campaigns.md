@@ -6,6 +6,9 @@ exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
 ---
 # [!DNL Journey Optimizer] - Campaign Orchestration Blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) under Campaign Management & Orchestration.
+
 AJO Campaign Orchestration enables marketers to design and execute scheduled, audience-based, multi-step communications across outbound channels like email, SMS, push and direct mail. Unlike AJO Journeys, which react to individual customer behaviors using real-time data from the Real-Time Customer Profile, campaigns are coordinated marketing efforts that target audiences at planned intervals. Together, campaigns and journeys offer complementary approaches—campaigns drive brand engagement strategies, while journeys deliver personalized, responsive experiences.
 
 <br>

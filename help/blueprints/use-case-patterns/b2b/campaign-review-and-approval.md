@@ -1,12 +1,8 @@
 ---
 title: Review and approve blueprint
 description: Review and approve blueprint - Marketo Engage and Workfront integration blueprint
-exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
 ---
 # Review and approve blueprint {#review-and-approve-blueprint}
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md) under B2B Activation & Marketing.
 
 Making sure marketing assets and campaigns meet the expectations and standards of a business extends beyond delivering the right content and messaging to the right audience. Organizations also bear the responsibility of upholding internal policies, industry regulations, and even legal prerequisites when embarking on new marketing initiatives. By incorporating reviewal and approval steps into their campaign development process, marketing teams can ensure that content and messaging is accurate and in compliance with their industry standards, particularly for industries like finance, healthcare, and pharmaceuticals. 
 
@@ -59,7 +55,7 @@ In your project template in Workfront, include tasks for reviewing assets that a
 
 If you want to launch a new email campaign, you should have a project template that includes a task to review the email, as well as an approval process for ensuring the email is approved by the right stakeholder before it can be sent out.   
 
-![tasks screen](assets/review-and-approve-blueprint-1.png){zoomable="yes"}
+![tasks screen](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-1.png){zoomable="yes"}
 
 ### Trigger your Marketo Engage email to sync to Workfront with task status change {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -67,7 +63,7 @@ As part of your review process, you'll want to be able to sync emails to your Wo
 
 With this status in place in your Workfront project, you can configure your Workfront Fusion scenario to listen for the Ready to Review task to update to "Review Marketo Email." Once updated, your scenario can retrieve the Marketo Engage email as an HTML file, zip it up, and save a copy of it in the Workfront project documents to be reviewed.  
 
-![ready for review screen](assets/review-and-approve-blueprint-2.png){zoomable="yes"}
+![ready for review screen](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-2.png){zoomable="yes"}
 
 ### Convert your Marketo Engage email to reviewable Proof in Workfront {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
@@ -77,7 +73,7 @@ Once your Ready for Review task is moved to the "Review Marketo Email" status an
 
 [Workfront's proofing](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} capabilities allow your marketing team to take a new asset, such as an image or an email, and collaborate via comments and annotation. Once a proof is ready to go live, decision-makers can approve the asset from the proofing tool.
 
-![convert email screen](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
+![convert email screen](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 
 ### Approve Workfront Proof and trigger asset approval in Marketo Engage, mark task as complete {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
@@ -93,12 +89,12 @@ To help streamline your development of Review and Approve workflows in your own 
 
 The fusion scenario below will take you through the first half of the review and approve flow, in which the email draft can be pulled from Marketo Engage and saved to Workfront as a Proof. Once saved as a Proof to the Workfront project documents, it can be reviewed by marketing stakeholders, commented on, and annotated as part of the review process.
 
-![fusion scenario review and approve flow](assets/review-and-approve-blueprint-4.png){zoomable="yes"}
+![fusion scenario review and approve flow](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-4.png){zoomable="yes"}
 
 ### Approve an email in Workfront that triggers the approval of the asset in Marketo Engage {#approve-an-email-in-workfront-that-triggers-approval}
 
 The fusion scenario below can be used to detect when a Proof in Workfront has been approved, and route that approval to Marketo Engage to update the email draft so that it's live and ready to be used in a Marketo Engage program.
 
-![fusion scenario proof approval](assets/review-and-approve-blueprint-5.png){zoomable="yes"}
+![fusion scenario proof approval](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-5.png){zoomable="yes"}
 
 Together, these two scenarios can be used to create a two-way path for pulling marketing assets from Marketo Engage into Workfront's robust review and approve workflows, and push approvals back to Marketo Engage from Workfront.

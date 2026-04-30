@@ -24,5 +24,5 @@ The following use case patterns support this business objective.
 
 | Pattern | Category | How it supports this objective |
 | --- | --- | --- |
-| [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Audience Building & Activation | Activates account-based audiences for targeted lead qualification campaigns |
-| [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campaign Management & Orchestration | Qualifies leads into buying groups and orchestrates multi-stakeholder nurturing to accelerate pipeline |
+| [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Audience Building & Activation | Activates account-based audiences for targeted lead qualification campaigns |
+| [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Campaign Management & Orchestration | Qualifies leads into buying groups and orchestrates multi-stakeholder nurturing to accelerate pipeline |

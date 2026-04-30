@@ -7,6 +7,9 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
 # Audience and Profile Activation to Enterprise Destinations
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) under Audience Building & Activation.
+
 Share profile and audience changes and events in streaming or batch from [!UICONTROL Real-time Customer Data Platform] to enterprise data stores and applications. These profile and audience events can be used to initiate a sales or support action to the customer such as following up on an abandoned application process or webinar registration or to update enterprise applications with the latest customer attributes and intelligence from [!UICONTROL Real-time Customer Data Platform].
 
 ## Use cases

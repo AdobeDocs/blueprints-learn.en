@@ -24,4 +24,4 @@ The following use case patterns support this business objective.
 | Pattern | Category | How it supports this objective |
 | --- | --- | --- |
 | [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analysis | Provides self-service analysis workspaces and guided analysis workflows for data-driven insights |
-| [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analysis | Enables data-driven B2B decision making through account-level analytics and buying group insights |
+| [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Analysis | Enables data-driven B2B decision making through account-level analytics and buying group insights |

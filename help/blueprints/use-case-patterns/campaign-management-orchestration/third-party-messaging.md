@@ -2,12 +2,8 @@
 title: Journey Optimizer - 3rd-party Messaging blueprint
 description: Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to send personalized communications.
 solution: Journey Optimizer
-exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 ---
 # 3rd-party Messaging blueprint
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md) under Campaign Management & Orchestration.
 
 Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to send personalized communications.
 
@@ -15,7 +11,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 
 ## Architecture
 
-<img src="images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

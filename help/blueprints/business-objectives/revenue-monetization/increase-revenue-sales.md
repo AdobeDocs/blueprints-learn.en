@@ -26,4 +26,4 @@ The following use case patterns support this business objective.
 | --- | --- | --- |
 | [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Campaign Management & Orchestration | Delivers targeted batch campaigns to drive sales through email, SMS, and push channels |
 | [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campaign Management & Orchestration | Captures revenue opportunities through real-time behavioral response messaging |
-| [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campaign Management & Orchestration | Orchestrates B2B buying group journeys to accelerate sales pipeline progression |
+| [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Campaign Management & Orchestration | Orchestrates B2B buying group journeys to accelerate sales pipeline progression |

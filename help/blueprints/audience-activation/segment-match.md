@@ -6,6 +6,9 @@ exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 ---
 # Audience Collaboration with Segment Match blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) under Audience Building & Activation.
+
 Segment Match enables partner brands to share audiences across their respective Experience Platform environments. The key for brands is to connect with customers based on data gathered from their direct relationships with consumers. With better governance, permissions, and preference management systems, marketers can further enhance their first-party authenticated audiences with key partners. 
 
 [!UICONTROL Segment Match] is a data collaboration service to allow Experience Platform (AEP) customers (referred to as _partners_) to exchange segment data based on common industry identifiers in a secured, governed, and privacy-friendly manner.

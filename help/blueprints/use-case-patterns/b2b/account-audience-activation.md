@@ -19,7 +19,7 @@ B2B marketing teams need to target and activate audiences at the account level r
 The activated account audiences power use cases across the demand generation funnel: top-of-funnel awareness campaigns on [!DNL LinkedIn] and display advertising, mid-funnel nurture programs in [!DNL Marketo Engage], and bottom-funnel sales enablement through CRM integration. Account suppression audiences prevent wasted spend by excluding existing customers, closed-lost accounts, or accounts already in active sales cycles.
 
 >[!NOTE]
->If your use case involves activating audiences at the person level (B2C) rather than the account level, see [Audience activation to destinations](audience-activation-to-destinations.md). That pattern uses the standard RT-CDP data model and does not require B2B Edition.
+>If your use case involves activating audiences at the person level (B2C) rather than the account level, see [Audience activation to destinations](../audience-building-activation/audience-activation-to-destinations.md). That pattern uses the standard RT-CDP data model and does not require B2B Edition.
 
 ## Key business objectives
 

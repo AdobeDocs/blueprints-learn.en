@@ -6,6 +6,9 @@ exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 ---
 # Decision Management on the Hub Blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) under Personalization.
+
 To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](decision-management-overview.md)
 
 Adobe Decision Management is a service provided as part of Adobe Journey Optimizer. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.

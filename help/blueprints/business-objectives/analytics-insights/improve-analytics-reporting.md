@@ -24,4 +24,4 @@ The following use case patterns support this business objective.
 | Pattern | Category | How it supports this objective |
 | --- | --- | --- |
 | [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analysis | Builds cross-channel analysis workspaces, computed metrics, and dashboards for comprehensive behavior and performance reporting |
-| [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analysis | Provides account-level reporting and cross-channel B2B journey analysis capabilities |
+| [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Analysis | Provides account-level reporting and cross-channel B2B journey analysis capabilities |

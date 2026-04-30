@@ -2,12 +2,8 @@
 title: B2B Journeys using Marketo Data blueprint
 description: Blueprint for Rapid Deployment of Journey Optimizer B2B Edition Using Marketo Engage Data.
 solution: Journey Optimizer B2B Edition
-exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
 ---
 # B2B Journeys using Marketo Data blueprint
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md) under B2B Activation & Marketing.
 
 This comprehensive guide outlines the process of integrating Marketo Engage with Adobe Journey Optimizer B2B Edition. It covers the configuration of custom schema, ingestion of profiles and accounts, and the orchestration of personalized journeys for buying groups. By using Marketo Engage data, this blueprint ensures precise targeting and engagement across multiple channels, driving more qualified demand and enhancing customer experiences.
 
@@ -37,7 +33,7 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 
 ## Architecture
 
-![Solution architecture for Journey Optimizer B2B Edition with Marketo data](./assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
+![Solution architecture for Journey Optimizer B2B Edition with Marketo data](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
 
 ## Implementation steps
 

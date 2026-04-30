@@ -10,6 +10,9 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 ---
 # Device Based - Anonymous Audience Targeting with Audience Manager
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) under Personalization.
+
 Anonymous audience activation is the ability to target and personalize to audiences across web, mobile, and advertising channels based on anonymous device and behavioral data. 
 
 ## Use cases
@@ -35,7 +38,3 @@ Both Audience Manager and Real-time Customer Data Platform can be leveraged to p
 ## Implementation steps for Audience Manager
 
 * For details on implementing Audience Manager see the following [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
-
-## Implementation steps for Real-time Customer Data Platform
-
-* For implementation steps of Real-time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

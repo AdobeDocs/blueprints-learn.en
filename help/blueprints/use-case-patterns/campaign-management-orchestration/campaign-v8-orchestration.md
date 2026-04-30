@@ -3,12 +3,8 @@ title: Campaign v8 Blueprint, Campaign & Platform
 description: Learn about the blueprint for Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
-exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 ---
 # Campaign v8 Blueprint
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) under Campaign Management & Orchestration.
 
 Adobe Campaign v8 is a next-generation campaign management platform designed for traditional marketing channels like email and direct mail. It offers robust ETL and data management capabilities to support complex segmentation and audience targeting, along with a powerful orchestration engine for building multi-touch, batch-driven marketing programs.
 
@@ -48,13 +44,13 @@ Learn more about [Campaign v8 deployment models](https://experienceleague.adobe.
 
 ### Campaign enterprise (FFDA) deployment
 
-<img src="images/campaign-v8-ffda.svg" alt="Reference architecture for Campaign v8 (FFDA) Deployment Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-ffda.svg" alt="Reference architecture for Campaign v8 (FFDA) Deployment Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ### Campaign v8 FDA deployment
 
-<img src="images/campaign-v8-fda.svg" alt="Reference architecture for Campaign v8 (FDA) Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-fda.svg" alt="Reference architecture for Campaign v8 (FDA) Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -62,8 +58,8 @@ Learn more about [Campaign v8 deployment models](https://experienceleague.adobe.
 
 | Scenario | Description | Technical Considerations |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] with Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe [!DNL Campaign] to deliver personalized conversations | <ul><li>Sharing of profiles and audiences from the [!DNL Real-Time CDP] to Adobe [!DNL Campaign] via use of cloud storage file exchange and Adobe [!DNL Campaign] ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the [!DNL Real-Time CDP] from Adobe [!DNL Campaign] to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
-| [[!DNL Journey Optimizer] with Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe [!DNL Campaign] transactional messaging system to send the message | <ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from [!DNL Journey Optimizer] so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] with Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe [!DNL Campaign] to deliver personalized conversations | <ul><li>Sharing of profiles and audiences from the [!DNL Real-Time CDP] to Adobe [!DNL Campaign] via use of cloud storage file exchange and Adobe [!DNL Campaign] ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the [!DNL Real-Time CDP] from Adobe [!DNL Campaign] to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
+| [[!DNL Journey Optimizer] with Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe [!DNL Campaign] transactional messaging system to send the message | <ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from [!DNL Journey Optimizer] so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
 
 <br>
 

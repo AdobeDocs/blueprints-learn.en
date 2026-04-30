@@ -2,12 +2,8 @@
 title: AJO B2B Paid Media Controller
 description: Priority of campaigns and activation of accounts to Paid Media destinations
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 ---
 # AJO B2B - Account Journey Orchestration - Paid Media Controller
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md) under B2B Activation & Marketing.
 
 ## Overview
 
@@ -61,7 +57,7 @@ High-level flow:
 
 ## Architecture Diagram
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B Paid Media Controller Architecture" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B Paid Media Controller Architecture" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Data Modelling in B2B AEP
 
@@ -107,7 +103,7 @@ The following steps give guidance for implementing the Paid Media Controller wit
 
 ## Implementation Diagram
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Audience activation
 
