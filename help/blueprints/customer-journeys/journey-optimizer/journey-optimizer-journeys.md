@@ -1,8 +1,33 @@
 ---
-title: '[!DNL Journey Optimizer] - Triggered Messaging and Adobe Experience Platform Blueprint'
+title: "[!DNL Journey Optimizer] - Triggered Messaging and Adobe Experience Platform Blueprint"
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Journey Optimizer
 exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
+TQID: https://experienceleague.adobe.com/MuodOvJ52G9lmUAmsuj06q1aTXkRg7W0Bj6nxLp96N8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 # [!DNL Journey Optimizer] - Journeys Blueprint
 

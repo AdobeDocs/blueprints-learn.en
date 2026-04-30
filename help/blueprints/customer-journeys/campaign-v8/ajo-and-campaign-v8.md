@@ -4,6 +4,40 @@ description: Demonstrates how Adobe Journey Optimizer can be used with Adobe Cam
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
+TQID: https://experienceleague.adobe.com/EWmi1DKRUqfWUqK0u-pfXkdUlzDc6-HjC0i1QqOocpk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+    internal-label: Source connectors
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 # Journey Optimizer with Adobe Campaign v8 Blueprint 
 

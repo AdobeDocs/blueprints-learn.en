@@ -1,8 +1,43 @@
 ---
-title: Audience Collaboration with Segment Match 
+title: Audience Collaboration with Segment Match
 description: Learn about [!UICONTROL Segment Match] for Adobe Experience Platform (AEP). [!UICONTROL Segment Match] is a data collaboration service that enables you to exchange segment data based on common industry identifiers in a secured, governed, and privacy-friendly manner.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
+TQID: https://experienceleague.adobe.com/RnmmHdxJbt0Ljjovo0rYwGvYilcihcqeeI5KOkP4VmU
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Audience Collaboration with Segment Match blueprint
 

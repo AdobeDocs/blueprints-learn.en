@@ -1,11 +1,36 @@
 ---
-title: Experience Platform and Application Guardrails 
+title: Experience Platform and Application Guardrails
 description: Guardrails define the performance expectations and impact for the components and services within Adobe Experience Platform and Applications
 solution: Experience Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
+TQID: https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
+    internal-label: Segmentation
+  - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
+subfeature_v2:
+  - id: d1823595-9241-4128-8a33-e4ac3bf08773
+    internal-label: Audiences
+  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
+    internal-label: Guardrails
+  - id: ee602049-8a18-43df-9299-a689a025a371
+    internal-label: Use cases
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
-
 # Guardrails
 
 Guardrails reflect system constraints, expected latencies, and performance expectations to optimize customer architecture and use case performance and help to ensure stability, avoid errors or unexpected results.

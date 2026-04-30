@@ -3,6 +3,32 @@ title: Buying Group-based Marketing and Journey Management Blueprint
 description: Learn how to ideate, design, and build a journey that qualifies leads to a buying group in Adobe Journey Optimizer B2B Edition.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+    internal-label: Roles Template
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+    internal-label: Solution Interests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Buying Group-based Marketing and Journey Management blueprint
 

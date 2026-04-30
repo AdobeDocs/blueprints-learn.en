@@ -2,6 +2,8 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
+landing-page-name: home-tutorials
+landing-page-breadcrumb-title: Tutorials
 type: Tutorial
 doc-type: blueprint
 mini-toc-levels: 2

@@ -4,6 +4,22 @@ description: Deliver account based audiences and profile centric customer experi
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
+TQID: https://experienceleague.adobe.com/eCN6p4FgOY5k3JqjlMx55YJjYMChqTiwxH-LWagH7pk
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # B2B Analytics, Activation, and Marketing blueprints
 

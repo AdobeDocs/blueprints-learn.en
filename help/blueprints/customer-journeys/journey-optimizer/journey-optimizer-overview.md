@@ -3,6 +3,44 @@ title: "[!DNL Journey Optimizer] - Journeys Blueprint"
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
+TQID: https://experienceleague.adobe.com/Rfi-0QD8bQpD-Zp2CDpzqxrge0yVs2CFt5mDKibNogI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 ---
 # [!DNL Journey Optimizer] blueprints
 
@@ -18,9 +56,9 @@ This blueprint outlines the technical capabilities of the application and provid
 >[!TAB Journey (Event-Driven, Real-Time)]
 
 - **Abandonment Recovery:** Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
-- **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promoitions or benefits
+- **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promotions or benefits
 - **Transactional Messaging:** Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
-- **Contextal Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
+- **Contextual Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
 - **Contextual Upsell/Cross-Sell:** Deliver personalized offers based on real-time profile attributes and recent interactions.
 
 >[!TAB Campaign Orchestration (Scheduled, Brand-Initiated)]
