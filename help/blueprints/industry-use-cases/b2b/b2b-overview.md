@@ -22,7 +22,7 @@ Organizations implementing account-based marketing personalization see improved 
 
 ### How to implement
 
-Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level audiences and activate personalized content across channels. This pattern is purpose-built for account-based strategies, supporting both account and person-level targeting. This is the right pattern when targeting must operate at the account level rather than the individual level — standard RT-CDP audience activation does not support the account-based data model required for ABM strategies.
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pattern to build account-level audiences and activate personalized content across channels. This pattern is purpose-built for account-based strategies, supporting both account and person-level targeting. This is the right pattern when targeting must operate at the account level rather than the individual level — standard RT-CDP audience activation does not support the account-based data model required for ABM strategies.
 
 ### Technical considerations
 
@@ -261,7 +261,7 @@ B2B organizations with account-based audience activation see stronger pipeline i
 
 ### How to implement
 
-Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to build account-level segments using account-person relationships and activate them to B2B-capable paid media destinations. This is the right pattern when audience construction must operate at the account level — combining signals from multiple contacts within a buying organization — rather than at the individual person level.
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pattern to build account-level segments using account-person relationships and activate them to B2B-capable paid media destinations. This is the right pattern when audience construction must operate at the account level — combining signals from multiple contacts within a buying organization — rather than at the individual person level.
 
 ### Technical considerations
 
@@ -281,7 +281,7 @@ B2B organizations using buying group journey orchestration see improved opportun
 
 ### How to implement
 
-Use the [Buying Group-Based Marketing](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) pattern to build account-qualified journeys that segment buying group members by role, evaluate group-level engagement signals, and orchestrate coordinated multi-person, multi-touch campaigns with conditional branching based on account status. This is the right pattern when journey logic must operate at the account-group level rather than the individual person level — standard person-level journey orchestration cannot handle the group-qualification and cross-person coordination requirements of B2B buying group management.
+Use the [Buying Group-Based Marketing](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) pattern to build account-qualified journeys that segment buying group members by role, evaluate group-level engagement signals, and orchestrate coordinated multi-person, multi-touch campaigns with conditional branching based on account status. This is the right pattern when journey logic must operate at the account-group level rather than the individual person level — standard person-level journey orchestration cannot handle the group-qualification and cross-person coordination requirements of B2B buying group management.
 
 ### Technical considerations
 
@@ -301,7 +301,7 @@ B2B organizations with account-level personalization report improved engagement 
 
 ### How to implement
 
-Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) pattern to activate account-level profiles for personalization across web and outbound channels. This is the right pattern when the primary requirement is account-level targeting for personalization rather than contact-level journey orchestration — account profile data drives the personalization decisions rather than individual behavioral signals.
+Use the [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) pattern to activate account-level profiles for personalization across web and outbound channels. This is the right pattern when the primary requirement is account-level targeting for personalization rather than contact-level journey orchestration — account profile data drives the personalization decisions rather than individual behavioral signals.
 
 ### Technical considerations
 

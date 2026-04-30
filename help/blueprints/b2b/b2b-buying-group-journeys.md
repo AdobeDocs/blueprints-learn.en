@@ -32,6 +32,9 @@ topic_v2:
 ---
 # Buying Group-based Marketing and Journey Management blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) under B2B Activation & Marketing.
+
 Marketing teams currently face many challenges in providing Sales with qualified leads. One of these challenges is working with the right people in the organization and is usually evident in effort and accuracy. With _lead scoring_, the group is too narrow and teams might miss the right people. With _account scoring_, there is greater effort required to identify the right person with such a broad view of an account. 
 
 This challenge is where the concept of **_buying group_** is introduced. A buying group enables marketers to find the right group of people in the account, and to work with these individuals through the lens of qualifying the leads and identifying their role in the group. 

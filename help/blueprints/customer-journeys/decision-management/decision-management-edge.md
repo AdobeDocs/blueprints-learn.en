@@ -40,6 +40,9 @@ topic_v2:
 ---
 # Journey Optimizer - [!DNL Decision Management] on the Edge Blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) under Personalization.
+
 [!DNL Decision Management] is a service provided as part of [!DNL Journey Optimizer]. This blueprint outlines the use cases and technical capabilities of the application and provides a deep dive into the various architectural components and considerations that make up Decision Management.
 
 >[!MORELIKETHIS]

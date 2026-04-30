@@ -6,60 +6,9 @@ short-description: Integrate RTCDP profiles and audiences with Adobe Target.
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-TQID: https://experienceleague.adobe.com/1ti2SqfAFOgnKbaJ70xwGI-xHDE1WXJ7-oTStcJJy1E
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-    internal-label: Target
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-    internal-label: Experience Platform
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-    internal-label: Real-Time Customer Data Platform
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-    internal-label: Segmentation
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-    internal-label: Audiences
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-    internal-label: Use cases
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: Profile
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-    internal-label: Implementation
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
-subfeature_v2:
-  - id: cbd4a8d8-97a6-4ac9-b8d6-b6c1f28d3342
-    internal-label: Segments
-  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-    internal-label: B2B
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-    internal-label: Audiences
-  - id: ee602049-8a18-43df-9299-a689a025a371
-    internal-label: Use cases
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-    internal-label: at.js
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-    internal-label: Developer
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-    internal-label: Measurement
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
 ---
-# Known Customer Personalization with Target
 
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md) under Personalization.
+# Known Customer Personalization with Target
 
 ## Use cases
 
@@ -90,15 +39,39 @@ topic_v2:
 
 Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
 
 Sequence Detail
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target_flow.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
 
 Overview Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/personalization_with_apps.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+
+## Implementation patterns
+
+Known Customer Personalization is supported via several implementation approaches.
+
+### Implementation pattern 1 - [!DNL Edge Network] with Web/Mobile SDK or [!DNL Edge Network] API (Recommended Approach)
+
+* Using the [!DNL Edge Network] with the Web/Mobile SDK. Real-time edge segmentation requires the Web/Mobile SDK or Edge API implementation approach.
+* [Refer to the Experience Platform Web and Mobile SDK Blueprint](/help/blueprints/experience-platform/deployment/websdk.md) for the SDK based implementation.
+* For use in the Mobile SDK the [Adobe Journey Optimizer - Decisioning extension](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) must be installed.
+* [Refer to the [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) for an API based implementation of Adobe Target with Edge Profile.
+
+### Implementation pattern 2 - Application specific SDKs
+
+Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
+
+[Refer to the Adobe Target Connector Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Refer to the application specific SDK Blueprint](/help/blueprints/experience-platform/deployment/appsdk.md) 
+
+## Implementation considerations
+
+* Any primary identity can be leveraged when utilizing implementation pattern 1 outlined above with the [!DNL Edge Network] and Web SDK. 
+* First login personalization with known customer data that was prior ingested into RTCDP requires that the personalization request has a primary identity which matches the known customer identity graph in the Real-time Customer Data Platform. If the primary ID is set to ECID or an identity that has not yet been stitched with the known customer profile, then it will take several minutes for the identity stitch to be realized on the edge and for edge personalization to include prior ingested known customer data.
+* Edge profiles currently have a 14 day TTL. Hence if a user has not logged in or been active for 14 days on the edge, the profile on the edge may be expired, and thus the edge must fetch the profile from the hub to have the historic profile view to power personalization which includes prior ingested profile attributes and segments, this will result in personalization with the historic view of profiles happening on subsequent page views vs. the first login.
 
 ## Related documentation
 

@@ -98,6 +98,12 @@ The following applications are used in this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Edge segmentation for real-time audience evaluation based on in-session behavioral signals; anonymous edge profile management
 - **[!DNL Adobe Experience Platform] (AEP)** -- [!DNL Web SDK] for behavioral signal collection, [!DNL Edge Network] for real-time data routing and personalization delivery, datastream configuration
 
+## Architecture
+
+The following reference architecture illustrates how anonymous visitor signals are collected at the edge, evaluated against audience rules, and used to deliver personalized content.
+
+![Reference architecture for anonymous audience activation and personalization](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## Foundational functions
 
 The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.

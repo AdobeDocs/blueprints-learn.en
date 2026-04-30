@@ -44,21 +44,32 @@ role: Developer, User
     + [Audience Activation to Destinations](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
     + [Audience Collaboration with Segment Match](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
     + [Event Forwarding](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
-    + [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+    + [Real-Time Profile Lookup for Support and Sales](/help/blueprints/use-case-patterns/audience-building-activation/real-time-profile-lookup.md)
+    + [Custom Data Science for Profile Enrichment](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)
   + Personalization{#personalization-patterns}
     + [Anonymous Visitor Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
     + [Known-Visitor Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
     + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
     + [Behavioral Recommendation](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+    + [Edge Profile Access for Web/Mobile Personalization](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)
+    + [Audience Sharing with Adobe Target](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md)
   + Campaign Management & Orchestration{#campaign-orchestration-patterns}
     + [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
     + [Event-Triggered Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
     + [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
     + [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-    + [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+    + [Campaign v8 Batch Orchestration & Transactional Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
+    + [Third-party Messaging Integration with Journey Optimizer](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
   + Analysis{#analysis-patterns}
     + [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
-    + [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+  + B2B Activation & Marketing{#b2b-patterns}
+    + [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)
+    + [Buying Group-Based Marketing & Journey Management](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md)
+    + [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md)
+    + [B2B Journeys using Marketo Data](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md)
+    + [AJO B2B Paid Media Controller](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)
+    + [Marketo & Workfront Intake and Create](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md)
+    + [Marketo & Workfront Review and Approve](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md)
   + Conversational Experience{#conversational-experience-patterns}
     + [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + Industry Use Cases Examples{#industry-use-cases}

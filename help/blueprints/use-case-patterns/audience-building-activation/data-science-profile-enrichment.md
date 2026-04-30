@@ -3,12 +3,8 @@ title: Custom Data Science for Profile Enrichment Blueprint
 description: Learn how data science-based insights can be ingested into [!DNL Experience Platform] to enrich the Real-time Customer Profile.
 solution: Data Collection
 kt: 7203
-exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669
 ---
 # Custom data science for profile enrichment blueprint
-
->[!TIP]
->This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md) under Audience Building & Activation.
 
 The custom data science for profile enrichment blueprint illustrates how data can be used to train, deploy, and score models to provide machine learning insights into [!DNL Experience Platform] and the [!DNL Real-Time Customer Data Platform] from data science and machine learning tools. 
 
@@ -22,11 +18,16 @@ Modeled insights can be ingested into [!DNL Experience Platform] to enrich the r
 
 ## Architecture
 
-<img src="assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-* For detailed guardrails and end to end latencies on ingesting data science results into [!DNL Experience Platform] and the Real-time Customer Profile refer to the data ingestion guardrails and latency diagram referenced in the [deployment guardrails document](../experience-platform/guardrails.md).
+* For detailed guardrails and end to end latencies on ingesting data science results into [!DNL Experience Platform] and the Real-time Customer Profile refer to the data ingestion guardrails and latency diagram referenced in the [deployment guardrails document](/help/blueprints/experience-platform/guardrails.md).
+
+## Implementation considerations
+
+* In most cases model result should be ingested as profile attributes and not experience events. The model results can be a simple attribute strings. If there are multiple model results that are to be ingested, it is recommended to use an array or map type field.
+* The daily profile snapshot dataset which is a daily export of the unified profile attribute data can be leveraged to train models on profile attribute data. Profile snapshot dataset documenation can be accessed [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
 
 ## Related documentation
 

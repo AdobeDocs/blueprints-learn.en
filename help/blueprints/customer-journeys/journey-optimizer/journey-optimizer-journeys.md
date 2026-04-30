@@ -31,6 +31,9 @@ topic_v2:
 ---
 # [!DNL Journey Optimizer] - Journeys Blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) under Campaign Management & Orchestration.
+
 Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deliver personalized, multi-step experiences based on individual customer behaviors. They support a wide range of channels—including email, SMS, push notifications, in-app messaging, code-based experiences and custom API-based integrations allowing brands to engage customers contextually across their preferred touchpoints.
 
 <br>

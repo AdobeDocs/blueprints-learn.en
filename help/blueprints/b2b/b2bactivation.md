@@ -26,6 +26,9 @@ topic_v2:
 ---
 # B2B Audience and Profile Activation blueprint
 
+>[!TIP]
+>This blueprint is also available as a [use case pattern](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) under B2B Activation & Marketing.
+
 Use account, opportunity, and lead information tied to a individual customer to create actionable b2b profiles for improved personalization and targeting across channels.
 
 ## Use cases

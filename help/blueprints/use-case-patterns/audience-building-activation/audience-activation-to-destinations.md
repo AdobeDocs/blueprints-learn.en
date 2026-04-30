@@ -21,7 +21,7 @@ This pattern applies whenever the goal is to get audience data to an external sy
 Typical stakeholders include digital marketing teams managing paid media, data teams enriching warehouses, CRM teams preparing contact lists for campaigns, and privacy teams ensuring governance compliance on outbound data flows.
 
 >[!NOTE]
->If your organization uses [!DNL Real-Time CDP] B2B Edition and activates to account-based destinations, see [B2B audience activation](b2b-audience-activation.md). That pattern shares the same activation mechanics but uses a B2B account-and-person data model and requires the B2B Edition license.
+>If your organization uses [!DNL Real-Time CDP] B2B Edition and activates to account-based destinations, see [B2B audience activation](../b2b/account-audience-activation.md). That pattern shares the same activation mechanics but uses a B2B account-and-person data model and requires the B2B Edition license.
 
 ## Key business objectives
 
@@ -83,6 +83,12 @@ Improve return on marketing investment through better targeting, attribution, au
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation, destination management, audience activation, consent and governance enforcement
 - **Adobe [!DNL Experience Platform] (AEP)** -- Profile store, identity service, segmentation engine, data governance
+
+## Architecture
+
+The following reference architecture illustrates how audience and profile data flows from Real-Time CDP to enterprise destinations including cloud storage, streaming endpoints, and SaaS applications.
+
+![Reference architecture for audience and profile activation to enterprise destinations](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## Foundational functions
 
