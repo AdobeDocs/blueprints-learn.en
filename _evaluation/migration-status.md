@@ -29,7 +29,7 @@ The current working pattern, agreed in this session, is:
 ### Universal rules
 
 - Cross-link TIP wording is consistent: `>This blueprint is also available as a [use case pattern](...) under <Category>.`
-- New files (use case patterns created during migration) **do not include `exl-id`** — Adobe publication assigns these. See [memory: feedback_no_exl_id_for_new_files](../../../../.claude/projects/-Users-nhecht-Library-CloudStorage-OneDrive-Adobe-Documents-GitHub-blueprints-learn-en/memory/feedback_no_exl_id_for_new_files.md).
+- New files (use case patterns created during migration) **do not include `exl-id`** — Adobe publication assigns these.
 - Image references in newly authored files use absolute paths (`/help/blueprints/...`), not relative.
 - Existing `exl-id` values on existing pages are preserved.
 - Redirects in `redirects.csv` follow the format `source,dest` with `/en/docs/...` paths (no `.html`).
@@ -97,8 +97,7 @@ Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md
 | [blueprint-audit.md](blueprint-audit.md) | Per-blueprint audit table (43 rows) with recommendations |
 | [rubric.md](rubric.md) | Scoring rubric used to classify blueprints |
 | [migration-redirects.csv](migration-redirects.csv) | Staged redirects from migration |
-| [redirects.csv](../../../redirects.csv) | Canonical redirects file (3 rows added in Phase A) |
-| `~/.claude/plans/i-am-a-writer-synchronous-muffin.md` | Original plan file |
+| [redirects.csv](../redirects.csv) | Canonical redirects file (3 rows added in Phase A) |
 
 ## Open questions still unresolved (from audit)
 
@@ -113,6 +112,6 @@ Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md
 
 Open a new Claude Code session in this repo and say:
 
-> Let's resume the blueprint migration. Read `help/blueprints/_evaluation/migration-status.md` to pick up where we left off.
+> Let's resume the blueprint migration. Read `_evaluation/migration-status.md` to pick up where we left off.
 
 The next concrete step: respond to the `b2b/overview.md` decision (A/B/C). Then continue with blueprint #2 (`b2b/b2bactivation.md`) and proceed through the B2B section, then Customer Journey Analytics, Customer Journeys, and Experience Platform.

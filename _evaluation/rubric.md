@@ -1,7 +1,7 @@
 # Blueprint Evaluation Rubric
 
 This rubric is applied to every document under the "Architecture Diagrams and Blueprints" section
-of [TOC.md](../TOC.md) (lines 76–133) to recommend whether each blueprint should become a
+of [TOC.md](../help/blueprints/TOC.md) (lines 76–133) to recommend whether each blueprint should become a
 **Use Case Pattern**, an **Architecture Diagram**, both (**Split**), or be flagged as a
 **Duplicate** of an existing pattern.
 
@@ -14,7 +14,7 @@ The output of applying this rubric is [blueprint-audit.md](blueprint-audit.md).
   Canonical shape: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Architecture Diagram** — a visual diagram representing the functionality of a system, the
   integrations, and data flows. Minimal narrative; the diagram is the artifact.
-  Canonical example: [platform-data-flow.md](../experience-platform/platform-data-flow.md).
+  Canonical example: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
 
 ## Scoring
 

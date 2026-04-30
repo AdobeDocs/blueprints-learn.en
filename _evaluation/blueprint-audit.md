@@ -1,7 +1,7 @@
 # Blueprint Audit & Recommendations
 
 This audit applies the [evaluation rubric](rubric.md) to every document under the
-"Architecture Diagrams and Blueprints" section of [TOC.md](../TOC.md) (lines 76–133), and
+"Architecture Diagrams and Blueprints" section of [TOC.md](../help/blueprints/TOC.md) (lines 76–133), and
 recommends whether each blueprint should become a use case **Pattern**, an architecture
 **Diagram**, both (**Split**), or be flagged as a **Duplicate** of an existing pattern.
 
@@ -29,7 +29,7 @@ The rubric is calibrated; results from the other sub-areas can be trusted as sco
 
 A new category `use-case-patterns/b2b/` (display label **B2B Activation & Marketing**, TOC anchor
 proposed `{#b2b-patterns}`) will house all B2B-specific patterns. The label mirrors the existing
-"B2B activation & marketing" subsection in the architecture-diagrams area of [TOC.md](../TOC.md),
+"B2B activation & marketing" subsection in the architecture-diagrams area of [TOC.md](../help/blueprints/TOC.md),
 giving readers visual symmetry between the two sections.
 
 When fully populated, the category will contain **7 patterns**:
@@ -45,7 +45,7 @@ When fully populated, the category will contain **7 patterns**:
 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | **Author new** | `use-case-patterns/b2b/campaign-review-and-approval.md` |
 
 > **Initial transition state — writer-coordination gate.** The existing "B2B activation & marketing"
-> subsection in the architecture-diagrams area of [TOC.md](../TOC.md) (lines 95–106) **stays intact
+> subsection in the architecture-diagrams area of [TOC.md](../help/blueprints/TOC.md) (lines 95–106) **stays intact
 > during the transition**. Each blueprint conversion and existing-pattern relocation requires
 > sign-off from the owning writer before content is migrated. The new `b2b/` use case pattern
 > section coexists with the existing blueprint section while migrations happen page by page, with
@@ -53,9 +53,9 @@ When fully populated, the category will contain **7 patterns**:
 
 When the relocations and new patterns have all landed:
 
-- [TOC.md](../TOC.md) `Use Case Patterns` section will gain a `B2B Activation & Marketing{#b2b-patterns}`
+- [TOC.md](../help/blueprints/TOC.md) `Use Case Patterns` section will gain a `B2B Activation & Marketing{#b2b-patterns}`
   subsection (placement TBD with the writer).
-- [use-case-patterns/overview.md](../use-case-patterns/overview.md) will gain a B2B category table.
+- [use-case-patterns/overview.md](../help/blueprints/use-case-patterns/overview.md) will gain a B2B category table.
 - The relocated patterns will be removed from `audience-building-activation`,
   `campaign-management-orchestration`, and `analysis` overview tables; their old URLs are kept
   alive via redirects in [migration-redirects.csv](migration-redirects.csv).
@@ -108,7 +108,7 @@ The blueprint scope is already covered by an existing use case pattern. Migratio
 ### Migration redirects
 
 Every URL change introduced by this migration adds a row to the canonical
-[`redirects.csv`](../../../redirects.csv) at repo root (format: `source,dest`). Confirmed
+[`redirects.csv`](../redirects.csv) at repo root (format: `source,dest`). Confirmed
 redirects are staged in [migration-redirects.csv](migration-redirects.csv) and merged into the
 canonical file as each corresponding move actually happens.
 
@@ -150,7 +150,7 @@ completeness if any blueprint is fully retired:
 
 When converting any of the above to active redirect rows, format as comma-separated `source,dest`
 with full `/en/docs/...` paths (no `.html` suffix), matching the existing pattern in
-[`redirects.csv`](../../../redirects.csv).
+[`redirects.csv`](../redirects.csv).
 
 ### Redirect-creation policy (durable rule)
 
