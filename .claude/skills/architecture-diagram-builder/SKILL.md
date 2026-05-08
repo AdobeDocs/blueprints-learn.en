@@ -1,9 +1,9 @@
 ---
-name: architecture-diagram-builder
+name: architecture-diagram-page-builder
 description: "Guide creation of new architecture diagram pages for the Adobe Experience Platform blueprints repository. Use this skill when adding a new top-level architecture diagram, integration architecture page, or application architecture overview. Architecture pages cover top-level AEP and application architectures and primary integration points -- not in-depth use cases (those belong in use-case-pattern-builder). Handles the full workflow: gathering page info, generating the markdown file, placing it in the correct topic folder, and updating TOC.md."
 ---
 
-# Architecture Diagram Builder
+# Architecture Diagram Page Builder
 
 This skill guides the creation of new architecture diagram pages for the Adobe Experience Platform blueprints repository. Architecture diagram pages provide top-level visual references for how AEP and Adobe applications fit together, the primary data flows between them, and the integration points authors need to be aware of when designing solutions.
 
