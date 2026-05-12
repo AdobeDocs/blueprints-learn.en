@@ -33,3 +33,4 @@ See the following documentation for guidance on implementation and configuration
 ## Architecture for Customer Journey Analytics with Journey Optimizer
 
 ![Architecture diagram](assets/CJA_AJO.svg){zoomable="yes"}
+
