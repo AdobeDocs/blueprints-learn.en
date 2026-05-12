@@ -4,6 +4,7 @@ description: Unify and analyze data and customer behaviors from across the custo
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
+tester: Bob
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
 TQID: https://experienceleague.adobe.com/LfXHMTiwVFoS95g64Ma00Y9s6qq5h7ppNPCDbVS1JbE
 product_v2:
