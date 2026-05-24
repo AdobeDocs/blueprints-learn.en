@@ -78,7 +78,7 @@ The following table defines the KPIs used to measure campaign effectiveness.
 
 Evaluate an audience, then deliver a scheduled outbound message (email, SMS, push) to all qualifying profiles in a single batch execution.
 
-**Function chain:** Audience Evaluation > Message Authoring > Campaign Execution > Reporting
+**Execution plan:** Audience Evaluation > Message Authoring > Campaign Execution > Reporting
 
 ## Applications
 
@@ -88,11 +88,11 @@ The following applications are used to implement this pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation, consent and governance enforcement
 - **[!DNL Adobe Experience Platform] (AEP)** -- Profile store, identity service, schemas, datasets, data collection
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox provisioned with an active channel configuration. Sending subdomain delegated, IP pool assigned, and IP warmup complete. User roles with campaign/journey creation permissions assigned. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM Individual Profile schema with attributes used for segmentation and personalization (e.g., name, email, preferences, tier). XDM ExperienceEvent schema capturing the target conversion action (e.g., `commerce.purchases`, `web.webInteraction`) for post-campaign conversion tracking. Profile-enabled datasets for both schemas. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -100,11 +100,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Assumed in Place | Identity namespaces for email (and any cross-device identifiers) configured. Profile attributes required for personalization mapped, ingested, and resolvable at send time. Merge policy configured. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Required | Target audience defined in RT-CDP using Segment Builder or Audience Composition. Audience published and evaluating with a non-zero population. Covered in Implementation Phase 1 via RT-CDP Audience Evaluation. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as days since last purchase, lifetime order count, or engagement score improve audience precision and enable richer message personalization. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Data retention policies (expiration) should be in place for event datasets that drive conversion tracking. Consent schema fields must be configured for channel-level opt-in/opt-out enforcement. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Consent and preferences field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents) |
@@ -112,13 +112,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Real-time send monitoring is part of the Reporting phase. Platform-level alerting on ingestion failures or license usage provides operational visibility beyond campaign-level metrics. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
 | Reporting & Analysis | Included | Campaign and journey reports are covered in the Reporting phase. For deeper cross-channel analysis, CJA integration provides funnel analysis, attribution modeling, and cohort analysis beyond AJO built-in reports. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA integration guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the application function catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Channel Configuration | Phase 2: Channel Configuration | Configure or validate the channel surface (email, SMS, or push) including subdomain, IP pool, sender settings, and suppression list |
 | Message Authoring | Phase 3: Message Authoring | Create message content using templates, the Email Designer, personalization expressions, conditional content blocks, and content fragments |
@@ -130,7 +130,7 @@ This plan exercises the following functions from the application function catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 1: Audience Evaluation | Define audience rules using Segment Builder or Audience Composition, select the evaluation method (batch, streaming, or edge), and validate audience population |
 | Consent & Governance Enforcement | Phase 1: Audience Evaluation | Enforce consent preferences and data usage policies to ensure only consented profiles receive the campaign message |
@@ -303,7 +303,7 @@ This section walks through each phase of implementation in detail, including dec
 
 ### Phase 1: Evaluate the audience
 
-**Application function:** RT-CDP: Audience Evaluation
+**Application capability:** RT-CDP: Audience Evaluation
 
 This phase defines and evaluates the target audience segment that will receive the campaign message. It determines which profiles qualify for the send based on profile attributes, behavioral signals, and suppression rules.
 
@@ -375,7 +375,7 @@ Audience evaluation may be skipped entirely. If used, create a suppression audie
 
 ### Phase 2: Configure the channel
 
-**Application function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 This phase validates or creates the channel surface (preset) that defines the sending infrastructure for the message -- subdomain, IP pool, sender identity, reply-to address, and unsubscribe settings. A valid channel surface must exist before message content can be authored or campaigns can be activated.
 
@@ -434,7 +434,7 @@ Administration > Channels > Channel surfaces > Create surface (or select existin
 
 ### Phase 3: Author the message
 
-**Application function:** AJO: Message Authoring
+**Application capability:** AJO: Message Authoring
 
 This phase creates the message content that will be delivered to the audience. It includes selecting or creating a content template, designing the message layout, adding personalization using profile attributes, configuring conditional content blocks for audience-specific variations, creating reusable content fragments, and previewing/testing the message with sample profiles.
 
@@ -505,7 +505,7 @@ Campaigns > Select campaign > Edit content > Email Designer (or SMS/Push editor)
 
 ### Phase 4: Create the campaign or journey
 
-**Application function:** AJO: Campaign Execution (Options A and C) or AJO: Journey Orchestration (Option B)
+**Application capability:** AJO: Campaign Execution (Options A and C) or AJO: Journey Orchestration (Option B)
 
 This phase creates the campaign or journey that binds the audience, message, and execution mechanism into a deliverable unit. This is where the three implementation options diverge most significantly.
 
@@ -593,7 +593,7 @@ What priority level should this campaign have relative to other active campaigns
 
 ### Phase 5: Analyze reporting and performance
 
-**Application function:** AJO: Reporting & Performance Analysis
+**Application capability:** AJO: Reporting & Performance Analysis
 
 This phase monitors delivery metrics during execution via live reports and analyzes campaign performance after completion via historical reports. Optionally configure CJA integration for deeper cross-channel analysis.
 

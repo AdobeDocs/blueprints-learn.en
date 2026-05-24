@@ -16,7 +16,7 @@ Architecture diagram pages are **focused, reference-style pages** -- typically 4
 - A short list of the primary data flows and integration points illustrated
 - Experience League links for further reading on the application domain
 
-They are **not** the place for in-depth use case content. KPIs, business objectives, tactical use case examples, function chains, and persona narratives belong on use case pattern pages instead -- generated via the `use-case-pattern-builder` skill. See `references/scope-guardrails.md` for the full guardrails.
+They are **not** the place for in-depth use case content. KPIs, business objectives, tactical use case examples, capabilities, and persona narratives belong on use case pattern pages instead -- generated via the `use-case-pattern-builder` skill. See `references/scope-guardrails.md` for the full guardrails.
 
 ## Required reading before starting
 
@@ -89,7 +89,7 @@ If any of the following appears in the planned content, warn the user and offer 
 - KPIs or measurement formulas
 - Business objectives or business impact narratives
 - Tactical use case examples (specific personalization scenarios, campaign examples, etc.)
-- Function chains (`A > B > C > D` style)
+- Capabilities (`A > B > C > D` style)
 - Persona-driven storytelling
 
 If the planned content stays within architecture-page scope (top-level architecture, system data flow, integration points, deployment topology, edge vs. hub), confirm with the user and proceed to Phase 3.
@@ -186,4 +186,4 @@ Fix any validation issues before considering the task complete.
 - Architecture diagrams are typically SVG (preferred for crispness and scaling) but PNG is acceptable for raster-source artwork.
 - The `<img>` embed inline-styling string (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) and `class="modal-image"` are required -- they enable the Experience League modal-zoom interaction.
 - If the user is creating a page for a brand-new topic folder that does not exist yet, warn them that TOC.md needs a new top-level subsection under `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Handle that as a separate step with the user's explicit approval.
-- If the architecture diagram extensively documents a *single use case end-to-end* (with KPIs, business objectives, function chain), redirect the user to `use-case-pattern-builder` -- that is not an architecture page.
+- If the architecture diagram extensively documents a *single use case end-to-end* (with KPIs, business objectives, capabilities), redirect the user to `use-case-pattern-builder` -- that is not an architecture page.

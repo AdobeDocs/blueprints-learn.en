@@ -77,7 +77,7 @@ Improve return on marketing investment through better targeting, attribution, au
 
 **Audience Activation to Destinations** -- Evaluate and publish an audience segment to external destinations for targeting or suppression.
 
-**Function Chain:** Audience Evaluation > Destination Configuration > Audience Activation > Monitoring
+**Execution Plan:** Audience Evaluation > Destination Configuration > Audience Activation > Monitoring
 
 ## Applications
 
@@ -90,37 +90,37 @@ The following reference architecture illustrates how audience and profile data f
 
 ![Reference architecture for audience and profile activation to enterprise destinations](/help/blueprints/audience-activation/assets/known_activation.svg)
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | RT-CDP sandbox provisioned and active. Destination management and activation permissions assigned to implementation roles. Destination account credentials available for the target platforms. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Profile schema must include attributes that will be mapped to destination fields (e.g., email, phone, hashed identifiers, demographic attributes). Schema must be profile-enabled with datasets actively receiving data. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | Data Sources & Collection | Assumed in Place | Profile data that powers audience evaluation must be ingested and current. Batch and/or streaming ingestion pipelines operational. Web SDK, source connectors, or batch ingestion delivering data into profile-enabled datasets. | [Sources overview](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Web SDK overview](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
 | Identity & Profile Configuration | Required | Identity namespaces for destination matching must be configured (e.g., hashed email for Facebook Custom Audiences, Google Ads Customer Match). Merge policies must produce unified profiles with all required attributes for activation. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Audience Definition & Segmentation | Required | Target audience defined using Segment Builder, Audience Composition, or Federated Audience Composition. Evaluation method (batch, streaming, or edge) selected based on activation latency needs. This function is exercised in Phase 1 of this plan. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Audience Definition & Segmentation | Required | Target audience defined using Segment Builder, Audience Composition, or Federated Audience Composition. Evaluation method (batch, streaming, or edge) selected based on activation latency needs. This capability is exercised in Phase 1 of this plan. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as lifetime value, engagement score, or propensity score improve audience precision and provide enrichment attributes to map to destinations. Particularly valuable when destinations benefit from value-based or score-based audience segmentation. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Dataset and profile expiration policies ensure data freshness and compliance. Consent schema configuration ensures only consented profiles are activated. Critical for regulatory compliance when exporting data to external systems. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Data Usage Labeling & Enforcement | Recommended | Governance labels and policies prevent activation of restricted data to unauthorized destinations (e.g., PII to ad platforms, sensitive segments to data partners). Especially important for audience activation to external third-party systems. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
-| Monitoring & Observability | Included | Activation monitoring is part of the function chain (Phase 5). Covers dataflow run monitoring, delivery status alerts, audience population tracking, and license usage visibility. | [Monitor destination dataflows](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
+| Monitoring & Observability | Included | Activation monitoring is part of the execution plan (Phase 5). Covers dataflow run monitoring, delivery status alerts, audience population tracking, and license usage visibility. | [Monitor destination dataflows](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
 | Reporting & Analysis | Recommended | CJA analysis of audience activation effectiveness enables measurement of performance for activated audiences (e.g., conversion lift from suppression, ROAS from lookalike audiences). | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 1: Audience Evaluation | Define audience rules and evaluate segment membership using batch, streaming, or edge evaluation methods |
 | Audience Composition | Phase 1: Audience Evaluation | Optionally compose derived audiences via enrich, rank, split, exclude, and join operations for complex audience logic |
@@ -289,7 +289,7 @@ The implementation follows these phases. Each phase includes configuration detai
 
 ### Phase 1: Audience evaluation
 
-**Application function:** RT-CDP: Audience Evaluation, RT-CDP: Audience Composition
+**Application capability:** RT-CDP: Audience Evaluation, RT-CDP: Audience Composition
 
 **What you will configure:** Define the target audience that will be activated to destinations. This includes specifying the audience criteria (which profiles qualify), selecting the evaluation method (how quickly membership updates), and validating the audience population. This is the starting point for all activation -- without a defined and evaluated audience, there is nothing to activate.
 
@@ -363,7 +363,7 @@ The evaluation method should accommodate the most demanding destination. If any 
 
 ### Phase 2: Destination configuration
 
-**Application function:** RT-CDP: Destination Configuration
+**Application capability:** RT-CDP: Destination Configuration
 
 **What you will configure:** Establish authenticated connections to the external destinations where audiences will be published. This includes selecting the destination from the catalog, providing authentication credentials, and configuring destination-specific parameters such as file format, storage location, and export scheduling. Each destination requires its own connection configuration.
 
@@ -440,7 +440,7 @@ Repeat this phase for each destination. Each connection is independent -- you ma
 
 ### Phase 3: Audience activation
 
-**Application function:** RT-CDP: Audience Activation
+**Application capability:** RT-CDP: Audience Activation
 
 **What you will configure:** Publish the evaluated audience to the configured destination by creating the activation dataflow. This involves selecting which audiences to activate, mapping profile attributes to destination fields, and configuring the export schedule. The activation dataflow connects the source audience to the target destination and manages ongoing data delivery.
 
@@ -501,7 +501,7 @@ Repeat the activation workflow for each destination. The same audience can be ac
 
 ### Phase 4: Governance validation
 
-**Application function:** RT-CDP: Consent & Governance Enforcement
+**Application capability:** RT-CDP: Consent & Governance Enforcement
 
 **What you will configure:** Validate that governance policies and consent preferences are correctly enforced before and during activation. This phase ensures that restricted data (PII, sensitive attributes) is not sent to unauthorized destinations and that profiles without valid consent are excluded from activation. Governance enforcement happens automatically at activation time, but proactive validation prevents blocked activations and compliance violations.
 
@@ -549,7 +549,7 @@ Repeat the activation workflow for each destination. The same audience can be ac
 
 ### Phase 5: Monitoring and validation
 
-**Application function:** Monitoring & Observability
+**Application capability:** Monitoring & Observability
 
 **What you will configure:** Set up ongoing monitoring for activation dataflows, configure alerts for failures, validate audience population at destinations, and track license usage. Monitoring is critical for production activations where delivery failures directly impact campaign performance and media spend.
 

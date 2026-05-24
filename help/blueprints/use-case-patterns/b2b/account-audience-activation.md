@@ -92,7 +92,7 @@ The following KPIs help measure the success of this use case pattern.
 
 Activate account-based B2B audiences across web, email, and advertising channels.
 
-**Function chain:** Account Profile Enrichment > Account Audience Evaluation > Destination Configuration > Audience Activation > Monitoring
+**Execution plan:** Account Profile Enrichment > Account Audience Evaluation > Destination Configuration > Audience Activation > Monitoring
 
 ## Applications
 
@@ -102,11 +102,11 @@ The following applications are used to implement this use case pattern.
 - **[!DNL Adobe Experience Platform] (AEP)** -- Foundational infrastructure for B2B XDM data modeling, data ingestion from CRM and marketing automation sources, identity service, and governance
 - **[!DNL Marketo Engage]** -- Primary B2B marketing automation destination for lead nurture programs, scoring, and campaign execution fed by activated account audiences
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | Sandbox provisioned with [!DNL RT-CDP] B2B Edition enabled. Roles configured for B2B data management, audience creation, and destination activation. ABAC policies in place if account data contains restricted fields. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | B2B XDM schemas configured using XDM Business Account, XDM Business Opportunity, XDM Business Campaign, and XDM Individual Profile classes. B2B field groups applied for account attributes, person-account relationships, and opportunity data. Datasets created and Profile-enabled for each B2B entity. Schema relationships defined between account, person, opportunity, and campaign entities. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B schemas in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -114,11 +114,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | B2B identity namespaces configured for account identifiers (Account ID, CRM Account ID) and person identifiers (Email, CRM Contact ID, Marketo Lead ID). Person-to-account relationships resolved through B2B identity resolution. Merge policies configured for account profile unification. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B edition of Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b) |
 | Audience Definition & Segmentation | Required | Account-level audience definitions created using account attributes, person attributes, and activity data. Evaluation schedules configured for account audiences. Suppression audiences defined for excluding ineligible accounts. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Aggregated engagement scores, lifetime value, and activity metrics at the account level improve audience precision. Computed attributes can roll up person-level events (email opens, web visits, content downloads) to the account level for use in segmentation. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | B2B data retention policies ensure stale account and opportunity data is cleaned up. Consent management for B2B contacts ensures compliance with email marketing regulations. Dataset expiration policies prevent accumulation of outdated CRM sync data. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -126,13 +126,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Monitoring CRM and [!DNL Marketo Engage] source connector dataflows ensures account data stays current. Destination activation monitoring confirms audiences are successfully delivered to [!DNL LinkedIn], [!DNL Marketo], and CRM targets. Alert rules catch ingestion failures that would cause stale account data. | [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Monitor destination dataflows](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations) |
 | Reporting & Analysis | Recommended | [!DNL CJA] B2B Edition provides account-level analytics including audience reach, engagement, and pipeline influence. Account-based attribution helps measure the impact of activation campaigns on opportunity progression and revenue. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Real-Time CDP] B2B Edition ([!DNL RT-CDP] B2B)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Account Profile Unification | Phase 1: Account Profile Enrichment | Consolidate account data from CRM, marketing automation, and third-party sources into unified account profiles using B2B XDM schema classes |
 | B2B Identity Resolution | Phase 1: Account Profile Enrichment | Resolve person-to-account relationships using primary identifiers, mapping contacts and leads to their associated accounts |
@@ -144,7 +144,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP]) -- standard functions
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 2: Account Audience Evaluation | Underlying evaluation engine for account audiences, supporting batch evaluation of account-level segment definitions |
 | Destination Configuration | Phase 3: Destination Configuration | Core destination connection infrastructure used by B2B-specific destination configuration |
@@ -354,9 +354,9 @@ The following phases describe the step-by-step process for implementing this use
 
 This phase establishes unified account profiles by consolidating data from CRM, marketing automation, and third-party sources.
 
-**Application function:** [!DNL RT-CDP] B2B: Account Profile Unification, [!DNL RT-CDP] B2B: B2B Identity Resolution
+**Application capability:** [!DNL RT-CDP] B2B: Account Profile Unification, [!DNL RT-CDP] B2B: B2B Identity Resolution
 
-**What you will configure:** This phase establishes unified account profiles by consolidating data from CRM, marketing automation, and third-party sources. B2B identity resolution maps person-to-account relationships so that person-level engagement data (email opens, web visits, content downloads) can be aggregated and used in account-level audience evaluation. This phase builds on foundational functions F2, F3, and F4 which must already be in place.
+**What you will configure:** This phase establishes unified account profiles by consolidating data from CRM, marketing automation, and third-party sources. B2B identity resolution maps person-to-account relationships so that person-level engagement data (email opens, web visits, content downloads) can be aggregated and used in account-level audience evaluation. This phase builds on foundational capabilities F2, F3, and F4 which must already be in place.
 
 **Decision points in this phase:**
 
@@ -401,7 +401,7 @@ This phase establishes unified account profiles by consolidating data from CRM, 
 
 This phase defines and evaluates account-level audiences using a combination of account attributes, person attributes, and person activity data.
 
-**Application function:** [!DNL RT-CDP] B2B: Account Audience Evaluation, [!DNL RT-CDP]: Audience Evaluation
+**Application capability:** [!DNL RT-CDP] B2B: Account Audience Evaluation, [!DNL RT-CDP]: Audience Evaluation
 
 **What you will configure:** This phase defines and evaluates account-level audiences using a combination of account attributes, person attributes, and person activity data. Account audiences in [!DNL RT-CDP] B2B Edition allow you to segment accounts based on both firmographic characteristics (industry, revenue, employee count) and the engagement behavior of people associated with those accounts.
 
@@ -462,7 +462,7 @@ This phase defines and evaluates account-level audiences using a combination of 
 
 This phase establishes authenticated connections to the target destinations where account audiences will be delivered.
 
-**Application function:** [!DNL RT-CDP] B2B: Account Destination Configuration, [!DNL RT-CDP] B2B: [!DNL Marketo Engage] Integration, [!DNL RT-CDP]: Destination Configuration
+**Application capability:** [!DNL RT-CDP] B2B: Account Destination Configuration, [!DNL RT-CDP] B2B: [!DNL Marketo Engage] Integration, [!DNL RT-CDP]: Destination Configuration
 
 **What you will configure:** This phase establishes authenticated connections to the target destinations where account audiences will be delivered. Configuration includes selecting the destination from the catalog, providing authentication credentials, configuring account-level and person-level field mappings, and setting the export schedule. Each destination type has unique requirements and capabilities.
 
@@ -537,7 +537,7 @@ Navigate to Destinations > Catalog > CRM > select [!DNL Salesforce] or [!DNL Dyn
 
 This phase publishes the evaluated account audiences to the configured destinations.
 
-**Application function:** [!DNL RT-CDP] B2B: Account Audience Activation, [!DNL RT-CDP]: Audience Activation
+**Application capability:** [!DNL RT-CDP] B2B: Account Audience Activation, [!DNL RT-CDP]: Audience Activation
 
 **What you will configure:** This phase publishes the evaluated account audiences to the configured destinations. Activation creates the dataflow connecting the account audience (source) to the external destination (target), applies attribute mappings, and initiates the export according to the configured schedule or streaming behavior. You will also configure suppression audiences to exclude ineligible accounts from activation.
 
@@ -603,7 +603,7 @@ Select account audiences to activate. Activation begins streaming immediately. V
 
 This phase ensures that account audience activation complies with data governance policies and consent preferences, and that ongoing activation dataflows are monitored for health.
 
-**Application function:** [!DNL RT-CDP] B2B: B2B Data Governance, [!DNL RT-CDP]: Consent & Governance Enforcement
+**Application capability:** [!DNL RT-CDP] B2B: B2B Data Governance, [!DNL RT-CDP]: Consent & Governance Enforcement
 
 **What you will configure:** This phase ensures that account audience activation complies with data governance policies and consent preferences, and that ongoing activation dataflows are monitored for health. B2B data governance enforces restrictions on sensitive account attributes (revenue, employee count from third-party providers), while consent enforcement ensures that person-level communications respect opt-out preferences. Monitoring confirms that activation dataflows are completing successfully.
 

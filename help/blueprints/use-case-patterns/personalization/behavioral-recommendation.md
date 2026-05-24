@@ -73,7 +73,7 @@ The following KPIs help measure the effectiveness of behavioral recommendation i
 
 Generate item-level or content-level recommendations based on behavioral signals, using AJO Decisioning selection strategies and ranking models to serve contextual content.
 
-**Function chain:** Behavioral Signal Ingestion > Decisioning Strategy Evaluation > Recommendation Delivery > Reporting
+**Execution plan:** Behavioral Signal Ingestion > Decisioning Strategy Evaluation > Recommendation Delivery > Reporting
 
 See the Pattern Composition section under Implementation Considerations for guidance on combining patterns.
 
@@ -85,11 +85,11 @@ The following applications are used in this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Behavioral profile data accumulation, audience evaluation for recommendation scoping, and computed attributes for behavioral affinity scoring
 - **[!DNL Adobe Experience Platform] (AEP)** -- Behavioral event ingestion via [!DNL Web SDK] and [!DNL Mobile SDK], [!DNL Edge Network] processing, XDM schema management for event and catalog data
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox with Decisioning permissions enabled. User roles provisioned with access to item catalog management, selection strategy configuration, and channel surface administration. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Experience Event schema capturing behavioral signals (product views, add-to-cart, purchases, content interactions) with item/product identifiers. Item catalog schema (product attributes, categories, images, prices) for the recommendation item set. Profile schema with identity fields. All schemas enabled for [!DNL Real-Time Customer Profile]. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition), [Create a dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) |
@@ -97,25 +97,25 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Behavioral signals must be associated with an identity (known or anonymous via ECID) to build behavioral profiles. For known-visitor recommendations, authenticated identity (CRM ID, email) must be configured. Merge policy active on Edge for real-time recommendation delivery. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Recommended | Audiences may be used to scope recommendations (e.g., only recommend premium products to premium members) or for filtering. Not strictly required if recommendations are purely behavioral. Required for email-based recommendations (Option C) to define the target audience. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as category affinity scores, product interaction frequency, purchase recency, and total spend improve recommendation ranking quality. [!DNL Customer AI] propensity scores can further enhance relevance by predicting purchase likelihood. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI overview](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Recommended | Behavioral event data should have appropriate expiration policies -- recommendation relevance degrades with stale data. Setting dataset expiration policies on behavioral event datasets ensures freshness and manages storage. Consent enforcement ensures compliant use of behavioral data. | [Dataset expirations](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Data Usage Labeling & Enforcement | Recommended | Governance labels on behavioral data ensure compliant use of interaction history for recommendations. Particularly important when behavioral data includes browsing patterns, purchase history, or health/financial product interest signals. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
 | Monitoring & Observability | Recommended | Recommendation delivery latency, fallback rates, and item catalog ingestion health should be monitored. Alerts on behavioral event ingestion failures and decisioning errors help maintain recommendation quality. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Reporting & Analysis | Included | Recommendation performance reporting is part of Function Chain Step 4. [!DNL Customer Journey Analytics] analysis of recommendation effectiveness, revenue impact, and item-level performance across surfaces and segments provides optimization insights. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Reporting & Analysis | Included | Recommendation performance reporting is part of Execution Plan Step 4. [!DNL Customer Journey Analytics] analysis of recommendation effectiveness, revenue impact, and item-level performance across surfaces and segments provides optimization insights. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Decisioning | Item Catalog & Selection Strategy Setup | Configure item catalogs (decision items), selection strategies with behavioral ranking models, filtering rules, and fallback recommendations |
 | Channel Configuration | Channel & Surface Configuration | Configure delivery surfaces for web (code-based experiences), in-app, content card, or email channels where recommendations will be rendered |
@@ -124,7 +124,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Audience Scoping (Option C) | Evaluate audience segments used to scope recommendations or define the target population for email recommendation campaigns |
 | Profile Enrichment | Behavioral Signal Enrichment | Enrich profiles with computed attributes (category affinity scores, interaction frequency) that improve recommendation ranking |
@@ -282,7 +282,7 @@ The following phases guide you through the end-to-end implementation of behavior
 
 ### Phase 1: Configure behavioral event schema and data collection
 
-**Application Function:** AEP: Data Modeling & Preparation (F2), AEP: Data Sources & Collection (F3)
+**Application capability:** AEP: Data Modeling & Preparation (F2), AEP: Data Sources & Collection (F3)
 
 This phase establishes the XDM schemas, datasets, and data collection mechanisms that capture behavioral signals and item catalog data. This data foundation is what all recommendation logic depends on.
 
@@ -325,7 +325,7 @@ How will the product or content catalog be ingested into AEP?
 
 ### Phase 2: Configure identity and profile
 
-**Application Function:** AEP: Identity & Profile Configuration (F4)
+**Application capability:** AEP: Identity & Profile Configuration (F4)
 
 This phase sets up identity namespaces, primary identity designations, and merge policies that ensure behavioral signals are correctly associated with visitor profiles and available for real-time recommendation delivery.
 
@@ -366,7 +366,7 @@ How should behavioral signals from anonymous visitors be handled?
 
 ### Phase 3: Set up item catalog and selection strategy
 
-**Application Function:** AJO: Decisioning
+**Application capability:** AJO: Decisioning
 
 This phase configures the item catalog (decision items), selection strategies that combine behavioral signals with item attributes for ranking, filtering rules to exclude ineligible items, and fallback recommendations for cold-start profiles.
 
@@ -436,7 +436,7 @@ What should be shown for new visitors with no behavioral history?
 
 ### Phase 4: Configure channel and surface
 
-**Application Function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 This phase configures the delivery surfaces where recommendations will be rendered. The configuration varies significantly by implementation option.
 
@@ -474,7 +474,7 @@ Configure an email channel surface with subdomain delegation, IP pool assignment
 
 ### Phase 5: Configure content and delivery
 
-**Application Function:** AJO: Message Authoring
+**Application capability:** AJO: Message Authoring
 
 This phase defines the recommendation rendering templates that control how recommended items are displayed to the visitor. This includes item layout design, personalization expressions that pull item attributes (name, image, price, link), and the overall recommendation experience design.
 
@@ -533,7 +533,7 @@ Design email content using the Email Designer. Insert recommendation placements 
 
 ### Phase 6: Set up audience scoping and campaign/journey (Option C only)
 
-**Application Function:** RT-CDP: Audience Evaluation, AJO: Campaign Execution or Journey Orchestration
+**Application capability:** RT-CDP: Audience Evaluation, AJO: Campaign Execution or Journey Orchestration
 
 For email-based recommendations (Option C), this phase defines the target audience and configures the campaign or journey that delivers the recommendation email. Options A and B skip this phase because recommendations are delivered in real time at page/screen load.
 
@@ -573,7 +573,7 @@ Should the email be delivered via a campaign or a journey?
 
 ### Phase 7: Configure reporting and optimization
 
-**Application Function:** AJO: Reporting & Performance Analysis, S5: Reporting & Analysis
+**Application capability:** AJO: Reporting & Performance Analysis, S5: Reporting & Analysis
 
 This phase establishes performance monitoring for recommendation click-through, conversion, and revenue metrics. It creates the reporting infrastructure to measure recommendation effectiveness and identify optimization opportunities.
 

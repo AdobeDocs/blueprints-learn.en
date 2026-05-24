@@ -82,13 +82,13 @@ Use the following KPIs to measure the effectiveness of this use case pattern.
 
 ## Use case pattern
 
-The following describes the core pattern and function chain for this use case.
+The following describes the core pattern and execution plan for this use case.
 
 **Anonymous Visitor Web Personalization**
 
 Deliver personalized content based on in-session behavioral signals for unidentified visitors via AJO web channel.
 
-**Function chain:** Web Surface Configuration > Behavioral Rule Evaluation > Content Delivery > Impression Tracking > Reporting
+**Execution plan:** Web Surface Configuration > Behavioral Rule Evaluation > Content Delivery > Impression Tracking > Reporting
 
 ## Applications
 
@@ -104,11 +104,11 @@ The following reference architecture illustrates how anonymous visitor signals a
 
 ![Reference architecture for anonymous audience activation and personalization](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox with web channel permissions configured. [!DNL Web SDK] implementation permissions and datastream access granted to the implementation team. Users provisioned with roles that allow web channel configuration, audience management, and campaign execution. | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Experience Event schema capturing web behavioral signals (page views, clicks, scroll depth, referral data, UTM parameters). The schema must include standard web interaction field groups and be enabled for edge profile to support real-time evaluation. A corresponding dataset must be created and Profile-enabled. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
@@ -116,25 +116,25 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | ECID ([!DNL Experience Cloud ID]) configured as the primary identity namespace for anonymous visitors. Edge merge policy must be configured with `isActiveOnEdge: true` to resolve anonymous profile data at the edge. Only one merge policy can be active on edge per sandbox. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Audience Definition & Segmentation | Required | Edge-evaluated audience segments defined based on in-session behavioral signals. Edge segmentation is mandatory for sub-second evaluation latency. Segment rules must use only edge-eligible segment rule expressions (simple attribute checks and segment membership -- no time-series queries or complex aggregations). | [Edge segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Not Applicable | Limited value for anonymous visitors since there is minimal historical profile data to aggregate. May become applicable if the edge profile accumulates meaningful behavioral data from prior anonymous visits across multiple sessions. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Pseudonymous profile expiration should be configured for anonymous edge profiles to manage storage and comply with privacy requirements. ECID-only profiles can be set to expire between 14 and 365 days. Cookie consent policies should be enforced for behavioral data collection. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Data Usage Labeling & Enforcement | Recommended | Governance labels on behavioral data ensure compliance, particularly for geo-targeting (S2 sensitive geographic label) and device-based personalization. Labels prevent restricted behavioral data from being used in unauthorized personalization contexts. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | Monitoring & Observability | Recommended | [!DNL Edge Network] and [!DNL Web SDK] data flow monitoring helps detect personalization delivery issues. Configure alerts for datastream failures, ingestion errors, and edge delivery anomalies. Critical for production deployments where personalization failures degrade the visitor experience. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Reporting & Analysis | Included | Personalization performance reporting is part of the function chain (Phase 5). CJA analysis of anonymous visitor personalization effectiveness enables deep funnel analysis, cohort comparison, and conversion impact measurement beyond what AJO native reports provide. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Reporting & Analysis | Included | Personalization performance reporting is part of the execution plan (Phase 5). CJA analysis of anonymous visitor personalization effectiveness enables deep funnel analysis, cohort comparison, and conversion impact measurement beyond what AJO native reports provide. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Channel Configuration | Phase 1: Web Surface Configuration | Configure web channel surfaces defining where personalized content will be delivered on target web properties |
 | Message Authoring | Phase 3: Content Authoring & Variant Creation | Author personalized content variants for web surfaces using the web designer, code-based experience editor, or content templates |
@@ -145,7 +145,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 2: Behavioral Audience Definition | Define and evaluate edge-based audience segments using in-session behavioral signals for real-time personalization targeting |
 
@@ -329,7 +329,7 @@ The following phases describe the end-to-end implementation workflow.
 
 ### Phase 1: Configure web surfaces
 
-**Application function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 Define the web channel surfaces that specify where on your website personalized content will be delivered. A web surface identifies a specific page URL or URL pattern and the location on the page (CSS selector or code-based experience surface) where AJO can inject or replace content.
 
@@ -371,7 +371,7 @@ Define the web channel surfaces that specify where on your website personalized 
 
 ### Phase 2: Define behavioral audiences
 
-**Application function:** RT-CDP: Audience Evaluation
+**Application capability:** RT-CDP: Audience Evaluation
 
 Define edge-evaluated audience segments based on in-session behavioral signals that drive personalization targeting. These audiences determine which visitors qualify for each personalized experience. Edge evaluation is mandatory for this pattern since personalization decisions must be made in sub-second timeframes as the visitor navigates the site.
 
@@ -427,7 +427,7 @@ Define audiences for use as eligibility rules on content items. These audiences 
 
 ### Phase 3: Author content and create variants
 
-**Application function:** AJO: Message Authoring, AJO: Content Experimentation (Option B), AJO: Decisioning (Option C)
+**Application capability:** AJO: Message Authoring, AJO: Content Experimentation (Option B), AJO: Decisioning (Option C)
 
 Create the personalized content variants that will be delivered to visitors based on audience membership (Option A), experiment assignment (Option B), or decisioning logic (Option C). This phase covers content creation using the AJO web designer or code-based experience editor, as well as the experiment or decisioning configuration that governs how content is selected.
 
@@ -504,7 +504,7 @@ Set up the Decisioning component stack and integrate it into the campaign.
 
 ### Phase 4: Configure campaign and delivery
 
-**Application function:** AJO: Campaign Execution
+**Application capability:** AJO: Campaign Execution
 
 Create and activate the AJO web campaign that binds the web surface (Phase 1), the audience targeting or experiment configuration (Phases 2-3), and the content variants (Phase 3) into a deliverable unit. The campaign controls when and how personalized content is served to visitors.
 
@@ -548,7 +548,7 @@ Create a campaign that embeds the decision policy configured in Phase 3. The cam
 
 ### Phase 5: Report and analyze performance
 
-**Application function:** AJO: Reporting & Performance Analysis
+**Application capability:** AJO: Reporting & Performance Analysis
 
 Monitor personalization performance using AJO built-in reports and optionally extend analysis with CJA for deeper cross-channel insights. This phase covers accessing live and historical campaign reports, reviewing experiment results, and building custom analysis workspaces.
 

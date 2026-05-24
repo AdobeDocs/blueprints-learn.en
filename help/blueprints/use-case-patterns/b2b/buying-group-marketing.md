@@ -82,7 +82,7 @@ The following KPIs help measure the effectiveness of this use case pattern.
 
 Develop account-level journeys that qualify leads into buying groups to improve B2B marketing effectiveness.
 
-**Function chain:** Account Identification > Buying Group Definition > Lead Qualification > Account Journey Execution > Engagement Scoring > Reporting
+**Execution plan:** Account Identification > Buying Group Definition > Lead Qualification > Account Journey Execution > Engagement Scoring > Reporting
 
 ## Applications
 
@@ -91,11 +91,11 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** -- Orchestrates account-level journeys, manages buying groups with role templates and solution interests, scores engagement at the person and buying group level, authors B2B email content, sends SMS messages, configures sales alerts, and provides B2B analytics dashboards.
 - **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** -- Unifies account profiles from cross-source B2B data, resolves person-to-account relationships, evaluates account-level audiences, configures B2B-specific destinations ([!DNL Marketo Engage], [!DNL LinkedIn], CRM), and enforces data governance across B2B data.
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | Sandbox provisioned with [!DNL AJO B2B Edition] and [!DNL RT-CDP B2B Edition] entitlements enabled. Roles configured for B2B marketers, sales operations, and administrators with appropriate permissions for buying group management, account journeys, and CRM integration settings. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | B2B XDM schemas configured using B2B-specific classes: XDM Business Account, XDM Business Opportunity, XDM Business Person (lead/contact), XDM Business Campaign, and XDM Business Marketing List. Field groups for account attributes, person attributes, and activity/engagement data must be in place. Datasets created and Profile-enabled for each schema. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B schema classes](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -103,11 +103,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | B2B identity resolution configured to resolve person-to-account relationships. Identity namespaces for B2B identifiers ([!DNL Marketo] Person ID, [!DNL Salesforce] Lead/Contact ID, Account ID) must exist. Merge policies configured for B2B profile unification. Account profiles must be unified from cross-source data. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B Identity Resolution](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
 | Audience Definition & Segmentation | Required | Account-level audience definitions created using account attributes, person attributes, and activity data. Account audiences identify which accounts enter buying group journeys. Batch evaluation is typically sufficient for B2B account journeys, though streaming evaluation can be used for real-time account qualification triggers. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes can aggregate person-level engagement events (email opens, content downloads, webinar attendance) into account-level engagement metrics that feed buying group scoring and account qualification logic. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Consent management is critical for B2B email and SMS communications. Dataset expiration policies help manage the lifecycle of transient engagement data and ensure compliance with data retention requirements. | [Advanced Data Lifecycle Management](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -115,13 +115,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Recommended | Monitoring ensures B2B data pipelines (CRM/[!DNL Marketo] syncs) are healthy, account profiles are updating, and account journey executions are proceeding without failures. Alerts on source dataflow failures are critical for maintaining data currency. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | B2B analytics dashboards within [!DNL AJO B2B Edition] provide buying group engagement, account journey performance, and pipeline metrics. [!DNL CJA B2B Edition] extends analysis with account-level workspace analysis, buying group analysis, and opportunity correlation. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the application function catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Solution Interest Configuration | Phase 1: Solution Interest & Buying Group Setup | Define solution interests that map products or services to buying group qualification criteria |
 | Buying Group Management | Phase 1: Solution Interest & Buying Group Setup | Create and manage buying groups with role templates, persona mapping, and solution interest definitions |
@@ -136,7 +136,7 @@ This plan exercises the following functions from the application function catalo
 
 ### [!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Account Profile Unification | Phase 0: B2B Data Foundation | Consolidate cross-source B2B data into unified account profiles using specialized XDM B2B schema classes and field groups |
 | B2B Identity Resolution | Phase 0: B2B Data Foundation | Resolve person-to-account relationships using primary identifiers, supporting multi-level account hierarchies and many-to-many person-to-account mappings |
@@ -303,7 +303,7 @@ The following phases describe the step-by-step implementation process for this u
 
 ### Phase 0: B2B data foundation
 
-**Application functions:** [!DNL RT-CDP B2B]: Account Profile Unification, B2B Identity Resolution, [!DNL Marketo Engage] Integration, B2B Data Governance, Account Audience Evaluation
+**Application capabilities:** [!DNL RT-CDP B2B]: Account Profile Unification, B2B Identity Resolution, [!DNL Marketo Engage] Integration, B2B Data Governance, Account Audience Evaluation
 
 This phase establishes the B2B data infrastructure in [!DNL RT-CDP B2B Edition]. You will unify account data from CRM, marketing automation, and other sources into a single account profile, resolve person-to-account relationships, configure B2B data governance, and create account-level audiences that feed into [!DNL AJO B2B Edition] buying group management.
 
@@ -347,7 +347,7 @@ How should account audiences be defined for journey entry?
 
 ### Phase 1: Solution interest & buying group setup
 
-**Application functions:** [!DNL AJO B2B]: Solution Interest Configuration, Buying Group Management
+**Application capabilities:** [!DNL AJO B2B]: Solution Interest Configuration, Buying Group Management
 
 This phase defines the solution interests (products/services) and buying group templates that form the core of the buying group management model. You will create solution interests, define role templates with persona requirements, and configure how leads are qualified into buying group roles.
 
@@ -403,7 +403,7 @@ Configure solution interests and role templates as in Option B, but additionally
 
 ### Phase 2: Lead qualification & engagement scoring
 
-**Application functions:** [!DNL AJO B2B]: Engagement Scoring, Account Qualification
+**Application capabilities:** [!DNL AJO B2B]: Engagement Scoring, Account Qualification
 
 This phase sets up the engagement scoring model that measures person-level engagement within buying groups and rolls it up to buying group and account-level readiness scores. You will configure scoring rules, define engagement thresholds for qualification, and optionally enable AI-powered account qualification.
 
@@ -445,7 +445,7 @@ When should a buying group be considered ready for sales handoff?
 
 ### Phase 3: Account journey design & execution
 
-**Application functions:** [!DNL AJO B2B]: Account Journey Orchestration, B2B Email Authoring, SMS Channel Management
+**Application capabilities:** [!DNL AJO B2B]: Account Journey Orchestration, B2B Email Authoring, SMS Channel Management
 
 This phase designs and deploys the account journey that orchestrates engagement with buying group members. You will create account journeys with entry conditions, action nodes (email, SMS), condition branches (based on buying group stage, engagement score, role coverage), wait steps, and exit criteria.
 
@@ -513,7 +513,7 @@ Design a journey where condition nodes evaluate the AI qualification score rathe
 
 ### Phase 4: Sales alignment & CRM integration
 
-**Application functions:** [!DNL AJO B2B]: Sales Alert Configuration, CRM Sales Insights; [!DNL RT-CDP B2B]: Account Destination Configuration, Account Audience Activation
+**Application capabilities:** [!DNL AJO B2B]: Sales Alert Configuration, CRM Sales Insights; [!DNL RT-CDP B2B]: Account Destination Configuration, Account Audience Activation
 
 This phase establishes the bridge between marketing and sales by configuring sales alert emails, deploying CRM Sales Insights for in-CRM visibility, and optionally activating account audiences to B2B destinations ([!DNL LinkedIn], [!DNL Marketo], CRM systems).
 
@@ -558,7 +558,7 @@ How deeply should buying group data be surfaced in the CRM?
 
 ### Phase 5: Reporting & optimization
 
-**Application functions:** [!DNL AJO B2B]: B2B Analytics Dashboards
+**Application capabilities:** [!DNL AJO B2B]: B2B Analytics Dashboards
 
 This phase establishes the reporting and analytics framework to measure buying group performance, account journey effectiveness, and pipeline impact. [!DNL AJO B2B Edition] provides built-in analytics dashboards; [!DNL CJA B2B Edition] (if licensed) extends analysis with deeper cross-channel account-level insights.
 

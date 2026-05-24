@@ -7,7 +7,7 @@ exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
 ---
 # Use case patterns
 
-Use case patterns define repeatable implementation approaches for Adobe Experience Platform and applications. Each pattern describes a specific capability, the function chain that delivers it, the applications involved, and the [key business objectives](/help/blueprints/business-objectives/overview.md) it supports.
+Use case patterns define repeatable implementation approaches for Adobe Experience Platform and applications. Each pattern describes a specific capability, the execution plan that delivers it, the applications involved, and the [key business objectives](/help/blueprints/business-objectives/overview.md) it supports.
 
 Use the tables below to find the pattern that matches your implementation needs, then follow the link to the full implementation reference including options, phases, decision guidance, and Experience League documentation.
 

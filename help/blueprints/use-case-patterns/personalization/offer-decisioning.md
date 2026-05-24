@@ -64,13 +64,13 @@ The following KPIs help measure the effectiveness of an offer decisioning implem
 
 ## Use case pattern
 
-This section describes the function chain and pattern definition for offer decisioning.
+This section describes the execution plan and pattern definition for offer decisioning.
 
 **Offer decisioning**
 
 Use centralized decision logic to select the next-best offer or content for a profile across channels.
 
-**Function chain:** Audience Evaluation > Offer Eligibility > Ranking Strategy > Decision Execution > Delivery > Reporting
+**Execution plan:** Audience Evaluation > Offer Eligibility > Ranking Strategy > Decision Execution > Delivery > Reporting
 
 See the [Implementation options](#implementation-options) section for how each composition manifests.
 
@@ -82,11 +82,11 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation for offer eligibility segments; profile data and computed attributes used in eligibility and ranking
 - **[!DNL Adobe Experience Platform] (AEP)** -- Unified profile store, identity resolution, and data foundation supporting both AJO and RT-CDP
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox with Decisioning permissions enabled. Offer management roles (Decision Manager, Offer Approver) assigned to the implementation team. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Profile schema must include attributes used for offer eligibility rules (e.g., loyalty tier, purchase history, subscription type). An offer response/interaction schema for tracking offer impressions, clicks, and conversions should be in place. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -94,27 +94,27 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Assumed in Place | Profiles must be resolvable across all channels where offers are delivered. For cross-channel offer consistency, unified identity is critical -- the same profile must be recognized in email, web, and mobile contexts. An edge-active merge policy is required for real-time web/app delivery. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Required | Audiences used as offer eligibility criteria must be defined and evaluated (e.g., "high-value customers," "trial users," "loyalty gold tier"). Evaluation method must match delivery latency -- edge evaluation for real-time web/app, batch or streaming for email campaigns. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Customer AI propensity scores, lifetime value calculations, and engagement metrics significantly improve ranking strategy effectiveness. Computed attributes such as "days since last purchase" or "total spend in 90 days" enable more precise eligibility rules and formula-based ranking. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI overview](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Recommended | Offer history and decision event data accumulate over time. Retention policies (expiration) should be configured for offer interaction event datasets to manage storage and comply with data retention requirements. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Dataset expirations](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
 | Data Usage Labeling & Enforcement | Recommended | Governance labels ensure that offers with sensitive targeting criteria (e.g., financial status, health conditions) comply with data usage policies. Labels on fields used in eligibility rules prevent non-compliant offer targeting. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
 | Monitoring & Observability | Recommended | Decision engine performance, fallback rates, and offer delivery health should be monitored. Alerts for high fallback rates can indicate eligibility rule misconfiguration or data freshness issues. | [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Reporting & Analysis | Included | Offer performance reporting is part of the function chain (Phase 7). CJA analysis enables cross-channel offer effectiveness measurement, revenue impact attribution, and optimization opportunity identification. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Reporting & Analysis | Included | Offer performance reporting is part of the execution plan (Phase 7). CJA analysis enables cross-channel offer effectiveness measurement, revenue impact attribution, and optimization opportunity identification. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-The following table lists AJO functions and the implementation phases where they are configured.
+The following table lists AJO capabilities and the implementation phases where they are configured.
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Decisioning | Phase 3: Decisioning Setup | Create offer items, define eligibility rules, configure ranking strategies, create fallback offers, define placements, and build decision policies |
 | Channel Configuration | Phase 4: Channel & Surface Configuration | Configure email, web, in-app, or code-based channel surfaces for offer delivery |
@@ -125,9 +125,9 @@ The following table lists AJO functions and the implementation phases where they
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-The following table lists RT-CDP functions and the implementation phases where they are configured.
+The following table lists RT-CDP capabilities and the implementation phases where they are configured.
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 2: Audience Evaluation | Define and evaluate audiences used for offer eligibility rules; select appropriate evaluation method (batch, streaming, or edge) |
 | Profile Enrichment | Phase 1 (Supporting): Computed Attributes | Enrich profiles with computed attributes and propensity scores that improve ranking strategy effectiveness |
@@ -293,7 +293,7 @@ The following phases outline the end-to-end implementation sequence for offer de
 
 ### Phase 1: Validate foundational prerequisites
 
-**Application function:** AEP: Data Modeling & Preparation, AEP: Identity & Profile Configuration
+**Application capability:** AEP: Data Modeling & Preparation, AEP: Identity & Profile Configuration
 
 This phase validates that the foundational data layer supports offer decisioning. Profile schemas must include the attributes used in offer eligibility rules, and identity configuration must enable cross-channel profile resolution.
 
@@ -324,7 +324,7 @@ Determine which profile attributes will be used in offer eligibility rules.
 
 ### Phase 2: Configure audience evaluation
 
-**Application function:** RT-CDP: Audience Evaluation
+**Application capability:** RT-CDP: Audience Evaluation
 
 This phase defines and evaluates the audiences used as offer eligibility criteria. These audiences determine which customer segments qualify for specific offers (e.g., "high-value customers" qualify for premium offers, "trial users" qualify for conversion offers).
 
@@ -366,7 +366,7 @@ Any evaluation method works depending on the journey entry criteria. If the jour
 
 ### Phase 3: Set up decisioning
 
-**Application function:** AJO: Decisioning
+**Application capability:** AJO: Decisioning
 
 This is the core phase where the offer catalog, eligibility rules, ranking strategies, and decision policies are built. This phase creates the decision engine configuration that all delivery options (A, B, C) share.
 
@@ -447,7 +447,7 @@ Determine whether there should be limits on how many times an offer is shown.
 
 ### Phase 4: Configure channel and surface
 
-**Application function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 This phase configures the channel surfaces through which offers will be delivered. The configuration depends on which implementation option(s) are being used.
 
@@ -488,7 +488,7 @@ Determine which messaging channel the use case requires.
 
 ### Phase 5: Configure content and delivery
 
-**Application function:** AJO: Message Authoring, AJO: Campaign Execution
+**Application capability:** AJO: Message Authoring, AJO: Campaign Execution
 
 This phase designs the message templates or experience surfaces that display the selected offer, then configures the delivery mechanism (campaign, journey, or code-based experience).
 
@@ -558,7 +558,7 @@ Determine whether this is a scheduled marketing campaign or an API-triggered cam
 
 ### Phase 6: Test and validate
 
-**Application function:** AJO: Decisioning, AJO: Message Authoring
+**Application capability:** AJO: Decisioning, AJO: Message Authoring
 
 This phase validates that the decisioning engine returns the correct offers for test profiles and that the offer content renders properly in each delivery channel.
 
@@ -592,7 +592,7 @@ Confirm that offer impressions, clicks, and conversions are being tracked.
 
 ### Phase 7: Configure reporting and performance monitoring
 
-**Application function:** AJO: Reporting & Performance Analysis
+**Application capability:** AJO: Reporting & Performance Analysis
 
 This phase sets up reporting to track offer selection distribution, acceptance rates, conversion impact, and fallback rates. This phase covers both AJO native reports and CJA-based cross-channel analysis.
 

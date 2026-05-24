@@ -72,13 +72,13 @@ The following KPIs help measure the effectiveness of this use case pattern.
 
 ## Use case pattern
 
-This section describes the core pattern and its function chain.
+This section describes the core pattern and its execution plan.
 
 **Known-visitor web/app personalization**
 
 Deliver personalized content, offers, or promotions to an identified visitor based on real-time profile and segment membership across web, mobile in-app, and content card surfaces.
 
-**Function chain:** Audience Evaluation > Personalization Decisioning > Surface/Channel Configuration > Content Delivery > Impression Tracking > Reporting
+**Execution plan:** Audience Evaluation > Personalization Decisioning > Surface/Channel Configuration > Content Delivery > Impression Tracking > Reporting
 
 ## Applications
 
@@ -88,11 +88,11 @@ The following applications are used in this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation (edge, streaming, and batch), real-time profile lookup via Edge Network, profile enrichment with computed attributes and propensity scores
 - **[!DNL Adobe Experience Platform] (AEP)** -- Profile store, identity service, Web SDK, Mobile SDK, datastream configuration, edge network delivery
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox with web channel, in-app channel, and decisioning permissions configured. Users provisioned with marketer and content author roles. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Profile schema must include attributes used for personalization and segmentation (e.g., loyalty tier, purchase history, product interests, lifecycle stage). Experience Event schema for web/app interaction tracking and conversion events. Datasets enabled for [!DNL Real-Time Customer Profile]. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -100,25 +100,25 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Known identity namespaces (CRM ID, email, authenticated user ID) configured. Identity stitching between anonymous and authenticated sessions operational for seamless transition from anonymous to known-visitor personalization. Edge merge policy configured with `isActiveOnEdge: true` to resolve the authenticated profile at the edge. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Required | Audiences defined using profile attributes, behavioral data, and computed attributes. Edge or streaming evaluation enabled for real-time personalization qualification. Audiences used for segment-based personalization must qualify for edge evaluation. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Edge segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes (e.g., [!DNL Customer AI] propensity scores, lifetime value, engagement score, product affinity, days since last purchase) significantly improve personalization quality by providing richer signals for audience definition and content selection. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI overview](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Recommended | Profile and event data retention policies ensure fresh, relevant data powers personalization decisions. Consent enforcement ensures personalization respects user preferences. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Consent in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Data Usage Labeling & Enforcement | Recommended | Governance labels on profile attributes used for personalization (especially PII-adjacent attributes like purchase history, location, financial data) ensure compliance with data usage policies. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
 | Monitoring & Observability | Recommended | Edge delivery and personalization performance monitoring helps detect latency issues, delivery failures, or data freshness problems that degrade the personalized experience. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Reporting & Analysis | Included | Personalization performance reporting is part of Function Chain Step 6. [!DNL Customer Journey Analytics] analysis enables deep investigation of personalization impact on conversion, engagement, and revenue across visitor segments. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA integration guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Reporting & Analysis | Included | Personalization performance reporting is part of Execution Plan Step 6. [!DNL Customer Journey Analytics] analysis enables deep investigation of personalization impact on conversion, engagement, and revenue across visitor segments. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA integration guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Channel Configuration | Surface & Channel Configuration | Configure web, in-app, and content card channel surfaces for personalization delivery |
 | Message Authoring | Content Authoring | Author personalized content variants with dynamic content, personalization expressions, and conditional blocks for each surface |
@@ -130,7 +130,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Audience Definition & Evaluation | Define and evaluate audiences using profile attributes, behavioral data, and computed attributes with edge or streaming evaluation |
 | Real-Time Profile Lookup | Content Delivery (runtime) | Access real-time profile attributes and segment memberships via Edge Network for sub-second personalization decisions |
@@ -315,7 +315,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 1: Define audiences and configure evaluation
 
-**Application function:** RT-CDP: Audience Evaluation
+**Application capability:** RT-CDP: Audience Evaluation
 
 **What you will configure:** Define the audiences that drive personalization content selection. These audiences represent the visitor segments that will receive personalized experiences -- loyalty tiers, lifecycle stages, behavioral cohorts, or product affinity groups.
 
@@ -362,7 +362,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 2: Set up decisioning (Option B and C only)
 
-**Application function:** AJO: Decisioning
+**Application capability:** AJO: Decisioning
 
 **What you will configure:** Set up the decisioning infrastructure that dynamically selects the optimal content or offer for each visitor. This includes placements (where offers appear), offers (what content is available), eligibility rules (who qualifies), ranking strategies (how to choose the best), and decision policies (how everything connects).
 
@@ -413,7 +413,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 3: Configure surfaces and channels
 
-**Application function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 **What you will configure:** Configure the channel surfaces that define where personalized content will be delivered. Each surface type (web, in-app, content card) requires its own configuration specifying the surface URI, content format, and delivery parameters.
 
@@ -459,7 +459,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 4: Author content
 
-**Application function:** AJO: Message Authoring
+**Application capability:** AJO: Message Authoring
 
 **What you will configure:** Author the personalized content variants for each surface and segment or offer. This includes designing the visual layout, adding personalization expressions that reference profile attributes, configuring conditional content blocks, and creating reusable content fragments.
 
@@ -524,7 +524,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 5: Set up and activate campaigns
 
-**Application function:** AJO: Campaign Execution
+**Application capability:** AJO: Campaign Execution
 
 **What you will configure:** Create and activate the AJO campaign that binds the audience, surface, and content together for delivery. For web personalization, campaigns are typically configured for immediate or ongoing activation rather than one-time scheduled sends.
 
@@ -572,7 +572,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 6: Track impressions and collect data
 
-**Application function:** AEP: Data Sources & Collection
+**Application capability:** AEP: Data Sources & Collection
 
 **What you will configure:** Ensure that impressions, interactions, and conversions from personalized experiences are tracked back to the platform for reporting, audience re-evaluation, and decisioning optimization.
 
@@ -592,7 +592,7 @@ This section walks through each phase of the implementation in detail.
 
 ### Phase 7: Report and optimize
 
-**Application function:** AJO: Reporting & Performance Analysis, Reporting & Analysis
+**Application capability:** AJO: Reporting & Performance Analysis, Reporting & Analysis
 
 **What you will configure:** Set up performance monitoring and analysis to measure personalization effectiveness across surfaces, segments, and content variants. Use AJO native reports for operational metrics and [!DNL Customer Journey Analytics] for cross-channel business impact analysis.
 

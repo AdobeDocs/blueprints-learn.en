@@ -64,11 +64,11 @@ The following KPIs help measure the success of this use case pattern.
 
 ## Use case pattern
 
-This section describes the pattern and function chain used to implement event forwarding.
+This section describes the pattern and execution plan used to implement event forwarding.
 
 **Event Forwarding** — Forward real-time event data collected via Edge Network to non-Adobe destinations for analytics, storage, or advertising.
 
-**Function Chain:** Datastream Configuration > Event Rule Definition > Destination Mapping > Forwarding Execution > Monitoring
+**Execution Plan:** Datastream Configuration > Event Rule Definition > Destination Mapping > Forwarding Execution > Monitoring
 
 ## Applications
 
@@ -78,23 +78,23 @@ The following applications are used in this use case pattern.
 - **[!DNL Adobe Experience Platform] (Event Forwarding)** — Provides the server-side rule engine for evaluating, filtering, transforming, and forwarding event data to external destinations
 - **[!DNL Adobe Experience Platform] (Tags / Data Collection)** — Manages the event forwarding property lifecycle, extensions, rules, and publishing workflow
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | A sandbox must be active with appropriate user roles and permissions configured. Users managing event forwarding need Data Collection permissions in [!DNL Adobe Admin Console], including rights to manage event forwarding properties, extensions, and rules. | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM schemas must be defined for the event data flowing through the Edge Network. The datastream must reference a valid XDM ExperienceEvent schema so that event forwarding rules can access structured fields for filtering, transformation, and mapping. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
 | Data Sources & Collection | Required | A data collection mechanism must be active — Web SDK, Mobile SDK, or Edge Network Server API — sending events through a configured datastream. The datastream is the foundational routing layer that connects client-side collection to server-side event forwarding. | [Configure datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
 | Identity & Profile Configuration | Not Applicable | Event forwarding operates on raw event data at the Edge Network layer, before identity resolution or profile unification occurs. Identity namespaces and merge policies are not required unless the forwarded events also need to contribute to the Real-Time Customer Profile (which is a separate datastream service configuration, not an event forwarding concern). | |
-| Audience Definition & Segmentation | Not Applicable | Event forwarding processes individual events in real time and does not evaluate audience membership. Audience-based filtering is not part of the event forwarding function chain. If audience-based activation is needed, see the Audience Activation to Destinations reference plan. | |
+| Audience Definition & Segmentation | Not Applicable | Event forwarding processes individual events in real time and does not evaluate audience membership. Audience-based filtering is not part of the event forwarding execution plan. If audience-based activation is needed, see the Audience Activation to Destinations reference plan. | |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Not Applicable | Event forwarding operates on raw event data, not profile-level computed attributes. Computed attributes are not available in the event forwarding context. | |
 | Data Lifecycle Management | Recommended | If event data is also being ingested into AEP datasets (via the same datastream), data retention policies (expiration) should be configured for those datasets to manage storage costs and regulatory compliance. Event forwarding itself does not store data, but the parallel AEP ingestion path does. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -102,13 +102,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Monitoring is essential for event forwarding. The Event Forwarding Monitoring dashboard provides visibility into forwarding success rates, error rates, and destination response codes. Alerts should be configured for destination failures. | [Event forwarding monitoring](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
 | Reporting & Analysis | Recommended | If forwarded events feed a third-party analytics platform, consider connecting the same AEP event datasets to CJA for a unified cross-channel view. This enables comparison between Adobe-side and third-party-side analytics. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Datastream Configuration | Phase 1: Datastream Configuration | Configure a datastream to receive Edge Network events and enable the event forwarding service |
 | Event Forwarding Property Setup | Phase 2: Event Forwarding Property & Extensions | Create an event forwarding property and install destination-specific extensions |
@@ -280,7 +280,7 @@ The following phases describe the end-to-end implementation process for event fo
 
 ### Phase 1: Datastream configuration
 
-**Application Function:** AEP: Datastream Configuration
+**Application capability:** AEP: Datastream Configuration
 
 **What you will configure:** A datastream that receives events from your Web SDK, Mobile SDK, or Server API implementation and routes them to the Edge Network where event forwarding rules can process them. If event forwarding is being added to an existing data collection deployment, you will enable event forwarding on the existing datastream.
 
@@ -325,7 +325,7 @@ The following phases describe the end-to-end implementation process for event fo
 
 ### Phase 2: Event forwarding property and extensions
 
-**Application Function:** AEP: Event Forwarding Property Setup
+**Application capability:** AEP: Event Forwarding Property Setup
 
 **What you will configure:** An event forwarding property in the Data Collection UI, along with the extensions needed for your target destinations. The event forwarding property is the container for all rules, data elements, and extensions that define your server-side forwarding logic.
 
@@ -373,7 +373,7 @@ The following phases describe the end-to-end implementation process for event fo
 
 ### Phase 3: Event rule definition
 
-**Application Function:** AEP: Event Rule Definition, AEP: Destination Mapping
+**Application capability:** AEP: Event Rule Definition, AEP: Destination Mapping
 
 **What you will configure:** Rules that evaluate incoming event data, apply conditions to filter which events should be forwarded, and define actions that send the data to destination endpoints. Each rule consists of conditions (when to fire) and actions (what to do). Data elements extract and transform values from the XDM event payload for use in rule conditions and action configurations.
 
@@ -449,7 +449,7 @@ Create separate rules for each destination. Extension-based rules use the extens
 
 ### Phase 4: Publishing and activation
 
-**Application Function:** AEP: Forwarding Execution
+**Application capability:** AEP: Forwarding Execution
 
 **What you will configure:** The publishing workflow that promotes your event forwarding rules from Development through Staging to Production. Event forwarding uses the same library-based publishing model as Tags, with environments and build artifacts that control which configuration is active at the Edge Network.
 
@@ -485,7 +485,7 @@ Create separate rules for each destination. Extension-based rules use the extens
 
 ### Phase 5: Monitoring and validation
 
-**Application Function:** AEP: Monitoring
+**Application capability:** AEP: Monitoring
 
 **What you will configure:** Monitoring dashboards and validation processes to confirm events are being forwarded successfully, diagnose failures, and maintain operational health of the event forwarding deployment.
 

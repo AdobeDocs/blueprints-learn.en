@@ -87,7 +87,7 @@ The following KPIs help measure the success of this use case pattern.
 
 Build cross-channel analysis workspaces, computed metrics, and dashboards to understand customer behavior and campaign performance.
 
-**Function chain:** Data Connection > Data View Configuration > Workspace Analysis > Computed Metric Creation > Dashboard Publishing
+**Execution plan:** Data Connection > Data View Configuration > Workspace Analysis > Computed Metric Creation > Dashboard Publishing
 
 See the [Implementation options](#implementation-options) section for composition guidance.
 
@@ -98,11 +98,11 @@ The following applications are used in this use case pattern.
 - **[!DNL Customer Journey Analytics] (CJA)** -- Connections, data views, workspace analysis, guided analysis, computed metrics, dashboards, audience publishing, and content analytics
 - **[!DNL Adobe Experience Platform] (AEP)** -- Data lake, datasets, XDM schemas, profile and event data that feed CJA connections
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | CJA product profile provisioned with workspace creation and data view access permissions. AEP datasets accessible to the CJA connection. Users assigned to appropriate CJA roles. | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM schemas and datasets that will be connected to CJA must exist in AEP. Schema design directly impacts what dimensions and metrics are available in CJA data views. Event schemas need timestamp fields; lookup schemas need key fields. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
@@ -110,11 +110,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Person ID configuration in the CJA connection determines how events are stitched across datasets. Cross-device identity stitching in AEP improves CJA's ability to build complete customer journeys. Identity namespace must be configured for the Person ID field. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Audience Definition & Segmentation | Not Applicable | CJA builds its own filters and audiences within the analysis context. RT-CDP audiences are not a prerequisite, though CJA can publish audiences back to AEP via audience publishing (Option C). | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | AEP computed attributes can enrich the datasets connected to CJA, providing additional dimensions and metrics for analysis (e.g., lifetime purchase count, days since last activity). These profile-level aggregations become available as dimensions in CJA data views. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Dataset retention policies affect what historical data is available in CJA. Long retention is typically desired for analytics to enable year-over-year comparisons and long-term trend analysis. Configure dataset TTLs to ensure adequate historical depth. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -122,15 +122,15 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Recommended | CJA connection health and data freshness should be monitored. Configure alerts for source dataflow failures and ingestion issues to ensure the data feeding CJA is reliable and current. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | This is the reporting and analysis implementation. When a reference plan for another pattern includes S5, use this customer analytics and insight generation plan for the analytics implementation. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the application function catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Customer Journey Analytics] (CJA)
 
-The following table lists the CJA application functions used in this pattern.
+The following table lists the CJA application capabilities used in this pattern.
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Data Connection | Phase 1: Data Connection | Bind AEP datasets to a CJA connection for cross-channel analysis, configuring dataset types and Person ID for cross-dataset stitching |
 | Data View Configuration | Phase 2: Data View Configuration | Define dimensions, metrics, attribution models, persistence settings, session parameters, and derived fields that shape the analytical perspective |
@@ -143,9 +143,9 @@ The following table lists the CJA application functions used in this pattern.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-The following table lists the AEP application functions used in this pattern.
+The following table lists the AEP application capabilities used in this pattern.
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Data Lake & Datasets | Prerequisite (F2, F3) | Provide the source event, profile, and lookup datasets that feed the CJA connection |
 | Identity Service | Prerequisite (F4) | Provide identity namespace configuration for Person ID stitching across datasets in the CJA connection |
@@ -327,7 +327,7 @@ The following table compares the available implementation options.
 | Key visualizations | Freeform tables, summary numbers, trend lines | Flow, fallout, cohort, attribution | Same as A or B, plus audience publishing | Funnel, trends, retention, growth |
 | Activation capability | No (reporting only) | No (reporting only) | Yes (publishes audiences to AEP) | No (reporting only) |
 | Audience required | Marketing analysts, campaign managers | Data analysts, journey architects | Analysts + activation teams | Product managers, growth analysts |
-| CJA functions used | Connection, Data View, Workspace, Computed Metrics, Dashboard | Connection, Data View, Workspace, Computed Metrics, Dashboard | Same as A or B, plus Audience Publishing | Connection, Data View, Guided Analysis, Dashboard |
+| CJA capabilities used | Connection, Data View, Workspace, Computed Metrics, Dashboard | Connection, Data View, Workspace, Computed Metrics, Dashboard | Same as A or B, plus Audience Publishing | Connection, Data View, Guided Analysis, Dashboard |
 | Time to first insight | Days | Weeks | Weeks | Hours-Days |
 
 ### Choose the right option
@@ -350,7 +350,7 @@ This section details the step-by-step implementation phases for this use case pa
 
 ### Phase 1: Data connection
 
-**Application function:** CJA: Data Connection
+**Application capability:** CJA: Data Connection
 
 This phase configures a CJA connection that binds one or more AEP datasets to CJA for analysis. The connection defines which datasets flow into CJA, how events are stitched across datasets via the Person ID, and how historical and streaming data are ingested. This is the foundational link between AEP's data lake and CJA.
 
@@ -433,7 +433,7 @@ Key configuration details:
 
 ### Phase 2: Data view configuration
 
-**Application function:** CJA: Data View Configuration
+**Application capability:** CJA: Data View Configuration
 
 This phase configures a data view that defines how connection data appears in analysis. The data view determines which schema fields are exposed as dimensions and metrics, how values are attributed and persisted, how sessions are defined, and what derived fields transform raw data into analysis-ready components. Multiple data views can be created from a single connection for different analytical perspectives.
 
@@ -535,7 +535,7 @@ Map event-level dimensions and metrics relevant to product experience analysis: 
 
 ### Phase 3: Analysis & metric creation
 
-**Application function:** CJA: Workspace Analysis, CJA: Guided Analysis, CJA: Computed Metric Creation
+**Application capability:** CJA: Workspace Analysis, CJA: Guided Analysis, CJA: Computed Metric Creation
 
 This phase builds the analysis workspaces (freeform projects or guided analysis), computed metrics for derived KPIs, filters for segmented analysis, and annotations for key events. This is where the analytical value is realized -- building the tables, visualizations, and metrics that answer business questions.
 
@@ -646,7 +646,7 @@ Select the appropriate guided analysis type based on the business question. Conf
 
 ### Phase 4: Dashboard publishing
 
-**Application function:** CJA: Dashboard & Scorecard Publishing
+**Application capability:** CJA: Dashboard & Scorecard Publishing
 
 This phase creates interactive dashboards (Workspace projects) and mobile scorecards that deliver KPI visibility to stakeholders. Dashboards provide executive and operational visibility through summary numbers, trend lines, breakdowns, and annotations. Mobile scorecards deliver at-a-glance performance data via the [!DNL Adobe Analytics] dashboards mobile app.
 
@@ -716,7 +716,7 @@ Key configuration details:
 
 ### Phase 5: Audience publishing (Option C only)
 
-**Application function:** CJA: Audience Publishing
+**Application capability:** CJA: Audience Publishing
 
 This phase configures CJA audience publishing to push analysis-discovered segments back to AEP Real-Time Customer Profile for downstream activation in RT-CDP destinations, AJO campaigns, or AJO journeys.
 
