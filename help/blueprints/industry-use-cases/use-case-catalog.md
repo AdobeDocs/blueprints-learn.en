@@ -8,7 +8,7 @@ exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
 
 Industry use cases show how organizations in specific verticals apply Adobe Experience Platform and applications to achieve measurable business outcomes. Each use case describes a concrete business scenario, its expected impact, and links to the [use case pattern](/help/blueprints/use-case-patterns/overview.md) that provides detailed implementation guidance.
 
-Browse by industry to find use cases relevant to your organization, then follow the pattern links for implementation references including decision guidance, function chains, and Experience League documentation.
+Browse by industry to find use cases relevant to your organization, then follow the pattern links for implementation references including decision guidance, execution plans, and Experience League documentation.
 
 | Industry | Key Themes |
 | --- | --- |
@@ -25,7 +25,7 @@ Browse by industry to find use cases relevant to your organization, then follow 
 
 ## How use cases connect to implementation guidance
 
-Each use case links to a **use case pattern** — a repeatable implementation approach that describes the function chain, decision points, and configuration steps needed to bring the use case to life. Use case patterns in turn connect to [key business objectives](/help/blueprints/business-objectives/overview.md), helping you align implementation work with strategic outcomes.
+Each use case links to a **use case pattern** — a repeatable implementation approach that describes the execution plan, decision points, and configuration steps needed to bring the use case to life. Use case patterns in turn connect to [key business objectives](/help/blueprints/business-objectives/overview.md), helping you align implementation work with strategic outcomes.
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

@@ -31,7 +31,7 @@ Interview the user to collect all required information before generating any fil
 
 4. **Core Adobe solutions** -- The Adobe products central to this pattern. Choose from: Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B Edition, Real-Time CDP B2B Edition, or others as appropriate.
 
-5. **Function chain steps** -- 3-6 sequential phases that describe the pattern's execution flow, separated by `>`. Example: "Event Ingestion > Journey Entry > Condition Evaluation > Message Delivery > Reporting".
+5. **Execution plan steps** -- 3-6 sequential phases that describe the pattern's execution flow, separated by `>`. Example: "Event Ingestion > Journey Entry > Condition Evaluation > Message Delivery > Reporting".
 
 6. **Business objectives supported** -- One or more business objectives from the existing set under `/help/blueprints/business-objectives/`. Each should include the objective name, the category subfolder, and the filename. Verify that the referenced files exist before generating content.
 
@@ -52,12 +52,12 @@ Interview the user to collect all required information before generating any fil
 
 - Use case overview paragraphs (3-5 paragraphs; if not provided, draft them from the other information)
 - Applications list with descriptions of each Adobe app's role
-- Foundational functions table (Function, Status, What Must Be in Place, Experience League Reference)
-- Supporting functions table (Function, Status, Why It Matters, Experience League Reference)
-- Application functions tables (one per application, with Function, Implementation Phase, Description)
+- Foundational capabilities table (Capability, Status, What Must Be in Place, Experience League Reference)
+- Supporting capabilities table (Capability, Status, Why It Matters, Experience League Reference)
+- Application capabilities tables (one per application, with Capability, Implementation Phase, Description)
 - Prerequisites checklist
 
-If the user does not provide the optional items, generate reasonable defaults based on the pattern category, solutions, and function chain.
+If the user does not provide the optional items, generate reasonable defaults based on the pattern category, solutions, and execution plan.
 
 ## Phase 2: Content Generation
 
@@ -83,15 +83,15 @@ Use the template from `references/pattern-template.md` and fill in all placehold
 
 6. **Key performance indicators** -- Table with KPI, Description, Measurement columns.
 
-7. **Use case pattern** -- Description paragraph and the function chain.
+7. **Use case pattern** -- Description paragraph and the execution plan.
 
 8. **Applications** -- List of Adobe applications with `[!DNL ...]` formatting and descriptions.
 
-9. **Foundational functions** -- Table with columns: Foundational Function, Status, What Must Be in Place, Experience League Reference. Status values: Required, Assumed in Place, Not Applicable.
+9. **Foundational capabilities** -- Table with columns: Foundational Capability, Status, What Must Be in Place, Experience League Reference. Status values: Required, Assumed in Place, Not Applicable.
 
-10. **Supporting functions** -- Table with columns: Supporting Function, Status, Why It Matters, Experience League Reference. Status values: Recommended, Included, Not Applicable.
+10. **Supporting capabilities** -- Table with columns: Supporting Capability, Status, Why It Matters, Experience League Reference. Status values: Recommended, Included, Not Applicable.
 
-11. **Application functions** -- One table per application with columns: Function, Implementation Phase, Description.
+11. **Application capabilities** -- One table per application with columns: Capability, Implementation Phase, Description.
 
 12. **Prerequisites** -- Checklist using `- [ ]` syntax.
 

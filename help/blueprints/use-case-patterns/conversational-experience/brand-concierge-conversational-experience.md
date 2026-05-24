@@ -94,7 +94,7 @@ The following KPIs help measure the success of this use case pattern.
 
 Transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery through natural dialogue, enrich profiles with intent and sentiment signals, and deliver personalized product recommendations.
 
-**Function chain:** Agent Configuration > Brand Governance Setup > Content Integration > Conversational Experience Deployment > Profile Enrichment > Analytics & Optimization
+**Execution plan:** Agent Configuration > Brand Governance Setup > Content Integration > Conversational Experience Deployment > Profile Enrichment > Analytics & Optimization
 
 ## Applications
 
@@ -104,11 +104,11 @@ The following applications are used to implement this use case pattern.
 - **[!DNL Adobe Experience Platform] (AEP)** -- Unified data foundation providing XDM schemas, identity resolution, real-time customer profiles, and data collection infrastructure for conversational signals
 - **[!DNL Real-Time CDP] ([!DNL RT-CDP])** -- Customer data platform providing real-time profile lookup for personalized conversations, audience segmentation from conversational signals, and profile enrichment with intent and sentiment data
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | Sandbox provisioned with [!DNL Brand Concierge] entitlement enabled; roles configured for conversational experience administrators, content managers, and analytics users; ABAC policies in place for conversational data containing PII or sensitive customer signals | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM schemas for conversational events (ExperienceEvent class with conversation-specific field groups capturing intent, sentiment, product interactions, and handoff events); profile schema extended with conversational preference and intent attributes; product catalog lookup schema for grounding recommendations | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
@@ -116,11 +116,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Identity namespaces configured for visitor identification (ECID for anonymous, CRM ID or email for authenticated); merge policy configured with edge activation for real-time profile lookup during conversations; identity linking rules for cross-device conversation continuity | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Audience Definition & Segmentation | Assumed in Place | Audiences not required for core conversational deployment but needed for personalized conversation strategies (for example, high-value customer segments receive different conversation flows); streaming or edge evaluation recommended for real-time conversation personalization | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Aggregate conversational signals into profile-level attributes (for example, total conversations, dominant product interests, average sentiment score) for use in downstream segmentation and personalization | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Configure retention policies for conversational event data, manage consent for conversation recording and profiling, and support privacy deletion requests for conversation transcripts | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -128,13 +128,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Recommended | Monitor conversational event ingestion pipelines, track profile enrichment success rates, and alert on data flow failures that could affect conversation personalization quality | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | Analyze conversation performance, customer feedback, conversion attribution, and agent effectiveness using [!DNL Brand Concierge] built-in analytics and [!DNL CJA] for cross-channel conversation impact analysis | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Brand Concierge]
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Agent Configuration | Phase 1: Agent Configuration | Configure the [!DNL Brand Concierge] agent orchestrator with agent specializations (Product Advisor, Site Advisory) and base behavior settings |
 | Brand Governance Setup | Phase 2: Brand Governance Setup | Define brand voice, tone, messaging guardrails, approved content boundaries, and prohibited topics that shape all conversational interactions |
@@ -149,7 +149,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP]
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Real-Time Profile Lookup | Phase 4: Conversational Experience Deployment | Access real-time customer profile attributes and segment memberships to personalize conversational responses based on known customer data |
 | Profile Enrichment | Phase 5: Profile Enrichment | Enrich profiles with computed attributes derived from conversational behavioral events (intent scores, sentiment trends, product affinity) |
@@ -306,7 +306,7 @@ The following phases outline the recommended implementation sequence.
 
 ### Phase 1: Agent configuration
 
-**Application function:** [!DNL Brand Concierge]: Agent Configuration
+**Application capability:** [!DNL Brand Concierge]: Agent Configuration
 
 Configure the core [!DNL Brand Concierge] agent orchestrator, including selecting agent specializations (Product Advisor, Site Advisory, or both), configuring base agent behavior, and establishing the connection between [!DNL Brand Concierge] and AEP for profile access and event capture.
 
@@ -361,7 +361,7 @@ Enable both specializations and configure the orchestrator's intent routing logi
 
 ### Phase 2: Brand governance setup
 
-**Application function:** [!DNL Brand Concierge]: Brand Governance Setup
+**Application capability:** [!DNL Brand Concierge]: Brand Governance Setup
 
 Configure the brand governance guardrails that shape all conversational interactions. This includes brand voice and tone definitions, approved content boundaries, prohibited topics, response style guidelines, and escalation rules. Brand governance ensures every AI-generated response aligns with brand standards.
 
@@ -406,7 +406,7 @@ Key configuration details:
 
 ### Phase 3: Content integration
 
-**Application function:** [!DNL Brand Concierge]: Content Integration, Product Advisor Configuration, Site Advisory Configuration
+**Application capability:** [!DNL Brand Concierge]: Content Integration, Product Advisor Configuration, Site Advisory Configuration
 
 Configure the content sources that ground conversational responses in accurate, brand-approved information. This includes product catalog integration, AEM content connections, knowledge base imports, and content refresh schedules.
 
@@ -462,7 +462,7 @@ Configure both product catalog and site content sources. Ensure the content rout
 
 ### Phase 4: Conversational experience deployment
 
-**Application function:** [!DNL Brand Concierge]: Conversational Experience Deployment, Low-Code Flow Management, Live Agent Handoff; [!DNL RT-CDP]: Real-Time Profile Lookup
+**Application capability:** [!DNL Brand Concierge]: Conversational Experience Deployment, Low-Code Flow Management, Live Agent Handoff; [!DNL RT-CDP]: Real-Time Profile Lookup
 
 Deploy the conversational experience on target digital properties, including channel configuration, widget customization, profile lookup integration for personalization, live agent handoff rules, and low-code tools for ongoing content management.
 
@@ -520,7 +520,7 @@ Key configuration details:
 
 ### Phase 5: Profile enrichment
 
-**Application function:** [!DNL Brand Concierge]: Conversational Profile Enrichment; [!DNL RT-CDP]: Profile Enrichment, Audience Evaluation
+**Application capability:** [!DNL Brand Concierge]: Conversational Profile Enrichment; [!DNL RT-CDP]: Profile Enrichment, Audience Evaluation
 
 Configure the capture and enrichment pipeline that feeds conversational signals back into the AEP unified customer profile. This includes mapping conversation events to XDM, extracting intent and sentiment signals, creating computed attributes from conversational data, and building audiences based on conversational behaviors.
 
@@ -566,7 +566,7 @@ Key configuration details:
 
 ### Phase 6: Analytics and optimization
 
-**Application function:** [!DNL Brand Concierge]: Conversational Analytics
+**Application capability:** [!DNL Brand Concierge]: Conversational Analytics
 
 Set up analytics dashboards and reporting for measuring conversational experience performance, identifying optimization opportunities, and tracking KPIs. This includes [!DNL Brand Concierge] built-in analytics, optional [!DNL CJA] integration for cross-channel conversation impact analysis, and ongoing optimization workflows.
 

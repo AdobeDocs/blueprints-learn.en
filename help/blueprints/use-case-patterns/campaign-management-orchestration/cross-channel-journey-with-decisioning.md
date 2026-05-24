@@ -82,7 +82,7 @@ Use the following KPIs to measure the effectiveness of this use case pattern.
 
 Orchestrate a multi-step, multi-channel journey that incorporates real-time decisioning at one or more nodes to select the optimal channel, content, or offer.
 
-**Function chain:** Audience Evaluation > Journey Execution > Decision Node > Channel Selection > Message Delivery > Reporting
+**Execution plan:** Audience Evaluation > Journey Execution > Decision Node > Channel Selection > Message Delivery > Reporting
 
 ## Applications
 
@@ -93,11 +93,11 @@ The following applications are used to implement this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — Audience evaluation for journey entry and offer eligibility segments, profile enrichment with computed attributes and propensity scores, consent and governance enforcement
 - **[!DNL Adobe Experience Platform] ([!DNL AEP])** — Real-Time Customer Profile store, Identity Service for cross-channel resolution, data modeling and ingestion infrastructure
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | [!DNL AJO] sandbox with journey, campaign, and decisioning permissions configured. Channel surfaces for all possible delivery channels. User roles for journey designers, decisioning managers, and content authors. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | Profile schema must include attributes used for decisioning (for example, loyalty tier, purchase history, channel preferences, engagement scores). Offer catalog and decision item schemas must be configured. ExperienceEvent schemas must capture behavioral signals used by eligibility rules and ranking formulas. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -105,11 +105,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Cross-channel identity resolution is critical — the journey must resolve profiles across email, push, SMS, and web. Merge policies must produce a unified profile for decisioning. Identity namespaces for all customer identifiers (CRM ID, email, ECID, phone) must be configured. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Required | Entry audience definition for the journey. Additional segments used for offer eligibility rules and condition branching within the journey. Evaluation method must match latency requirements (streaming for real-time entry, batch for scheduled). | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as Customer AI propensity scores, engagement scores, channel preference scores, and lifetime value calculations significantly improve decisioning quality. These enriched profile attributes enable more sophisticated eligibility rules and ranking formulas. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Customer AI overview](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Data Lifecycle Management | Recommended | Offer history and decision event data accumulate over time and should have retention policies. Consent enforcement across multiple channels is critical — profiles without valid consent for a channel must be excluded from that channel's delivery path. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Consent in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
@@ -117,13 +117,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Journey and decisioning monitoring is essential for production operations. Alerts for journey entry failures, decisioning fallback spikes, and delivery errors enable rapid issue resolution. | [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | Journey and decisioning reports are covered in the reporting phase. CJA analysis of decisioning effectiveness, channel mix optimization, offer performance, and journey ROI provides the insights needed to refine ranking strategies and optimize the journey over time. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA integration guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the application function catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] ([!DNL AJO])
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Channel Configuration | Phase 2: Channel Configuration | Configure channel surfaces for all channels that decisioning may select or that the journey uses (email, SMS, push, in-app) |
 | Message Authoring | Phase 4: Message Authoring | Author message content for each channel and integrate decision output — offer placements, dynamic content blocks, personalization tokens from selected offers |
@@ -135,7 +135,7 @@ This plan exercises the following functions from the application function catalo
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP])
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 1: Audience Evaluation | Define and evaluate the entry audience or qualifying entry event; create eligibility segments used by decisioning |
 | Profile Enrichment | Prerequisite / Supporting | Enrich profiles with computed attributes and propensity scores that improve decisioning quality |
@@ -310,7 +310,7 @@ The following phases walk through the end-to-end implementation of this use case
 
 ### Phase 1: Audience evaluation
 
-**Application function:** [!DNL RT-CDP]: Audience Evaluation
+**Application capability:** [!DNL RT-CDP]: Audience Evaluation
 
 This phase configures the entry audience that determines which profiles enter the journey, and any additional segments used for offer eligibility rules or condition branching within the journey. The audience definition is the foundation for all downstream journey and decisioning logic.
 
@@ -355,7 +355,7 @@ How quickly must the audience qualify profiles?
 
 ### Phase 2: Channel configuration
 
-**Application function:** [!DNL AJO]: Channel Configuration
+**Application capability:** [!DNL AJO]: Channel Configuration
 
 This phase configures channel surfaces for every channel that the journey may use for message delivery. All candidate channels must have active, verified surfaces before messages can be authored or the journey can be published. For this pattern, you will typically configure surfaces for email, SMS, and push at minimum — and potentially in-app or web if decisioning may select those channels.
 
@@ -399,7 +399,7 @@ How should the sending subdomain be delegated to Adobe?
 
 ### Phase 3: Decisioning setup
 
-**Application function:** [!DNL AJO]: Decisioning
+**Application capability:** [!DNL AJO]: Decisioning
 
 This phase configures the complete decisioning framework including placements, eligibility rules, personalized offers, fallback offers, collection qualifiers, collections, ranking strategies, and decision policies. This phase creates the decision logic that will be invoked at journey decision points.
 
@@ -470,7 +470,7 @@ Configure two layers of decisioning: one set of decision policies for channel se
 
 ### Phase 4: Message authoring
 
-**Application function:** [!DNL AJO]: Message Authoring
+**Application capability:** [!DNL AJO]: Message Authoring
 
 This phase configures message content for each channel and touchpoint in the journey, integrating decisioning output (selected offer content) into the message templates. Each message action node in the journey requires authored content with the appropriate channel surface, personalization tokens, and offer placement integrations.
 
@@ -530,7 +530,7 @@ Each channel has its own message content with embedded offer placements. Both th
 
 ### Phase 5: Journey design and activation
 
-**Application function:** [!DNL AJO]: Journey Orchestration, [!DNL AJO]: Conflict & Priority Management, [!DNL AJO]: Frequency & Business Rules
+**Application capability:** [!DNL AJO]: Journey Orchestration, [!DNL AJO]: Conflict & Priority Management, [!DNL AJO]: Frequency & Business Rules
 
 This phase configures the complete journey canvas including entry configuration, decision nodes linked to configured decision policies, condition splits for channel routing (Options B/C), message action nodes for each channel path, wait nodes between touchpoints, exit criteria, conflict/priority settings, and frequency capping rules. This phase assembles all previously configured components into the orchestrated journey flow and activates it.
 
@@ -617,7 +617,7 @@ Combine channel selection condition nodes with decision policy-embedded message 
 
 ### Phase 6: Reporting and monitoring
 
-**Application function:** [!DNL AJO]: Reporting & Performance Analysis
+**Application capability:** [!DNL AJO]: Reporting & Performance Analysis
 
 This phase configures journey and decisioning performance monitoring through live reports (during execution) and historical reports (after completion). Decisioning-specific metrics including offer selection distribution, fallback rates, and ranking effectiveness. Optionally, CJA workspace analysis for deep cross-channel journey and decisioning ROI analysis.
 

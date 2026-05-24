@@ -75,7 +75,7 @@ The following scenarios illustrate how {{pattern name}} can be applied across di
 
 {{One-sentence description of what the pattern does.}}
 
-**Function Chain:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
+**Execution Plan:** {{Step 1}} > {{Step 2}} > {{Step 3}} > {{Step 4}} > {{Step 5}}
 
 ## Applications
 
@@ -85,44 +85,44 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 - **[!DNL {{Application Name}}] ({{Abbreviation}})** -- {{Description of the application's role in this pattern}}
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be configured before implementing this pattern. Each function represents a prerequisite or assumed platform capability.
+The following foundational capabilities must be configured before implementing this pattern. Each capability represents a prerequisite or assumed platform capability.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description of what must be configured or available}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description of what must be configured or available}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Required / Assumed in Place / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following supporting capabilities enhance or extend the pattern but are not strictly required for a basic implementation.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description of why this function matters for this pattern}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
-| {{Function name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description of why this capability matters for this pattern}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
+| {{Capability name}} | {{Recommended / Included / Not Applicable}} | {{Description}} | [{{Link text}}]({{URL}}) |
 
-## Application functions
-
-### [!DNL {{Application Name}}] ({{Abbreviation}})
-
-| Function | Implementation Phase | Description |
-| --- | --- | --- |
-| {{Function name}} | {{Phase name (e.g., Setup, Configuration, Activation, Optimization)}} | {{Description of what this function does in context}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
+## Application capabilities
 
 ### [!DNL {{Application Name}}] ({{Abbreviation}})
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
-| {{Function name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name (e.g., Setup, Configuration, Activation, Optimization)}} | {{Description of what this capability does in context}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+
+### [!DNL {{Application Name}}] ({{Abbreviation}})
+
+| Capability | Implementation Phase | Description |
+| --- | --- | --- |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
+| {{Capability name}} | {{Phase name}} | {{Description}} |
 
 {{Repeat for each application listed in the Applications section.}}
 
@@ -228,7 +228,7 @@ Complete the following before beginning the implementation.
 - **Adobe product names:** Always use `[!DNL ...]` syntax for Adobe product names in body text and tables (e.g., `[!DNL Journey Optimizer]`). This is an Experience League convention that prevents translation of product names.
 - **Business objective links:** Use relative paths from the pattern file to the business objectives directory: `../../business-objectives/{{category}}/{{filename}}.md`.
 - **Kebab-case filenames:** The pattern filename must be kebab-case derived from the pattern title. Example: "Event-Triggered Messaging" becomes `event-triggered-messaging.md`.
-- **Function chain:** Use ` > ` (space, greater-than, space) as the separator between steps.
-- **Status values:** Foundational functions use: Required, Assumed in Place, Not Applicable. Supporting functions use: Recommended, Included, Not Applicable.
+- **Execution plan:** Use ` > ` (space, greater-than, space) as the separator between steps.
+- **Status values:** Foundational capabilities use: Required, Assumed in Place, Not Applicable. Supporting capabilities use: Recommended, Included, Not Applicable.
 - **Implementation phases:** Common phase names include: Setup, Configuration, Activation, Optimization, Monitoring.
 - **Prerequisites:** Use `- [ ]` checkbox syntax for each item.

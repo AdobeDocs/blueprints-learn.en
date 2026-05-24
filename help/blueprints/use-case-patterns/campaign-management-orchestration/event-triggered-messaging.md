@@ -88,13 +88,13 @@ The following KPIs help measure the effectiveness of event-triggered messaging i
 
 ## Use case pattern
 
-This section describes the core pattern and the function chain that drives event-triggered messaging.
+This section describes the core pattern and the execution plan that drives event-triggered messaging.
 
 **Event-Triggered Messaging**
 
 Listen for a real-time behavioral or system event, then deliver a contextual message to the triggering profile.
 
-**Function Chain:** Event Ingestion > Journey Entry > Condition Evaluation > Message Delivery > Reporting
+**Execution Plan:** Event Ingestion > Journey Entry > Condition Evaluation > Message Delivery > Reporting
 
 ## Applications
 
@@ -104,11 +104,11 @@ The following Adobe applications are used in this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation for condition-based filtering within journeys, consent and governance enforcement, profile enrichment
 - **[!DNL Adobe Experience Platform] (AEP)** -- Real-time event ingestion via Web SDK, Mobile SDK, or server-side API; data modeling; identity resolution; Edge Network
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational Function | Status | What Must Be in Place | Experience League Reference |
+| Foundational Capability | Status | What Must Be in Place | Experience League Reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox provisioned with active channel configuration. Journey creation and publish permissions assigned to the implementation team. User roles configured for journey management, content authoring, and channel administration. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | An XDM ExperienceEvent schema must capture the triggering event with all contextual fields needed for condition evaluation and message personalization (e.g., `commerce.productListAdds` for cart events, product details, cart value). The schema must be enabled for Real-Time Customer Profile. A corresponding dataset must be created and Profile-enabled. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -116,11 +116,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | The triggering event must be associated with a known identity (email, CRM ID, or authenticated session) so the journey can resolve the profile and deliver the message. Identity namespaces must exist for the identifiers used by the triggering event. Anonymous events require identity stitching via the identity graph before a message can be delivered. A merge policy must be configured. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Recommended | While not strictly required for event-triggered journeys (entry is event-based, not audience-based), audience segments may be used for condition evaluation within the journey (e.g., only send if the profile is in a "high-value customer" segment, or suppress if the profile is in a "recently contacted" segment). Streaming evaluation is recommended for real-time segment membership checks within journeys. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Streaming segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting Function | Status | Why It Matters | Experience League Reference |
+| Supporting Capability | Status | Why It Matters | Experience League Reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as cart abandonment count, days since last purchase, average order value, and lifetime purchase total improve condition evaluation and personalization within triggered journeys. These behavioral aggregates enable more precise targeting decisions (e.g., differentiate first-time abandoners from repeat abandoners). | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Event data expiration should be configured for transient behavioral events (page views, searches, clicks) to manage storage costs and compliance. Consent schema fields must be present for channel-specific opt-in/opt-out enforcement during message delivery. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Dataset expirations](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -128,13 +128,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Journey execution monitoring is part of the reporting phase. Additionally, configure alerts for event ingestion failures or journey processing delays to detect pipeline issues that would prevent triggered messages from being sent. | [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | Journey performance reports are covered in the reporting phase. For deeper analysis of triggered messaging effectiveness across channels and over time, configure CJA connections and workspaces to analyze conversion attribution, time-to-conversion, and channel performance. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [AJO + CJA integration guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Journey Orchestration | Journey Creation & Configuration | Create a journey with unitary event entry, configure the qualifying event, add condition nodes, wait steps, message actions, exit criteria, and re-entry rules |
 | Channel Configuration | Channel Surface Setup | Configure or validate channel surfaces (email, SMS, push) including subdomain delegation, IP pools, sender settings, and suppression list management |
@@ -145,7 +145,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation Phase | Description |
+| Capability | Implementation Phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Foundational Setup (F5) | Evaluate audience segments used for condition-based filtering within the journey (e.g., high-value customer segments, suppression segments) |
 | Consent & Governance Enforcement | Foundational Setup (S2/S3) | Enforce consent preferences and data usage governance policies during message delivery to ensure compliant communications |
@@ -316,7 +316,7 @@ The following phases walk through the end-to-end implementation of event-trigger
 
 ### Phase 1: Configure event schema and data collection
 
-**Application Function:** AEP: Data Modeling (F2), AEP: Data Sources & Collection (F3)
+**Application capability:** AEP: Data Modeling (F2), AEP: Data Sources & Collection (F3)
 
 **What you will configure:** The XDM ExperienceEvent schema that captures the triggering event, the dataset that stores these events, and the real-time data collection pipeline (Web SDK, Mobile SDK, or Server API) that streams events into AEP. This phase establishes the data foundation that the journey will listen to.
 
@@ -368,7 +368,7 @@ The following phases walk through the end-to-end implementation of event-trigger
 
 ### Phase 2: Configure identity and profile
 
-**Application Function:** AEP: Identity & Profile Configuration (F4)
+**Application capability:** AEP: Identity & Profile Configuration (F4)
 
 **What you will configure:** Identity namespaces for the identifiers on the triggering event, primary identity designation on the event schema, identity linking rules for cross-device resolution, and a merge policy for profile unification. This ensures the triggering event is associated with a unified customer profile so the journey can resolve contact information and deliver the message.
 
@@ -403,7 +403,7 @@ The following phases walk through the end-to-end implementation of event-trigger
 
 ### Phase 3: Set up channel surfaces
 
-**Application Function:** AJO: Channel Configuration
+**Application capability:** AJO: Channel Configuration
 
 **What you will configure:** The channel surface (preset) that defines the sending infrastructure for the triggered message -- subdomain delegation, IP pool, sender identity, reply-to address, unsubscribe handling, and channel-specific credentials (SMS provider, push certificates). A valid channel surface must exist before message content can be created or journeys can be published.
 
@@ -454,7 +454,7 @@ The following phases walk through the end-to-end implementation of event-trigger
 
 ### Phase 4: Create message content
 
-**Application Function:** AJO: Message Authoring
+**Application capability:** AJO: Message Authoring
 
 **What you will configure:** The message content that will be delivered by the journey, including layout design, personalization tokens using profile and event attributes, conditional content blocks, reusable fragments (headers, footers, legal disclaimers), and content preview and testing.
 
@@ -507,7 +507,7 @@ The following phases walk through the end-to-end implementation of event-trigger
 
 ### Phase 5: Create and configure the journey
 
-**Application Function:** AJO: Journey Orchestration, AJO: Frequency & Business Rules (Option C), AJO: Conflict & Priority Management
+**Application capability:** AJO: Journey Orchestration, AJO: Frequency & Business Rules (Option C), AJO: Conflict & Priority Management
 
 **What you will configure:** The journey that listens for the triggering event and orchestrates message delivery. This is the core implementation phase where the journey canvas is designed with the event entry node, condition nodes, wait steps (for Option B), message action nodes, and exit criteria. This phase also covers frequency governance (Option C) and conflict/priority configuration.
 
@@ -601,7 +601,7 @@ Configure organization-level frequency caps via Administration > Business rules 
 
 ### Phase 6: Test and deploy the journey
 
-**Application Function:** AJO: Journey Orchestration
+**Application capability:** AJO: Journey Orchestration
 
 **What you will configure:** Test mode validation to verify the journey behaves as expected with test profiles, followed by journey publication to make it live.
 
@@ -624,7 +624,7 @@ Configure organization-level frequency caps via Administration > Business rules 
 
 ### Phase 7: Monitor and report on performance
 
-**Application Function:** AJO: Reporting & Performance Analysis, S4: Monitoring & Observability, S5: Reporting & Analysis
+**Application capability:** AJO: Reporting & Performance Analysis, S4: Monitoring & Observability, S5: Reporting & Analysis
 
 **What you will configure:** Live and historical journey reports for delivery and engagement monitoring, platform alerts for event ingestion and journey processing failures, and optionally CJA workspaces for deeper cross-channel analysis of triggered messaging effectiveness.
 

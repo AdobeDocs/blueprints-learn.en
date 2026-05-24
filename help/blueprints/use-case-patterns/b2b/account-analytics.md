@@ -84,7 +84,7 @@ The following KPIs help measure the success of this use case pattern.
 
 Include B2B account-level information in cross-channel customer journey analysis.
 
-**Function chain:** B2B Data Connection > Account Data View Configuration > Workspace Analysis > Dashboard Publishing
+**Execution plan:** B2B Data Connection > Account Data View Configuration > Workspace Analysis > Dashboard Publishing
 
 ## Applications
 
@@ -93,11 +93,11 @@ The following applications are used to implement this use case pattern.
 - **[!DNL Customer Journey Analytics] B2B Edition** -- Provides account-based connections, B2B-specific data view containers, account-level workspace analysis, buying group analysis, opportunity analysis, B2B segmentation, and B2B attribution with extended lookback windows
 - **[!DNL Real-Time CDP] B2B Edition** -- Provides the B2B data foundation including account profile unification, B2B identity resolution, B2B schema classes (Account, Opportunity, Buying Group), and [!DNL Marketo Engage] integration for ingesting B2B engagement data
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | Sandbox configured with [!DNL CJA] B2B Edition and [!DNL RT-CDP] B2B Edition entitlements. Roles provisioned for data engineers, analysts, and marketing operations users with access to [!DNL CJA] and the B2B data model. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) |
 | Data Modeling & Preparation | Required | B2B XDM schemas configured using B2B classes: XDM Business Account, XDM Business Opportunity, XDM Business Account Person Relation, XDM Business Opportunity Person Relation, and XDM Business Marketing List Members. Field groups for account attributes, opportunity stages, and buying group roles must be defined. Datasets created and enabled for Profile. | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [B2B edition schemas](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -105,25 +105,25 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | B2B identity resolution configured to resolve person-to-account relationships. Account ID, Person ID ([!DNL Marketo] Lead ID or CRM Contact ID), and cross-device identities (ECID, email) must be linked. Identity graph must support the many-to-many person-to-account mapping inherent in B2B data models. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [B2B identity resolution](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
 | Audience Definition & Segmentation | Assumed in Place | Account-level audience definitions should be available if B2B segments will be published from [!DNL CJA] back to AEP for activation. For analytics-only use cases, this is not a strict prerequisite but is recommended for segment-based analysis. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes on account profiles (for example, total engagement score, days since last activity, opportunity count) enrich the analytical dimensions available in [!DNL CJA] for account-level analysis. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | B2B datasets, particularly behavioral event data from [!DNL Marketo Engage], can grow rapidly. Dataset expiration policies help manage storage and ensure compliance with data retention requirements. | [Advanced Data Lifecycle Management](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Data Usage Labeling & Enforcement | Recommended | B2B data often contains sensitive business information (contract values, competitive intelligence). Data usage labels and governance policies ensure this data is used appropriately across analytics and activation workflows. | [Data governance overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | Monitoring & Observability | Recommended | B2B source connectors ([!DNL Marketo], [!DNL Salesforce]) require monitoring for ingestion health. Connection health monitoring in [!DNL CJA] ensures data freshness for analytics. Alert rules for ingestion failures prevent stale dashboards. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Reporting & Analysis | Included | This pattern is itself an analytics pattern. This function is inherently included as the core function chain delivers reporting and analysis capabilities. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Reporting & Analysis | Included | This pattern is itself an analytics pattern. This capability is inherently included as the core execution plan delivers reporting and analysis capabilities. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Customer Journey Analytics] B2B Edition
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Account-Based Connection | Phase 1: B2B Data Connection | Configure connections using Account or Global Account as the primary identifier for organization-level analysis |
 | B2B Data View Configuration | Phase 2: Account Data View Configuration | Define data views with B2B-specific containers (Account, Global Account, Opportunity, Buying Group) alongside standard Person, Session, and Event containers |
@@ -138,7 +138,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Customer Journey Analytics] -- standard functions
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Data Connection | Phase 1: B2B Data Connection | Bind AEP B2B datasets to [!DNL CJA] connections for cross-channel analysis |
 | Data View Configuration | Phase 2: Account Data View Configuration | Configure standard dimensions, metrics, attribution, and persistence settings within the B2B data view |
@@ -147,7 +147,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] B2B Edition
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Account Profile Unification | Prerequisite (F2/F4) | Consolidate cross-source B2B data into unified account profiles using specialized XDM B2B schema classes |
 | B2B Identity Resolution | Prerequisite (F4) | Resolve person-to-account relationships supporting multi-level account hierarchies and many-to-many mappings |
@@ -297,7 +297,7 @@ The following phases outline the recommended implementation sequence.
 
 ### Phase 1: B2B data connection
 
-**Application function:** [!DNL CJA] B2B: Account-Based Connection, [!DNL CJA]: Data Connection
+**Application capability:** [!DNL CJA] B2B: Account-Based Connection, [!DNL CJA]: Data Connection
 
 Configure the [!DNL CJA] connection that binds your AEP B2B datasets to [!DNL CJA] for analysis. This connection defines which datasets flow into [!DNL CJA], the primary identifier type (Account or Global Account), and how historical and streaming data are ingested. The connection is the foundation of all subsequent analysis.
 
@@ -366,7 +366,7 @@ Create a single connection with all B2B datasets. Use Account ID as the primary 
 
 ### Phase 2: Account data view configuration
 
-**Application function:** [!DNL CJA] B2B: B2B Data View Configuration, [!DNL CJA]: Data View Configuration
+**Application capability:** [!DNL CJA] B2B: B2B Data View Configuration, [!DNL CJA]: Data View Configuration
 
 Configure the data view that defines how connection data appears in analysis. For B2B analytics, this includes configuring B2B-specific containers (Account, Opportunity, Buying Group), mapping B2B schema fields to dimensions and metrics, setting attribution models with B2B-appropriate lookback windows, and creating derived fields for B2B business logic.
 
@@ -440,7 +440,7 @@ Create two data views from the same connection. Data View 1 uses Person as the p
 
 ### Phase 3: Workspace analysis
 
-**Application function:** [!DNL CJA] B2B: Account-Level Workspace Analysis, Buying Group Analysis, Opportunity Analysis, B2B Segmentation, B2B Attribution, [!DNL CJA]: Workspace Analysis, Computed Metric Creation, Guided Analysis
+**Application capability:** [!DNL CJA] B2B: Account-Level Workspace Analysis, Buying Group Analysis, Opportunity Analysis, B2B Segmentation, B2B Attribution, [!DNL CJA]: Workspace Analysis, Computed Metric Creation, Guided Analysis
 
 Build workspace projects that deliver the analytical insights defined in the KPIs. This phase includes building freeform tables with B2B dimensions and metrics, creating computed metrics for B2B KPIs, configuring B2B-specific visualizations (account-level flow, opportunity funnel, buying group engagement), creating filters/segments using B2B containers, and applying B2B attribution models.
 
@@ -512,7 +512,7 @@ Key configuration details:
 
 ### Phase 4: Dashboard publishing
 
-**Application function:** [!DNL CJA]: Dashboard & Scorecard Publishing, [!DNL CJA]: Audience Publishing
+**Application capability:** [!DNL CJA]: Dashboard & Scorecard Publishing, [!DNL CJA]: Audience Publishing
 
 Create shareable dashboards and mobile scorecards that deliver B2B analytics insights to stakeholders. This phase also covers publishing [!DNL CJA]-defined B2B audiences back to AEP for activation in downstream use cases such as B2B audience activation.
 

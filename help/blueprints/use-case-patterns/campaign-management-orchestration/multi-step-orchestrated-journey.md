@@ -89,7 +89,7 @@ Use the following KPIs to measure the effectiveness of your multi-step orchestra
 
 Guide a profile through a branching, multi-touch journey with waits, conditions, and multiple message actions over time.
 
-**Function chain:** Audience Evaluation > Journey Execution (multi-node) > Condition Branching > Message Delivery (xN) > Exit Criteria > Reporting
+**Execution plan:** Audience Evaluation > Journey Execution (multi-node) > Condition Branching > Message Delivery (xN) > Exit Criteria > Reporting
 
 ## Applications
 
@@ -99,11 +99,11 @@ The following applications are used to implement this use case pattern.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** -- Audience evaluation and definition for journey entry audiences, profile data for personalization and condition branching
 - **[!DNL Adobe Experience Platform] (AEP)** -- Profile store, identity service, event data ingestion, and foundational data infrastructure
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Assumed in Place | AJO sandbox with journey creation and publish permissions. Channel surfaces for all channels used in the journey must be configured. Users must have the appropriate roles (Marketer, Journey Manager) with journey and campaign permissions. | [Sandboxes overview](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Required | XDM profile schema with attributes used for condition branching and personalization across multiple messages (for example, loyalty tier, product interest, engagement score). Experience Event schemas for conversion events that drive exit criteria and condition evaluation (for example, purchase events, form submissions). | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Schema composition basics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
@@ -111,11 +111,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Assumed in Place | Profiles must be resolvable across all channels used in the journey (email, SMS, push). Cross-device identity must be configured if the journey spans web and mobile touchpoints. Merge policy must be configured for the sandbox. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Audience Definition & Segmentation | Required | Entry audience must be defined for audience-read journeys. Segments may also be used in condition nodes for branching. Evaluation method (batch or streaming) must match the journey entry requirements. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Segment Builder UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as engagement scores, days since last activity, or lifetime purchase value improve condition branching logic, enabling more intelligent journey path decisions. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Journey event data retention should be configured with dataset expiration policies to manage storage and comply with data retention regulations. Consent enforcement ensures only opted-in profiles receive messages at each channel touchpoint. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Dataset expirations](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -123,13 +123,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Included | Journey execution monitoring alerts on processing failures, profile entry bottlenecks, and delivery issues. Essential for production journeys where delays or failures impact customer experience. | [Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Included | CJA funnel and fallout analysis across the full journey provides deeper insight than AJO native reports alone. Enables step-by-step conversion analysis, cohort comparison, and journey optimization. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Channel Configuration | Phase 1: Channel Setup | Configure channel surfaces (email, SMS, push) for each messaging touchpoint in the journey |
 | Message Authoring | Phase 2: Message Content Creation | Author message content with personalization, dynamic content, and templates for each journey action node |
@@ -141,7 +141,7 @@ This plan exercises the following functions from the Application Function Catalo
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 1: Channel Setup (prerequisite) | Define and evaluate the entry audience for audience-read journeys; define condition audiences for branching |
 | Consent & Governance Enforcement | Phase 4: Governance & Optimization | Enforce consent preferences and data usage policies across journey message actions |
@@ -305,7 +305,7 @@ The following phases walk through the end-to-end implementation of a multi-step 
 
 ### Phase 1: Set up channels and prepare audiences
 
-**Application functions:** AJO: Channel Configuration, RT-CDP: Audience Evaluation
+**Application capabilities:** AJO: Channel Configuration, RT-CDP: Audience Evaluation
 
 Before designing the journey, all channel surfaces must be active and the entry audience (for Option A) must be defined and evaluated. This phase ensures the infrastructure is ready for message delivery.
 
@@ -377,7 +377,7 @@ Configure channel surfaces for EACH channel used in the journey (email, SMS, pus
 
 ### Phase 2: Create message content
 
-**Application function:** AJO: Message Authoring
+**Application capability:** AJO: Message Authoring
 
 Author the message content for each touchpoint in the journey. Each message may have different content, personalization depth, and channel. This phase creates all the deliverable content that journey action nodes will reference.
 
@@ -442,7 +442,7 @@ Should shared content blocks (headers, footers, legal text) be created as reusab
 
 ### Phase 3: Design and activate the journey
 
-**Application function:** AJO: Journey Orchestration
+**Application capability:** AJO: Journey Orchestration
 
 Design the multi-step journey canvas including the entry node, action nodes (messages), condition nodes (branching), wait nodes (time delays), and exit criteria. Then test with test profiles and publish.
 
@@ -569,7 +569,7 @@ What is the maximum duration a profile can remain in the journey?
 
 ### Phase 4: Configure governance and optimization
 
-**Application functions:** AJO: Frequency & Business Rules, AJO: Conflict & Priority Management, AJO: Content Experimentation, RT-CDP: Consent & Governance Enforcement
+**Application capabilities:** AJO: Frequency & Business Rules, AJO: Conflict & Priority Management, AJO: Content Experimentation, RT-CDP: Consent & Governance Enforcement
 
 Apply frequency caps to prevent over-messaging, assign priority scores for conflict resolution with other active communications, optionally configure A/B tests within journey messages, and verify consent enforcement.
 
@@ -631,7 +631,7 @@ Should any journey message include an A/B or multivariate test?
 
 ### Phase 5: Configure reporting and monitoring
 
-**Application functions:** AJO: Reporting & Performance Analysis, Monitoring & Observability, Reporting & Analysis
+**Application capabilities:** AJO: Reporting & Performance Analysis, Monitoring & Observability, Reporting & Analysis
 
 Monitor journey execution during and after activation, review per-step delivery and engagement metrics, configure alerts for journey processing failures, and optionally build CJA workspace analysis for deep funnel and fallout visualization.
 

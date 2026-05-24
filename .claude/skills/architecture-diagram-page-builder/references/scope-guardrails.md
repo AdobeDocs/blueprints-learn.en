@@ -27,7 +27,7 @@ If you find yourself writing any of the following, redirect to a use case patter
 | KPIs and measurement formulas | Use case patterns measure outcomes; architecture pages don't |
 | Business objectives, business impact | KBO content lives under `/help/blueprints/business-objectives/`; patterns reference it |
 | Tactical use case examples | "Cart abandonment reminder", "Personalized homepage hero", etc. -- these are pattern content |
-| Function chains (`A > B > C > D`) | The function-chain construct is part of the use case pattern template |
+| Capabilities (`A > B > C > D`) | The capabilities construct is part of the use case pattern template |
 | Persona narratives | "Maria the marketer wants to..." style scenarios belong in patterns, not architecture refs |
 | Implementation options | Multi-option implementation guidance (Best for, How it works, Advantages, Limitations) is a pattern construct |
 | Foundational/supporting function tables | These are pattern-page sections |
@@ -40,7 +40,7 @@ If the user provides any of these phrases when describing the new page, pause an
 - "KPIs"
 - "business impact" / "business outcomes"
 - "tactical use cases" / "example scenarios"
-- "function chain"
+- "capabilities"
 - "implementation options"
 - "best for"
 - "advantages and limitations"

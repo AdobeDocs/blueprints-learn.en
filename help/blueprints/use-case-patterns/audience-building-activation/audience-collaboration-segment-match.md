@@ -76,7 +76,7 @@ This use case follows the Audience Collaboration pattern.
 
 Share and match audience segments across sandboxes or organizations using [!DNL Segment Match].
 
-**Function chain:** Segment Selection > Match Configuration > Overlap Estimation > Audience Sharing > Activation
+**Execution plan:** Segment Selection > Match Configuration > Overlap Estimation > Audience Sharing > Activation
 
 ## Applications
 
@@ -85,11 +85,11 @@ The following applications are used in this use case pattern.
 - **[!DNL Real-Time CDP]** -- Provides the [!DNL Segment Match] capability for privacy-safe audience sharing, audience evaluation for segment creation, and destination activation for downstream use of matched audiences.
 - **[!DNL Adobe Experience Platform]** -- Provides the foundational data infrastructure including identity resolution, profile unification, data governance, and consent enforcement that [!DNL Segment Match] depends on.
 
-## Foundational functions
+## Foundational capabilities
 
-The following foundational capabilities must be in place for this use case pattern. For each function, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
+The following foundational capabilities must be in place for this use case pattern. For each capability, the status indicates whether it is typically required, assumed to be pre-configured, or not applicable.
 
-| Foundational function | Status | What must be in place | Experience League reference |
+| Foundational capability | Status | What must be in place | Experience League reference |
 | --- | --- | --- | --- |
 | Administration & Governance | Required | Both sender and receiver organizations must have sandboxes provisioned with appropriate roles and permissions. Users managing [!DNL Segment Match] must have permissions to view and share segments, configure connections, and manage partner feeds. ABAC policies should be configured to control which users can initiate and accept segment shares. | [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Data Modeling & Preparation | Assumed in Place | XDM schemas for profiles and events must exist with the required field groups. Profile and event datasets must be created and enabled for [!DNL Real-Time Customer Profile]. The data model must support the identity namespaces used for segment matching (typically hashed email or hashed phone). | [XDM System overview](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
@@ -97,11 +97,11 @@ The following foundational capabilities must be in place for this use case patte
 | Identity & Profile Configuration | Required | Identity namespaces must be configured for the identifiers used in segment matching. Both sender and receiver must use compatible identity namespaces. Merge policies must be configured to unify profiles correctly. Identity linking rules should be established to ensure accurate profile resolution. | [Identity Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
 | Audience Definition & Segmentation | Required | Source audiences must be defined and evaluated before they can be shared via [!DNL Segment Match]. Audiences should be built using [!DNL Segment Builder] or [!DNL Audience Composition] with batch evaluation completed. Only batch-evaluated audiences are eligible for [!DNL Segment Match] sharing. | [Segmentation Service overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
-## Supporting functions
+## Supporting capabilities
 
 The following capabilities augment this use case pattern but are not required for core execution.
 
-| Supporting function | Status | Why it matters | Experience League reference |
+| Supporting capability | Status | Why it matters | Experience League reference |
 | --- | --- | --- | --- |
 | Computed / Derived Attribute Creation | Recommended | Computed attributes such as lifetime purchase value, engagement score, or product affinity can create more precise segments for sharing. Higher-quality input segments lead to more valuable audience collaboration. | [Computed attributes overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Data Lifecycle Management | Recommended | Consent and data retention policies ensure that shared segments comply with privacy regulations. Dataset expiration policies help manage the lifecycle of received audience data. Consent enforcement prevents sharing of profiles that have opted out. | [Advanced Data Lifecycle Management overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
@@ -109,13 +109,13 @@ The following capabilities augment this use case pattern but are not required fo
 | Monitoring & Observability | Recommended | Monitoring the [!DNL Segment Match] sharing process, overlap estimation jobs, and activation dataflows helps detect failures early. Alerts can be configured for share failures or unexpectedly low match rates. | [Observability Insights overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Reporting & Analysis | Recommended | Measuring the performance of campaigns that use matched audiences validates the value of the collaboration. [!DNL Customer Journey Analytics] analysis can compare matched audience campaign performance against control groups. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Application functions
+## Application capabilities
 
-This plan exercises the following functions from the application function catalog. Functions are mapped to implementation phases rather than numbered steps.
+This plan exercises the following capabilities from the Application Capability Catalog. Capabilities are mapped to implementation phases rather than numbered steps.
 
 ### [!DNL Real-Time CDP]
 
-| Function | Implementation phase | Description |
+| Capability | Implementation phase | Description |
 | --- | --- | --- |
 | Audience Evaluation | Phase 1: Segment Selection & Preparation | Evaluate segment membership using batch evaluation to produce the audiences that will be shared via [!DNL Segment Match] |
 | Audience Composition | Phase 1: Segment Selection & Preparation | Optionally compose derived audiences (rank, split, exclude, enrich) to create more targeted segments for sharing |
@@ -286,7 +286,7 @@ The following phases describe the end-to-end implementation process for audience
 
 ### Phase 1: Select and prepare segments
 
-**Application function:** [!DNL Real-Time CDP]: Audience Evaluation, [!DNL Real-Time CDP]: Audience Composition
+**Application capability:** [!DNL Real-Time CDP]: Audience Evaluation, [!DNL Real-Time CDP]: Audience Composition
 
 This phase involves defining and evaluating the audience segments that will be shared through [!DNL Segment Match]. The source segments must be fully evaluated with non-zero populations before they can be selected for sharing. This phase also covers optional audience composition to refine segments before sharing.
 
@@ -345,7 +345,7 @@ Ensure the source audiences in the sending sandbox use identity namespaces that 
 
 ### Phase 2: Configure matching and governance
 
-**Application function:** [!DNL Real-Time CDP]: Consent & Governance Enforcement
+**Application capability:** [!DNL Real-Time CDP]: Consent & Governance Enforcement
 
 This phase establishes the [!DNL Segment Match] connection between organizations or sandboxes, configures the identity namespaces used for matching, and ensures data governance policies permit the sharing. Governance enforcement acts as a policy gate that must be cleared before any segment data is shared.
 
@@ -406,7 +406,7 @@ Establish sandbox-to-sandbox connections within the organization. Governance is 
 
 ### Phase 3: Estimate overlap
 
-**Application function:** [!DNL Real-Time CDP]: Audience Evaluation (for estimating overlap)
+**Application capability:** [!DNL Real-Time CDP]: Audience Evaluation (for estimating overlap)
 
 This phase runs the overlap estimation between the sender's segments and the receiver's profile base. Overlap estimation provides both parties with the expected match volume and percentage before committing to the full segment share, enabling informed decisions about the value of the collaboration.
 
@@ -441,7 +441,7 @@ This phase runs the overlap estimation between the sender's segments and the rec
 
 ### Phase 4: Share audiences
 
-**Application function:** [!DNL Real-Time CDP]: Audience Evaluation (for share execution)
+**Application capability:** [!DNL Real-Time CDP]: Audience Evaluation (for share execution)
 
 This phase executes the actual segment share from sender to receiver. The sender initiates the share for the selected segments, and the receiver accepts the incoming share. Once accepted, the matched audience appears in the receiver's audience list as a new audience available for downstream activation.
 
@@ -497,7 +497,7 @@ Execute the cross-sandbox share. The matched audience appears in the receiving s
 
 ### Phase 5: Activate matched audiences
 
-**Application function:** [!DNL Real-Time CDP]: Destination Configuration, [!DNL Real-Time CDP]: Audience Activation
+**Application capability:** [!DNL Real-Time CDP]: Destination Configuration, [!DNL Real-Time CDP]: Audience Activation
 
 This phase activates the matched audience (on the receiver side) to external destinations for targeting, suppression, or downstream use. The matched audience is treated like any other audience in the receiver's sandbox and can be activated through the standard destination activation workflow.
 

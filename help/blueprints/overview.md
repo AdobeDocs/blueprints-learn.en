@@ -19,9 +19,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Customer experience orchestration business obectives, use cases, and architecture diagrams
+# Customer Experience Orchestration use cases and architecture diagrams
 
-This site contains **Key Business Objectives** which outline example primary business value and objectives that can be acheived with Adobe Experience Platform and Applications. **Use case patterns** describe common platform and application capabilities with repeatable implementation approaches. **Industry use cases** apply patterns to vertical-specific business scenarios. **Architecture Diagrams and Blueprints** are visual architecture and data flow reference diagrams that illustrate system integration points, data and content flows, and sequence of operations — providing a technical reference for solution design. Together these layers connect business value to implemenation dependencies and architecture.
+This site contains **Key Business Objectives** which outline example primary business value and objectives that can be acheived with Adobe Experience Platform and Applications. **Use case patterns** describe common platform and application capabilities with repeatable implementation approaches. **Example industry use cases** apply patterns to vertical-specific business scenarios. **Architecture Diagrams and Blueprints** are visual architecture and data flow reference diagrams that illustrate system integration points, data and content flows, and sequence of operations — providing a technical reference for solution design. Together these layers connect business value to implemenation dependencies and architecture.
 
 ## Key business objectives
 
@@ -44,7 +44,7 @@ Strategic outcomes that organizations seek to achieve through digital experience
 
 ## Use case patterns
 
-Repeatable implementation approaches that describe specific capabilities, the function chain that delivers them, and the applications involved.
+Repeatable implementation approaches that describe how to acheive specific outcome with the associated capabilities and application components that delivers them.
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ Repeatable implementation approaches that describe specific capabilities, the fu
 
 [View all use case patterns](use-case-patterns/overview.md)
 
-## Explore by industry
+## Explore use case examples by industry
 
 Use cases tailored to specific industries, each mapped to implementation patterns and business objectives.
 

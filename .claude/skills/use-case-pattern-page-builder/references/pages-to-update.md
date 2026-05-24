@@ -57,5 +57,5 @@ When a new use case pattern is created, the following pages must be updated to e
 - [ ] File uses kebab-case naming convention
 - [ ] All Experience League links are valid URLs
 - [ ] Adobe product names use `[!DNL ...]` syntax
-- [ ] Function chain uses ` > ` separator format
+- [ ] Execution plan uses ` > ` separator format
 - [ ] Pattern file includes all required sections (see pattern-template.md)
