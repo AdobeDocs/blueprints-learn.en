@@ -31,7 +31,7 @@ Customer Journey Analytics B2B Edition enables account-based reporting and analy
 
 ## Architecture
 
-![Customer Journey Analytics architecture with B2B account and opportunity data unified for journey analysis](assets/CJA.svg){zoomable="yes"}
+![Customer Journey Analytics architecture with B2B account and opportunity data unified for journey analysis](assets/CJA.png){zoomable="yes"}
 
 Data flows from Experience Platform (B2B and event datasets) into [!DNL Customer Journey Analytics] via a CJA connection. B2B dimensions are exposed in data views so analysis and audiences can be built at account, opportunity, and person levels.
 
