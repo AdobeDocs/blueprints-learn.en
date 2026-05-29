@@ -88,7 +88,7 @@ Improve return on marketing investment through better targeting, attribution, au
 
 The following reference architecture illustrates how audience and profile data flows from Real-Time CDP to enterprise destinations including cloud storage, streaming endpoints, and SaaS applications.
 
-![Reference architecture for audience and profile activation to enterprise destinations](/help/blueprints/audience-activation/assets/known_activation.svg)
+![Reference architecture for audience and profile activation to enterprise destinations](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## Foundational capabilities
 

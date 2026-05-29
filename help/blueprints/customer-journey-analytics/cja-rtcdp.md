@@ -36,7 +36,7 @@ See the following documentation for guidance on implementation and configuration
 
 ## Architecture for Customer Journey Analytics blueprints
 
-![Architecture diagram](assets/CJA.svg){zoomable="yes"}
+![Architecture diagram](assets/CJA.png){zoomable="yes"}
 
 ## Guardrail diagram for Customer Journey Analytics blueprints
 

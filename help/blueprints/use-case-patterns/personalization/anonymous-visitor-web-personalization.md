@@ -102,7 +102,7 @@ The following applications are used in this use case pattern.
 
 The following reference architecture illustrates how anonymous visitor signals are collected at the edge, evaluated against audience rules, and used to deliver personalized content.
 
-![Reference architecture for anonymous audience activation and personalization](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+![Reference architecture for anonymous audience activation and personalization](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Foundational capabilities
 

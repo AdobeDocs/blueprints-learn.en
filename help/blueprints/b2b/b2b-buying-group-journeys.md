@@ -71,7 +71,7 @@ When a lead clearly demonstrates the solution interest, it indicates a business 
 
 As the following diagram illustrates, you can collect details in forms or through LinkedIn activation and qualify a solution intent when interaction with a chat-bot occurred.
 
-![Buying group journey](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![Buying group journey](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 When the buying group complete percentage is high enough, you share the group to the Sales team through SQL or an SOL to convert the leads in the account to a completed sale.
 
