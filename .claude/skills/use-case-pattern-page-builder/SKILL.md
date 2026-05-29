@@ -31,31 +31,18 @@ Interview the user to collect all required information before generating any fil
 
 4. **Core Adobe solutions** -- The Adobe products central to this pattern. Choose from: Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B Edition, Real-Time CDP B2B Edition, or others as appropriate.
 
-5. **Execution plan steps** -- 3-6 sequential phases that describe the pattern's execution flow, separated by `>`. Example: "Event Ingestion > Journey Entry > Condition Evaluation > Message Delivery > Reporting".
+5. **Business objectives supported** -- One or more business objectives from the existing set under `/help/blueprints/business-objectives/`. Each should include the objective name, the category subfolder, and the filename. Verify that the referenced files exist before generating content.
 
-6. **Business objectives supported** -- One or more business objectives from the existing set under `/help/blueprints/business-objectives/`. Each should include the objective name, the category subfolder, and the filename. Verify that the referenced files exist before generating content.
+6. **Example tactical use cases** -- 6-10 bulleted scenarios describing how this pattern can be applied across different business contexts. Each should have a bold scenario name followed by a description.
 
-7. **Example tactical use cases** -- 6-10 bulleted scenarios describing how this pattern can be applied across different business contexts. Each should have a bold scenario name followed by a description.
+7. **KPIs** -- A table with three columns: KPI (name), Description (what it measures), Measurement (formula or approach).
 
-8. **KPIs** -- A table with three columns: KPI (name), Description (what it measures), Measurement (formula or approach).
-
-9. **Implementation options** -- 2-4 implementation options. For each option, collect:
-   - Option name
-   - Best for (when to use this option)
-   - How it works (2-4 paragraphs)
-   - Key considerations (bulleted list)
-   - Advantages (bulleted list)
-   - Limitations (bulleted list)
-   - Experience League links (URLs to relevant documentation)
+8. **Reference Links** -- reference links to primary Experience League documents covering the applications and capability of the use case pattern. 
 
 ### Optional but recommended
 
 - Use case overview paragraphs (3-5 paragraphs; if not provided, draft them from the other information)
 - Applications list with descriptions of each Adobe app's role
-- Foundational capabilities table (Capability, Status, What Must Be in Place, Experience League Reference)
-- Supporting capabilities table (Capability, Status, Why It Matters, Experience League Reference)
-- Application capabilities tables (one per application, with Capability, Implementation Phase, Description)
-- Prerequisites checklist
 
 If the user does not provide the optional items, generate reasonable defaults based on the pattern category, solutions, and execution plan.
 
@@ -86,18 +73,6 @@ Use the template from `references/pattern-template.md` and fill in all placehold
 7. **Use case pattern** -- Description paragraph and the execution plan.
 
 8. **Applications** -- List of Adobe applications with `[!DNL ...]` formatting and descriptions.
-
-9. **Foundational capabilities** -- Table with columns: Foundational Capability, Status, What Must Be in Place, Experience League Reference. Status values: Required, Assumed in Place, Not Applicable.
-
-10. **Supporting capabilities** -- Table with columns: Supporting Capability, Status, Why It Matters, Experience League Reference. Status values: Recommended, Included, Not Applicable.
-
-11. **Application capabilities** -- One table per application with columns: Capability, Implementation Phase, Description.
-
-12. **Prerequisites** -- Checklist using `- [ ]` syntax.
-
-13. **Implementation options** -- 2-4 detailed options, each with Best for, How it works, Key considerations, Advantages, Limitations, and Experience League links.
-
-14. **Option comparison** -- Summary comparison table at the end.
 
 ## Phase 3: Cross-Reference Updates
 
