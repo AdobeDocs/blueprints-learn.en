@@ -90,15 +90,15 @@ topic_v2:
 
 Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target.png)
 
 Sequence Detail
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target_flow.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target_flow.png)
 
 Overview Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/personalization_with_apps.svg)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/personalization_with_apps.png)
 
 ## Related documentation
 

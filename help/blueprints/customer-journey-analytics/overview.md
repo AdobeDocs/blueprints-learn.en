@@ -40,4 +40,4 @@ A full list of use cases along with documentation can be found [here](https://ex
 
 ## Architecture for Customer Journey Analytics
 
-![Architecture diagram](assets/CJA.svg){zoomable="yes"}
+![Architecture diagram](assets/CJA.png){zoomable="yes"}

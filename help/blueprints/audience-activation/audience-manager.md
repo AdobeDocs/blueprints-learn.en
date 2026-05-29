@@ -59,7 +59,7 @@ Both Audience Manager and Real-time Customer Data Platform can be leveraged to p
 
 ## Architecture
 
-![Reference architecture for the Anonymous Audience Activation Blueprint](assets/anonymous_activation.svg)
+![Reference architecture for the Anonymous Audience Activation Blueprint](assets/anonymous_activation.png)
 
 <br>
 
