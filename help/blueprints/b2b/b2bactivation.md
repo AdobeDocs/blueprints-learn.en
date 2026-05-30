@@ -35,7 +35,7 @@ Use account, opportunity, and lead information tied to a individual customer to 
 
 * Create audiences of people for targeting and personalization across channels against B2B data including accounts, opportunities, and leads.
 * Activate audiences to any Experience Platform destinations for targeting and personalization.
-* Create audiences of accounts (for example, lists of companies) and target those companies via destinations like LinkedIn that accept lists of companies as input or export to cloud storage destinations for targeting and sales outreach.
+* Create audiences of accounts (for example, lists of companies) and target those companies via destinations like LinkedIn or cloud storage. For details, requirements, and account-audience guardrails, see [B2B Account Activation to Advertising Destinations and File Destinations](b2b-account-activation.md).
 
 ## Applications
 
