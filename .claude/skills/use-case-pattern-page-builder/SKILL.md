@@ -62,15 +62,15 @@ Use the template from `references/pattern-template.md` and fill in all placehold
 
 2. **Opening section** -- `# {Pattern name}` heading followed by an introductory paragraph and the "Use this guide to understand..." sentence.
 
-3. **Use case overview** -- 3-5 paragraphs describing the pattern scope, when it applies, what it does and does not do, and who the typical stakeholders are.
+3. **Use case pattern** -- Description paragraph and the execution plan.
 
-4. **Key business objectives** -- Each objective as a linked heading with a brief description and a KPIs summary row.
+4. **Use case overview** -- 3-5 paragraphs describing the pattern scope, when it applies, what it does and does not do, and who the typical stakeholders are.
 
-5. **Example tactical use cases** -- Bulleted list of 6-10 scenarios.
+5. **Key business objectives** -- Each objective as a linked heading with a brief description and a KPIs summary row.
 
-6. **Key performance indicators** -- Table with KPI, Description, Measurement columns.
+6. **Example tactical use cases** -- Bulleted list of 6-10 scenarios.
 
-7. **Use case pattern** -- Description paragraph and the execution plan.
+7. **Key performance indicators** -- Table with KPI, Description, Measurement columns.
 
 8. **Applications** -- List of Adobe applications with `[!DNL ...]` formatting and descriptions.
 

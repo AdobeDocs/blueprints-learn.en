@@ -6,11 +6,17 @@ exl-id: a9545328-316d-446a-9308-18af61c58d1c
 ---
 # Brand Concierge conversational experience
 
-This guide provides a comprehensive implementation reference for AI-powered conversational experiences using [!DNL Adobe Brand Concierge], integrated with [!DNL Adobe Experience Platform] (AEP) and [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). It is designed for solution architects, marketing technologists, and implementation engineers who need to deploy brand-safe conversational agents across digital properties.
-
-It covers all viable approaches for deploying conversational experiences, from product advisory chatbots to full site navigation assistants, with guidance on when to choose each option. The plan addresses agent configuration, brand governance, content integration, deployment strategies, profile enrichment from conversation signals, and analytics optimization.
+This guide provides an overview for AI-powered conversational experiences using [!DNL Adobe Brand Concierge], integrated with [!DNL Adobe Experience Platform] (AEP) and [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). It is designed for solution architects, marketing technologists, and implementation engineers who need to deploy brand-safe conversational agents across digital properties.
 
 [!DNL Brand Concierge] enables brands to deploy intelligent conversational agents that understand brand voice, access approved product catalogs and content, deliver personalized recommendations based on real-time profile data, and capture intent and sentiment signals back into the unified customer profile. The result is a conversational experience that feels natural and on-brand while enriching the organization's understanding of each customer.
+
+## Use case pattern
+
+**Brand Concierge conversational experience**
+
+Transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery through natural dialogue, enrich profiles with intent and sentiment signals, and deliver personalized product recommendations.
+
+**Execution plan:** Agent Configuration > Brand Governance Setup > Content Integration > Conversational Experience Deployment > Profile Enrichment > Analytics & Optimization
 
 ## Use case overview
 
@@ -87,14 +93,6 @@ The following KPIs help measure the success of this use case pattern.
 | Profile Enrichment Rate | Percentage of conversations that yield new intent or preference signals | Profiles enriched / total conversations |
 | Revenue Influenced by Conversation | Revenue from purchases where a [!DNL Brand Concierge] conversation preceded the conversion | Attribution analysis on conversation-to-purchase journeys |
 | Time to Resolution | Average duration from conversation start to resolution or handoff | Timestamp analysis across conversation events |
-
-## Use case pattern
-
-**Brand Concierge conversational experience**
-
-Transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery through natural dialogue, enrich profiles with intent and sentiment signals, and deliver personalized product recommendations.
-
-**Function chain:** Agent Configuration > Brand Governance Setup > Content Integration > Conversational Experience Deployment > Profile Enrichment > Analytics & Optimization
 
 ## Applications
 
