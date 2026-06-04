@@ -28,57 +28,53 @@ Read the following reference files for templates and rules:
 
 ## Phase 1: Information Gathering
 
-Interview the user to collect all required information before generating any files. Do not proceed to content generation until every required item is provided or explicitly deferred.
+**Use forms, not a linear interview.** Collect all required information by presenting `AskUserQuestion` forms in logical batched rounds rather than asking one question at a time. This keeps the experience fast and scannable for the user.
 
-### Required information
+### AskUserQuestion constraints
 
-1. **Page title** -- The human-readable title (e.g., `Adobe Journey Optimizer architecture diagrams`).
+- Maximum **4 questions** per `AskUserQuestion` call.
+- Maximum **4 options** per question.
+- If a question has more than 4 plausible options, split it across two calls (e.g., ask the first 4 options, then follow with a yes/no on the fifth).
+- Use `multiSelect: true` for questions where multiple answers apply (solutions, patterns, data flows).
 
-2. **Topic folder** -- Where the page lives. Pick exactly one based on the diagram's primary domain:
-   - `experience-platform/` -- top-level AEP, multi-app, or platform-level diagrams
-   - `customer-journeys/` -- AJO, Campaign, journey orchestration
-   - `customer-journey-analytics/` -- CJA architectures
-   - `audience-activation/` -- RTCDP, audience and profile activation
-   - `b2b/` -- B2B-specific architectures
+### Round 1 — Core page info (one AskUserQuestion call, up to 4 questions)
 
-3. **Filename** -- Kebab-case, derived from the page title (e.g., `Journey Optimizer architecture` -> `journey-optimizer-architecture.md`). Confirm with the user.
+Ask for all of the following in a single form:
 
-4. **Page purpose** -- 1-2 sentences describing what the diagrams collectively illustrate. Used for the `description` frontmatter field and the opening paragraph.
+1. **Page title** -- present 2-3 suggested variants derived from what the user already told you, plus an "Other" escape hatch.
+2. **Topic folder** -- present the 5 valid folders as options; recommend the most likely one based on the user's input.
+3. **Adobe solutions** -- multi-select; suggest the most likely candidates based on the page topic.
+4. **Diagram count** -- how many diagrams will the page include (1 / 2 / 3 / 4+).
 
-5. **Adobe solutions** -- Comma-separated list of Adobe products central to the page. Used for the `solution` frontmatter field. Examples: `Experience Platform, Journey Optimizer, Customer Journey Analytics`.
+### Round 2 — Diagram details (one AskUserQuestion call, up to 4 questions)
 
-6. **Diagrams** -- One or more diagrams. For each diagram, collect:
-   - **Image filename** (e.g., `aep_data_flow.svg`). SVG preferred; PNG acceptable.
-   - **Section title** -- becomes the H2 heading for the diagram (e.g., `Data flow diagram`, `Detailed architecture diagram`).
-   - **Purpose explanation** -- 1-2 sentences describing what the diagram shows.
-   - **Alt text** -- short accessible description.
+Ask for each diagram's image filename and the page purpose in one form:
 
-7. **Use case patterns supported** -- 2-5 existing patterns this architecture enables.
+- For each diagram (up to 2 in a single form round), ask for the **image filename** as a question with 2-3 suggested filenames (derived from the page title) plus an "Other" option.
+- Ask for the **page purpose** (1-2 sentence description) as a question with 2-3 suggested phrasings plus "Other".
+- Ask whether a **`>[!MORELIKETHIS]` callout** is needed (Yes / No). If Yes, collect the URL and link text in a follow-up message.
 
-   **Recommend candidates first.** Before asking the user to provide patterns, scan `/help/blueprints/use-case-patterns/` and propose 3-6 likely matches based on the page title, page purpose, and Adobe solutions collected above. For each suggestion, present:
-   - Pattern name (with the linked path)
-   - One-sentence rationale for why it fits this architecture
+> **Section titles and alt text:** When the image filename is descriptive (e.g., `fac-architecture.svg`, `fac-dataflow.svg`), infer the H2 section title and alt text from it — you do not need to ask the user. Use the filename stem, title-cased and humanised, as the section title (e.g., `Architecture diagram`, `Data flow diagram`). Only ask if the filename is ambiguous.
 
-   Present the suggestions as a numbered shortlist and ask the user to (a) accept any, (b) reject any, and (c) add patterns you missed. Only generate suggestions that point to real files -- glob/read to confirm before suggesting. Do not hallucinate pattern names.
+### Round 3 — Use case patterns (AskUserQuestion after scanning)
 
-   For each accepted pattern, capture the category and filename. Validate each file exists at `/help/blueprints/use-case-patterns/{category}/{pattern-file}.md` before generating.
+Before presenting this form, **glob `/help/blueprints/use-case-patterns/`** and identify 3-5 likely matching patterns based on the page title, purpose, and solutions. Confirm each file exists before suggesting it.
 
-8. **Primary data flows / integration points** -- 3-7 bullets describing key flows and integration boundaries shown across the diagrams (e.g., `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
+Present the top 4 candidates as a `multiSelect` question. If a strong fifth candidate exists, follow with a separate yes/no question for that one. Also invite the user to name any pattern you missed.
 
-9. **Experience League links** -- 3-6 links to relevant Experience League documentation for further reading. Each must begin with `https://experienceleague.adobe.com/`.
+Only include patterns whose files are confirmed to exist. Do not hallucinate pattern names.
 
-   **Recommend candidates first.** Based on the Adobe solutions and page purpose, propose 4-8 plausible Experience League articles (e.g., the canonical landing or overview pages for each named solution, key integration guides, deployment references). For each suggestion, present:
-   - Article title
-   - URL
-   - One-line rationale for why it fits the page
+### Round 4 — Data flows and Experience League links (one AskUserQuestion call)
 
-   Mark suggestions as **unverified** unless you've actually fetched the URL -- the user must confirm or replace each before it lands in the generated file. Ask the user to (a) accept, (b) replace any URL with a verified one they already have, and (c) add their own. Never invent URLs you have not seen; if you are uncertain, suggest the article title and let the user supply the URL.
+**Data flows:** Propose 3-5 pre-written data flow bullets as a `multiSelect` question (derived from the page topic). The user selects which apply. Keep each option to one concise sentence. If the user needs custom flows not in your list, they can provide them in a follow-up.
 
-### Optional
+**Experience League links:** After the form, present a markdown table of 4-6 suggested links with article title, URL, and a one-line rationale. Mark every URL as **unverified**. Ask the user to (a) accept, (b) replace with a verified URL, or (c) add their own. Use a follow-up `AskUserQuestion` with up to 4 options if the list is long; otherwise accept confirmation in plain text.
 
-- **Related-content callout** -- a single link rendered as `>[!MORELIKETHIS]` block near the top of the page. Useful when there is a sibling integration or configuration guide on Experience League the reader should be aware of.
+Never invent URLs you have not fetched. If uncertain, suggest the article title and let the user supply the URL.
 
-If the user does not provide all required items, ask for the missing ones before proceeding. Do not fabricate diagrams, patterns, or links.
+### When all rounds are complete
+
+Confirm the full information set with the user before generating any files. If any required item is still missing or marked as "Other" without a value, ask for it before proceeding. Do not fabricate diagrams, patterns, or links.
 
 ## Phase 2: Scope Check
 
@@ -161,6 +157,8 @@ Entry format (4-space indent + `+`):
 ```
 
 Append the new entry as the last item in the matching subsection unless the user specifies a different position. Preserve the exact 4-space indentation -- TOC parsing depends on it.
+
+**Inspect for nested sub-groups before placing.** Some subsections (notably `Audience & Profile Activation`) contain nested groupings (e.g., `Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}`). Read the affected subsection of TOC.md before editing. New top-level architecture pages belong at the 4-space indent level of the subsection -- **not** inside a nested sub-group (which uses 6-space indent). Place the new entry after the last nested sub-group entry and before the next top-level subsection heading.
 
 ## Phase 5: Validation
 
