@@ -1,0 +1,250 @@
+﻿---
+title: Build Journey
+description: Build Journey
+doc-type: article
+exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
+---
+
+# Learning Objective
+
+Create a unitary journey that begins with the configured Order Shipped event, gets the ETA from an external service and sends an email.
+
+# Create Journey
+
+Go to **Journeys **and click **Create Journey - Create from scratch**
+
+![](assets/raGUUvFOSPhdhWYohoZ3T-20251112-205319.png)
+
+
+
+# Journey Properties
+
+:::::VerticalSplit{layout="right"}
+::::VerticalSplitItem
+1. Update the Journey Properties in the right rail with the following:
+   - **Name**: `Order Shipped Journey`
+   - **Description**: `Notify customer that order has shipped. Include shipping details.`
+   - **Tags**: `Default`
+   - **Journey m****etrics**: *leave blank*
+
+>[!NOTE]
+>**Empty Drop Down?**
+>
+>Don't worry and move on. The very first journey created in a sandbox needs to "prime the pump".  Once we publish the journey, this drop down will have options to choose from.
+
+:::Paragraph{listStyleType="disc" listStart="5" indent="2"}
+**Allow reentrance**: `checked`
+:::
+
+:::Paragraph{listStyleType="disc" listStart="6" indent="2"}
+**Reentrance wait period:**  `5 minutes`
+:::
+
+:::Paragraph{listStyleType="disc" listStart="7" indent="2"}
+**Access labels**: *leave blank*
+:::
+
+:::Paragraph{listStyleType="disc" listStart="8" indent="2"}
+**Time Zone**: `Your Local timezone`
+:::
+
+:::Paragraph{listStyleType="disc" listStart="9" indent="2"}
+**Use Profile time zone in waits and conditions**: `NOT checked`
+:::
+
+:::Paragraph{listStyleType="disc" listStart="10" indent="2"}
+**Start/End Date**: *leave blank*
+:::
+
+:::Paragraph{listStyleType="disc" listStart="11" indent="2"}
+**Timeout or error**: `30`
+:::
+
+:::Paragraph{listStyleType="disc" listStart="12" indent="2"}
+**Capping rules:** *leave blank*
+:::
+
+:::Paragraph{listStyleType="disc" listStart="13" indent="2"}
+**Priority**: `0`
+:::
+
+
+
+2. If everything looks good click the **Save **button
+::::
+
+:::VerticalSplitItem
+![](assets/PEKi_MLQgSI5VZ6ayZeen-20251113-011132.png)
+
+
+:::
+:::::
+
+****
+
+# Journey Canvas
+
+## Add a Unitary Event
+
+From the left pane under the **Events menu** drag 'n drop the **orderShipped **event onto the canvas as shown below
+
+::::VerticalSplit{layout="middle"}
+:::VerticalSplitItem
+![](assets/48Vp2fxzZi18gKAc6RLW--20251113-012116.png)
+
+
+:::
+
+:::VerticalSplitItem
+![](assets/lmn6jKE1hVlRvKw35tCVT-20251113-012227.png)
+
+
+:::
+::::
+
+
+
+## Add a Custom Action
+
+1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails **after the orderShipped event
+
+![](assets/DCaEsLhrw6V7_E8-e-zCT-20251113-012517.png)
+
+2. In the right rail, under Access and privacy configuration --> Marketing Action drop-down ensure the value is set to **None**
+
+![](assets/sGs1WlhaNBhmUJrKOvd-g_image.png)
+
+3. Under the Endpoint configuration --> Query Parameters menu click on the **Pencil icon** next to orderid
+
+![](assets/rYX_yAaVRitMmP9hKpa3Q-20251121-192339.png)
+
+4. In the modal that appears expand **Context **-> **orderShipped **-> **Order **and then select **Order ID (orderID) **and click **OK**
+
+![](assets/bxa225WAk-ITAa8_NwJ7--20251113-013041.png)
+
+5. Back in the right rail, ensure the option for Timeout or error is **unchecked **and then click the **Save button**
+
+![](assets/kJCyB6WTtNyGhF2CC5cdX-20251117-231216.png)
+
+
+
+## **Add Email Action**
+
+1. Under the Actions menu drag 'n drop the **Action **action onto the canvas after the GetShippingDetails action
+
+![](assets/eHlfUwB4FUguiZ38Wi7LV-20260610-171228.png)
+
+1. Select **Email **for the marketing action, then **Add**.
+
+![](assets/FEZlIvih4P2bdzkw_LsRb-20260615-094254.png)
+
+1. In the right rail, click **Configure action**
+
+![](assets/21LK4kE4IaXibzcUMhB_9-20260615-094515.png)
+
+1. set **Email channel Configuration **to `Profile-Email` and then click on **Edit Content**
+
+![](assets/hQEokhDKs5xAZra7MaPg9-20260615-094856.png)
+
+
+
+## Add Email Body Content
+
+For content, you are going to keep things simple. Like stupid simple.
+
+1. Update the Subject line to `Order Shipped`and then click on the **Edit email body button**
+
+![](assets/FKmn1-vVHrim0K9CwfBTV-20251117-231415.png)
+
+2. In the top bar click on the **Design from Scratch **content block
+
+![](assets/8_6vtCM_7SERuC85HW7XJ-20251117-231709.png)
+
+3. From the left bar under the Structure container drag 'n drop the **1:1 Column **onto the canvas
+
+![](assets/6dhPFQYOdTHlRw2swYNVW-20251113-180605.png)
+
+4. Then under the Contents container drag 'n drop the **Text **component into your** 1:1 Column**
+
+![](assets/R5k4g3L9OQ6ldTmyWqkqj-20251113-180642.png)
+
+5. Click into the Text component and **delete the current text** and then click the **Add Personalization **icon
+
+![](assets/g1PJXYbo3KeJ4FnAX_KkU-20251113-180737.png)
+
+6. In the left rail click on the **Contextual Attributes** folder and then navigate thru **Journey Orchestration** -> **Actions **and select **GetShippingDetails**
+
+![](assets/EpgPQiob6ESay4BzP9ilp-20251113-180824.png)
+
+7. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
+
+:::CodeblockTabs{indent="2"}
+```json
+{{profile.person.name.firstName}}, your order has shipped
+ETA: 
+Tracking Number: 
+```
+:::
+
+8. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
+   - **ETA: ** `eta`
+   - **Tracking Number:**  `tracking_number`
+
+![](assets/54bDWrDigSBU6GsKrKDAO-20251121-193136.png)
+
+>[!NOTE]
+>Click the **+ symbol** to add personalization attributes from the rail to the canvas.  It will place them where your cursor is so ensure you are "lined up" appropriately
+
+>[!NOTE]
+>Your email will use a combination of context attributes (ETA & tracking number) and Profile attributes (first Name). If you wanted to add other Profile attributes, you can click on the Profile Attributes tab and select anything you see.
+>
+>![](assets/VMjj8RIOkqFVcqrc7SU5b-20251119-011923.png)
+
+9. On the bottom of the screen click the **Validate **button and ensure you have no errors
+
+![](assets/dXZ9kxZKWZzBRR3WDdtbN-20251117-232100.png)
+
+10. If everything looks good click the **Save button **in the top right
+11. Then click the **Save **button again in the top right and click the **\<- left arrow** in the top left
+
+![](assets/oDLQWz6U6NQE7Iz_gEau2-20251113-181826.png)
+
+12. Finally, click the **\< Back icon **in top left to get back to the Journey Canvas
+
+![](assets/fTHS_8jWIbwxPB-5XZ8rq-20251113-182114.png)
+
+13. And then click the **Back **button again...
+
+>[!TIP]
+>Kidding! Thats was the last back button.....in this section 😜
+
+
+
+## Override Email Parameters
+
+:::Paragraph{listStyleType="decimal" indent="2"}
+Back on the main Journey Canvas, on the Email node, make sure you can see the read-only fields (you may need to click on the **Show read-only fields** icon)
+:::
+
+![](assets/t9irNGuprlOaUDddCff1R-20251223-223958.png)
+
+1. Scroll down to **Email Parameters **and click on the **Enable parameter override **icon
+
+![](assets/ftkJuiy_TbwfBth_tFmGR-20251223-224153.png)
+
+2. Click in the empty text box and then in the left rail drill down into **Context **-> **orderShipped **-> **\_dep **and click on the **personalEmail **field.  Then click the **OK button**
+
+![](assets/tzhJOLofP-5pzYYO8aVJ--20251223-224541.png)
+
+>[!WARNING]
+>This is a dangerous thing to do so avoid using it unless you need to in a production setting.  This will override the default location that Journeys looks for on the profile to execute messages.
+
+
+
+4. Click the **Save button **in the top right and then click the **back arrow** \<- in the top left to **close **the Journey
+
+![](assets/aR2-pJ8hT4GJh0D2vGP3J-20251117-232350.png)
+
+# Recap
+
+A published journey capable of responding to the Order Shipped event trigger, get the ETA from an external service and send an email.

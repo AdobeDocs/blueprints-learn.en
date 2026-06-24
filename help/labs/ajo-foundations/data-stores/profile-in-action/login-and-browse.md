@@ -1,0 +1,33 @@
+﻿---
+title: Login & Browse
+description: Login & Browse
+doc-type: article
+exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
+---
+
+# Login via UI
+
+1. Navigate to [https://experience.adobe.com](https://experience.adobe.com/) in your browser.
+2. Login using the credentials found in the **Sandbox Assignments PDF** that was emailed to you.
+   - **Use **the **Learner Account** email and password
+3. On the **Select an account** screen choose the **Company or School Account**.
+
+![](assets/1T9abpPuauPjqRR5HI_PJ_screenshot-2024-10-22-at-112051-pm.png "Adobe Login page")
+
+![](assets/baibx_I7oSJ1UwAcLQCJW_screenshot-2024-08-20-at-100553-am.png "Adobe Login with prompt for profle selection")
+
+![](assets/cRBD-Hrn9Hgw3_Krk2_Qj_screenshot-2024-10-22-at-112404-pm.png "Adobe Password page")
+
+
+
+# **Launch Experience Platform**
+
+Click on the Experience Platform icon from the quick access panel to access your bootcamp sandbox
+
+>[!NOTE]
+>You may not see this screen and be launched directly into the Experience Platform.  If so skip this step.
+
+![](assets/n-ADAXZy_lxxLyKc0x1oi-SbEjbQB3EXB3Of0IEgWrp-20241015-161044.png "Quick access for the Experience Platform")
+
+#
+

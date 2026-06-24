@@ -1,0 +1,135 @@
+﻿---
+title: Creating the Email
+description: Creating the Email
+doc-type: article
+exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
+---
+
+## Content creation with Templates
+
+**Purpose:** Learn how to create reusable templates in Adobe Journey Optimizer, then apply them inside a real email within a campaign.
+
+## Learning Objectives
+
+By the end of this module, you will be able to:
+
+1. Create a new campaign and use your new branded template.
+2. Update hero images, product images, buttons, and layout styling.
+
+## Create and Update the Email in a Campaign
+
+### Objective
+
+In this exercise, we will learn how to apply the template you created to an email within a journey. In an ideal scenario, you can use any existing journey or campaign and replace its email content with a standardized template to ensure brand consistency and faster execution.
+
+This step demonstrates how templates can be reused across journeys, allowing teams to update designs without rebuilding emails from scratch.
+
+## Create new email campaign
+
+1. Go back to the main screen and click on **Journeys Management → Campaigns**.
+2. Click on **Create Campaign** 
+
+![](assets/kk2TuBzGuFAS3lwKh4-Un_image.png)
+
+3. Select "**Orchestration - Marketing**" and click **confirm**
+
+![](assets/Mcg71pvrOBXUjL4YENwm4_image.png)
+
+4.  Name your campaign `Flagship Phone Launch Branded`. Press **Save **button. 
+
+![](assets/ZXSgkflj4pKWLUv1DMgFp_image.png)
+
+5. Click on the **+ sign** and select **Read Audience** activity 
+
+![](assets/BhsQnkqcipdu83MLhrlOv_image.png)
+
+6. The next step is to select **"Read Audience"** box and click on **Audience folder icon **
+
+![](assets/AE-xvn4jiBHSJsXZ3Pi-h_image.png)
+
+7. Select the **dep: Interested in iPhone 17** audience and click "**Add Audience**" button
+
+![](assets/qHvhjsncSg5V3KgmdmBdr_image.png)
+
+8. Select Entity - **dep-rel: Customer Account - customer\_id **(or any as it does not matter for this part)
+9. Add the **Email activity** by clicking **+ sign** and then select **Email **from Channel activities. 
+
+![](assets/-J734-OW9Lir4r4qkNoKH_image.png)
+
+9. Click on **Edit email**. 
+
+![](assets/tMOX6OvutNQ--fWeCAUL2_image.png)
+
+10. Click on the **Action tab** and and select the **your** email configuration. In my sandbox it is Relational Email. (Select Any)
+
+![](assets/7xYmI03Li-V94VGqi5e5D_image.png)
+
+11. Click on **Content tab**
+
+![](assets/UUB_DlVWDsaNj6hrqydpH_image.png)
+
+12. Click on **Apply Content Template**
+
+![](assets/iAlo2gfVFl6lTyipTJ4Nk_image.png)
+
+13. Select the template **"Promotional Template" **you created and click **Confirm**
+
+![](assets/kFmT75dlj3EaxYvr4k4h9_image.png)
+
+10. Click on **Edit email body**
+
+![](assets/denRDGgrcxwflb3Se3gOw_image.png)
+
+11. Confirm the new header, hero, footer, and content blocks appear correctly.
+
+![](assets/qKEH7zQGVztL7a_SWGIHO_image.png)
+
+***
+
+## Replace Hero Image & Product Images
+
+Let us change hero and phone images. You will need to upload content to assets from the toolkit folder. Currently your product hero banner image is a placeholder.
+
+1. Click the broken hero banner image.
+
+![](assets/LjvBA7pqgk18-aiQ9feJR_image.png)
+
+2. Remove the temporary source URL.
+
+![](assets/LOaT2TvvinvQpKFdcomCW_image.png)
+
+3. Click on **Import Media **
+
+![](assets/l5yajXzUbJhS5gVqG3qQC_image.png)
+
+4. Upload `hero.png` from your toolkit. (You can drag the file)
+
+![](assets/P3_LHDJECCXMpCBrEl70f_image.png)
+
+5 Click **Next, **Select **your folder for assets** and press **import**
+
+![](assets/S5D6K4KijF8FcXQZ89ppT_image.png)
+
+6. Your email template is coming up nicely. It should appear like below. Click on **"Save"** to save your work. 
+
+![](assets/4A-HEsJ4z1Ca3cSnvSACl_image.png)
+
+***
+
+## Optional Exercise
+
+### Replace Product Images
+
+Go ahead and update all the product images (images provided in the toolkit folder) and also add rounded border to your liking. Your email should look nicer without any broken links as shown below. Repeat the process for all product cards.
+
+![](assets/Gu_PjNjeRIGKkQTkSSYso_image.png)
+
+# Recap
+
+In this module, you successfully:
+
+- Created a new campaign with email using your branded template
+- Updated hero and product images
+- Enhanced styling 
+
+You are now ready to move on to next module - ** AI Assistant & Content Personalisation**, where you will use AI to refine text and generate images automatically.
