@@ -18,7 +18,6 @@ exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 
 3\. Update the `xdm:isPrimary` value in the body of the request to `true`
 
-:::CodeblockTabs
 EXAMPLE ONLY
 
 ```json
@@ -32,7 +31,6 @@ EXAMPLE ONLY
   "xdm:isPrimary": true
 }
 ```
-:::
 
 >[!NOTE]
 >Remember to update the tenant name above (\_devbc) with the your own

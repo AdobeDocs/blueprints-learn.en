@@ -26,7 +26,6 @@ Confirm that the profile does not yet appear in the Profile Snapshot dataset.
 
 3. Navigate back to the Query editor and copy & paste the below SQL into the editor
 
-:::CodeblockTabs{indent="1"}
 ```sql
 select
   identityMap,
@@ -49,7 +48,6 @@ from
   --where identityMap['email'][0].id = 'henry.creel@emailsim.io'
   limit 50
 ```
-:::
 
 4. Update the table name and email address as outlined below:
    - **Table name:**  on line 14 copy & paste the table name you have for the Profile Snapshot table between the <font color="#ae2121">from </font>and <font color="#ae2121">where</font>

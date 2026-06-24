@@ -51,7 +51,6 @@ A successful response should look like this:
 
                                        200 OK Successful Authentication
 
-:::CodeblockTabs
 Successful Response
 
 ```json
@@ -61,7 +60,6 @@ Successful Response
     "expires_in": 86399979
 }
 ```
-:::
 
 `token_type` - always will be of type bearer
 

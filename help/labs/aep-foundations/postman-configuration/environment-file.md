@@ -19,17 +19,11 @@ exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
 3. Launch Postman on your local machine and click on the `Import` button within your workspace
 4. Paste the URL of the `Environment File` into the import modal text box on the overlay.  This should trigger an automatic import
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/uCY1kQDFa7lfHFWTuKtvr_import-buttonenvironmental-file.png "Import Button")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/ygbntV4Irq-weJ24YD3c1_import-button-overlayenvironmental-file.png "Import Button Overlay")
-:::
-::::
 
 
 

@@ -44,9 +44,7 @@ The first and easiest offer item you'll create is the fallback offer, which anyo
    - Model: **17**
    - Make: **iPhone** 
 
-:::Paragraph{indent="2"}
 These are the actual text values that both describe the offer and what can be used in sorting, ranking, and eligibility criteria. They are also the text values that can be returned to the requesting device.
-:::
 
 ![Completed generic offer custome attribute validation](assets/vibzu1S3_tP2NRwXyKq8d-20251206-071032.png)
 
@@ -85,15 +83,11 @@ Now that the generic offer item has been created, you can create the next priori
    - Model: **17**
    - Make: **iPhone**
 
-:::Paragraph{indent="2"}
 When finished, the offer item should look like this (the red box is added to ensure the priority is correct):
-:::
 
 ![Base offer attributes validation](assets/4mn3nxpk3mZhd-5qkClsq-20251206-080331.png)
 
-:::Paragraph{indent="1"}
 When everything is correct, click the blue **Next **button to proceed to the next step.
-:::
 
 4. This offer item should be available to everyone, so there is no eligibility requirement; however, it should be capped at 3 impressions per day. Click the  '**+ Create capping'** button.
 5. On the new capping rule, change the **Choose capping event** to **Impression.**
@@ -101,9 +95,7 @@ When everything is correct, click the blue **Next **button to proceed to the nex
 
 ![Base offer capping validation](assets/obfApE9_77x2vpGGPigiG-20251206-081020.png)
 
-:::Paragraph{indent="1"}
 Once correct, click the blue **Create** button to save the capping rule. 
-:::
 
 >[!NOTE]
 >Notice how you could create an additional capping rule. In practice, you may want to add more than one rule. In this case, we could have added a rule to cap this if a specific event was seen, such as a purchase event. We're keeping it simple for now with a single capping rule. 

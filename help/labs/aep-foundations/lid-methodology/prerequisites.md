@@ -9,9 +9,7 @@ exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
 
 The LID methodology labs you are about to perform will teach you how to think when it comes to translating relational data models into the Experience Platform's NoSQL data model.  You will learn not just how to perform the data translations but more importantly why you must perform them and what questions you need to be asking along the way to validate your design.
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459078/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459078/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 
 
@@ -30,9 +28,7 @@ The LID methodology labs you are about to perform will teach you how to think wh
 
 Famalarize yourself with the training scenario before you get started with the labs.
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459080/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459080/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 
 

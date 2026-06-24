@@ -19,7 +19,6 @@ Below is the entire spec for the GET method for the Profile Entity API
 
 <font color="#2166ae">GET</font> https\://platform.adobe.io/data/core/ups/access/entities
 
-:::ExpandableHeading
 ## Query parameters 
 
 **schema.name**<font color="#fcb900">*</font> `string`
@@ -143,9 +142,7 @@ You can use UIS cached records in UPS to get identity map with this params equal
 withUISDebug `boolean`
 
 When you are using UIS cached records in UPS to get identity map, with this params equals to true, you will get the union set of all the xids identity map
-:::
 
-:::ExpandableHeading
 ## Header parameters
 
 x-gw-ims-org-id<font color="#fcb900">*</font>`string`
@@ -169,7 +166,6 @@ Authorization<font color="#fcb900">* </font>`string`
 Authorization token
 
 Example: "Bearer \<replace with your token
-:::
 
 >[!NOTE]
 >You can learn more about the Profile API's and others on the [Adobe Developer ](https://developer.adobe.com/experience-platform-apis/)website

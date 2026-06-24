@@ -126,7 +126,6 @@ Switch over to your Postman application and update the Create Customer Account r
 
 7\. You should receive a `200 OK` response indicating it was successfully received by the Adobe Experience Platform
 
-:::CodeblockTabs
 Sample 200 OK Response
 
 ```none
@@ -137,7 +136,6 @@ Sample 200 OK Response
     "receivedTimeMs": 1688068236344
 }
 ```
-:::
 
 >[!NOTE]
 >Note the **xactionId **in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as its a tracer bullet used by our support teams to debug any environment issues

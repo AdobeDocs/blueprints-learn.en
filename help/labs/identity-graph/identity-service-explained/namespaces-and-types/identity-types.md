@@ -14,8 +14,7 @@ In order to differentiate whether an identity participates in the creation of a 
 
 
 
-::::Tabs
-:::Tab{title="Person Types"}
+> **Person Types**
 These identity types tell identity service to process the identity records into the identity graph when two or more exist within a single record of data.
 
 - **Cookie ID** - used specifically for web browsers
@@ -23,15 +22,12 @@ These identity types tell identity service to process the identity records into 
 - **Hardware Device ID** - used specifically for hardware devices like mobile phones, tablets, set-top boxes, etc. Examples are IDFA (Apple), GAID (Android) and RIDA (Roku's) to name a few.
 - **Email** - email address of a person
 - **Phone Number** - phone number of a person
-:::
 
-:::Tab{title="Non-Person Types"}
+> **Non-Person Types**
 These identity types tell identity service to ignore processing the identities into the identity graph
 
 - **Non-people Identifier** - represent identities that are not describing a person such as Product SKU or Household ID (typically used for lookup tables within the Real-Time Customer Profile)
 - **Partner ID** - provided by data partners that may or may not represent people
-:::
-::::
 
 >[!NOTE]
 >**Note: **Identity Service will only process identities when two or more exist within a row of data and the identity types are person-based. The Identity Graph's purpose is to store deterministic relationships about a person.

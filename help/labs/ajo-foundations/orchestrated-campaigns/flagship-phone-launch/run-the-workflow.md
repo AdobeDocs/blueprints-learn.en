@@ -34,15 +34,9 @@ In the next few steps you will learn how to test your workflow and more importan
 
 4. Review the result coming into the SMS activity by clicking on **Result** (there are two Results so use the left one as shown below) and then in the left rail clicking on **Preview results** button.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/YMsYL09mFzWqWTjUIzVjT-20260128-213646.png)
-:::
 
-:::VerticalSplitItem
 ![Preview results](assets/30fb2uTgdLpOonGWwAiZ1-20260119-223609.png)
-:::
-::::
 
 
 
@@ -73,9 +67,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 ![SMS test send results](assets/_au3MjDVTzAtLfio30Gxg-20260120-173424.png)
 
-:::Paragraph{listRestartPolite="3" indent="1"}
 <font color="#EF4444">Wait, a minute...the incoming result  was 33 records so where did the 4 go?</font>
-:::
 
 
 

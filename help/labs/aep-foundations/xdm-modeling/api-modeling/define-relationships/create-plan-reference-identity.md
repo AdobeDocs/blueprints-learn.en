@@ -24,7 +24,6 @@ exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
 >
 >Don't forget the leading `/` either 😄
 
-:::CodeblockTabs
 EXAMPLE ONLY
 
 ```json
@@ -36,7 +35,6 @@ EXAMPLE ONLY
   "xdm:identityNamespace": "planID"
 }
 ```
-:::
 
 >[!NOTE]
 >Remember to update the tenant name above (\_devbc) with the your own

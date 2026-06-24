@@ -7,9 +7,7 @@ exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
 
 # Lecture
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459085/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459085/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 
 
@@ -80,7 +78,5 @@ Identify in each lookup table the field that will be Primary Identity and label 
 
 # Review
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459088/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459088/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 

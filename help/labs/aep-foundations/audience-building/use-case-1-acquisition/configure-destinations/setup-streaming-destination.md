@@ -103,19 +103,13 @@ When done ensure your configure matches what you see below.  If it looks good cl
 3. Change the **\[0]** to **\[\*] **in the field name.  Your final field should now show as **\_dep.activeProducts\[\*].model**
 4. When done click the **Next **button to continue to the next step
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/0A43ygDjMcBwAohd-5Hda_select-model-field.png "Select Model Field")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/Q2qButkM8RGukEa-ku7nS_final-model-field.png "Final Model Field")
-:::
-::::
 
 >[!NOTE]
 >This is mapping a field on Profile, not Experience Event. Even though we are sending profiles to a Destination based on Audience Qualification, we have to keep in mind what is happening. 

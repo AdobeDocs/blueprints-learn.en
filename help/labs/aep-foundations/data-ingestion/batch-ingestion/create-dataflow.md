@@ -52,19 +52,13 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 - **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
 - **account\_end\_date** has the proper date format.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/_HTLIJBLldAMbQtkm9tMS_sms-optin.png "sms_optin")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/lqxT3mFETK6s9VE11tpPr_account-create-date-account-end-date.png "account_create_date & account_end_date")
-:::
-::::
 
 >[!NOTE]
 >You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab

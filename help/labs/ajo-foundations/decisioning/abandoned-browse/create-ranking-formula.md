@@ -30,9 +30,7 @@ In this lab scenario, we'll pretend that the research marketing team for Connect
 
 ![Use offer priority score in a formula](assets/Xkhya1GMM6v7nfElIZUm9-20251210-062325.png)
 
-:::Paragraph{listRestartPolite="2" indent="1"}
 The default expression should now be set like this:
-:::
 
 ![Validate default offer priority score](assets/ssILtBICKZdsfuwsK4JtH-20251210-060259.png)
 

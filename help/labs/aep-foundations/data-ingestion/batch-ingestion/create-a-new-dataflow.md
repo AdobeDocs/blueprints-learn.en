@@ -46,19 +46,13 @@ On the mapping screen instead of setting up all your mappings again you can impo
 1. Click on the **Import mapping** button
 2. Select the dataflow that has the mapping you previously created
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/-csMePssFD5AlM6nL863s_import-mapping-button.png "Import mapping button")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/zwWP7A73WOyEISaAi4IWj_select-dataflow-to-import-mapping-from.png "Select dataflow to import mapping from")
-:::
-::::
 
 >[!NOTE]
 >Importing mappings are a handy way to re-use mappings from other dataflows to reduce the amount mapping work you need to perform

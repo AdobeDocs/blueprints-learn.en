@@ -26,7 +26,6 @@ exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 >
 >Don't forget the leading `/` either 😄
 
-:::CodeblockTabs
 EXAMPLE ONLY
 
 ```json
@@ -40,7 +39,6 @@ EXAMPLE ONLY
   "xdm:destinationVersion": 1
 }
 ```
-:::
 
 >[!NOTE]
 >Remember to update the tenant name above (\_devbc) with the your own

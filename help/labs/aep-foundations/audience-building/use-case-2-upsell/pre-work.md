@@ -42,18 +42,12 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 
 Search for "Plan" in Attributes.  Notice we have a number of things to choose from.  Let's narrow it down to "Plan Name".  We have two Plan Names?!
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/mMLpGE6PWl3CTOGU_XG9n_plan-1.png)
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/VwAFtM_N-A0xpVK3T8Lww_plan-2.png)
-:::
-::::
 
 The Plan Name (Plan Name) seems to be the one we need based on the description and the other one is missing a description.

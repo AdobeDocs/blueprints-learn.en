@@ -26,9 +26,7 @@ At this point, you have learned that we can not only personalize the profile att
 
 ![](assets/19p3U9X_CHBaM4efsxWxR_image.png)
 
-:::Paragraph{indent="1"}
 A simulation panel will open.
-:::
 
 3. Click **Send Proof**.
 

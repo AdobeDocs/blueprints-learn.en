@@ -59,9 +59,7 @@ Now you will map this API credential to a channel configuration that journeys an
 >[!WARNING]
 >If you get an error of user does not have permissions ignore it and continue on with your day
 
-:::Paragraph{listStyleType="disc" listStart="3" indent="2"}
 **Marketing Action:**  `SMS Targeting`
-:::
 
 ﻿
 
@@ -98,15 +96,9 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
    - **Profile Target Dimension:**  `del-rel: Customer Account - customer_id`
    - **Secondary Dimension:**  `Customer Line`
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![Setup the execution dimension](assets/YEvABUpQZTUoJ81l3-rqp_image.png)
-:::
 
-:::VerticalSplitItem
 ![](assets/4Y1rO6942x_vhWKVxWWS5_image.png "Secondary Dimension")
-:::
-::::
 
 >[!NOTE]
 >This is telling Orchestrated Campaigns that when it sends messages if should deliver one message per record that that matches to the Profile Target Dimension.
@@ -121,15 +113,9 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 5. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/p0HWpDLI7AADX-fRFV3F1_image.png)
-:::
 
-:::VerticalSplitItem
 ![](assets/co6cW9s4IZwdgbKow7jGj_image.png "Mobile Phone field")
-:::
-::::
 
 
 

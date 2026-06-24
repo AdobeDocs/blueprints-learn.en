@@ -7,9 +7,7 @@ exl-id: 742b58fa-3feb-4275-ab45-eb8d3aade22c
 
 # Lecture
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459082/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459082/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 
 
@@ -71,7 +69,5 @@ Identify and label tables in the Connection 5G warehouse and streaming ERDs that
 
 # Review
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459064/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459064/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 

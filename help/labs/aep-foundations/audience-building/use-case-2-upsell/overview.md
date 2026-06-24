@@ -7,9 +7,7 @@ exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
 
 # Overview
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459487/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459487/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 
 

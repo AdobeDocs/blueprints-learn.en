@@ -11,25 +11,20 @@ In this step, you’ll combine the two audiences by intersecting them into a sin
 
 This involves using the Combine activity which provides three options to you:
 
-::::Tabs
-:::Tab{title="Union"}
+> **Union**
 Union means you keep all the results from both audiences. For those of you who are visual it would look like this
 
 ![Union example](assets/SR4HwkKakmZqDnixVx2X3-20251205-235752.png)
-:::
 
-:::Tab{title="Intersection"}
+> **Intersection**
 Intersection means you only keep what matches between both audiences.  The visual looks like this...
 
 ![Intersection example](assets/FtOqExyV_w2wrqTf4F80X-20251205-235559.png)
-:::
 
-:::Tab{title="Exclusion"}
+> **Exclusion**
 Exclusion means you only keep the result of one audience after subtracting the other audience from it. A visual looks like this...
 
 ![Exclusion example](assets/ljQZw8ieZf3_h8UF7wi2Y-20251205-235724.png)
-:::
-::::
 
 >[!WARNING]
 >In order to combine two different workflow branches together into a single result they must share the same targeting dimension or have a common key between.

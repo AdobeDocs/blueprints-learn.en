@@ -5,9 +5,7 @@ doc-type: article
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
 ---
 
-:::Iframe{iframeHeight="0" code="<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459564/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>"}
-
-:::
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459564/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 >[!NOTE]
 >First off congratulations!  Building things via API is not easy but if you understand how it works you will better understand how the system works.  Kudos!

@@ -52,18 +52,14 @@ Add a text "Hi," above the main title and lick on personalisation icon.
 
 7. Repeat the process above but this time search and add **Last Name**.
 
-:::Paragraph{indent="1"}
 Your final syntax should show first and last name variables clearly separated.
-:::
 
 ![](assets/Uh0xIXN1E-QFTvz8KBYDy_image.png)
 
 8. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
 9. Click **Save** 
 
-:::Paragraph{indent="1"}
 Your view should be like this. Curly brackets consists of variables and each individual will receive email with their names. 
-:::
 
 ![](assets/eQgN7B_dRt9rIwNm-qzi8_image.png)
 

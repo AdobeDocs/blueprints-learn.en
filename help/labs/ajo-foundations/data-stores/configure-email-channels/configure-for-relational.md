@@ -28,9 +28,7 @@ In the next set of steps you will create an Email Channel Configuration with **o
 
 
 
-:::Paragraph{indent="1"}
 
-:::
 
 ## Configure Email Type
 

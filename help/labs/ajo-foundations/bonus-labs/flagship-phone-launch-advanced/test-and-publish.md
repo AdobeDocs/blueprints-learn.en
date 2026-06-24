@@ -64,25 +64,15 @@ Once you have validated the workflow and confirmed all configuration steps are c
 
 Messages (Email/SMS) are delivered to **eligible users** based on: 
 
-:::Paragraph{listStyleType="disc" indent="2"}
 The targeting logic defined in the workflow 
-:::
 
-:::Paragraph{listStyleType="disc" listStart="2" indent="2"}
 The scheduled execution time 
-:::
 
-:::Paragraph{listStyleType="disc" listStart="3" indent="2"}
 Opt-in and channel eligibility 
-:::
 
-:::Paragraph{listStyleType="disc" listStart="4" indent="2"}
 Any primary/secondary dimension targeting rules 
-:::
 
-:::Paragraph{listStyleType="disc" indent="3"}
 Channel-specific treatments (such as SMS for secondary lines) follow the logic configured in the workflow.
-:::
 
 
 

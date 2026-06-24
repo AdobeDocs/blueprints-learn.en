@@ -130,19 +130,13 @@ After doing some analysis, we are going to go with the <font color="#eb144c">Ord
 
 Turn on Show Full Schema
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/AII5lFg15xZ3L7ClxjrUs_turn-on-show-full-schema-1.png)
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/bUFABbvXOEVZscXZxIvHQ_turn-on-show-full-schema-2.png)
-:::
-::::
 
 Let's build on what we started.  Click on the Placed card, then **clear “placed” from the Search** on the left rail and drill down into:
 

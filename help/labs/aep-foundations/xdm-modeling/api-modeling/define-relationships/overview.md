@@ -9,7 +9,6 @@ exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
 
 In order to create a relationship from one schema to another, you need to create a Relationship Descriptor in the schema registry. A sample schema descriptor body looks like the following:
 
-:::CodeblockTabs
 One-to-one Descriptor
 
 ```json
@@ -22,9 +21,7 @@ One-to-one Descriptor
   "xdm:destinationVersion": 1
 }
 ```
-:::
 
-:::CodeblockTabs
 Reference Identity Descriptor
 
 ```json
@@ -36,7 +33,6 @@ Reference Identity Descriptor
   "xdm:identityNamespace": "planID"
 }
 ```
-:::
 
 ##
 

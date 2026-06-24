@@ -104,15 +104,9 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 4. In the modal that appears click on the **Enable **button
 5. Don't forget to **Save **your schema when you are done!
 
-::::VerticalSplit{layout="left"}
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-jmqtGYpp2mn80cVYsf7Nq-20241023-200555.png "Schema Profile Toggle")
-:::
 
-:::VerticalSplitItem
 ![](assets/k8kX8aT1UxAUEGBjgus_p_screenshot-2024-10-23-at-10714-pm.png)
-:::
-::::
 
 >[!TIP]
 >Congratulations!  You just created a schema to use with the Real-Time Customer Profile.

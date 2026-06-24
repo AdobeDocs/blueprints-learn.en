@@ -52,15 +52,9 @@ In the Endpoint configuration area provide the following details:
 
 - **Authentication Type**: `No Authentication`
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/rZ-MD9gDP54DaU3wV2Ffv-20260121-224857.png)
-:::
 
-:::VerticalSplitItem
 ![](assets/X7b2R7jGuU2KoXlb84DVY-20260121-224916.png)
-:::
-::::
 
 
 
@@ -70,21 +64,14 @@ Now you need to provide a sample payload so the action knows what the response p
 
 1. In the Payloads area click on the **Pencil icon** to open the Field configuration screen
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/JNPWtISmH68-rVbooJAGN-20251112-191547.png)
-:::
 
-:::VerticalSplitItem
 ![](assets/p9syM-UXJbkAx4aRXPgj--20251112-191647.png)
-:::
-::::
 
 
 
 2. **Copy and paste** the below payload into the Payload box
 
-:::CodeblockTabs{indent="1"}
 JSON
 
 ```json
@@ -93,7 +80,6 @@ JSON
     "tracking_number": "072000326"
 }
 ```
-:::
 
 >[!NOTE]
 >This is the same JSON structure the mockaroo endpoint we use above should return:
@@ -127,7 +113,6 @@ JSON
 
 ![](assets/WYsxnbwpkIVug1YHoEWBP-20260121-230625.png)
 
-:::CodeblockTabs{indent="1"}
 Preview
 
 ```json
@@ -136,7 +121,6 @@ Preview
   "tracking_number": string "063112249"
 }
 ```
-:::
 
 >[!WARNING]
 >If you are not seeing a 200 response or a Preview do not continue. Raise your ✋to get some help.

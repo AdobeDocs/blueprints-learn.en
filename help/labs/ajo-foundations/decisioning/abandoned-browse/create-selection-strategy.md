@@ -24,9 +24,7 @@ Imagine that we had hundreds of offers utilized in forty collections and a dozen
    - Eligibility requirements
    - A Ranking Method
 
-:::Paragraph{indent="2"}
 Click the **Select Collection** button, tick the box next to the only Collection you have (**iPhone 17 Collection**), and click **Save**.
-:::
 
 5. Leave the 'Eligibility' drop-down set to All Visitors.
 

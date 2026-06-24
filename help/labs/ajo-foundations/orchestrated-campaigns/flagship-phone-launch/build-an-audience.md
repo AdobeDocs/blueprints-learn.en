@@ -108,9 +108,7 @@ Now its time to write the logic of the audience using the attributes found in th
    - **Value:**  `Apple`
    - **Case sensitive:**  `Enabled`
 
-:::Paragraph{indent="1"}
 Click on the **calculate icon** and you should see 85 as the result.
-:::
 
 ![Condition #2 Final Count](assets/BAxO-ciBkkvuzoNkWA8OF-20260416-145252.png)
 
@@ -144,13 +142,11 @@ Assume for a moment you had typed in the last condition such that `Make` was equ
 
 ![](assets/Qa5xNh_1qx59JI8OEoY-C-20260115-225804.png "Last condition is 0")
 
-:::ExpandableHeading
 ## Answer
 
 Its zero :) Do you know why?
 
 ![](assets/m-RrCYFw1b2BL7nkG_JX6-20260115-225933.png)
-:::
 
 
 

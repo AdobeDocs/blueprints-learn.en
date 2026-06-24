@@ -19,17 +19,11 @@ exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
 3. Launch Postman on your local machine and click on the `Import` button within your workspace
 4. Paste the URL of the `Postman API Collection File` into the import modal text box on the overlay.  This should trigger an automatic import
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/w8pfpqCeINsL6P-wB8_Co_import-button.png "Import Button")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/HN9bLoBAbRG0p__BFkWIC_import-button-modal-text-box.png "Import Button Modal Text Box")
-:::
-::::
 
 You should now see a collection populated under the left sidebars `Collections` tab called `AEP Foundations Bootcamp`
 

@@ -26,9 +26,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 ![](assets/wnyV5WyS3iyKIvOILMzRU-20260615-104621.png)
 
-:::Paragraph{indent="1"}
 
-:::
 
 >[!NOTE]
 >It might take a minute to get ready. During that time the Trigger an Event button will not be available.

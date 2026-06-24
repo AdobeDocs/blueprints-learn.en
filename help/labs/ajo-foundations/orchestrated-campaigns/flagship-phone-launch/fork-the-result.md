@@ -30,9 +30,7 @@ This step is simple in that all you want to do is add a Fork activity such that 
 
 
 
-:::Paragraph{listRestartPolite="3" indent="1"}
 When done your canvas should now look like so...
-:::
 
 ![Final result with fork activity](assets/UqBlji81jNMY6x94K4hJk-20260116-025503.png)
 

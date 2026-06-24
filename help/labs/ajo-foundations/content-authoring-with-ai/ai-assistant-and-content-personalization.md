@@ -46,9 +46,7 @@ For this exercise, we will improve the email that we have created using the AI A
 4. You will notice that Brand Guideline is selected by default. 
 5. Enter the prompt:
 
-:::BlockQuote{indent="1"}
-We are launching iPhone 17 and want a subject line to be catchy
-:::
+>We are launching iPhone 17 and want a subject line to be catchy
 
 1. Press **Generate**.
 2. Review the four variants generated.
@@ -80,9 +78,7 @@ We are launching iPhone 17 and want a subject line to be catchy
 
 4. Prompt:
 
-:::BlockQuote{indent="1"}
-*Write a bold, attention-grabbing headline for the iPhone 17 launch. Keep it under 10 words*
-:::
+>*Write a bold, attention-grabbing headline for the iPhone 17 launch. Keep it under 10 words*
 
 6. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English **and Tone to **Exciting**. Use shorter version by scalling down the dial. 
 
@@ -122,19 +118,13 @@ This time we want to test how AI can help to find issues.
 
 5. Lets use new paragraph that is generated for you using AI using the prompt below. You can use same approach for decription text using the prompt below.
 
-:::Paragraph{indent="1"}
 Prompt:
-:::
 
-:::BlockQuote{indent="1"}
-*Write a compelling product description for the new iPhone 17. Highlight its most impressive features, such as advanced camera, battery life, and performance. The tone should be premium, exciting, and easy to understand for a wide audience. Keep it under 3 sentences.*
-:::
+>*Write a compelling product description for the new iPhone 17. Highlight its most impressive features, such as advanced camera, battery life, and performance. The tone should be premium, exciting, and easy to understand for a wide audience. Keep it under 3 sentences.*
 
 In order to save time I have already created the text for you. Copy and paste below to get your text.
 
-:::BlockQuote
-Discover the iPhone 17™ - featuring an advanced camera for stunning photos, all-day battery life to keep you going, and lightning-fast performance that keeps you ahead. Don’t miss out on this innovative experience.
-:::
+>Discover the iPhone 17™ - featuring an advanced camera for stunning photos, all-day battery life to keep you going, and lightning-fast performance that keeps you ahead. Don’t miss out on this innovative experience.
 
 
 

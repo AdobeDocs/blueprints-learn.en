@@ -48,17 +48,11 @@ To see how you can automate deployments using API's you will execute a folder of
 
 5\. Go the Experience Platform UI and you should see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-W_W3kPDYjFu52exXE6-bs-20241017-191330.png "Automation Schemas")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/BcqFozB78hmUiuOusmC6R_automation-datasets.png "Automation Datasets")
-:::
-::::
 
 >[!NOTE]
 >Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema

@@ -115,11 +115,9 @@ What is the final audience count if you switched the last condition to say Accou
 
 ![](assets/sxCJoYyHi5A16DkziO5gY-20251205-205749.png "Account end date is empty")
 
-:::ExpandableHeading
 ## Answer
 
 Its zero :) Do you know why?
 
 ![](assets/JHRpPeVNimo4dKvriSSOr-20251205-210203.png "Final audience count is now 0")
-:::
 

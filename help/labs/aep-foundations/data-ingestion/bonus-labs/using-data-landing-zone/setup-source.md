@@ -41,19 +41,13 @@ When uploaded your screen should look like the below screenshot.
 - **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
 - **account\_end\_date** has the proper date format.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/NdIBbtrUZKMx7kG2jiWYV_sms-optin.png "sms_optin")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/UFrtOZI7jjngyX_WJZNwF_account-create-date-account-end-date.png "account_create_date & account_end_date")
-:::
-::::
 
 >[!NOTE]
 >You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab

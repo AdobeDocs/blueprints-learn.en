@@ -134,15 +134,9 @@ Do another search for the Depeche Mode profile but this time using the **No ID S
 
 Comparing both views of the profile you should notice they are very different. Some attributes and identities are missing from the version that uses the "No ID Stitching" merge policy.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-Ppdk7pgkYiN4sxJDm0G_L-20241018-195757.png "Default Timebased merge policy")
-:::
 
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-sD23fqqOO3urwndJB7sXR-20241018-200006.png "No ID Stitching merge policy")
-:::
-::::
 
 If you look at each profile's events you will notice that the profile using the No ID Stitching merge policy only contains a single event whereas the other version contains all the events.
 
@@ -161,15 +155,9 @@ You can look at the various fragments of the Depeche Mode profile using some of 
 | ------------------ | --------- |
 | customerID         | 266242885 |
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-EzcFcCi4fEd1bQIAIeaBn-20241021-170725.png)
-:::
 
-:::VerticalSplitItem
 ![](assets/n-ADAXZy_lxxLyKc0x1oi-Bsi2RnaPXBDiAv_Vob91i-20241021-171006.png)
-:::
-::::
 
 **Question's to Ask Yourself**
 

@@ -23,15 +23,9 @@ On this page, you will import the Postman Environment File.  This file contains 
 
 3. Paste the local URL of the **AJO Bootcamp.postman\_environment.json **file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/_KzFU8mgbtroFvJdwvQV1_import-button-overlay.png "Postman import via URL")
-:::
 
-:::VerticalSplitItem
 ![](assets/eASQH2ETIzbrXjvUqQvfI-20260106-221455.png "Postman import via drag and drop")
-:::
-::::
 
 4. Once imported, validate that the environment exists by clicking on the **Environments** tab in the left sidebar. You should see that the AJO Bootcamp environment is now available to you. 
 
@@ -61,13 +55,9 @@ Postman was designed for testing and interacting with APIs. However, we're using
 | Japan      | jpn3            |
 | Asia       | spg3            |
 
-:::Paragraph{indent="1"}
 When done, your environment file should look similar to this:
-:::
 
-:::Paragraph{indent="1"}
 
-:::
 
 ![Verify Postman region variable](assets/ubOnxytcSag8BTinQ6Kbp-20260313-213053.png)
 

@@ -49,12 +49,10 @@ Create your message and add personalization fields.
    - Expand entities under the **Target Dimension** 
    - Select the fields to include in the message or simply paste the following text. 
 
-:::BlockQuote{indent="2"}
-Hi 
-\{\{ target.dep\_rel\_customer\_account.first\_name}}
-Your line \{\{target.dep\_rel\_customer\_line.mobile\_phone}}
-using a \{\{target.dep\_rel\_customer\_line.product\_lookup.model}} : \{\{target.dep\_rel\_customer\_line.product\_lookup.make}} is eligible for an upgrade.
-:::
+>Hi 
+>\{\{ target.dep\_rel\_customer\_account.first\_name}}
+>Your line \{\{target.dep\_rel\_customer\_line.mobile\_phone}}
+>using a \{\{target.dep\_rel\_customer\_line.product\_lookup.model}} : \{\{target.dep\_rel\_customer\_line.product\_lookup.make}} is eligible for an upgrade.
 
 4. Click **validate **on the editor and make sure there are no validation errors. 
 

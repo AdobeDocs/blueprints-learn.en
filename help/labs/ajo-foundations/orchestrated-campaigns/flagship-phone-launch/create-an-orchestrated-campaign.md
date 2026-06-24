@@ -38,9 +38,7 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
    - **Merge policy** --> `Default Timebased`
    - **Tags **-->* leave empty*
 
-:::Paragraph{indent="1"}
 When done your screen should look like below. 
-:::
 
 ![Campaign settings](assets/NeOYrVdx0jLAKfNNPo0-f-20251202-181347.png)
 

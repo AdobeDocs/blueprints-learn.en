@@ -68,15 +68,9 @@ In order to create a Journey that uses a Unitary Event, we need to first configu
    - **Namespace **--> `Email`
    - **Profile Identifier** --> `personalEmail`
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![Selection of profile identifier](assets/4MsqcUYud_yhY0WVteuMq-20260121-215641.png)
-:::
 
-:::VerticalSplitItem
 ![Final configuration ](assets/Frfc42l9m9ui0dcgbsvk3-20260121-215718.png)
-:::
-::::
 
 >[!NOTE]
 >**What is the Namespace and Profile Identifier used for?**

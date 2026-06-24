@@ -95,21 +95,13 @@ Let us create a header fragment to start with. However, before we start creating
 
 ![](assets/LhUHYIetJSDEPmRlmIisv_image.png)
 
-:::Paragraph{listStyleType="decimal" listStart="2" listRestartPolite="2" indent="2"}
 Give a friendly name as shown below. Add all details as follows: 
-:::
 
-:::Paragraph{listStyleType="decimal" indent="3"}
 **Name:** Header
-:::
 
-:::Paragraph{listStyleType="decimal" listStart="2" indent="3"}
 **Description: **Fragment Header for the template
-:::
 
-:::Paragraph{listStyleType="decimal" listStart="3" indent="3"}
 **Type: **Select Visual fragment
-:::
 
 ![](assets/H0nUbNZkBvLHgHkOxrOy9_image.png)
 
@@ -117,9 +109,7 @@ Give a friendly name as shown below. Add all details as follows:
 
 ![](assets/rvxSIRLzpHDJJUQLSWOQI_image.png)
 
-:::Paragraph{indent="1"}
 You will now be presented with a blank fragment creator screen. 
-:::
 
 5. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
@@ -164,9 +154,7 @@ You will now be presented with a blank fragment creator screen.
 
 ![](assets/ZiBQ51XzA8x1SUUYlEOEy_image.png)
 
-:::Paragraph{indent="1"}
 You will see the status will change to **"Live"**. At this point, we have completed building a header fragment which we will be used in our next step. 
-:::
 
 ![](assets/2r0BSKbG_vME0-2x4UKBD_image.png)
 

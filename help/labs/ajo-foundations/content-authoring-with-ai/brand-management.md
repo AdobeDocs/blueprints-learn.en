@@ -69,9 +69,7 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
 
 5. Click **Create brand** to begin the extraction.
 
-:::Paragraph{indent="1"}
 A progress screen will appear while AJO analyses your file. This may take several minutes depending on the size of the document.
-:::
 
 ![](assets/pqQVNqRxW0L10J6qyI75e_image.png)
 
@@ -90,9 +88,7 @@ A progress screen will appear while AJO analyses your file. This may take severa
 
 ![](assets/QP06-Sgota4ZkuKHgWfMB_image.png)
 
-:::Paragraph{indent="1"}
 A green confirmation bar appears at the bottom of the page indicating that your brand is successfully published.
-:::
 
 8. Click back on the main brand page and you will see your brand is now live (This shoudl be shown by green dot with a label **"Live"**)
 
@@ -171,21 +167,13 @@ In the extracted content, some guiding principles may be incomplete. You will no
 
 3. Add the following text:
 
-:::Paragraph{indent="1"}
 **Vision:**
-:::
 
-:::BlockQuote{indent="1"}
-Empower every individual with instant, reliable connectivity that enhances life, work, and play, no matter where they are.
-:::
+>Empower every individual with instant, reliable connectivity that enhances life, work, and play, no matter where they are.
 
-:::Paragraph{indent="1"}
 **Market positioning:**
-:::
 
-:::BlockQuote{indent="1"}
-Connection 5G delivers premium-speed mobile service designed for digital lifestyles, standing out with unmatched reliability, simplicity, and future-ready innovation.
-:::
+>Connection 5G delivers premium-speed mobile service designed for digital lifestyles, standing out with unmatched reliability, simplicity, and future-ready innovation.
 
 ![](assets/I3GwT8EeWiekNJLW6OOjQ_image.png)
 
@@ -218,13 +206,9 @@ Next, you will enhance the brand by adding a rule that ensures email buttons are
 >[!NOTE]
 >This is added as a Don’t rule, meaning the brand does not want pushy CTAs
 
-:::Paragraph{listStyleType="disc" listStart="2" indent="2"}
 **Channel:** Email
-:::
 
-:::Paragraph{listStyleType="disc" listStart="3" indent="2"}
 **Element:** Button
-:::
 
 5. Click **Add**.
 
@@ -236,9 +220,7 @@ Next, you will enhance the brand by adding a rule that ensures email buttons are
 
 7. Click **Save**.
 
-:::Paragraph{indent="1"}
 This rule will be applied wherever AI Assistant or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
-:::
 
 ![](assets/bivsM8Cm1Cpb4ctCn98Eq_image.png)
 

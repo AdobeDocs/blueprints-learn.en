@@ -33,17 +33,11 @@ A field group is always composed of the following fields. You will see this in t
 
 Review the body of the request before executing. Notice that the required fields mentioned in the [Field Group Structure]()  section appear like so:
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/JunXRjZEj6VjNnbxqMMGN_field-group-structure.png "Field Group Structure")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/KheXEhm58SN9sqK2SoEWl_image.png "Field Group Structure allOf")
-:::
-::::
 
 >[!NOTE]
 >Notice how in the image on the right above the `allOf` references the path of "/definitions/customFields".  That must match the structure defined in the schema (image on the left) as it tells the XDM system where to locate custom created objects.
@@ -54,19 +48,13 @@ Review the body of the request before executing. Notice that the required fields
 
 Also notice how each specific field from the mapping sheet is substantiated within the XDM JSON structure. 
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/xq7x73qvAhSgn4Q8gyPGD_plan-dot-notation-to-xdm-json.png "Plan Dot Notation to XDM JSON")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/OE6ta7H0_mUq-lfv-f4oH_account-customer-id-dot-notation-to-xdm.png "Account & Customer ID Dot Notation to XDM")
-:::
-::::
 
 
 

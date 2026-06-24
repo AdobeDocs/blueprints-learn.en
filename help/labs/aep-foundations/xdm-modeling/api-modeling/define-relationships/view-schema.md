@@ -35,19 +35,13 @@ exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
 
 You should now see a `200 OK` response and you should be able to browse to the end of the schema you created to see the Identity through the lens of the XDM JSON structure
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/ngtzk5xPfeslE_KGWvIzg_relationship-descriptor.png "Relationship Descriptor")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/yi_pt4Ed88GbpjwD-dSfX_reference-identity-descriptor.png "Reference Identity Descriptor")
-:::
-::::
 
 
 

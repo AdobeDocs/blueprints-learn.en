@@ -50,15 +50,9 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. On the workflow canvas, click the **+** icon after the split condition you added and select the **SMS Activity**
 
-::::VerticalSplit{layout="left"}
-:::VerticalSplitItem
 ![Add the SMS activity](assets/LIRjgKoA--tRTv6KOe5Lj-20260119-193014.png)
-:::
 
-:::VerticalSplitItem
 ![SMS activity on the canvas](assets/DYHu3wPBBSx-26ikM_MpK-20260119-193117.png)
-:::
-::::
 
 
 

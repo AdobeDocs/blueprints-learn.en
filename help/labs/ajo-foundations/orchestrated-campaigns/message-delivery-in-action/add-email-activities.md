@@ -22,9 +22,7 @@ In the next set of steps, you will build on the campaign to add two Email activi
 
 ![Add Email activity](assets/bkAOSr6X3CD_rBZDdlWTE-20260114-182607.png)
 
-:::Paragraph{indent="2"}
 The **Email** details pane opens
-:::
 
 ![Edit Email activity](assets/WCBZf3SYLFr4m0aIyJ243-20260114-182607.png)
 

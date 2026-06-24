@@ -23,15 +23,9 @@ In the next set of steps you will be saving the audience your created back to th
    - **Label:**  `Convert Line to Account`
    - **New target dimension:**  `dep-rel: Customer Account`
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![Click arrow on targeting dimension](assets/7kLmCgqd1IE3vJrZGp-R1-20260116-030016.png)
-:::
 
-:::VerticalSplitItem
 ![Select Customer Account](assets/UX98KZEDDylb631TIoDxE-20260609-203106.png)
-:::
-::::
 
 >[!NOTE]
 >**Why are you doing this you ask?**  Remember that to join to the Real-Time Customer Profile (which is where you save audiences to) you have to use the Profile Target Mapping you configured which only joins from the dep-rel: Customer Account schema.
@@ -60,15 +54,9 @@ In the next set of steps you will be saving the audience your created back to th
 
 3. Now click the **+ Add attribute** button and select the field from the schema titled **Customer ID**
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![Add attribute](assets/rBb-aru5RvZlHr6gHsTAC-20260617-113939.png)
-:::
 
-:::VerticalSplitItem
 ![Select the Customer ID field](assets/-stRWQ9IaTtO2ZJIqPIpb-20260119-170347.png)
-:::
-::::
 
 
 
@@ -154,7 +142,6 @@ What happens if you do not deduplicate before saving the audience?  Will the aud
 
 
 
-:::ExpandableHeading
 ## Answer
 
 The audience will store all 65 records, but a read audience activity will dedup them on import based on the join condition 😁
@@ -162,7 +149,6 @@ The audience will store all 65 records, but a read audience activity will dedup 
 
 
 
-:::
 
 
 

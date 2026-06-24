@@ -19,8 +19,6 @@ Go to **Journeys **and click **Create Journey - Create from scratch**
 
 # Journey Properties
 
-:::::VerticalSplit{layout="right"}
-::::VerticalSplitItem
 1. Update the Journey Properties in the right rail with the following:
    - **Name**: `Order Shipped Journey`
    - **Description**: `Notify customer that order has shipped. Include shipping details.`
@@ -32,53 +30,31 @@ Go to **Journeys **and click **Create Journey - Create from scratch**
 >
 >Don't worry and move on. The very first journey created in a sandbox needs to "prime the pump".  Once we publish the journey, this drop down will have options to choose from.
 
-:::Paragraph{listStyleType="disc" listStart="5" indent="2"}
 **Allow reentrance**: `checked`
-:::
 
-:::Paragraph{listStyleType="disc" listStart="6" indent="2"}
 **Reentrance wait period:**  `5 minutes`
-:::
 
-:::Paragraph{listStyleType="disc" listStart="7" indent="2"}
 **Access labels**: *leave blank*
-:::
 
-:::Paragraph{listStyleType="disc" listStart="8" indent="2"}
 **Time Zone**: `Your Local timezone`
-:::
 
-:::Paragraph{listStyleType="disc" listStart="9" indent="2"}
 **Use Profile time zone in waits and conditions**: `NOT checked`
-:::
 
-:::Paragraph{listStyleType="disc" listStart="10" indent="2"}
 **Start/End Date**: *leave blank*
-:::
 
-:::Paragraph{listStyleType="disc" listStart="11" indent="2"}
 **Timeout or error**: `30`
-:::
 
-:::Paragraph{listStyleType="disc" listStart="12" indent="2"}
 **Capping rules:** *leave blank*
-:::
 
-:::Paragraph{listStyleType="disc" listStart="13" indent="2"}
 **Priority**: `0`
-:::
 
 
 
 2. If everything looks good click the **Save **button
-::::
 
-:::VerticalSplitItem
 ![](assets/PEKi_MLQgSI5VZ6ayZeen-20251113-011132.png)
 
 
-:::
-:::::
 
 ****
 
@@ -88,19 +64,13 @@ Go to **Journeys **and click **Create Journey - Create from scratch**
 
 From the left pane under the **Events menu** drag 'n drop the **orderShipped **event onto the canvas as shown below
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/48Vp2fxzZi18gKAc6RLW--20251113-012116.png)
 
 
-:::
 
-:::VerticalSplitItem
 ![](assets/lmn6jKE1hVlRvKw35tCVT-20251113-012227.png)
 
 
-:::
-::::
 
 
 
@@ -178,13 +148,11 @@ For content, you are going to keep things simple. Like stupid simple.
 
 7. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
 
-:::CodeblockTabs{indent="2"}
 ```json
 {{profile.person.name.firstName}}, your order has shipped
 ETA: 
 Tracking Number: 
 ```
-:::
 
 8. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
    - **ETA: ** `eta`
@@ -222,9 +190,7 @@ Tracking Number:
 
 ## Override Email Parameters
 
-:::Paragraph{listStyleType="decimal" indent="2"}
 Back on the main Journey Canvas, on the Email node, make sure you can see the read-only fields (you may need to click on the **Show read-only fields** icon)
-:::
 
 ![](assets/t9irNGuprlOaUDddCff1R-20251223-223958.png)
 

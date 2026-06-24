@@ -20,17 +20,11 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 >- Any Event filtered by Event Type=order.placed
 >- Any Event filtered by Event Type=order.cancelled
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 ![](assets/c2s4yc55UjoZ5n3qkMV0L_change-the-time-to-within-a-week-1.png)
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/t738l76KwYELt5xzjIhNB_change-the-time-to-within-a-week-2.png)
-:::
-::::
 
 >[!NOTE]
 >**Time**

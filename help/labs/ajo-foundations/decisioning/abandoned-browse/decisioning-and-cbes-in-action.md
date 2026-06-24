@@ -45,13 +45,9 @@ Adobe Target activities and the AJO Web Channel can have their responses fetched
 
 In the Postman collection, you'll see that each profile has two Experience Event calls
 
-:::Paragraph{listStyleType="decimal" listRestartPolite="1" indent="3"}
 A Page Top Fetch Experience Event
-:::
 
-:::Paragraph{listStyleType="decimal" listStart="2" indent="3"}
 A Page Bottom Data Collection Experience Event
-:::
 
 The page top Experience Event includes the 'jsonOfferContainer' parameter in the request, which is the 'Location on the Page' that you configured for the CBE. Additionally, this call uses Postman functionally to take the response from the Edge and then immediately send a second call to the Edge reporting that the offer was shown to the end user. There is no actual application or rendering of the offer because there is no Website for this lab. But from AJO's perspective, the offer was returned and then reported as seen. 
 
@@ -70,9 +66,7 @@ Let's start with Bob's Profile.
 
 4. Once you've received a proper response, click **Send** again to resend the same Page bottom event a 2nd time. Wait a few seconds, then send in a 3rd Data Collection call for the Bob profile. You should have sent a total of 3, page-bottom calls.
 
-:::Paragraph{indent="1"}
 At this point, the system should be processing those hits and adding Bob to the "dep: Interested in iPhone 17" streaming segment. Once that is done, Bob will be put into the Journey. Once in the Journey, it should only take a few minutes for Bob's entrance into the Journey and segment to be projected to the Edg Profile store for Bob. 
-:::
 
 5. Return to the AJO UI and click on **Profiles** in the left rail, followed by the **Browse** tab.
 6. Search for Bob's profile by using the **customerID** namespace with the value of **287415903**.
@@ -101,9 +95,7 @@ At this point, the system should be processing those hits and adding Bob to the 
 
 ![See Bob entery the journey](assets/PrnrfgX9PrpsNvHHQ7Bjn-20251214-073915.png)
 
-:::Paragraph{indent="1"}
 At this point, we know that Bob has entered the Journey and that the Edge projection is currently assembling a projection that will update Bob's profile on the Edge. 
-:::
 
 12. Switch back to Postman and click on the second of Bob's Experience Event calls, **Bob - Page Top Fetch.**
 13. Click **Send**. What should happen?

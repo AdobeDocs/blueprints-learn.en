@@ -49,11 +49,9 @@ exl-id: 52439979-6e80-4cb2-803d-f21ae9b0b7d2
 
 2. Add the personalization fields from the Target attribute list. Something like the following. 
 
-:::BlockQuote{indent="1"}
-Example:
-Hi \{\{target.dep\_rel\_customer\_account.first\_name}
-Your Apple \{\{target.dep\_rel\_customer\_account.plan\_lookup.plan\_name}} is up for renewal on \{\{target.dep\_rel\_customer\_account.account\_end\_date}}.
-:::
+>Example:
+>Hi \{\{target.dep\_rel\_customer\_account.first\_name}
+>Your Apple \{\{target.dep\_rel\_customer\_account.plan\_lookup.plan\_name}} is up for renewal on \{\{target.dep\_rel\_customer\_account.account\_end\_date}}.
 
 3. Click **Save.**
 

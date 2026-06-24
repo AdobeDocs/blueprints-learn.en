@@ -84,9 +84,7 @@ Download the two files required for the lab to the local work station
 
 ![](assets/j8C_C8ukOW6G3pZGqK1OI-20251204-180402.png)
 
-:::Paragraph{indent="2"}
 The DDL processing is complete and the schema and dataset has been created successfully.
-:::
 
 
 
@@ -94,15 +92,11 @@ The DDL processing is complete and the schema and dataset has been created succe
 
 ![](assets/ed-1h47bn1LNk7rQuBKX1-20251204-182145.png)
 
-:::Paragraph{indent="2"}
 Search for the `oc_mdl_customer` dataset just created in the above step
-:::
 
 ![](assets/e_NkCsL-Y14z3mSOgPxUO-20251204-182145.png)
 
-:::Paragraph{indent="2"}
 View the dataset details and also that it is enabled for Orchestrated Campaign
-:::
 
 ![](assets/6CqeR3Pa5gFrWiGgHJnFY-20251204-182145.png)
 
@@ -144,87 +138,57 @@ Data will be ingested into the dataset created above using the AEP UI and the lo
 
 ![](assets/VBALOSsCA_CkrT9k55ziZ-20251204-202719.png)
 
-:::Paragraph{indent="2"}
 Delete the incorrect mappings:
-:::
 
-:::Paragraph{indent="2"}
 
-:::
 
 ![](assets/16H10rmdG9rQcbReMPaqT-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Once the mappings are deleted, click on on **Validate**
-:::
 
 ![](assets/aWNE2RARnsVdV3vBMgDmw-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 The UI will complain of missing mappings, which needs to be manually added
-:::
 
 ![](assets/8BLRgEe9qM6q3Bp248RIM-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Click on **New field ****type** and select **Add new field**
-:::
 
 ![](assets/iRBxq-gVTi68zFjkDlnwY-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Choose the `upgradePref` from the Source Schema (CSV) mapping and click on **Select**
-:::
 
 ![](assets/U8om5Nmn_vUFGEdpkBMAU-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Click on the **Map target field** under **TARGET FIELDS**
-:::
 
-:::Paragraph{indent="2"}
 
-:::
 
 ![](assets/fmYdNjYKuaa1iukxRnMiQ-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Select `upgradepref` attribute from the Schema structure
-:::
 
 ![](assets/eZZBroJNIcfaxkBmXflF9-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 The input field `upgradePref` has been mapped to `upgradepref` attribute from the Schema. 
-:::
 
-:::Paragraph{indent="2"}
 Map the remaining field. Click on **New field type** and select **Add new field** to add
-:::
 
 ![](assets/iRBxq-gVTi68zFjkDlnwY-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Choose the `LastModDate` from the Source Schema (CSV) mapping and click on **Select**
-:::
 
 ![](assets/Fw8sYAfGneHo4TS34L-ld-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Click on the **Map target field** under **TARGET FIELDS**
-:::
 
 ![](assets/yn0KQzlMUhM_uxTbJWIip-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Select `lastmodified` attribute from the Schema structure
-:::
 
 ![](assets/ax09YukxngGs9pwBisyvt-20251204-202718.png)
 
-:::Paragraph{indent="2"}
 Confirm all the mappings and click on **Validate** to remove all mapping errors
-:::
 
 ![](assets/hROEPsZk2X5cLEhx1-ty0-20251204-202718.png)
 

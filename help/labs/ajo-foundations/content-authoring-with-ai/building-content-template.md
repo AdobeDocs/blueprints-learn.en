@@ -70,13 +70,9 @@ This functionality allows content-oriented users to work on templates outside ca
    2. Code your own
    3. Import HTML
 
-:::Paragraph{indent="1"}
 We will select third option. Click **Import HTML**
-:::
 
-:::Paragraph{indent="1"}
 
-:::
 
 ![](assets/mTFvCmtsQNxQc3ggKjPQi_image.png)
 
@@ -138,9 +134,7 @@ Let us now improve the template. We have already created header and footer.
 
 ![](assets/Xg1_DBVTti7na-JBDJxdD_image.png)
 
-:::Paragraph{indent="1"}
 You should see something like this. 
-:::
 
 ![](assets/xjoYMqCikDiEVclNMqonz_image.png)
 

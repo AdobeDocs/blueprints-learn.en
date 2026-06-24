@@ -14,17 +14,11 @@ Download the zip file below and unzip it to your local storage.
 
 When you are done you should see a folder like so with the following contents.  You will reference this folder in following labs.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/arR805WGQwlYdtc-wvRJ9_folders.png "Folders")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/ZgHa_VchOudKt7ExznPWu_sample-files.png "Sample Files")
-:::
-::::
 

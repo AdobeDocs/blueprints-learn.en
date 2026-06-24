@@ -78,19 +78,15 @@ You will need to download the following files to your local machine to install t
 3. Configure you `env.json` file with the appropriate Developer Console Project credentials and save it.
 4. Execute the deployment collection in newman using the following command:
 
-:::CodeblockTabs{indent="2"}
 ```bash
 newman run deploy.json -e env.json --delay-request 750 --bail failure --timeout-script 4800000
 ```
-:::
 
 5. When it completes wait 15mins and then execute the `health.json` collection
 
-:::CodeblockTabs{indent="2"}
 ```bash
 newman run health.json -e env.json --delay-request 750 --bail failure
 ```
-:::
 
 
 

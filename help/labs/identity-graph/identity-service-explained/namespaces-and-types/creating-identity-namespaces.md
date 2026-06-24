@@ -20,19 +20,13 @@ Adobe Experience Platform provides several identity namespaces out-of-the-box th
 
 # User Interface Creation Steps
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 **Step 1**
 
 ![](assets/bVkaN92YGDp1zww7XTSMN-20260312-211035.png "Create an Identity Namespace")
-:::
 
-:::VerticalSplitItem
 **Step 2**
 
 ![](assets/q6FFvmnRkutUBWXWZTV1A-20260312-211035.png "Select an identity namespace type")
-:::
-::::
 
 *A few key points to keep in mind:*
 

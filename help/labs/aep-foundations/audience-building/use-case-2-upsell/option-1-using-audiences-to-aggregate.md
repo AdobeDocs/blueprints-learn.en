@@ -28,19 +28,13 @@ In this audience build we will need to determine total billing data usage in the
 
 2\. Click on the Ellipse in the bottom right rules and choose Aggregate. Click on Select an Attribute and type Usage. Select the Billing Data Usage field.
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/RjsOp4wq2Y69QdzZzNTjc_select-the-billing-data-usage-field-1.png)
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/WvsHAZ0_YCpKnuB4ahBt1_select-the-billing-data-usage-field-2.png)
-:::
-::::
 
 
 

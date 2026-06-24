@@ -64,19 +64,13 @@ To fix passthrough mappings that are incorrectly pointing to the wrong target fi
 3. The target field should now be updated in the target field box
 4. After you fix each such error, you should press the **Validate **button so that you can make sure you are reducing these kinds of errors and not introducing new ones. 
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/n2zZLVICZHekRJ_qOlgUB_work-you.png "Work your way through the mapping and fixing the mapping errors")
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/Nq9dUWVzfvCJBn-g3pdLS_choose-t.png "Choose the right target field and verify that it matches the passthrough requirements")
-:::
-::::
 
 >[!WARNING]
 >Do not continue to the next step until you have resolved all your mapping errors

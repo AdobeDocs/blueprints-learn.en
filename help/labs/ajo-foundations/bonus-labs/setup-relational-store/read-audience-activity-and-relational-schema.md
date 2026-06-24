@@ -5,9 +5,7 @@ doc-type: article
 exl-id: 293d6a9f-5dfd-49fa-b46d-ead2e3b9cc1b
 ---
 
-:::Paragraph{indent="1"}
 This lab will cover using Relational schema with the Read audience activity. Orchestrated Campaign uses the  Relational schema for all the activities. When using the Read audience, which reads the audience from AEP, a corresponding Entity (Target Dimension) has to be configured to reconcile the audience with the Campaign Target Dimension. 
-:::
 
 # Configure Read audience activity
 

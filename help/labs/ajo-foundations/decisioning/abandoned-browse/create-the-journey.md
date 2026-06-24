@@ -86,7 +86,6 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 
 15. We now need to add valid JSON within the bounds of the loop. We want to return the make, model, and tier of the phone that should be offered to the end user. Since we have frequency capping in place as well, we need to have a trackingToken added to the response. More on this later in the instructions. To save time, simply copy and paste these lines of code into the code editor within the For Each loop:
 
-:::CodeblockTabs{indent="1"}
 ```javascript
    {
         "make":"",
@@ -95,14 +94,11 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
         "trackingToken":""
     },
 ```
-:::
 
 ![Add initial JSON validation](assets/vvFCshWtuuPphqQuz2NfF-20251218-071757.png)
 
 >[!NOTE]
->:::Paragraph{listRestartPolite="15" indent="1"}
 >Recall that you added attributes to the standard offer XDM schema, specifically, the make, model, and tier. You then populated those attributes when the offers were created. We will now add those attributes as variables that will be populated with values from the selected offer. The trackingToken field is a system-generated value used for tracking clicks and impressions.
-::::
 
 16. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make **node.  Click the **+** icon on the **Make **element, and you'll see it populate the editor.
 

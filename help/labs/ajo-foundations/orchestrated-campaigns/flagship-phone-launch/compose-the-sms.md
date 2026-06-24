@@ -32,11 +32,9 @@ Click the **Edit content **button, or navigate directly to the **Content **tab
 
 2. Copy and paste the text below into the SMS message body.
 
-:::CodeblockTabs{indent="1"}
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrade to the one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
 ```
-:::
 
 >[!NOTE]
 >Be sure to turn Word wrap to **On** in the message editor.  You can find in the lower right pane of the window.

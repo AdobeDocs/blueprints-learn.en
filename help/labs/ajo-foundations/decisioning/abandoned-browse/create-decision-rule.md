@@ -43,7 +43,5 @@ You've now created a reusable Decision Rule, which you will use for offer eligib
 
 
 
-:::Paragraph{indent="2"}
 
 
-:::

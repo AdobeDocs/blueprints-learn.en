@@ -22,53 +22,29 @@ Verify that the journey was triggered and executed as expected.  Verify reports 
 
 ![](assets/Iqnq2cXS8uvxwFj_VClBq-20251118-002624.png)
 
-:::Paragraph{listStyleType="disc" listStart="4" listRestartPolite="4" indent="2"}
 If everything went through clean you should have (scroll down to check):
-:::
 
-:::Paragraph{listStyleType="disc" indent="3"}
 **Journey's statistics**
-:::
 
-:::Paragraph{listStyleType="disc" indent="4"}
 3 Entered Profiles (Henry, You and the Testing we did)
-:::
 
-:::Paragraph{listStyleType="disc" indent="5"}
 You can click the toggle at the top to **exclude test events** if you want and you will see these numbers change
-:::
 
-:::Paragraph{listStyleType="disc" listStart="2" indent="4"}
 3 Exited Profiles (Henry, You and the Testing we did)
-:::
 
-:::Paragraph{listStyleType="disc" listStart="2" indent="3"}
 **Actions executed and errors**
-:::
 
-:::Paragraph{listStyleType="disc" indent="4"}
 6 Actions (3 Email, 3 GetShippingDetails)
-:::
 
-:::Paragraph{listStyleType="disc" listStart="3" indent="3"}
 **Actions error reasons**
-:::
 
-:::Paragraph{listStyleType="disc" indent="4"}
 0 Errors (hopefully)
-:::
 
-:::Paragraph{listStyleType="disc" listStart="4" indent="3"}
 **Events**
-:::
 
-:::Paragraph{listStyleType="disc" indent="4"}
 3 Events (orderShipped)
-:::
 
-:::Paragraph{listStyleType="disc" listStart="2" indent="4"}
 3 External Events
-:::
 
 5. Click on the **Email **tab (on the left rail)
    - **Email - Sending Performance**
@@ -99,13 +75,11 @@ You can click the toggle at the top to **exclude test events** if you want and y
 >[!NOTE]
 >**Note**: The order shipped event was streamed in, so while it updated profile quickly, it will take a while before the data lake is updated.
 
-:::CodeblockTabs{indent="1"}
 ```sql
 SELECT * FROM dep_orders
 WHERE timestamp >= CURRENT_DATE
 LIMIT 10
 ```
-:::
 
 ![](assets/xqv654TpraIH1PHv0dFgW-20251118-195218.png)
 

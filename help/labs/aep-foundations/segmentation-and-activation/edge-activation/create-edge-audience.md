@@ -18,19 +18,13 @@ This Audience will be used to qualify someone when a payload (e.g. page view), c
 2. The click on Create Audience in the upper right corner of your screen
 3. Then click on Build Rule
 
-::::VerticalSplit{layout="middle"}
-:::VerticalSplitItem
 
 
 ![](assets/ZqVCYkhVc5ZWemZdQlxFZ_create-audeince-1.png)
-:::
 
-:::VerticalSplitItem
 
 
 ![](assets/jEITChafVLbrPTe91nzYV_create-audience-2.png)
-:::
-::::
 
 
 

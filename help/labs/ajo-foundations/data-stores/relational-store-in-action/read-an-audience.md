@@ -124,9 +124,7 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 ![Add new segment](assets/SLNPZ84iuhqBI668K90mx-20260113-224439.png)
 
-:::Paragraph{indent="1"}
 A new segment with the name **Result** is created
-:::
 
 ![Choose Result segment](assets/8X1IlXHgC2cmIUoF1UPvv-20260113-224440.png)
 
@@ -138,9 +136,7 @@ A new segment with the name **Result** is created
 
 ![Expand Targeting dimension](assets/v0Fe28Hr-UUlEJongGSP5-20260113-224440.png)
 
-:::Paragraph{indent="2"}
 Select `Source` from the list and click on **Confirm**
-:::
 
 ![Select Source attribute](assets/UhXX4RmL-JGLJ4KeAg5U_-20260113-224439.png)
 

@@ -23,9 +23,7 @@ In the next set of steps you will create an Email Channel Configuration with bot
 
 ![Channel configuration details](assets/NJlQ6SuJoNSZbJdura7r7-20251217-194516.png)
 
-:::Paragraph{indent="1"}
 **Note**: On selecting Email as the channel, a new section** Email settings **shows up. 
-:::
 
 ## Configure Email Type
 
