@@ -7,8 +7,7 @@ exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
 
 # Postman API Collection File
 
->[!NOTE]
->Download **AEP Foundations Bootcamp (Labs).postman_collection.json** from your lab administrator.
+[AEP Foundations Bootcamp (Labs).postman_collection.json](<assets/AEP Foundations Bootcamp (Labs).postman_collection.json>)
 
 
 

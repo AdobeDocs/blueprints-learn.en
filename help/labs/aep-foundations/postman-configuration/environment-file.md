@@ -7,8 +7,7 @@ exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
 
 # Postman Environment File
 
->[!NOTE]
->Download **AEP Bootcamp.postman_environment.json** from your lab administrator.
+[AEP Bootcamp.postman_environment.json](<assets/AEP Bootcamp.postman_environment.json>)
 
 
 

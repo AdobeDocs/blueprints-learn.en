@@ -15,8 +15,7 @@ In this step you will be importing the API collection which contains all the var
 
 1. Download the **AJO Bootcamp (Labs).postman\_collection.json** file:
 
->[!NOTE]
->Download **AJO Bootcamp (Labs).postman_collection.json** from your lab administrator.
+[AJO Bootcamp (Labs).postman_collection.json](<assets/AJO Bootcamp (Labs).postman_collection.json>)
 
 2. Like before, click on the **Import** button.
 3. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json **file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import.
