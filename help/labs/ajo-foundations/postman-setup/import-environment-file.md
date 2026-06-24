@@ -13,7 +13,7 @@ On this page, you will import the Postman Environment File.  This file contains 
 
 1. Download the **AJO Bootcamp.postman\_environment.json** file:
 
-[AJO Bootcamp.postman_environment.json](<assets/AJO Bootcamp.postman_environment.json>)
+[Download AJO Bootcamp.postman_environment.json](<assets/AJO Bootcamp.postman_environment.json>)
 
 1. Launch Postman on your local machine.
 2. If necessary, switch to the Workspace you are using for these labs (if you're using  Workspace at all) and click on the **Import** button.

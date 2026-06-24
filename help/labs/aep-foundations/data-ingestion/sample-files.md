@@ -7,8 +7,7 @@ exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
 
 Download the zip file below and unzip it to your local storage.
 
->[!NOTE]
->Download **bootcamp-sample-files.zip** from your lab administrator.
+[Download bootcamp-sample-files.zip](assets/bootcamp-sample-files.zip)
 
 
 

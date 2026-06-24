@@ -42,11 +42,9 @@ To perform the various labs within the LID Methodology you will need the followi
 
 
 
->[!NOTE]
->Download **Connection 5G Training Scenario.pdf** from your lab administrator.
+[Download Connection 5G Training Scenario.pdf](<assets/Connection 5G Training Scenario.pdf>)
 
->[!NOTE]
->Download **LID Lab Worksheets.pdf** from your lab administrator.
+[Download LID Lab Worksheets.pdf](assets/LID Lab Worksheets.pdf)
 
 >[!NOTE]
 >You need to print out the LID Lab Worksheet.pdf after you download to be able to complete the upcoming labs.
