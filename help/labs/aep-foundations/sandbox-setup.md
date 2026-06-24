@@ -47,9 +47,9 @@ Listed below are all the assets that are deployed as part of the *deploy.json* p
 
 You will need to download the following files to your local machine to install the lab assets to your individual sandbox.
 
-- [Download File](assets/env.json) — env.json
-- [Download File](assets/deploy.json) — deploy.json
-- [Download File](assets/health.json) — health.json
+- env.json — [Download File](assets/env.json)
+- deploy.json — [Download File](assets/deploy.json)
+- health.json — [Download File](assets/health.json)
 
 
 

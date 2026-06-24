@@ -20,7 +20,7 @@ By the end of this module, you will be able to:
 - Add an exclusion rule to avoid pushy email button copy.
 - Publish the brand so it is available to templates, fragments, AI Assistant, and Brand Alignment. 
 
-[Download File](assets/toolkit.zip) — toolkit.zip
+toolkit.zip — [Download File](assets/toolkit.zip)
 
 >[!NOTE]
 >**Note:**
