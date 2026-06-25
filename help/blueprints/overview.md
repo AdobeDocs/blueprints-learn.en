@@ -93,7 +93,7 @@ Visual architecture and data flow reference diagrams that illustrate system inte
 <tr>
   <td>
     <a href="experience-platform/guardrails.md">
-      <img alt="Experience Platform Hub and Edge Architecture" src="experience-platform/assets/aep_edge_hub_latency_v1.svg" />
+      <img alt="Experience Platform Hub and Edge Architecture" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
     </a>
     <div>
       <a href="experience-platform/guardrails.md">
