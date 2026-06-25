@@ -1,9 +1,11 @@
-﻿---
+---
+hold: true
 title: Critical Thinking Review
 description: Critical Thinking Review
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 69eee234-7d24-47e5-9422-3a8d0bdfccb3
 ---
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459488/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459488/?quality=12&learn=on)
 

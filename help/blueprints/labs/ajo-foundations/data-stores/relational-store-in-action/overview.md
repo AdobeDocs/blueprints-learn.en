@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Relational Store in Action
 description: Relational Store in Action
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
 ---
 

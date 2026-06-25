@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Sample Files
 description: Sample Files
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
 ---
 
@@ -15,9 +17,9 @@ When you are done you should see a folder like so with the following contents.  
 
 
 
-![](assets/arR805WGQwlYdtc-wvRJ9_folders.png "Folders")
+![Folders.png "Folders"](assets/arR805WGQwlYdtc-wvRJ9_folders.png "Folders")
 
 
 
-![](assets/ZgHa_VchOudKt7ExznPWu_sample-files.png "Sample Files")
+![VchOudKt7ExznPWu sample files.png "Sample Files"](assets/ZgHa_VchOudKt7ExznPWu_sample-files.png "Sample Files")
 

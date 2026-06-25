@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Access Token
 description: Access Token
 doc-type: article
+
+solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
 ---
 
@@ -18,6 +21,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3?client_id={CLIENT_ID}'
 ```
 
 >[!NOTE]
+>
 >You can learn more about the e2e process for creating the developer project using OAuth Server-to-Server credentials [here. ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens)For the bootcamp we will "hand wave" this step of the process 😄
 
 
@@ -32,20 +36,20 @@ Every request to any Adobe service must include the access token in the Authoriz
 Now that you understand a little bit about how Adobe secures its API's and what is required to work them lets actually use them.
 
 >[!CAUTION]
+>
 >Not specifying the `x-sandbox-name` param does not fail the request as you might expect. Instead it defaults the request to process into the `default` sandbox that is automatically provisioned with any Experience Platform environment
 
 >[!NOTE]
+>
 >As part of this bootcamp we created a developer project and provided you a Postman Environment file with all of the necessary values request an `access_token`. This is what you uploaded in the previous steps of the lab
-
-##
 
 ## Authenticate with Postman
 
 1. Launch Postman and navigate to the directory titled `IMS Authenticate` and open the request by clicking on it
-2. Next in the upper right corner of Postman you'll see an environment drop-down. Select the `AEP Bootcamp` environment from the drop-down
-3. Now execute the call by clicking the “Send” button
+1. Next in the upper right corner of Postman you'll see an environment drop-down. Select the `AEP Bootcamp` environment from the drop-down
+1. Now execute the call by clicking the “Send” button
 
-![](assets/-raEW1QX9dKmqxjijcsY9_oauth-access-token.png)
+![Oauth access token](assets/-raEW1QX9dKmqxjijcsY9_oauth-access-token.png)
 
 A successful response should look like this:
 
@@ -68,11 +72,12 @@ Successful Response
 `expires_in` - milliseconds until the access token expires (24hrs expiration period today)
 
 >[!TIP]
+>
 >Congratulations! You've successfully authenticated and your access\_token is now saved to your environment file
 
 
 
-# Common Errors
+## Common Errors
 
 ## Invalid Token
 
@@ -89,9 +94,8 @@ some uber long varchar set is here
                                                        400 invalid\_token
 
 >[!NOTE]
+>
 >Only applicated when using JWT based auth
-
-##
 
 ## Invalid IMS\_ORG
 
@@ -100,7 +104,8 @@ This error occurs when you forget to set your postman environment from the drop-
 ![IMS_ORG not found in active environment](assets/WsWIfzrqh_InGVbX7oinQ_forgot-to-select-postman-environment.png)
 
 >[!NOTE]
+>
 >Don't forget to set your postman environment when executing API calls
 >
-![](assets/N4j3XGI4E60YCeTQGEkjH_set-postman-environment.png)
+>![Set postman environment](assets/N4j3XGI4E60YCeTQGEkjH_set-postman-environment.png)
 

@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Summary
 description: Summary
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
 ---
 
@@ -18,5 +20,6 @@ Through this lab you did the following activities:
 
 
 >[!TIP]
+>
 >Congratulations, you now can proceed to the next lab and do that one as well!
 

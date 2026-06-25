@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Mark Identity Fields
 description: Mark Identity Fields
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
 ---
 
@@ -31,9 +33,9 @@ In order to mark a field as an identity you need to create an Identity Descripto
 
 #
 
-# **Your Objective**
+## **Your Objective**
 
 Create both primary and non-primary identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
-![](assets/n-ADAXZy_lxxLyKc0x1oi-_KIec4DfNpiRj7z0Wyf7M-20241024-001607.png)
+![LxxLyKc0x1oi  KIec4DfNpiRj7z0Wyf7M 20241024 001607](assets/n-ADAXZy_lxxLyKc0x1oi-_KIec4DfNpiRj7z0Wyf7M-20241024-001607.png)
 

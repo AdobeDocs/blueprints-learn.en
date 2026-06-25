@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Creating Identity Namespaces
 description: Creating Identity Namespaces
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 95333617-698e-4419-8b26-6b28d814bbf1
 ---
 
@@ -18,15 +20,15 @@ Adobe Experience Platform provides several identity namespaces out-of-the-box th
 
 
 
-# User Interface Creation Steps
+## User Interface Creation Steps
 
 **Step 1**
 
-![](assets/bVkaN92YGDp1zww7XTSMN-20260312-211035.png "Create an Identity Namespace")
+![BVkaN92YGDp1zww7XTSMN 20260312 211035.png "Create an Identity Namespace"](assets/bVkaN92YGDp1zww7XTSMN-20260312-211035.png "Create an Identity Namespace")
 
 **Step 2**
 
-![](assets/q6FFvmnRkutUBWXWZTV1A-20260312-211035.png "Select an identity namespace type")
+![Q6FFvmnRkutUBWXWZTV1A 20260312 211035.png "Select an identity namespace type"](assets/q6FFvmnRkutUBWXWZTV1A-20260312-211035.png "Select an identity namespace type")
 
 *A few key points to keep in mind:*
 

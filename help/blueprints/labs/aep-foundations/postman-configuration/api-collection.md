@@ -1,36 +1,37 @@
-﻿---
+---
+hold: true
 title: API Collection
 description: API Collection
 doc-type: article
+
+solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
 ---
 
 # Postman API Collection File
 
-Download File — [AEP Foundations Bootcamp (Labs).postman_collection.json](<assets/AEP Foundations Bootcamp (Labs).postman_collection.json>)
+Download File — [AEP Foundations Bootcamp (Labs).postman_collection.json](assets/aep-foundations-bootcamp-labs.postman_collection.json)
 
 
 
 ## Import API Collection
 
 1. Open the `Postman API Collection File` from above in your browser by clicking on the file
-2. Copy the URL of the file to your clipboard
-3. Launch Postman on your local machine and click on the `Import` button within your workspace
-4. Paste the URL of the `Postman API Collection File` into the import modal text box on the overlay.  This should trigger an automatic import
+1. Copy the URL of the file to your clipboard
+1. Launch Postman on your local machine and click on the `Import` button within your workspace
+1. Paste the URL of the `Postman API Collection File` into the import modal text box on the overlay.  This should trigger an automatic import
 
-![](assets/w8pfpqCeINsL6P-wB8_Co_import-button.png "Import Button")
+![Co import button.png "Import Button"](assets/w8pfpqCeINsL6P-wB8_Co_import-button.png "Import Button")
 
 
 
-![](assets/HN9bLoBAbRG0p__BFkWIC_import-button-modal-text-box.png "Import Button Modal Text Box")
+![BFkWIC import button modal text box.png "Import Button Modal Text Box"](assets/HN9bLoBAbRG0p__BFkWIC_import-button-modal-text-box.png "Import Button Modal Text Box")
 
 You should now see a collection populated under the left sidebars `Collections` tab called `AEP Foundations Bootcamp`
 
 
 
-![](assets/9oaAm6Zc_fAzecdAmuwqG_image.png)
-
-##
+![FAzecdAmuwqG image](assets/9oaAm6Zc_fAzecdAmuwqG_image.png)
 
 ## **AEP Foundations Bootcamp Collection Overview**
 
@@ -44,5 +45,6 @@ Details about each folder can be found below:
 - **Profile Lab** - contains a set of requests for viewing the Real-Time Customer Profile's traits and behaviors
 
 >[!TIP]
+>
 >Congratulations!  You have successfully imported the bootcamp's Postman Collection
 

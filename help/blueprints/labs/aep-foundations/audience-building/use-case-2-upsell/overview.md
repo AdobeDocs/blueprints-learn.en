@@ -1,13 +1,16 @@
-﻿---
+---
+hold: true
 title: Use Case #2 - Upsell
 description: Use Case #2 - Upsell
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
 ---
 
 # Overview
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459487/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459487/?quality=12&learn=on)
 
 
 
@@ -25,20 +28,20 @@ Direct Mail Personalization fields:
 
 
 
-# Analysis Tasks
+## Analysis Tasks
 
 Analyze the above and write down:
 
 1. What fields you think are needed to address this use case?
-2. Does the evaluation method need to be Streaming?
-3. What do we need to keep in mind with Billing data?
-4. What other information would you like to know? 
+1. Does the evaluation method need to be Streaming?
+1. What do we need to keep in mind with Billing data?
+1. What other information would you like to know? 
 
 Remember: When we get requirements from the business stakeholders, they tend to be incomplete, use another terminology, and make assumptions without knowing it. It is your job to bring as much of that to the surface and guide them to something that can be done. 
 
 
 
-# Approach
+## Approach
 
 For this use case we are going to evaluate two options:
 

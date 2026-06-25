@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Identity types
 description: Identity types
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 3aa69c7f-0dcc-443e-bf82-3cf699b7e4e4
 ---
 
@@ -30,6 +32,7 @@ These identity types tell identity service to ignore processing the identities i
 - **Partner ID** - provided by data partners that may or may not represent people
 
 >[!NOTE]
+>
 >**Note: **Identity Service will only process identities when two or more exist within a row of data and the identity types are person-based. The Identity Graph's purpose is to store deterministic relationships about a person.
 
 

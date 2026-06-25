@@ -1,16 +1,20 @@
-﻿---
+---
+hold: true
 title: Check Final Mapping Set
 description: Check Final Mapping Set
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 ---
 
 # Passthrough Mappings
 
 >[!CAUTION]
+>
 >Ensure your final mapping matches what is shown below before continuing.
 
 >[!NOTE]
+>
 >Replace the \<tenant-name> with the value from your sandbox
 
 | Source Field              | Target Field                      |
@@ -38,9 +42,10 @@ exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 
 
 
-# Calculated Mappings
+## Calculated Mappings
 
 >[!NOTE]
+>
 >Be aware that the mappings for `birth_birth` are different from the batch ingestion lab mappings due to how the date is formatted.  Batch is using backslashes `/` whereas streaming is using dashes `-`
 
 | Calculated fields                                                                                                                   | XDM Field                  |
@@ -50,15 +55,16 @@ exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 | date\_part("yyyy",date(birth\_Date,"yyyy-M-d"))                                                                                     | person.birthYear           |
 
 >[!CAUTION]
+>
 >Ensure your final mapping matches to what is shown below before continuing
 
 
 
-# Finalize Dataflow
+## Finalize Dataflow
 
 When you are done click the **Next** button and then click the Finish button to update the dataflow with the new mapping logic.
 
-![](assets/yvjLn-kfD9zKiiCJP6beT_review-the-details-and-click-finish-to-save-the-dataflow.png)
+![Review the details and click finish to save the dataflow](assets/yvjLn-kfD9zKiiCJP6beT_review-the-details-and-click-finish-to-save-the-dataflow.png)
 
 
 

@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Profile Target Dimension
 description: Profile Target Dimension
 doc-type: article
+
+solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 ---
 
@@ -9,7 +12,7 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 
 In the next set of steps you will navigate the UI to view the Schema and setup the Identity. Next, you will setup the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
 
-# Why This is Important
+## Why This is Important
 
 The Profile Target Dimension is used to tell Adobe Journey Optimizer how data between the Real-Time Customer Profile and Relational Store can be joined. The ingredients of this configuration are as follows:
 
@@ -18,77 +21,84 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 - An identity namespace associated to that field
 
 >[!CAUTION]
+>
 >Without this configuration in place no reading or sharing of audiences can happen nor can any messages be sent out of Orchestrated Campaigns
 
-# Label the Identity
+## Label the Identity
 
 1. Click on the **Apps** icon and select **Journey Optimizer**
 
 ![Navigate to Journey Optimizer](assets/K3Q7jr7t5wanoprIui7sf-20251208-042621.png)
 
-2. Click on **Schemas **under the Data Management menu and make sure you have the **Browse **tab selected.
-3. Search for the schema called `dep-rel: Customer Account`
+1. Click on **Schemas **under the Data Management menu and make sure you have the **Browse **tab selected.
+1. Search for the schema called `dep-rel: Customer Account`
 
 ![Search for schema dep-rel: Customer Account](assets/eCxTO6jzUZ-1MoDFyWoKP-20251217-041811.png)
 
-4. Open the schema by clicking on its name and then click on the field **customer\_id**
+1. Open the schema by clicking on its name and then click on the field **customer\_id**
 
 ![Select schema field customer_id](assets/5X9JmCinE3JIoqffubUc--20251217-042037.png)
 
-5. In the right rail locate the checkbox named **Identity**,** check the box **and choose the Identity namespace titled** customerID**
+1. In the right rail locate the checkbox named **Identity**,** check the box **and choose the Identity namespace titled** customerID**
 
 ![Choose the identity namespace customerID](assets/C6vUXAHh9VexDcwFcKRVR-20251217-042352.png)
 
-6. Click the **Save **button to save your schema. A confirmation message will show up
-7. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
+1. Click the **Save **button to save your schema. A confirmation message will show up
+1. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
 
 >[!CAUTION]
+>
 >If you do not save the schema after adding the identity label the next set of configuration steps will not work
 
 >[!NOTE]
+>
 >After Save, it takes a few minutes (under 5 mins), before it shows up on the Profile Target Dimension drop down in the next step.
 
-# Create the Profile Target Dimension 
+## Create the Profile Target Dimension 
 
 1. Click on **Configurations** under **Administration**
 
 ![Configurations](assets/IlchseyC096oQQNdaNVSc-20251208-205011.png)
 
-2. Select **Profile Target Dimension** and click on **Manage**
+1. Select **Profile Target Dimension** and click on **Manage**
 
 ![Profile Target Dimension](assets/jQOW0f5EqcFeEl5pIpIDF-20251208-205010.png)
 
-3. The Profile Target Dimension pane opens, click on **Create**
+1. The Profile Target Dimension pane opens, click on **Create**
 
 ![Create](assets/BEuyDbO9H5_OVUuHyNWa9-20251208-205010.png)
 
-4. Select the schema `dep-rel: Customer Account` from the drop-down.
+1. Select the schema `dep-rel: Customer Account` from the drop-down.
 
 >[!NOTE]
+>
 >**Note**: It might take a few minutes for the schema to appear in this screen after marking the identity. Refresh the page and repeat the previous two steps until the schema appears.
 
 ![Create Profile Target Dimension](assets/7NBCbCyvWiI-mPoJmxV-6_image.png)
 
-5. For the** Identity value** select `/customer_id`
+1. For the** Identity value** select `/customer_id`
 
 ![Select Identity value](assets/1NTerTj1FbnDUEyFMy-oR_image.png)
 
 >[!NOTE]
+>
 >A relational schema can have many fields labeled with identities hence this being a list box.
 
 
 
-6. Click the **Save **button to create the Profile Target Dimension. You should then see the record appear.
+1. Click the **Save **button to create the Profile Target Dimension. You should then see the record appear.
 
 ![Profile Target Dimension saved](assets/CnK7BGvW5aiZUxX_E5e_t_image.png)
 
 >[!NOTE]
+>
 >The name of the record created is a concatination of the schema name *(dep-rel: Customer Account)* and the field labeled with the identity *(customer\_id)*
 
 >[!TIP]
+>
 >Congratulations! this concludes the Profile Target Dimension creation step in the lab.
 
-# Recap
+## Recap
 
 You have now seen how easy it is to navigate the Schema, mark an attribute as an Identity and create  the Profile Target Dimension.
 

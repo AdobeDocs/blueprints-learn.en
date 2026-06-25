@@ -1,20 +1,24 @@
-﻿---
+---
+hold: true
 title: Create Other Identities
 description: Create Other Identities
 doc-type: article
+
+solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
 ---
 
 1. Click on the `Step 2 - Create Email Address Identity for Customer Account Schema` API call in the `XDM Schema Lab -> Create Identity Descriptors` folder
 
 >[!CAUTION]
+>
 >Do not execute the request...yet
 
-![](assets/Nm-VdS97-5zSXpZm_BHmf_step-2-create-email-address-identity-descriptor.jpeg "Step 2 - Create email address identity descriptor")
+![BHmf step 2 create email address identity descriptor.jpeg "Step 2   Create email address identity descriptor"](assets/Nm-VdS97-5zSXpZm_BHmf_step-2-create-email-address-identity-descriptor.jpeg "Step 2 - Create email address identity descriptor")
 
 
 
-2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](<././Build Schema/Create Schema.md>)  lab step
+2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](../../build-schema/create-schema.md)  lab step
 
 3\. Update the `xdm:isPrimary` value in the body of the request to `false`
 
@@ -33,6 +37,7 @@ EXAMPLE ONLY
 ```
 
 >[!NOTE]
+>
 >Remember to update the tenant name above (\_devbc) with the your own
 
 
@@ -41,5 +46,5 @@ EXAMPLE ONLY
 
 5\. Execute the API by clicking the `Send` button. You should now see a `201 Created` response like below
 
-![](assets/WdV4wU2sci4CT-L4SHAM8_successful-identity-descriptor-for-email-address.png "Successful Identity Descriptor for Email Address")
+![Successful identity descriptor for email address.png "Successful Identity Descriptor for Email Address"](assets/WdV4wU2sci4CT-L4SHAM8_successful-identity-descriptor-for-email-address.png "Successful Identity Descriptor for Email Address")
 

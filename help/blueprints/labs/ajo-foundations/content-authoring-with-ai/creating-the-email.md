@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Creating the Email
 description: Creating the Email
 doc-type: article
+
+solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 ---
 
@@ -14,7 +17,7 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 By the end of this module, you will be able to:
 
 1. Create a new campaign and use your new branded template.
-2. Update hero images, product images, buttons, and layout styling.
+1. Update hero images, product images, buttons, and layout styling.
 
 ## Create and Update the Email in a Campaign
 
@@ -27,64 +30,63 @@ This step demonstrates how templates can be reused across journeys, allowing tea
 ## Create new email campaign
 
 1. Go back to the main screen and click on **Journeys Management → Campaigns**.
-2. Click on **Create Campaign** 
+1. Click on **Create Campaign** 
 
-![](assets/kk2TuBzGuFAS3lwKh4-Un_image.png)
+![Image](assets/kk2TuBzGuFAS3lwKh4-Un_image.png)
 
-3. Select "**Orchestration - Marketing**" and click **confirm**
+1. Select "**Orchestration - Marketing**" and click **confirm**
 
-![](assets/Mcg71pvrOBXUjL4YENwm4_image.png)
+![Image](assets/Mcg71pvrOBXUjL4YENwm4_image.png)
 
-4.  Name your campaign `Flagship Phone Launch Branded`. Press **Save **button. 
+1.  Name your campaign `Flagship Phone Launch Branded`. Press **Save **button. 
 
-![](assets/ZXSgkflj4pKWLUv1DMgFp_image.png)
+![Image](assets/ZXSgkflj4pKWLUv1DMgFp_image.png)
 
-5. Click on the **+ sign** and select **Read Audience** activity 
+1. Click on the **+ sign** and select **Read Audience** activity 
 
-![](assets/BhsQnkqcipdu83MLhrlOv_image.png)
+![Image](assets/BhsQnkqcipdu83MLhrlOv_image.png)
 
-6. The next step is to select **"Read Audience"** box and click on **Audience folder icon **
+1. The next step is to select **"Read Audience"** box and click on **Audience folder icon **
 
-![](assets/AE-xvn4jiBHSJsXZ3Pi-h_image.png)
+![Image](assets/AE-xvn4jiBHSJsXZ3Pi-h_image.png)
 
-7. Select the **dep: Interested in iPhone 17** audience and click "**Add Audience**" button
+1. Select the **dep: Interested in iPhone 17** audience and click "**Add Audience**" button
 
-![](assets/qHvhjsncSg5V3KgmdmBdr_image.png)
+![Image](assets/qHvhjsncSg5V3KgmdmBdr_image.png)
 
-8. Select Entity - **dep-rel: Customer Account - customer\_id **(or any as it does not matter for this part)
-9. Add the **Email activity** by clicking **+ sign** and then select **Email **from Channel activities. 
+1. Select Entity - **dep-rel: Customer Account - customer\_id **(or any as it does not matter for this part)
+1. Add the **Email activity** by clicking **+ sign** and then select **Email **from Channel activities. 
 
-![](assets/-J734-OW9Lir4r4qkNoKH_image.png)
+![Image](assets/-J734-OW9Lir4r4qkNoKH_image.png)
 
-9. Click on **Edit email**. 
+1. Click on **Edit email**. 
 
-![](assets/tMOX6OvutNQ--fWeCAUL2_image.png)
+![Image](assets/tMOX6OvutNQ--fWeCAUL2_image.png)
 
-10. Click on the **Action tab** and and select the **your** email configuration. In my sandbox it is Relational Email. (Select Any)
+1. Click on the **Action tab** and and select the **your** email configuration. In my sandbox it is Relational Email. (Select Any)
 
-![](assets/7xYmI03Li-V94VGqi5e5D_image.png)
+![Image](assets/7xYmI03Li-V94VGqi5e5D_image.png)
 
-11. Click on **Content tab**
+1. Click on **Content tab**
 
-![](assets/UUB_DlVWDsaNj6hrqydpH_image.png)
+![DlVWDsaNj6hrqydpH image](assets/UUB_DlVWDsaNj6hrqydpH_image.png)
 
-12. Click on **Apply Content Template**
+1. Click on **Apply Content Template**
 
-![](assets/iAlo2gfVFl6lTyipTJ4Nk_image.png)
+![Image](assets/iAlo2gfVFl6lTyipTJ4Nk_image.png)
 
-13. Select the template **"Promotional Template" **you created and click **Confirm**
+1. Select the template **"Promotional Template" **you created and click **Confirm**
 
-![](assets/kFmT75dlj3EaxYvr4k4h9_image.png)
+![Image](assets/kFmT75dlj3EaxYvr4k4h9_image.png)
 
-10. Click on **Edit email body**
+1. Click on **Edit email body**
 
-![](assets/denRDGgrcxwflb3Se3gOw_image.png)
+![Image](assets/denRDGgrcxwflb3Se3gOw_image.png)
 
-11. Confirm the new header, hero, footer, and content blocks appear correctly.
+1. Confirm the new header, hero, footer, and content blocks appear correctly.
 
-![](assets/qKEH7zQGVztL7a_SWGIHO_image.png)
+![SWGIHO image](assets/qKEH7zQGVztL7a_SWGIHO_image.png)
 
-***
 
 ## Replace Hero Image & Product Images
 
@@ -92,29 +94,28 @@ Let us change hero and phone images. You will need to upload content to assets f
 
 1. Click the broken hero banner image.
 
-![](assets/LjvBA7pqgk18-aiQ9feJR_image.png)
+![Image](assets/LjvBA7pqgk18-aiQ9feJR_image.png)
 
-2. Remove the temporary source URL.
+1. Remove the temporary source URL.
 
-![](assets/LOaT2TvvinvQpKFdcomCW_image.png)
+![Image](assets/LOaT2TvvinvQpKFdcomCW_image.png)
 
-3. Click on **Import Media **
+1. Click on **Import Media **
 
-![](assets/l5yajXzUbJhS5gVqG3qQC_image.png)
+![Image](assets/l5yajXzUbJhS5gVqG3qQC_image.png)
 
-4. Upload `hero.png` from your toolkit. (You can drag the file)
+1. Upload `hero.png` from your toolkit. (You can drag the file)
 
-![](assets/P3_LHDJECCXMpCBrEl70f_image.png)
+![LHDJECCXMpCBrEl70f image](assets/P3_LHDJECCXMpCBrEl70f_image.png)
 
 5 Click **Next, **Select **your folder for assets** and press **import**
 
-![](assets/S5D6K4KijF8FcXQZ89ppT_image.png)
+![Image](assets/S5D6K4KijF8FcXQZ89ppT_image.png)
 
-6. Your email template is coming up nicely. It should appear like below. Click on **"Save"** to save your work. 
+1. Your email template is coming up nicely. It should appear like below. Click on **"Save"** to save your work. 
 
-![](assets/4A-HEsJ4z1Ca3cSnvSACl_image.png)
+![Image](assets/4A-HEsJ4z1Ca3cSnvSACl_image.png)
 
-***
 
 ## Optional Exercise
 
@@ -122,7 +123,7 @@ Let us change hero and phone images. You will need to upload content to assets f
 
 Go ahead and update all the product images (images provided in the toolkit folder) and also add rounded border to your liking. Your email should look nicer without any broken links as shown below. Repeat the process for all product cards.
 
-![](assets/Gu_PjNjeRIGKkQTkSSYso_image.png)
+![PjNjeRIGKkQTkSSYso image](assets/Gu_PjNjeRIGKkQTkSSYso_image.png)
 
 # Recap
 

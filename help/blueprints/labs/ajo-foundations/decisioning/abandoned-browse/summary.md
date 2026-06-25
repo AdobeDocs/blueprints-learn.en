@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Summary
 description: Summary
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
 ---
 
@@ -16,6 +18,7 @@ Finally, you **tested the end-to-end decisioning flow**, validating that Adobe J
 
 
 >[!CAUTION]
+>
 >**IF YOU ARE READING THIS, IT MEANS YOU ARE AT THE END OF THE LAB. **
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**

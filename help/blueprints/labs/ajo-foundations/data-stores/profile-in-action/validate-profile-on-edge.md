@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Validate Profile on Edge
 description: Validate Profile on Edge
 doc-type: article
+
+solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
 ---
 
@@ -9,22 +12,24 @@ exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
 
 Confirm that the profile does not exist on the Edge network profile store.
 
-# Validate Profile on Edge 
+## Validate Profile on Edge 
 
 1. Click on the **Attributes **tab and the ***Edge ***radio button to see the Edge Profile
 
-![](assets/haz0UYeW1zeZ3imcMyvVe-20251120-025352.png)
+![Haz0UYeW1zeZ3imcMyvVe 20251120 025352](assets/haz0UYeW1zeZ3imcMyvVe-20251120-025352.png)
 
 >[!NOTE]
+>
 >It is possible you may see a "stripped down" version of the profile that consists of only the identities depending on how much time has passed.
 
 
 
-2. Click on the Audience Membership tab.  It will be **blank**.
+1. Click on the Audience Membership tab.  It will be **blank**.
 
-![](assets/u2S-VLbyqe13et_DLDIDx-20251120-025608.png)
+![DLDIDx 20251120 025608](assets/u2S-VLbyqe13et_DLDIDx-20251120-025608.png)
 
 >[!NOTE]
+>
 >**Why no Edge Membership?**
 >
 >Shouldn't we have seen **dep: Any Event Edge (within the hour) **qualify?
@@ -37,6 +42,6 @@ Confirm that the profile does not exist on the Edge network profile store.
 
 
 
-# Recap
+## Recap
 
 The profile does not exist on the Edge (yet)

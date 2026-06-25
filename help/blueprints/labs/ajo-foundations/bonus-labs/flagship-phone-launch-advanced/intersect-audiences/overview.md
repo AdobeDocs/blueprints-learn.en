@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Intersect Audiences
 description: Intersect Audiences
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: eda2f619-325d-4d7b-8b4b-80edc6135524
 ---
 
@@ -27,11 +30,12 @@ Exclusion means you only keep the result of one audience after subtracting the o
 ![Exclusion example](assets/ljQZw8ieZf3_h8UF7wi2Y-20251205-235724.png)
 
 >[!WARNING]
+>
 >In order to combine two different workflow branches together into a single result they must share the same targeting dimension or have a common key between.
 >
 >What is a targeting dimension?  This is SUPER important to understand as its the basis of everything in Orchestrated Campaigns. The targeting dimension simply tells you what schema the result can be joined back to in the relational store.  It ALWAYS contains the primary key from that schema.
 
-# Choose Your Adventure
+## Choose Your Adventure
 
 If you look at the each build audience activity you created you should note that each audience is using a different targeting dimension:
 
@@ -44,9 +48,10 @@ If you look at the each build audience activity you created you should note that
 
 You have two options at this point to address the targeting dimension issue. Pick one of the options from below that you want to puruse and have fun 😁
 
-- [Option #1 - Change Dimension](<./Intersect Audiences/Option _1 - Change Dimension.md>) --> Change the dimension of one of the audiences to match the other
-- [Option #2 - Enrichment](<./Intersect Audiences/Option _2 - Enrichment.md>) --> Add the primary key of the other audiences targeting dimension to one of the audiences result
+- [Option #1 - Change Dimension](./option-1-change-dimension.md) --> Change the dimension of one of the audiences to match the other
+- [Option #2 - Enrichment](./option-2-enrichment.md) --> Add the primary key of the other audiences targeting dimension to one of the audiences result
 
 >[!NOTE]
+>
 >**Note:** Option #2 is more difficult so if you want a challenge pick that one.
 

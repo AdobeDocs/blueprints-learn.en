@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Automate with API's
 description: Automate with API's
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
 ---
 
@@ -17,7 +19,7 @@ To see how you can automate deployments using API's you will execute a folder of
 
 
 
-# Execute the Folder
+## Execute the Folder
 
 1. In Postman navigate to the **Automation with APIs** folder within the** XDM Schema Lab** folder
 
@@ -28,32 +30,34 @@ To see how you can automate deployments using API's you will execute a folder of
 2\. Click on the **Automation with APIs **folder and in the workspace click on the **Run **button
 
 >[!NOTE]
+>
 >The run button is in the upper right of your Postman workspace
 
-![](assets/k48Az7N7R7fieBX8NJ7lJ_click-on-the-folder-run.png "Click on the folder Run")
+![Click on the folder run.png "Click on the folder Run"](assets/k48Az7N7R7fieBX8NJ7lJ_click-on-the-folder-run.png "Click on the folder Run")
 
 
 
 3\. A new window should appear that shows all the API calls in the folder. Set the **Delay **to **500ms **and then click on the **Run **button.
 
-![](assets/xiCgs4_VRMmiYsVdCv6Wz_execute-automation.png "Execute automation")
+![VRMmiYsVdCv6Wz execute automation.png "Execute automation"](assets/xiCgs4_VRMmiYsVdCv6Wz_execute-automation.png "Execute automation")
 
 
 
 4\. You will see the API calls start to execute in order and when complete you should see 32 passed tests.
 
-![](assets/0AFXuzHE0Ok6zCsAGBWaJ_successful-automation.png "Successful Automation")
+![Successful automation.png "Successful Automation"](assets/0AFXuzHE0Ok6zCsAGBWaJ_successful-automation.png "Successful Automation")
 
 
 
 5\. Go the Experience Platform UI and you should see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
 
-![](assets/n-ADAXZy_lxxLyKc0x1oi-W_W3kPDYjFu52exXE6-bs-20241017-191330.png "Automation Schemas")
+![LxxLyKc0x1oi W W3kPDYjFu52exXE6 bs 20241017 191330.png "Automation Schemas"](assets/n-ADAXZy_lxxLyKc0x1oi-W_W3kPDYjFu52exXE6-bs-20241017-191330.png "Automation Schemas")
 
 
 
-![](assets/BcqFozB78hmUiuOusmC6R_automation-datasets.png "Automation Datasets")
+![Automation datasets.png "Automation Datasets"](assets/BcqFozB78hmUiuOusmC6R_automation-datasets.png "Automation Datasets")
 
 >[!NOTE]
+>
 >Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema
 

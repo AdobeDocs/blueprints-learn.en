@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Mapping Data
 description: Mapping Data
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: 6c61093d-de03-4b76-9b4b-3e36962047da
 ---
 
@@ -11,11 +13,13 @@ In the Mapping screen, the AI/ML recommendation engine will map several attribut
 
 
 
-![](assets/E-TLi0HaLbXdAouZraE-s_ai-ml-based-contextual-recommendations.png "AI/ML-based contextual recommendations")
+![Ai ml based contextual recommendations.png "AI/ML based contextual recommendations"](assets/E-TLi0HaLbXdAouZraE-s_ai-ml-based-contextual-recommendations.png "AI/ML-based contextual recommendations")
 
 >[!NOTE]
+>
 >AI/ML recommendations are context-based and your screen may look different than the screenshot above or may differ from your neighbor
 
 >[!NOTE]
+>
 >Note that all source columns are ALWAYS treated as strings
 

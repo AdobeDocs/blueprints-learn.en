@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Verify Ingested Profile
 description: Verify Ingested Profile
 doc-type: article
+
+solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
 ---
 
@@ -20,22 +23,23 @@ Depending on what you trying to validate you may have to go to a few different p
 
 
 
-# Look Up Your Profile
+## Look Up Your Profile
 
 1. In the UI navigate to the **Profiles -> Browse**
-2. Enter the following values into the Identity namespace and Identity value input boxes:
+1. Enter the following values into the Identity namespace and Identity value input boxes:
    - **Identity namespace** -> `customerID`
    - **Identity value** -> `202208240125`
-3. Click the **View** button to lookup your profile
-4. Click on the **Profile ID** link in the returned row to view your profile
+1. Click the **View** button to lookup your profile
+1. Click on the **Profile ID** link in the returned row to view your profile
 
-![](assets/OL-s0RYUP_rEiI53URbvx_screenshot-2024-10-24-at-64233-pm.png "Browse Profile screen")
+![REiI53URbvx screenshot 2024 10 24 at 64233 pm.png "Browse Profile screen"](assets/OL-s0RYUP_rEiI53URbvx_screenshot-2024-10-24-at-64233-pm.png "Browse Profile screen")
 
 Please take a look at your profile and validate it matches what you streamed in. Pretty cool huh!
 
-![](assets/4MvLIDc4lYEtGDlaXybDb_screenshot-2024-10-24-at-64329-pm.png)
+![Screenshot 2024 10 24 at 64329 pm](assets/4MvLIDc4lYEtGDlaXybDb_screenshot-2024-10-24-at-64329-pm.png)
 
 >[!NOTE]
+>
 >Given the \~10min latency on net new identity relationship stitching, had you tried to look up your profile using the email namespace you would not have seen a response.  
 >
 >Using the customerId namespace instead (which is the primary identity) ensured you could look up the profile immediately.  

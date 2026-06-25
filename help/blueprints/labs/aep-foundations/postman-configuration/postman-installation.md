@@ -1,11 +1,14 @@
-﻿---
+---
+hold: true
 title: Postman Installation
 description: Postman Installation
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760
 ---
 
 >[!WARNING]
+>
 >Postman is required for various labs in this course.  Even if you have already Postman installed you will need to go through this lab to ensure you have the Environment Files and API Collection installed and properly setup.
 
 
@@ -14,15 +17,15 @@ exl-id: 012878d9-fe87-4178-8b36-40b267b06760
 
 Navigate to the Postman website and either download the Postman app or ustilze the Web Version --> [https://www.postman.com/download/](https://www.postman.com/download/)
 
-![](assets/postman-download.png)
+![Postman download](assets/postman-download.png)
 
 
 
-# Postman Interface
+## Postman Interface
 
 Open Postman and quickly familiarize yourself with a few areas of the application. For the purposes of working Experience Platform we really only need to focus on a few key areas of the application.
 
-![](assets/_ygYaHPl2_rf7z54bXfsj_image.png "Postman Interface")
+![YgYaHPl2 rf7z54bXfsj image.png "Postman Interface"](assets/_ygYaHPl2_rf7z54bXfsj_image.png "Postman Interface")
 
 ## Sidebar
 

@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Lectures
 description: Lectures
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: fe99bc54-0fa1-4793-86e5-b61424ea6afb
 ---
 
@@ -11,7 +13,7 @@ XDM (Experience Data Model) is Adobe’s standardized framework for organizing c
 
 ## Building in XDM
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459091/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459091/?quality=12&learn=on)
 
 
 
@@ -19,7 +21,7 @@ XDM (Experience Data Model) is Adobe’s standardized framework for organizing c
 
 ## Advanced XDM Information
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459090/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459090/?quality=12&learn=on)
 
 
 

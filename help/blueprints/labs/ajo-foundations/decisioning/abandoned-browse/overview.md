@@ -1,22 +1,26 @@
-﻿---
+---
+hold: true
 title: Abandoned Browse
 description: Abandoned Browse
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
 ---
 
 # Pre-Requisites
 
 >[!WARNING]
+>
 >The below labs must have been completed before starting this lab
 
-- **Data Stores -- Profile in Action** **--> **[Create Datastream](<././Data Stores/Profile in Action/Create Datastream.md>)****
+- **Data Stores -- Profile in Action** **--> **[Create Datastream](../../data-stores/profile-in-action/create-datastream.md)****
 
 If you have not completed these labs please do so now before continuing.
 
 
 
-# Business Objectives
+## Business Objectives
 
 The business use case for this lab is that Connection 5G wants to increase sales of the new Apple flagship phone, the iPhone 17, by targeting customers who have browsed the iPhone 17 overview page but haven't purchased. The key objectives of the campaign are as follows:
 
@@ -28,7 +32,7 @@ The business use case for this lab is that Connection 5G wants to increase sales
 - **Provide consistent personalization across channels** by using centralized decisioning logic to determine the best offer in real time. 
 - **Increase conversion likelihood** by presenting the most relevant flagship phone offer to each customer at the right moment.
 
-# Lab Learning Objectives
+## Lab Learning Objectives
 
 To meet the above business objectives in this lab, you will learn how to:
 

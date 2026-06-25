@@ -1,20 +1,24 @@
-﻿---
+---
+hold: true
 title: Create Primary Identity
 description: Create Primary Identity
 doc-type: article
+
+solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 ---
 
 1. Click on the `Step 1 - Create Primary Identity for Customer Account Schema` API request in the `XDM Schema Lab -> Create Identity Descriptors` folder
 
-![](assets/0gqRD5pD7afT23gI40IFm_step-1-create-primary-identity-for-customer-account-schema.jpeg "Step 1 - Create Primary Identity for Customer Account Schema")
+![Step 1 create primary identity for customer account schema.jpeg "Step 1   Create Primary Identity for Customer Account Schema"](assets/0gqRD5pD7afT23gI40IFm_step-1-create-primary-identity-for-customer-account-schema.jpeg "Step 1 - Create Primary Identity for Customer Account Schema")
 
 >[!CAUTION]
+>
 >Do not execute the request yet
 
 
 
-2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](<././Build Schema/Create Schema.md>)  lab step
+2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](../../build-schema/create-schema.md)  lab step
 
 3\. Update the `xdm:isPrimary` value in the body of the request to `true`
 
@@ -33,6 +37,7 @@ EXAMPLE ONLY
 ```
 
 >[!NOTE]
+>
 >Remember to update the tenant name above (\_devbc) with the your own
 
 
@@ -41,8 +46,9 @@ EXAMPLE ONLY
 
 5\. Execute the API by clicking the `Send` button. You should now see a `201 Created` response like below
 
-![](assets/6_lkbiD41A1JCXPl-iexl_successfully-created-primary-identity-descriptor.png "Successfully created primary identity descriptor")
+![LkbiD41A1JCXPl iexl successfully created primary identity descriptor.png "Successfully created primary identity descriptor"](assets/6_lkbiD41A1JCXPl-iexl_successfully-created-primary-identity-descriptor.png "Successfully created primary identity descriptor")
 
 >[!NOTE]
+>
 >Congratulations!  You just created a primary identity descriptor in your schema
 

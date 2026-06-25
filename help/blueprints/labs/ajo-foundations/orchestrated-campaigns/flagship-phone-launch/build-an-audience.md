@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Build an Audience
 description: Build an Audience
 doc-type: article
+
+solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
 ---
 
@@ -11,7 +14,7 @@ In next few steps you will be creating the audience you want to target for the c
 
 
 
-# Add Build Audience Activity
+## Add Build Audience Activity
 
 1. On the canvas click the **+ symbol** and then select the** Build audience** activity to add it to the workflow
 
@@ -19,13 +22,12 @@ In next few steps you will be creating the audience you want to target for the c
 
 
 
-2. In the right rail you see the Build audience properties. Update the Label to state the following: `Active Lines with Apple`
+1. In the right rail you see the Build audience properties. Update the Label to state the following: `Active Lines with Apple`
 
 ![Build audience label](assets/uPmIVgxKHnEhIpAIOaAAr-20260115-222148.png)
 
-****
 
-# Select Targeting Dimension
+## Select Targeting Dimension
 
 The next step is to select the **Targeting dimension** (i.e. what table you want to query). Do the following steps:
 
@@ -33,19 +35,21 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 ![Select targeting dimension](assets/9barIRCinBAiEo0jGU4f9-20260115-222417.png)
 
-2. On the popup, search for and select the table named **dep-rel: Customer Line **and then click the **Confirm **button.
+1. On the popup, search for and select the table named **dep-rel: Customer Line **and then click the **Confirm **button.
 
 ![Select dep-rel: Customer Line](assets/r77jI9mzIwFXFMZOEoLJz-20260115-222755.png)
 
 >[!NOTE]
+>
 >**Note: **Always remember the **targeting dimension** of each audience you create. You’ll learn its significance in the next steps.
 
 >[!NOTE]
+>
 >**Note: **if you ever select an Adobe created schema you note the schema starts with -> *(caas)*. This is just a namespace applied to the tables within the relational store and stands for Campaign as a Service :)
 
 
 
-# Create Audience
+## Create Audience
 
 Now that you have selected your targeting dimension (what relational schema you are going to query) you can start creating your definition.
 
@@ -53,7 +57,7 @@ Now that you have selected your targeting dimension (what relational schema you 
 
 ![Create audience](assets/bLupo5hg7TSaoHMimnFDF-20260115-223022.png)
 
-2. Next click on the **Add condition** button
+1. Next click on the **Add condition** button
 
 ![Add condition](assets/AHUHJPoWh_MPxn64tk7Fm_image.png)
 
@@ -69,13 +73,14 @@ Now its time to write the logic of the audience using the attributes found in th
    - **Attribute**:  `Active Line`
    - **Value**:  `true`
 
-![](assets/vzDRVNlunI4wD5_ATKkrA-20260115-223752.png)
+![ATKkrA 20260115 223752](assets/vzDRVNlunI4wD5_ATKkrA-20260115-223752.png)
 
-2. Click **Refresh **icon to view the qualifying counts on the condition. 
+1. Click **Refresh **icon to view the qualifying counts on the condition. 
 
-![](assets/r2Dclw4l-I2sB2VHLJEhQ-20260115-224023.png)
+![R2Dclw4l I2sB2VHLJEhQ 20260115 224023](assets/r2Dclw4l-I2sB2VHLJEhQ-20260115-224023.png)
 
 >[!TIP]
+>
 >You should see a result of 241 if you've built the condition correctly
 
 
@@ -86,24 +91,24 @@ Now its time to write the logic of the audience using the attributes found in th
 
 ![Selec the dep-rel: Product [Lookup] schema](assets/rqsHFzLBxbqvu-SnaRsml-20260609-202010.png)
 
-****
 
-2. Look for the field named **Make** and click on the three dots and select **Distribution of values**
+1. Look for the field named **Make** and click on the three dots and select **Distribution of values**
 
-![](assets/r_a4mBwu1QS6emUQIRLGJ-20260609-202430.png)
-
+![A4mBwu1QS6emUQIRLGJ 20260609 202430](assets/r_a4mBwu1QS6emUQIRLGJ-20260609-202430.png)
 
 
-3. Note the various values. You only want `Apple` and thankfully it doesn't have a 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
 
-![](assets/XiRNtvbQF4NOMEEO-RZCe-20260609-202625.png)
+1. Note the various values. You only want `Apple` and thankfully it doesn't have a 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
+
+![XiRNtvbQF4NOMEEO RZCe 20260609 202625](assets/XiRNtvbQF4NOMEEO-RZCe-20260609-202625.png)
 
 >[!NOTE]
+>
 >This is a prime example of where the data architect should have designed the schema with enumerations.  This way a marketer doesn't have to manually select/type in the value.  Shame on the data architect!
 
 
 
-4. The `Make` field is automatically added along with conditions shown below.
+1. The `Make` field is automatically added along with conditions shown below.
    - **Operator:**  `Equal to`
    - **Value:**  `Apple`
    - **Case sensitive:**  `Enabled`
@@ -113,26 +118,28 @@ Click on the **calculate icon** and you should see 85 as the result.
 ![Condition #2 Final Count](assets/BAxO-ciBkkvuzoNkWA8OF-20260416-145252.png)
 
 >[!NOTE]
+>
 >Note the use of the AND operator in the group. Whether you build this in a single group like shown or multiple groups the AND is important because it tells Orchestrated Campaigns both conditions must be true.
 
 
 
-# Verify counts
+## Verify counts
 
 1. Click on the **Calculate icon** found in the right rail under the heading Profiles targeted to get an exact estimate of the audience size. You should see **65 **as the **final count**.
 
 ![Calculate exact audience size](assets/lXQjrqHVKW3ugmX0kmd3s-20251205-205024.png)
 
 >[!NOTE]
+>
 >Notice how each individual condition returned a different number (condition #1 --> 241 and condition #2 --> 85) but the final audience size was the lesser of the two conditions.  This is because of that AND operator.
 
 
 
-2. If you see final count of **65 **click the **Confirm **button in the top right of the screen and then click the **Save **button in the top right to save your work.
+1. If you see final count of **65 **click the **Confirm **button in the top right of the screen and then click the **Save **button in the top right to save your work.
 
 
 
-# Challenge
+## Challenge
 
 Assume for a moment you had typed in the last condition such that `Make` was equal to `apple` (lowercased) and you had left the configuration option for `Case sensitive` toggled `on`.  This would make that conditions record count equal to 0.  So you would have 241 active lines and 0 where the make is apple.
 
@@ -140,19 +147,19 @@ Assume for a moment you had typed in the last condition such that `Make` was equ
 
 **What would be the final audience size it this case?**
 
-![](assets/Qa5xNh_1qx59JI8OEoY-C-20260115-225804.png "Last condition is 0")
+![1qx59JI8OEoY C 20260115 225804.png "Last condition is 0"](assets/Qa5xNh_1qx59JI8OEoY-C-20260115-225804.png "Last condition is 0")
 
 ## Answer
 
 Its zero :) Do you know why?
 
-![](assets/m-RrCYFw1b2BL7nkG_JX6-20260115-225933.png)
+![JX6 20260115 225933](assets/m-RrCYFw1b2BL7nkG_JX6-20260115-225933.png)
 
 
 
-# Recap
+## Recap
 
 You have successfully created your first audience and should now see how easy it is to develop and validate your counts within the Build Audience activity.
 
-![](assets/1CPZf1cg-luK3rN4rY6XV_image.png)
+![Image](assets/1CPZf1cg-luK3rN4rY6XV_image.png)
 

@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Build Audience #2
 description: Build Audience #2
 doc-type: article
+
+solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
 ---
 
@@ -11,7 +14,7 @@ Build an audience that finds all profiles who do not have an active line that is
 
 #
 
-# Analysis Tasks
+## Analysis Tasks
 
 This Audience is "those who do not have an active iPhone 14"
 
@@ -24,30 +27,30 @@ This Audience is "those who do not have an active iPhone 14"
 In the end, this boils down to a business choice on who they want to market to. In our case, the company has deemed this so important we built a schema that defines Active Lines, so let’s use that. 
 
 >[!NOTE]
+>
 >Since Active Lines is an array stored on a Profile, this is going to select the owner of the account vs each individual owner of the device. Make sure the Marketing team is aware of and wants that. Otherwise, you might want a different approach.
 
-##
-
-# Create a New Audience (Owns iPhone 14)
+## Create a New Audience (Owns iPhone 14)
 
 1. On the Attributes tab in the left rail, navigate down to Product Name (or search for it).
    - XDM Individual Profile --> \<tenant name> --> Active Products --> Product ID properties --> Product Name
-2. Drag Product Name onto the canvas 
+1. Drag Product Name onto the canvas 
 
-![](assets/EI8It4GUAx_FELpHTm2j1_drag-product-name-onto-the-canvas.png)
+![FELpHTm2j1 drag product name onto the canvas](assets/EI8It4GUAx_FELpHTm2j1_drag-product-name-onto-the-canvas.png)
 
 
 
-# Save the Audience
+## Save the Audience
 
 1. Type iPhone 14 (keep as Batch evaluation)
-2. Provide a Description
-3. Save Audience as “*Owns iPhone 14*” 
+1. Provide a Description
+1. Save Audience as “*Owns iPhone 14*” 
    - Go through the same steps above for the Pixel 7 (if you have time).
 
-![](assets/2c9LFcu4dLyK-YrZcQCW1_save-aud.png)
+![Save aud](assets/2c9LFcu4dLyK-YrZcQCW1_save-aud.png)
 
->[!WARNING]
+>[!TIP]
+>
 >**Side Thought, “couldn’t we just filter on the Events, rather than having another field on Profile store the same thing”?**
 >
 >Yes we could, but we have to go into some business and technical nuances that make the Audiences complex and introduce some challenges:
@@ -64,51 +67,52 @@ In the end, this boils down to a business choice on who they want to market to. 
 >In the end, we will have to make some trade offs for this Audience. If your heart is still set on using Events for this rule, read this Blog about it: https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/ how-to-capture-latest-experience-event-in-adobe-experience/ba-p/430941 
 
 >[!NOTE]
+>
 >**Enabling a Merge Policy for Edge**
 >
 >Let's ensure our Merge Policy is configured for Edge Audiences. Go to your Merge Policies and Edit the Default Merge Policy for \_xdm.context.profile.  Turn on the Active-On-Edge Merge Policy and save.
 >
-![](assets/-siBdh9t3UgaRI1IlVHcP_enabling-a-merge-policy-for-edge-1.png)
+>![Enabling a merge policy for edge 1](assets/-siBdh9t3UgaRI1IlVHcP_enabling-a-merge-policy-for-edge-1.png)
 >
 >
 >
-![](assets/jOdVrcLd-KdpzLsc6tNvR_enabling-a-merge-policy-for-edge-2.png)
+>![Enabling a merge policy for edge 2](assets/jOdVrcLd-KdpzLsc6tNvR_enabling-a-merge-policy-for-edge-2.png)
 
-##
-
-# Rebuild the Audience
+## Rebuild the Audience
 
 Marketing walked in today and gave us a requirement to have this Streaming and unfortunately the way we have this built is Batch. Let’s fix that:
 
 1. Open the "*Owns iPhone 14*" Audience and change the name to "*Owns iPhone 14 Batch*".
 
 >[!WARNING]
+>
 >Today we cannot change the Evaluation Method in the UI. Any Audiences that reference this Audience will also have to be deleted. Keep this in mind when deciding on your building strategy of using Segments within Segments.
 
 
 
 2\. Create a new Audience. Add the "Owns iPhone 14 Audience Batch" Audience to the canvas and click Convert to Rules.
 
-![](assets/Ak4nNzLh8hZ8pbq2GI76N_audience-to-the-canvas-and-click-convert-to-rules.png)
+![Audience to the canvas and click convert to rules](assets/Ak4nNzLh8hZ8pbq2GI76N_audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![](assets/bxPrBlw2iGxPL3O687lBq_audience-to-the-canvas-and-click-convert-to-rules-2.png)
+![Audience to the canvas and click convert to rules 2](assets/bxPrBlw2iGxPL3O687lBq_audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
 3\. Update the Description, Name and Evaluation Method to Streaming on the bottom right corner, then click on the folder icon next to the Evaluation Method. You should see this: 
 
-![](assets/GqU79RO-l1EBKvlQmfWWh_you-should-see-this.png)
+![You should see this](assets/GqU79RO-l1EBKvlQmfWWh_you-should-see-this.png)
 
 
 
 While not obvious, the reason for this is we are using Product Name on a lookup schema
 
 >[!NOTE]
+>
 >Whenever we use a lookup, our evaluation method is forced to Batch.
 >
 >You can tell this if you look at the path and it has "properties" in it anywhere
 >
-![](assets/1nyvdbnCm0Io82-HB9eIB_you-can-.png)
+>![You can](assets/1nyvdbnCm0Io82-HB9eIB_you-can-.png)
 
 
 
@@ -124,15 +128,15 @@ Add the new path:
 
 - XDM Individual Profile > Dep > Active Products > Model
 
-![](assets/dpCvZdSEO8L4JItBzj3bx_with-xdm.png)
+![With xdm](assets/dpCvZdSEO8L4JItBzj3bx_with-xdm.png)
 
-![](assets/xOILIIsYjX7VQkod76N8L_with-xdm.png)
+![With xdm](assets/xOILIIsYjX7VQkod76N8L_with-xdm.png)
 
 
 
 5\. Change the Evaluation Method to Streaming and click the folder icon 
 
-![](assets/_a2H7tWbSMr7oXhmQwQKa_change-the-evaluation-method-to-streaming-and-click-the-folder-icon.png)
+![A2H7tWbSMr7oXhmQwQKa change the evaluation method to streaming and click the folder icon](assets/_a2H7tWbSMr7oXhmQwQKa_change-the-evaluation-method-to-streaming-and-click-the-folder-icon.png)
 
 
 
@@ -141,7 +145,7 @@ Add the new path:
 - Save the Audience as "*Owns iPhone 14*" Audience.
 - Click the blue button **Activate Audience** to Destination
 
-![](assets/2yQg2REavTvV6TI9l0NYQ_activate-audience-to-destination.png)
+![Activate audience to destination](assets/2yQg2REavTvV6TI9l0NYQ_activate-audience-to-destination.png)
 
 
 
@@ -150,11 +154,13 @@ Add the new path:
 8\. Click **Next **and **Finish**
 
 >[!WARNING]
+>
 >Considerations why you may want to select Batch vs Streaming or Edge:
 >
 >Latest guardrails: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
->[!WARNING]
+>[!TIP]
+>
 >**Optional Challenge Lab**
 >
 >Finished early?

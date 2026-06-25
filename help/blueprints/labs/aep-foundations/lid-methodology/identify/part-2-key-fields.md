@@ -1,17 +1,20 @@
-﻿---
+---
+hold: true
 title: Part 2 - Key Fields
 description: Part 2 - Key Fields
 doc-type: article
+
+solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
 ---
 
 # Lecture
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459085/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459085/?quality=12&learn=on)
 
 
 
-# Lab Details
+## Lab Details
 
 ## Identity Fields
 
@@ -31,20 +34,21 @@ Not required but highly encouraged:
 ## General Rules
 
 1. Bridge Table Rule #2 - in situations where a bridge table exists between a “**P**” or “**E**” parent (i.e. parent table) and a “**L**” table treat the bridge table as part of the parent table
-2. Always validate that identities are unique to a **single** person at this stage to avoid rework during data ingestion
-3. For Experience Event schemas, the Primary Identity is what uniquely identifies that behavior to a single person.
-4. For lookup tables, the primary key (PK) from the relational model will always be the non-person Primary Identity
+1. Always validate that identities are unique to a **single** person at this stage to avoid rework during data ingestion
+1. For Experience Event schemas, the Primary Identity is what uniquely identifies that behavior to a single person.
+1. For lookup tables, the primary key (PK) from the relational model will always be the non-person Primary Identity
 
 For each table from the Connection 5G Warehouse ERD and streaming ERD that you have labeled as either a **“P”, “E” or “L”,  **you will now perform the steps below to identify the primary identities, person identities, relationship identities and any required fields for the given schema classes.
 
 >[!NOTE]
+>
 >Refer to the diagram below during the labs as you label identities on schemas
 >
->![](assets/xuugRlx0ZrPbHIqjSrPeF_image.png)
+>![Image](assets/xuugRlx0ZrPbHIqjSrPeF_image.png)
 
 
 
-# **Step 1 – Label Key Fields in the XDM Individual Profile Tables**
+## **Step 1 – Label Key Fields in the XDM Individual Profile Tables**
 
 Perform the below steps to identify the key fields within the Customer Account table:
 
@@ -54,7 +58,7 @@ Perform the below steps to identify the key fields within the Customer Account t
 
 
 
-# **Step 2 – Label Key Fields in the XDM Experience Event Tables**
+## **Step 2 – Label Key Fields in the XDM Experience Event Tables**
 
 Perform the same set of tasks you did in Step #1  but now for the XDM Experience Event tables:
 
@@ -70,13 +74,13 @@ In addition to the labels above also label the following:
 
 
 
-# **Step 3 – Label Key Fields in the Lookup Tables**
+## **Step 3 – Label Key Fields in the Lookup Tables**
 
 Identify in each lookup table the field that will be Primary Identity and label it with a `PI` 
 
 
 
-# Review
+## Review
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459088/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459088/?quality=12&learn=on)
 

@@ -1,20 +1,25 @@
-﻿---
+---
+hold: true
 title: Check Final Mapping Set
 description: Check Final Mapping Set
 doc-type: article
+
+solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 ---
 
 >[!WARNING]
+>
 >If you are coming from the Streaming Ingestion Lab please click the below link to proceed to the next step in that lab:
 >
->[Streaming Ingestion Lab - Check Final Mapping Set](<./././Stream Ingestion/Check Final Mapping Set.md>) 
+>[Streaming Ingestion Lab - Check Final Mapping Set](../../stream-ingestion/check-final-mapping-set.md) 
 
 
 
 # Simple Mappings
 
 >[!NOTE]
+>
 >Replace the \<tenant-name> with the value from your sandbox
 
 | Source Field              | Target Field                      |
@@ -41,11 +46,12 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | shipping\_street\_address | shippingAddress.street1           |
 
 >[!CAUTION]
+>
 >Ensure your final mapping matches what is shown below before continuing.
 
 
 
-# Calculated Mappings
+## Calculated Mappings
 
 | Calculated fields                                                                                                                     | XDM Field                  |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
@@ -54,5 +60,6 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | date\_part("yyyy",date(birth\_Date,"M/d/yyyy"))                                                                                       | person.birthYear           |
 
 >[!CAUTION]
+>
 >Ensure your final mapping matches to what is shown below before continuing
 

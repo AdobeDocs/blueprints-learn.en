@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Lab Overview
 description: Lab Overview
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
 ---
 
@@ -11,7 +13,7 @@ The goal of these labs is to prepare you to deal with the practical challenges o
 
 
 
-# What to Expect
+## What to Expect
 
 I need your focus. Here is why: data will be the foundation of any implementation you will ever do. 
 
@@ -21,7 +23,7 @@ These next set of labs will require attention and dedication as you will be touc
 
 
 
-# Syllabus in a Nutshell
+## Syllabus in a Nutshell
 
 Since you have source schemas and you have defined target schemas in XDM, you will need to connect the two schemas through mappings. Since this process requires a field by field mapping, you will need to learn some techniques that speed up the process while being aware of some common pitfalls:
 

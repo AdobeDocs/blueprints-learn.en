@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Content Simulation
 description: Content Simulation
 doc-type: article
+
+solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 ---
 
@@ -12,8 +15,8 @@ exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 By the end of this module, you will be able to:
 
 1. Upload and use test profile data for simulation.
-2. Validate personalised fields and variant logic.
-3. Test fallback behaviour for missing or unmatched data.
+1. Validate personalised fields and variant logic.
+1. Test fallback behaviour for missing or unmatched data.
 
 ## Introduction
 
@@ -22,15 +25,15 @@ This allows you to preview how different customers will experience your personal
 
 You will use the sample test profile file **sample.csv** from your toolkit.
 
-![](assets/rn5YPx7TSOXwCcdZcYy2J_image.png)
+![Image](assets/rn5YPx7TSOXwCcdZcYy2J_image.png)
 
 ## Open the Simulation Tool
 
 1. Open your completed email.
-2. Click **Simulate Content**.
-3. Select **Simulate content variation**.
+1. Click **Simulate Content**.
+1. Select **Simulate content variation**.
 
-![](assets/19p3U9X_CHBaM4efsxWxR_image.png)
+![CHBaM4efsxWxR image](assets/19p3U9X_CHBaM4efsxWxR_image.png)
 
 A simulation panel will open after few seconds.
 
@@ -39,19 +42,18 @@ A simulation panel will open after few seconds.
 1. Open **sample.csv** from your toolkit folder.
    - **Alex** → Above 40 years old 
    - **Jason** → Below 40 years old 
-2. Click **Upload Input Data**.
+1. Click **Upload Input Data**.
 
-![](assets/Psxhxvriekm8nui4CHtA2_image.png)
+![Image](assets/Psxhxvriekm8nui4CHtA2_image.png)
 
-3. Choose **sample.csv** and click **Continue**.
+1. Choose **sample.csv** and click **Continue**.
 
-![](assets/rgjLqjHNWL_MJz46u7gfk_image.png)
+![MJz46u7gfk image](assets/rgjLqjHNWL_MJz46u7gfk_image.png)
 
 AJO processes the file and prepares previews.
 
-***
 
-# Review Variant Rendering
+## Review Variant Rendering
 
 AJO will show both variants side by side based on the uploaded profiles.
 
@@ -59,31 +61,28 @@ AJO will show both variants side by side based on the uploaded profiles.
 
 - **Alex** → Sees **Variant 1** (Age above 40)
 
-![](assets/hNBkCWhSx-5wd9jqdXKqh_image.png)
+![Image](assets/hNBkCWhSx-5wd9jqdXKqh_image.png)
 
 If you scroll up you wil also see personalised fields with name now as you can see below. 
 
-![](assets/kGCmiMbc4Xqe6Tka-7aHJ_image.png)
+![Image](assets/kGCmiMbc4Xqe6Tka-7aHJ_image.png)
 
 - **Jason** → Sees **Variant 2** (Age below 40)
 
-![](assets/zDAMHrNOlgebAy6bjTP25_image.png)
+![Image](assets/zDAMHrNOlgebAy6bjTP25_image.png)
 
 With Jason's full name as well. How cool is that!
 
-![](assets/3Vj09Dz9NDR6d4E6iUjuH_image.png)
+![Image](assets/3Vj09Dz9NDR6d4E6iUjuH_image.png)
 
-***
 
-***
 
-# Validate Fallback Behaviour
+## Validate Fallback Behaviour
 
 **Fallbacks and Defaults:** Check that your email handles any missing data or no-match scenarios gracefully. For example, simulate a profile with an empty birth year field or one that doesn’t qualify for any targeted offer. The preview should either show a default content block or a sensible placeholder instead of broken or empty content. If your simulation shows an empty section where content should be, that indicates you may need to configure a fallback offer or default text in your design.
 
-***
 
-# Recap
+## Recap
 
 In this module, you successfully:
 

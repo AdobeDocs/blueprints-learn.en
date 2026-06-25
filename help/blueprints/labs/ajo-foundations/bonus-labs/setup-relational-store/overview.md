@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Setup Relational Store
 description: Setup Relational Store
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: 639eb618-139b-41cd-92b6-60bfcfe74a1a
 ---
 

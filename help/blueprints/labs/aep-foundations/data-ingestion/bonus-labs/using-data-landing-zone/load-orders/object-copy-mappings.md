@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Object Copy Mappings
 description: Object Copy Mappings
 doc-type: article
+
+solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
 ---
 
@@ -19,9 +22,11 @@ Add the following passthrough mappings with **Products\[\*] **and **Products\[\*
 | Products\[\*].productID | productListItems\[\*].SKU |
 
 >[!NOTE]
+>
 >Note that ***Products\[\*]*** is doing a 1-1 field mapping between the object fields and the explicit field mapping ***Products\[\*].productID***is overriding the default copy.
 
 >[!NOTE]
+>
 >***Products\[\*].productID ***is also mapped to ***prodictListItems\[\*].SKU ***in addition to ***prodictListItems\[\*].\_id*****. **This is an example of a single input field being mapped to multiple output fields in the XDM schema. Keep the mapping as it is.
 
 2\. Keep the mapping **products\[\*].price** to **productListItems\[\*].priceTotal**
@@ -35,22 +40,22 @@ Add the following passthrough mappings with **Products\[\*] **and **Products\[\*
 ## Delete Overrides on Certain Fields
 
 1. Observe that** productListitems.currencyCode** and **productListItems.quantity** are auto-populated. 
-2. Remove the **productListItems\[\*].quantity** and **productListItems\[\*].currencyCode **mappings.
-3. The overrides do not happen and the object copy takes over with passthrough fields going through. 
+1. Remove the **productListItems\[\*].quantity** and **productListItems\[\*].currencyCode **mappings.
+1. The overrides do not happen and the object copy takes over with passthrough fields going through. 
 
 
 ## Summary of Object Copy Mappings, Overrides and Deletes
 
 | Source Column              | XDM Column                          | Action                                 |
 | -------------------------- | ----------------------------------- | -------------------------------------- |
-| products\[\*]              | productListItems\[\*]               | <font color="#3b9f0f">Add</font>       |
-| products\[\*].productID    | productListItems\[\*].SKU           | <font color="#3b9f0f">Add</font>       |
-| products\[\*].productID    | productListItems\[\*].\_id          | <font color="#0c121d">No change</font> |
-| products\[\*].make         | productListItems\[\*].\_devbc.make  | <font color="#eb144c">Change</font>    |
-| products\[\*].model        | productListItems\[\*].\_devbc.model | <font color="#eb144c">Change</font>    |
-| products\[\*].price        | productListItems\[\*].priceTotal    | <font color="#0c121d">No change</font> |
-| products\[\*].quantity     | productListItems\[\*].quantity      | <font color="#eb144c">Remove</font>    |
-| products\[\*].currencyCode | productListItems\[\*].currencyCode  | <font color="#eb144c">Remove</font>    |
+| products\[\*]              | productListItems\[\*]               | `Add`       |
+| products\[\*].productID    | productListItems\[\*].SKU           | `Add`       |
+| products\[\*].productID    | productListItems\[\*].\_id          | `No change` |
+| products\[\*].make         | productListItems\[\*].\_devbc.make  | `Change`    |
+| products\[\*].model        | productListItems\[\*].\_devbc.model | `Change`    |
+| products\[\*].price        | productListItems\[\*].priceTotal    | `No change` |
+| products\[\*].quantity     | productListItems\[\*].quantity      | `Remove`    |
+| products\[\*].currencyCode | productListItems\[\*].currencyCode  | `Remove`    |
 
 ## Verify Mappings
 
@@ -58,7 +63,7 @@ There are 2 sets of mappings that you should verify. In total, you should have 6
 
 
 
-![](assets/pxtfzDmbEF935LVFdNUgL_the-resultant-mappings-for-productlistitems-should-look-like-this.png "The resultant mappings for ProductListItems\[*] should look like this")
+![The resultant mappings for productlistitems should look like this.png "The resultant mappings for ProductListItems\[*] should look like this"](assets/pxtfzDmbEF935LVFdNUgL_the-resultant-mappings-for-productlistitems-should-look-like-this.png "The resultant mappings for ProductListItems\[*] should look like this")
 
-![](assets/pY2tJYQ14yZ0W9jKE6RU2_the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
+![The resultant mappings for productlistitems should look like this copy](assets/pY2tJYQ14yZ0W9jKE6RU2_the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
 

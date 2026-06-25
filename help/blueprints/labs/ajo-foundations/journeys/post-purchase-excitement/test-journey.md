@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Test Journey
 description: Test Journey
 doc-type: article
+
+solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 ---
 
@@ -9,39 +12,42 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 
 Use the journey testing tools to verify that the event trigger and journey logic are configured correctly.
 
-# Test the Journey
+## Test the Journey
 
 1. Click on **Journeys **on the left rail and the **Browse tab** if you don't see a list of Journeys
-2. Click on your **Journey **to open it
-3. Click on **Alerts **& ensure no errors (warnings are ok)
+1. Click on your **Journey **to open it
+1. Click on **Alerts **& ensure no errors (warnings are ok)
 
-![](assets/dvImaqds_ZYn2cnZa6-L1-20251113-200640.png)
+![ZYn2cnZa6 L1 20251113 200640](assets/dvImaqds_ZYn2cnZa6-L1-20251113-200640.png)
 
 >[!NOTE]
+>
 >**What is CJMMAS - 2001-200**
 >
 >Indicates the opt-out link is missing in an email variant
 
-4. Click on the **Simulate **and on the left side, select **Test Mode**
+1. Click on the **Simulate **and on the left side, select **Test Mode**
 
-![](assets/wnyV5WyS3iyKIvOILMzRU-20260615-104621.png)
+![WnyV5WyS3iyKIvOILMzRU 20260615 104621](assets/wnyV5WyS3iyKIvOILMzRU-20260615-104621.png)
 
 
 
 >[!NOTE]
+>
 >It might take a minute to get ready. During that time the Trigger an Event button will not be available.
 
 
 
-5. Click **Trigger an Event **and fill out these properties:
+1. Click **Trigger an Event **and fill out these properties:
    - **Event Type**: `orders.shipped`
    - **Personal Email**: `henry.creel@emailsim.io`
    - **Order ID**: `123`
-6. Click **Send **(note, it takes a few seconds to respond after clicking send)
+1. Click **Send **(note, it takes a few seconds to respond after clicking send)
 
-![](assets/SvyzYc4SMYffxKat90AuF-20251113-201239.png)
+![SvyzYc4SMYffxKat90AuF 20251113 201239](assets/SvyzYc4SMYffxKat90AuF-20251113-201239.png)
 
 >[!CAUTION]
+>
 >**Note**: Some students get errors and need to send this a few times. You may have to do this **multiple **times.
 >
 >**Sometimes **the first Send gives an error of:
@@ -52,75 +58,62 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-7. Under **Results **-> Click **Show Log **on left side
+1. Under **Results **-> Click **Show Log **on left side
 
-![](assets/T83sahcgABemDM7PnACDD-20251113-201517.png)
+![T83sahcgABemDM7PnACDD 20251113 201517](assets/T83sahcgABemDM7PnACDD-20251113-201517.png)
 
 >[!WARNING]
->Some students who received errors sometimes receive different logs that look more like the below. This is not a blocker, go ahead and move on to the next step:
 >
->\{
->  "instances": \[]
->}
-
-
+>Some students who received errors sometimes receive different logs showing an empty instances array `{"instances": []}`. This is not a blocker, go ahead and move on to the next step.
 
 You should see something like this in the log:
 
 >[!NOTE]
->We are looking for the key fields we used
 >
->...
->      "**actionsHistory**": \{
->        "8919055f-1b00-4a43-8bd6-c8af894474b2": \{
->          "**eta**": "11/27/2025",
->          "**tracking\_number**": "091204404",
->          "jo\_status\_code": "http\_200"
->        }
->      },
->      "**transitionsHistory**": \{
->        "orderShipped (1158856989)": \{
->          "**eventType**": "**orders.shipped**",
->          "\_id": "joTestModeEvent\_5abbfdcd-561d-45a7-ba42-d0640539831a",
->          "\_dep": \{
->            "**personalEmail**": "henry.creel\@emailsim.io"
->          },
->          "order": \{
->            "**orderID**": "123"
->          },
->          "timestamp": "2025-11-17T23:30:49.576289372Z",
->          "\_experience": \{
->            "campaign": \{
->              "orchestration": \{
->                "eventID": "0afa45de34b6217707c9eea915cbe0b0384ab970bcd26122f4ece977fd9040af"
->              }
->            }
->          }
->        },
->        "\{GetShippingDetails (a03d4b8d-e734-4717-a7f8-e3fa2a848723\_8919055f-1b00-4a43-8bd6-c8af894474b2)} -> \{Email (40ef8272-871d-4eb5-b1e3-825a8ea1bbdf)} (df153ea0-e105-3467-9590-a2351c6f83b2)": \{},
->        "\{Email (40ef8272-871d-4eb5-b1e3-825a8ea1bbdf)} -> \{End (250b03fb-da4d-4e79-a424-25d540bd4f1d)} (2880ab91-cc84-3961-bfe5-2e652085001b)": \{}
->      }
->    }
->  ]
->}
+>We are looking for the key fields used: **actionsHistory**, **transitionsHistory**, **eta**, **tracking_number**, **eventType**, **personalEmail**, and **orderID**.
+
+```json
+{
+  "actionsHistory": {
+    "8919055f-1b00-4a43-8bd6-c8af894474b2": {
+      "eta": "11/27/2025",
+      "tracking_number": "091204404",
+      "jo_status_code": "http_200"
+    }
+  },
+  "transitionsHistory": {
+    "orderShipped (1158856989)": {
+      "eventType": "orders.shipped",
+      "_id": "joTestModeEvent_5abbfdcd-561d-45a7-ba42-d0640539831a",
+      "_dep": {
+        "personalEmail": "henry.creel@emailsim.io"
+      },
+      "order": {
+        "orderID": "123"
+      },
+      "timestamp": "2025-11-17T23:30:49.576289372Z"
+    }
+  }
+}
+```
 
 
 
-8. **Close **the Browser **tab**
-9. **Close Test Mode** in the top right
+1. **Close **the Browser **tab**
+1. **Close Test Mode** in the top right
 
-![](assets/niqxGZjRWMi7MDiQul5hw-20251117-235338.png)
+![NiqxGZjRWMi7MDiQul5hw 20251117 235338](assets/niqxGZjRWMi7MDiQul5hw-20251117-235338.png)
 
-10. Click on **Publish **the Journey in the top right
+1. Click on **Publish **the Journey in the top right
 
-![](assets/rqfeWFQA4yR0J8CvPxu5o-20251118-001155.png)
+![RqfeWFQA4yR0J8CvPxu5o 20251118 001155](assets/rqfeWFQA4yR0J8CvPxu5o-20251118-001155.png)
 
-11. **Close **the **Journey **by clicking \<- arrow in the top left
+1. **Close **the **Journey **by clicking \<- arrow in the top left
 
-![](assets/zxaTyocb4irBpx9COCJRk-20251117-235355.png)
+![ZxaTyocb4irBpx9COCJRk 20251117 235355](assets/zxaTyocb4irBpx9COCJRk-20251117-235355.png)
 
 Next we will send a real Order Shipped Event into AEP
 
-# Recap
+## Recap
 
 The journey has passed configuration validation and is ready to receive events

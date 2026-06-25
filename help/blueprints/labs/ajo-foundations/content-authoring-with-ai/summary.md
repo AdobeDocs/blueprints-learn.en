@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Summary
 description: Summary
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
 ---
 
@@ -27,6 +29,7 @@ Throughout this course, you've explored the full journey of building personalize
 
 
 >[!CAUTION]
+>
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB. **
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**

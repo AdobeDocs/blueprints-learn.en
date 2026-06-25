@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Summary
 description: Summary
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: c6f87223-a060-49d8-a784-d37d3422edd0
 ---
 
@@ -14,6 +16,7 @@ After configuring the journey, you tested the setup and sent a simulated event u
 
 
 >[!CAUTION]
+>
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB. **
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**

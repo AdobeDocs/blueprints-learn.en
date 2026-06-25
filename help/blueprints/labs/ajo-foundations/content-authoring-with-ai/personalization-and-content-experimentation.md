@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Personalization and Content Experimentation
 description: Personalization and Content Experimentation
 doc-type: article
+
+solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 ---
 
@@ -12,10 +15,10 @@ exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 By the end of this module, you will be able to:
 
 1. Add personalisation fields using profile attributes.
-2. Use the Personalisation Editor and Handlebars syntax.
-3. Build dynamic content variants based on profile logic.
-4. Create conditional rules for personalised content blocks.
-5. Test variant switching based on attributes such as birth year.
+1. Use the Personalisation Editor and Handlebars syntax.
+1. Build dynamic content variants based on profile logic.
+1. Create conditional rules for personalised content blocks.
+1. Test variant switching based on attributes such as birth year.
 
 ## Introduction
 
@@ -36,36 +39,35 @@ For this part of exercise we will keep personalisation simple. We want to add fi
 Add a text "Hi," above the main title and lick on personalisation icon. 
 
 1. Open your email created in earlier modules.
-2. Add a text block above the hero title with the content: **Hi,**
-3. Click the **Personalisation** icon.
+1. Add a text block above the hero title with the content: **Hi,**
+1. Click the **Personalisation** icon.
 
-![](assets/taW-TsIrnX7q9KDoEOHUR_image.png)
+![Image](assets/taW-TsIrnX7q9KDoEOHUR_image.png)
 
-4. Search for **F****irst Name**.
+1. Search for **F****irst Name**.
 
-![](assets/BhykXA3-H1P7X3g5kbXtr_image.png)
+![Image](assets/BhykXA3-H1P7X3g5kbXtr_image.png)
 
-5. Click **+** to add it to the expression area. 
-6. Add a **space** after the **First name **field.
+1. Click **+** to add it to the expression area. 
+1. Add a **space** after the **First name **field.
 
-![](assets/wdFeam_nARHYKYxOban1e_image.png)
+![NARHYKYxOban1e image](assets/wdFeam_nARHYKYxOban1e_image.png)
 
-7. Repeat the process above but this time search and add **Last Name**.
+1. Repeat the process above but this time search and add **Last Name**.
 
 Your final syntax should show first and last name variables clearly separated.
 
-![](assets/Uh0xIXN1E-QFTvz8KBYDy_image.png)
+![Image](assets/Uh0xIXN1E-QFTvz8KBYDy_image.png)
 
-8. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
-9. Click **Save** 
+1. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
+1. Click **Save** 
 
 Your view should be like this. Curly brackets consists of variables and each individual will receive email with their names. 
 
-![](assets/eQgN7B_dRt9rIwNm-qzi8_image.png)
+![DRt9rIwNm qzi8 image](assets/eQgN7B_dRt9rIwNm-qzi8_image.png)
 
 At this point, you know how you can add personalisation for individual profles. 
 
-***
 
 # Introduction to Dynamic Content
 
@@ -86,93 +88,89 @@ You will use the profile attribute `person.birthYear`.
 | Above 40     | birthYear \< 1986 |
 | Below 40     | birthYear >= 1986 |
 
-***
 
-# Create Two Image Variants
+## Create Two Image Variants
 
 Remember this block we created in our previous module? Your image will be different from mine. 
 
-![](assets/ZT01_lxWuGBQOwBSkOPtt_image.png)
+![LxWuGBQOwBSkOPtt image](assets/ZT01_lxWuGBQOwBSkOPtt_image.png)
 
 We will create another image for those aged below 40 (Remember we created Firefly image of person mid-40s) and use that for our exercise.
 
 1. Select the existing image block. (Click on the image) and click **Conditional Block**.
-2. Click **Add Variant**.
+1. Click **Add Variant**.
 
-![](assets/NDn50elAd4RtE5t4cJOBr_image.png)
+![Image](assets/NDn50elAd4RtE5t4cJOBr_image.png)
 
-4. Rename the first variant to **Age above 40**.
+1. Rename the first variant to **Age above 40**.
 
-![](assets/dCEbnoO0Vj4I29WxjSyHE_image.png)
+![Image](assets/dCEbnoO0Vj4I29WxjSyHE_image.png)
 
-5. Create a new Variant by clicking on **"Add variant"** button and Rename it to **Age below 40. **
+1. Create a new Variant by clicking on **"Add variant"** button and Rename it to **Age below 40. **
 
-![](assets/GZ-nxQ2kP_QCzqNiThzrg_image.png)
+![QCzqNiThzrg image](assets/GZ-nxQ2kP_QCzqNiThzrg_image.png)
 
-6. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
-7. Click on the image and Import Media.
+1. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
+1. Click on the image and Import Media.
 
-![](assets/XLs2GkUAAlTZ4UlxraO58_image.png)
+![Image](assets/XLs2GkUAAlTZ4UlxraO58_image.png)
 
-8. Select **variant-age-below-40.jpg** image. Import it by clicking on Next and finally press import in your folder (you should be default within your folder)
+1. Select **variant-age-below-40.jpg** image. Import it by clicking on Next and finally press import in your folder (you should be default within your folder)
 
-![](assets/oYftZip-NF_nQED515CO1_image.png)
+![NQED515CO1 image](assets/oYftZip-NF_nQED515CO1_image.png)
 
-9. Try to toggle between variants and you will see different image is applied. 
+1. Try to toggle between variants and you will see different image is applied. 
 
 So far we have built the design but have not applied the logic. We will do this in next step. 
 
-***
 
-# Apply Conditional Logic to Variants
+## Apply Conditional Logic to Variants
 
 Both of the variants are ready but we have not applied conditional logic. 
 
-![](assets/mTuxNzRKTGzT6LSs8tT3Y_image.png)
+![Image](assets/mTuxNzRKTGzT6LSs8tT3Y_image.png)
 
 ## Logic for “Age above 40”
 
 1. Select and hover the **Age above 40** variant.
-2. Click the **Conditional Logic** icon.
+1. Click the **Conditional Logic** icon.
 
-![](assets/S1QZTqWqQ63IgU4IpkxTY_image.png)
+![Image](assets/S1QZTqWqQ63IgU4IpkxTY_image.png)
 
-3. Create a new condition.
+1. Create a new condition.
 
-![](assets/eTgAVbizCaa61cgxgFTgY_image.png)
+![Image](assets/eTgAVbizCaa61cgxgFTgY_image.png)
 
-4. Search for **year** in the attribute list.
-5. Drag **Birth Year** into the canvas.
-6. Set condition to:
+1. Search for **year** in the attribute list.
+1. Drag **Birth Year** into the canvas.
+1. Set condition to:
    - **birthYear \< 1986**
 
-![](assets/vLn2htVcIaLb8qoSmEAua_image.png)
+![Image](assets/vLn2htVcIaLb8qoSmEAua_image.png)
 
-7. Name the condition: **Age Above 40**
-8. Add a description - "**Image Variant for people who are above 40**"
-9. Click **Add → Select**.
+1. Name the condition: **Age Above 40**
+1. Add a description - "**Image Variant for people who are above 40**"
+1. Click **Add → Select**.
 
-![](assets/ZUfvipgYJfFSXSGwdnrSu_image.png)
+![Image](assets/ZUfvipgYJfFSXSGwdnrSu_image.png)
 
-***
 
 ## Logic for “Age Below 40”
 
 1. Select amd hover **Age below 40 **section. 
-2. Repeat the steps but change the logic to:
+1. Repeat the steps but change the logic to:
    - **birthYear >= 1986**
 
-![](assets/Bx0jjyg8gwY0evjiwEVVt_image.png)
+![Image](assets/Bx0jjyg8gwY0evjiwEVVt_image.png)
 
-3. Name the condition: **Age Below 40**
-4. Add description. "**Image Variant for people who are below 40**"
-5. Click **Add → Select**.
+1. Name the condition: **Age Below 40**
+1. Add description. "**Image Variant for people who are below 40**"
+1. Click **Add → Select**.
 
-![](assets/XgxtoVMvi2QyD43Uz5xu3_image.png)
+![Image](assets/XgxtoVMvi2QyD43Uz5xu3_image.png)
 
-***
 
-# Validate Variant Switching
+## Validate Variant Switching
 
 Toggle between both variants to ensure:
 
@@ -182,21 +180,20 @@ Toggle between both variants to ensure:
 
 Variant: **Age above 40**
 
-![](assets/LWgq9HDfCBM_74nLqswAS_image.png)
+![74nLqswAS image](assets/LWgq9HDfCBM_74nLqswAS_image.png)
 
 Variant: **Age below 40**
 
-![](assets/rh7-hpbdIvxto52IQjCan_image.png)
+![Image](assets/rh7-hpbdIvxto52IQjCan_image.png)
 
 
 
 Click "**Save**" button to save the email. 
 
-![](assets/PprZzm3VWtLAn8o0gAW8O_image.png)
+![Image](assets/PprZzm3VWtLAn8o0gAW8O_image.png)
 
-***
 
-# Recap
+## Recap
 
 In this module, you successfully learned how to:
 

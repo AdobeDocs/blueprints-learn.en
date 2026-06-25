@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Lectures
 description: Lectures
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13
 ---
 
@@ -11,21 +13,21 @@ In Adobe Experience Platform, there are two main patterns of data ingestion: bat
 
 # Data Ingestion Architecture
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459101/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+>[!VIDEO](https://video.tv.adobe.com/v/3459101/?quality=12&learn=on)
 
 
 
 
 
-# Dataflow Framework
+## Dataflow Framework
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459103/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3459103/?quality=12&learn=on)
 
 
 
-# Data Prep with Complex Data
 
-<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/3459102/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
+## Data Prep with Complex Data
+
+>[!VIDEO](https://video.tv.adobe.com/v/3459102/?quality=12&learn=on)
 

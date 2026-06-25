@@ -1,23 +1,27 @@
-﻿---
+---
+hold: true
 title: Message Delivery in Action
 description: Message Delivery in Action
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 ---
 
 # Pre-Requisites
 
 >[!WARNING]
+>
 >The below labs must have been completed before starting this lab
 
-- **Data Stores -- Relational Store in Action** **--> **[Profile Target Dimension](<././Data Stores/Relational Store in Action/Profile Target Dimension.md>)
-- **Data Stores -->** [Configure Email Channels](<././Data Stores/Configure Email Channels.md>) *(this setup step takes up to 3hrs to complete)*
+- **Data Stores -- Relational Store in Action** **--> **[Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
+- **Data Stores -->** [Configure Email Channels](../../data-stores/configure-email-channels/overview.md) *(this setup step takes up to 3hrs to complete)*
 
 If you have not completed these labs please do so now before continuing.
 
 
 
-# Learning Objectives
+## Learning Objectives
 
 - Build an Orchestrated Campaign using a variety of workflow activities
 - Construct an audience using the Build Audience activity

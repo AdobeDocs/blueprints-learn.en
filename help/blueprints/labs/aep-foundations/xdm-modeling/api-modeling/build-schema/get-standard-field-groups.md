@@ -1,11 +1,15 @@
-﻿---
+---
+hold: true
 title: Get Standard Field Groups
 description: Get Standard Field Groups
 doc-type: article
+
+solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 ---
 
 >[!NOTE]
+>
 >**“Field Group” **was previously referred to as a **“Mixin” **so these terms may be used interchangeably throughout the API requests and guide.
 
 
@@ -13,15 +17,16 @@ exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 # **Request XDM Standard Field Groups**
 
 1. Click on `Step 1 - Get XDM Standard Field Groups` API call in the `XDM Schema Lab -> Create Schema` folder
-2. Execute the call by clicking the `Send` button
+1. Execute the call by clicking the `Send` button
 
 
 
 **Request**
 
-![](assets/v3aZPBxJnDEerV8zYxqiz_step-1-request.jpeg "Step 1 - Request")
+![Step 1 request.jpeg "Step 1   Request"](assets/v3aZPBxJnDEerV8zYxqiz_step-1-request.jpeg "Step 1 - Request")
 
 >[!NOTE]
+>
 >Note the use of `global` value in the requests URL below:
 >
 >https\://platform.adobe.io/data/foundation/schemaregistry/**global**/mixins
@@ -35,11 +40,11 @@ exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 
 **Response**
 
-![](assets/D9EYiVszLVd8QhpPG_H6E_step-1-response.png "Step 1 Response")
+![H6E step 1 response.png "Step 1 Response"](assets/D9EYiVszLVd8QhpPG_H6E_step-1-response.png "Step 1 Response")
 
 #
 
-# **Identify Required XDM Standard Field Groups**
+## **Identify Required XDM Standard Field Groups**
 
 A schema is always composed of one or more field groups and a class.  For the Connection 5G Individual Profile schema find the standard XDM field groups required for the schema.
 
@@ -50,11 +55,12 @@ A schema is always composed of one or more field groups and a class.  For the Co
 
 
 1. Search for the `Demographic Details` field group in the calls response
-2. Copy the `$id` of the field group and save it somewhere for future reference
-3. Repeat steps 1 & 2 for the other two field groups listed above
+1. Copy the `$id` of the field group and save it somewhere for future reference
+1. Repeat steps 1 & 2 for the other two field groups listed above
 
-![](assets/dcBLA74oI8r4FxKyeTQ5m_demographic-details-field-group.png)
+![Demographic details field group](assets/dcBLA74oI8r4FxKyeTQ5m_demographic-details-field-group.png)
 
 >[!NOTE]
+>
 >Do not continue until you have saved all three (3) `$id's` somewhere.  They will be required later to create the Customer Account schema
 

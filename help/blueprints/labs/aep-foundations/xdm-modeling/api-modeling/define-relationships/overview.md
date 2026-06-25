@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Define Relationships
 description: Define Relationships
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
 ---
 
@@ -34,11 +36,9 @@ Reference Identity Descriptor
 }
 ```
 
-##
-
 ## **Your Objective**
 
 Create Relationship identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
-![](assets/n-ADAXZy_lxxLyKc0x1oi-dNRps1V-ngEdac6AdbbpB-20241024-001844.png)
+![LxxLyKc0x1oi dNRps1V ngEdac6AdbbpB 20241024 001844](assets/n-ADAXZy_lxxLyKc0x1oi-dNRps1V-ngEdac6AdbbpB-20241024-001844.png)
 

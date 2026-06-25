@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Verify and Schedule Dataflow
 description: Verify and Schedule Dataflow
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 ---
 
@@ -44,24 +46,26 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 
 
 
-# Preview the Mapping Output
+## Preview the Mapping Output
 
 1. Preview the mapping output. Scroll through all the attributes to ensure there is no red exclamation next to any of the attributes on the right-hand side. 
 
-![](assets/SNjJQUkbOxdBKWJIEdMXH_preview-mapping-screen-will-look-like-this.png "Preview mapping screen will look like this")
+![Preview mapping screen will look like this.png "Preview mapping screen will look like this"](assets/SNjJQUkbOxdBKWJIEdMXH_preview-mapping-screen-will-look-like-this.png "Preview mapping screen will look like this")
 
 2\. On the left-hand side navigation of the Preview, select the **productListItems** object array. The right-hand side will update to show only the attributes in that object array. 
 
 >[!NOTE]
+>
 >Notice that **productListitems.currencyCode** and **productListitems.quantity** is automatically populated (even after removing the mappings). This happens because **productListItems** as a parent object are mapped.
 
-![](assets/KqMC9_qC6WGQz56SM5zZ2_completed-mapping-will-look-similar-to-the-following-screenshot.png "Completed mapping will look similar to the following screenshot")
+![QC6WGQz56SM5zZ2 completed mapping will look similar to the following screenshot.png "Completed mapping will look similar to the following screenshot"](assets/KqMC9_qC6WGQz56SM5zZ2_completed-mapping-will-look-similar-to-the-following-screenshot.png "Completed mapping will look similar to the following screenshot")
 
 ## Schedule the Run
 
 1. Set the schedule to run **every 15 minutes **by setting the Frequency as Minute and Interval as 15. Review the flow and click Finish. 
 
 >[!CAUTION]
+>
 >Ensure that your schedule is set to 15 minutes. If you schedule the run as **Run Once**, you will not be able to run it again even if you make changes to the mapping later.
 
 2\. Dataflow execution will not start immediately and will take a few minutes. So, the last Dataflow Run Status will be set to “*No runs*”.

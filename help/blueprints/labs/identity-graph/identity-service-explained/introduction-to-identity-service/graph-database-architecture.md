@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Graph Database Architecture
 description: Graph Database Architecture
-doc-type: article
+doc-type: article
+solution: Experience Platform
 exl-id: 26d9820a-7e6d-4016-ae8f-30a303acab47
 ---
 
@@ -12,6 +14,6 @@ You'll note in the visual a graph database is simply a collection of values with
 - **Nodes **store values
 - **Edges **store relationships
 
-![](assets/9lRoT1rMA1AsobMQX0AaH_node-edge.png)
+![Node edge](assets/9lRoT1rMA1AsobMQX0AaH_node-edge.png)
 
 Now that you have a general concept of what a graph database is let's discuss how it actually works in context of a person.

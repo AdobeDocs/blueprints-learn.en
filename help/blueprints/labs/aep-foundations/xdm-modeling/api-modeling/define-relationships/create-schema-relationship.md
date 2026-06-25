@@ -1,26 +1,31 @@
-﻿---
+---
+hold: true
 title: Create Schema Relationship
 description: Create Schema Relationship
 doc-type: article
+
+solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 ---
 
 1. Click on the` Step 2 - Relationship Descriptor Customer Account To Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 
 >[!CAUTION]
+>
 >Do not execute the request...yet
 
-![](assets/oCG9DCH3isLOcSg5GbDQB_step-2-relationship-descriptor-customre-acount-to-plan.png "Step 2 - Relationship Descriptor Customre Acount to Plan")
+![Step 2 relationship descriptor customre acount to plan.png "Step 2   Relationship Descriptor Customre Acount to Plan"](assets/oCG9DCH3isLOcSg5GbDQB_step-2-relationship-descriptor-customre-acount-to-plan.png "Step 2 - Relationship Descriptor Customre Acount to Plan")
 
 
 
 2\. Update the following properties in the body of the API call. 
 
-- Set the value of the `xdm:sourceSchema` property to the `$id` of the Customer Account schema you saved from the [Create Schema](<././Build Schema/Create Schema.md>) lab step
+- Set the value of the `xdm:sourceSchema` property to the `$id` of the Customer Account schema you saved from the [Create Schema](../build-schema/create-schema.md) lab step
 - Set the value of the `xdm:sourceProperty` to the path of the `planID` field from the Customer Account Schema. 
 - Set the value of the `xdm:destinationSchema` property to the `$id` of `dep: Lookup Plan` schema you saved in 1st step
 
 >[!NOTE]
+>
 >Use the dot notation value of the planId field from the Customer Account Schema and replace the`.` with`/`
 >
 >
@@ -41,6 +46,7 @@ EXAMPLE ONLY
 ```
 
 >[!NOTE]
+>
 >Remember to update the tenant name above (\_devbc) with the your own
 
 
@@ -51,12 +57,14 @@ EXAMPLE ONLY
 
 You should now see a `201 Created` response like below
 
-![](assets/zt937YGQr28qtVyrsoTXw_customer-account-plan-relationship-descriptor.png "Customer Account - Plan Relationship Descriptor")
+![Customer account plan relationship descriptor.png "Customer Account   Plan Relationship Descriptor"](assets/zt937YGQr28qtVyrsoTXw_customer-account-plan-relationship-descriptor.png "Customer Account - Plan Relationship Descriptor")
 
 >[!NOTE]
+>
 >Remember the Real-Time Customer Profile (and all of Experience Platform) only supports what we call a **one (1) hop join  **from either the XDM Individual Profile or XDM Experience Event schemas (i.e. you can only create one (1) level lookup relationships)
 
 >[!NOTE]
+>
 >Did you notice the relationship descriptor `@type` is set to a value of `OneToOne`? Isn't the relationship between the Customer Account and Plan table in the XDM ERD on Paper a 1\:N?  What is going on?
 >
 >

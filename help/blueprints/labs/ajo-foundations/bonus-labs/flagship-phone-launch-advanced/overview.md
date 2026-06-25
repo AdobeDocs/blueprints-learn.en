@@ -1,15 +1,19 @@
-﻿---
+---
+hold: true
 title: Flagship Phone Launch (Advanced)
 description: Flagship Phone Launch (Advanced)
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: ca43035d-4324-4936-836e-3bc007146b7c
 ---
 
 >[!CAUTION]
+>
 >Before you start this lab you must have completed the following two labs:
 >
->- [Profile Target Dimension](<././Data Stores/Relational Store in Action/Profile Target Dimension.md>)
->- [Configure Email Channel for Relational](<././Data Stores/Configure Email Channels/Configure for Relational.md>)
+>- [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
+>- [Configure Email Channel for Relational](../../data-stores/configure-email-channels/configure-for-relational.md)
 >
 >If you have not please do so now.
 
@@ -27,7 +31,7 @@ At the end of this campaign you will have created the following:
   - A single email to the account holder
   - Multiple SMS messages to each line holders qualified lines
 
-# Learning Objectives
+## Learning Objectives
 
 - Understand how to build audiences in orchestrated campaigns
 - Understand how to combine audience results

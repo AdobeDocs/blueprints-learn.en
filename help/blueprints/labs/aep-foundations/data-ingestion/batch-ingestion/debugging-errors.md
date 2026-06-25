@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Debugging Errors
 description: Debugging Errors
 doc-type: article
+
+solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
 ---
 
@@ -10,24 +13,25 @@ exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
 After a few minutes, you should notice that the **Status** shows a failure. Lets drill into the failure details to see what caused the failiure.  
 
 1. Click on **Dataflow Run Start** date
-2. Click on the **Preview error diagnostics** to see the specific details on each row that fail
+1. Click on the **Preview error diagnostics** to see the specific details on each row that fail
 
-![](assets/nLtPaUKAgswqNkmtqrsnS_dataflow-run-failure.png "Dataflow run failure")
+![Dataflow run failure.png "Dataflow run failure"](assets/nLtPaUKAgswqNkmtqrsnS_dataflow-run-failure.png "Dataflow run failure")
 
-![](assets/g8TZVuphUCmq1RnLrso6d_preview-error-diagnostics.png "Preview error diagnosis")
+![Preview error diagnostics.png "Preview error diagnosis"](assets/g8TZVuphUCmq1RnLrso6d_preview-error-diagnostics.png "Preview error diagnosis")
 
 
 
 The screen you now see shows you a bunch of details about what the error codes mean with the full error message and the row that failed.
 
-![](assets/KvFVKNcfe7ArQliTUDFIC_error-diagnostics-preview.png "Error diagnosis preview")
+![Error diagnostics preview.png "Error diagnosis preview"](assets/KvFVKNcfe7ArQliTUDFIC_error-diagnostics-preview.png "Error diagnosis preview")
 
 >[!NOTE]
+>
 >Scroll to the right side to see the source data associated with this error code
 
 
 
-# Understanding Error Types
+## Understanding Error Types
 
 ## **INGEST-XXXX-XXX Error**
 
@@ -40,6 +44,7 @@ person.birthDayAndMonth of type: String
 ```
 
 >[!CAUTION]
+>
 >Note that person.birthDayAndMonth is not a required field but non-conformance to regular expression is treated by the system as a "data corruption problem" and is a serious error.  
 
 
@@ -55,5 +60,6 @@ Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
 >[!WARNING]
+>
 >This error is not a serious one as this leads to only warnings during mapping. The dataflow run will not fail because of this so for our lab we will not fix this error. 
 

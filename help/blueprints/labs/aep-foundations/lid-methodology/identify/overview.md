@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Identify
 description: Identify
 doc-type: overview-page
+
+solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
 ---
 
@@ -10,7 +13,7 @@ exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
 The **Identify** step within the LID methodology is broken into two distinct parts:
 
 1. Part 1 - Remaining Table Types -> identify the remaining unlabeled tables and label the denormalization type
-2. Part 2 - Key Fields -> identify the key fields of both the primary and supporting entities
+1. Part 2 - Key Fields -> identify the key fields of both the primary and supporting entities
 
 
 

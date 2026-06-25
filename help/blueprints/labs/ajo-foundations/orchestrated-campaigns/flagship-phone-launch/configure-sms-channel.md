@@ -1,7 +1,10 @@
-﻿---
+---
+hold: true
 title: Configure SMS channel
 description: Configure SMS channel
 doc-type: article
+
+solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 ---
 
@@ -11,32 +14,32 @@ In the next step of steps you will configuration the SMS channel.  This is requi
 
 
 
-# Navigate to Channels
+## Navigate to Channels
 
 1. In Adobe Journey Optimizer, go to the **Administration** -> **Channels** menu. 
-2. Select **SMS Settings** → **API credentials**. 
-3. Click **Create API credential**. 
+1. Select **SMS Settings** → **API credentials**. 
+1. Click **Create API credential**. 
 
-![](assets/fwB-OLRsjVgOqJqyXVljM_image.png "Navigate to SMS Settings")
+![Image.png "Navigate to SMS Settings"](assets/fwB-OLRsjVgOqJqyXVljM_image.png "Navigate to SMS Settings")
 
 
 
-# Define the SMS API Credentials
+## Define the SMS API Credentials
 
 You will start by creating the API connector that AJO will use to send outbound SMS requests.
 
 1. Under SMS Vendor choose **Twilio**. 
-2. Enter the following API credential details from the **Sandbox Assignment.pdf** file that was emailed to you:
+1. Enter the following API credential details from the **Sandbox Assignment.pdf** file that was emailed to you:
    - **Name:**  `DEP SMS`
    - **Account SID: ** `value from the PDF`
    - **Auth Token: ** `value from the PDF`
-3. Click **Submit **to register the API credential 
+1. Click **Submit **to register the API credential 
 
 ![Enter SMS API credentials](assets/ljA1OrBg5ZaI9RmREw9xL-20260617-131608.png)
 
 
 
-# Create **SMS Channel Configuration**
+## Create **SMS Channel Configuration**
 
 Now you will map this API credential to a channel configuration that journeys and campaigns can use.
 
@@ -46,17 +49,18 @@ Now you will map this API credential to a channel configuration that journeys an
 
 
 
-2. Click **Create channel configuration**. 
+1. Click **Create channel configuration**. 
 
 ![Create a new channel configuration](assets/VnfDtv74S34zxgKaMuyia_image.png)
 
 
 
-3. Fill in SMS Channel Configuration Settings with the following values:
+1. Fill in SMS Channel Configuration Settings with the following values:
    - **Name:**  `Relational-SMS-Multi-Entity`
    - **Channel:**  `Mobile Message`
 
 >[!WARNING]
+>
 >If you get an error of user does not have permissions ignore it and continue on with your day
 
 **Marketing Action:**  `SMS Targeting`
@@ -81,51 +85,52 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 1. Under Execution details**, **click the tab** Orchestrated campaign**
 
-![](assets/XILfciHQry_3fXXt-mHG8_image.png)
+![3fXXt mHG8 image](assets/XILfciHQry_3fXXt-mHG8_image.png)
 
 
 
-2. Ensure the **Enabled **checkbox is checked
+1. Ensure the **Enabled **checkbox is checked
 
 ![Enabled orchestrated campaigns](assets/TG_jHc5KWx1011kPc2v01_image.png)
 
 
 
-3. Next under the sub-section **Execution dimension** ensure the following are setup as such:
+1. Next under the sub-section **Execution dimension** ensure the following are setup as such:
    - **Deliver on message per: ** `Target + Secondary Dimension`
    - **Profile Target Dimension:**  `del-rel: Customer Account - customer_id`
    - **Secondary Dimension:**  `Customer Line`
 
 ![Setup the execution dimension](assets/YEvABUpQZTUoJ81l3-rqp_image.png)
 
-![](assets/4Y1rO6942x_vhWKVxWWS5_image.png "Secondary Dimension")
+![VhWKVxWWS5 image.png "Secondary Dimension"](assets/4Y1rO6942x_vhWKVxWWS5_image.png "Secondary Dimension")
 
 >[!NOTE]
+>
 >This is telling Orchestrated Campaigns that when it sends messages if should deliver one message per record that that matches to the Profile Target Dimension.
 
 
 
-4. Under Execution Address heading ensure you select the radio button for **Secondary Dimension **and then click the edit button on the **SMS Execution Field**
+1. Under Execution Address heading ensure you select the radio button for **Secondary Dimension **and then click the edit button on the **SMS Execution Field**
 
 ![Choose execution address](assets/qp4NuhR2TC5D3_GpmLsmc_image.png)
 
 
 
-5. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
+1. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
 
-![](assets/p0HWpDLI7AADX-fRFV3F1_image.png)
+![Image](assets/p0HWpDLI7AADX-fRFV3F1_image.png)
 
-![](assets/co6cW9s4IZwdgbKow7jGj_image.png "Mobile Phone field")
+![Image.png "Mobile Phone field"](assets/co6cW9s4IZwdgbKow7jGj_image.png "Mobile Phone field")
 
 
 
-6. Confirm the final Execution details section matches below
+1. Confirm the final Execution details section matches below
 
 ![Final execution details config](assets/TOxeA4jF7GHha_UMCuyvc-20260115-220814.png)
 
 
 
-# Submit & Review
+## Submit & Review
 
 1. You can click the **Submit **button to complete the configuration and should see a success message appear
 
@@ -133,23 +138,25 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 
 
-2. On the channel configurations inventory page ensure the status shows as **Active **before moving on
+1. On the channel configurations inventory page ensure the status shows as **Active **before moving on
 
 ![Active SMS Channel configuration](assets/NfQ4ePvTsQPyE2mTe0gvc_image.png)
 
 >[!CAUTION]
+>
 >Wait until the status turns **Active **otherwise future lab steps will fail miserabily for you
 
 
 
-3. When the status turns Active you are complete!
+1. When the status turns Active you are complete!
 
 >[!TIP]
+>
 >🚀 Booyah! Your SMS channel is now live and ready for action!
 
 
 
-# Recap
+## Recap
 
 You have now seen how to successfully configure a SMS channel.  Note this is an API-based SMS so depending on your provider they may use alternative methods for authentication.
 

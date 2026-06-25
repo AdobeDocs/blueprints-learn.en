@@ -1,7 +1,9 @@
-﻿---
+---
+hold: true
 title: Configure Email Channels
 description: Configure Email Channels
-doc-type: overview-page
+doc-type: overview-page
+solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
 ---
 
