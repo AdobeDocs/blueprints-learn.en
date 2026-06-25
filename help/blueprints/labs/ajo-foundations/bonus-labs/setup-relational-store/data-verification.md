@@ -78,7 +78,6 @@ This lab will cover validation and verification of data ingested in the previous
 ![HL52zcFCwAxdNMQWCBX53 20251208 061707](assets/hL52zcFCwAxdNMQWCBX53-20251208-061707.png)
 
 1. Search for the `oc_mdl_customer`Schema, select it and click on **Confirm**
-1.
 
 ![VQ 20251208 061707](assets/3ZI9jS4msWInrXwko5_VQ-20251208-061707.png)
 
