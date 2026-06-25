@@ -30,7 +30,7 @@ Listed below are all the assets that are deployed as part of the *deploy.json* p
 - Flow Service
   - Source --> HTTP API (1)
     - Dataflows (10) --> all using mapping sets
-- Profile Store ([depeche.mode@dep.com](mailto\:depeche.mode@dep.com))
+- Profile Store ([depeche.mode@dep.com](mailto:depeche.mode@dep.com))
   - 3 contributing trait-based datasets (3 records)
   - 7 contributing event-based datasets (43 events)
   - 4 lookup datasets | 22 records

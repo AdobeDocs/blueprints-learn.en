@@ -16,8 +16,7 @@ Validating streaming data within the Adobe Experience Platform requires a few di
 | -------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Data Lake      | \~up to 60 minutes                                                         | The final resting place for all streaming data                         |
 | Profile Store  | \~1 min on avg. but up to \~15min                                          | Only processes data when the underlying dataset is enabled for profile |
-| Identity Store | \~1 min avg.
-\~10 min micro-batches for net new identity relationships | Only processes data when the underlying dataset is enabled for profile |
+| Identity Store | \~1 min avg. \~10 min micro-batches for net new identity relationships | Only processes data when the underlying dataset is enabled for profile |
 
 Depending on what you trying to validate you may have to go to a few different places as you can see from above.  In this scenario, you wrote the data to the profile (as you had enabled the dataset for the profile) so you will want to check the Profile Store to see if the profile is there.
 

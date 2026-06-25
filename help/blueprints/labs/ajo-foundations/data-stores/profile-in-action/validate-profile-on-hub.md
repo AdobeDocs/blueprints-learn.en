@@ -74,8 +74,8 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 >
 >**lastQualificationTime    **A timestamp of the last time this profile qualified for the segment
 >
->**status    
-**
+>**status**
+>
 >*realized*: The profile qualifies for the segment.
 >*exited*: The profile is exiting the segment as part of the current request.
 >

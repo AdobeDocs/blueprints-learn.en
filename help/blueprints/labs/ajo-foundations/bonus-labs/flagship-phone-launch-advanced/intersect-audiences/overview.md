@@ -14,17 +14,20 @@ In this step, you’ll combine the two audiences by intersecting them into a sin
 
 This involves using the Combine activity which provides three options to you:
 
-> **Union**
+## Union
+
 Union means you keep all the results from both audiences. For those of you who are visual it would look like this
 
 ![Union example](assets/SR4HwkKakmZqDnixVx2X3-20251205-235752.png)
 
-> **Intersection**
+## Intersection
+
 Intersection means you only keep what matches between both audiences.  The visual looks like this...
 
 ![Intersection example](assets/FtOqExyV_w2wrqTf4F80X-20251205-235559.png)
 
-> **Exclusion**
+## Exclusion
+
 Exclusion means you only keep the result of one audience after subtracting the other audience from it. A visual looks like this...
 
 ![Exclusion example](assets/ljQZw8ieZf3_h8UF7wi2Y-20251205-235724.png)

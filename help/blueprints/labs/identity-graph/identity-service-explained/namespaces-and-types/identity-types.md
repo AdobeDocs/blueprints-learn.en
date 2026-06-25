@@ -2,7 +2,7 @@
 hold: true
 title: Identity types
 description: Identity types
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 3aa69c7f-0dcc-443e-bf82-3cf699b7e4e4
 ---
@@ -16,7 +16,8 @@ In order to differentiate whether an identity participates in the creation of a 
 
 
 
-> **Person Types**
+## Person Types
+
 These identity types tell identity service to process the identity records into the identity graph when two or more exist within a single record of data.
 
 - **Cookie ID** - used specifically for web browsers
@@ -25,7 +26,8 @@ These identity types tell identity service to process the identity records into 
 - **Email** - email address of a person
 - **Phone Number** - phone number of a person
 
-> **Non-Person Types**
+## Non-Person Types
+
 These identity types tell identity service to ignore processing the identities into the identity graph
 
 - **Non-people Identifier** - represent identities that are not describing a person such as Product SKU or Household ID (typically used for lookup tables within the Real-Time Customer Profile)

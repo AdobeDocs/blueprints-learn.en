@@ -63,7 +63,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 >[!CAUTION]
 >
->Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto\:ajo-campaigns@email.dep-labs.com)
+>Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
 >[!NOTE]
 >

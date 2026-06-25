@@ -2,7 +2,7 @@
 hold: true
 title: Create Custom Field Groups
 description: Create Custom Field Groups
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
 ---
@@ -33,7 +33,7 @@ A field group is always composed of the following fields. You will see this in t
 
 
 
-Review the body of the request before executing. Notice that the required fields mentioned in the [Field Group Structure]()  section appear like so:
+Review the body of the request before executing. Notice that the required fields mentioned in the Field Group Structure section appear like so:
 
 ![Field group structure.png "Field Group Structure"](assets/JunXRjZEj6VjNnbxqMMGN_field-group-structure.png "Field Group Structure")
 

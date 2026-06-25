@@ -18,7 +18,7 @@ exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
 
 
 
-2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](../../build-schema/create-schema.md)  lab step
+2\. Update the `xdm:sourceSchema` value in the body of the request using the `$id` you saved from the [Create Schema](../build-schema/create-schema.md)  lab step
 
 3\. Update the `xdm:isPrimary` value in the body of the request to `false`
 

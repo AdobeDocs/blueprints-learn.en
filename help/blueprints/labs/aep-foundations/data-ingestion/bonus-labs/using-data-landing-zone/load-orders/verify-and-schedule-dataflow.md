@@ -2,7 +2,7 @@
 hold: true
 title: Verify and Schedule Dataflow
 description: Verify and Schedule Dataflow
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 ---
@@ -36,8 +36,7 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 | 23 | billingState                                | billing.address.state                                    |
 | 24 | billingZip                                  | billing.address.postalCode                               |
 | 25 | products\[\*]                               | productListItems\[\*]                                    |
-| 26 | products\[\*].productID                     | - productListItems\[\*].\_id
-- productListItems\[\*].SKU |
+| 26 | products\[\*].productID                     | - productListItems\[\*].\_id - productListItems\[\*].SKU |
 | 27 | products\[\*].make                          | productListItems\[\*].\_devbc.make                       |
 | 28 | products\[\*].model                         | productListItems\[\*].\_devbc.model                      |
 | 29 | products\[\*].price                         | productListItems\[\*].priceTotal                         |
