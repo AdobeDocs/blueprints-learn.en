@@ -23,7 +23,6 @@ exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 
 ![Webhooksite copy your unique url.png "Webhook.site copy your unique URL"](assets/FZjiu3ESI1tSWn5jTMHeH_webhooksite-copy-your-unique-url.png "Webhook.site copy your unique URL")
 
-#
 
 ## Configure HTTP API Destination
 

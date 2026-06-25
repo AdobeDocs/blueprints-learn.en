@@ -21,7 +21,6 @@ exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
 
 ![I7oSJ1UwAcLQCJW screenshot 2024 08 20 at 100553 am.png "Adobe Login with prompt for profle selection"](assets/baibx_I7oSJ1UwAcLQCJW_screenshot-2024-08-20-at-100553-am.png "Adobe Login with prompt for profle selection")
 
-#
 
 ## **Launch Experience Platform**
 
@@ -33,7 +32,6 @@ Click on the Experience Platform icon from the quick access panel to access your
 
 ![LxxLyKc0x1oi SbEjbQB3EXB3Of0IEgWrp 20241015 161044.png "Quick access for the Experience Platform"](assets/n-ADAXZy_lxxLyKc0x1oi-SbEjbQB3EXB3Of0IEgWrp-20241015-161044.png "Quick access for the Experience Platform")
 
-#
 
 ## **Navigate to Schemas**
 

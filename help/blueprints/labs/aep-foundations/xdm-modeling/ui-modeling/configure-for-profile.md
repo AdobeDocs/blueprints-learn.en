@@ -18,7 +18,6 @@ Looking at the XDM on paper Connection 5G ERD you'll see the following informati
 
 ![Connecti.jpeg "Connection 5G XDM on Paper Customer Account schema and its associated lookup table"](assets/alcXp2CSHAoZNsn-ZnAS4_connecti.jpeg "Connection 5G XDM on Paper Customer Account schema and its associated lookup table")
 
-#
 
 ## Mark the Primary Identity Field
 

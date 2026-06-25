@@ -19,7 +19,6 @@ exl-id: d87c21a2-dad4-4666-b917-cdf8e16058d4
 >
 >Notice that in the GET request the `global` path:  .../schemaregistry/**global**/classes. Remember that when using `global` this tells the schema registry we only want to return Adobe standard XDM objects
 
-#
 
 ## Locate and Save the Classes $id 
 

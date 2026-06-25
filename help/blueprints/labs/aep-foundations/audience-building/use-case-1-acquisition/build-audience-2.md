@@ -12,7 +12,6 @@ exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
 
 Build an audience that finds all profiles who do not have an active line that is an iPhone 14
 
-#
 
 ## Analysis Tasks
 
@@ -57,12 +56,12 @@ In the end, this boils down to a business choice on who they want to market to. 
 >
 >1. If we use the Purchase Event: 
 >   1. What if they didn’t buy from us, but have an active line?
->   2. What if they purchased 2 years ago, my rule has to look back N number of years and we only kept 1 year of Events on Profile?
->2. The Billing Event seems like a better fit:
+>   1. What if they purchased 2 years ago, my rule has to look back N number of years and we only kept 1 year of Events on Profile?
+>1. The Billing Event seems like a better fit:
 >   1. But now the data is up to a month old.
->   2. What if the last Billing Event was 2 years ago, this could include people who aren’t customers
->   3. What if my data load failed, my count might drop to zero if I’m only looking back one month in order to exclude old data
->   4. Do we even capture the Device for a Billing Event? No, so we would have to change our data feed
+>   1. What if the last Billing Event was 2 years ago, this could include people who aren’t customers
+>   1. What if my data load failed, my count might drop to zero if I’m only looking back one month in order to exclude old data
+>   1. Do we even capture the Device for a Billing Event? No, so we would have to change our data feed
 >
 >In the end, we will have to make some trade offs for this Audience. If your heart is still set on using Events for this rule, read this Blog about it: https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/ how-to-capture-latest-experience-event-in-adobe-experience/ba-p/430941 
 

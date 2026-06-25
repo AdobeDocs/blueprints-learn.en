@@ -24,7 +24,6 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 >
 >You'll notice there are already schemas that are pre-created in your sandbox. These include schemas that were pre-created as part of this bootcamp (they are prefixed with `dep`), as well as system generated schemas for both Adobe Real-Time CDP and Adobe Journey Optimizer.
 
-#
 
 ## **Create Individual Profile Schema**
 
@@ -44,7 +43,6 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
 ![LxxLyKc0x1oi DTjcQHkahuJAj5qJNfxSU 20241015 171621.png "Select the Individual ProfileClass"](assets/n-ADAXZy_lxxLyKc0x1oi-DTjcQHkahuJAj5qJNfxSU-20241015-171621.png "Select the Individual ProfileClass")
 
-#
 
 ## Name Your Schema
 
@@ -84,7 +82,6 @@ There are many field groups that exist as standard XDM in Adobe Experience Platf
 
 ![CI7x59vlID select the demographic details field group to add it to your schema.png "Select the Demographic Details field group to add it to your schema"](assets/VilL6gza4x_cI7x59vlID_select-the-demographic-details-field-group-to-add-it-to-your-schema.png "Select the Demographic Details field group to add it to your schema")
 
-#
 
 ## Add Other Standard Field Groups
 
@@ -105,7 +102,6 @@ When you are done your schema should look like the below image when done. Be sur
 >
 >Be sure to save your schema before continuing!
 
-#
 
 ## Customize Standard Field Groups
 

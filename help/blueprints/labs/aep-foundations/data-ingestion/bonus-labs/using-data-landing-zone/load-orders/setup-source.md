@@ -12,7 +12,7 @@ exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
 
 You need to upload a sample data file to your Data Landing Zone via Azure Storage Explorer so that you can use it during the lab.  To do so do the following:
 
-1. Download the [Sample Files](../../../../sample-files.md) 
+1. Download the [Sample Files](../../../sample-files.md) 
 1. Drag 'n drop and/or upload the **Lab\_Historical\_Orders.json **file to the Data Landing Zone you saved from above.
 
 

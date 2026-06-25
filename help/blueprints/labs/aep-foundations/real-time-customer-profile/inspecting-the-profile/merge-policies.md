@@ -98,7 +98,6 @@ Click the **Finish **button to create the merge policy
 
 ![Review merge policy.png "Review merge policy"](assets/6mUCplj2o-En0jZtdr6wn_review-merge-policy.png "Review merge policy")
 
-#
 
 ## Merge Methods in Action
 
@@ -182,7 +181,6 @@ Try looking up the same profile again with the No ID Stitching merge policy but 
 
 Question: No profiles were found! What is going on? Why are no profiles found? Answer: There are no profile fragments that are stored using that GAID value as a primary identity
 
-#
 
 ## Profile + Identity
 

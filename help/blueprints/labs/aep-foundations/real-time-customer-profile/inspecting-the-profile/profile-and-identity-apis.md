@@ -16,7 +16,6 @@ One of the most important API's is the Profile Entity API.  This API allows you 
 
 Below is the entire spec for the GET method for the Profile Entity API
 
-#
 
 ## API Overview
 

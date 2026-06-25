@@ -22,7 +22,6 @@ exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
 
 ![LxxLyKc0x1oi F3oAgyOHSOSBIs4fgGXuA 20241023 210301.png "UI View of the Sample Customer Schema"](assets/n-ADAXZy_lxxLyKc0x1oi-F3oAgyOHSOSBIs4fgGXuA-20241023-210301.png "UI View of the Sample Customer Schema")
 
-#
 
 ## View via the API
 

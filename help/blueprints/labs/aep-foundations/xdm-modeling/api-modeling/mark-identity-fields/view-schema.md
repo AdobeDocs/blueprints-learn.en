@@ -16,7 +16,6 @@ exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
 
 ![LxxLyKc0x1oi aKjUnWfVu4aH XNWPHeqL 20241023 215737.png "Schema UI View with Identities"](assets/n-ADAXZy_lxxLyKc0x1oi-aKjUnWfVu4aH-XNWPHeqL-20241023-215737.png "Schema UI View with Identities")
 
-#
 
 ## **View via the API**
 
@@ -46,7 +45,6 @@ Browse further down in the API response to see the identity descriptors you crea
 
 ![NsMS56rO descriptors displayed in api response.png "Descriptors displayed in API response"](assets/uIIStkniOpho_NsMS56rO_descriptors-displayed-in-api-response.png "Descriptors displayed in API response")
 
-#
 
 ## Accept Headers
 

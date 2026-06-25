@@ -42,7 +42,6 @@ exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 
 ![H6E step 1 response.png "Step 1 Response"](assets/D9EYiVszLVd8QhpPG_H6E_step-1-response.png "Step 1 Response")
 
-#
 
 ## **Identify Required XDM Standard Field Groups**
 

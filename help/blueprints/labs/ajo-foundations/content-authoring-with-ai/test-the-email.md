@@ -19,8 +19,7 @@ By the end of this module, you will be able to:
 - Confirm that email content is accurate, personalized, and ready for activation.
 
 
-Send Proof Emails (Optional, but recommended)
-=============================================
+## Send Proof Emails (Optional, but recommended)
 
 At this point, you have learned that we can not only personalize the profile attributes but also use attributes to create conditional logic that would determine the content you want to show. Adobe Journey Optimizer is extremely powerful and gives marketers a lot of flexibility. 
 

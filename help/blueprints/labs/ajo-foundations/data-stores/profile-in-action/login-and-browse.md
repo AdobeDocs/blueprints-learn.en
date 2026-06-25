@@ -33,5 +33,4 @@ Click on the Experience Platform icon from the quick access panel to access your
 
 ![LxxLyKc0x1oi SbEjbQB3EXB3Of0IEgWrp 20241015 161044.png "Quick access for the Experience Platform"](assets/n-ADAXZy_lxxLyKc0x1oi-SbEjbQB3EXB3Of0IEgWrp-20241015-161044.png "Quick access for the Experience Platform")
 
-#
 

@@ -37,7 +37,6 @@ Click on the **account** object and notice what appears in the right rail of the
 >
 >Keep in mind that the Union Schema is observable meaning profile will only show fields that contain data when viewing an actual Real-Time Customer Profile
 
-#
 
 ## Profile Lookup
 

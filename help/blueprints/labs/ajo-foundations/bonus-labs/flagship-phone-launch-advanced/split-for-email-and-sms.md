@@ -88,7 +88,7 @@ In this step you want to only keep the customer lines that are opt-in to SMS and
 >
 >If you didn't stop your workflow from a prevoius run click the Stop button first and then click Start
 
-2.
+1.
 
 
 

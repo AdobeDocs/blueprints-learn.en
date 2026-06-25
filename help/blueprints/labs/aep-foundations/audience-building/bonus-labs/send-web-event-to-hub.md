@@ -19,7 +19,6 @@ Launch postman on your computer and navigate to the following API call:
 
 ![Create web event api request](assets/mP4nyziBdhfTfseRvsBJH_create-web-event-api-request.png)
 
-#
 
 ## Modify API Request
 

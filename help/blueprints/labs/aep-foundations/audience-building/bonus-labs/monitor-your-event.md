@@ -52,8 +52,7 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 ![GDCKe 79Aw6  done](assets/mOYnYAh0_GDCKe-79Aw6-_done.png)
 
 
-Open Postman
-============
+## Open Postman
 
 Go to Postman -> Create Web Event Edge (No Auth) -> Headers
 

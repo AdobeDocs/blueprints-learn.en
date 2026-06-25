@@ -19,7 +19,6 @@ If you haven't downloaded Azure Storage Explorer do so now as its a requirement 
 
 ![End user license agreement screen.png "End User License Agreement screen"](assets/rT5YtfnGtfBojx3BQ9sFo_end-user-license-agreement-screen.png "End-User License Agreement screen")
 
-#
 
 ## Configure Azure Storage Explorer with Experience Platform 
 

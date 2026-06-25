@@ -118,7 +118,6 @@ When done you should see the following screen confirming your data element has b
 
 ![Data element saved to property](assets/qmVY2I441cXhBlVl174du_data-element-saved-to-property.png)
 
-#
 
 ## Create Rules
 

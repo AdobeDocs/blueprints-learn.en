@@ -22,7 +22,6 @@ You created the schema by `$ref` both the Adobe created field groups and your ow
 
 ![LxxLyKc0x1oi Ol6EkZF7zEpODWNLm3AEK 20241023 222046.png "Customer Account Schema"](assets/n-ADAXZy_lxxLyKc0x1oi-Ol6EkZF7zEpODWNLm3AEK-20241023-222046.png "Customer Account Schema")
 
-#
 
 ## **JSON Patch'd the Customer Account Schema**
 
@@ -30,7 +29,6 @@ You used the JSON Patch method to modify the Customer Account schema to add a ne
 
 ![LxxLyKc0x1oi  880fF92TbOADaEKgpMcw 20241023 235922.png "JSON Patch of planDescription field"](assets/n-ADAXZy_lxxLyKc0x1oi--880fF92TbOADaEKgpMcw-20241023-235922.png "JSON Patch of planDescription field")
 
-#
 
 ## **Marked Identity Fields**
 

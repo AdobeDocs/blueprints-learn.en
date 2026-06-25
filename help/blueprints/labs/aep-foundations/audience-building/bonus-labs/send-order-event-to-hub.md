@@ -74,7 +74,6 @@ Launch postman on your computer and navigate to the following API call:
 
 ![W43tBv create web event api request](assets/Kjsq3C7LCIYktN_w43tBv_create-web-event-api-request.png)
 
-#
 
 ## Modify API Request
 
@@ -117,7 +116,6 @@ Your final API request should look like this when done
 
 ![Tguisg final order api request](assets/W0BXKhP2HZxF1f_Tguisg_final-order-api-request.png)
 
-#
 
 ## Execute the API
 

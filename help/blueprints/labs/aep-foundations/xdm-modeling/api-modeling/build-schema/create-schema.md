@@ -62,7 +62,6 @@ A successful response for creating the schema should result in a `201 Created` s
 
 ![Sample response from executing the step 4 api.png "Sample response from executing the Step 4 API"](assets/KIkCUWK7VWbN4jN7bP-wy_sample-response-from-executing-the-step-4-api.png "Sample response from executing the Step 4 API")
 
-#
 
 ## Locate and Save the Schema $id
 
