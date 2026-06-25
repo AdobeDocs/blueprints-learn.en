@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Environment File
 description: Environment File
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
 ---

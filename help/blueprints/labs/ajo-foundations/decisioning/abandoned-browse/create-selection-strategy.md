@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Selection Strategy
 description: Create Selection Strategy
 doc-type: article
-
 solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
 ---

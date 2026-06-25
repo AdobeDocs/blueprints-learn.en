@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Fix MAPPER Errors for CreateDate
 description: Fix MAPPER Errors for CreateDate
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: e3f7ef23-6fd1-4f7a-8dc7-db82445322b0
 ---

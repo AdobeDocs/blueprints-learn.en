@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Compose the SMS
 description: Compose the SMS
 doc-type: article

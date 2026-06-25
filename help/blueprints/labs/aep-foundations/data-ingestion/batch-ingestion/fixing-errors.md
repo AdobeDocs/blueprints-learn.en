@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Fixing Errors
 description: Fixing Errors
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
 ---

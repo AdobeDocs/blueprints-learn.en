@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Sample Files
 description: Sample Files
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
 ---

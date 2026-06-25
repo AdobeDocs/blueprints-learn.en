@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Prerequisites
 description: Prerequisites
 doc-type: article
-
 solution: Experience Platform
 exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
 ---

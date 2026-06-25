@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Sandbox Setup
 description: Sandbox Setup
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7f400886-7ddf-4b6b-8ca0-3e417857f963
 ---

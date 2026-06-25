@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Datastream
 description: Create Datastream
 doc-type: article
-
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Send an Edge Web Event
 description: Send an Edge Web Event
 doc-type: article
-
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
 ---

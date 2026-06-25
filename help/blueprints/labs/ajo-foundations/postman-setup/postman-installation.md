@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Postman Installation
 description: Postman Installation
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
 ---

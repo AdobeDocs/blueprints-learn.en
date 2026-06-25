@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Send an Event
 description: Send an Event
 doc-type: article
-
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
 ---

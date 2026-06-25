@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Stream a Profile
 description: Stream a Profile
 doc-type: article
-
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
 ---

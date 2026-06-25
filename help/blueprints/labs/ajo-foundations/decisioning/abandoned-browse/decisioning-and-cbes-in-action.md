@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Decisioning and CBEs In Action
 description: Decisioning and CBEs In Action
 doc-type: article
-
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Creating the Email
 description: Creating the Email
 doc-type: article
-
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 ---

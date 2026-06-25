@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Monitoring and Debugging Errors
 description: Monitoring and Debugging Errors
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 ---

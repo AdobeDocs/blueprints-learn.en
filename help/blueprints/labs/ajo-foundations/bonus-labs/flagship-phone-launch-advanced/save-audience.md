@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Save Audience
 description: Save Audience
 doc-type: article
-
 solution: Experience Platform
 exl-id: 6d2c78cb-a94b-4929-9ba4-fca3cb17753d
 ---

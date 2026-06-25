@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Profile & Identity API's
 description: Profile & Identity API's
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Configure SMS Message
 description: Configure SMS Message
 doc-type: article
-
 solution: Experience Platform
 exl-id: e6673838-958b-41da-b725-8fc8378a59a5
 ---

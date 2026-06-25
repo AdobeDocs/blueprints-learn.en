@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Identity Namespaces
 description: Identity Namespaces
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 74b3e855-fd2d-496b-b7b6-5b11daa2fa5a
 ---

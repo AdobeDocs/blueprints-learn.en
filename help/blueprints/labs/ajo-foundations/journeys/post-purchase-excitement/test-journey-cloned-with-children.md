@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Test Journey (cloned with children)
 description: Test Journey (cloned with children)
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7545158e-015d-4015-a7b9-8e0121eca591
 ---

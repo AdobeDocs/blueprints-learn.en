@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Test the Campaign
 description: Test the Campaign
 doc-type: article

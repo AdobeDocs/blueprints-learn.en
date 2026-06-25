@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Profile in Action
 description: Profile in Action
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
 ---

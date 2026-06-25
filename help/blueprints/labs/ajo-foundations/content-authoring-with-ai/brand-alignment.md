@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Brand Alignment
 description: Brand Alignment
 doc-type: article
-
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
 ---

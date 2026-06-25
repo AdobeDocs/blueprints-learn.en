@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Test Journey
 description: Test Journey
 doc-type: article
-
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 ---

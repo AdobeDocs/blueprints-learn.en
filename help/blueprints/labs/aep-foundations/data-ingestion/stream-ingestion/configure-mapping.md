@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Configure Mapping
 description: Configure Mapping
 doc-type: article
-
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
 ---

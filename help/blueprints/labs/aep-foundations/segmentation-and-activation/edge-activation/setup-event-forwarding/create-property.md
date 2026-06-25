@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Property
 description: Create Property
 doc-type: article
-
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
 ---

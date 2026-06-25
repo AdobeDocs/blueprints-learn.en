@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Abandoned Browse
 description: Abandoned Browse
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
 ---

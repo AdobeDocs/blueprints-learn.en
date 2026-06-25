@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Run Dataflow
 description: Run Dataflow
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
 ---

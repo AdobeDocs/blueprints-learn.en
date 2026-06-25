@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Introduction to Identity Service
 description: Introduction to Identity Service
 doc-type: overview-page

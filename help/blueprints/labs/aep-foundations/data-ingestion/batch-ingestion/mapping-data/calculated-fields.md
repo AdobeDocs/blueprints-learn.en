@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Calculated Fields
 description: Calculated Fields
 doc-type: article
-
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
 ---

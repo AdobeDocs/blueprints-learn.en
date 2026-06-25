@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Pre-Work
 description: Pre-Work
 doc-type: article
-
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
 ---

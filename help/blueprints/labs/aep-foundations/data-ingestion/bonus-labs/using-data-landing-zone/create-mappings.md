@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Create Mappings
 description: Create Mappings
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
 ---

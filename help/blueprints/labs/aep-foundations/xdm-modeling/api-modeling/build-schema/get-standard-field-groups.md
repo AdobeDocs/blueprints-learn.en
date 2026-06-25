@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Get Standard Field Groups
 description: Get Standard Field Groups
 doc-type: article
-
 solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 ---

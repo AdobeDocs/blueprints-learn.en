@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Split for Email & SMS
 description: Split for Email & SMS
 doc-type: article
-
 solution: Experience Platform
 exl-id: 87782045-cfa6-4962-bcb7-046125e7bc14
 ---

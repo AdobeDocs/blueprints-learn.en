@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Label
 description: Label
 doc-type: article
-
 solution: Experience Platform
 exl-id: 332ead7a-ca6e-4e30-bb35-8419c060c596
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Fix Passthrough Mappings
 description: Fix Passthrough Mappings
 doc-type: article
-
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Part 2 - Key Fields
 description: Part 2 - Key Fields
 doc-type: article
-
 solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
 ---

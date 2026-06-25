@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Validate Event Ingested
 description: Validate Event Ingested
 doc-type: article
-
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
 ---

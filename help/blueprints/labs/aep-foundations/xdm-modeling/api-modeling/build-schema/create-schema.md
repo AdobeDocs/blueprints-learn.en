@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Schema
 description: Create Schema
 doc-type: article
-
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 ---

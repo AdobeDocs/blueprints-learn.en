@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Setup Streaming Destination
 description: Setup Streaming Destination
 doc-type: article
-
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 ---

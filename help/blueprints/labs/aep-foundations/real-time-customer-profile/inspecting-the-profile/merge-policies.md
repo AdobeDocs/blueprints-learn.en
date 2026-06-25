@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Merge Policies
 description: Merge Policies
 doc-type: article
-
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
 ---

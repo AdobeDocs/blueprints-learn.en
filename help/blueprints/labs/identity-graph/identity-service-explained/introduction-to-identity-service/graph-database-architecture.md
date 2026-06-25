@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Graph Database Architecture
 description: Graph Database Architecture
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 26d9820a-7e6d-4016-ae8f-30a303acab47
 ---

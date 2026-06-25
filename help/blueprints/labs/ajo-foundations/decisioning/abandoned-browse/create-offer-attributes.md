@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Offer Attributes
 description: Create Offer Attributes
 doc-type: article
-
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
 ---

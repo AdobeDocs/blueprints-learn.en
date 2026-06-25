@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Check Final Mapping Set
 description: Check Final Mapping Set
 doc-type: article
-
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 ---

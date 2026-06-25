@@ -1,9 +1,7 @@
 ---
-hold: true
 title: View Schema
 description: View Schema
 doc-type: article
-
 solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
 ---

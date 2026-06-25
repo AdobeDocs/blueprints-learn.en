@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Option #1 - Using Audiences to Aggregate
 description: Option #1 - Using Audiences to Aggregate
 doc-type: article
-
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
 ---

@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Flagship Phone Launch
 description: Flagship Phone Launch
 doc-type: overview-page

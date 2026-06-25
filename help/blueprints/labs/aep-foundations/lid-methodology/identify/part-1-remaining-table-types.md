@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Part 1 - Remaining Table Types
 description: Part 1 - Remaining Table Types
 doc-type: article
-
 solution: Experience Platform
 exl-id: 742b58fa-3feb-4275-ab45-eb8d3aade22c
 ---

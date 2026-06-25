@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Stream an Order Event
 description: Stream an Order Event
 doc-type: article
-
 solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
 ---

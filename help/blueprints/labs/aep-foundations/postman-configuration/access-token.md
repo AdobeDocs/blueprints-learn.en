@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Access Token
 description: Access Token
 doc-type: article
-
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
 ---

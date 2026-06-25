@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Post-Purchase Excitement
 description: Post-Purchase Excitement
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
 ---

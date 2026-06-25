@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Primary Identity
 description: Create Primary Identity
 doc-type: article
-
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 ---

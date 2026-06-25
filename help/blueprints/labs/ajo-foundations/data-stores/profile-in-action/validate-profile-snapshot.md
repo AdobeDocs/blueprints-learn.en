@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Validate Profile Snapshot
 description: Validate Profile Snapshot
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
 ---

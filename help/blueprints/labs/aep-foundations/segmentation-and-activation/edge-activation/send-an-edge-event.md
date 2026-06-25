@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Send an Edge Event
 description: Send an Edge Event
 doc-type: article
-
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
 ---

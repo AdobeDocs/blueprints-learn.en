@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Filter the Lines
 description: Filter the Lines
 doc-type: article

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Profile Basics
 description: Profile Basics
 doc-type: article
-
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
 ---

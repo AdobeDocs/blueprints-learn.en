@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Batch Ingestion
 description: Batch Ingestion
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158
 ---

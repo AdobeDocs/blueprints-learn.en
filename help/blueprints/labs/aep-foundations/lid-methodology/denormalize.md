@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Denormalize
 description: Denormalize
 doc-type: article
-
 solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300
 ---

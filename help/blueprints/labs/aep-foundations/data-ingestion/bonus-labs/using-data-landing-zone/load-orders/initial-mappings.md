@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Initial Mappings
 description: Initial Mappings
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
 ---

@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Critical Thinking Review
 description: Critical Thinking Review
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 69eee234-7d24-47e5-9422-3a8d0bdfccb3
 ---

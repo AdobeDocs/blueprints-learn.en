@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Option #1 - Change Dimension
 description: Option #1 - Change Dimension
 doc-type: article
-
 solution: Experience Platform
 exl-id: dd463d0a-6b26-4940-84e7-c5a69329ecd3
 ---

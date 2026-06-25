@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Overview
 description: Overview
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 ---

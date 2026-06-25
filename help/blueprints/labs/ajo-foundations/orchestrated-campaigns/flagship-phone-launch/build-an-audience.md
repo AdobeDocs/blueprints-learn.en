@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Build an Audience
 description: Build an Audience
 doc-type: article

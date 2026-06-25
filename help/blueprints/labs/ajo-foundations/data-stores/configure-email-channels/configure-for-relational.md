@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Configure for Relational
 description: Configure for Relational
 doc-type: article
-
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
 ---

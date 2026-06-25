@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Build Schema
 description: Build Schema
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 6a935c42-0446-43f7-8abc-442ee696a6cf
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Build Audience #2
 description: Build Audience #2
 doc-type: article
-
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
 ---

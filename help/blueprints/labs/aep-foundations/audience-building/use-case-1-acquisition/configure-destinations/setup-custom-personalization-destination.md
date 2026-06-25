@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Setup Custom Personalization Destination
 description: Setup Custom Personalization Destination
 doc-type: article
-
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
 ---

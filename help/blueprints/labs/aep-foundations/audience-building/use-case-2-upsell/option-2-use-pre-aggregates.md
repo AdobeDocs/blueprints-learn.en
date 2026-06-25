@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Option #2 - Use Pre-Aggregates
 description: Option #2 - Use Pre-Aggregates
 doc-type: article
-
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
 ---

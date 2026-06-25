@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Custom Field Groups
 description: Create Custom Field Groups
 doc-type: article

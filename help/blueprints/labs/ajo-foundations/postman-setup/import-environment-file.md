@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Import Environment File
 description: Import Environment File
 doc-type: article

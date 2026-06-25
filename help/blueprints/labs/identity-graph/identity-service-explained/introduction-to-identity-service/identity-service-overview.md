@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Identity Service Overview
 description: Identity Service Overview
 doc-type: article

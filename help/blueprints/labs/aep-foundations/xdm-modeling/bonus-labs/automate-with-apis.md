@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Automate with API's
 description: Automate with API's
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
 ---

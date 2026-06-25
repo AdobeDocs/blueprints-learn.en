@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Plan Reference Identity
 description: Create Plan Reference Identity
 doc-type: article
-
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
 ---

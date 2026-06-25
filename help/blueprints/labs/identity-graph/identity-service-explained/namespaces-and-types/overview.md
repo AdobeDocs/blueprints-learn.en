@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Namespaces & Types
 description: Namespaces & Types
 doc-type: overview-page

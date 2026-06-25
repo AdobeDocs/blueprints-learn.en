@@ -1,9 +1,7 @@
 ---
-hold: true
 title: AI Assistant & Content Personalization
 description: AI Assistant & Content Personalization
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 ---

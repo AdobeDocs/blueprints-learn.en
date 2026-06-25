@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Configure for Profile
 description: Configure for Profile
 doc-type: article
-
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Test the Email
 description: Test the Email
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 ---

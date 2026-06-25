@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Person-based Identity Graphs
 description: Person-based Identity Graphs
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: e80a3381-a0f4-4091-8cbb-cb6ae16192d9
 ---

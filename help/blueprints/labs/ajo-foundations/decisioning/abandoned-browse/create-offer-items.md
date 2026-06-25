@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Offer Items
 description: Create Offer Items
 doc-type: article
-
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 ---

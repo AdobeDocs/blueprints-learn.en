@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Model Standard Objects
 description: Model Standard Objects
 doc-type: article
-
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
 ---

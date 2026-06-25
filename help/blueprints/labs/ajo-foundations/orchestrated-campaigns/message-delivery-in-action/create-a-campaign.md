@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Create a Campaign
 description: Create a Campaign
 doc-type: article

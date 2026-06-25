@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Use Case #2 - Upsell
 description: Use Case #2 - Upsell
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
 ---

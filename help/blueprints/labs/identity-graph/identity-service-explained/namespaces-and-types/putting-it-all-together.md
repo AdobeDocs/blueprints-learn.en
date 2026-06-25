@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Putting it All Together
 description: Putting it All Together
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: a314efba-b485-47f1-8d2b-23d563223961
 ---

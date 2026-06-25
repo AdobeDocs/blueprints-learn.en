@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Stream Ingestion
 description: Stream Ingestion
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
 ---

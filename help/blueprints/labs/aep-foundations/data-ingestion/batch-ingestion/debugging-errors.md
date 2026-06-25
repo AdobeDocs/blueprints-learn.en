@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Debugging Errors
 description: Debugging Errors
 doc-type: article
-
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
 ---

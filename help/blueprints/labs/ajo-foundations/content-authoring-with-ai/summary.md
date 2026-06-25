@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Summary
 description: Summary
 doc-type: article

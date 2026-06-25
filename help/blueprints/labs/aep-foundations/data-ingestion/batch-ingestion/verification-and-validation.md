@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Verification and Validation
 description: Verification and Validation
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 ---

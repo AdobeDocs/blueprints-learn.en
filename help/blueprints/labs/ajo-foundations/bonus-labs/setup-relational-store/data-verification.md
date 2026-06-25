@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Data Verification
 description: Data Verification
 doc-type: article
-
 solution: Experience Platform
 exl-id: 77226236-7caa-4ebd-9ab9-59ef1662f5fc
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Dataflow
 description: Create Dataflow
 doc-type: article
-
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 ---

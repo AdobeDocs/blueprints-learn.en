@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Setup Souce
 description: Setup Souce
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
 ---

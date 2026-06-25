@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Setup Event Forwarding
 description: Setup Event Forwarding
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336
 ---

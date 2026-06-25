@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Lab Overview
 description: Lab Overview
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
 ---

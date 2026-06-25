@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Retry a Failed Dataflow
 description: Retry a Failed Dataflow
 doc-type: article
-
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Profile Target Dimension
 description: Profile Target Dimension
 doc-type: article
-
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 ---

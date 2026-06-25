@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create a New Dataflow
 description: Create a New Dataflow
 doc-type: article
-
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
 ---

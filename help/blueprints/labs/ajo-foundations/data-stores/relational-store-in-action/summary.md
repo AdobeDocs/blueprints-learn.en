@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Summary
 description: Summary
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
 ---

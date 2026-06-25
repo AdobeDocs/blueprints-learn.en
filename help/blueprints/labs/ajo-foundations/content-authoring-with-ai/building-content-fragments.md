@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Building Content Fragments
 description: Building Content Fragments
 doc-type: article
-
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
 ---

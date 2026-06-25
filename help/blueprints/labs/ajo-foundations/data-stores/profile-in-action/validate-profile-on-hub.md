@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Validate Profile on Hub
 description: Validate Profile on Hub
 doc-type: article
-
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 ---

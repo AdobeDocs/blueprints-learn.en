@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Courses
 description: Courses
 doc-type: overview-page

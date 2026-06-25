@@ -1,9 +1,7 @@
 ---
-hold: true
 title: API Collection
 description: API Collection
 doc-type: article
-
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
 ---

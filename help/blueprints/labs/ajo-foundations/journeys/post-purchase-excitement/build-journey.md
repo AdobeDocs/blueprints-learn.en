@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Build Journey
 description: Build Journey
 doc-type: article
-
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
 ---

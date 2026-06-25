@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Import API Collection
 description: Import API Collection
 doc-type: article

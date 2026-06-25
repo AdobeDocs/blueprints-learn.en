@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Object Copy Mappings
 description: Object Copy Mappings
 doc-type: article
-
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
 ---

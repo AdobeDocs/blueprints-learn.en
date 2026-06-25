@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Load Orders
 description: Load Orders
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: df69545b-75e7-44da-95bb-a2d044934bf2
 ---

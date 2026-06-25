@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Edge Activation
 description: Edge Activation
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
 ---

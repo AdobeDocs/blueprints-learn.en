@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Content Simulation
 description: Content Simulation
 doc-type: article
-
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 ---

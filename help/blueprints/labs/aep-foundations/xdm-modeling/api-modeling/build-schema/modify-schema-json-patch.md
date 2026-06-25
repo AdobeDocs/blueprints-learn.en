@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Modify Schema - JSON Patch
 description: Modify Schema - JSON Patch
 doc-type: article
-
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
 ---

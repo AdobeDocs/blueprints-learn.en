@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Create an Orchestrated Campaign
 description: Create an Orchestrated Campaign
 doc-type: article

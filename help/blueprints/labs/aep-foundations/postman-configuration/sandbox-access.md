@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Sandbox Access
 description: Sandbox Access
 doc-type: article
-
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
 ---

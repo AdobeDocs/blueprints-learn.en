@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Setup Relational Schema and Dataset
 description: Setup Relational Schema and Dataset
 doc-type: article
-
 solution: Experience Platform
 exl-id: 4dd1d41c-aaeb-4505-bba3-29887aedbc03
 ---

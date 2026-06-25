@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Waiting for Active Status
 description: Waiting for Active Status
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 37a079c1-2d5f-4586-b3d1-a6402d8b795f
 ---

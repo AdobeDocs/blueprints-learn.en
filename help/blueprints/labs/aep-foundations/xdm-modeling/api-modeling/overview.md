@@ -1,9 +1,7 @@
 ---
-hold: true
 title: API Modeling
 description: API Modeling
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: f0ae0459-719c-4602-8dfa-e5819658f0b0
 ---

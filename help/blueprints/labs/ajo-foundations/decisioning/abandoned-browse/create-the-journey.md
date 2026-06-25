@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create the Journey
 description: Create the Journey
 doc-type: article
-
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 ---

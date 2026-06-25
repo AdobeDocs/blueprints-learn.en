@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Configure Email Message
 description: Configure Email Message
 doc-type: article
-
 solution: Experience Platform
 exl-id: 52439979-6e80-4cb2-803d-f21ae9b0b7d2
 ---

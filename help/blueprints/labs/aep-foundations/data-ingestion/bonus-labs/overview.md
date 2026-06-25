@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Bonus Labs
 description: Bonus Labs
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 42981a29-929b-4a8e-8669-c8d103841cf7
 ---

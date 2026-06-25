@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Read audience activity and Relational schema
 description: Read audience activity and Relational schema
 doc-type: article
-
 solution: Experience Platform
 exl-id: 293d6a9f-5dfd-49fa-b46d-ead2e3b9cc1b
 ---

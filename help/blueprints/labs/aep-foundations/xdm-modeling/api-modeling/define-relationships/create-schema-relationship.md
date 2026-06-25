@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Schema Relationship
 description: Create Schema Relationship
 doc-type: article
-
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 ---

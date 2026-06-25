@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Browse Schemas
 description: Browse Schemas
 doc-type: article
-
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
 ---

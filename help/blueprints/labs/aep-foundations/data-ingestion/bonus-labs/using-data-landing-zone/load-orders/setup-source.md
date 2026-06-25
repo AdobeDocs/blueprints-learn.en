@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Setup Source
 description: Setup Source
 doc-type: article
-
 solution: Experience Platform
 exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
 ---

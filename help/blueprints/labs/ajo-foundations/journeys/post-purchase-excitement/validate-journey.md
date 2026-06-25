@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Validate Journey
 description: Validate Journey
 doc-type: article
-
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
 ---

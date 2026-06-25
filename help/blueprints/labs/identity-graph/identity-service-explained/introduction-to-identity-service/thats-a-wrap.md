@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: That's a Wrap
 description: That's a Wrap
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: d95825ea-0c11-45ea-9c02-70467f0cfa67
 ---

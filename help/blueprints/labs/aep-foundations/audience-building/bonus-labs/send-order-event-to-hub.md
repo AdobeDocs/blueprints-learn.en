@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Send Order Event to Hub
 description: Send Order Event to Hub
 doc-type: article
-
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
 ---

@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Define Relationships
 description: Define Relationships
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
 ---

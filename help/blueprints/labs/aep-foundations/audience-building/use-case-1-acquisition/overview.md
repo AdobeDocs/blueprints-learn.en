@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Use Case #1 - Acquisition
 description: Use Case #1 - Acquisition
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
 ---

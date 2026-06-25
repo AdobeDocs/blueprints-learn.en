@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Add Fork Activity
 description: Add Fork Activity
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Building Content Template
 description: Building Content Template
 doc-type: article
-
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
 ---

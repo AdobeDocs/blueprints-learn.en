@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Validate Event on Data Lake
 description: Validate Event on Data Lake
 doc-type: article
-
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
 ---

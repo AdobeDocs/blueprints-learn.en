@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Login & Browse
 description: Login & Browse
 doc-type: article
-
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
 ---

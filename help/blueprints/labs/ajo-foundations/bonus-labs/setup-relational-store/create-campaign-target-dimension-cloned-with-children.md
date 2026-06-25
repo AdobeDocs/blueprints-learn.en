@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Campaign Target Dimension (cloned with children)
 description: Create Campaign Target Dimension (cloned with children)
 doc-type: article
-
 solution: Experience Platform
 exl-id: 957bfbe4-42c1-45fe-824e-11106ccc4b6b
 ---

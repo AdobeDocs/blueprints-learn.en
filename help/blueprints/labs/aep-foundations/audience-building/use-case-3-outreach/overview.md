@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Use Case #3 - Outreach
 description: Use Case #3 - Outreach
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: aeef5e97-e66d-4332-bfde-38736343ea9d
 ---

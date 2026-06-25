@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Test & Publish
 description: Test & Publish
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: d0e0a93f-8d3b-4543-ab0f-368126fe22bf
 ---

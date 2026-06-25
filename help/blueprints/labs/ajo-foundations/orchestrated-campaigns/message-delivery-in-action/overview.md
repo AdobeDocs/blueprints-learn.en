@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Message Delivery in Action
 description: Message Delivery in Action
 doc-type: overview-page

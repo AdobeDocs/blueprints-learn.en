@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Intersect Audiences
 description: Intersect Audiences
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: eda2f619-325d-4d7b-8b4b-80edc6135524
 ---

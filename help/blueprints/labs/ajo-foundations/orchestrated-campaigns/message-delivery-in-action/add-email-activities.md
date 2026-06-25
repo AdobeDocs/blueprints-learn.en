@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Add Email Activities
 description: Add Email Activities
 doc-type: article

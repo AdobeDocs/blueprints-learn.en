@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Get Profile Class
 description: Get Profile Class
 doc-type: article
-
 solution: Experience Platform
 exl-id: d87c21a2-dad4-4666-b917-cdf8e16058d4
 ---

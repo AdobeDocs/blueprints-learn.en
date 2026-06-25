@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Option #2 - Enrichment
 description: Option #2 - Enrichment
 doc-type: article
-
 solution: Experience Platform
 exl-id: 226d2df3-b5b7-4b7d-b844-d037da8cb03d
 ---

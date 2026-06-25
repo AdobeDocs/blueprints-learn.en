@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Flagship Phone Launch (Advanced)
 description: Flagship Phone Launch (Advanced)
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: ca43035d-4324-4936-836e-3bc007146b7c
 ---

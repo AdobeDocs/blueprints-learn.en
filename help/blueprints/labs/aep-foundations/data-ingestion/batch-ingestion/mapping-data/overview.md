@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Mapping Data
 description: Mapping Data
-doc-type: overview-page
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 6c61093d-de03-4b76-9b4b-3e36962047da
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Build Use Case #3
 description: Build Use Case #3
 doc-type: article
-
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 ---

@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Recap
 description: Recap
 doc-type: article
-
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
 ---

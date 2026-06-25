@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Lectures
 description: Lectures
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13
 ---

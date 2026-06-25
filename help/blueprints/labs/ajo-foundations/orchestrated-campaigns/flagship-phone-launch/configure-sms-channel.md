@@ -1,5 +1,5 @@
 ---
-hold: true
+
 title: Configure SMS channel
 description: Configure SMS channel
 doc-type: article

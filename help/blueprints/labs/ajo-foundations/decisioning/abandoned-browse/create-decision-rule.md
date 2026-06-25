@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Create Decision Rule
 description: Create Decision Rule
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 ---

@@ -1,8 +1,8 @@
 ---
-hold: true
+
 title: Creating Identity Namespaces
 description: Creating Identity Namespaces
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 95333617-698e-4419-8b26-6b28d814bbf1
 ---

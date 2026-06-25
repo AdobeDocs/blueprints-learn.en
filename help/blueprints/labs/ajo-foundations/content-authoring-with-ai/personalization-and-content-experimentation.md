@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Personalization and Content Experimentation
 description: Personalization and Content Experimentation
 doc-type: article
-
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 ---

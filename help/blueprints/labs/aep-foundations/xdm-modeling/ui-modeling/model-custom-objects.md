@@ -1,8 +1,7 @@
 ---
-hold: true
 title: Model Custom Objects
 description: Model Custom Objects
-doc-type: article
+doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
 ---

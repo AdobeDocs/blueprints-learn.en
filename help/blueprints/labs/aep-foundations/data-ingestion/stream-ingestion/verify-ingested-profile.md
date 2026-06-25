@@ -1,9 +1,7 @@
 ---
-hold: true
 title: Verify Ingested Profile
 description: Verify Ingested Profile
 doc-type: article
-
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
 ---
