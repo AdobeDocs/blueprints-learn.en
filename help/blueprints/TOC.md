@@ -5,6 +5,7 @@ user-guide-description: xplore key business objectives, use case patterns, and i
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
+nudge: true
 ---
 
 # Customer experience orchestration blueprints {#architecture}
