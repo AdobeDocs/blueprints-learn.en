@@ -39,11 +39,11 @@ thumbnail: thumb-web-personalization-scenario2.jpg
 
 Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
 
 Sequence Detail
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
 
 Overview Architecture
 
