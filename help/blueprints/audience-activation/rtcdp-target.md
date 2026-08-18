@@ -90,11 +90,11 @@ topic_v2:
 
 Architecture
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target.png)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP-Target.png)
 
 Sequence Detail
 
-![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP+Target_flow.png)
+![Reference architecture for the Online/Offline Web Personalization Blueprint](assets/RTCDP-Target_flow.png)
 
 Overview Architecture
 

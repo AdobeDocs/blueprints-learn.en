@@ -30,19 +30,25 @@ The target audience for this pattern includes ecommerce merchandising teams, con
 
 The following business objectives are supported by this use case pattern.
 
-### [Drive cross-sell and upsell revenue](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### Drive cross-sell and upsell revenue
+
+[Drive cross-sell and upsell revenue](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 Promote complementary and premium products or services to existing customers based on behavior and purchase history.
 
 **KPIs:** Upsell/Cross Sell %, Incremental Revenue, Customer Lifetime Value
 
-### [Increase conversion rates](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### Increase conversion rates
+
+[Increase conversion rates](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 Improve the percentage of visitors and prospects who complete desired actions such as purchases, sign-ups, or form submissions.
 
 **KPIs:** Conversion Rates, Lead Conversion, Cost Per Lead
 
-### [Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### Deliver personalized customer experiences
+
+[Deliver personalized customer experiences](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 Tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 
