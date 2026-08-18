@@ -1,9 +1,7 @@
 ---
-
 title: Build an Audience
 description: Build an Audience
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
 ---

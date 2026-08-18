@@ -1,9 +1,7 @@
 ---
-
 title: Introduction to Identity Service
 description: Introduction to Identity Service
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: eb6eb164-2c18-4806-a49f-59b168373572
 ---

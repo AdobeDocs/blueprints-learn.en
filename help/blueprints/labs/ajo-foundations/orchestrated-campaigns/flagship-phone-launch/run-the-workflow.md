@@ -1,9 +1,7 @@
 ---
-
 title: Run the Workflow
 description: Run the Workflow
 doc-type: article
-
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
 ---

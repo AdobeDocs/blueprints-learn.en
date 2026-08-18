@@ -1,5 +1,4 @@
 ---
-
 title: Person-based Identity Graphs
 description: Person-based Identity Graphs
 doc-type: article

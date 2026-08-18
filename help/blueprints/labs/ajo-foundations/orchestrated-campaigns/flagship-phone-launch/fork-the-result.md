@@ -1,9 +1,7 @@
 ---
-
 title: Fork the Result
 description: Fork the Result
 doc-type: article
-
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
 ---

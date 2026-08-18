@@ -1,5 +1,4 @@
 ---
-
 title: Identity types
 description: Identity types
 doc-type: article

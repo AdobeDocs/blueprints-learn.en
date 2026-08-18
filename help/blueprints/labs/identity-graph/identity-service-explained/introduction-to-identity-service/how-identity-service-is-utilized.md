@@ -1,5 +1,4 @@
 ---
-
 title: How Identity Service is Utilized
 description: How Identity Service is Utilized
 doc-type: article

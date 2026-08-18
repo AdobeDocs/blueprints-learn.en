@@ -1,9 +1,7 @@
 ---
-
 title: Import Environment File
 description: Import Environment File
 doc-type: article
-
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
 ---

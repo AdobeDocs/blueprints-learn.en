@@ -1,9 +1,7 @@
 ---
-
 title: Courses
 description: Courses
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 3ae56d24-6fbb-4dce-b667-b43663cdbd74
 ---

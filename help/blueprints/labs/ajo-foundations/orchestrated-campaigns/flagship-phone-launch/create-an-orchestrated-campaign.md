@@ -1,9 +1,7 @@
 ---
-
 title: Create an Orchestrated Campaign
 description: Create an Orchestrated Campaign
 doc-type: article
-
 solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 ---

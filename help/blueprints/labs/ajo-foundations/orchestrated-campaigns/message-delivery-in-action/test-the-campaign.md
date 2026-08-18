@@ -1,9 +1,7 @@
 ---
-
 title: Test the Campaign
 description: Test the Campaign
 doc-type: article
-
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 ---

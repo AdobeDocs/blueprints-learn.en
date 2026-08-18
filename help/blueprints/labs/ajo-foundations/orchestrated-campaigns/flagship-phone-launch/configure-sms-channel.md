@@ -1,9 +1,7 @@
 ---
-
 title: Configure SMS channel
 description: Configure SMS channel
 doc-type: article
-
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 ---

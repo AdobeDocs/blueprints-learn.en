@@ -1,9 +1,7 @@
 ---
-
 title: Message Delivery in Action
 description: Message Delivery in Action
 doc-type: overview-page
-
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 ---

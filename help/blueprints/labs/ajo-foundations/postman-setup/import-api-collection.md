@@ -1,9 +1,7 @@
 ---
-
 title: Import API Collection
 description: Import API Collection
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
 ---

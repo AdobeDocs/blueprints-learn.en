@@ -1,5 +1,4 @@
 ---
-
 title: Creating Identity Namespaces
 description: Creating Identity Namespaces
 doc-type: article

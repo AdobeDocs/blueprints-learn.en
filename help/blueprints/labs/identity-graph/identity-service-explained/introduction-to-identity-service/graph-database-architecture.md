@@ -1,5 +1,4 @@
 ---
-
 title: Graph Database Architecture
 description: Graph Database Architecture
 doc-type: article

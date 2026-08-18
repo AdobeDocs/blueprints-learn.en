@@ -1,5 +1,4 @@
 ---
-
 title: That's the End!
 description: That's the End!
 doc-type: article

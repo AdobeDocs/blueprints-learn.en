@@ -1,5 +1,4 @@
 ---
-
 title: Identity Namespaces
 description: Identity Namespaces
 doc-type: article

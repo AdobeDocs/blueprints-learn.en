@@ -1,5 +1,4 @@
 ---
-
 title: Putting it All Together
 description: Putting it All Together
 doc-type: article

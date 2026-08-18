@@ -1,9 +1,7 @@
 ---
-
 title: Filter the Lines
 description: Filter the Lines
 doc-type: article
-
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 ---

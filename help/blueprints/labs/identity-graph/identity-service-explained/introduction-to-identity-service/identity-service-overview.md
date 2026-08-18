@@ -1,9 +1,7 @@
 ---
-
 title: Identity Service Overview
 description: Identity Service Overview
 doc-type: article
-
 solution: Experience Platform
 exl-id: 5109706f-275d-4a42-b63e-08a9e048be76
 ---

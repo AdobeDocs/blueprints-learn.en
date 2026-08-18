@@ -1,9 +1,7 @@
 ---
-
 title: Save the Audience
 description: Save the Audience
 doc-type: article
-
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
 ---
