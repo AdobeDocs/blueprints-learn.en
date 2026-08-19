@@ -61,7 +61,7 @@ High-level flow:
 
 ## Data Modelling in B2B AEP
 
-With any data-driven orchestration, schema design is important. Account and person profiles in AEP/RTCDP must include the attributes used in **split-path conditions** (e.g., pursuit flag, solution interest, persona, intent category, engagement score). B2B schemas (XDM Business Account, XDM Individual Profile, relational) should represent your hierarchy and data sources. For details, see [RTCDP B2B schemas](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) and [AJO B2B documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+With any data-driven orchestration, schema design is important. Account and person profiles in AEP/RTCDP must include the attributes used in **split-path conditions** (e.g., pursuit flag, solution interest, persona, intent category, engagement score). B2B schemas (XDM Business Account, XDM Individual Profile, relational) should represent your hierarchy and data sources. For details, see [RTCDP B2B schemas](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) and [Journey Optimizer B2B Edition documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Note:** Split-path logic in the journey uses profile and, where supported, relational data; ensure the fields you need for waterfall logic are available in the journey.
 
@@ -93,7 +93,7 @@ The following steps give guidance for implementing the Paid Media Controller wit
 1. **Create the controller journey in AJO B2B.**
 
    - **Read audience:** Select the qualified-account audience from Real-Time CDP.
-   - **Split path:** Create a path for each paid media audiences, starting with Path 1 as your top priority and proceeding in priority order. For each path, add attributes to set the criteria for qualification (e.g., “in Pursuit audience,” “solution interest = X,” “persona = Y,” “intent category = Z”). Accounts evaluate through the split path node a in waterfall fashion, qualifying for the first path that they meet criteria for.
+   - **Split path:** Create a path for each paid media audiences, starting with Path 1 as your top priority and proceeding in priority order. For each path, add attributes to set the criteria for qualification (e.g., "in Pursuit audience," "solution interest = X," "persona = Y," "intent category = Z"). Accounts evaluate through the split path node a in waterfall fashion, qualifying for the first path that they meet criteria for.
    - **Activate to Destination:** For each path, add an Activate to Destination node to the correct LinkedIn (or other) campaign/destination.
 
 2. **Validate mutual exclusivity.**
