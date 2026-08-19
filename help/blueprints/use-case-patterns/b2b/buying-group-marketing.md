@@ -95,7 +95,7 @@ The following resources provide additional detail on the applications and capabi
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Journey Optimizer Edition documentation home](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B Edition documentation home](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
 - [Buying groups overview](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [Solution interests](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [Role templates](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -110,7 +110,7 @@ The following resources provide additional detail on the applications and capabi
 
 - [B2B email authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
 - [B2B SMS authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [AI Assistant for email authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [Generate content for email authoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B analytics & dashboards
 
