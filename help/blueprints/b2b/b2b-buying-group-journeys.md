@@ -150,7 +150,7 @@ The following steps provide guidance for enabling buying groups in your Journey 
 
    As a first step, you define and create an experience schema designed to fit the B2B use case needs and covering the data sources, both batch and real time. This design should represent the way the business is thinking of the account and person entities and the use cases you wish to support. For the schema to be a B2B schema, the schema should follow the structures available in the [RTCDP B2B Schema documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b). 
   
-   A useful practice is to take the entity names from the diagram and identify those entities in your schema by labeling them in the same way. Take note that some schemas require specific keys, such as `sourceKey`, to function in RTCDP B2B. For the short term, the _Many-to-Many_ relationship between account and person through Account Person Relationship is not supported in Journey Optimizer B2B. Use the accelerator scripts for the best starting point:
+   A useful practice is to take the entity names from the diagram and identify those entities in your schema by labeling them in the same way. Take note that some schemas require specific keys, such as `sourceKey`, to function in RTCDP B2B.  Use the accelerator scripts for the best starting point:
 
    * Use the [RTCDP B2B schema creation script](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) to generate the initial schema
    * Add use case specific fields to the schemas generated to complete the schema to fit the organization need.
