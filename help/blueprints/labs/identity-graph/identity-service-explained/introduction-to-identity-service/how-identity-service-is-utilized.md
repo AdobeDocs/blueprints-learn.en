@@ -1,6 +1,6 @@
 ---
 title: How Identity Service is Utilized
-description: How Identity Service is Utilized
+description: Watch a video walkthrough of how Identity Service is used within the Real-Time Customer Profile.
 doc-type: article
 solution: Experience Platform
 exl-id: 6c26ca3a-6f3b-4a7d-a638-bad84c146b72

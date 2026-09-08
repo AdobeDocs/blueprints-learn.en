@@ -1,6 +1,6 @@
 ---
 title: Mapping Data
-description: Mapping Data
+description: Understand why AI/ML-generated passthrough mappings between source fields and schema fields need careful inspection before ingestion.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 6c61093d-de03-4b76-9b4b-3e36962047da

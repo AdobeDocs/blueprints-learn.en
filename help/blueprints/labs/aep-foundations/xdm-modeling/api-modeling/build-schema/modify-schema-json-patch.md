@@ -1,6 +1,6 @@
 ---
 title: Modify Schema - JSON Patch
-description: Modify Schema - JSON Patch
+description: Use a JSON PATCH API call to add a new field to an existing tenant field group and see the change reflected in the schema.
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef

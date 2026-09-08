@@ -1,6 +1,6 @@
 ---
 title: Schedule Dataflow
-description: Schedule Dataflow
+description: Configure a recurring 15-minute dataflow schedule with backfill enabled and understand how UTC start times affect runs.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca

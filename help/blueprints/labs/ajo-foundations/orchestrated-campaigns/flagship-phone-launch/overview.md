@@ -1,6 +1,6 @@
 ---
 title: Flagship Phone Launch
-description: Flagship Phone Launch
+description: Get an overview of building an Orchestrated Campaign that targets account holders and individual lines with an SMS upgrade offer following a flagship phone launch.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498

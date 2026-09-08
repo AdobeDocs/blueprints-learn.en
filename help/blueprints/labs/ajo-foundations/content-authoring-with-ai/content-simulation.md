@@ -1,6 +1,6 @@
 ---
 title: Content Simulation
-description: Content Simulation
+description: Learn how to use Adobe Journey Optimizer's Simulation tool with sample profile data to validate personalized fields, content variants, and fallback behavior.
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f

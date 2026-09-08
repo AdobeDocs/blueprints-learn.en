@@ -1,6 +1,6 @@
 ---
 title: Merge Policies
-description: Merge Policies
+description: Create a merge policy without identity stitching and compare profile lookups by email, customer ID, and GAID to see how identity graphs shape profile assembly.
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839

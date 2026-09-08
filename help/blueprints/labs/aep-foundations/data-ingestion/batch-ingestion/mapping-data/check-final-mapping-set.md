@@ -1,6 +1,6 @@
 ---
 title: Check Final Mapping Set
-description: Check Final Mapping Set
+description: Compare your simple and calculated field mappings for the Customer Account schema against the expected final mapping set.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f

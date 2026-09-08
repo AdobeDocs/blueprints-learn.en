@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Relational Store Lecture
-description: Relational Store Lecture
+description: Watch a video lecture on the Relational Store data architecture that underlies Adobe Journey Optimizer's Orchestrated Campaigns.
 doc-type: article
 
 solution: Experience Platform

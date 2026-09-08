@@ -1,6 +1,6 @@
 ---
 title: Build Audience #2
-description: Build Audience #2
+description: Build an audience of profiles without an active iPhone 14 line, then convert it from batch to streaming evaluation using a profile-based field.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025

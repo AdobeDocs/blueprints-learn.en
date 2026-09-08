@@ -1,6 +1,6 @@
 ---
 title: Setup Source
-description: Setup Source
+description: Create an HTTP API streaming account and configure a dataflow to stream Customer Account JSON data into a Profile-enabled dataset.
 doc-type: article
 solution: Experience Platform
 exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4

@@ -1,6 +1,6 @@
 ---
 title: Use Case #3 - Outreach
-description: Use Case #3 - Outreach
+description: Define an outreach use case targeting customers who cancel orders within a week of purchase using sequential and dynamic audience features.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: aeef5e97-e66d-4332-bfde-38736343ea9d

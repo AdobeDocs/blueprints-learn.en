@@ -1,6 +1,6 @@
 ---
 title: Create Other Identities
-description: Create Other Identities
+description: Use the schema registry API to create a non-primary email address identity descriptor for the Customer Account schema.
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9

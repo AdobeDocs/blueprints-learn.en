@@ -1,6 +1,6 @@
 ---
 title: Create Offer Items
-description: Create Offer Items
+description: Create tiered iPhone offer items with priorities, eligibility rules, and frequency capping for use in a decisioning package.
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca

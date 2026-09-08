@@ -1,6 +1,6 @@
 ---
 title: Postman Installation
-description: Postman Installation
+description: Install Postman and get familiar with its collections, environments, and interface before starting the bootcamp API labs.
 doc-type: article
 solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760

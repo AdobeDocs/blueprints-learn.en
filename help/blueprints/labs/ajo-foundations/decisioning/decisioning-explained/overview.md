@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Decisioning Explained
-description: Decisioning Explained
+description: Learn the eight building blocks of AJO decisioning through hands-on simulates using playing cards and sticky notes for a fictional phone launch.
 doc-type: overview-page
 
 solution: Experience Platform

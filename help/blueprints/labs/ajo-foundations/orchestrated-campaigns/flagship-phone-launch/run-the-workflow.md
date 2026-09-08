@@ -1,6 +1,6 @@
 ---
 title: Run the Workflow
-description: Run the Workflow
+description: Learn how to run an Orchestrated Campaign workflow in test mode and troubleshoot why some records are dropped from an SMS send due to missing target dimension joins.
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4

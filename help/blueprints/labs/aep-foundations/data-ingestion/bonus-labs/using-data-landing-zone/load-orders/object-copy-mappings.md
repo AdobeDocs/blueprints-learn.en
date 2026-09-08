@@ -1,6 +1,6 @@
 ---
 title: Object Copy Mappings
-description: Object Copy Mappings
+description: Configure object copy mappings for a products array, then add and remove field-level overrides on top of the default copy.
 doc-type: article
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7

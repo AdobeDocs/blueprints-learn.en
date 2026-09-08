@@ -1,6 +1,6 @@
 ---
 title: Debugging Errors
-description: Debugging Errors
+description: Use preview error diagnostics to investigate a failed dataflow run and distinguish INGEST format errors from MAPPER conversion warnings.
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5

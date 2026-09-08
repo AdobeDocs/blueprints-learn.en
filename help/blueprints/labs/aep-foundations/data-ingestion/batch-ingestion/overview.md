@@ -1,6 +1,6 @@
 ---
 title: Batch Ingestion
-description: Batch Ingestion
+description: Load Customer Account data through batch ingestion into the Data Lake and Profile while fixing mapping and data quality errors.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158

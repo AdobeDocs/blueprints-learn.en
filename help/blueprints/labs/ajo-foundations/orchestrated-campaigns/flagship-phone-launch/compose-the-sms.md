@@ -1,6 +1,6 @@
 ---
 title: Compose the SMS
-description: Compose the SMS
+description: Learn how to compose and personalize an SMS message in Orchestrated Campaigns using phone make and model attributes from the relational store.
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569

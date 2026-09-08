@@ -1,6 +1,6 @@
 ---
 title: Monitoring and Debugging Errors
-description: Monitoring and Debugging Errors
+description: Use the Streaming End-to-End monitoring dashboard to identify and interpret INGEST, DCVS, and MAPPER errors in a streaming dataflow.
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3

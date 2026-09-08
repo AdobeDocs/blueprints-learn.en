@@ -1,6 +1,6 @@
 ---
 title: Build Audience #3
-description: Build Audience #3
+description: Build an audience of iPhone 14 product page visitors and combine it with other audiences using audience-of-audiences to enable streaming activation.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879

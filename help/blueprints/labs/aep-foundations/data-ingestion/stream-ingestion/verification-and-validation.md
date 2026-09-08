@@ -1,6 +1,6 @@
 ---
 title: Verification and validation
-description: Verification and validation
+description: Preview a streamed dataset in the UI and run SQL queries to verify ingested records and nested schema fields.
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678

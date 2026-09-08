@@ -1,6 +1,6 @@
 ---
 title: Configure Event
-description: Configure Event
+description: Create and configure a unitary Order Shipped event, including identity namespace settings, to serve as a journey's entry trigger.
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8

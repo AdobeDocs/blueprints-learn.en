@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Review key takeaways and a completion checklist for building personalized, brand-compliant campaigns with fragments, AI tools, and simulation in Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c

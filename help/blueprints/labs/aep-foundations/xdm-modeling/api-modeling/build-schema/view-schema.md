@@ -1,6 +1,6 @@
 ---
 title: View Schema
-description: View Schema
+description: View a newly created customer schema in both the Experience Platform UI and via a Get Schema API call.
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c

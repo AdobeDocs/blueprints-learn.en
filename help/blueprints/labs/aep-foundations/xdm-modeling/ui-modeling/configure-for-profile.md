@@ -1,6 +1,6 @@
 ---
 title: Configure for Profile
-description: Configure for Profile
+description: Mark primary and person identity fields, build a schema relationship, enable a schema for Real-Time Customer Profile, and review the profile union schema.
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7

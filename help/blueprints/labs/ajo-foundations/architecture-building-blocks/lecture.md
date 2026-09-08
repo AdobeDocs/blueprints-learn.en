@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Lecture
-description: Lecture
+description: Watch a video introducing the core architectural building blocks that make up Adobe Journey Optimizer.
 doc-type: article
 
 solution: Experience Platform

@@ -1,6 +1,6 @@
 ---
 title: Validate Event Ingested
-description: Validate Event Ingested
+description: Confirm an Order Shipped event was ingested into a profile and qualifies it for the expected audiences.
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1

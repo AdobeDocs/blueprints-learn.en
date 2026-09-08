@@ -1,6 +1,6 @@
 ---
 title: Verify and Schedule Dataflow
-description: Verify and Schedule Dataflow
+description: Verify the complete Orders mapping set, preview the output, and schedule the dataflow to run every 15 minutes.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110

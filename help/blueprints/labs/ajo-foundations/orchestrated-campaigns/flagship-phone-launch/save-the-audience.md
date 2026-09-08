@@ -1,6 +1,6 @@
 ---
 title: Save the Audience
-description: Save the Audience
+description: Learn how to change dimension, deduplicate, and save an audience to the Audience Portal from an Orchestrated Campaign workflow.
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1

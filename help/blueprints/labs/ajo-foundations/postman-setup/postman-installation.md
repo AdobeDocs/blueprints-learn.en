@@ -1,6 +1,6 @@
 ---
 title: Postman Installation
-description: Postman Installation
+description: Install Postman and get familiar with its collections, environments, and workspace interface before making API calls in later labs.
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949

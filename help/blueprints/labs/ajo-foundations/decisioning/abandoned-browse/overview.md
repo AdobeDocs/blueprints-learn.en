@@ -1,6 +1,6 @@
 ---
 title: Abandoned Browse
-description: Abandoned Browse
+description: Learn how to build an end-to-end abandoned-browse decisioning workflow that delivers personalized, eligibility-aware phone offers across channels.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782

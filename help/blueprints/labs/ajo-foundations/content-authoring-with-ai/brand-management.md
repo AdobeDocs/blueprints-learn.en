@@ -1,6 +1,6 @@
 ---
 title: Brand Management
-description: Brand Management
+description: Learn how to create a brand in Adobe Journey Optimizer by uploading a brand guideline PDF, refining the extracted details, and publishing it for use across content tools.
 doc-type: article
 solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845

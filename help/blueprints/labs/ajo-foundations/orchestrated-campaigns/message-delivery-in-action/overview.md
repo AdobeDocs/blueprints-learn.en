@@ -1,6 +1,6 @@
 ---
 title: Message Delivery in Action
-description: Message Delivery in Action
+description: Get an overview of building an Orchestrated Campaign that targets Basic plan members and compares delivery behavior between AEP Profile and Relational schema email channels.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce

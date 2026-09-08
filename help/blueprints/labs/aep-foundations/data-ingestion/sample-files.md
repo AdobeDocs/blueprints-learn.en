@@ -1,6 +1,6 @@
 ---
 title: Sample Files
-description: Sample Files
+description: Download the sample data files used throughout the AEP Foundations data ingestion labs.
 doc-type: article
 solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d

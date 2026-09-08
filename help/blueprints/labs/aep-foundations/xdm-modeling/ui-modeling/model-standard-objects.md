@@ -1,6 +1,6 @@
 ---
 title: Model Standard Objects
-description: Model Standard Objects
+description: Create an Individual Profile schema in the UI and add and trim standard field groups like Demographic Details and Consent and Preferences.
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449

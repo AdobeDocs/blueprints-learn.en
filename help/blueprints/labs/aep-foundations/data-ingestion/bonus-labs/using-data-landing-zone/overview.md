@@ -1,6 +1,6 @@
 ---
 title: Using Data Landing Zone
-description: Using Data Landing Zone
+description: Install and configure Azure Storage Explorer with a SAS URL to connect to the Adobe Experience Platform Data Landing Zone.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c

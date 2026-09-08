@@ -1,6 +1,6 @@
 ---
 title: Edge Activation
-description: Edge Activation
+description: Learn how Edge, streaming, and batch activation speeds differ, and preview the lab steps for creating an edge segment and configuring event forwarding.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c

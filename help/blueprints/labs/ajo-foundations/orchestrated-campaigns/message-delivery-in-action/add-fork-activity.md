@@ -1,6 +1,6 @@
 ---
 title: Add Fork Activity
-description: Add Fork Activity
+description: Learn how to add a Fork activity to an Orchestrated Campaign to create two identical branches of audience data.
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06

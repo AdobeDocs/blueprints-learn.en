@@ -1,6 +1,6 @@
 ---
 title: Environment File
-description: Environment File
+description: Import the Postman environment file and populate its developer project and sandbox variables needed for the bootcamp's API calls.
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83

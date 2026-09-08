@@ -1,6 +1,6 @@
 ---
 title: Check Final Mapping Set
-description: Check Final Mapping Set
+description: Compare your streaming ingestion mappings against the expected final passthrough and calculated field mapping set.
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf

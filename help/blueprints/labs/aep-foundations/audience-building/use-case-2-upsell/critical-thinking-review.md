@@ -1,6 +1,6 @@
 ---
 title: Critical Thinking Review
-description: Critical Thinking Review
+description: Watch a video review discussing the design decisions and trade-offs behind the upsell use case audiences built in this section.
 doc-type: article
 solution: Experience Platform
 exl-id: 69eee234-7d24-47e5-9422-3a8d0bdfccb3

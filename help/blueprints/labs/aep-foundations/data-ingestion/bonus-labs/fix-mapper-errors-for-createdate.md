@@ -1,6 +1,6 @@
 ---
 title: Fix MAPPER Errors for CreateDate
-description: Fix MAPPER Errors for CreateDate
+description: Troubleshoot and resolve a MAPPER error caused by a badly formatted createDate value that was transforming into an empty field.
 doc-type: article
 solution: Experience Platform
 exl-id: e3f7ef23-6fd1-4f7a-8dc7-db82445322b0

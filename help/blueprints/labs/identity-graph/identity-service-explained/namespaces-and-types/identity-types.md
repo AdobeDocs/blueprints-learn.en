@@ -1,6 +1,6 @@
 ---
 title: Identity types
-description: Identity types
+description: Learn the difference between person and non-person identity types and how each determines whether an identity is processed into the Identity Graph.
 doc-type: article
 solution: Experience Platform
 exl-id: 3aa69c7f-0dcc-443e-bf82-3cf699b7e4e4

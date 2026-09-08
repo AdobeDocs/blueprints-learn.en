@@ -1,6 +1,6 @@
 ---
 title: Lab Overview
-description: Lab Overview
+description: Review the goals and syllabus for the data ingestion labs, from schema mapping and passthrough fixes to dataflow debugging and validation.
 doc-type: article
 solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d

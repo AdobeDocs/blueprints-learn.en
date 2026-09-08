@@ -1,6 +1,6 @@
 ---
 title: Validate Journey
-description: Validate Journey
+description: Verify journey execution through entry and exit counts, email delivery reporting, and query service data for step events.
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131

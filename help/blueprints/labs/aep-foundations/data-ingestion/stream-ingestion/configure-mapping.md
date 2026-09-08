@@ -1,6 +1,6 @@
 ---
 title: Configure Mapping
-description: Configure Mapping
+description: Import the mapping set from the batch ingestion lab and update calculated date fields to match the streaming source's date format.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8

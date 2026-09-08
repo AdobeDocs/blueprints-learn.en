@@ -1,6 +1,6 @@
 ---
 title: Courses
-description: Courses
+description: Learn how Identity Service works, its guardrails, and how Graph Linking Rules govern person-based identity graphs.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 3ae56d24-6fbb-4dce-b667-b43663cdbd74

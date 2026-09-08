@@ -1,6 +1,6 @@
 ---
 title: Create Offer Collection
-description: Create Offer Collection
+description: Group related offer items into a collection using attribute-based rules so they can be evaluated together by a selection strategy.
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74

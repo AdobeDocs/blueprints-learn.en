@@ -1,6 +1,6 @@
 ---
 title: Lectures
-description: Lectures
+description: Watch video lectures on Adobe Experience Platform's batch and streaming data ingestion architecture, dataflow framework, and Data Prep for complex data.
 doc-type: article
 solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13

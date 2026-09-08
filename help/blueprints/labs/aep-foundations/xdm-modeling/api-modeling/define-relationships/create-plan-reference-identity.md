@@ -1,6 +1,6 @@
 ---
 title: Create Plan Reference Identity
-description: Create Plan Reference Identity
+description: Use the schema registry API to create a reference identity descriptor on the lookup schema so it can be used in batch segmentation.
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6

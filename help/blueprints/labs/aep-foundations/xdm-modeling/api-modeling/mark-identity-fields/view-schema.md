@@ -1,6 +1,6 @@
 ---
 title: View Schema
-description: View Schema
+description: View a schema's identity descriptors via the UI and API, and compare Accept header options for resolved versus unresolved schema responses.
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb

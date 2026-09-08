@@ -1,6 +1,6 @@
 ---
 title: Pre-Work
-description: Pre-Work
+description: Investigate schema fields for billing usage and plan name, highlighting how missing descriptions and duplicate fields can confuse audience builders.
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116

@@ -1,6 +1,6 @@
 ---
 title: Introduction to Identity Service
-description: Introduction to Identity Service
+description: Review the learning objectives for understanding Identity Service, person-based identity graphs, graph database nodes and edges, and Real-Time Customer Profile integration.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: eb6eb164-2c18-4806-a49f-59b168373572

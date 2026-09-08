@@ -1,6 +1,6 @@
 ---
 title: Namespaces & Types
-description: Namespaces & Types
+description: Review the learning objectives for identity namespaces, identity types, namespace creation, and Identity Graph rules.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 018dab86-cc04-4128-85df-9f95da393d20

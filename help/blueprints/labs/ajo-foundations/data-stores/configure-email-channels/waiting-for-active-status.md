@@ -1,6 +1,6 @@
 ---
 title: Waiting for Active Status
-description: Waiting for Active Status
+description: Confirm that both of your email channel configurations reach Active status before continuing to the next labs.
 doc-type: article
 solution: Experience Platform
 exl-id: 37a079c1-2d5f-4586-b3d1-a6402d8b795f

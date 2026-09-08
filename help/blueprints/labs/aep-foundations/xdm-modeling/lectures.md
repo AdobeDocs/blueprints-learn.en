@@ -1,6 +1,6 @@
 ---
 title: Lectures
-description: Lectures
+description: Watch introductory videos explaining the Experience Data Model (XDM) framework and advanced XDM concepts.
 doc-type: article
 solution: Experience Platform
 exl-id: fe99bc54-0fa1-4793-86e5-b61424ea6afb

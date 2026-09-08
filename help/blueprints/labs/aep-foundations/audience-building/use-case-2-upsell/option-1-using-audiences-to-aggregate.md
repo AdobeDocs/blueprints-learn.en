@@ -1,6 +1,6 @@
 ---
 title: Option #1 - Using Audiences to Aggregate
-description: Option #1 - Using Audiences to Aggregate
+description: Build audiences that use in-audience Sum and Average aggregation on billing usage events and denormalized plan data to enable streaming evaluation.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf

@@ -1,6 +1,6 @@
 ---
 title: Create the Journey
-description: Create the Journey
+description: Build a journey that triggers a Code-Based Experience action and decision policy to serve JSON offers to qualifying profiles.
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41

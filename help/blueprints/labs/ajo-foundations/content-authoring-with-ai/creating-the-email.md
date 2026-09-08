@@ -1,6 +1,6 @@
 ---
 title: Creating the Email
-description: Creating the Email
+description: Learn how to apply a branded content template to a campaign email in Adobe Journey Optimizer and replace hero and product images.
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e

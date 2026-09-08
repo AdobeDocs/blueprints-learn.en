@@ -1,6 +1,6 @@
 ---
 title: Verification and Validation
-description: Verification and Validation
+description: Preview an ingested dataset in the UI and run SQL queries to verify batch-ingested records and nested schema fields.
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79

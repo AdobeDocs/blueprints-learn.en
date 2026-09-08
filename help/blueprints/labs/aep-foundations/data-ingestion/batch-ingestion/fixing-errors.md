@@ -1,6 +1,6 @@
 ---
 title: Fixing Errors
-description: Fixing Errors
+description: Fix a calculated field expression for a date formatting error, then confirm success using the Sources, Identities, and Profiles monitoring metrics.
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7

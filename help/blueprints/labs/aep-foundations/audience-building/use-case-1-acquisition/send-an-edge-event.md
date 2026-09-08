@@ -1,6 +1,6 @@
 ---
 title: Send an Edge Event
-description: Send an Edge Event
+description: Send an unauthenticated web event to the Edge via Postman and trace it through event forwarding, profile ingestion, audience qualification, and destination activation.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f

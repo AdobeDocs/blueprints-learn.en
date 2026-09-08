@@ -1,6 +1,6 @@
 ---
 title: Validate Profile on Edge
-description: Validate Profile on Edge
+description: Learn how to check the Edge profile store and Audience Membership tab to confirm a profile's status on the Edge network.
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8

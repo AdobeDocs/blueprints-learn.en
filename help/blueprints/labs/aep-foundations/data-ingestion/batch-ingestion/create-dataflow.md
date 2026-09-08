@@ -1,6 +1,6 @@
 ---
 title: Create Dataflow
-description: Create Dataflow
+description: Configure a batch source dataflow with a new dataset, enable Profile and partial ingestion, and upload a sample Customer Account CSV file.
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d

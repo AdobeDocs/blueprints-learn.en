@@ -1,6 +1,6 @@
 ---
 title: Build an Audience
-description: Build an Audience
+description: Learn how to use the Build Audience activity to target Basic plan members from a relational schema and verify the resulting row counts.
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd

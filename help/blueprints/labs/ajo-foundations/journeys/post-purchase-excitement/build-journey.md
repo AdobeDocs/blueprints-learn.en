@@ -1,6 +1,6 @@
 ---
 title: Build Journey
-description: Build Journey
+description: Build a unitary journey that responds to an Order Shipped event, calls a custom action for shipping ETA, and sends a personalized email.
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913

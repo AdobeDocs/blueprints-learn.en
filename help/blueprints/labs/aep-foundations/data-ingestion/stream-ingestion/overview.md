@@ -1,6 +1,6 @@
 ---
 title: Stream Ingestion
-description: Stream Ingestion
+description: Load Customer Account data via a streaming source into the Data Lake and Profile using a streaming inlet and the REST API.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314

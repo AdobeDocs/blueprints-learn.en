@@ -1,6 +1,6 @@
 ---
 title: Create a Campaign
-description: Create a Campaign
+description: Learn how to create and configure the basic settings of a new Orchestrated Campaign.
 doc-type: article
 solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999

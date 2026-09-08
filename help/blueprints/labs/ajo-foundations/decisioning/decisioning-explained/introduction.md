@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Introduction
-description: Introduction
+description: Introduces how AJO decisioning differs from the legacy Offer Decisioning Engine and outlines the building blocks covered in this course.
 doc-type: article
 
 solution: Experience Platform

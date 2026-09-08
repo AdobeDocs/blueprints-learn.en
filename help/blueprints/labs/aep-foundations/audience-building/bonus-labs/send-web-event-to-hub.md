@@ -1,6 +1,6 @@
 ---
 title: Send Web Event to Hub
-description: Send Web Event to Hub
+description: Learn how to send a web event directly to the Hub using Postman and validate that it reaches the profile and qualifies for streaming segments.
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437

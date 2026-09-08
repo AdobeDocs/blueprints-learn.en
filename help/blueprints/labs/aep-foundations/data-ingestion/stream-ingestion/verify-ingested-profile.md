@@ -1,6 +1,6 @@
 ---
 title: Verify Ingested Profile
-description: Verify Ingested Profile
+description: Look up a streamed profile in the Profiles browser using its primary identity namespace to confirm successful ingestion.
 doc-type: article
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83

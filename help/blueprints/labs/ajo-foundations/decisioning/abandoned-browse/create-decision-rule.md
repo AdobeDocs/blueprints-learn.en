@@ -1,6 +1,6 @@
 ---
 title: Create Decision Rule
-description: Create Decision Rule
+description: Build a Decisioning Rule that restricts eligibility for premium phone offers to customers on higher-tier plans.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b

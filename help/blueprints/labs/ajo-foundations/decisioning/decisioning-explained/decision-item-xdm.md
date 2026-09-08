@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Decision Item XDM
-description: Decision Item XDM
+description: Learn the pre-built XDM schema every decision item shares and how custom attributes are nested under a tenant namespace.
 doc-type: article
 
 solution: Experience Platform

@@ -1,6 +1,6 @@
 ---
 title: Read an Audience
-description: Read an Audience
+description: Learn how to use the Read Audience activity with a Profile Target Dimension in an Orchestrated Campaign and test how unmatched profiles are dropped when reconciling relational data.
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946

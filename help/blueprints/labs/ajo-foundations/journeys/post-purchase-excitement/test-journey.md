@@ -1,6 +1,6 @@
 ---
 title: Test Journey
-description: Test Journey
+description: Use the journey Test Mode simulator to trigger an Order Shipped event and confirm the trigger and action logic run correctly before publishing.
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9

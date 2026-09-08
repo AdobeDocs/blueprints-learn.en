@@ -1,6 +1,6 @@
 ---
 title: Login & Browse
-description: Login & Browse
+description: Learn how to log in to Adobe Experience Platform with your sandbox credentials and launch the platform from the quick access panel.
 doc-type: article
 solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f

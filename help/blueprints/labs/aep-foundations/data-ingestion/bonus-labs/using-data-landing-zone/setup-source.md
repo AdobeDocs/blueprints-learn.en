@@ -1,6 +1,6 @@
 ---
 title: Setup Souce
-description: Setup Souce
+description: Upload a sample Customer Account file to the Data Landing Zone and configure a new cloud storage source dataflow.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae

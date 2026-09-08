@@ -1,6 +1,6 @@
 ---
 title: Monitor Your Event
-description: Monitor Your Event
+description: Use Adobe Experience Platform Assurance to create a debug session, send a validated event via Postman, and inspect edge event processing logs.
 doc-type: article
 solution: Experience Platform
 exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2

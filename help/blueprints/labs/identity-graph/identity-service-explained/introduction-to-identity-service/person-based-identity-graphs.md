@@ -1,6 +1,6 @@
 ---
 title: Person-based Identity Graphs
-description: Person-based Identity Graphs
+description: Learn how Identity Graph records deterministic relationships between unique person-based identities and data sources to resolve a single profile.
 doc-type: article
 solution: Experience Platform
 exl-id: e80a3381-a0f4-4091-8cbb-cb6ae16192d9

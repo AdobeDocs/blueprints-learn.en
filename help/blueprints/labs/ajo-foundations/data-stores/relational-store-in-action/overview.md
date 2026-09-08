@@ -1,6 +1,6 @@
 ---
 title: Relational Store in Action
-description: Relational Store in Action
+description: Get an overview of browsing relational schemas, setting up a Profile Target Dimension, and building and testing an Orchestrated Campaign with relational and AEP audience data.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3

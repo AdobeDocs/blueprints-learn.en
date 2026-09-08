@@ -1,6 +1,6 @@
 ---
 title: Initial Mappings
-description: Initial Mappings
+description: Manually map the required _id and timestamp fields for an Experience Event dataset using calculated field expressions.
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8

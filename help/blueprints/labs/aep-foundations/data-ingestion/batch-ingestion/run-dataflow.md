@@ -1,6 +1,6 @@
 ---
 title: Run Dataflow
-description: Run Dataflow
+description: Execute a configured batch dataflow and monitor its status as the first data load run kicks off.
 doc-type: article
 solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d

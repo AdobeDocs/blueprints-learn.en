@@ -1,6 +1,6 @@
 ---
 title: Model Custom Objects
-description: Model Custom Objects
+description: Build custom account, plan, and customerID fields and objects in the schema editor, including enum values, to model data with no standard field group equivalent.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a

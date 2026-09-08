@@ -1,6 +1,6 @@
 ---
 title: Configure for Profile
-description: Configure for Profile
+description: Learn how to configure an email channel using the AEP Profile personalEmail.address attribute for Journeys and Orchestrated Campaigns.
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71

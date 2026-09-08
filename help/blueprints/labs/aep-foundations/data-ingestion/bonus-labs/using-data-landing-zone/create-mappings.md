@@ -1,6 +1,6 @@
 ---
 title: Create Mappings
-description: Create Mappings
+description: Apply prior lab techniques to independently map a Data Landing Zone source file to the target XDM schema.
 doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950

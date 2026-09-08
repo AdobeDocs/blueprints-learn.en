@@ -1,6 +1,6 @@
 ---
 title: Creating Identity Namespaces
-description: Creating Identity Namespaces
+description: Learn how to create standard and custom identity namespaces in the user interface, including required fields and key constraints.
 doc-type: article
 solution: Experience Platform
 exl-id: 95333617-698e-4419-8b26-6b28d814bbf1

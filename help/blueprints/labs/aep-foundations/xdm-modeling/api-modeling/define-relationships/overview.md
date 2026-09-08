@@ -1,6 +1,6 @@
 ---
 title: Define Relationships
-description: Define Relationships
+description: Learn how relationship descriptors link a customer schema to a lookup schema in the XDM schema registry via the API.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704

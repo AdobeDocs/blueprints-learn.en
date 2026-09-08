@@ -1,6 +1,6 @@
 ---
 title: Send an Edge Web Event
-description: Send an Edge Web Event
+description: Learn how to send a simulated web event to the Adobe Edge Network via a Postman API call using your datastream ID.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8

@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Mapping Use Cases to Architecture
-description: Mapping Use Cases to Architecture
+description: Learn how to apply a structured framework for choosing between Orchestrated Campaigns and Journeys based on real-world marketing use cases.
 doc-type: overview-page
 
 solution: Experience Platform

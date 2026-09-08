@@ -1,6 +1,6 @@
 ---
 title: Profile in Action
-description: Profile in Action
+description: Get an overview of simulating a web page visit from the Edge Network to Adobe Experience Platform, including creating a datastream, sending a test event, and validating profile and segment data.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235

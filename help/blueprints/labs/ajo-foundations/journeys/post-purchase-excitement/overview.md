@@ -1,6 +1,6 @@
 ---
 title: Post-Purchase Excitement
-description: Post-Purchase Excitement
+description: Learn how to build an event-driven post-purchase journey that triggers a shipping notification email with dynamic tracking details from a third-party API.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340

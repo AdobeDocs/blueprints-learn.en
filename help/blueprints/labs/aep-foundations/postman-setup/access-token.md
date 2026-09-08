@@ -1,6 +1,6 @@
 ---
 title: Access Token
-description: Access Token
+description: Generate an OAuth server-to-server access token in Postman and understand the required headers for authenticating AEP API calls.
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864

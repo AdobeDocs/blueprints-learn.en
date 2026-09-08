@@ -1,6 +1,6 @@
 ---
 title: Setup Event Forwarding
-description: Setup Event Forwarding
+description: Learn how Event Forwarding uses properties, data elements, rules, and datastreams to forward edge events to a third-party endpoint.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336

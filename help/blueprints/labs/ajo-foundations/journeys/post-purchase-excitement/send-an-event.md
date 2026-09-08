@@ -1,6 +1,6 @@
 ---
 title: Send an Event
-description: Send an Event
+description: Use Postman to stream a simulated Order Shipped event directly to the Hub to trigger the journey, rather than sending it to the Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22

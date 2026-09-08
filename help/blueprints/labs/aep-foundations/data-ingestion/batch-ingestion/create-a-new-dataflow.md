@@ -1,6 +1,6 @@
 ---
 title: Create a New Dataflow
-description: Create a New Dataflow
+description: Create a batch source dataflow against an existing dataset and import mappings from a prior dataflow to speed up setup.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0

@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Recap building an Orchestrated Campaign with an SMS channel that targets both customer accounts and individual lines and saves an audience to the Audience Portal.
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d

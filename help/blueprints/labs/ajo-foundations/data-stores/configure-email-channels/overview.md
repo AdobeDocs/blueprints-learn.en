@@ -1,6 +1,6 @@
 ---
 title: Configure Email Channels
-description: Configure Email Channels
+description: Configure two email channel configurations, one using an AEP Profile attribute and one using a Relational schema attribute, for Orchestrated Campaigns.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae

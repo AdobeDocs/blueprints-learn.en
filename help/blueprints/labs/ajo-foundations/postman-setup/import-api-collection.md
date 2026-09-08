@@ -1,6 +1,6 @@
 ---
 title: Import API Collection
-description: Import API Collection
+description: Import the bootcamp's Postman API collection and validate that its environment variables resolve correctly against your sandbox.
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962

@@ -1,6 +1,6 @@
 ---
 title: Setup Streaming Destination
-description: Setup Streaming Destination
+description: Configure an HTTP API streaming destination with a webhook endpoint, governance policy, audiences, and field mappings to test segment activation.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13

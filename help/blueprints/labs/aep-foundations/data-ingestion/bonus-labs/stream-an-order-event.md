@@ -1,6 +1,6 @@
 ---
 title: Stream an Order Event
-description: Stream an Order Event
+description: Practice building an HTTP API streaming dataflow to send a sample order event and link it to an existing customer profile.
 doc-type: article
 solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a

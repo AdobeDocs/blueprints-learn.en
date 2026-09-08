@@ -1,6 +1,6 @@
 ---
 title: Build an Audience
-description: Build an Audience
+description: Learn how to use the Build Audience activity in an Orchestrated Campaign to target active customer lines with a specific phone make using relational schema conditions.
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7

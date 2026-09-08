@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Overview
+description: Explore Adobe Journey Optimizer's architecture, journey orchestration, orchestrated campaigns, decisioning, and real-time customer profiles through hands-on labs.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a

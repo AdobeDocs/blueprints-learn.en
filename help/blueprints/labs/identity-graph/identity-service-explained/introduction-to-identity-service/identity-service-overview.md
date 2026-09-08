@@ -1,6 +1,6 @@
 ---
 title: Identity Service Overview
-description: Identity Service Overview
+description: Learn how Identity Service uses graph database technology to unify customer identities from cross-channel data sources into person-based identity graphs.
 doc-type: article
 solution: Experience Platform
 exl-id: 5109706f-275d-4a42-b63e-08a9e048be76

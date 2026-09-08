@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Ranking Formulas
-description: Ranking Formulas
+description: Learn how ranking formulas dynamically adjust a decision item's priority score per profile using conditional math expressions.
 doc-type: article
 
 solution: Experience Platform

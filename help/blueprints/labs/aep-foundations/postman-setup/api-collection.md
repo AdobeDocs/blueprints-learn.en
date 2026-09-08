@@ -1,6 +1,6 @@
 ---
 title: API Collection
-description: API Collection
+description: Download and import the bootcamp's Postman API collection containing the requests used throughout the AEP Foundations labs.
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3

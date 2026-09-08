@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Overview
+description: Get an introduction to brands, brand guidelines, journeys, and templates, and learn to navigate Adobe Journey Optimizer's content creation tools.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721

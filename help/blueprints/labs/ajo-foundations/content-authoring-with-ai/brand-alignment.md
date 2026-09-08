@@ -1,6 +1,6 @@
 ---
 title: Brand Alignment
-description: Brand Alignment
+description: Learn how to evaluate email content against brand guidelines using AJO's AI-driven Brand Alignment Score and apply AI recommendations to improve compliance.
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29

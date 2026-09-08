@@ -1,6 +1,6 @@
 ---
 title: Fork the Result
-description: Fork the Result
+description: Learn how to add a Fork activity to an Orchestrated Campaign to branch a result for saving an audience and sending SMS messages.
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296

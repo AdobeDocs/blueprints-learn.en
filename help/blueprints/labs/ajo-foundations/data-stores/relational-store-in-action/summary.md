@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Recap browsing schemas, configuring a Profile Target Dimension, and building and testing an Orchestrated Campaign that combines AEP audiences with relational schema data.
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011

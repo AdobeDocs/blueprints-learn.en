@@ -1,6 +1,6 @@
 ---
 title: Graph Database Architecture
-description: Graph Database Architecture
+description: Learn how graph databases use nodes and edges to store values and the relationships between them, forming the foundation of Identity Service.
 doc-type: article
 solution: Experience Platform
 exl-id: 26d9820a-7e6d-4016-ae8f-30a303acab47

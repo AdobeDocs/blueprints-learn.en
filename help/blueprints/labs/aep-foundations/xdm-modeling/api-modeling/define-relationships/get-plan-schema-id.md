@@ -1,6 +1,6 @@
 ---
 title: Get Plan Schema ID
-description: Get Plan Schema ID
+description: Query the tenant schema registry API to find and save the $id of the Plan lookup schema for use in a relationship descriptor.
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd

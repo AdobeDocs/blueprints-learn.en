@@ -1,6 +1,6 @@
 ---
 title: Create Ranking Formula
-description: Create Ranking Formula
+description: Build a ranking formula that dynamically boosts offer priority scores based on profile attributes such as age.
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b

@@ -1,6 +1,6 @@
 ---
 title: That's a Wrap
-description: That's a Wrap
+description: Find additional resources on Identity Service, the Identity Graph Viewer, and Identity Service terminology for further learning.
 doc-type: article
 solution: Experience Platform
 exl-id: d95825ea-0c11-45ea-9c02-70467f0cfa67

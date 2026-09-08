@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Lab Exercise
-description: Lab Exercise
+description: Work through a printable workbook mapping three Connection 5G use cases to the right AJO architecture components and orchestration engine.
 doc-type: article
 
 solution: Experience Platform

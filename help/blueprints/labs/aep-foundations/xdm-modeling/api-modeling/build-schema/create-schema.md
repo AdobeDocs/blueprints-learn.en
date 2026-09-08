@@ -1,6 +1,6 @@
 ---
 title: Create Schema
-description: Create Schema
+description: Use the schema registry API to assemble a customer schema from a profile class and standard and custom field group references.
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280

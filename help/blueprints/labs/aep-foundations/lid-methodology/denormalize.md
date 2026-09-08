@@ -1,6 +1,6 @@
 ---
 title: Denormalize
-description: Denormalize
+description: Apply the LID methodology's denormalization rules to fold bridge and dependent tables from an ERD back into their parent profile, event, and lookup tables.
 doc-type: article
 solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300

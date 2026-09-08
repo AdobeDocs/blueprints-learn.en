@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Recap of building and validating an Order Shipped event-driven journey with a custom action and test event in Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: c6f87223-a060-49d8-a784-d37d3422edd0

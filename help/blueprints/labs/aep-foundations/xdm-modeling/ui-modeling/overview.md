@@ -1,6 +1,6 @@
 ---
 title: UI Modeling
-description: UI Modeling
+description: Learn how to map source data to XDM standard and custom objects and build and configure a schema for profile using the Schema UI.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 66c3a386-7292-49e4-a75a-619e73c2a14d

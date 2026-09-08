@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Recap of the completed Adobe Journey Optimizer Decisioning lab covering offer schema, eligibility, ranking, selection strategy, and CBE testing.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c

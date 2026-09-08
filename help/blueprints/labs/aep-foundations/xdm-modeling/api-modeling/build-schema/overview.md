@@ -1,6 +1,6 @@
 ---
 title: Build Schema
-description: Build Schema
+description: Assemble a Connection 5G Customer Account schema from a class and multiple field groups using the previously completed mapping sheet.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 6a935c42-0446-43f7-8abc-442ee696a6cf

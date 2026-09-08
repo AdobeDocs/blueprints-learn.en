@@ -1,6 +1,6 @@
 ---
 title: Recap
-description: Recap
+description: Review the API modeling lab steps, from creating the Customer Account schema through JSON Patching, marking identities, and building the lookup relationship.
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e

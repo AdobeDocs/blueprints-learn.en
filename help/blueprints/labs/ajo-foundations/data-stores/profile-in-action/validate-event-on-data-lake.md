@@ -1,6 +1,6 @@
 ---
 title: Validate Event on Data Lake
-description: Validate Event on Data Lake
+description: Learn how to query the Data Lake to verify that a streamed web event was written to the correct dataset.
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868

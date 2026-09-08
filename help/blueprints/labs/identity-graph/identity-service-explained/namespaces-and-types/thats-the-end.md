@@ -1,6 +1,6 @@
 ---
 title: That's the End!
-description: That's the End!
+description: Find a resource link to the Identity Namespace overview documentation for continued learning after completing this module.
 doc-type: article
 solution: Experience Platform
 exl-id: 02ca87e1-4b90-4913-bd5c-acf8dc300467

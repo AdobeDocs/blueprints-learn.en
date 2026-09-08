@@ -1,6 +1,6 @@
 ---
 title: Create Offer Attributes
-description: Create Offer Attributes
+description: Add custom device attributes like make, model, and tier to the standard Offer XDM schema for use in ranking and eligibility rules.
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf

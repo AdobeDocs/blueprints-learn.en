@@ -1,6 +1,6 @@
 ---
 title: Summary
-description: Summary
+description: Recap building an Orchestrated Campaign that forks an audience and compares email delivery results between Profile-based and Relational-based email channels.
 doc-type: article
 solution: Experience Platform
 exl-id: 11249940-469f-4ba6-bd36-1f2bb7b388a9

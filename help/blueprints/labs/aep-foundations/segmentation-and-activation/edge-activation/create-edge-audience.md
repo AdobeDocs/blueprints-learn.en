@@ -1,6 +1,6 @@
 ---
 title: Create Edge Audience
-description: Create Edge Audience
+description: Build and publish an Edge-evaluated audience alongside a batch equivalent to compare how each responds to real-time incoming events.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328

@@ -1,6 +1,6 @@
 ---
 title: Test the Campaign
-description: Test the Campaign
+description: Learn how to run an Orchestrated Campaign in test mode and interpret why an AEP Profile-based email channel produces delivery errors that a Relational-based channel avoids.
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c

@@ -1,6 +1,6 @@
 ---
 title: Fix Passthrough Mappings
-description: Fix Passthrough Mappings
+description: Identify and correct incorrect AI/ML passthrough mappings, such as duplicate or mismatched target field assignments, before validating.
 doc-type: article
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b

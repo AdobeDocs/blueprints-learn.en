@@ -1,7 +1,6 @@
 ---
-hold: true
 title: Guardrails, AI Models Decisioning Future
-description: Guardrails, AI Models Decisioning Future
+description: Learn the key decisioning guardrails, how AI ranking models differ from formulas, and how decisioning's building blocks connect end to end.
 doc-type: article
 
 solution: Experience Platform
