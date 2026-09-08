@@ -2,7 +2,8 @@
 hold: true
 title: Model Custom Objects
 description: Model Custom Objects
-doc-type: article
+doc-type: article
+
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
 ---
@@ -28,7 +29,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 1. Add a new field by clicking the **+ (add)** button at the top of your schema
 
-![Add a custom field to your schema](assets/pgslWRDmjJ9ZwQgaymLb6_add-a-custom-field-to-your-schema.png)
+![Add a custom field to your schema](assets/add-a-custom-field-to-your-schema.png)
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 
 
-![Customer Account Schema with account object and child fields added](assets/yS-U6AJJ5e59_RNB2xVhT_customer-account-schema-with-account-object-and-child-fields-added.png)
+![Customer Account Schema with account object and child fields added](assets/customer-account-schema-with-account-object-and-child-fields-added.png)
 
  
 
@@ -97,7 +98,7 @@ For this field we want to standardize the values so we will use the **Enum & Sug
 
 
 
-![Enum values for Acquisition Source field](assets/ijhlDIXR50hV4xkD09ajV_enum-values-for-acquisition-source-field.png)
+![Enum values for Acquisition Source field](assets/enum-values-for-acquisition-source-field.png)
 
 >[!NOTE]
 >
@@ -134,7 +135,7 @@ Use the metadata in the below table to create the plan object and its associated
 >
 >
 >
->![Ensure that you are adding the new fieldds](assets/TkHbqFVcmIr3hBMbbuFWJ_ensure-that-you-are-adding-the-new-fieldds.png)
+>![Ensure that you are adding the new fieldds](assets/ensure-that-you-are-adding-the-new-fieldds.png)
 >
 >
 
@@ -144,7 +145,7 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 
 
-![Customer Account schema with plan object and child fields added](assets/Zot1l5H5nP9lisRK7Dmh4_customer-account-schema-with-plan-object-and-child-fields-added.png)
+![Customer Account schema with plan object and child fields added](assets/customer-account-schema-with-plan-object-and-child-fields-added.png)
 
 >[!TIP]
 >
@@ -172,7 +173,7 @@ Perform the same steps as you have done previously and utilize the table below f
 
 Your final result should look like the screenshot below when you are complete
 
-![Customer Account schema with customerId field added](assets/tMtdEzbWNTwqE1z0DLAhj_customer-account-schema-with-customerid-field-added.png)
+![Customer Account schema with customerId field added](assets/customer-account-schema-with-customerid-field-added.png)
 
 
 

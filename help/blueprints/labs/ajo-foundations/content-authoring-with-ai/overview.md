@@ -105,7 +105,7 @@ Before you begin building your brand, let’s take a moment to explore the **con
 
 Click on each of them and get familiar with the UI. We will go through each section in this lab. 
 
-![Zc3Uu3K1Tqtuh](assets/2qZCKoM_zc3Uu3K1Tqtuh_.blob)
+![Zc3Uu3K1Tqtuh](assets/overview-1.png)
 
 ## Summary
 

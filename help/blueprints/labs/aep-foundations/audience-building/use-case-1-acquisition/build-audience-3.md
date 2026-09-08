@@ -24,7 +24,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 1. Find Page View event on the Event tab under Event Types in the left rail and add to the Audience
 
-![LiM find pag](assets/mxlfVRKE7pfLLYdsY_liM_find-pag.png)
+![LiM find pag](assets/find-pag.png)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 3\. Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/Y4FXY61zv4WwT4cosD5-9-R_s2l0SJwJLf-6dmK1KhT-20250715-192957.png)
+![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
 
 4\. Save this Audience as “*Visited Any Page*”
 
@@ -57,7 +57,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 1. Create a new Audience and add the Page Views Event
 
-![5MGYCxJ EfgS create a new audience and add the page views event](assets/RfnA1UL6_5MGYCxJ-EfgS_create-a-new-audience-and-add-the-page-views-event.png)
+![5MGYCxJ EfgS create a new audience and add the page views event](assets/create-a-new-audience-and-add-the-page-views-event.png)
 
 
 
@@ -65,13 +65,13 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 - XDM ExperienceEvent --> Web --> Web page details --> Name
 
-![Xdm experienceevent greater web greater web page details greater name](assets/yChuot6e2ZKwX6SnynEzG_xdm-experienceevent-greater-web-greater-web-page-details-greater-name.png)
+![Xdm experienceevent greater web greater web page details greater name](assets/xdm-experienceevent-greater-web-greater-web-page-details-greater-name.png)
 
 
 
 3\. Add contains “iPhone 14”
 
-![Add contains iphone 14](assets/NZAYL4a6MS5yq3cLKtaCD_add-contains-iphone-14.png)
+![Add contains iphone 14](assets/add-contains-iphone-14.png)
 
 >[!CAUTION]
 >
@@ -87,13 +87,13 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >Search does not search descriptions
 >
->![W3bu8fPD U2 searching for 22page 22](assets/OOthcwfXb_W3bu8fPD_U2_searching-for-22page-22.png)
+>![W3bu8fPD U2 searching for 22page 22](assets/searching-for-22page-22.png)
 
 
 
 4\. Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/Y4FXY61zv4WwT4cosD5-9-R_s2l0SJwJLf-6dmK1KhT-20250715-192957.png)
+![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 6\. Save Audience as "*Visited iPhone 14 Page*"
 
-![6PRF save audience as 22visited iphone 14 page](assets/qQoHE7s4OdJ9kCP7_6PRF_save-audience-as-22visited-iphone-14-page.png)
+![6PRF save audience as 22visited iphone 14 page](assets/save-audience-as-22visited-iphone-14-page.png)
 
 
 
@@ -124,7 +124,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 1. Pull in the three other Audiences we previously created
 1. Change the Include to Does not include for Owns iPhone 14 and Placed Order iPhone 14.
 
-![Provide a description](assets/vW92gsQ6SgAGvimPk52-a_provide-a-description.png)
+![Provide a description](assets/provide-a-description.png)
 
 
 
@@ -170,7 +170,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 If we were to have built all these Audiences in one Audience instead of four, we would get a batch evaluation method even though each Audience individually is Streaming.
 
-![Why are we creating multiple audiences](assets/U6NqulkKDZb94VKWA0kF5_why-are-we-creating-multiple-audiences.png)
+![Why are we creating multiple audiences](assets/why-are-we-creating-multiple-audiences.png)
 
 
 

@@ -17,13 +17,13 @@ Verify that the journey was triggered and executed as expected.  Verify reports 
 1. Go to your Order Shipped Journey, open it if you closed it
 1. You should see at least 2 Profile Entered
 
-![Iwa42eUkpVbVCNYzyI4jK 20251224 002013](assets/Iwa42eUkpVbVCNYzyI4jK-20251224-002013.png)
+![Iwa42eUkpVbVCNYzyI4jK 20251224 002013](assets/validate-journey-2.png)
 
 1. Click **View Report **->** Last 24 hours** in the top right.
 1. By default, you should be in the **Journey **tab (on the left rail)
    - You should see some enters and exits (count will depend on how many events you sent in, any testing, any errors, etc.)
 
-![VClBq 20251118 002624](assets/Iqnq2cXS8uvxwFj_VClBq-20251118-002624.png)
+![VClBq 20251118 002624](assets/validate-journey-1.png)
 
 If everything went through clean you should have (scroll down to check):
 
@@ -56,7 +56,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
    - **Email - Statistics**
      - Email - 3 targeted, sent, delivered
 
-![MOGtLfhTriQ u5UwoTNYQ 20251118 002651](assets/MOGtLfhTriQ-u5UwoTNYQ-20251118-002651.png)
+![MOGtLfhTriQ u5UwoTNYQ 20251118 002651](assets/validate-journey-3.png)
 
 1. Go check your **email inbox** and see if you got the email (it should look similar to this below)
    - *,*your order has shipped ETA: *10/17/2026* Tracking Number: *051009364*
@@ -87,7 +87,7 @@ WHERE timestamp >= CURRENT_DATE
 LIMIT 10
 ```
 
-![Xqv654TpraIH1PHv0dFgW 20251118 195218](assets/xqv654TpraIH1PHv0dFgW-20251118-195218.png)
+![Xqv654TpraIH1PHv0dFgW 20251118 195218](assets/validate-journey-4.png)
 
 ## Bonus (check Step Events)
 

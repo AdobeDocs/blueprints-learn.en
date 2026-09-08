@@ -29,7 +29,7 @@ The first and easiest offer item you'll create is the fallback offer, which anyo
 1. If necessary, expand **Decisioning** in the left rail and click on **Catalogs**
 1. An empty offers page should be shown:
 
-![Navigate to catalogs](assets/C7H2Z2qfqlN-oh43HmCG--20251206-065816.png)
+![Navigate to catalogs](assets/create-offer-items-4.png)
 
 1. Click the blue **Create Item **button, and you will be taken to the 'Create Offer Item' page.
 1. In the 'Offer name' field, enter the text **iphone:17\:generic**. Enter a description if you wish. 
@@ -51,13 +51,13 @@ The first and easiest offer item you'll create is the fallback offer, which anyo
 
 These are the actual text values that both describe the offer and what can be used in sorting, ranking, and eligibility criteria. They are also the text values that can be returned to the requesting device.
 
-![Completed generic offer custome attribute validation](assets/vibzu1S3_tP2NRwXyKq8d-20251206-071032.png)
+![Completed generic offer custome attribute validation](assets/create-offer-items-12.png)
 
 >[!NOTE]
 >
 >The Device area you expanded is the same "Device" parent object that was created when the 'Personalized Offer Items - Experience Decisioning' schema was updated with custom attributes in the previous section. The Tier, Model, and Make fields are the individual attributes that were added:
 >
->![IWkLIKEPfGr 20251206 073325](assets/nAZCZwj28_IWkLIKEPfGr-20251206-073325.png)
+>![IWkLIKEPfGr 20251206 073325](assets/create-offer-items-10.png)
 
 >[!WARNING]
 >
@@ -72,7 +72,7 @@ These are the actual text values that both describe the offer and what can be us
 1. Make any necessary changes. When ready, click the blue **Save **button. 
 1. Once saved, a white 'Approve' button will appear where the 'Save' button used to be. Click the white **Approve **button to approve this offer item. You will see a green 'Approved' indicator below the offer item title: 
 
-![Verify generic offer approval](assets/3gT2MmTNE-R1wazqNHg1V-20251206-075219.png)
+![Verify generic offer approval](assets/create-offer-items-2.png)
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Now that the generic offer item has been created, you can create the next priori
 
 When finished, the offer item should look like this (the red box is added to ensure the priority is correct):
 
-![Base offer attributes validation](assets/4mn3nxpk3mZhd-5qkClsq-20251206-080331.png)
+![Base offer attributes validation](assets/create-offer-items-3.png)
 
 When everything is correct, click the blue **Next **button to proceed to the next step.
 
@@ -101,7 +101,7 @@ When everything is correct, click the blue **Next **button to proceed to the nex
 1. On the new capping rule, change the **Choose capping event** to **Impression.**
 1. Change the **Capping event count** to **3**. Once finished, your capping rule should look like this:
 
-![Base offer capping validation](assets/obfApE9_77x2vpGGPigiG-20251206-081020.png)
+![Base offer capping validation](assets/create-offer-items-11.png)
 
 Once correct, click the blue **Create** button to save the capping rule. 
 
@@ -109,7 +109,7 @@ Once correct, click the blue **Create** button to save the capping rule.
 >
 >Notice how you could create an additional capping rule. In practice, you may want to add more than one rule. In this case, we could have added a rule to cap this if a specific event was seen, such as a purchase event. We're keeping it simple for now with a single capping rule. 
 >
->![Additional capping example](assets/Jta1TyudzUexlUrp1V0EF-20251206-081517.png)
+>![Additional capping example](assets/create-offer-items-6.png)
 
 >[!WARNING]
 >
@@ -119,7 +119,7 @@ Once correct, click the blue **Create** button to save the capping rule.
 1. Ensure everything appears as expected and click the **Save** button. Once saved, click **Approve.**
 1. Once approved, click the left arrow next to the title and return to the offers page. You should now see two offers, each with the appropriate priority.
 
-![validation first two offers and their priority](assets/XsOUKUhARqvV0mK42y-P0-20251206-082208.png)
+![validation first two offers and their priority](assets/create-offer-items-7.png)
 
 ## Create Upper Tier Model Offer Items
 
@@ -131,22 +131,22 @@ Now that the generic and base model offers have been created, we can move to the
 1. The left rail should show only one Decision rule, the one created earlier called 'Upper Tier Plans'. Click the **+** icon next to that rule to add it to the canvas. 
 1. As mentioned earlier, the business has stated that non-fallback offers should have a frequency cap of 3 displays (or impressions) per day. Follow the steps in the previous section to create a capping rule for 3 Impressions per day. When finished, your page should look like this: 
 
-![Impression capping validation](assets/27kVS4YJcgXAQxYTMduvl-20251208-210215.png)
+![Impression capping validation](assets/create-offer-items-1.png)
 
 1. Once you've verified that everything is correct, click **Next**. The final offer item config should look like this:
 
-![Complete Pro offer validation](assets/fkdOKP877OKbziEmOeP-i-20251208-210737.png)
+![Complete Pro offer validation](assets/create-offer-items-9.png)
 
 1. Once everything looks correct, **Save **and **Approve **the offer item. 
 1. Return to the offers page and verify that the 3 offers are there and that they each have the proper priority.
 1. Create the final offer item and name it **iphone:17\:ultra,** give it a priority of **4, **and set the other custom attributes with the same values as the other offers.
 1. As with the last offer item, set the eligibility to the 'Upper Tier Plan' Decision rule and set a frequency capping of 3 impressions a day. When finished, your offer item should look like this:
 
-![Complete Ultra validation](assets/DS6PaHGpPd2CvQrLOtdsr-20251208-211926.png)
+![Complete Ultra validation](assets/create-offer-items-5.png)
 
 1. Once you've verified that all of the settings are correct, save and approve this offer item. You should now see all four of the offer items, each with a unique priority.
 
-![Final 4 offer validation](assets/b60X1TBSgNy_D_9IIUwy3-20251208-213725.png)
+![Final 4 offer validation](assets/create-offer-items-8.png)
 
 >[!NOTE]
 >

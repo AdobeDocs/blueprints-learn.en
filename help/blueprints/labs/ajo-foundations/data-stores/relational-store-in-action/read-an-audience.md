@@ -22,25 +22,25 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 1. In the left side rail, click on **Campaigns**
 
-![Navigate to Campaigns](assets/VcJhv83IcbJLFOToqA4K--20251208-061706.png)
+![Navigate to Campaigns](assets/read-an-audience-16.png)
 
 1. Click on **Create campaign**
 
-![Create campaign](assets/XDzXpoJVQ8UAPUFjUIKcm-20251208-042622.png)
+![Create campaign](assets/read-an-audience-17.png)
 
 1. Select **Orchestration - Marketing**  and click on **Confirm**
 
-![Select Orchestration - Marketing](assets/rXDETbHLsGn6XAwz5L6Xp-20251208-042621.png)
+![Select Orchestration - Marketing](assets/read-an-audience-24.png)
 
 1. Provide Campaign details as follows and then click the **Save button**
    - Name: **OC-RSL-ReadAudience-Test**
    - Description: **RSL-Read Audience Test**
 
-![Campaign settings](assets/N-T0yLrWhzPfXaExvYLcK-20251211-184647.png)
+![Campaign settings](assets/read-an-audience-10.png)
 
 1. Wait for the confirmation message
 
-![Campaign settings updated](assets/aSfx_-DKKZPW1wgMC0_Zl-20251212-181517.png)
+![Campaign settings updated](assets/read-an-audience-19.png)
 
 
 
@@ -48,19 +48,19 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 1. Click on the **+** inside the canvas to open the options menu and then select **Read audience** from the **Targeting activities**
 
-![Read Audience](assets/rxBhUmbXGsN4vDC4QDT01-20251211-184647.png)
+![Read Audience](assets/read-an-audience-26.png)
 
 1. In the **Read audienc**e details pane, click on the Search icon for **Audience**
 
-![Specify audience](assets/ZYzdri3dPsQHa1FU_fGUG-20251211-184647.png)
+![Specify audience](assets/read-an-audience-18.png)
 
 1. Select the **dep: Basic Plan Members** audience with Profile Count of **9 **and click on **Add audience**
 
-![Select dep: Basic Plan Members audience](assets/8WzDMKxQMfI-0mhWlGBby-20260111-021739.png)
+![Select dep: Basic Plan Members audience](assets/read-an-audience-5.png)
 
 1. Next click on the drop down for **Entity** and select the `dep-rel: Customer Account - customer_id` Campaign Target Dimension
 
-![Specify Entity/Target Dimension](assets/MoSyNpSZbJ6B2nQjcZOAD-20260111-021739.png)
+![Specify Entity/Target Dimension](assets/read-an-audience-9.png)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 1. The settings for the **Read Audience** activity are filled in. Click on **Start** to run the campaign in **Test mode**
 
-![Start campaign in Test mode](assets/6nvSWgpbZWkO6ylCuLuJ0-20260111-021739.png)
+![Start campaign in Test mode](assets/read-an-audience-3.png)
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 1. The test execution starts and the results are displayed when completed. Click on the **Result** node and then Preview results to see the execution results
 
-![Review test results](assets/gc6VaOcFO60KOfdNFTqnn-20260111-021739.png)
+![Review test results](assets/read-an-audience-21.png)
 
 1. Notice that **2** (out of 9) profiles from the **Read audience** do not have a corresponding matching **Target dimension** from the relational schema (i.e. they exist in the Profile store but not the relational store). And since Orchestrated Campaign works off the Relational schema, the unmatched `customer_id` (**2**) from the **Read audience** will be dropped and only the *matching* ones, **7** in this case, will be usable in subsequent activites that leverages **relational data** in the campaign
 
-![Missing Target Dimension](assets/-34lyVsIDUh5u-hQXMYKe-20260111-021740.png)
+![Missing Target Dimension](assets/read-an-audience-1.png)
 
 >[!NOTE]
 >
@@ -96,75 +96,75 @@ Orchestrated Campaign uses the  Relational schema for all the activities. When u
 
 1. Click on **Stop** to stop the **Test mode** of the campaign
 
-![Stop test mode](assets/lpF21653znspLOIi2h-OT-20260113-224440.png)
+![Stop test mode](assets/read-an-audience-22.png)
 
 1. Click on the **+** at the end of the flow and add **Split** from the **Targeting activities**
 
-![Add Split](assets/5JId8U2ATOcc4pVLaMWde-20260113-224440.png)
+![Add Split](assets/read-an-audience-2.png)
 
 1. In the details pane of the **Split** activity, expand the first split called **Subset**
 
-![Update default Split segment](assets/fJ8kVoyPdwlPkmjgXolwO-20260113-224440.png)
+![Update default Split segment](assets/read-an-audience-20.png)
 
 1. Rename it to "**In Store**" and click on **Create filter **to set the filter condition
 
-![Rename segment](assets/RfxXwGBTbEp7m9PN314S6-20260113-224440.png)
+![Rename segment](assets/read-an-audience-11.png)
 
 1. In the **Create filte**r pane, click on **Add condition**
 
-![Add condition](assets/KdcNHV9eIrVxI4EOOOlGo-20260113-224440.png)
+![Add condition](assets/read-an-audience-8.png)
 
 1. Since no other attributes were extracted from the AEP Profile, the only AEP Profile attribute available here is the `Customer ID`. However, columns from the relational store corresponding to the matching Target dimension are available for setting up the filter condition. Expand the **Targeting dimension** by clicking on  **>**
 
-![Expand Targeting dimension](assets/v0Fe28Hr-UUlEJongGSP5-20260113-224440.png)
+![Expand Targeting dimension](assets/read-an-audience-27.png)
 
 1. Select `Source` from the list and click on **Confirm**
 
-![Select Source attribute](assets/UhXX4RmL-JGLJ4KeAg5U_-20260113-224439.png)
+![Select Source attribute](assets/read-an-audience-15.png)
 
 1. The distinct values for the Source column are available in the drop down. For the **Custom condition**, select **"In Store"** from the drop down and click on **Confirm** to exit
 
-![Set condition](assets/rfLivscSjlArYboT5lYGN-20260113-224439.png)
+![Set condition](assets/read-an-audience-25.png)
 
 1. Back in the details pane of the **Split** activity, the settings for the first Split are complete. Click on **Add segment** to the second split
 
-![Add new segment](assets/SLNPZ84iuhqBI668K90mx-20260113-224439.png)
+![Add new segment](assets/read-an-audience-12.png)
 
 A new segment with the name **Result** is created
 
-![Choose Result segment](assets/8X1IlXHgC2cmIUoF1UPvv-20260113-224440.png)
+![Choose Result segment](assets/read-an-audience-6.png)
 
 1. Rename "**Result**" to "**Not In Store**" and click on **Create filter **to set the filter condition
 
-![Rename segment and add filter](assets/BDnOcONic3uqSEENWIXha-20260113-224439.png)
+![Rename segment and add filter](assets/read-an-audience-7.png)
 
 1. In the **Create filter** pane, click on **Add condition**. Follow the same approach as above, expand the **Targeting dimension** by clicking on  **>** 
 
-![Expand Targeting dimension](assets/v0Fe28Hr-UUlEJongGSP5-20260113-224440.png)
+![Expand Targeting dimension](assets/read-an-audience-27.png)
 
 Select `Source` from the list and click on **Confirm**
 
-![Select Source attribute](assets/UhXX4RmL-JGLJ4KeAg5U_-20260113-224439.png)
+![Select Source attribute](assets/read-an-audience-15.png)
 
 1. For the **Custom condition**, select **"In Store"** from the drop down and for the operator select "**not equal to**". Click on **Confirm** to exit
 
-![Set condition](assets/SiIQddR0x9Aj-VXST7eTr-20260113-224439.png)
+![Set condition](assets/read-an-audience-13.png)
 
 1. Back in the details pane of the **Split** activity, the settings for the two Splits are complete. Click on **Start** to run the campaign in **Test mode**
 
-![Start campaign in Test mode](assets/wyv5nfguyrWFljlIdu44H-20260113-224439.png)
+![Start campaign in Test mode](assets/read-an-audience-28.png)
 
 1. The test execution begins and the results are displayed upon completion. Since  only **7** matching Target dimension were found in the Relational schema, the same count is observed post the Split operations (**7** and **0**) as well
 
-![Verify counts](assets/8EP-J_E_pggQ6-TQsV3j0-20260113-224439.png)
+![Verify counts](assets/read-an-audience-4.png)
 
 1. Click on each result box and **Preview results** to view the results
 
-![Preview results](assets/ntBHuK_k8dpB3x34D5Nd--20260113-224439.png)
+![Preview results](assets/read-an-audience-23.png)
 
 1. Click on **Stop** to stop the **Test mode** of the campaign
 
-![Stop Test mode](assets/Su9dhiEtAk5Y6BCujBJp7-20260113-224438.png)
+![Stop Test mode](assets/read-an-audience-14.png)
 
 >[!NOTE]
 >

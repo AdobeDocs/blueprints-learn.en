@@ -2,7 +2,8 @@
 hold: true
 title: Check Final Mapping Set
 description: Check Final Mapping Set
-doc-type: article
+doc-type: article
+
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 ---
@@ -64,7 +65,7 @@ exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 
 When you are done click the **Next** button and then click the Finish button to update the dataflow with the new mapping logic.
 
-![Review the details and click finish to save the dataflow](assets/yvjLn-kfD9zKiiCJP6beT_review-the-details-and-click-finish-to-save-the-dataflow.png)
+![Review the details and click finish to save the dataflow](assets/review-the-details-and-click-finish-to-save-the-dataflow.png)
 
 
 

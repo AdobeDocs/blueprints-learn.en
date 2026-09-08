@@ -2,7 +2,8 @@
 hold: true
 title: Automate with API's
 description: Automate with API's
-doc-type: article
+doc-type: article
+
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
 ---
@@ -23,7 +24,7 @@ To see how you can automate deployments using API's you will execute a folder of
 
 1. In Postman navigate to the **Automation with APIs** folder within the** XDM Schema Lab** folder
 
-![Automate with APIs folder](assets/n-ADAXZy_lxxLyKc0x1oi-QGfnKiMXL9JPmaW9nVIEB-20241017-190316.png)
+![Automate with APIs folder](assets/automate-with-apis-1.png)
 
 
 

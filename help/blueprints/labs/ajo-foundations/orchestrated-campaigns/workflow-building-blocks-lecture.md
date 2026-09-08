@@ -1,0 +1,13 @@
+---
+hold: true
+title: Workflow Building Blocks Lecture
+description: Workflow Building Blocks Lecture
+doc-type: article
+
+solution: Experience Platform
+exl-id: 9d7ed671-873b-49d9-a806-d96bfb5fe9b9
+---
+
+In this lecture you will get an overview of how the Orchestrated Campaigns workflow functions and its capabilities.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3486215/)

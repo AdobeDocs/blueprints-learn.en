@@ -23,7 +23,7 @@ A Datastream defines which services that will utilize it.
 1. In the left rail under **Data Collection** click on **Datastreams**
 1. Then click on **New Datastream** to create one
 
-![Create a new datastream](assets/1yZa63vN0lS5E5z7BIQEH_create-a-new-datastream.png)
+![Create a new datastream](assets/create-a-new-datastream.png)
 
 ## Configure Datastream
 
@@ -52,7 +52,7 @@ This will allow us to send data to the Hub and land in a dataset for data receiv
 
 1. Click the blue **Add Service **button found in the middle of the screen
 
-![YUAtAJ3sUXP7ZCMCuTSPm 20260127 215802](assets/YUAtAJ3sUXP7ZCMCuTSPm-20260127-215802.png)
+![YUAtAJ3sUXP7ZCMCuTSPm 20260127 215802](assets/create-datastream-3.png)
 
 1. Configure the following items:
    - **Service **-> `Adobe Experience Platform`
@@ -62,7 +62,7 @@ This will allow us to send data to the Hub and land in a dataset for data receiv
    - **Select Checkbox** -> `Adobe Journey Optimizer`
 1. When done click **Save**
 
-![XEXihsnI1nn8gMjBEuIb  20251219 003026](assets/XEXihsnI1nn8gMjBEuIb--20251219-003026.png)
+![XEXihsnI1nn8gMjBEuIb  20251219 003026](assets/create-datastream-2.png)
 
 You should the service now added to your datastream
 
@@ -70,7 +70,7 @@ You should the service now added to your datastream
 
 **Copy **and **save **the **Datastream ID** to your local computer (we will use it later in Postman)
 
-![AaljP9gL2OGb2Mz2IMI1y 20251028 165155](assets/AaljP9gL2OGb2Mz2IMI1y-20251028-165155.png)
+![AaljP9gL2OGb2Mz2IMI1y 20251028 165155](assets/create-datastream-1.png)
 
 ## Recap
 

@@ -17,7 +17,7 @@ Launch postman on your computer and navigate to the following API call:
 1. **Folder **--> Profile Lab
 1. **API Request** --> `Create Web Event`
 
-![Create web event api request](assets/mP4nyziBdhfTfseRvsBJH_create-web-event-api-request.png)
+![Create web event api request](assets/create-web-event-api-request-2.png)
 
 
 ## Modify API Request
@@ -64,7 +64,7 @@ Your final API request should look like this when done
 >
 >DO NOT EXECUTE YET!
 
-![Final web api request](assets/KnUIdwH8reGKY17Tvxojz_final-web-api-request.png)
+![Final web api request](assets/final-web-api-request.png)
 
 ###
 
@@ -75,7 +75,7 @@ Your final API request should look like this when done
 
 A successful call should result in the following response...
 
-![Successful web event send](assets/TVLXPwq4Au7dhz-8Lihmg_successful-web-event-send.png)
+![Successful web event send](assets/successful-web-event-send-2.png)
 
 ###
 

@@ -18,7 +18,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 1. Click on your **Journey **to open it
 1. Click on **Alerts **& ensure no errors (warnings are ok)
 
-![ZYn2cnZa6 L1 20251113 200640](assets/dvImaqds_ZYn2cnZa6-L1-20251113-200640.png)
+![ZYn2cnZa6 L1 20251113 200640](assets/post-purchase-excitement-3.png)
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 1. Click on the **Simulate **and on the left side, select **Test Mode**
 
-![WnyV5WyS3iyKIvOILMzRU 20260615 104621](assets/wnyV5WyS3iyKIvOILMzRU-20260615-104621.png)
+![WnyV5WyS3iyKIvOILMzRU 20260615 104621](assets/post-purchase-excitement-6.png)
 
 
 
@@ -44,7 +44,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
    - **Order ID**: `123`
 1. Click **Send **(note, it takes a few seconds to respond after clicking send)
 
-![SvyzYc4SMYffxKat90AuF 20251113 201239](assets/SvyzYc4SMYffxKat90AuF-20251113-201239.png)
+![SvyzYc4SMYffxKat90AuF 20251113 201239](assets/post-purchase-excitement-1.png)
 
 >[!CAUTION]
 >
@@ -60,7 +60,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 1. Under **Results **-> Click **Show Log **on left side
 
-![T83sahcgABemDM7PnACDD 20251113 201517](assets/T83sahcgABemDM7PnACDD-20251113-201517.png)
+![T83sahcgABemDM7PnACDD 20251113 201517](assets/post-purchase-excitement-2.png)
 
 >[!WARNING]
 >
@@ -102,15 +102,15 @@ You should see something like this in the log:
 1. **Close **the Browser **tab**
 1. **Close Test Mode** in the top right
 
-![NiqxGZjRWMi7MDiQul5hw 20251117 235338](assets/niqxGZjRWMi7MDiQul5hw-20251117-235338.png)
+![NiqxGZjRWMi7MDiQul5hw 20251117 235338](assets/post-purchase-excitement-4.png)
 
 1. Click on **Publish **the Journey in the top right
 
-![RqfeWFQA4yR0J8CvPxu5o 20251118 001155](assets/rqfeWFQA4yR0J8CvPxu5o-20251118-001155.png)
+![RqfeWFQA4yR0J8CvPxu5o 20251118 001155](assets/post-purchase-excitement-5.png)
 
 1. **Close **the **Journey **by clicking \<- arrow in the top left
 
-![ZxaTyocb4irBpx9COCJRk 20251117 235355](assets/zxaTyocb4irBpx9COCJRk-20251117-235355.png)
+![ZxaTyocb4irBpx9COCJRk 20251117 235355](assets/post-purchase-excitement-7.png)
 
 Next we will send a real Order Shipped Event into AEP
 

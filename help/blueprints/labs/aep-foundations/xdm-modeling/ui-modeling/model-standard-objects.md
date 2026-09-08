@@ -74,7 +74,7 @@ There are many field groups that exist as standard XDM in Adobe Experience Platf
 
 ![Click the magnify glass to preview the field group s structure.png "Click the magnify glass to preview the Field Group's structure"](assets/KJQ055zCSdfqVr7v6Ukrw_click-the-magnify-glass-to-preview-the-field-group-s-structure.png "Click the magnify glass to preview the Field Group's structure")
 
-![H7CY02IqWCtDJ2cAp image](assets/tpJ_h7CY02IqWCtDJ2cAp_image.png)
+![H7CY02IqWCtDJ2cAp image](assets/model-standard-objects-2.png)
 
 
 
@@ -158,7 +158,7 @@ Let's perform the same set of steps as you did previously but this time for the 
 >
 >Ensure that you have the toggle turned off for **Show display names for fields** in the upper right corner of the schema workspace
 >
->![Image](assets/dxuGtTw6qwId2uzsBZwn4_image.png)
+>![Image](assets/model-standard-objects-1.png)
 
 
 

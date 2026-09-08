@@ -15,13 +15,13 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 1. Create a new Audience
 1. Search for "usage" in Attributes. Click on the "i" to review the description (there is none).
 
-![Search f](assets/fND4nWcc1E-DR5SrhiMrZ_search-f.png)
+![Search f](assets/search-f-2.png)
 
 
 
 3\. Search for "usage" in Events.  Click on the "i" to review the description (there is none).
 
-![1QQxVVAazOVE search f](assets/Z87gAWit_1QQxVVAazOVE_search-f.png)
+![1QQxVVAazOVE search f](assets/search-f.png)
 
 >[!CAUTION]
 >
@@ -47,10 +47,10 @@ Search for "Plan" in Attributes.  Notice we have a number of things to choose fr
 
 
 
-![XG9n plan 1](assets/mMLpGE6PWl3CTOGU_XG9n_plan-1.png)
+![XG9n plan 1](assets/plan-1.png)
 
 
 
-![N A0xpVK3T8Lww plan 2](assets/VwAFtM_N-A0xpVK3T8Lww_plan-2.png)
+![N A0xpVK3T8Lww plan 2](assets/plan-2.png)
 
 The Plan Name (Plan Name) seems to be the one we need based on the description and the other one is missing a description.

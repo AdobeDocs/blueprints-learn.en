@@ -24,11 +24,11 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 >- Any Event filtered by Event Type=order.placed
 >- Any Event filtered by Event Type=order.cancelled
 
-![Change the time to within a week 1](assets/c2s4yc55UjoZ5n3qkMV0L_change-the-time-to-within-a-week-1.png)
+![Change the time to within a week 1](assets/change-the-time-to-within-a-week-1.png)
 
 
 
-![Change the time to within a week 2](assets/t738l76KwYELt5xzjIhNB_change-the-time-to-within-a-week-2.png)
+![Change the time to within a week 2](assets/change-the-time-to-within-a-week-2.png)
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 
 Search for Order ID and drag the field onto the Order Cancelled Event.
 
-![Search for order id and drag the field onto the order cancelled event](assets/GHYhMx0zuCv0KPrWaJ7Hg_search-for-order-id-and-drag-the-field-onto-the-order-cancelled-event.png)
+![Search for order id and drag the field onto the order cancelled event](assets/search-for-order-id-and-drag-the-field-onto-the-order-cancelled-event.png)
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Search for Order ID and drag the field onto the Order Cancelled Event.
 
 Clear any search and click into **Placed **under the **Browse Variables**
 
-![Click into placed under the browse variables](assets/pgXRCqx3XmzJ3ZDJLGYxx_click-into-placed-under-the-browse-variables.png)
+![Click into placed under the browse variables](assets/click-into-placed-under-the-browse-variables.png)
 
 
 
 Drill down to Order ID, then drag over to add a compare operand 
 
-![Yw09Sx drill down to order id then drag over to add a compare operand](assets/xyeDtXytX9wcGG_yw09Sx_drill-down-to-order-id-then-drag-over-to-add-a-compare-operand.png)
+![Yw09Sx drill down to order id then drag over to add a compare operand](assets/drill-down-to-order-id-then-drag-over-to-add-a-compare-operand.png)
 
 >[!WARNING]
 >
@@ -70,7 +70,7 @@ Drill down to Order ID, then drag over to add a compare operand
 
 Your final result should be as you've seen below
 
-![You should have this](assets/CRs8J90Fpfnrl5deR1EEF_you-should-have-this.png)
+![You should have this](assets/you-should-have-this.png)
 
 >[!NOTE]
 >

@@ -16,7 +16,7 @@ Create a custom action that defines how the journey will communicate with an ext
 
 In the left rail under the  Adminstration menu click to **Configurations **and then on the Actions tile click the **Manage** button
 
-![LmhfabYwizD64PUMaDDRX 20251117 221425](assets/lmhfabYwizD64PUMaDDRX-20251117-221425.png)
+![LmhfabYwizD64PUMaDDRX 20251117 221425](assets/configure-custom-action-8.png)
 
 
 
@@ -26,7 +26,7 @@ In the left rail under the  Adminstration menu click to **Configurations **and t
 
 1. In the upper right click on the **Create Action** button
 
-![Create a new action](assets/6otxYUmzh3dfn_-fzrnXK-20260121-221844.png)
+![Create a new action](assets/configure-custom-action-3.png)
 
 1. In the configuration panel that appears update the following basic values as shown below:
    - **Name**: `GetShippingDetails`
@@ -35,7 +35,7 @@ In the left rail under the  Adminstration menu click to **Configurations **and t
    - **Channel**: `Email`
    - **Required marketing Action**: `Email Targeting`
 
-![Ad8 20260121 222336](assets/pNg4fVpgcT3wDL-dl_Ad8-20260121-222336.png)
+![Ad8 20260121 222336](assets/configure-custom-action-10.png)
 
 
 ## Endpoint Details
@@ -55,9 +55,9 @@ In the Endpoint configuration area provide the following details:
 
 - **Authentication Type**: `No Authentication`
 
-![RZ MD9gDP54DaU3wV2Ffv 20260121 224857](assets/rZ-MD9gDP54DaU3wV2Ffv-20260121-224857.png)
+![RZ MD9gDP54DaU3wV2Ffv 20260121 224857](assets/configure-custom-action-11.png)
 
-![X7b2R7jGuU2KoXlb84DVY 20260121 224916](assets/X7b2R7jGuU2KoXlb84DVY-20260121-224916.png)
+![X7b2R7jGuU2KoXlb84DVY 20260121 224916](assets/configure-custom-action-7.png)
 
 
 
@@ -67,9 +67,9 @@ Now you need to provide a sample payload so the action knows what the response p
 
 1. In the Payloads area click on the **Pencil icon** to open the Field configuration screen
 
-![JNPWtISmH68 rVbooJAGN 20251112 191547](assets/JNPWtISmH68-rVbooJAGN-20251112-191547.png)
+![JNPWtISmH68 rVbooJAGN 20251112 191547](assets/configure-custom-action-5.png)
 
-![P9syM UXJbkAx4aRXPgj  20251112 191647](assets/p9syM-UXJbkAx4aRXPgj--20251112-191647.png)
+![P9syM UXJbkAx4aRXPgj  20251112 191647](assets/configure-custom-action-9.png)
 
 
 
@@ -91,7 +91,7 @@ JSON
 
 1. The response payload will display. Click the **Save **button.
 
-![FSWM 20251112 191815](assets/0HpkTvMe4iv8nqwB_FSWM-20251112-191815.png)
+![FSWM 20251112 191815](assets/configure-custom-action-1.png)
 
 >[!NOTE]
 >
@@ -103,19 +103,19 @@ JSON
 
 1. Click the **Send test request **button in the bottom right rail to validate you didn't mess anything up 😀
 
-![Z3Zn defewlUqo O 20251112 192923](assets/1Ofj_z3Zn_defewlUqo_O-20251112-192923.png)
+![Z3Zn defewlUqo O 20251112 192923](assets/configure-custom-action-2.png)
 
 
 
 1. Click on the **Query parameters** tab and update the value for `orderId`to **123**
 
-![9HtNxkbpHpG2CVRs6H7xu 20251112 193020](assets/9HtNxkbpHpG2CVRs6H7xu-20251112-193020.png)
+![9HtNxkbpHpG2CVRs6H7xu 20251112 193020](assets/configure-custom-action-4.png)
 
 
 
 1. Click the **Send button **and if all works out well you should see a response code of 200 and a Preview of the payload as shown below\...
 
-![WYsxnbwpkIVug1YHoEWBP 20260121 230625](assets/WYsxnbwpkIVug1YHoEWBP-20260121-230625.png)
+![WYsxnbwpkIVug1YHoEWBP 20260121 230625](assets/configure-custom-action-6.png)
 
 Preview
 

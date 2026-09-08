@@ -26,13 +26,13 @@ Let's create an audience of all the profiles whose billing data usage is high bu
 1. Create a new Audience
 1. Search for “Agg” on the Attributes not Event tab and drag the two Aggregates onto the canvas. Set the appropriate operators and values for each.
 
-![FTK9UlYHTuo set the appropriate operators and values for each](assets/F8-9IT5z0_fTK9UlYHTuo_set-the-appropriate-operators-and-values-for-each.png)
+![FTK9UlYHTuo set the appropriate operators and values for each](assets/set-the-appropriate-operators-and-values-for-each.png)
 
 
 
 3\. Search for the Plan Name on the Profile and add it (XDM Individual Profile > Devbc > Plan Details > Plan Name.  Select Does not Equal “Ultimate”
 
-![DPgZ3P0VztyTF A select does not equal ultimate](assets/xVOr0_DPgZ3P0VztyTF_A_select-does-not-equal-ultimate.png)
+![DPgZ3P0VztyTF A select does not equal ultimate](assets/select-does-not-equal-ultimate.png)
 
 
 

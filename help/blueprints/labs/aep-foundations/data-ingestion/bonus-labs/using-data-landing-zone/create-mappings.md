@@ -2,12 +2,13 @@
 hold: true
 title: Create Mappings
 description: Create Mappings
-doc-type: article
+doc-type: article
+
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
 ---
 
 See if you can figure out how to successfully map the file using what you've done in previous labs.
 
-![TaL1HzNgcJIdDBva948 ai ml based contextual recommendations](assets/G_taL1HzNgcJIdDBva948_ai-ml-based-contextual-recommendations.png)
+![TaL1HzNgcJIdDBva948 ai ml based contextual recommendations](assets/ai-ml-based-contextual-recommendations.png)
 

@@ -18,7 +18,7 @@ The Connection 5G relational data model has already been built for you. You can 
 
 In the search box enter `dep-rel` to see all the schemas.
 
-![Relational Schemas](assets/t7Y9EJhcDk1omb9tZQcjr-20251202-174103.png)
+![Relational Schemas](assets/browse-schemas-5.png)
 
 >[!NOTE]
 >
@@ -34,26 +34,26 @@ Do the following:
 
 1. Click on the **Relationships **tab and then click on the **View relationship diagram** button
 
-![View relationships diagram](assets/QCx2MiohMRPHe5F4RdDpv_image.png)
+![View relationships diagram](assets/browse-schemas-3.png)
 
 
 
 1. Click **Select Schemas**
 1. From the pop-up, select `dep-rel: Customer Account` and then click **Confirm**
 
-![Select dep-rel: Customer Account schema](assets/7mQ0eaGAOCn2lPAvj4h8e_image.png)
+![Select dep-rel: Customer Account schema](assets/browse-schemas-1.png)
 
 
 
 1. On the ERD click the **3 dots** and select **Show related entities**
 
-![Show related entities](assets/OQv5Eu-cNTKWKeTmCF1Gm_image.png)
+![Show related entities](assets/browse-schemas-2.png)
 
 
 
 1. View the ERD with all tables directly related to dep-rel: Customer Account. Optionally you can download the ERD as a PNG file.
 
-![View ERD diagram](assets/VX8LhOhRDltMSCxRkXJY9_image.png)
+![View ERD diagram](assets/browse-schemas-4.png)
 
 >[!TIP]
 >

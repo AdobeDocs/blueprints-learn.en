@@ -35,7 +35,7 @@ Every schema requires a primary identity field if its to be used with the Real-T
 >
 >Validate that a thumbprint shows on your field after you click apply like below
 >
->![Image](assets/sJ6gPo5n36547ocaisa6__image.png)
+>![Image](assets/configure-for-profile-1.png)
 >
 >
 
@@ -45,7 +45,7 @@ Every schema requires a primary identity field if its to be used with the Real-T
 >
 >
 >
->![KjvnqQIyGi screenshot 2024 10 23 at 124642 pm](assets/w5xYI205rr_KjvnqQIyGi_screenshot-2024-10-23-at-124642-pm.png)
+>![KjvnqQIyGi screenshot 2024 10 23 at 124642 pm](assets/screenshot-2024-10-23-at-124642-pm.png)
 
 
 
@@ -85,7 +85,7 @@ In order to relate the Plan schema to the Customer Account schema as outlined in
 1. In the Reference schema select box choose the schema named **dep: Plan \[Lookup]** (this was pre-created for you)
 1. Click **Apply** and** Save**
 
-![7UO1 screenshot 2024 10 23 at 125624 pm.png dep Plan Lookup relationship](assets/wTFqbiCm94ZgrRyA_7UO1_screenshot-2024-10-23-at-125624-pm.png)
+![7UO1 screenshot 2024 10 23 at 125624 pm.png dep Plan Lookup relationship](assets/screenshot-2024-10-23-at-125624-pm.png)
 
 
 
@@ -111,7 +111,7 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 ![LxxLyKc0x1oi jmqtGYpp2mn80cVYsf7Nq 20241023 200555.png "Schema Profile Toggle"](assets/n-ADAXZy_lxxLyKc0x1oi-jmqtGYpp2mn80cVYsf7Nq-20241023-200555.png "Schema Profile Toggle")
 
-![P screenshot 2024 10 23 at 10714 pm](assets/k8kX8aT1UxAUEGBjgus_p_screenshot-2024-10-23-at-10714-pm.png)
+![P screenshot 2024 10 23 at 10714 pm](assets/screenshot-2024-10-23-at-10714-pm.png)
 
 >[!TIP]
 >

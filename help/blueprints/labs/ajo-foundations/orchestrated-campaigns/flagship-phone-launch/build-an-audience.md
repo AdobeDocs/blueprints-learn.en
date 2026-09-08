@@ -18,13 +18,13 @@ In next few steps you will be creating the audience you want to target for the c
 
 1. On the canvas click the **+ symbol** and then select the** Build audience** activity to add it to the workflow
 
-![Add build audience activity](assets/9w0AsT88cHCLbE9gsmSjb-20260609-201454.png)
+![Add build audience activity](assets/build-an-audience-3.png)
 
 
 
 1. In the right rail you see the Build audience properties. Update the Label to state the following: `Active Lines with Apple`
 
-![Build audience label](assets/uPmIVgxKHnEhIpAIOaAAr-20260115-222148.png)
+![Build audience label](assets/build-an-audience-13.png)
 
 
 ## Select Targeting Dimension
@@ -33,11 +33,11 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 1. Click on the **search icon** in the Targeting dimension box
 
-![Select targeting dimension](assets/9barIRCinBAiEo0jGU4f9-20260115-222417.png)
+![Select targeting dimension](assets/build-an-audience-2.png)
 
 1. On the popup, search for and select the table named **dep-rel: Customer Line **and then click the **Confirm **button.
 
-![Select dep-rel: Customer Line](assets/r77jI9mzIwFXFMZOEoLJz-20260115-222755.png)
+![Select dep-rel: Customer Line](assets/build-an-audience-11.png)
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ Now that you have selected your targeting dimension (what relational schema you 
 
 1. In the right rail click on the **Create Audience **button
 
-![Create audience](assets/bLupo5hg7TSaoHMimnFDF-20260115-223022.png)
+![Create audience](assets/build-an-audience-7.png)
 
 1. Next click on the **Add condition** button
 
-![Add condition](assets/AHUHJPoWh_MPxn64tk7Fm_image.png)
+![Add condition](assets/build-an-audience-4.png)
 
 
 
@@ -73,11 +73,11 @@ Now its time to write the logic of the audience using the attributes found in th
    - **Attribute**:  `Active Line`
    - **Value**:  `true`
 
-![ATKkrA 20260115 223752](assets/vzDRVNlunI4wD5_ATKkrA-20260115-223752.png)
+![ATKkrA 20260115 223752](assets/build-an-audience-14.png)
 
 1. Click **Refresh **icon to view the qualifying counts on the condition. 
 
-![R2Dclw4l I2sB2VHLJEhQ 20260115 224023](assets/r2Dclw4l-I2sB2VHLJEhQ-20260115-224023.png)
+![R2Dclw4l I2sB2VHLJEhQ 20260115 224023](assets/build-an-audience-10.png)
 
 >[!TIP]
 >
@@ -94,13 +94,13 @@ Now its time to write the logic of the audience using the attributes found in th
 
 1. Look for the field named **Make** and click on the three dots and select **Distribution of values**
 
-![A4mBwu1QS6emUQIRLGJ 20260609 202430](assets/r_a4mBwu1QS6emUQIRLGJ-20260609-202430.png)
+![A4mBwu1QS6emUQIRLGJ 20260609 202430](assets/build-an-audience-12.png)
 
 
 
 1. Note the various values. You only want `Apple` and thankfully it doesn't have a 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
 
-![XiRNtvbQF4NOMEEO RZCe 20260609 202625](assets/XiRNtvbQF4NOMEEO-RZCe-20260609-202625.png)
+![XiRNtvbQF4NOMEEO RZCe 20260609 202625](assets/build-an-audience-6.png)
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Now its time to write the logic of the audience using the attributes found in th
 
 Click on the **calculate icon** and you should see 85 as the result.
 
-![Condition #2 Final Count](assets/BAxO-ciBkkvuzoNkWA8OF-20260416-145252.png)
+![Condition #2 Final Count](assets/build-an-audience-5.png)
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Click on the **calculate icon** and you should see 85 as the result.
 
 1. Click on the **Calculate icon** found in the right rail under the heading Profiles targeted to get an exact estimate of the audience size. You should see **65 **as the **final count**.
 
-![Calculate exact audience size](assets/lXQjrqHVKW3ugmX0kmd3s-20251205-205024.png)
+![Calculate exact audience size](assets/build-an-audience-8.png)
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Assume for a moment you had typed in the last condition such that `Make` was equ
 
 Its zero :) Do you know why?
 
-![JX6 20260115 225933](assets/m-RrCYFw1b2BL7nkG_JX6-20260115-225933.png)
+![JX6 20260115 225933](assets/build-an-audience-9.png)
 
 
 
@@ -161,5 +161,5 @@ Its zero :) Do you know why?
 
 You have successfully created your first audience and should now see how easy it is to develop and validate your counts within the Build Audience activity.
 
-![Image](assets/1CPZf1cg-luK3rN4rY6XV_image.png)
+![Image](assets/build-an-audience-1.png)
 

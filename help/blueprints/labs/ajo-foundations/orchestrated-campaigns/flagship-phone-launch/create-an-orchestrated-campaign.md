@@ -18,20 +18,20 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
 
 1. First make sure you are in the Adobe Journey Optimizer application by selecting the app from the apps drawer in the upper right of your browser
 
-![BORA8SSNEuzdu1Q3KYXZC 20251202 180155](assets/BORA8SSNEuzdu1Q3KYXZC-20251202-180155.png)
+![BORA8SSNEuzdu1Q3KYXZC 20251202 180155](assets/create-an-orchestrated-campaign-2.png)
 
 
 
 1. In the left navigation rail, select **Campaigns**
 1. Then click the button **Create campaign** in the upper right
 
-![Create camaign](assets/6t7YB3bmp4dlxUUgzXmi1-20251202-180626.png)
+![Create camaign](assets/create-an-orchestrated-campaign-1.png)
 
 
 
 1. In the modal that displays select **Orchestration - Marketing** and the click **Confirm**
 
-![Create orchestrated campaign](assets/yk87cTiXS-XpEj5Dsce0C-20251202-180844.png)
+![Create orchestrated campaign](assets/create-an-orchestrated-campaign-4.png)
 
 ## **Campaign Settings**
 
@@ -43,7 +43,7 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
 
 When done your screen should look like below. 
 
-![Campaign settings](assets/NeOYrVdx0jLAKfNNPo0-f-20251202-181347.png)
+![Campaign settings](assets/create-an-orchestrated-campaign-3.png)
 
 1. Click the **Save **button to continue.
 

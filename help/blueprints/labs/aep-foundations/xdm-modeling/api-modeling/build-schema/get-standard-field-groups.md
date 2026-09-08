@@ -57,7 +57,7 @@ A schema is always composed of one or more field groups and a class.  For the Co
 1. Copy the `$id` of the field group and save it somewhere for future reference
 1. Repeat steps 1 & 2 for the other two field groups listed above
 
-![Demographic details field group](assets/dcBLA74oI8r4FxKyeTQ5m_demographic-details-field-group.png)
+![Demographic details field group](assets/demographic-details-field-group.png)
 
 >[!NOTE]
 >

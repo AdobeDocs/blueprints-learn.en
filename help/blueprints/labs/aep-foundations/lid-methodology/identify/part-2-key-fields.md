@@ -44,7 +44,7 @@ For each table from the Connection 5G Warehouse ERD and streaming ERD that you h
 >
 >Refer to the diagram below during the labs as you label identities on schemas
 >
->![Image](assets/xuugRlx0ZrPbHIqjSrPeF_image.png)
+>![Image](assets/part-2-key-fields-1.png)
 
 
 

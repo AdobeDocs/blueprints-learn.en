@@ -41,7 +41,7 @@ Now that everything is configured, we can send in an event to the Edge to see it
 1. **Folder **-> Profile Lab
 1. **API Request** -> Create Web Event Edge (No Auth)
 
-![Navigate to the postman call](assets/1esMncFldqRWuz9NfBnI1_navigate-to-the-postman-call.png)
+![Navigate to the postman call](assets/navigate-to-the-postman-call.png)
 
 ## Modify API Request
 
@@ -54,7 +54,7 @@ Before you can execute the API request you need to add some additional pieces of
 1. In the left rail click on **Datastreams **(under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value
 
-![Gather datastream id](assets/f5Z-dfdVEdE3sM53e1ra3_gather-datastream-id.png)
+![Gather datastream id](assets/gather-datastream-id.png)
 
 ## Update Postman Query Param
 
@@ -62,19 +62,19 @@ Before you can execute the API request you need to add some additional pieces of
 1. Update the **Value **with the datastream ID from the previous step
 1. Click the **Save **button to save your update
 
-![Update datastreamid](assets/YJd0-YD5IvRNB4AsA579S_update-datastreamid.png)
+![Update datastreamid](assets/update-datastreamid.png)
 
 
 
 Change email to your email
 
-![O5DCKlW6oIADaE change email to your email](assets/oTjCMP_O5DCKlW6oIADaE_change-email-to-your-email.png)
+![O5DCKlW6oIADaE change email to your email](assets/change-email-to-your-email.png)
 
 ## Execute the API
 
 Execute your request by clicking the **Send **button. 
 
-![Successful response from edge](assets/zAwKgp12Y-ZoAN48g8S5M_successful-response-from-edge.png)
+![Successful response from edge](assets/successful-response-from-edge.png)
 
 
 
@@ -118,7 +118,7 @@ Below is an example of an error you may encounter. This means the edge segmentat
 
 On webhook.site you should immediately see the same payload body you sent via your Postman request appear. 
 
-![On webho](assets/XeVfrkKCVSkYd7SuDPAP5_on-webho.png)
+![On webho](assets/on-webho.png)
 
 >[!NOTE]
 >
@@ -137,13 +137,13 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 1. Click **View **to lookup up the profile
 1. Click on the **Profile ID** to open the profile
 
-![Lookup profile](assets/ye3IExL2koba7kaJvEy3C_lookup-profile.png)
+![Lookup profile](assets/lookup-profile.png)
 
 
 
 3\. Click on **Events **in the top nav and you can see the event you just sent in
 
-![View the profile event](assets/4UuGvGhIEPU59BdQ-4ctN_view-the-profile-event.png)
+![View the profile event](assets/view-the-profile-event.png)
 
 
 
@@ -155,13 +155,13 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
   - Visited iPhone 14 Page but Not Owns/Ordered it
   - Visited iPhone 14 Page
 
-![Visited iphone 14 page](assets/QguGX11JghYSR7zABfdH9_visited-iphone-14-page.png)
+![Visited iphone 14 page](assets/visited-iphone-14-page.png)
 
 ## **Validate Streaming Destination Activation**
 
 Check your webhook to see if the streaming destination you configured has activated any segments.  They should appear in \~5 minutes.
 
-![Validate streaming destination activation](assets/sdtfjT1immy5r5STukOcV_validate-streaming-destination-activation.png)
+![Validate streaming destination activation](assets/validate-streaming-destination-activation.png)
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ If ECID and email have not yet linked, a few minutes after that, another payload
 
 Over time you should begin to receive more payloads out to the webhook for "exited" status.
 
-![Webhook streaming destination 22exited 22](assets/X0Zr-E9Ek11x2U6vCXzHf_webhook-streaming-destination-22exited-22.png)
+![Webhook streaming destination 22exited 22](assets/webhook-streaming-destination-22exited-22.png)
 
 ## How to Interpret all the Checks
 

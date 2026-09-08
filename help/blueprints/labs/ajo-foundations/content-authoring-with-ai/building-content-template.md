@@ -46,25 +46,25 @@ This functionality allows content-oriented users to work on templates outside ca
 
 1. Go to **Content Management → Content Templates**.
 
-![8GT AZjDP0Ab4bIU image](assets/atNZ_8GT_AZjDP0Ab4bIU_image.png)
+![8GT AZjDP0Ab4bIU image](assets/building-content-template-9.png)
 
 1. Click **Create Template **and then fill in the following:
    - **Name:** `Promotional Template`
    - **Description:** `Promotional Template for phone products`
    - **Channel:** `Email`
 
-![Image](assets/v-iJh6PTBmOZRPeNyA8wz_image.png)
+![Image](assets/building-content-template-13.png)
 
 1. Click **Create**.
 
-![Gwy image](assets/HLnaL6U1vD8YC79dC_Gwy_image.png)
+![Gwy image](assets/building-content-template-5.png)
 
 
 ## Add Subject Line & Open Email Designer
 
 1. Add subject line: `Promotional Template` and click **on the email body **to open it to edit
 
-![Image](assets/LURFvHgaheokhQz-AMiEO_image.png)
+![Image](assets/building-content-template-6.png)
 
 1. You will see three options: 
    1. Desing from scratch
@@ -75,7 +75,7 @@ We will select third option. Click **Import HTML**
 
 
 
-![Image](assets/mTFvCmtsQNxQc3ggKjPQi_image.png)
+![Image](assets/building-content-template-10.png)
 
 ## Import Provided HTML Template
 
@@ -83,15 +83,15 @@ We will select third option. Click **Import HTML**
 
 1. Upload the template html file from the toolkit folder `promotional-template-final.html`
 
-![CVvhKbyJUh41nbw image](assets/AZoo-_cVvhKbyJUh41nbw_image.png)
+![CVvhKbyJUh41nbw image](assets/building-content-template-4.png)
 
 1. Click on Import button to **import** the template. 
 
-![Image](assets/OkPv3NEY69JNRND8Z7naG_image.png)
+![Image](assets/building-content-template-7.png)
 
 1. Wait for the layout to render. You will notice issues like broken image links and missing branding. (This is expected behavour as we have placeholder assets)
 
-![Image](assets/7dk1wjfsvm0YwSgJxVVHR_image.png)
+![Image](assets/building-content-template-2.png)
 
 
 ## Explore Template Structure
@@ -106,7 +106,7 @@ The body section in Adobe Journey Optimizer is the main container for your email
 
 The "**Settings**" and "**Style**" options under the body section in Adobe Journey Optimizer allow you to define the foundational look and layout of your email or page. These controls affect the entire design since the body is the parent of all components.
 
-![Image](assets/zNpHmfgdwjdWrp3WjKqBJ_image.png)
+![Image](assets/building-content-template-16.png)
 
 
 On your left hand rail bar you will find sections for: 
@@ -118,7 +118,7 @@ On your left hand rail bar you will find sections for:
 
 You should be able to see the header fragement that we created in previous execrise should appear here as shown below. Make sure your header fragment should show they are live with blue dot and not in a draft mode. Spend time checking rest of the sections. 
 
-![Image](assets/9kueBJier0TTuJua-RRZD_image.png)
+![Image](assets/building-content-template-3.png)
 
 >[!WARNING]
 >
@@ -132,27 +132,27 @@ Let us now improve the template. We have already created header and footer.
 
 1. Drag a **1:1 Column** above the existing content.
 
-![DBVTti7na JBDJxdD image](assets/Xg1_DBVTti7na-JBDJxdD_image.png)
+![DBVTti7na JBDJxdD image](assets/building-content-template-8.png)
 
 You should see something like this. 
 
-![Image](assets/xjoYMqCikDiEVclNMqonz_image.png)
+![Image](assets/building-content-template-15.png)
 
 1. Your background will use template background color which is black currently. Set its **background colour to white. Click **in the Style tab on the right rail and use white colour from the colour picker. 
 
-![Image](assets/v2ki1nxHt4wXaD3g8LIu9_image.png)
+![Image](assets/building-content-template-14.png)
 
 1. Open **Fragments** and drag in your **Header** fragment.
 
-![V8tK image](assets/s5T7FMOun7Fts5lv_V8tK_image.png)
+![V8tK image](assets/building-content-template-12.png)
 
 1. Notice that the header fragment is neatly alligned to your template as shown below.
 
-![Image](assets/5xKXFQNZbeBrCba4bQdQL_image.png)
+![Image](assets/building-content-template-1.png)
 
 1. Click the **Save **button to save your template and then click **Back**.
 
-![Image](assets/qqpj1nXStCHYmMrBfMav8_image.png)
+![Image](assets/building-content-template-11.png)
 
 >[!NOTE]
 >

@@ -42,29 +42,29 @@ Add a text "Hi," above the main title and lick on personalisation icon.
 1. Add a text block above the hero title with the content: **Hi,**
 1. Click the **Personalisation** icon.
 
-![Image](assets/taW-TsIrnX7q9KDoEOHUR_image.png)
+![Image](assets/personalization-and-content-experimentation-19.png)
 
 1. Search for **F****irst Name**.
 
-![Image](assets/BhykXA3-H1P7X3g5kbXtr_image.png)
+![Image](assets/personalization-and-content-experimentation-1.png)
 
 1. Click **+** to add it to the expression area. 
 1. Add a **space** after the **First name **field.
 
-![NARHYKYxOban1e image](assets/wdFeam_nARHYKYxOban1e_image.png)
+![NARHYKYxOban1e image](assets/personalization-and-content-experimentation-21.png)
 
 1. Repeat the process above but this time search and add **Last Name**.
 
 Your final syntax should show first and last name variables clearly separated.
 
-![Image](assets/Uh0xIXN1E-QFTvz8KBYDy_image.png)
+![Image](assets/personalization-and-content-experimentation-8.png)
 
 1. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
 1. Click **Save** 
 
 Your view should be like this. Curly brackets consists of variables and each individual will receive email with their names. 
 
-![DRt9rIwNm qzi8 image](assets/eQgN7B_dRt9rIwNm-qzi8_image.png)
+![DRt9rIwNm qzi8 image](assets/personalization-and-content-experimentation-14.png)
 
 At this point, you know how you can add personalisation for individual profles. 
 
@@ -93,31 +93,31 @@ You will use the profile attribute `person.birthYear`.
 
 Remember this block we created in our previous module? Your image will be different from mine. 
 
-![LxWuGBQOwBSkOPtt image](assets/ZT01_lxWuGBQOwBSkOPtt_image.png)
+![LxWuGBQOwBSkOPtt image](assets/personalization-and-content-experimentation-11.png)
 
 We will create another image for those aged below 40 (Remember we created Firefly image of person mid-40s) and use that for our exercise.
 
 1. Select the existing image block. (Click on the image) and click **Conditional Block**.
 1. Click **Add Variant**.
 
-![Image](assets/NDn50elAd4RtE5t4cJOBr_image.png)
+![Image](assets/personalization-and-content-experimentation-5.png)
 
 1. Rename the first variant to **Age above 40**.
 
-![Image](assets/dCEbnoO0Vj4I29WxjSyHE_image.png)
+![Image](assets/personalization-and-content-experimentation-13.png)
 
 1. Create a new Variant by clicking on **"Add variant"** button and Rename it to **Age below 40. **
 
-![QCzqNiThzrg image](assets/GZ-nxQ2kP_QCzqNiThzrg_image.png)
+![QCzqNiThzrg image](assets/personalization-and-content-experimentation-3.png)
 
 1. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
 1. Click on the image and Import Media.
 
-![Image](assets/XLs2GkUAAlTZ4UlxraO58_image.png)
+![Image](assets/personalization-and-content-experimentation-9.png)
 
 1. Select **variant-age-below-40.jpg** image. Import it by clicking on Next and finally press import in your folder (you should be default within your folder)
 
-![NQED515CO1 image](assets/oYftZip-NF_nQED515CO1_image.png)
+![NQED515CO1 image](assets/personalization-and-content-experimentation-17.png)
 
 1. Try to toggle between variants and you will see different image is applied. 
 
@@ -128,31 +128,31 @@ So far we have built the design but have not applied the logic. We will do this 
 
 Both of the variants are ready but we have not applied conditional logic. 
 
-![Image](assets/mTuxNzRKTGzT6LSs8tT3Y_image.png)
+![Image](assets/personalization-and-content-experimentation-16.png)
 
 ## Logic for “Age above 40”
 
 1. Select and hover the **Age above 40** variant.
 1. Click the **Conditional Logic** icon.
 
-![Image](assets/S1QZTqWqQ63IgU4IpkxTY_image.png)
+![Image](assets/personalization-and-content-experimentation-7.png)
 
 1. Create a new condition.
 
-![Image](assets/eTgAVbizCaa61cgxgFTgY_image.png)
+![Image](assets/personalization-and-content-experimentation-15.png)
 
 1. Search for **year** in the attribute list.
 1. Drag **Birth Year** into the canvas.
 1. Set condition to:
    - **birthYear \< 1986**
 
-![Image](assets/vLn2htVcIaLb8qoSmEAua_image.png)
+![Image](assets/personalization-and-content-experimentation-20.png)
 
 1. Name the condition: **Age Above 40**
 1. Add a description - "**Image Variant for people who are above 40**"
 1. Click **Add → Select**.
 
-![Image](assets/ZUfvipgYJfFSXSGwdnrSu_image.png)
+![Image](assets/personalization-and-content-experimentation-12.png)
 
 
 ## Logic for “Age Below 40”
@@ -161,13 +161,13 @@ Both of the variants are ready but we have not applied conditional logic.
 1. Repeat the steps but change the logic to:
    - **birthYear >= 1986**
 
-![Image](assets/Bx0jjyg8gwY0evjiwEVVt_image.png)
+![Image](assets/personalization-and-content-experimentation-2.png)
 
 1. Name the condition: **Age Below 40**
 1. Add description. "**Image Variant for people who are below 40**"
 1. Click **Add → Select**.
 
-![Image](assets/XgxtoVMvi2QyD43Uz5xu3_image.png)
+![Image](assets/personalization-and-content-experimentation-10.png)
 
 
 ## Validate Variant Switching
@@ -180,17 +180,17 @@ Toggle between both variants to ensure:
 
 Variant: **Age above 40**
 
-![74nLqswAS image](assets/LWgq9HDfCBM_74nLqswAS_image.png)
+![74nLqswAS image](assets/personalization-and-content-experimentation-4.png)
 
 Variant: **Age below 40**
 
-![Image](assets/rh7-hpbdIvxto52IQjCan_image.png)
+![Image](assets/personalization-and-content-experimentation-18.png)
 
 
 
 Click "**Save**" button to save the email. 
 
-![Image](assets/PprZzm3VWtLAn8o0gAW8O_image.png)
+![Image](assets/personalization-and-content-experimentation-6.png)
 
 
 ## Recap

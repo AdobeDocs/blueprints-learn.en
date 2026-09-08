@@ -48,19 +48,19 @@ A new field will be added to the mapping screen but with an unmapped target fiel
 1. In the right pane, you will now see the target schema panel open. Type **sms **into the search box
 1. Select the **val **field
 
-![Map calculated field to target xdm field](assets/Hdg0FHK3INfKr9Kff4on2_map-calculated-field-to-target-xdm-field.png)
+![Map calculated field to target xdm field](assets/map-calculated-field-to-target-xdm-field.png)
 
 
 
 Your final mapping should look like this:
 
-![Image](assets/2QuFeiH3aPE-CeZq6efNh_image.png)
+![Image](assets/calculated-fields-1.png)
 
 
 
 4\. Validate your mapping to ensure it looks good
 
-![Validate mappings](assets/Qhyz6D-9XFzcT3CVsZT7r_validate-mappings.png)
+![Validate mappings](assets/validate-mappings.png)
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ There is a requirement to separate out the birth day, month and year into separa
 
 3\. Click preview and you should see the following result. If everything looks good click **Save**
 
-![A7RpQDntc7VQQ dX click pr](assets/l2-b_a7RpQDntc7VQQ_dX_click-pr.png)
+![A7RpQDntc7VQQ dX click pr](assets/click-pr.png)
 
 
 

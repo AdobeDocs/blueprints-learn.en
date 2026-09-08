@@ -49,7 +49,7 @@ Before you can execute the API request you need to add the datastream ID to the 
 >1. In the left rail click on **Datastreams **(under the Data Collection heading)
 >2. Select your Datastream and copy the **Datastream ID** value
 >
->![4G6rGvHEqMAe6IJyPU gather datastream id](assets/Z9_4G6rGvHEqMAe6IJyPU_gather-datastream-id.png)
+>![4G6rGvHEqMAe6IJyPU gather datastream id](assets/gather-datastream-id.png)
 
 
 
@@ -60,26 +60,26 @@ Before you can execute the API request you need to add the datastream ID to the 
 1. **Folder **-> `Profile & Journey Labs`
 1. **API Request** -> `Create Web Event`
 
-![RrRQ0BaywIDeyyb6nPMSd 20260108 070718](assets/RrRQ0BaywIDeyyb6nPMSd-20260108-070718.png)
+![RrRQ0BaywIDeyyb6nPMSd 20260108 070718](assets/send-an-edge-web-event-2.png)
 
 ## Update DATASTREAM\_CONFIG variable. 
 
 1. Click on **Variables in Request** in the top right
 
-![R  mIJFGTDonPts4qLZwl 20251216 182201](assets/r--mIJFGTDonPts4qLZwl-20251216-182201.png)
+![R  mIJFGTDonPts4qLZwl 20251216 182201](assets/send-an-edge-web-event-5.png)
 
 1. Update the **DATASTREAM \_CONFIG ****Value **with the **datastream ID **from the first step on the page.
 
-![QMJeuG rjBzd0dNPql 20260108 065751](assets/cA_qMJeuG-rjBzd0dNPql-20260108-065751.png)
+![QMJeuG rjBzd0dNPql 20260108 065751](assets/send-an-edge-web-event-4.png)
 
 1. **Save **your update (ctrl+s or command+s)
 1. Click the '**X**' in the upper right corner of the environment sidebar to close the sidebar
 
-![Wuin7IF swFawTfHrnlYi 20260108 070102](assets/wuin7IF-swFawTfHrnlYi-20260108-070102.png)
+![Wuin7IF swFawTfHrnlYi 20260108 070102](assets/send-an-edge-web-event-6.png)
 
 1. The **Create Web Event** request should now be ready to send since all of the variables are now blue and have a value in the environment.
 
-![C7ZuN0vvpqlYwTRnk3We0 20260108 070358](assets/C7ZuN0vvpqlYwTRnk3We0-20260108-070358.png)
+![C7ZuN0vvpqlYwTRnk3We0 20260108 070358](assets/send-an-edge-web-event-1.png)
 
 ## Execute the API
 
@@ -87,7 +87,7 @@ Execute your request by clicking the **Send **button.
 
 Response will look something like this: 
 
-![5JHa s xtuwZKH2auy2Z image](assets/_5JHa_s-xtuwZKH2auy2Z_image.png)
+![5JHa s xtuwZKH2auy2Z image](assets/send-an-edge-web-event-3.png)
 
 What you should see coming back in the response are these core things:
 

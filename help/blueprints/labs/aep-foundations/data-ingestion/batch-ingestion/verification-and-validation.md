@@ -25,7 +25,7 @@ exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 
 4\. **Verify** and** validate **the same records that you ingested by clicking on the left pane showing the schema hierarchy.
 
-![Verify and validate the dataset](assets/HoaBW4lMW5bRCQCNVzlqJ_verify-and-validate-the-dataset.png)
+![Verify and validate the dataset](assets/verify-and-validate-the-dataset.png)
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 
 4\. Click on **Create query**
 
-![Access the query editor](assets/B92Vj2-3kGpBP37IoXmE0_access-the-query-editor.png)
+![Access the query editor](assets/access-the-query-editor.png)
 
 
 

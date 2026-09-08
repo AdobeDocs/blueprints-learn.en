@@ -23,7 +23,7 @@ We want to forward an Experience Event out to usually to a third party (but does
 
 4\. Click **Save **when done
 
-![Name your event forwarding property](assets/4J7C0ObhL864VrcW9Y52Y_name-your-event-forwarding-property.png)
+![Name your event forwarding property](assets/name-your-event-forwarding-property.png)
 
 # Install Extension
 
@@ -35,7 +35,7 @@ We want to forward an Experience Event out to usually to a third party (but does
 
 2\. You should see a screen like below.  Click on **Extensions**.
 
-![JqDF19 1UFH4mp you should no see a screen like below click on extensions](assets/Tll5SU_jqDF19-1UFH4mp_you-should-no-see-a-screen-like-below-click-on-extensions.png)
+![JqDF19 1UFH4mp you should no see a screen like below click on extensions](assets/you-should-no-see-a-screen-like-below-click-on-extensions.png)
 
 
 
@@ -45,7 +45,7 @@ We want to forward an Experience Event out to usually to a third party (but does
 1. Click on the **Adobe Cloud Connector** card
 1. In the right rail click on the **Install **button
 
-![Install adobe cloud connector extension](assets/cSDjWqWyT9ss3ctkxGUNv_install-adobe-cloud-connector-extension.png)
+![Install adobe cloud connector extension](assets/install-adobe-cloud-connector-extension.png)
 
 
 
@@ -110,13 +110,13 @@ return xdm;
 
 6\. Click the **Save **button to save your data element.
 
-![Click the save button to save your data elemen](assets/7EyVaXb-1Rh8g5QElpx46_click-the-save-button-to-save-your-data-elemen.png)
+![Click the save button to save your data elemen](assets/click-the-save-button-to-save-your-data-elemen.png)
 
 
 
 When done you should see the following screen confirming your data element has been added:
 
-![Data element saved to property](assets/qmVY2I441cXhBlVl174du_data-element-saved-to-property.png)
+![Data element saved to property](assets/data-element-saved-to-property.png)
 
 
 ## Create Rules
@@ -132,19 +132,19 @@ When done you should see the following screen confirming your data element has b
 
 1. In the left rail click on **Rules**
 
-![Click on rules in the left rail](assets/fu-NB2g0dUtGeLf3MuAag_click-on-rules-in-the-left-rail.png)
+![Click on rules in the left rail](assets/click-on-rules-in-the-left-rail.png)
 
 
 
 2\. Then click on **Create New Rule**
 
-![Create a new rule](assets/mijcmke51JNGaCShplPMv_create-a-new-rule.png)
+![Create a new rule](assets/create-a-new-rule.png)
 
 
 
 3\. Update the rule name using the following formula: `"EF Rule SB" + [your sandbox number]` (i.e. EF Rule SB01. You can find your sandbox number in the top right of your browser window as shown below\...
 
-![9WxgiCpB 3 image](assets/VD2t7zWQoJ_9WxgiCpB_3_image.png)
+![9WxgiCpB 3 image](assets/create-property-1.png)
 
 4\. Click **Save **when done
 
@@ -171,7 +171,7 @@ When done you should see the following screen confirming your data element has b
 1. Open the following link in a new tab in your browser -> [https://webhook.site](https://webhook.site/)
 1. Copy the unique URL you see and save it somewhere safe
 
-![Webhooksite copy your unique url](assets/N2tCOnITCH4RfYeQ8gSdd_webhooksite-copy-your-unique-url.png)
+![Webhooksite copy your unique url](assets/webhooksite-copy-your-unique-url.png)
 
 
 
@@ -237,11 +237,11 @@ When you are done validate your screen looks similar to below and then click on 
 
 When done your screen should look similar to the below screenshot.  If everything looks good click on the **Save & Build to Development **button
 
-![Configure the library and save and build](assets/GGZB5FXdY7XjEDIRNwxAs_configure-the-library-and-save-and-build.png)
+![Configure the library and save and build](assets/configure-the-library-and-save-and-build.png)
 
 
 
 4\. You should then see the development build go green stating its ready to use
 
-![Sp9W2tJwMjepSuOtk you shou](assets/3r5_sp9W2tJwMjepSuOtk_you-shou.png)
+![Sp9W2tJwMjepSuOtk you shou](assets/you-shou.png)
 

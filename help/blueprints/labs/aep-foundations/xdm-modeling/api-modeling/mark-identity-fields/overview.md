@@ -37,5 +37,5 @@ In order to mark a field as an identity you need to create an Identity Descripto
 
 Create both primary and non-primary identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
-![LxxLyKc0x1oi  KIec4DfNpiRj7z0Wyf7M 20241024 001607](assets/n-ADAXZy_lxxLyKc0x1oi-_KIec4DfNpiRj7z0Wyf7M-20241024-001607.png)
+![LxxLyKc0x1oi  KIec4DfNpiRj7z0Wyf7M 20241024 001607](assets/overview-1.png)
 

@@ -188,7 +188,7 @@ With the Entity API there are a number of query parameters that you can utilize 
 1. Check the box next to **Key **named **fields**
 1. Execute the request by clicking the **Send **button
 
-![Profile entity lookup attributes with filter enabled](assets/-K7cofy2u8OoATEVOziBO_profile-entity-lookup-attributes-with-filter-enabled.png)
+![Profile entity lookup attributes with filter enabled](assets/profile-entity-lookup-attributes-with-filter-enabled.png)
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ To lookup the events of a profile you use the same exact Profile Entity API.  Th
 1. Click on the **Entity Lookup (events)** request to open it
 1. Execute the call by clicking the **Send **button
 
-![Profile entity lookup events](assets/owff9D4O4Z3mJMW9Qb9SO_profile-entity-lookup-events.png)
+![Profile entity lookup events](assets/profile-entity-lookup-events.png)
 
 A successful request should respond with a` 200 OK` and you should see a result that contains all the events for the Depeche Mode profile.
 
@@ -262,7 +262,7 @@ A successful response should look like the below screenshot
 
 
 
-![GCE1tBuGkhecfU you ll n](assets/ntTE6k_gCE1tBuGkhecfU_you-ll-n.png)
+![GCE1tBuGkhecfU you ll n](assets/you-ll-n.png)
 
 >[!NOTE]
 >
