@@ -44,7 +44,7 @@ Review the body of the request before executing. Notice that the required fields
 >
 >Notice how in the image on the right above the `allOf` references the path of "/definitions/customFields".  That must match the structure defined in the schema (image on the left) as it tells the XDM system where to locate custom created objects.
 >
->![Notice how in the image](assets/Dd1Qd1xfqGgX3ixQxmzhN_notice-how-in-the-image.png)
+>![Notice how in the image](assets/notice-how-in-the-image.png)
 
 
 

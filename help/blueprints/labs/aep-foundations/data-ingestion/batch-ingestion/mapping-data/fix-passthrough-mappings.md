@@ -40,7 +40,7 @@ In this scenario you will see that the AI/ML recommender mapped two different so
 
 ![JS lxJiI fqVvFexXvh3 personnamelastname is mapped to twice in this mapping.png "person.name.lastName is mapped to twice in this mapping"](assets/_jS-lxJiI_fqVvFexXvh3_personnamelastname-is-mapped-to-twice-in-this-mapping.png "person.name.lastName is mapped to twice in this mapping")
 
-![Plan nam](assets/W2yNSyWFq2Eo3BGOzsfg9_plan-nam.png)
+![Plan nam](assets/plan-nam.png)
 
 
 

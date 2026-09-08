@@ -33,7 +33,7 @@ In the end, this boils down to a business choice on who they want to market to. 
    - XDM Individual Profile --> \<tenant name> --> Active Products --> Product ID properties --> Product Name
 1. Drag Product Name onto the canvas 
 
-![FELpHTm2j1 drag product name onto the canvas](assets/EI8It4GUAx_FELpHTm2j1_drag-product-name-onto-the-canvas.png)
+![FELpHTm2j1 drag product name onto the canvas](assets/drag-product-name-onto-the-canvas.png)
 
 
 
@@ -44,7 +44,7 @@ In the end, this boils down to a business choice on who they want to market to. 
 1. Save Audience as “*Owns iPhone 14*” 
    - Go through the same steps above for the Pixel 7 (if you have time).
 
-![Save aud](assets/2c9LFcu4dLyK-YrZcQCW1_save-aud.png)
+![Save aud](assets/save-aud.png)
 
 >[!TIP]
 >
@@ -69,11 +69,11 @@ In the end, this boils down to a business choice on who they want to market to. 
 >
 >Let's ensure our Merge Policy is configured for Edge Audiences. Go to your Merge Policies and Edit the Default Merge Policy for \_xdm.context.profile.  Turn on the Active-On-Edge Merge Policy and save.
 >
->![Enabling a merge policy for edge 1](assets/-siBdh9t3UgaRI1IlVHcP_enabling-a-merge-policy-for-edge-1.png)
+>![Enabling a merge policy for edge 1](assets/enabling-a-merge-policy-for-edge-1.png)
 >
 >
 >
->![Enabling a merge policy for edge 2](assets/jOdVrcLd-KdpzLsc6tNvR_enabling-a-merge-policy-for-edge-2.png)
+>![Enabling a merge policy for edge 2](assets/enabling-a-merge-policy-for-edge-2.png)
 
 ## Rebuild the Audience
 
@@ -89,15 +89,15 @@ Marketing walked in today and gave us a requirement to have this Streaming and u
 
 2\. Create a new Audience. Add the "Owns iPhone 14 Audience Batch" Audience to the canvas and click Convert to Rules.
 
-![Audience to the canvas and click convert to rules](assets/Ak4nNzLh8hZ8pbq2GI76N_audience-to-the-canvas-and-click-convert-to-rules.png)
+![Audience to the canvas and click convert to rules](assets/audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Audience to the canvas and click convert to rules 2](assets/bxPrBlw2iGxPL3O687lBq_audience-to-the-canvas-and-click-convert-to-rules-2.png)
+![Audience to the canvas and click convert to rules 2](assets/audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
 3\. Update the Description, Name and Evaluation Method to Streaming on the bottom right corner, then click on the folder icon next to the Evaluation Method. You should see this: 
 
-![You should see this](assets/GqU79RO-l1EBKvlQmfWWh_you-should-see-this.png)
+![You should see this](assets/you-should-see-this.png)
 
 
 
@@ -109,7 +109,7 @@ While not obvious, the reason for this is we are using Product Name on a lookup 
 >
 >You can tell this if you look at the path and it has "properties" in it anywhere
 >
->![You can](assets/1nyvdbnCm0Io82-HB9eIB_you-can-.png)
+>![You can](assets/you-can-.png)
 
 
 
@@ -125,15 +125,15 @@ Add the new path:
 
 - XDM Individual Profile > Dep > Active Products > Model
 
-![With xdm](assets/dpCvZdSEO8L4JItBzj3bx_with-xdm.png)
+![With xdm](assets/with-xdm.png)
 
-![With xdm](assets/xOILIIsYjX7VQkod76N8L_with-xdm.png)
+![With xdm](assets/with-xdm-2.png)
 
 
 
 5\. Change the Evaluation Method to Streaming and click the folder icon 
 
-![A2H7tWbSMr7oXhmQwQKa change the evaluation method to streaming and click the folder icon](assets/_a2H7tWbSMr7oXhmQwQKa_change-the-evaluation-method-to-streaming-and-click-the-folder-icon.png)
+![A2H7tWbSMr7oXhmQwQKa change the evaluation method to streaming and click the folder icon](assets/change-the-evaluation-method-to-streaming-and-click-the-folder-icon.png)
 
 
 
@@ -142,7 +142,7 @@ Add the new path:
 - Save the Audience as "*Owns iPhone 14*" Audience.
 - Click the blue button **Activate Audience** to Destination
 
-![Activate audience to destination](assets/2yQg2REavTvV6TI9l0NYQ_activate-audience-to-destination.png)
+![Activate audience to destination](assets/activate-audience-to-destination.png)
 
 
 

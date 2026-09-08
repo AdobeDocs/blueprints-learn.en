@@ -24,7 +24,7 @@ Click the **Edit content **button, or navigate directly to the **Content **tab
 
 1. Click on the **Personalization** button to create your message.
 
-![5Q7S7Ew iQF8FzqlJ image](assets/Zz-_5Q7S7Ew_iQF8FzqlJ_image.png)
+![5Q7S7Ew iQF8FzqlJ image](assets/compose-the-sms-3.png)
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 1. Update the two fields in the message called **phone\_make **and **phone\_model **below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
 
-![Final sms message](assets/QHhXSbIiq81vKEXlbTXlk-20260609-205827.png)
+![Final sms message](assets/compose-the-sms-1.png)
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 1. Click the **V****alidate **on the editor and make sure there are no validation errors and if good click the **Save **button
 
-![Validate and save the message](assets/YbupjW4eJzayGEuGWDVe2-20260609-205940.png)
+![Validate and save the message](assets/compose-the-sms-2.png)
 
 
 
 1. Click on the **back arrow (\<-)** when you are done to return to the workflow canvas
 
-![Return to workflow canvas](assets/khc9CAxgBPgtC3WlsCQid-20260410-184816.png)
+![Return to workflow canvas](assets/compose-the-sms-4.png)
 
 
 

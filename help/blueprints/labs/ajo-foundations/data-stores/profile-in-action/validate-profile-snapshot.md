@@ -14,7 +14,7 @@ Confirm that the profile does not yet appear in the Profile Snapshot dataset.
 
 1. In the left nav under the Data Management section click on **Datasets** and then click on the **Browse tab **found on the top rail
 
-![HIN4jxLqEgIZCnbv8I lI 20260127 215248](assets/hIN4jxLqEgIZCnbv8I-lI-20260127-215248.png)
+![HIN4jxLqEgIZCnbv8I lI 20260127 215248](assets/validate-profile-snapshot-4.png)
 
 1. In the **search box** type `profile`, then **click on the row **with title "Profile-Snapshot...".   and in the right rail **copy the table name** and paste it somewhere you can reference in the next step.
 
@@ -24,7 +24,7 @@ Confirm that the profile does not yet appear in the Profile Snapshot dataset.
 
 
 
-![C3FEbl2Yj94iKHcBcK0RN 20260127 215905](assets/C3FEbl2Yj94iKHcBcK0RN-20260127-215905.png)
+![C3FEbl2Yj94iKHcBcK0RN 20260127 215905](assets/validate-profile-snapshot-2.png)
 
 1. Navigate back to the Query editor and copy & paste the below SQL into the editor
 
@@ -56,12 +56,12 @@ from
    - **Email address:**  for now, on line 19 type in the same email address you used to send in your Web Event (we used henry.creel\@emailsim.io, unless you changed it).
      - At the moment, we have commented this out (leave it that way). When the query runs, look for henry, you will not find it.
 
-![FLuAXb a7CgvkGA1WxnP1 20260127 220848](assets/FLuAXb-a7CgvkGA1WxnP1-20260127-220848.png)
+![FLuAXb a7CgvkGA1WxnP1 20260127 220848](assets/validate-profile-snapshot-3.png)
 
 1. **Run **the query by clicking on the arrow in the top left
 1. The Results should be as below (but if you look for henry, you will not find him)
 
-![QBJV33I3p0ddfWiWk5Ft 20260615 110951](assets/-qBJV33I3p0ddfWiWk5Ft-20260615-110951.png)
+![QBJV33I3p0ddfWiWk5Ft 20260615 110951](assets/validate-profile-snapshot-1.png)
 
 >[!NOTE]
 >

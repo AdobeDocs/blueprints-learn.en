@@ -15,14 +15,14 @@ In the next set of steps you will create an Email Channel Configuration with **o
 1. Navigate to **Channel Configurations** found under the menu **Administration → Channels → General settings**
 1. Click the **Create configuration **button
 
-![Create Channel configuration](assets/gOlMQhTEv_TkHLsoWJTKn_image.png)
+![Create Channel configuration](assets/configure-email-channels-4.png)
 
 1. In the Create wizard set the following values:
    - **Name:**  `Relational-Email`
    - **Channel:**  `Email`
    - **Marketing action:**  `Email Targeting`
 
-![Channel configuration details](assets/LNS8XDa58CNPC1JBU59Yb-20251217-194855.png)
+![Channel configuration details](assets/configure-for-relational-3.png)
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ In the next set of steps you will create an Email Channel Configuration with **o
 
 Set the **Email Type** to **Marketing**
 
-![Email settings](assets/wTReTT5V3d8r4JJAx6Pvi_image.png)
+![Email settings](assets/configure-email-channels-5.png)
 
 ## **Configure Subdomain**
 
@@ -57,7 +57,7 @@ From the **IP pool** dropdown, select **marketing**
 1. Under Link management make sure **Adobe managed** is selected
 1. For the Consent level make sure this is set to **Channel**
 
-![Configure List unsubscribe](assets/4ykrp4kvCRbGdKFo6fgCH_image.png)
+![Configure List unsubscribe](assets/configure-email-channels-1.png)
 
 ## Configure Header Parameters
 
@@ -68,7 +68,7 @@ From the **IP pool** dropdown, select **marketing**
    - **Reply to email:  **`reply@email.dep-labs.com`
    - **Error email prefix:**  `error`
 
-![Header parameters](assets/aFxboSmGAbW0LWsY15tA__image.png)
+![Header parameters](assets/configure-email-channels-3.png)
 
 ## Configure Bcc Email
 
@@ -90,31 +90,31 @@ Leave with the default settings
 
 1. In the Orchestrated campaign tab and **check **the Enabled checkbox.
 
-![Configure Orchestrated campaign](assets/TG_jHc5KWx1011kPc2v01_image.png)
+![Configure Orchestrated campaign](assets/configure-email-channels-2.png)
 
 1. Under Execution dimension configure the following:
    - **Deliver one message per:**  `Target Dimension `
    - **Profile Target Dimension:  **`dep-rel: Customer Account - customer_id`
 
-![Execution dimension](assets/9Wli7Xs7mg_WTsjPaycV-_image.png)
+![Execution dimension](assets/configure-for-relational-1.png)
 
 1. Under Execution Address configure the following:
    - **Source:** `Target Dimention`
    - **Delivery Address:**  `click on the Edit button`
 
-![Target Dimension](assets/x5bH4c9xA2Epl3cB4Zr6g_image.png)
+![Target Dimension](assets/configure-for-relational-6.png)
 
 1. In the pop-up, click into the folder **dep-rel: Customer Account**
 
-![Configure Delivery address](assets/pa5kQNPheTILkzTlagJmR_image.png)
+![Configure Delivery address](assets/configure-for-relational-5.png)
 
 1. Select **Email** and click on the **Select **button
 
-![Email as Delivery address](assets/F4ANPlvZ3kHijKfvTwPPj_image.png)
+![Email as Delivery address](assets/configure-for-relational-2.png)
 
 1. When done your final Exectuion details should look like the below screenshot
 
-![Execution dimension configured](assets/emHNrvB77gafUDUP4ZZPV-20251217-201946.png)
+![Execution dimension configured](assets/configure-for-relational-4.png)
 
 >[!NOTE]
 >

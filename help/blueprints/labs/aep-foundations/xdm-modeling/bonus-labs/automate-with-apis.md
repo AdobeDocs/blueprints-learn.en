@@ -22,7 +22,7 @@ To see how you can automate deployments using API's you will execute a folder of
 
 1. In Postman navigate to the **Automation with APIs** folder within the** XDM Schema Lab** folder
 
-![Automate with APIs folder](assets/n-ADAXZy_lxxLyKc0x1oi-QGfnKiMXL9JPmaW9nVIEB-20241017-190316.png)
+![Automate with APIs folder](assets/automate-with-apis-1.png)
 
 
 

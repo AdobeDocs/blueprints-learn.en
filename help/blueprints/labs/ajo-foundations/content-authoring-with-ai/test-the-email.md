@@ -24,13 +24,13 @@ At this point, you have learned that we can not only personalize the profile att
 1. Click **Simulate Content**.
 1. Select **Simulate content variation**.
 
-![CHBaM4efsxWxR image](assets/19p3U9X_CHBaM4efsxWxR_image.png)
+![CHBaM4efsxWxR image](assets/content-authoring-with-ai-1.png)
 
 A simulation panel will open.
 
 1. Click **Send Proof**.
 
-![Image](assets/V-3-ldo9TsAmu0LV9fLIn_image.png)
+![Image](assets/test-the-email-4.png)
 
 1. Add your own personal email address.
 
@@ -46,7 +46,7 @@ A simulation panel will open.
    2. Variant 2: Below 40 
 1. Click **Send Proof**. You will get green confirmation message "**Proofs sent successfully**"
 
-![JkDe7m2wFduz1 image](assets/vVrQl8t_JkDe7m2wFduz1_image.png)
+![JkDe7m2wFduz1 image](assets/test-the-email-5.png)
 
 Verify that you have received both email should land on your inbox.
 
@@ -56,11 +56,11 @@ Verify that you have received both email should land on your inbox.
 
 
 
-![Image](assets/vvQJXZvHzoaHNF0wdX1da_image.png)
+![Image](assets/test-the-email-6.png)
 
 You may experience clipped message but it is fine, since some of the footer links are not real. If you click on the link you should see both emails with variants has come through. 
 
-![Image](assets/EunCarEY4umZPAeD1SMQd_image.png)
+![Image](assets/test-the-email-1.png)
 
 Verify Proof Delivery in AJO
 
@@ -72,11 +72,11 @@ Finally, you can also see proof delivery in Adobe Journey Optimizer.
 
 Go back to email creation screen and click on "**View Proof**"
 
-![Image](assets/Gt4rZTl3d73a6cLt6hwNt_image.png)
+![Image](assets/test-the-email-2.png)
 
 You will notice your proof email details. 
 
-![Image](assets/IBsZRplHe1eAKVRuCyqY2_image.png)
+![Image](assets/test-the-email-3.png)
 
 
 ## Recap

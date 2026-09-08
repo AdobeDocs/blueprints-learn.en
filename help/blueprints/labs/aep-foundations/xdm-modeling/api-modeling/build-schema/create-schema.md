@@ -14,7 +14,7 @@ exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 
 1. Click on the `Step 4 - Create Customer Account Schema` API call in the `XDM Schema Lab -> Create Schema` folder.
 
-![Click on the step 4 create customer account schema](assets/H-GtAst5TJj95cUiscUTi_click-on-the-step-4-create-customer-account-schema.png)
+![Click on the step 4 create customer account schema](assets/click-on-the-step-4-create-customer-account-schema.png)
 
 
 

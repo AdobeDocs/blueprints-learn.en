@@ -56,7 +56,7 @@ Let’s create a merge policy that doesn’t use the ID Graph so you can see its
 1. Click on **Merge Policies** in the top navigation
 1. Click on **Create merge policy** near the far right of your screen
 
-![LxxLyKc0x1oi eiKn7tvz qGR 5VdWFAyI 20241018 193544](assets/n-ADAXZy_lxxLyKc0x1oi-eiKn7tvz_qGR-5VdWFAyI-20241018-193544.png)
+![LxxLyKc0x1oi eiKn7tvz qGR 5VdWFAyI 20241018 193544](assets/merge-policies-3.png)
 
 ## Configure
 
@@ -86,7 +86,7 @@ Remember that if you select timestamp ordered for the merge method you are telli
 
 Therefore you can simply click **Next **as there nothing to do in this step.
 
-![Select experience event datasets](assets/mwBfM9uQYn4fKvxLrBMDC_select-experience-event-datasets.png)
+![Select experience event datasets](assets/select-experience-event-datasets.png)
 
 ## Review
 
@@ -101,7 +101,7 @@ Click the **Finish **button to create the merge policy
 
 Remember the identity graph of the profile, Depeche Mode, looked like the below screenshot. To understand how profile service works its best to ignore using this identity graph during the assembly process.
 
-![Depeche mode identity graph](assets/ZGBtTp0dMpa2dBn6Et2vJ_depeche-mode-identity-graph.png)
+![Depeche mode identity graph](assets/depeche-mode-identity-graph.png)
 
 ## Compare Using Email
 
@@ -151,9 +151,9 @@ You can look at the various fragments of the Depeche Mode profile using some of 
 | ------------------ | --------- |
 | customerID         | 266242885 |
 
-![LxxLyKc0x1oi EzcFcCi4fEd1bQIAIeaBn 20241021 170725](assets/n-ADAXZy_lxxLyKc0x1oi-EzcFcCi4fEd1bQIAIeaBn-20241021-170725.png)
+![LxxLyKc0x1oi EzcFcCi4fEd1bQIAIeaBn 20241021 170725](assets/merge-policies-2.png)
 
-![LxxLyKc0x1oi Bsi2RnaPXBDiAv Vob91i 20241021 171006](assets/n-ADAXZy_lxxLyKc0x1oi-Bsi2RnaPXBDiAv_Vob91i-20241021-171006.png)
+![LxxLyKc0x1oi Bsi2RnaPXBDiAv Vob91i 20241021 171006](assets/merge-policies-1.png)
 
 **Question's to Ask Yourself**
 

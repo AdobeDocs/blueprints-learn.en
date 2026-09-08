@@ -149,13 +149,16 @@ nudge: orange
   + Hands-on Workshops{#workshops}
     + AEP Foundations{#aep-foundations}
       + [Overview](/help/blueprints/labs/aep-foundations/overview.md)
-      + [Sandbox Setup](/help/blueprints/labs/aep-foundations/sandbox-setup.md)
-      + Postman Configuration{#aep-postman}
-        + [Postman Installation](/help/blueprints/labs/aep-foundations/postman-configuration/postman-installation.md)
-        + [Environment File](/help/blueprints/labs/aep-foundations/postman-configuration/environment-file.md)
-        + [API Collection](/help/blueprints/labs/aep-foundations/postman-configuration/api-collection.md)
-        + [Sandbox Access](/help/blueprints/labs/aep-foundations/postman-configuration/sandbox-access.md)
-        + [Access Token](/help/blueprints/labs/aep-foundations/postman-configuration/access-token.md)
+      + [Setup](/help/blueprints/labs/aep-foundations/setup.md)
+      + Sandbox Setup{#aep-sandbox}
+        + [Developer Console Setup](/help/blueprints/labs/aep-foundations/sandbox-setup/developer-console-setup.md)
+        + [Deployment Instructions](/help/blueprints/labs/aep-foundations/sandbox-setup/deployment-instructions.md)
+      + Postman Setup{#aep-postman}
+        + [Postman Installation](/help/blueprints/labs/aep-foundations/postman-setup/postman-installation.md)
+        + [Environment File](/help/blueprints/labs/aep-foundations/postman-setup/environment-file.md)
+        + [API Collection](/help/blueprints/labs/aep-foundations/postman-setup/api-collection.md)
+        + [Sandbox Access](/help/blueprints/labs/aep-foundations/postman-setup/sandbox-access.md)
+        + [Access Token](/help/blueprints/labs/aep-foundations/postman-setup/access-token.md)
       + Real-Time Customer Profile{#aep-rtcp}
         + [Lectures](/help/blueprints/labs/aep-foundations/real-time-customer-profile/lectures.md)
         + Inspecting the Profile{#aep-rtcp-inspect}
@@ -285,11 +288,23 @@ nudge: orange
           + [Monitor Your Event](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)
     + AJO Foundations{#ajo-foundations}
       + [Overview](/help/blueprints/labs/ajo-foundations/overview.md)
+      + [Setup](/help/blueprints/labs/ajo-foundations/setup.md)
+      + Sandbox Setup{#ajo-sandbox}
+        + [Developer Console Setup](/help/blueprints/labs/ajo-foundations/sandbox-setup/developer-console-setup.md)
+        + [Deployment Instructions](/help/blueprints/labs/ajo-foundations/sandbox-setup/deployment-instructions.md)
+      + Architecture Building Blocks{#ajo-architecture}
+        + [Lecture](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/lecture.md)
+        + Mapping Use Cases to Architecture{#ajo-architecture-mapping}
+          + [Overview](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/overview.md)
+          + [Lab Introduction](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-introduction.md)
+          + [Lab Exercise](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-exercise.md)
+          + [Lab Review](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-review.md)
       + Postman Setup{#ajo-postman}
         + [Postman Installation](/help/blueprints/labs/ajo-foundations/postman-setup/postman-installation.md)
         + [Import Environment File](/help/blueprints/labs/ajo-foundations/postman-setup/import-environment-file.md)
         + [Import API Collection](/help/blueprints/labs/ajo-foundations/postman-setup/import-api-collection.md)
       + Data Stores{#ajo-data-stores}
+        + [Real-Time Customer Profile Lecture](/help/blueprints/labs/ajo-foundations/data-stores/real-time-customer-profile-lecture.md)
         + Profile in Action{#ajo-profile}
           + [Overview](/help/blueprints/labs/ajo-foundations/data-stores/profile-in-action/overview.md)
           + [Login and Browse](/help/blueprints/labs/ajo-foundations/data-stores/profile-in-action/login-and-browse.md)
@@ -300,6 +315,7 @@ nudge: orange
           + [Validate Event on Data Lake](/help/blueprints/labs/ajo-foundations/data-stores/profile-in-action/validate-event-on-data-lake.md)
           + [Validate Profile Snapshot](/help/blueprints/labs/ajo-foundations/data-stores/profile-in-action/validate-profile-snapshot.md)
           + [Summary](/help/blueprints/labs/ajo-foundations/data-stores/profile-in-action/summary.md)
+        + [Relational Store Lecture](/help/blueprints/labs/ajo-foundations/data-stores/relational-store-lecture.md)
         + Relational Store in Action{#ajo-relational}
           + [Overview](/help/blueprints/labs/ajo-foundations/data-stores/relational-store-in-action/overview.md)
           + [Browse Schemas](/help/blueprints/labs/ajo-foundations/data-stores/relational-store-in-action/browse-schemas.md)
@@ -312,6 +328,7 @@ nudge: orange
           + [Configure for Relational](/help/blueprints/labs/ajo-foundations/data-stores/configure-email-channels/configure-for-relational.md)
           + [Waiting for Active Status](/help/blueprints/labs/ajo-foundations/data-stores/configure-email-channels/waiting-for-active-status.md)
       + Orchestrated Campaigns{#ajo-campaigns}
+        + [Message Delivery Lecture](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-lecture.md)
         + Message Delivery in Action{#ajo-campaigns-delivery}
           + [Overview](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-in-action/overview.md)
           + [Create a Campaign](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-in-action/create-a-campaign.md)
@@ -320,6 +337,7 @@ nudge: orange
           + [Add Email Activities](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-in-action/add-email-activities.md)
           + [Test the Campaign](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-in-action/test-the-campaign.md)
           + [Summary](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/message-delivery-in-action/summary.md)
+        + [Workflow Building Blocks Lecture](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/workflow-building-blocks-lecture.md)
         + Flagship Phone Launch{#ajo-campaigns-flagship}
           + [Overview](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/flagship-phone-launch/overview.md)
           + [Configure SMS Channel](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/flagship-phone-launch/configure-sms-channel.md)
@@ -332,6 +350,7 @@ nudge: orange
           + [Run the Workflow](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/flagship-phone-launch/run-the-workflow.md)
           + [Summary](/help/blueprints/labs/ajo-foundations/orchestrated-campaigns/flagship-phone-launch/summary.md)
       + Journeys{#ajo-journeys}
+        + [Lecture](/help/blueprints/labs/ajo-foundations/journeys/lecture.md)
         + Post-Purchase Excitement{#ajo-journeys-post-purchase}
           + [Overview](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/overview.md)
           + [Configure Event](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/configure-event.md)
@@ -344,6 +363,17 @@ nudge: orange
           + [Validate Journey](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/validate-journey.md)
           + [Summary](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/summary.md)
       + Decisioning{#ajo-decisioning}
+        + [Experience Edge](/help/blueprints/labs/ajo-foundations/decisioning/experience-edge.md)
+        + Decisioning Explained{#ajo-decisioning-explained}
+          + [Overview](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/overview.md)
+          + [Introduction](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/introduction.md)
+          + [Decision Item XDM](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/decision-item-xdm.md)
+          + [Decision Item Creation](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/decision-item-creation.md)
+          + [Collections](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/collections.md)
+          + [Ranking Formulas](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/ranking-formulas.md)
+          + [Selection Strategies](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/selection-strategies.md)
+          + [Decision Policies](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/decision-policies.md)
+          + [Guardrails, AI Models Decisioning Future](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/guardrails-ai-models-decisioning-future.md)
         + Abandoned Browse{#ajo-decisioning-abandoned}
           + [Overview](/help/blueprints/labs/ajo-foundations/decisioning/abandoned-browse/overview.md)
           + [Create Decision Rule](/help/blueprints/labs/ajo-foundations/decisioning/abandoned-browse/create-decision-rule.md)
@@ -357,6 +387,7 @@ nudge: orange
           + [Decisioning and CBEs In Action](/help/blueprints/labs/ajo-foundations/decisioning/abandoned-browse/decisioning-and-cbes-in-action.md)
           + [Summary](/help/blueprints/labs/ajo-foundations/decisioning/abandoned-browse/summary.md)
       + Content Authoring with AI{#ajo-content-ai}
+        + [Lecture](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/lecture.md)
         + [Overview](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/overview.md)
         + [Brand Management](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/brand-management.md)
         + [Building Content Fragments](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/building-content-fragments.md)
@@ -368,26 +399,6 @@ nudge: orange
         + [Brand Alignment](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/brand-alignment.md)
         + [Test the Email](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/test-the-email.md)
         + [Summary](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/summary.md)
-      + Bonus Labs{#ajo-bonus}
-        + Setup Relational Store{#ajo-bonus-relational}
-          + [Overview](/help/blueprints/labs/ajo-foundations/bonus-labs/setup-relational-store/overview.md)
-          + [Setup Relational Schema and Dataset](/help/blueprints/labs/ajo-foundations/bonus-labs/setup-relational-store/setup-relational-schema-and-dataset.md)
-          + [Data Verification](/help/blueprints/labs/ajo-foundations/bonus-labs/setup-relational-store/data-verification.md)
-          + [Create Campaign Target Dimension](/help/blueprints/labs/ajo-foundations/bonus-labs/setup-relational-store/create-campaign-target-dimension-cloned-with-children.md)
-          + [Read Audience Activity and Relational Schema](/help/blueprints/labs/ajo-foundations/bonus-labs/setup-relational-store/read-audience-activity-and-relational-schema.md)
-        + Flagship Phone Launch Advanced{#ajo-bonus-flagship}
-          + [Overview](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/overview.md)
-          + [Build Audience 1](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/build-audience-1.md)
-          + [Build Audience 2](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/build-audience-2.md)
-          + Intersect Audiences{#ajo-bonus-flagship-intersect}
-            + [Overview](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/intersect-audiences/overview.md)
-            + [Option 1 - Change Dimension](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/intersect-audiences/option-1-change-dimension.md)
-            + [Option 2 - Enrichment](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/intersect-audiences/option-2-enrichment.md)
-          + [Save Audience](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/save-audience.md)
-          + [Split for Email and SMS](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/split-for-email-and-sms.md)
-          + [Configure Email Message](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/configure-email-message.md)
-          + [Configure SMS Message](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/configure-sms-message.md)
-          + [Test and Publish](/help/blueprints/labs/ajo-foundations/bonus-labs/flagship-phone-launch-advanced/test-and-publish.md)
   + Technical Deep Dives{#deep-dives}
     + Working with Identity Graph{#identity-graph}
       + [Overview](/help/blueprints/labs/identity-graph/overview.md)

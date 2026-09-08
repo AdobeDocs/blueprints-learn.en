@@ -12,7 +12,7 @@ To retry a workflow, do the following:
 1. Highlight the dataflow run that failed to bring up the right rail.
 1. Click on** Retry**. The retry will take the copy of the data associated with the failed run and will now apply the new mapping rules to it
 
-![Retry a failed dataflow](assets/hAM7pnj6e1DMu6NFJ-mC4_retry-a-failed-dataflow.png)
+![Retry a failed dataflow](assets/retry-a-failed-dataflow.png)
 
 >[!NOTE]
 >

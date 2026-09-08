@@ -20,7 +20,7 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 1. Go to **Queries **and **Create Query**
 
-![NBZzK2rgWOnAsq8e1BVqo 20251027 224300](assets/NBZzK2rgWOnAsq8e1BVqo-20251027-224300.png)
+![NBZzK2rgWOnAsq8e1BVqo 20251027 224300](assets/validate-event-on-data-lake-2.png)
 
 1. Copy this SQL and paste it into your query
 
@@ -39,7 +39,7 @@ where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 
 
 
-![GWmv8Krk7SCvP9VFbFgDD 20251120 030733](assets/GWmv8Krk7SCvP9VFbFgDD-20251120-030733.png)
+![GWmv8Krk7SCvP9VFbFgDD 20251120 030733](assets/validate-event-on-data-lake-1.png)
 
 ## Recap
 

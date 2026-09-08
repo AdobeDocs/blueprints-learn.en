@@ -38,7 +38,7 @@ lastOrderStatusUpdate
 
 ![Expression preview.png "Write the following expression and click Preview. NOTE that this value is case sensitive and must be written exactly this way"](assets/TqYEYOCfML2mnAjde38oT_expression-preview.png "Write the following expression and click Preview. NOTE that this value is case-sensitive and must be written exactly this way")
 
-![Map the calculated field expression 22instore 22 to order devbcacqsource](assets/pjTGi7bBkLjyWCB3a4yrp_map-the-calculated-field-expression-22instore-22-to-order-devbcacqsource.png)
+![Map the calculated field expression 22instore 22 to order devbcacqsource](assets/map-the-calculated-field-expression-22instore-22-to-order-devbcacqsource.png)
 
 4\. Map the calculated field expression **"inStore"** to **order.\_devbc.acqSource**
 

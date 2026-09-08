@@ -19,7 +19,7 @@ When uploaded your screen should look like the below screenshot.
 >
 >Make sure you do not upload the file into the *project *folder. It contains preloaded data that we will not be using in our labs.
 
-![Make sure you do not upload the file](assets/gUrkSdmFtBLHncIjyMXhs_make-sure-you-do-not-upload-the-file.png)
+![Make sure you do not upload the file](assets/make-sure-you-do-not-upload-the-file.png)
 
 ## **Navigate to Sources**
 

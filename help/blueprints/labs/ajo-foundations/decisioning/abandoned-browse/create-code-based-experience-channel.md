@@ -34,7 +34,7 @@ Recall that the business requirements are that any of Connection 5G's systems sh
 
 1. Click the **JSON** radio button in the 'Format' section. When finished, your CBE channel config should look like this:
 
-![Complete CBE Validation](assets/lw49s_9AsVEzbN1wgSfKL-20251211-220316.png)
+![Complete CBE Validation](assets/create-code-based-experience-channel-1.png)
 
 1. Once everything looks correct, click the blue **Submit** button in the upper right corner.
 

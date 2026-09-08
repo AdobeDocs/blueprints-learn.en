@@ -10,7 +10,7 @@ exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
 
 1. Click on the arrow icon next to the calculated field populating the **person.birthDayAndMonth** XDM field
 
-![4W9GqWT3 update the calculated expression](assets/NDKYzfUbuNvI_4W9GqWT3_update-the-calculated-expression.png)
+![4W9GqWT3 update the calculated expression](assets/update-the-calculated-expression.png)
 
 2\. Update the expression using the below calculated field code and click **Preview**
 

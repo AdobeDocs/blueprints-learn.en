@@ -21,7 +21,7 @@ Since eligibility is one of the key building blocks of an offer, the first step 
 
 1. Click on **Decisioning Rules** under the 'Eligibility' menu, followed by the **Create rule** button in the upper right corner.
 
-![Navigating to Decision Rules](assets/VWPJH7AhKuFg2kD0z8_UE-20251204-051000.png)
+![Navigating to Decision Rules](assets/create-decision-rule-1.png)
 
 1. You will be taken to a screen that resembles the Segment Builder UI. Add the Plan ID attribute to the rule canvas by clicking on **XDM Individual Profile > DEP > Plan Details **and then dragging the **Plan ID** attribute to the canvas.
 1. Change the drop-down from equals to **contains.**

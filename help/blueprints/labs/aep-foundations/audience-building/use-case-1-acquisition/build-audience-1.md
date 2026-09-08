@@ -14,7 +14,7 @@ Build an audience that only finds profiles who placed an order for an iPhone 14
 
 Let us start by creating our first audience. It is composed of many pieces that we need to incorporate. Click on Audience on the left rail and create Audience button in the top right.  
 
-![Click on](assets/LVT9qiIXxVZaVJ3UqcxOc_click-on.png)
+![Click on](assets/click-on.png)
 
 
 
@@ -27,7 +27,7 @@ We are going to break this Use Case up into pieces and solve them with multiple 
 
 The first part of our Audience is to look for “no order exists for an iPhone 14”. Imagine we are a new Marketer to AEP and did not design the Schema. Do a search for “Order” in the Events tab on the left rail 
 
-![Ek1cGeisQd9hKALh do a search for order in the events tab on the left rail](assets/Ht9q_ek1cGeisQd9hKALh_do-a-search-for-order-in-the-events-tab-on-the-left-rail.png)
+![Ek1cGeisQd9hKALh do a search for order in the events tab on the left rail](assets/do-a-search-for-order-in-the-events-tab-on-the-left-rail.png)
 
 
 
@@ -47,7 +47,7 @@ We get a lot of objects related to an order
 
 Let's use Order Placed Event Type card and Drag that onto the canvas.
 
-![C let s use order placed event type card and drag that onto the canvas](assets/8rycT7n9l00yXr8yi9d_C_let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
+![C let s use order placed event type card and drag that onto the canvas](assets/let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
 
 >[!NOTE]
 >
@@ -61,11 +61,11 @@ Let's use Order Placed Event Type card and Drag that onto the canvas.
 >
 >In a new Audience, go into XDM Experience Event and drag on Event Type.
 >
->![In a new audience go into xdm experience event and drag on event type](assets/8avAz46GtxZh6iHmX9ay9_in-a-new-audience-go-into-xdm-experience-event-and-drag-on-event-type.png)
+>![In a new audience go into xdm experience event and drag on event type](assets/in-a-new-audience-go-into-xdm-experience-event-and-drag-on-event-type.png)
 >
 >Filtering using Event Type cards is the same as filtering using the Event Type Field
 >
->![The same as filtering using the event type fiel](assets/Yc-xLQf61yJereT6AD4cp_the-same-as-filtering-using-the-event-type-fiel.png)
+>![The same as filtering using the event type fiel](assets/the-same-as-filtering-using-the-event-type-fiel.png)
 >
 >Benefit of using Event Type Cards: 
 >
@@ -132,11 +132,11 @@ Turn on Show Full Schema
 
 
 
-![Turn on show full schema 1](assets/AII5lFg15xZ3L7ClxjrUs_turn-on-show-full-schema-1.png)
+![Turn on show full schema 1](assets/turn-on-show-full-schema-1.png)
 
 
 
-![Turn on show full schema 2](assets/bUFABbvXOEVZscXZxIvHQ_turn-on-show-full-schema-2.png)
+![Turn on show full schema 2](assets/turn-on-show-full-schema-2.png)
 
 Let's build on what we started.  Click on the Placed card, then **clear “placed” from the Search** on the left rail and drill down into:
 
@@ -146,7 +146,7 @@ XDM Experience Event -> Product List items folder
 >
 >A common confusion for your Marketer would be to use Device instead of Product here (since we will filter on iPhone). Again, another reason for good descriptions.
 
-![L9WbTFv again another reason for good descriptions](assets/I8AZCC7S7gdMn_l9WbTFv_again-another-reason-for-good-descriptions.png)
+![L9WbTFv again another reason for good descriptions](assets/again-another-reason-for-good-descriptions.png)
 
 We are looking for something that we can filter on that might have iPhone. Notice we have three options 
 
@@ -154,7 +154,7 @@ We are looking for something that we can filter on that might have iPhone. Notic
 - Product
 - SKU
 
-![DrG53WgMychk4qtND we are l](assets/4aq_drG53WgMychk4qtND_we-are-l.png)
+![DrG53WgMychk4qtND we are l](assets/we-are-l.png)
 
 They all could be good candidates, but we don’t know.  Click on the "i" for more detail on each one.
 
@@ -170,7 +170,7 @@ They all could be good candidates, but we don’t know.  Click on the "i" for mo
 
 Turn "show only fields with data" on
 
-![Turn 22show only fields with data 22 on](assets/3ZPLlvFQtgiIA3W6ONpjT_turn-22show-only-fields-with-data-22-on.png)
+![Turn 22show only fields with data 22 on](assets/turn-22show-only-fields-with-data-22-on.png)
 
 >[!NOTE]
 >
@@ -186,21 +186,21 @@ Once we turn on "show only fields with data" we notice the fields we were thinki
 
 Drill down to XDM ExperienceEvent > Product list items > Dep > Model
 
-![Drill do](assets/Mj0LvOqifBULCKbjeDw43_drill-do.png)
+![Drill do](assets/drill-do.png)
 
 Model looks like it, but doesn't have any descriptions.
 
 Drag it onto the Placed Event Card.
 
-![P7s04WPQDpIS7LhDLmmk drag it onto the placed event card](assets/_P7s04WPQDpIS7LhDLmmk_drag-it-onto-the-placed-event-card.png)
+![P7s04WPQDpIS7LhDLmmk drag it onto the placed event card](assets/drag-it-onto-the-placed-event-card.png)
 
 Add iPhone 14
 
-![Add iphone 14](assets/mgRCKEBQz1LXXH03xapHt_add-iphone-14.png)
+![Add iphone 14](assets/add-iphone-14.png)
 
 Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/Y4FXY61zv4WwT4cosD5-9-R_s2l0SJwJLf-6dmK1KhT-20250715-192957.png)
+![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
 
 >[!NOTE]
 >
@@ -212,17 +212,17 @@ Provide a description
 
 Change evaluation method to **Streaming**
 
-![Change evaluation method to streamin](assets/Gs5HAM2FEwL3nKu-AbR7R_change-evaluation-method-to-streamin.png)
+![Change evaluation method to streamin](assets/change-evaluation-method-to-streamin.png)
 
 **Save Audience** as “*Placed Order iPhone 14*” 
 
 Click the blue button **Activate Audience** to Destination
 
-![Activate audience to destination](assets/J3hcjzfXTYwIB31LpNFEC_activate-audience-to-destination.png)
+![Activate audience to destination](assets/activate-audience-to-destination-2.png)
 
 Select the **Streaming DEP Webhook** Destination and click Next
 
-![Streaming dep webhook destination](assets/qsAnaZWLA6LS1cBI9HvMW_streaming-dep-webhook-destination.png)
+![Streaming dep webhook destination](assets/streaming-dep-webhook-destination.png)
 
 Do not change the mapping, click Next and Finish
 
@@ -234,7 +234,7 @@ Do not change the mapping, click Next and Finish
 >
 >
 >
->![Called product list items in our example](assets/ygIISO3aQoflsdYw5tMdy_called-product-list-items-in-our-example.png)
+>![Called product list items in our example](assets/called-product-list-items-in-our-example.png)
 >
 >Containers are a way of referencing an Event variable or Array element. You can read more about what the ramification of this is in this Blog, but for simplicity’s sake, this allows you to specify if a single element in the array meets both conditions or the condition can be spread across two elements. 
 >

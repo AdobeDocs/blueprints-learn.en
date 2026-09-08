@@ -22,7 +22,7 @@ If you haven't downloaded Azure Storage Explorer do so now as its a requirement 
 
 1. Open Azure Storage Explorer and click on the **Select Resource icon **and then select **ADLS Gen 2 Container or directory**
 
-![Choose the resource as shown above](assets/nty4xy0HBzztOzqmfJ787_choose-the-resource-as-shown-above.png)
+![Choose the resource as shown above](assets/choose-the-resource-as-shown-above.png)
 
 
 
@@ -75,7 +75,7 @@ Navigate back to Azure Storage Explorer and paste the **SASUri value** into the 
 
 You should now see a screen that looks like below
 
-![UVRldu H79PE898a successfully connected account](assets/sQeP_UVRldu-H79PE898a_successfully-connected-account.png)
+![UVRldu H79PE898a successfully connected account](assets/successfully-connected-account.png)
 
 >[!NOTE]
 >

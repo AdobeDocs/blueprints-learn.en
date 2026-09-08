@@ -14,7 +14,7 @@ In the next set of steps you will add the Fork activity to the campaign and crea
 
 The canvas with the configured **Build audience** is presented. Click on the **+** at the end of the flow and add a **Fork** activity from the Flow control section
 
-![Add a Fork flow control](assets/KZ-6Ie9m7vYoSIhz3VXBW-20260114-182607.png)
+![Add a Fork flow control](assets/add-fork-activity-1.png)
 
 >[!NOTE]
 >

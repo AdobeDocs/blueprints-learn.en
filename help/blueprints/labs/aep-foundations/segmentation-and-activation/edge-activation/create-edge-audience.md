@@ -20,11 +20,11 @@ This Audience will be used to qualify someone when a payload (e.g. page view), c
 
 
 
-![Create audeince 1](assets/ZqVCYkhVc5ZWemZdQlxFZ_create-audeince-1.png)
+![Create audeince 1](assets/create-audeince-1.png)
 
 
 
-![Create audience 2](assets/jEITChafVLbrPTe91nzYV_create-audience-2.png)
+![Create audience 2](assets/create-audience-2.png)
 
 
 
@@ -33,13 +33,13 @@ This Audience will be used to qualify someone when a payload (e.g. page view), c
 1. Go to **Audiences **and click into the **Experience Platform** folder
 1. Drag 'n drop the audience named **dep: Any Event Streaming (within the hour) **onto the canvas
 
-![Convert audience to rules](assets/Xf8sU4zkojENmp05GCwxV_convert-audience-to-rules.png)
+![Convert audience to rules](assets/convert-audience-to-rules.png)
 
 
 
 3\. Convert the audience to a set of rules in the canvas by clicking on the **icon **show below and then click **Convert**
 
-![Convert](assets/0zAzXTpBSdvRpzyhNOnKQ_convert-.png)
+![Convert](assets/convert-.png)
 
 ## Update Event Rules
 
@@ -49,7 +49,7 @@ Make the following changes to the event rules (you may need to expand the event 
 1. 15
 1. Minutes
 
-![Update event rules](assets/V0dValY75DYmQsXI-Oyro_update-event-rules.png)
+![Update event rules](assets/update-event-rules.png)
 
 ## Publish Segment
 
@@ -57,7 +57,7 @@ Make the following changes to the event rules (you may need to expand the event 
 1. Update the evaluation method to Edge
 1. Publish the segment
 
-![Publish segment](assets/8Rw84orFCkQUbE9Twm1Wn_publish-segment.png)
+![Publish segment](assets/publish-segment.png)
 
 ## Create Batch Evaluated Segment
 

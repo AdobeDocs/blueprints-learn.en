@@ -41,11 +41,11 @@ Whenever a fragment is updated, all emails using it update automatically.
 
 Below is the final email you will create from this lab.
 
-![Image](assets/qI4n7lQ4p1LIb4eXZQ18__image.png)
+![Image](assets/building-content-fragments-18.png)
 
 But the design team normally provides you with templates such as this:
 
-![Image](assets/eSi3pZOaYVbz8alQSq11-_image.png)
+![Image](assets/building-content-fragments-14.png)
 
 
 ## Step 1: Create Content Fragments
@@ -56,7 +56,7 @@ The first step is to identify how many fragments do we need to create. In this t
 
 
 
-![Image](assets/ZLtLPOsdhuw5y2vPe-sNu_image.png)
+![Image](assets/building-content-fragments-11.png)
 
 We have identified the templates requires 5 fragments as follows. 
 
@@ -78,23 +78,23 @@ Let us create a header fragment to start with. However, before we start creating
 
 .
 
-![Image](assets/NXoCJnCJE1fJGp2EGx-Q__image.png)
+![Image](assets/building-content-fragments-7.png)
 
 1. Click on **Assets** under Assets Management section.
 
-![Image](assets/l27ekPb4gAhckS3GjCLZy_image.png)
+![Image](assets/building-content-fragments-17.png)
 
 1. Create a folder by clicking **"Create Folder"** button. 
 
-![Image](assets/fcgIxdD5YY0Q5fVJjGHh1_image.png)
+![Image](assets/building-content-fragments-15.png)
 
 1. Give a name like your first and last name. eg. Nish\_Pithia\_LabAssets (Something you can remember)
 
-![Image](assets/kfTR0teGBVThCZh7OFUEP_image.png)
+![Image](assets/building-content-fragments-16.png)
 
 1. **Create a new fragment: **Under Content Management click on **Fragments** and create new fragment. 
 
-![Image](assets/LhUHYIetJSDEPmRlmIisv_image.png)
+![Image](assets/building-content-fragments-6.png)
 
 Give a friendly name as shown below. Add all details as follows: 
 
@@ -104,35 +104,35 @@ Give a friendly name as shown below. Add all details as follows:
 
 **Type: **Select Visual fragment
 
-![Image](assets/H0nUbNZkBvLHgHkOxrOy9_image.png)
+![Image](assets/building-content-fragments-3.png)
 
 1. Click on **Create button** on your top right.
 
-![Image](assets/rvxSIRLzpHDJJUQLSWOQI_image.png)
+![Image](assets/building-content-fragments-19.png)
 
 You will now be presented with a blank fragment creator screen. 
 
 1. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
-![CO8gSyUOmK89AEC](assets/-sEPD_CO8gSyUOmK89AEC_.blob)
+![CO8gSyUOmK89AEC](assets/building-content-fragments-1.gif)
 
 1. Next, drag "**image**" on the 1:1 row which we just added
 
-![Image](assets/HJTAQzTSVhPj-jQ0kCQ-g_image.png)
+![Image](assets/building-content-fragments-4.png)
 
 1. Upload the logo image that you have been provided. Click on **"Import media button" **
 
-![Image](assets/TAgTaBtny2ZU2d7x0LuMm_image.png)
+![Image](assets/building-content-fragments-9.png)
 
 1. **Upload the logo: **You will need to upload logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
 
-![Image](assets/J5IKm9HN7KjwBsDN7gyre_image.png)
+![Image](assets/building-content-fragments-5.png)
 
-![Image](assets/aSwspaO-5yTjkwFRtGh41_image.png)
+![Image](assets/building-content-fragments-13.png)
 
 1. Select the **asset folder** that you have created, then click **Import**. The file will be saved in your folder.
 
-![Image](assets/T5m6zWxqlvKm3s8BxFe-O_image.png)
+![Image](assets/building-content-fragments-8.png)
 
 1. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Style tab** and set the width to 40% by dragging the slider, as shown below. 
 
@@ -142,23 +142,23 @@ You will now be presented with a blank fragment creator screen.
 
 
 
-![KsAz 8u image](assets/uqNmZehuZRfs2_KsAz_8u_image.png)
+![KsAz 8u image](assets/building-content-fragments-20.png)
 
 1. Click **“Save”** and your fragment is saved. You will get a green bar notification on the confirmation. 
 
-![TobdQzQobFP7iDy image](assets/UoQTF_TobdQzQobFP7iDy_image.png)
+![TobdQzQobFP7iDy image](assets/building-content-fragments-10.png)
 
 1. The fragment saved is in a draft mode. Before you use you will need to publish it. Click on the **back** button. 
 
-![Image](assets/xGqp25gMOynpicYhEXAct_image.png)
+![Image](assets/building-content-fragments-21.png)
 
 1. Click "**Publish**" button. You will see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation. 
 
-![Image](assets/ZiBQ51XzA8x1SUUYlEOEy_image.png)
+![Image](assets/building-content-fragments-12.png)
 
 You will see the status will change to **"Live"**. At this point, we have completed building a header fragment which we will be used in our next step. 
 
-![VME0 2x4UKBD image](assets/2r0BSKbG_vME0-2x4UKBD_image.png)
+![VME0 2x4UKBD image](assets/building-content-fragments-2.png)
 
 >[!NOTE]
 >

@@ -33,7 +33,7 @@ This lab configures the Custom Personalization Destination so that we can send P
 
 Name your account `DEP Labs Custom PZN` and then click the **Connect to destionation button**
 
-![Create PZN account](assets/M-4_n8wFBuIVQoamgcX78-20251202-151555.png)
+![Create PZN account](assets/setup-custom-personalization-destination-1.png)
 
 
 

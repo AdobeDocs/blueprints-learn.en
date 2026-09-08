@@ -19,7 +19,7 @@ In this lab scenario, we'll pretend that the research marketing team for Connect
 1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You will land on the 'Decisioning Rules' page and should see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
 1. Click on **Ranking formulas** under the 'Ranking methods' menu, and you'll be taken to an empty page since you don't have any ranking formulas yet.
 
-![Navigate to ranking formula](assets/HnhFlfeyO82BmAGB6vVkZ-20251209-203611.png)
+![Navigate to ranking formula](assets/create-ranking-formula-3.png)
 
 1. Click the blue **Create formula** button to start creating a new ranking formula
 1. Name the ranking formula **iPhone 17 Ranking Formula**
@@ -30,11 +30,11 @@ In this lab scenario, we'll pretend that the research marketing team for Connect
 
 1. Scroll to the bottom of the 'Criteria' section and click the **\</> **icon of the bottom-most text box and select the **Offer priority score** variable.
 
-![Use offer priority score in a formula](assets/Xkhya1GMM6v7nfElIZUm9-20251210-062325.png)
+![Use offer priority score in a formula](assets/create-ranking-formula-4.png)
 
 The default expression should now be set like this:
 
-![Validate default offer priority score](assets/ssILtBICKZdsfuwsK4JtH-20251210-060259.png)
+![Validate default offer priority score](assets/create-ranking-formula-6.png)
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ One way to think about priority adjustment rules is to treat them as standard if
 
 1. We'll start by creating the ranking rule for the Ultra tier offer item. Click into the first textbox in the **Criterion 1** section, then click on the **Select attribute** button when it appears.
 
-![Attribute for Criterion one](assets/9dtRBgsPsTuTGA9ANHPuy-20251210-233052.png)
+![Attribute for Criterion one](assets/create-ranking-formula-2.png)
 
 1. When the 'Select an attribute' dialog box opens, click on **Offer name**. Once selected, click **Save.**
 
@@ -86,7 +86,7 @@ One way to think about priority adjustment rules is to treat them as standard if
 
    Your rule should now look like this:
 
-![Validate criterion rule one](assets/3PR0-lqNcsYUS1Qd_jitV-20251211-064257.png)
+![Validate criterion rule one](assets/create-ranking-formula-1.png)
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ One way to think about priority adjustment rules is to treat them as standard if
 1. Add the condition that this rule should apply to anyone with a birth year greater than **1966 **(anyone younger than 60).
 1. Just like the previous rule, multiply the offer item's default priority score by 100. When finished, your 'Criterion 2' rule should look like this:
 
-![Validate criterion 2 in the ranking formula](assets/aYDw7dyb7d16QnpdcXeIc-20251211-071848.png)
+![Validate criterion 2 in the ranking formula](assets/create-ranking-formula-5.png)
 
 >[!NOTE]
 >

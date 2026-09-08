@@ -10,7 +10,7 @@ If everything looks good go ahead and click the **Finish **button in the upper r
 
 After you click** Finish**, you will be brought back to the **Dataflows** screen. It should takes a few minutes to create the Dataflow. The first run should kick in a couple of minutes. 
 
-![Dataflows sources screen](assets/6sA8AQUkMU5EyNTtr1EDJ_dataflows-sources-screen.png)
+![Dataflows sources screen](assets/dataflows-sources-screen.png)
 
 >[!NOTE]
 >

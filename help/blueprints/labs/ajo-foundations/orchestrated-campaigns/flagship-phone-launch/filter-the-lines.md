@@ -16,25 +16,25 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. Click the **+** icon on the bottom transition of the Fork activity and select the **Split** activity on the popup. 
 
-![Add split activity to bottom branch](assets/w9KPsv0Pjydoze8PpXaSU-20260119-182613.png)
+![Add split activity to bottom branch](assets/filter-the-lines-13.png)
 
 
 
 1. In the right rail update the Label to state the following:  `Filter out opt'd out lines`
 
-![Split label](assets/FsJyLa-hcimxLtqFC0bsl-20260119-192008.png)
+![Split label](assets/filter-the-lines-7.png)
 
 
 
 1. In the right rail expand the default segment **Subset** section and click the **Create filter** button
 
-![Add a filter to the split](assets/FjrLDe6CSr9IOlqlGVwaQ_image.png)
+![Add a filter to the split](assets/filter-the-lines-6.png)
 
 
 
 1. Add a condition to ensure that you remove all Customer Lines that are opt'd out of SMS messaging and then click **Confirm**.
 
-![SMS Opt-in condition](assets/A6ND_-ftBWG1UbhEGv_J6-20260119-192452.png)
+![SMS Opt-in condition](assets/filter-the-lines-1.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. Click the Save button in the upper to save your work.  Your canvas should look like so now\...
 
-![MXUocahyDcGV47CCwO 20260119 192633](assets/CS_MXUocahyDcGV47CCwO-20260119-192633.png)
+![MXUocahyDcGV47CCwO 20260119 192633](assets/filter-the-lines-3.png)
 
 
 
@@ -52,21 +52,21 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. On the workflow canvas, click the **+** icon after the split condition you added and select the **SMS Activity**
 
-![Add the SMS activity](assets/LIRjgKoA--tRTv6KOe5Lj-20260119-193014.png)
+![Add the SMS activity](assets/filter-the-lines-8.png)
 
-![SMS activity on the canvas](assets/DYHu3wPBBSx-26ikM_MpK-20260119-193117.png)
+![SMS activity on the canvas](assets/filter-the-lines-4.png)
 
 
 
 1. In the right rail click on the Edit SMS button to start configuration of the SMS message
 
-![Edit SMS](assets/sYg2JgbsccEvx2FgxZpZT-20260410-155912.png)
+![Edit SMS](assets/filter-the-lines-12.png)
 
 
 
 1. In the top nav click on the Actions menu item and then from the SMS configuration drop-down select the channel you previously created.
 
-![AAdFEQXocBhN76EZqlRis 20260609 204837](assets/AAdFEQXocBhN76EZqlRis-20260609-204837.png)
+![AAdFEQXocBhN76EZqlRis 20260609 204837](assets/filter-the-lines-2.png)
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ The transition of the fork currently has a targeting dimension of Customer Line 
 
 The channel configuration for SMS was already setup for you beforehand and it currently looks like so...
 
-![UMCuyvc 20260115 220814](assets/TOxeA4jF7GHha_UMCuyvc-20260115-220814.png)
+![UMCuyvc 20260115 220814](assets/flagship-phone-launch-1.png)
 
 **How you read this is as follows:**
 
@@ -100,13 +100,13 @@ So how do you get this to work?  Add a change dimension 😀
 
 1. Click the back button on the SMS edit screen
 
-![Exit the sms activity](assets/V2x-FDlLxCSCBmuusLBAT-20260119-194824.png)
+![Exit the sms activity](assets/filter-the-lines-9.png)
 
 
 
 1. On the workflow canvas, click the **+**** icon** between the Filter and SMS activities and select **Change Dimension**. 
 
-![Add change dimension](assets/l0aLqQDSV5vbV7CXOg1LS-20260119-195015.png)
+![Add change dimension](assets/filter-the-lines-11.png)
 
 
 
@@ -114,13 +114,13 @@ So how do you get this to work?  Add a change dimension 😀
    - **Label:**  `Convert Line to Account`
    - **New target dimension:   **`dep-rel: Customer Account`
 
-![Change dimension configuration](assets/wm5x3piBPL1Anyk3ikG8A-20260609-205205.png)
+![Change dimension configuration](assets/filter-the-lines-14.png)
 
 
 
 1. Click the **Save **button in the upper right of the canvas to save your work. When done your workflow should now look like this...
 
-![Final workflow after change dimension](assets/fH2Wl5yPrM0gy00pE8IcE-20260120-160446.png)
+![Final workflow after change dimension](assets/filter-the-lines-10.png)
 
 
 
@@ -132,7 +132,7 @@ Now that you've fixed the workflow let's try re-configurating the SMS.
 
 1. Click on the SMS activity in the workflow canvas and then, in the left rail, click on the **Edit SMS** button
 
-![Edit SMS](assets/sYg2JgbsccEvx2FgxZpZT-20260410-155912.png)
+![Edit SMS](assets/filter-the-lines-12.png)
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ Now that you've fixed the workflow let's try re-configurating the SMS.
 
 1. In the top nav click on the **Actions **menu item and then from the SMS configuration drop-down select the channel you previously created.
 
-![SMS configuration with your sms channel](assets/FUknXmjhxkr2Sryf347P--20260609-205457.png)
+![SMS configuration with your sms channel](assets/filter-the-lines-5.png)
 
 >[!TIP]
 >

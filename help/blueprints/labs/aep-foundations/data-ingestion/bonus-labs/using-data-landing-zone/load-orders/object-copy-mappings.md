@@ -63,5 +63,5 @@ There are 2 sets of mappings that you should verify. In total, you should have 6
 
 ![The resultant mappings for productlistitems should look like this.png "The resultant mappings for ProductListItems\[*] should look like this"](assets/pxtfzDmbEF935LVFdNUgL_the-resultant-mappings-for-productlistitems-should-look-like-this.png "The resultant mappings for ProductListItems\[*] should look like this")
 
-![The resultant mappings for productlistitems should look like this copy](assets/pY2tJYQ14yZ0W9jKE6RU2_the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
+![The resultant mappings for productlistitems should look like this copy](assets/the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
 

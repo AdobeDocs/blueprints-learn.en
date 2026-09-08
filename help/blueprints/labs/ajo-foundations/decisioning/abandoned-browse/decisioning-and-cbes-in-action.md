@@ -31,7 +31,7 @@ Find the corresponding Experience Events for each profile in the Postman collect
 1. Ensure that the **EDGE\_REGION** and **DATASTREAM\_CONFIG** environment variables are still set. If they need to be set again, review the steps in the 'Import Environment and Collection' lab.
 1. Expand the **Decisioning Lab** folder. You will see 2 Experience Events for each profile:
 
-![Postman calls](assets/gqx1_vjyvWTr8iedZc0Ya-20260126-203138.png)
+![Postman calls](assets/decisioning-and-cbes-in-action-8.png)
 
 ## Sending in Experience Events
 
@@ -60,11 +60,11 @@ Let's start with Bob's Profile.
 1. Click on the **Bob - Page Bottom Data Collection **request. 
 1. Click on the **Body** tab and notice the parameters being passed, such as the customerID namespace in the IdentityMap, which would indicate that he's authenticated, as well as the 'web.webPageDetails.name' parameter that passes in the pagename of 'phones\:apple\:iphone 17\:overview'.
 
-![Bob page bottom call](assets/e6d73plnolcjKa8jjbpyv-20251214-071117.png)
+![Bob page bottom call](assets/decisioning-and-cbes-in-action-7.png)
 
 1. Click **Send** in the upper right corner to send a page view. You should get a response back similar to this
 
-![Bob data collection response](assets/DYpxvZ0NiQNoAOSsVFLwV-20251214-071803.png)
+![Bob data collection response](assets/decisioning-and-cbes-in-action-3.png)
 
 1. Once you've received a proper response, click **Send** again to resend the same Page bottom event a 2nd time. Wait a few seconds, then send in a 3rd Data Collection call for the Bob profile. You should have sent a total of 3, page-bottom calls.
 
@@ -73,16 +73,16 @@ At this point, the system should be processing those hits and adding Bob to the 
 1. Return to the AJO UI and click on **Profiles** in the left rail, followed by the **Browse** tab.
 1. Search for Bob's profile by using the **customerID** namespace with the value of **287415903**.
 
-![Search for Bob](assets/97P5KPlLZKT3putIOOnQC-20260313-053034.png)
+![Search for Bob](assets/decisioning-and-cbes-in-action-2.png)
 
 1. Click **View** to open Bob's profile (Bob's profile color may be different than is shown in the screenshot).
 
-![View Bob's profile](assets/NscJlLhIiLgUbPJUyu--9-20260313-053034.png)
+![View Bob's profile](assets/decisioning-and-cbes-in-action-4.png)
 
 1. Once Bob's profile opens, click on the **Audience membership** tab, and you should see that Bob is now a member of the 'dep: Interested in iPhone 17' segment, at least from AEP Hub's perspective. 
 1. Click on **Attributes,** then select the **Edge **radio button to switch to the Edge view.
 
-![Switch to Edge View](assets/2iw3Lm_SEmPZQEJxzep6i-20251214-073538.png)
+![Switch to Edge View](assets/decisioning-and-cbes-in-action-1.png)
 
 >[!WARNING]
 >
@@ -92,11 +92,11 @@ At this point, the system should be processing those hits and adding Bob to the 
 
 1. Click again on **Audience membership,** and if you did those steps quickly enough, you should see that the Edge is selected and shows that Bob has no Audience membership
 
-![No edge audience membership](assets/OhKKBxLIsPqprnB-tqf3p-20251214-073155.png)
+![No edge audience membership](assets/decisioning-and-cbes-in-action-5.png)
 
 1. In a new browser tab, navigate to the Journey you created and click into it. You should see that one profile has entered the Journey and is now on the CBE node.
 
-![See Bob entery the journey](assets/PrnrfgX9PrpsNvHHQ7Bjn-20251214-073915.png)
+![See Bob entery the journey](assets/decisioning-and-cbes-in-action-6.png)
 
 At this point, we know that Bob has entered the Journey and that the Edge projection is currently assembling a projection that will update Bob's profile on the Edge. 
 
@@ -107,13 +107,13 @@ At this point, we know that Bob has entered the Journey and that the Edge projec
 
       Bob was born in 1974, which is greater than 1966, so he would have qualified for the 2nd ranking formula criterion, and his Generic, Base, and Pro offer priority scores would have been multiplied by 100, giving those offers scores of 100, 200, and 300, respectively. However, Bob Basic has a plan ID 1, so he's not eligible for the Ultra or Pro tier offers thanks to the Decision rule. Therefore, the Base tier offer, which has a score of 200, would be shown. You can see that in the response (you will likely have to scroll down):
 
-![Bob's first response](assets/kA4UfXMMWzLk26tnT_Ivh-20251218-074952.png)
+![Bob's first response](assets/decisioning-and-cbes-in-action-9.png)
 
 1. Remember that this Postman request automatically sends a display notification for this offer, so AJO has already recorded at least one impression for this offer. Click **Send** again to send a second impression. Verify that the base offer was again returned.
 1. Recall that we put a frequency cap of 3 impressions on the Base, Pro, and Ultra tier models. Click **Send** a 3rd time to get a 3rd response with the Base tier and to record another impression. 
 1. Click **Send **a fourth time, and what should happen? The frequency capping for the Base tier offer should be reached, and you'll receive the Generic offer in the response:
 
-![Bob's new offer](assets/kse1yQg-eseTMGpy1hHsb-20251218-075221.png)
+![Bob's new offer](assets/decisioning-and-cbes-in-action-10.png)
 
 1. Click **Send **again, and you'll see the Generic tier offer. You could click Send 100 more times, and you'll get the same offer back until the next day when the frequency capping is reset.
 
@@ -123,7 +123,7 @@ At this point, we know that Bob has entered the Journey and that the Edge projec
 
 1. Return to the Journey Orchestration UI and click into the **iPhone 17 Abandon Browse **Journey you created. Because the Journey is live and published, you'll start seeing stats. You should see that 1 profile has entered the Journey and is currently at the CBE node.
 
-![Journey reporting is updated](assets/PrnrfgX9PrpsNvHHQ7Bjn-20251214-073915.png)
+![Journey reporting is updated](assets/decisioning-and-cbes-in-action-6.png)
 
 >[!NOTE]
 >

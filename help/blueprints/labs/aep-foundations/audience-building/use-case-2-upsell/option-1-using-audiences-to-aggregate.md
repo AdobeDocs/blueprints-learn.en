@@ -14,7 +14,7 @@ In this audience build we will need to determine total billing data usage in the
 
 1. Create a new Audience.  Use the Billing Statement Event Card.
 
-![QPzeyFejTc 8hjTOkT create a new audience use the billing statement event card](assets/px_qPzeyFejTc_8hjTOkT_create-a-new-audience-use-the-billing-statement-event-card.png)
+![QPzeyFejTc 8hjTOkT create a new audience use the billing statement event card](assets/create-a-new-audience-use-the-billing-statement-event-card.png)
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ In this audience build we will need to determine total billing data usage in the
 
 
 
-![Select the billing data usage field 1](assets/RjsOp4wq2Y69QdzZzNTjc_select-the-billing-data-usage-field-1.png)
+![Select the billing data usage field 1](assets/select-the-billing-data-usage-field-1.png)
 
 
 
-![YCpKnuB4ahBt1 select the billing data usage field 2](assets/WvsHAZ0_YCpKnuB4ahBt1_select-the-billing-data-usage-field-2.png)
+![YCpKnuB4ahBt1 select the billing data usage field 2](assets/select-the-billing-data-usage-field-2.png)
 
 
 
@@ -42,7 +42,7 @@ In this audience build we will need to determine total billing data usage in the
 
 4\. Change the time above the Event card from Any Time to In Last and the value to 6 and the days to months
 
-![Change t](assets/z60-lRWO6zEQPsJGtVE-m_change-t.png)
+![Change t](assets/change-t.png)
 
 
 
@@ -61,23 +61,23 @@ In this audience build we will need to determine total billing data usage in the
 >- Sum/Count/Min/Max/Average (like we did above)
 >- Counts only (this counts each Event as 1)
 >
->![Counts only this counts each event as 1](assets/uzn0zTYzRuEOzJ01IlEC6_counts-only-this-counts-each-event-as-1.png)
+>![Counts only this counts each event as 1](assets/counts-only-this-counts-each-event-as-1.png)
 >
 >Both can be used together if desired
 >
->![Both can be used together if desired](assets/fGNSR67CZBkgdLe34m3fh_both-can-be-used-together-if-desired.png)
+>![Both can be used together if desired](assets/both-can-be-used-together-if-desired.png)
 
 ## Audience #2 - Rolling 6 Month Avg. Monthly Data Usage of >= 20GB 
 
 1. Do not click on the hyperlink, but select the row in the Audience List UI so it is highlighting the one we just created. Once it is highlighted, click copy.
 
-![E4Z21gQIQtPK v once it is highlighted click copy](assets/LcaeHU_E4Z21gQIQtPK-v_once-it-is-highlighted-click-copy.png)
+![E4Z21gQIQtPK v once it is highlighted click copy](assets/once-it-is-highlighted-click-copy.png)
 
 
 
 2\. Click the copy and Edit it.  Click on the Event card and change the Sum to Average. Change the greater than to greater than or equal to, and the value to 20. Copy the pseudo code into the description.
 
-![7jXI8ncd copy the pseudo code into the description](assets/YdSYiI-b9VRZ_7jXI8ncd_copy-the-pseudo-code-into-the-description.png)
+![7jXI8ncd copy the pseudo code into the description](assets/copy-the-pseudo-code-into-the-description.png)
 
 
 
@@ -96,13 +96,13 @@ In this audience build we will need to determine total billing data usage in the
 >
 >XDM Individual Profile > Devbc> Plan Details > Plan ID properties > **Plan Name (Plan Name)**
 
-![Eb9q22 select 22ultimate 22 change to does not equal](assets/ZPDWk4jACy7PbG_eb9q22_select-22ultimate-22-change-to-does-not-equal.png)
+![Eb9q22 select 22ultimate 22 change to does not equal](assets/select-22ultimate-22-change-to-does-not-equal.png)
 
 
 
 5\. Click on Audiences --> Experience Platform. Drag Billing Usage Sum > 140 GB and Billing Usage Avg >= 20 GB next to Plan Name.
 
-![20 gb next to plan name](assets/YKV8tSsAjn1gkShNtXYOm_20-gb-next-to-plan-name.png)
+![20 gb next to plan name](assets/20-gb-next-to-plan-name.png)
 
 
 
@@ -120,7 +120,7 @@ In this audience build we will need to determine total billing data usage in the
 
 8\. Replace **Plan Name (Plan Name)** with: XDM Individual Profile > Devbc > Plan Details > **Plan Name**
 
-![Plan name](assets/Yj0bYLNwN7NYvkH1evela_plan-name.png)
+![Plan name](assets/plan-name.png)
 
 >[!NOTE]
 >

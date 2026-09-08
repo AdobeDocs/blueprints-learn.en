@@ -19,7 +19,7 @@ Download File — [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.po
 1. Launch Postman on your local machine.
 1. If necessary, switch to the Workspace you are using for these labs (if you're using  Workspace at all) and click on the **Import** button.
 
-![Postman begin import](assets/uCY1kQDFa7lfHFWTuKtvr_import-buttonenvironmental-file.png)
+![Postman begin import](assets/import-buttonenvironmental-file.png)
 
 1. Paste the local URL of the **AJO Bootcamp.postman\_environment.json **file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import
 
@@ -29,7 +29,7 @@ Download File — [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.po
 
 1. Once imported, validate that the environment exists by clicking on the **Environments** tab in the left sidebar. You should see that the AJO Bootcamp environment is now available to you. 
 
-![Validate environment import](assets/zxYgOR4x5jvIQOur0I1DG-20260106-231808.png)
+![Validate environment import](assets/import-environment-file-3.png)
 
 ## Set Environment Variables
 
@@ -60,11 +60,11 @@ When done, your environment file should look similar to this:
 
 
 
-![Verify Postman region variable](assets/ubOnxytcSag8BTinQ6Kbp-20260313-213053.png)
+![Verify Postman region variable](assets/import-environment-file-2.png)
 
 1. You now need to save your environment variables; however, there is no save button in the Postman UI. You will need to use the Windows or Mac hot keys for saving (ctrl+s on Windows, for example). You will know your changes have been saved when you see a **Changes saved** message in the lower-right-hand side of the Postman UI:
 
-![Verify changes saved](assets/7hqCvnT-by62zZc4OPMzT-20260107-074301.png)
+![Verify changes saved](assets/import-environment-file-1.png)
 
 >[!TIP]
 >

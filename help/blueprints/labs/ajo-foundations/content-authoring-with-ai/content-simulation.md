@@ -23,7 +23,7 @@ This allows you to preview how different customers will experience your personal
 
 You will use the sample test profile file **sample.csv** from your toolkit.
 
-![Image](assets/rn5YPx7TSOXwCcdZcYy2J_image.png)
+![Image](assets/content-simulation-6.png)
 
 ## Open the Simulation Tool
 
@@ -31,7 +31,7 @@ You will use the sample test profile file **sample.csv** from your toolkit.
 1. Click **Simulate Content**.
 1. Select **Simulate content variation**.
 
-![CHBaM4efsxWxR image](assets/19p3U9X_CHBaM4efsxWxR_image.png)
+![CHBaM4efsxWxR image](assets/content-authoring-with-ai-1.png)
 
 A simulation panel will open after few seconds.
 
@@ -42,11 +42,11 @@ A simulation panel will open after few seconds.
    - **Jason** → Below 40 years old 
 1. Click **Upload Input Data**.
 
-![Image](assets/Psxhxvriekm8nui4CHtA2_image.png)
+![Image](assets/content-simulation-2.png)
 
 1. Choose **sample.csv** and click **Continue**.
 
-![MJz46u7gfk image](assets/rgjLqjHNWL_MJz46u7gfk_image.png)
+![MJz46u7gfk image](assets/content-simulation-5.png)
 
 AJO processes the file and prepares previews.
 
@@ -59,19 +59,19 @@ AJO will show both variants side by side based on the uploaded profiles.
 
 - **Alex** → Sees **Variant 1** (Age above 40)
 
-![Image](assets/hNBkCWhSx-5wd9jqdXKqh_image.png)
+![Image](assets/content-simulation-3.png)
 
 If you scroll up you wil also see personalised fields with name now as you can see below. 
 
-![Image](assets/kGCmiMbc4Xqe6Tka-7aHJ_image.png)
+![Image](assets/content-simulation-4.png)
 
 - **Jason** → Sees **Variant 2** (Age below 40)
 
-![Image](assets/zDAMHrNOlgebAy6bjTP25_image.png)
+![Image](assets/content-simulation-7.png)
 
 With Jason's full name as well. How cool is that!
 
-![Image](assets/3Vj09Dz9NDR6d4E6iUjuH_image.png)
+![Image](assets/content-simulation-1.png)
 
 
 

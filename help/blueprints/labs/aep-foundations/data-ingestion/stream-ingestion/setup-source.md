@@ -13,7 +13,7 @@ exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
 1. Select **Streaming **from the list of sources (ensure the All sources radio button is selected)
 1. Click on **Setup** / **Add Data** for the HTTP API
 
-![WexJ7cKPKWnMGP5dyx1 sequence of steps to create a http api account](assets/X_wexJ7cKPKWnMGP5dyx1_sequence-of-steps-to-create-a-http-api-account.png)
+![WexJ7cKPKWnMGP5dyx1 sequence of steps to create a http api account](assets/sequence-of-steps-to-create-a-http-api-account.png)
 
 
 
@@ -35,7 +35,7 @@ Perform the following tasks:
 
 Your screen should look like this: 
 
-![Connect](assets/t2CUefagaDhiWDRWfVT3y_connect-.png)
+![Connect](assets/connect-.png)
 
 
 
@@ -56,7 +56,7 @@ You should now see a green checkbox with the message "Connected". Click the **Ne
 1. In the Source data schema section of the screen, upload the JSON file **Lab\_Single\_Customer\_sample.json** from your local file system you downloaded from the previous lab.
 1. Once the file is uploaded, a preview will appear as follows. Click the **Next** button in the upper right to continue. Observe how the birth Date field is in a different format YYYY-MM-DD compared to the MM/DD/YYYY format that we saw in the batch ingestion lab earlier. 
 
-![Sample customer record for pipeline design and validation](assets/YgJr0DI9OBe-77RvhQ95v_sample-customer-record-for-pipeline-design-and-validation.png)
+![Sample customer record for pipeline design and validation](assets/sample-customer-record-for-pipeline-design-and-validation.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Perform the following steps:
    - `Customer Account Stream - <Your Initials>`
 1. Click the **Next** button to continue
 
-![Configuring a dataflow](assets/NiQO24Jz8hZOdBCi6YikY_configuring-a-dataflow.png)
+![Configuring a dataflow](assets/configuring-a-dataflow.png)
 
 >[!NOTE]
 >

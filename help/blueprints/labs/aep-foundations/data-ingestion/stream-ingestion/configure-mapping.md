@@ -18,13 +18,13 @@ Perform the following steps:
 
 1. Click on the **Import Mapping** button on the mapping screen
 
-![Import mapping button](assets/1Cth7lXmcg7Qy7g91DPPG_import-mapping-button.png)
+![Import mapping button](assets/import-mapping-button.png)
 
 
 
 2\. Choose the datalfow you created in the Batch Ingestion section and select it.  It should be named like **Customer Account Batch v2 - \<your initials>.**
 
-![Choose t](assets/d5t9jks6ZHFLyz1CG8NIp_choose-t.png)
+![Choose t](assets/choose-t.png)
 
 
 
@@ -35,7 +35,7 @@ After import you are going to see errors appear.  This is because the date forma
 
 The calculated fields that use **date **functions will need to be updated to account for the change in the date format used. 
 
-![Mapping after the import](assets/zBo9qgbNkQCwh6hYiQ3k7_mapping-after-the-import.png)
+![Mapping after the import](assets/mapping-after-the-import.png)
 
 
 
@@ -43,7 +43,7 @@ The calculated fields that use **date **functions will need to be updated to acc
 
 Update each calculated field by simply clicking on the arrow icon next to each calculated field and then validate your mappings
 
-![OQ arrow to click to edit the formula for the calculated fields](assets/oQ01smgihW8ywPdVTZ_oQ_arrow-to-click-to-edit-the-formula-for-the-calculated-fields.png)
+![OQ arrow to click to edit the formula for the calculated fields](assets/arrow-to-click-to-edit-the-formula-for-the-calculated-fields.png)
 
 | Target Field            | New Calculated Field                                                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |

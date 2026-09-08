@@ -17,7 +17,7 @@ Confirm that the event was successfully ingested into Adobe Experience Platform.
    - **Identity value** -> `henry.creel@emailsim.io`
 1. Click on **Events **tab. Look for `orders.shipped` event.
 
-![PpKXqvI9HUjWc 20251118 002104](assets/xLJy37b_ppKXqvI9HUjWc-20251118-002104.png)
+![PpKXqvI9HUjWc 20251118 002104](assets/validate-event-ingested-3.png)
 
 >[!WARNING]
 >
@@ -34,7 +34,7 @@ Confirm that the event was successfully ingested into Adobe Experience Platform.
    - Any Event Edge (within 15 minutes)
    - Any Event Streaming (within 15 minutes)
 
-![NIpWSijjwrCP8n9yT7qb 20251118 002155](assets/_nIpWSijjwrCP8n9yT7qb-20251118-002155.png)
+![NIpWSijjwrCP8n9yT7qb 20251118 002155](assets/validate-event-ingested-2.png)
 
 
 
@@ -45,7 +45,7 @@ Now that you have validated the Profile got in, let's send in some Order Shipped
 1. Go back to Postman, find the **Ship Order Event**
 1. click on the **Body **& change the **email address** to yours.  
 
-![J6R uupsRQFa3cVlQi4aq 20251111 230837](assets/J6R-uupsRQFa3cVlQi4aq-20251111-230837.png)
+![J6R uupsRQFa3cVlQi4aq 20251111 230837](assets/validate-event-ingested-1.png)
 
 1. **Save **and hit **Send**.  
 1. Go back to steps 1-3 and validate using your email address. 

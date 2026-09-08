@@ -38,7 +38,7 @@ This will send in an event **with no OAuth Token** to simulate a page view comin
 1. **Folder **-> Profile Lab
 1. **API Request** -> Create Web Event Edge (No Auth)
 
-![Navigate to the postman call](assets/kFninvzA9ebyDqF-QDpt1_navigate-to-the-postman-call.png)
+![Navigate to the postman call](assets/navigate-to-the-postman-call.png)
 
 ## Modify API Request
 
@@ -49,7 +49,7 @@ Before you can execute the API request you need to add some additional pieces of
 1. In the left rail click on **Datastreams **(under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value
 
-![4G6rGvHEqMAe6IJyPU gather datastream id](assets/Z9_4G6rGvHEqMAe6IJyPU_gather-datastream-id.png)
+![4G6rGvHEqMAe6IJyPU gather datastream id](assets/gather-datastream-id.png)
 
 ###
 
@@ -71,7 +71,7 @@ Change email to your email
 
 Execute your request by clicking the **Send **button. 
 
-![5JHa s xtuwZKH2auy2Z image](assets/_5JHa_s-xtuwZKH2auy2Z_image.png)
+![5JHa s xtuwZKH2auy2Z image](assets/send-an-edge-event-1.png)
 
 What you should see coming back in the response are these core things:
 
@@ -85,7 +85,7 @@ What you should see coming back in the response are these core things:
 
 On webhook.site you should immediately see the same payload body you sent via your Postman request appear. 
 
-![On webho](assets/xtscef1uZBOlrMHhpuOcR_on-webho.png)
+![On webho](assets/on-webho.png)
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 - Any Event Edge (within last 15 minutes)
 - dep: Any Event Streaming (within the last hour)
 
-![Any event streaming within the last hour](assets/3ooV-qMh4bGsddex6SNVZ_any-event-streaming-within-the-last-hour.png)
+![Any event streaming within the last hour](assets/any-event-streaming-within-the-last-hour.png)
 
 ###
 

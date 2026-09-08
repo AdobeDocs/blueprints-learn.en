@@ -43,7 +43,7 @@ For this exercise, we will improve the email that we have created using the AI A
 1. Select the **Subject Line** field.
 1. Click the **AI Assistant icon**. (see below)
 
-![Image](assets/-0h2e5ISNiMLzKRMfRPJ6_image.png)
+![Image](assets/ai-assistant-and-content-personalization-1.png)
 
 1. You will notice that Brand Guideline is selected by default. 
 1. Enter the prompt:
@@ -54,7 +54,7 @@ For this exercise, we will improve the email that we have created using the AI A
 1. Review the four variants generated.
 1. Choose the variant with the best alignment score and click **Select**.
 
-![Image](assets/XD8NzgK8deG5FwhCumWfB_image.png)
+![Image](assets/ai-assistant-and-content-personalization-16.png)
 
 >[!WARNING]
 >
@@ -67,16 +67,16 @@ For this exercise, we will improve the email that we have created using the AI A
 
 1. Open email by clicking on "Edit email body" button. 
 
-![Image](assets/lfiTrm4RxQKBRKlgJGiPw_image.png)
+![Image](assets/ai-assistant-and-content-personalization-20.png)
 
 1. Click on the **Product ****Catchy ****line** heading.
 1. Open AI Assistant by clicking on **Generate and select a text**
 
-![Sbl image](assets/Q08gHemx7Wzp1Nx5J_sbl_image.png)
+![Sbl image](assets/ai-assistant-and-content-personalization-13.png)
 
 1. Select **Connection 5G Brand Guidelines** from the dropdown.
 
-![Image](assets/iA9tZ5GGChMQywejO03I0_image.png)
+![Image](assets/ai-assistant-and-content-personalization-19.png)
 
 1. Prompt:
 
@@ -84,7 +84,7 @@ For this exercise, we will improve the email that we have created using the AI A
 
 1. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English **and Tone to **Exciting**. Use shorter version by scalling down the dial. 
 
-![F image](assets/AfA8-kOIN5b4VPwaRTN_F_image.png)
+![F image](assets/ai-assistant-and-content-personalization-6.png)
 
 1. Click the **Generate** button
 1. Review and select the best version, 
@@ -92,11 +92,11 @@ For this exercise, we will improve the email that we have created using the AI A
 
 
 
-![Image](assets/rX7emQEYWX2pqzx4CaihB_image.png)
+![Image](assets/ai-assistant-and-content-personalization-25.png)
 
 1. Once you are happy with the text click on **Select**
 
-![Image](assets/TTtNeygxK-2Q3K0GPNCFX_image.png)
+![Image](assets/ai-assistant-and-content-personalization-15.png)
 
 ## Description prompt
 
@@ -104,19 +104,19 @@ This time we want to test how AI can help to find issues.
 
 1. Select the text below which is templaed text and has no meaning. 
 
-![Image](assets/AK4pNIoQ1JEG4LSH6npvD_image.png)
+![Image](assets/ai-assistant-and-content-personalization-5.png)
 
 1. Click on evaluate button as shown below. 
 
-![Image](assets/Jfi8DnFsdBmnEjnZIuxZ0_image.png)
+![Image](assets/ai-assistant-and-content-personalization-11.png)
 
 1. Your original content will be automatically selected with your brand, as shown in Steps 1 and 2 below. Click the **Evaluate **button to proceed.
 
-![Image](assets/ZwLSLcPjLehEB4HMMKZh__image.png)
+![Image](assets/ai-assistant-and-content-personalization-17.png)
 
 1. As expected, you will notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case we will not revise the existing materials. Instead, we will leave them as they are and create new content from scratch that fully aligns with brand standards.
 
-![DCObYpgpMgLJM WX image](assets/BkWA_dCObYpgpMgLJM_WX_image.png)
+![DCObYpgpMgLJM WX image](assets/ai-assistant-and-content-personalization-7.png)
 
 1. Lets use new paragraph that is generated for you using AI using the prompt below. You can use same approach for decription text using the prompt below.
 
@@ -132,7 +132,7 @@ In order to save time I have already created the text for you. Copy and paste be
 
 Your email should look like as shown below.  
 
-![Image](assets/5G9kG0QM7i020PTHjAt9R_image.png)
+![Image](assets/ai-assistant-and-content-personalization-4.png)
 
 
 ## Add a Firefly-Generated Image
@@ -145,35 +145,35 @@ We understand that we have the year of birth of the profile. One of the experien
 
 1. Drag an **Image** component to the left-hand side column below iphone 17 Family block.
 
-![Image](assets/c3rbcClV8GI6CMKsrQ4a5_image.png)
+![Image](assets/ai-assistant-and-content-personalization-18.png)
 
 1. Click outside then select the image placeholder. (Make sure you click on the image otherwise you wont see Firefly option)
 
-![CuUzs4Go  image](assets/zOSVTFzCDW-_cuUzs4Go__image.png)
+![CuUzs4Go  image](assets/ai-assistant-and-content-personalization-26.png)
 
 1. Under **Firefly**, click **Generate and select image**.
 
-![Image](assets/piEaRHLZlEhUBhi0e7C8H_image.png)
+![Image](assets/ai-assistant-and-content-personalization-22.png)
 
 ## Upload Reference Image
 
 1. Turn on **Reference Style**.
 1. Select **Connection 5G Brand Guideline **on brand selection
 
-![Image](assets/EnSUhWXFl3dj3A9iLPjTX_image.png)
+![Image](assets/ai-assistant-and-content-personalization-8.png)
 
 1. Click on Upload Image
 
-![Image](assets/QdJsCdlJyOqFUIwLMMdVM_image.png)
+![Image](assets/ai-assistant-and-content-personalization-14.png)
 
 1. Select reference.jpg frmo the toolkit folder
 
-![Image](assets/OqkUgOluXBatyb5ajA8Q3_image.png)
+![Image](assets/ai-assistant-and-content-personalization-12.png)
 
 1. Add Image Prompt
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
-![Xp4IVBEKWnbcw image](assets/q8Rj8KO_xp4IVBEKWnbcw_image.png)
+![Xp4IVBEKWnbcw image](assets/ai-assistant-and-content-personalization-23.png)
 
 ## Choose Image Settings
 
@@ -186,26 +186,26 @@ Choose your **Image settings**:
    - **Lighting: **Dramatic Lighting
 1. Press **Generate** button 
 
-![TByDX1ZBhU0Qpjd image](assets/3fLYT_tByDX1ZBhU0Qpjd_image.png)
+![TByDX1ZBhU0Qpjd image](assets/ai-assistant-and-content-personalization-3.png)
 
 
 ## Select & Insert the Generated Image
 
 1. Review Firefly results by check all images generated.
 
-![Image](assets/Iw8mtSVnxoBLOm6jeMzw8_image.png)
+![Image](assets/ai-assistant-and-content-personalization-10.png)
 
 1. Click **Select** for your desired chosen image.
 
-![Image](assets/GbMFHvNb1Ke1fXjA7fdUW_image.png)
+![Image](assets/ai-assistant-and-content-personalization-9.png)
 
 1. If prompted with an upload modal, click **Next**.
 
-![Image](assets/rTZI2OL27vQNJxFgc3-db_image.png)
+![Image](assets/ai-assistant-and-content-personalization-24.png)
 
 1. Then click **Import**.
 
-![Image](assets/p-wWdPiLKu1CCU30sE7V8_image.png)
+![Image](assets/ai-assistant-and-content-personalization-21.png)
 
 ## Finalise Block Design
 
@@ -213,7 +213,7 @@ I have applied rounded border radius by 10 just to make it look modern. If you h
 
 After few iterations and variation we have final design. Your final layout should resemble the example.
 
-![Image](assets/2nOA-vFscSxP4X0ZTeCqi_image.png)
+![Image](assets/ai-assistant-and-content-personalization-2.png)
 
 At this point, you should feel confident using AI to accelerate and elevate content creation.
 

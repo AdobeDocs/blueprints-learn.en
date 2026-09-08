@@ -14,11 +14,11 @@ In Use Case #1 we sent in an Event to the Edge.  There are some use cases where 
 
 Click on Audience on the left rail and create Audience button in the top right.  
 
-![Click on](assets/LVT9qiIXxVZaVJ3UqcxOc_click-on.png)
+![Click on](assets/click-on.png)
 
 Find and use Order Placed Event Type card and Drag that onto the canvas.
 
-![C let s use order placed event type card and drag that onto the canvas](assets/8rycT7n9l00yXr8yi9d_C_let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
+![C let s use order placed event type card and drag that onto the canvas](assets/let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
 
 ## Update Event Rules
 
@@ -33,7 +33,7 @@ Save as **Order Event Streaming (within 15 minutes)**
 
 
 
-![Image](assets/1h0MQ-tRlcIDtKFustwl4_image.png)
+![Image](assets/send-order-event-to-hub-1.png)
 
 ## Activate to Destination
 
@@ -43,7 +43,7 @@ Click Activate to Destination
 
 
 
-![K5 image](assets/4i7TVl1ONe8sIvKxbi_k5_image.png)
+![K5 image](assets/send-order-event-to-hub-2.png)
 
 ### Destination
 
@@ -51,13 +51,13 @@ Select the Streaming Destination you created earlier (Streaming DEP Webhook)
 
 
 
-![XQnwts5CiaLLjQ  image](assets/etDXZ_XQnwts5CiaLLjQ__image.png)
+![XQnwts5CiaLLjQ  image](assets/send-order-event-to-hub-4.png)
 
 ### Mapping
 
 Leave Mapping alone and click Next
 
-![Image](assets/JafCnlfB55WIfkwUfaiPd_image.png)
+![Image](assets/send-order-event-to-hub-3.png)
 
 Click Finish
 
@@ -70,7 +70,7 @@ Launch postman on your computer and navigate to the following API call:
 1. **Folder **--> Profile Lab
 1. **API Request** --> `Create Order Event`
 
-![W43tBv create web event api request](assets/Kjsq3C7LCIYktN_w43tBv_create-web-event-api-request.png)
+![W43tBv create web event api request](assets/create-web-event-api-request.png)
 
 
 ## Modify API Request
@@ -112,7 +112,7 @@ Your final API request should look like this when done
 >
 >DO NOT EXECUTE YET!
 
-![Tguisg final order api request](assets/W0BXKhP2HZxF1f_Tguisg_final-order-api-request.png)
+![Tguisg final order api request](assets/final-order-api-request.png)
 
 
 ## Execute the API
@@ -122,7 +122,7 @@ Your final API request should look like this when done
 
 A successful call should result in the following response...
 
-![Successful web event send](assets/IkJ9XpJRVvnPsxIep6jWG_successful-web-event-send.png)
+![Successful web event send](assets/successful-web-event-send.png)
 
 ###
 

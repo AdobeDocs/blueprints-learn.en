@@ -33,7 +33,7 @@ Depending on what you trying to validate you may have to go to a few different p
 
 Please take a look at your profile and validate it matches what you streamed in. Pretty cool huh!
 
-![Screenshot 2024 10 24 at 64329 pm](assets/4MvLIDc4lYEtGDlaXybDb_screenshot-2024-10-24-at-64329-pm.png)
+![Screenshot 2024 10 24 at 64329 pm](assets/screenshot-2024-10-24-at-64329-pm.png)
 
 >[!NOTE]
 >

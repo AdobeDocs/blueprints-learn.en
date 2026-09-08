@@ -59,7 +59,7 @@ Launch Postman on your computer and navigate to the following API call:
 - **Folder **--> `Profile & Journey Labs`
 - **API Request** --> `Ship Order Event`
 
-![ZLX6NcjOhwIEsdIy6sDwi 20260108 074225](assets/ZLX6NcjOhwIEsdIy6sDwi-20260108-074225.png)
+![ZLX6NcjOhwIEsdIy6sDwi 20260108 074225](assets/send-an-event-2.png)
 
 
 
@@ -75,7 +75,7 @@ Launch Postman on your computer and navigate to the following API call:
 >
 >DO NOT EXECUTE YET!
 
-![0sg 20260306 224300](assets/-uJtTM16daJkq9-9A_0sg-20260306-224300.png)
+![0sg 20260306 224300](assets/send-an-event-1.png)
 
 ## Execute the API
 
@@ -84,7 +84,7 @@ Launch Postman on your computer and navigate to the following API call:
 
 A successful call should result in the following response...
 
-![Successful web event send](assets/IkJ9XpJRVvnPsxIep6jWG_successful-web-event-send.png)
+![Successful web event send](assets/successful-web-event-send.png)
 
 ## **Recap**
 

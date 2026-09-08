@@ -68,7 +68,7 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 
 When done ensure your configure matches what you see below.  If it looks good click the **Next **button in the upper right to continue to the next step
 
-![LxxLyKc0x1oi 04Lph 8tmJSFqHA6LPvzY 20241021 201004](assets/n-ADAXZy_lxxLyKc0x1oi-04Lph_8tmJSFqHA6LPvzY-20241021-201004.png)
+![LxxLyKc0x1oi 04Lph 8tmJSFqHA6LPvzY 20241021 201004](assets/setup-streaming-destination-1.png)
 
 >[!CAUTION]
 >
@@ -96,7 +96,7 @@ When done ensure your configure matches what you see below.  If it looks good cl
 1. Select all audiences
 1. When done click the **Next **button to continue to the next step
 
-![Select all audiences](assets/eUFLRfA7Yx4MpTEwqrOh8_select-all-audiences.png)
+![Select all audiences](assets/select-all-audiences.png)
 
 ## Add Mappings
 

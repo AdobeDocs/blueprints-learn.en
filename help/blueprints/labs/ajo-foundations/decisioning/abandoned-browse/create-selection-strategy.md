@@ -17,7 +17,7 @@ Imagine that we had hundreds of offers utilized in forty collections and a dozen
 1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You will land on the 'Decisioning Rules' page and should see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
 1. Click on **Selection Strategies** just below the 'Ranking methods' menu. With no selection strategies available, click the blue **Create selection strategy **button.
 
-![Navigate to Selection Strategies](assets/Ig98zCPGS3z-IK-BLK-dR-20251211-201253.png)
+![Navigate to Selection Strategies](assets/create-selection-strategy-2.png)
 
 1. Name the selection strategy **iPhone 17 Selection Strategy**
 1. You can see that a selection strategy requires 3 things. 
@@ -43,7 +43,7 @@ Click the **Select Collection** button, tick the box next to the only Collection
 
 1. Tick the box next to the only Ranking formula you have (**iPhone 17 Ranking Formula**) and click **Save**. When finished, your selection strategy should look like this:
 
-![Complete Selection Strategy validation](assets/EJGTfOMBdXJEVcfDIfVOu-20251211-210654.png)
+![Complete Selection Strategy validation](assets/create-selection-strategy-1.png)
 
 1. Once your selection strategy is correct, click the blue **Create** button.
 

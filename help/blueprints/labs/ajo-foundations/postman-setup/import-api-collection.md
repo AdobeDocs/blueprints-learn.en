@@ -22,7 +22,7 @@ Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootc
 1. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json **file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import.
 1. After the import process is complete, click on **Collections** in the left navbar, expand the **AJO Bootcamp (Labs)** folder, and you should see the newly imported collection
 
-![verify postman collection import](assets/B76krD3RvzFUPjCnZFhki-20260107-210108.png)
+![verify postman collection import](assets/import-api-collection-1.png)
 
 >[!TIP]
 >
@@ -48,7 +48,7 @@ To ensure that the environment and collection are functioning correctly together
 
 1. Click on the **Environment Dropdown **in the upper-right corner and choose the **AJO Bootcamp** environment.
 
-![Select correct Postman environment](assets/XDAeTkNxNeHjMFWrufkXh-20260108-062217.png)
+![Select correct Postman environment](assets/import-api-collection-2.png)
 
 1. With the proper environment selected, you should see that the EDGE\_REGION variable now turns a lighter blue color. This indicates that the variable now has a value for the selected environment. The DATASTREAM\_CONFIG variable will stay red because you haven't created the datastream yet, so you don't have a value for that environment variable yet. Hovering over the EDGE\_REGION will show you what the value of the environment value is.
 

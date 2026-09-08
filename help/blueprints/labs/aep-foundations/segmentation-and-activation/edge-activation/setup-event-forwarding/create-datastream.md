@@ -18,7 +18,7 @@ A Datastream defines which services that will utilize it.
 1. In the left rail under **Data Collection** click on **Datastreams**
 1. Then click on **New Datastream** to create one
 
-![Create a new datastream](assets/1yZa63vN0lS5E5z7BIQEH_create-a-new-datastream.png)
+![Create a new datastream](assets/create-a-new-datastream.png)
 
 ## Configure Datastream
 
