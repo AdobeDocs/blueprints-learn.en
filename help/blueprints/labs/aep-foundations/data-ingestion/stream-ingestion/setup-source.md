@@ -60,7 +60,7 @@ You should now see a green checkbox with the message "Connected". Click the **Ne
 
 >[!NOTE]
 >
->**Note: **The JSON sample file contains a single record for designing and validating the pipeline. If you want to scroll, you have to click on the XDM nodes to cause the nodes to scroll. 
+>The JSON sample file contains a single record for designing and validating the pipeline. If you want to scroll, you have to click on the XDM nodes to cause the nodes to scroll. 
 
 
 
@@ -81,5 +81,5 @@ Perform the following steps:
 
 >[!NOTE]
 >
->**Warning:** If you do not enable the dataset for Profile then data will be streamed into the Data Lake only. You will not see your streaming events in the Profile or the Identity Graph.
+>If you do not enable the dataset for Profile then data will be streamed into the Data Lake only. You will not see your streaming events in the Profile or the Identity Graph.
 

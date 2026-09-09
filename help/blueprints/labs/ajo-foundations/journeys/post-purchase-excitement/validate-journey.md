@@ -77,7 +77,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 >[!NOTE]
 >
->**Note**: The order shipped event was streamed in, so while it updated profile quickly, it will take a while before the data lake is updated.
+>The order shipped event was streamed in, so while it updated profile quickly, it will take a while before the data lake is updated.
 
 ```sql
 SELECT * FROM dep_orders

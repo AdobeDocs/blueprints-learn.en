@@ -44,7 +44,7 @@ exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 
 >[!NOTE]
 >
->**Note: **A successful micro-batch may take longer than 15 minutes as it may need time to write the records to the data lake.
+>A successful micro-batch may take longer than 15 minutes as it may need time to write the records to the data lake.
 
 
 

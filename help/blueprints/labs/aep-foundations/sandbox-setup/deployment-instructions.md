@@ -9,7 +9,7 @@ exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
 
 >[!WARNING]
 >
->**Note **This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
+>This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
 The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a command-line tool that creates the schemas, datasets, dataflows, and sample data you'll use throughout the labs.
 
@@ -25,7 +25,7 @@ The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a co
 
 >[!NOTE]
 >
->**Note **End-to-end deployment takes about 2 hours 24 minutes, most of which is unattended wait time between steps. The CLI enforces these waits automatically, so you don't need to time anything yourself.
+>End-to-end deployment takes about 2 hours 24 minutes, most of which is unattended wait time between steps. The CLI enforces these waits automatically, so you don't need to time anything yourself.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a co
 
 >[!NOTE]
 >
->**Note **Node.js is required before you run the commands above. If you don't have Node.js installed yet, see the wiki's [Node.js Setup ](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup)page first. For full install details, including screenshots and how to update an existing install, see the [Installation ](https://github.com/adobe/dep-cli/wiki/Installation)wiki page
+>Node.js is required before you run the commands above. If you don't have Node.js installed yet, see the wiki's [Node.js Setup ](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup)page first. For full install details, including screenshots and how to update an existing install, see the [Installation ](https://github.com/adobe/dep-cli/wiki/Installation)wiki page
 
 ## 2. Configure your environment file
 
@@ -64,7 +64,7 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 
 >[!NOTE]
 >
->**Tip **You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
+>You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
 
 ## 3. Run the AEP Foundations menu
 
@@ -72,7 +72,7 @@ From the main menu, select **AEP foundations**. There are three steps, and they 
 
 >[!WARNING]
 >
->**Warning **The sandbox must have been in a "Ready" state for at least 60 minutes before you run Step 1.
+>The sandbox must have been in a "Ready" state for at least 60 minutes before you run Step 1.
 
 | **Step**                | **What it does**                                                              | **Before you run it**           |
 | ----------------------- | ------------------------------------------------------------------------------------------ | ------------------------------- |
@@ -84,20 +84,20 @@ Step 1 takes about 2 minutes to run, Step 2 about 6 minutes, and Step 3 is a qui
 
 >[!WARNING]
 >
->**Important **The CLI checks these wait times automatically. If you run a step too early, it will block and tell you how many minutes remain — you don't need to track the clock yourself.
+>The CLI checks these wait times automatically. If you run a step too early, it will block and tell you how many minutes remain — you don't need to track the clock yourself.
 
 >[!NOTE]
 >
->**Tip **Step 2 is safe to re-run if something goes wrong. It overwrites existing trait records and skips duplicate events.
+>Step 2 is safe to re-run if something goes wrong. It overwrites existing trait records and skips duplicate events.
 
 ## Troubleshooting
 
 >[!WARNING]
 >
->**Warning Health check fails with missing events**. Some profile data hasn't finished propagating yet. Wait another 15 minutes and re-run Check profile health. If it still fails, re-run Load profile data, wait 15 minutes, and check again.
+>**Health check fails with missing events**. Some profile data hasn't finished propagating yet. Wait another 15 minutes and re-run Check profile health. If it still fails, re-run Load profile data, wait 15 minutes, and check again.
 
 **Something else looks wrong.** As a last resort, you can reset the sandbox from the CLI's Sandbox management menu and redeploy from Step 1.
 
 >[!CAUTION]
 >
->**Warning **Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.
+>Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.

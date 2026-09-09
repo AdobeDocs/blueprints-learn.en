@@ -24,8 +24,6 @@ Download File — [toolkit.zip](assets/toolkit.zip)
 
 >[!NOTE]
 >
->**Note:**
->
 >Before starting the hands-on labs, make sure to download the toolkit file (see below toolkit.zip). Unzip the file to access the images and supporting files required for the exercises. Keep these assets somewhere easy to access, as you will reference them throughout the lab.
 
 # Introduction
@@ -223,7 +221,7 @@ This rule will be applied wherever AI Assistant or authors work on email button 
 
 >[!NOTE]
 >
->Note: You may find under "Don'ts" some other don't labels and not similar to the screenshot. Ignore this as it is expected behaviour. 
+>You may find under "Don'ts" some other don't labels and not similar to the screenshot. Ignore this as it is expected behaviour. 
 
 
 

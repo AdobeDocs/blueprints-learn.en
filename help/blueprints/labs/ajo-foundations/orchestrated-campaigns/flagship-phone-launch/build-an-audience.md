@@ -39,11 +39,11 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 >[!NOTE]
 >
->**Note: **Always remember the **targeting dimension** of each audience you create. You’ll learn its significance in the next steps.
+>Always remember the **targeting dimension** of each audience you create. You’ll learn its significance in the next steps.
 
 >[!NOTE]
 >
->**Note: **if you ever select an Adobe created schema you note the schema starts with -> *(caas)*. This is just a namespace applied to the tables within the relational store and stands for Campaign as a Service :)
+>if you ever select an Adobe created schema you note the schema starts with -> *(caas)*. This is just a namespace applied to the tables within the relational store and stands for Campaign as a Service :)
 
 
 

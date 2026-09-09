@@ -70,7 +70,7 @@ In the next set of steps you will be saving the audience your created back to th
 
 >[!NOTE]
 >
->**Note:** the other options for deduplication allow you to specify your own custom logic.  Most of the time if you need to deduplicate you'll be doing it using the primary key of the table.
+>the other options for deduplication allow you to specify your own custom logic.  Most of the time if you need to deduplicate you'll be doing it using the primary key of the table.
 
 
 
@@ -94,7 +94,7 @@ In the next set of steps you will be saving the audience your created back to th
 
 >[!NOTE]
 >
->**Note:** The "Profile mapping field" is what you setup previously so that the Relational Store can join to the Real-Time Customer Profile.  The profile has been modeled as a Customer Account level so you want to save the audience in the same.  Hence the need for the change dimension and the deduplication.
+>The "Profile mapping field" is what you setup previously so that the Relational Store can join to the Real-Time Customer Profile.  The profile has been modeled as a Customer Account level so you want to save the audience in the same.  Hence the need for the change dimension and the deduplication.
 
 
 
@@ -134,7 +134,7 @@ By default the primary key of the targeting dimension (i.e., Customer ID) is add
 
 >[!NOTE]
 >
->**Note:  **The save audience activity will only create the audience when the workflow is published, not when it is simply started. When the audience is created, it will include all the attributes you added to it and will join to the Real-Time Customer Profile during the next scheduled daily run of the segmentation service job.
+>The save audience activity will only create the audience when the workflow is published, not when it is simply started. When the audience is created, it will include all the attributes you added to it and will join to the Real-Time Customer Profile during the next scheduled daily run of the segmentation service job.
 
 >[!CAUTION]
 >

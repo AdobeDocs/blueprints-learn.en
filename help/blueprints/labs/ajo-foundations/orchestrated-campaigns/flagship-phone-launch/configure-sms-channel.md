@@ -27,11 +27,15 @@ In the next step of steps you will configuration the SMS channel.  This is requi
 You will start by creating the API connector that AJO will use to send outbound SMS requests.
 
 1. Under SMS Vendor choose **Twilio**. 
-1. Enter the following API credential details from the **Sandbox Assignment.pdf** file that was emailed to you:
+1. Enter the following API credential details, using your own [Twilio trial account](https://www.twilio.com/try-twilio):
    - **Name:**  `DEP SMS`
-   - **Account SID: ** `value from the PDF`
-   - **Auth Token: ** `value from the PDF`
+   - **Account SID:**  Found on your Twilio Console dashboard
+   - **Auth Token:**  Found on your Twilio Console dashboard (click **View** to reveal it)
 1. Click **Submit **to register the API credential 
+
+>[!NOTE]
+>
+>You'll need a free Twilio trial account with a verified phone number before starting this step. Sign up at [twilio.com/try-twilio](https://www.twilio.com/try-twilio), then find your Account SID and Auth Token on the Twilio Console dashboard.
 
 ![Enter SMS API credentials](assets/configure-sms-channel-8.png)
 

@@ -33,7 +33,7 @@ For this exercise, we will improve the email that we have created using the AI A
 
 >[!WARNING]
 >
->**Note: **The AI Assistant is **non-deterministic**, which means it may generate slightly different content each time it is used. What you see during your practice may not exactly match the screenshots or examples in this guide. That’s okay—focus on learning the process and concepts rather than expecting identical results.
+>The AI Assistant is **non-deterministic**, which means it may generate slightly different content each time it is used. What you see during your practice may not exactly match the screenshots or examples in this guide. That’s okay—focus on learning the process and concepts rather than expecting identical results.
 
 ## Create Email Subject Line Using AI Assistant
 
@@ -58,7 +58,7 @@ For this exercise, we will improve the email that we have created using the AI A
 
 >[!WARNING]
 >
->Note: Your results may be completely different from the lab guide, so do not need to worry. Select what you think is a right title and continue with the lab. 
+>Your results may be completely different from the lab guide, so do not need to worry. Select what you think is a right title and continue with the lab. 
 
 
 

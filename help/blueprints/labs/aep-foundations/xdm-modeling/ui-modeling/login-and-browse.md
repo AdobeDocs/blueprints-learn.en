@@ -9,8 +9,7 @@ exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
 # Login via UI
 
 1. Navigate to [https://experience.adobe.com](https://experience.adobe.com/) in your browser.
-1. Login using the credentials found in the **Sandbox Assignments PDF** that was emailed to you.
-   1. **Use **the **Learner Account** email and password
+1. Login using the Adobe ID that has developer access to your sandbox — the same one you used to complete [Developer Console Setup](../../sandbox-setup/developer-console-setup.md).
 1. On the **Select an account** screen choose the **Company or School Account**.
 
 ![PJ screenshot 2024 10 22 at 112051 pm.png "Adobe Login page"](assets/1T9abpPuauPjqRR5HI_PJ_screenshot-2024-10-22-at-112051-pm.png "Adobe Login page")

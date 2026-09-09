@@ -9,7 +9,7 @@ exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
 
 >[!WARNING]
 >
->**Note **This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
+>This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
 The AJO Architectural Foundations lab pack is deployed to your sandbox using the DEP CLI, a command-line tool that creates the schemas, datasets, dataflows, and sample data you'll use throughout the labs — covering both the profile store and the AJO relational store used for orchestrated campaigns.
 
@@ -32,7 +32,7 @@ The AJO Architectural Foundations lab pack is deployed to your sandbox using the
 
 >[!NOTE]
 >
->**Note **End-to-end deployment takes about 2 hours 23 minutes. The profile and relational tracks run in parallel, and most of the time is unattended wait time that the CLI enforces automatically.
+>End-to-end deployment takes about 2 hours 23 minutes. The profile and relational tracks run in parallel, and most of the time is unattended wait time that the CLI enforces automatically.
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ The AJO Architectural Foundations lab pack is deployed to your sandbox using the
 
 >[!NOTE]
 >
->**Note **Node.js is required before you run the commands above. If you don't have Node.js installed yet, see the wiki's [Node.js Setup ](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup)page first. For full install details, including screenshots and how to update an existing install, see the [Installation ](https://github.com/adobe/dep-cli/wiki/Installation)wiki page
+>Node.js is required before you run the commands above. If you don't have Node.js installed yet, see the wiki's [Node.js Setup ](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup)page first. For full install details, including screenshots and how to update an existing install, see the [Installation ](https://github.com/adobe/dep-cli/wiki/Installation)wiki page
 
 ## 2. Configure your environment file
 
@@ -71,7 +71,7 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 
 >[!NOTE]
 >
->**Tip **You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
+>You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
 
 ## 3. Run the AJO Architectural Foundations menu
 
@@ -81,7 +81,7 @@ From the main menu, select **AJO arch foundations**. There are six steps split a
 
 >[!WARNING]
 >
->**Warning **The sandbox must have been in a "Ready" state for at least 60 minutes before you run Step 1.
+>The sandbox must have been in a "Ready" state for at least 60 minutes before you run Step 1.
 
 | **Step**                | **What it does**                                                                          | **Before you run it**           |
 | ------------------------ | ------------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -93,13 +93,13 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 
 >[!NOTE]
 >
->**Tip **Step 2 is safe to re-run if something fails — it overwrites existing traits and skips duplicate events.
+>Step 2 is safe to re-run if something fails — it overwrites existing traits and skips duplicate events.
 
 ### Relational track
 
 >[!WARNING]
 >
->**Warning **The sandbox must have been in a "Ready" state for at least 120 minutes before you run Step 4 or Step 6.
+>The sandbox must have been in a "Ready" state for at least 120 minutes before you run Step 4 or Step 6.
 
 | **Step**                         | **What it does**                                                             | **Before you run it**                           |
 | ----------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -109,24 +109,24 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 
 >[!NOTE]
 >
->**Tip **Use Step 6 instead of running Steps 4 and 5 separately — it does the same thing in one pass with the propagation wait handled for you.
+>Use Step 6 instead of running Steps 4 and 5 separately — it does the same thing in one pass with the propagation wait handled for you.
 
 >[!WARNING]
 >
->**Important **All wait times above are checked automatically by the CLI. If you run a step too early, it will block and tell you how long to wait.
+>All wait times above are checked automatically by the CLI. If you run a step too early, it will block and tell you how long to wait.
 
 ## Troubleshooting
 
 >[!WARNING]
 >
->**Warning Profile health check fails with missing events.** Some profile data hasn't finished propagating yet. Wait another 15 minutes and re-run Check profile health. If it still fails, re-run Load profile data, wait 15 minutes, and check again.
+>**Profile health check fails with missing events.** Some profile data hasn't finished propagating yet. Wait another 15 minutes and re-run Check profile health. If it still fails, re-run Load profile data, wait 15 minutes, and check again.
 
 >[!WARNING]
 >
->**Warning Relational data load fails partway through.** Each API call retries up to 3 times. If it still fails, cleanup removes the source connections, target connections, and dataflows it created so you can re-run Step 5 (or Step 6) cleanly. Mapping sets can't be deleted through the API and may be left behind — this doesn't affect redeployment.
+>**Relational data load fails partway through.** Each API call retries up to 3 times. If it still fails, cleanup removes the source connections, target connections, and dataflows it created so you can re-run Step 5 (or Step 6) cleanly. Mapping sets can't be deleted through the API and may be left behind — this doesn't affect redeployment.
 
 **Something else looks wrong.** As a last resort, you can reset the sandbox from the CLI's Sandbox management menu and redeploy from Step 1.
 
 >[!CAUTION]
 >
->**Warning **Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.
+>Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.

@@ -34,7 +34,7 @@ These identity types tell identity service to ignore processing the identities i
 
 >[!NOTE]
 >
->**Note: **Identity Service will only process identities when two or more exist within a row of data and the identity types are person-based. The Identity Graph's purpose is to store deterministic relationships about a person.
+>Identity Service will only process identities when two or more exist within a row of data and the identity types are person-based. The Identity Graph's purpose is to store deterministic relationships about a person.
 
 
 

@@ -70,7 +70,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 >[!NOTE]
 >
->**Note**: It might take a few minutes for the schema to appear in this screen after marking the identity. Refresh the page and repeat the previous two steps until the schema appears.
+>It might take a few minutes for the schema to appear in this screen after marking the identity. Refresh the page and repeat the previous two steps until the schema appears.
 
 ![Create Profile Target Dimension](assets/profile-target-dimension-3.png)
 

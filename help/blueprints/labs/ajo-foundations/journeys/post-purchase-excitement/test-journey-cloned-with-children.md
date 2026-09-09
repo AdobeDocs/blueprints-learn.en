@@ -46,7 +46,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 >[!CAUTION]
 >
->**Note**: Some students get errors and need to send this a few times. You may have to do this **multiple **times.
+>Some students get errors and need to send this a few times. You may have to do this **multiple **times.
 >
 >**Sometimes **the first Send gives an error of:
 >

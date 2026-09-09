@@ -9,13 +9,13 @@ exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
 
 >[!WARNING]
 >
->**Note **This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
+>This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
 The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentials from an Adobe Developer Console project. This page walks through creating that project. You only need to do this once — the same credentials work across both the AEP Foundations and AJO Architectural Foundations tracks, as long as you add both APIs described below.
 
 >[!NOTE]
 >
->**Note **If you already have a Developer Console project with credentials for Adobe Experience Platform (and, if needed, Adobe Journey Optimizer), skip this section and go straight to [Deployment Instructions](deployment-instructions.md).
+>If you already have a Developer Console project with credentials for Adobe Experience Platform (and, if needed, Adobe Journey Optimizer), skip this section and go straight to [Deployment Instructions](deployment-instructions.md).
 
 ## Prerequisites
 
@@ -52,6 +52,6 @@ Open your credential's **OAuth Server-to-Server** overview page. You'll need fou
 
 >[!NOTE]
 >
->**Tip **Copy the default scopes shown on the credential page — you don't need to add anything manually. If you added both APIs above, the scopes list will include both automatically.
+>Copy the default scopes shown on the credential page — you don't need to add anything manually. If you added both APIs above, the scopes list will include both automatically.
 
 Keep this page open, or copy these four values somewhere safe. You'll paste them into the CLI's environment file in the next step of your track's setup guide.
