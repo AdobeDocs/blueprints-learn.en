@@ -7,6 +7,8 @@ solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
 ---
 
+# Lab Exercise
+
 **You'll need the following before you begin:**
 
 - Mapping Use Cases to Architecture Workbook — [Print Workbook Below]

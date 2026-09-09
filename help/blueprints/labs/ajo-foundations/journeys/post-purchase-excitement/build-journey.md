@@ -12,7 +12,7 @@ Create a unitary journey that begins with the configured Order Shipped event, ge
 
 ## Create Journey
 
-Go to **Journeys **and click **Create Journey - Create from scratch**
+Go to **Journeys** and click **Create Journey - Create from scratch**
 
 ![RaGUUvFOSPhdhWYohoZ3T 20251112 205319](assets/build-journey-25.png)
 
@@ -24,36 +24,35 @@ Go to **Journeys **and click **Create Journey - Create from scratch**
    - **Name**: `Order Shipped Journey`
    - **Description**: `Notify customer that order has shipped. Include shipping details.`
    - **Tags**: `Default`
-   - **Journey m****etrics**: *leave blank*
+   - **Journey metrics**: *leave blank*
 
->[!NOTE]
->
->**Empty Drop Down?**
->
->Don't worry and move on. The very first journey created in a sandbox needs to "prime the pump".  Once we publish the journey, this drop down will have options to choose from.
+      >[!NOTE]
+      >
+      >**Empty Drop Down?**
+      >
+      >Don't worry and move on. The very first journey created in a sandbox needs to "prime the pump".  Once we publish the journey, this drop down will have options to choose from.
 
-**Allow reentrance**: `checked`
+   - **Allow reentrance**: `checked`
 
-**Reentrance wait period:**  `5 minutes`
+   - **Reentrance wait period:**  `5 minutes`
 
-**Access labels**: *leave blank*
+   - **Access labels**: *leave blank*
 
-**Time Zone**: `Your Local timezone`
+   - **Time Zone**: `Your Local timezone`
 
+   - **Use Profile time zone in waits and conditions**: `NOT checked`
 
-**Use Profile time zone in waits and conditions**: `NOT checked`
+   - **Start/End Date**: *leave blank*
 
-**Start/End Date**: *leave blank*
+   - **Timeout or error**: `30`
 
-**Timeout or error**: `30`
+   - **Capping rules:** *leave blank*
 
-**Capping rules:** *leave blank*
-
-**Priority**: `0`
-
+   - **Priority**: `0`
 
 
-1. If everything looks good click the **Save **button
+
+2. If everything looks good click the **Save** button
 
 ![MLQgSI5VZ6ayZeen 20251113 011132](assets/build-journey-10.png)
 
@@ -62,9 +61,9 @@ Go to **Journeys **and click **Create Journey - Create from scratch**
 
 ## Journey Canvas
 
-## Add a Unitary Event
+### Add a Unitary Event
 
-From the left pane under the **Events menu** drag 'n drop the **orderShipped **event onto the canvas as shown below
+From the left pane under the **Events menu** drag 'n drop the **orderShipped** event onto the canvas as shown below
 
 ![48Vp2fxzZi18gKAc6RLW  20251113 012116](assets/build-journey-2.png)
 
@@ -76,51 +75,51 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped **e
 
 
 
-## Add a Custom Action
+### Add a Custom Action
 
-1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails **after the orderShipped event
+1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails** after the orderShipped event
 
 ![E8 e zCT 20251113 012517](assets/build-journey-6.png)
 
-1. In the right rail, under Access and privacy configuration --> Marketing Action drop-down ensure the value is set to **None**
+2. In the right rail, under Access and privacy configuration --> Marketing Action drop-down ensure the value is set to **None**
 
 ![Image](assets/build-journey-26.png)
 
-1. Under the Endpoint configuration --> Query Parameters menu click on the **Pencil icon** next to orderid
+3. Under the Endpoint configuration --> Query Parameters menu click on the **Pencil icon** next to orderid
 
 ![YAaVRitMmP9hKpa3Q 20251121 192339](assets/build-journey-24.png)
 
-1. In the modal that appears expand **Context **-> **orderShipped **-> **Order **and then select **Order ID (orderID) **and click **OK**
+4. In the modal that appears expand **Context** -> **orderShipped** -> **Order** and then select **Order ID (orderID)** and click **OK**
 
 ![NwJ7  20251113 013041](assets/build-journey-14.png)
 
-1. Back in the right rail, ensure the option for Timeout or error is **unchecked **and then click the **Save button**
+5. Back in the right rail, ensure the option for Timeout or error is **unchecked** and then click the **Save button**
 
 ![KJCyB6WTtNyGhF2CC5cdX 20251117 231216](assets/build-journey-21.png)
 
 
 
-## **Add Email Action**
+### **Add Email Action**
 
-1. Under the Actions menu drag 'n drop the **Action **action onto the canvas after the GetShippingDetails action
+1. Under the Actions menu drag 'n drop the **Action** action onto the canvas after the GetShippingDetails action
 
 ![EHlfUwB4FUguiZ38Wi7LV 20260610 171228](assets/build-journey-16.png)
 
-1. Select **Email **for the marketing action, then **Add**.
+2. Select **Email** for the marketing action, then **Add**.
 
 ![LsRb 20260615 094254](assets/build-journey-8.png)
 
-1. In the right rail, click **Configure action**
+3. In the right rail, click **Configure action**
 
 ![9 20260615 094515](assets/build-journey-1.png)
 
-1. set **Email channel Configuration **to `Profile-Email` and then click on **Edit Content**
+4. set **Email channel Configuration** to `Profile-Email` and then click on **Edit Content**
 
 ![HQEokhDKs5xAZra7MaPg9 20260615 094856](assets/build-journey-20.png)
 
 
 
-## Add Email Body Content
+### Add Email Body Content
 
 For content, you are going to keep things simple. Like stupid simple.
 
@@ -128,27 +127,27 @@ For content, you are going to keep things simple. Like stupid simple.
 
 ![FKmn1 vVHrim0K9CwfBTV 20251117 231415](assets/build-journey-9.png)
 
-1. In the top bar click on the **Design from Scratch **content block
+2. In the top bar click on the **Design from Scratch** content block
 
 ![6vtCM 7SERuC85HW7XJ 20251117 231709](assets/build-journey-5.png)
 
-1. From the left bar under the Structure container drag 'n drop the **1:1 Column **onto the canvas
+3. From the left bar under the Structure container drag 'n drop the **1:1 Column** onto the canvas
 
 ![6dhPFQYOdTHlRw2swYNVW 20251113 180605](assets/build-journey-4.png)
 
-1. Then under the Contents container drag 'n drop the **Text **component into your** 1:1 Column**
+4. Then under the Contents container drag 'n drop the **Text** component into your **1:1 Column**
 
 ![R5k4g3L9OQ6ldTmyWqkqj 20251113 180642](assets/build-journey-11.png)
 
-1. Click into the Text component and **delete the current text** and then click the **Add Personalization **icon
+5. Click into the Text component and **delete the current text** and then click the **Add Personalization** icon
 
 ![KkU 20251113 180737](assets/build-journey-19.png)
 
-1. In the left rail click on the **Contextual Attributes** folder and then navigate thru **Journey Orchestration** -> **Actions **and select **GetShippingDetails**
+6. In the left rail click on the **Contextual Attributes** folder and then navigate thru **Journey Orchestration** -> **Actions** and select **GetShippingDetails**
 
 ![EpgPQiob6ESay4BzP9ilp 20251113 180824](assets/build-journey-7.png)
 
-1. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
+7. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
 
 ```json
 {{profile.person.name.firstName}}, your order has shipped
@@ -156,8 +155,8 @@ ETA:
 Tracking Number: 
 ```
 
-1. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
-   - **ETA: ** `eta`
+8. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
+   - **ETA:** `eta`
    - **Tracking Number:**  `tracking_number`
 
 ![54bDWrDigSBU6GsKrKDAO 20251121 193136](assets/build-journey-3.png)
@@ -172,20 +171,20 @@ Tracking Number:
 >
 >![VMjj8RIOkqFVcqrc7SU5b 20251119 011923](assets/build-journey-12.png)
 
-1. On the bottom of the screen click the **Validate **button and ensure you have no errors
+9. On the bottom of the screen click the **Validate** button and ensure you have no errors
 
 ![DXZ9kxZKWZzBRR3WDdtbN 20251117 232100](assets/build-journey-15.png)
 
-1. If everything looks good click the **Save button **in the top right
-1. Then click the **Save **button again in the top right and click the **\<- left arrow** in the top left
+10. If everything looks good click the **Save button** in the top right
+11. Then click the **Save** button again in the top right and click the **\<- left arrow** in the top left
 
 ![GEau2 20251113 181826](assets/build-journey-23.png)
 
-1. Finally, click the **\< Back icon **in top left to get back to the Journey Canvas
+12. Finally, click the **\< Back icon** in top left to get back to the Journey Canvas
 
 ![8jWIbwxPB 5XZ8rq 20251113 182114](assets/build-journey-17.png)
 
-1. And then click the **Back **button again...
+13. And then click the **Back** button again...
 
 >[!TIP]
 >
@@ -193,17 +192,17 @@ Tracking Number:
 
 
 
-## Override Email Parameters
+### Override Email Parameters
 
 Back on the main Journey Canvas, on the Email node, make sure you can see the read-only fields (you may need to click on the **Show read-only fields** icon)
 
 ![T9irNGuprlOaUDddCff1R 20251223 223958](assets/build-journey-27.png)
 
-1. Scroll down to **Email Parameters **and click on the **Enable parameter override **icon
+1. Scroll down to **Email Parameters** and click on the **Enable parameter override** icon
 
 ![TbwfBth tFmGR 20251223 224153](assets/build-journey-18.png)
 
-1. Click in the empty text box and then in the left rail drill down into **Context **-> **orderShipped **-> **\_dep **and click on the **personalEmail **field.  Then click the **OK button**
+2. Click in the empty text box and then in the left rail drill down into **Context** -> **orderShipped** -> **\_dep** and click on the **personalEmail** field.  Then click the **OK button**
 
 ![TzhJOLofP 5pzYYO8aVJ  20251223 224541](assets/build-journey-28.png)
 
@@ -213,7 +212,7 @@ Back on the main Journey Canvas, on the Email node, make sure you can see the re
 
 
 
-1. Click the **Save button **in the top right and then click the **back arrow** \<- in the top left to **close **the Journey
+3. Click the **Save button** in the top right and then click the **back arrow** \<- in the top left to **close** the Journey
 
 ![AR2 pJ8hT4GJh0D2vGP3J 20251117 232350](assets/build-journey-13.png)
 

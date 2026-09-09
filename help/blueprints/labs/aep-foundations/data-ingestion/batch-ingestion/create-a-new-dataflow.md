@@ -22,7 +22,7 @@ exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
 1. Use the dataset you created previously with the name **Customer Account - \<Your Initials>**
 1. Ensure you have the **Profile dataset** toggle turned ON.
    (If you do not turn this on, the Profile Store will not be able to monitor for new data entering this dataset and hence will not ingest this data into Profile)
-1. Ensure you have the **Enable partial ingestion **toggle turned ON
+1. Ensure you have the **Enable partial ingestion** toggle turned ON
    (If you do not turn this on, the whole ingestion may fail if just one of the records has an error)
 1. Set the Dataflow name as **Customer Account Batch v2 – \<Your Initials>** 
 1. Turn on all the alerts **Sources Dataflow Start/Success/Failure**
@@ -34,7 +34,7 @@ exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
 
 ## Upload Sample File
 
-1. Drag 'n drop and/or upload the **Lab\_Customer\_Account.csv **file in the UI.  When done your screen should look like below.
+1. Drag 'n drop and/or upload the **Lab\_Customer\_Account.csv** file in the UI.  When done your screen should look like below.
 
 ![Accessin.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform"](assets/zBBQkjxL8ZaedOs0DVDNm_accessin.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
 

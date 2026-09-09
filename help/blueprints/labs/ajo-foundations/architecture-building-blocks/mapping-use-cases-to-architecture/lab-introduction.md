@@ -7,4 +7,6 @@ solution: Experience Platform
 exl-id: d21cbec3-fef6-48c3-8878-c44814cf062a
 ---
 
+# Lab Introduction
+
 >[!VIDEO](https://video.tv.adobe.com/v/3486220/)

@@ -6,9 +6,11 @@ solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
 ---
 
+# Option #1 - Using Audiences to Aggregate
+
 Aggregates in Audiences allow us to aggregate Events in the Audience rule. But since we can only do one aggregate at a time, we need to split the two from our use case. 
 
-# Audience #1 - Billing Data Usage in the Last 6 Months > 140GB
+## Audience #1 - Billing Data Usage in the Last 6 Months > 140GB
 
 In this audience build we will need to determine total billing data usage in the last 6 months > 140gb. To do so perform the following:
 

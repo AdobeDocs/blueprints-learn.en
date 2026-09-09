@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
 ---
 
+# Summary
+
 Throughout this course, you've explored the full journey of building personalized, brand-compliant campaigns in Adobe Journey Optimizer. From creating reusable content blocks and applying AI-driven enhancements, to setting up dynamic variations and running simulations, you've gained hands-on experience with the tools that ensure your communications are both impactful and consistent. As you prepare to apply these skills in real-world scenarios, keep the following key takeaways in mind:
 
 ## **Key Takeaways**
@@ -29,7 +31,7 @@ Throughout this course, you've explored the full journey of building personalize
 
 >[!CAUTION]
 >
->**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB. **
+>**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
 

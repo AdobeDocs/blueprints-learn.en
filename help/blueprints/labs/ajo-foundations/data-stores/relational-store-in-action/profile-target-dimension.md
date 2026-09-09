@@ -28,21 +28,21 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 ![Navigate to Journey Optimizer](assets/profile-target-dimension-8.png)
 
-1. Click on **Schemas **under the Data Management menu and make sure you have the **Browse **tab selected.
-1. Search for the schema called `dep-rel: Customer Account`
+2. Click on **Schemas** under the Data Management menu and make sure you have the **Browse** tab selected.
+3. Search for the schema called `dep-rel: Customer Account`
 
 ![Search for schema dep-rel: Customer Account](assets/profile-target-dimension-9.png)
 
-1. Open the schema by clicking on its name and then click on the field **customer\_id**
+4. Open the schema by clicking on its name and then click on the field **customer\_id**
 
 ![Select schema field customer_id](assets/profile-target-dimension-2.png)
 
-1. In the right rail locate the checkbox named **Identity**,** check the box **and choose the Identity namespace titled** customerID**
+5. In the right rail locate the checkbox named **Identity**, **check the box** and choose the Identity namespace titled **customerID**
 
 ![Choose the identity namespace customerID](assets/profile-target-dimension-5.png)
 
-1. Click the **Save **button to save your schema. A confirmation message will show up
-1. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
+6. Click the **Save** button to save your schema. A confirmation message will show up
+7. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
 
 >[!CAUTION]
 >
@@ -58,15 +58,15 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 ![Configurations](assets/profile-target-dimension-7.png)
 
-1. Select **Profile Target Dimension** and click on **Manage**
+2. Select **Profile Target Dimension** and click on **Manage**
 
 ![Profile Target Dimension](assets/profile-target-dimension-10.png)
 
-1. The Profile Target Dimension pane opens, click on **Create**
+3. The Profile Target Dimension pane opens, click on **Create**
 
 ![Create](assets/profile-target-dimension-4.png)
 
-1. Select the schema `dep-rel: Customer Account` from the drop-down.
+4. Select the schema `dep-rel: Customer Account` from the drop-down.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 ![Create Profile Target Dimension](assets/profile-target-dimension-3.png)
 
-1. For the** Identity value** select `/customer_id`
+5. For the **Identity value** select `/customer_id`
 
 ![Select Identity value](assets/profile-target-dimension-1.png)
 
@@ -84,7 +84,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 
 
-1. Click the **Save **button to create the Profile Target Dimension. You should then see the record appear.
+6. Click the **Save** button to create the Profile Target Dimension. You should then see the record appear.
 
 ![Profile Target Dimension saved](assets/profile-target-dimension-6.png)
 

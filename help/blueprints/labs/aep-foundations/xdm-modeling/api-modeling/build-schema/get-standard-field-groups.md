@@ -6,13 +6,15 @@ solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 ---
 
+# Get Standard Field Groups
+
 >[!NOTE]
 >
->**“Field Group” **was previously referred to as a **“Mixin” **so these terms may be used interchangeably throughout the API requests and guide.
+>**“Field Group”** was previously referred to as a **“Mixin”** so these terms may be used interchangeably throughout the API requests and guide.
 
 
 
-# **Request XDM Standard Field Groups**
+## **Request XDM Standard Field Groups**
 
 1. Click on `Step 1 - Get XDM Standard Field Groups` API call in the `XDM Schema Lab -> Create Schema` folder
 1. Execute the call by clicking the `Send` button

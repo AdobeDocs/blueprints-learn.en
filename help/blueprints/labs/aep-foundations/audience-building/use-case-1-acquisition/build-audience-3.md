@@ -26,7 +26,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 >[!NOTE]
 >
->**Using Event Types **
+>**Using Event Types**
 >
 >By using the Page View Event we ensure the Audience is only evaluating Page Name in the context of a Page View. It should be redundant since a Page Name only exists on a Page View, but provides two benefits:
 >
@@ -146,7 +146,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 >[!WARNING]
 >
->**Ramifications of breaking this up **
+>**Ramifications of breaking this up**
 >
 >We have split what is a simple requirement up into many Audiences for a few reasons. The requirement is for a Streaming, but these two requirements turn our Audience into Batch. More detail here on the Streaming eligibility rules here:
 >
@@ -154,7 +154,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 >[!NOTE]
 >
->**What are Audiences of Audiences Streaming **
+>**What are Audiences of Audiences Streaming**
 >
 >Our *Peeking Underneath the Hood of Audience* blog (link below), talks a little about this below. It shows how the result of a Audience is stored on the Profile. This is important since as data streams in it is looking at the results of a Audience stored on the Profile, it is not rerunning the Audience at that point in time! A simple nuance but worth understanding. Most Profile attributes are updated periodically, so this approach makes sense. 
 >

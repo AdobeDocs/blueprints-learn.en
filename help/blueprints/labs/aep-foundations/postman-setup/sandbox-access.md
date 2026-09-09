@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
 ---
 
+# Sandbox Access
+
 Before you continue we want to double check that your access is legit. Perform the following steps:
 
 1. Open the folder titled `Check Sandbox Access` and click on the call titled `Retrieve Your Sandbox`

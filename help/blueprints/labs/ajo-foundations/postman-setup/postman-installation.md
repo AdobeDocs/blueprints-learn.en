@@ -38,9 +38,9 @@ Open Postman and quickly familiarize yourself with a few areas of the applicatio
 
 The sidebar is what allows you to navigate quickly across the different Postman elements. During the labs, you will only use the two items below:
 
-**Collections **- groups of saved requests that can be imported from an external location or created by yourself.
+**Collections** - groups of saved requests that can be imported from an external location or created by yourself.
 
-**Environments **- a set of variables that you can reference in your Postman requests. In Experience Platform, you can think of Postman Environments as synonymous with Adobe Sandboxes within an IMS Org. We will use the Environment's function in Postman
+**Environments** - a set of variables that you can reference in your Postman requests. In Experience Platform, you can think of Postman Environments as synonymous with Adobe Sandboxes within an IMS Org. We will use the Environment's function in Postman
 
 
 

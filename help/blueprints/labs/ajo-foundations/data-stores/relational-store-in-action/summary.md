@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
 ---
 
+# Summary
+
 Through this lab you did the following activities:
 
 - Browsed schemas and viewed relationships between schemas

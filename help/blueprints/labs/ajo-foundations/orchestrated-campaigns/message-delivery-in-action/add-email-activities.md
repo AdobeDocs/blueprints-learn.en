@@ -28,43 +28,43 @@ The **Email** details pane opens
 
 ![Edit Email activity](assets/add-email-activities-6.png)
 
-1. Rename the label to **Email using Profile attribute** for the **Email** activity and click on **Edit email**. Note that the email body creation is only for testing purposes
+2. Rename the label to **Email using Profile attribute** for the **Email** activity and click on **Edit email**. Note that the email body creation is only for testing purposes
 
 ![Edit Email](assets/add-email-activities-4.png)
 
-1. Select the **Actions** tab and from the drop down select **Profile-Email** channel config
+3. Select the **Actions** tab and from the drop down select **Profile-Email** channel config
 
 ![Configure Email Actions](assets/add-email-activities-12.png)
 
-1. Next, click on **Edit content** to add some test content
+4. Next, click on **Edit content** to add some test content
 
 ![Edit content](assets/add-email-activities-10.png)
 
-1. Provide a **Subject Line** ("Upgrade Offer for Basic plan members") and click on the **Edit email body** button
+5. Provide a **Subject Line** ("Upgrade Offer for Basic plan members") and click on the **Edit email body** button
 
 ![Add subject line and edit email body](assets/add-email-activities-9.png)
 
-1. There are many options, for this test, choose **Code your own** HTML option
+6. There are many options, for this test, choose **Code your own** HTML option
 
 ![Code your own](assets/add-email-activities-11.png)
 
-1. In the **Email Designer**, insert a test line "Upgrade Offer Available!" just before the `</body></html>` tags as shown and click on **Save**
+7. In the **Email Designer**, insert a test line "Upgrade Offer Available!" just before the `</body></html>` tags as shown and click on **Save**
 
 ![Email Designer](assets/add-email-activities-8.png)
 
-1. Wait for the confirmation message to appear at the bottom-right corner
+8. Wait for the confirmation message to appear at the bottom-right corner
 
 ![Confirmation](assets/add-email-activities-5.png)
 
-1. Click on the **left arrow** next to the **Email Designer **to exit
+9. Click on the **left arrow** next to the **Email Designer** to exit
 
 ![Exit Email Designer](assets/add-email-activities-3.png)
 
-1. A confirmation dialog pops up, click on the **Save & close** button
+10. A confirmation dialog pops up, click on the **Save & close** button
 
 ![Save & close](assets/add-email-activities-1.png)
 
-1. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
+11. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
 
 ![Back to Campaign canvas](assets/add-email-activities-2.png)
 
@@ -72,7 +72,7 @@ The **Email** details pane opens
 
 Back in the campaign canvas, click on the **+** of the bottom flow and select **Email** from the **Channel activities**. Follow the same steps as above (Steps 2 to 11) except for the following:
 
-- Rename the label to **Email using Target Dimension **for the **Email** activity
+- Rename the label to **Email using Target Dimension** for the **Email** activity
 - In the Email settings, choose the **Relational-Email** Email channel config
 
 ![TwepnVevrbnRDJHbMpRLt 20260114 224239.png "Add the second Email activity"](assets/TwepnVevrbnRDJHbMpRLt-20260114-224239.png "Add the second Email activity")

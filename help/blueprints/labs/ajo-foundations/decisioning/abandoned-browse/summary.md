@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
 ---
 
+# Summary
+
 Congratulations, you have completed the lab! You have now built and tested a complete **Adobe Journey Optimizer Decisioning workflow**.
 
 You began by extending the **offer schema** and creating **eligibility rules** to control which customers qualify for specific offers. You then created multiple **offer items**, configured priorities and frequency caps, and organized them into an **offer collection**.
@@ -18,7 +20,7 @@ Finally, you **tested the end-to-end decisioning flow**, validating that Adobe J
 
 >[!CAUTION]
 >
->**IF YOU ARE READING THIS, IT MEANS YOU ARE AT THE END OF THE LAB. **
+>**IF YOU ARE READING THIS, IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
 

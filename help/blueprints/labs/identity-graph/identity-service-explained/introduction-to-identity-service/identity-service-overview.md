@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 5109706f-275d-4a42-b63e-08a9e048be76
 ---
 
+# Identity Service Overview
+
 Simply put, Identity Service is **purpose-built **to help marketing teams manage and unify customer identities from various cross-channel data sources. 
 
 *Three key things to know about Identity Service are:*

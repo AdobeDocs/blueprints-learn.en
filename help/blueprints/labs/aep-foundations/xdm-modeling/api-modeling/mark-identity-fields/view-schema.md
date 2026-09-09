@@ -46,7 +46,7 @@ Browse further down in the API response to see the identity descriptors you crea
 
 ## Accept Headers
 
-Note the **Accept **header used in the request. This header tells the XDM schema registry to return the schema's `$ref's` unresolved (i.e. show the bare minimum amount of information) along with its associated descriptors in the API response.  Adobe provides other **Accept** headers you can utilize to get various degrees of detail about the schema.
+Note the **Accept** header used in the request. This header tells the XDM schema registry to return the schema's `$ref's` unresolved (i.e. show the bare minimum amount of information) along with its associated descriptors in the API response.  Adobe provides other **Accept** headers you can utilize to get various degrees of detail about the schema.
 
 ![Step 3 get customer account schema accept header.png "Step 3   Get Customer Account Schema Accept Header"](assets/2JiVHkUVdDRcIr8YZ2L0t_step-3-get-customer-account-schema-accept-header.png "Step 3 - Get Customer Account Schema Accept Header")
 
@@ -56,7 +56,7 @@ Note the **Accept **header used in the request. This header tells the XDM schema
 
 
 
-To see this in action lets change the **Accept **header to tell the schema registry to respond with all the `$ref `and `allOff` fully resolved (i.e. exploded out) and any associated descriptors
+To see this in action lets change the **Accept** header to tell the schema registry to respond with all the `$ref `and `allOff` fully resolved (i.e. exploded out) and any associated descriptors
 
 1. Update the `Accept` header value to the following:
    `application/vnd.adobe.xed-full-desc+json; version=1`

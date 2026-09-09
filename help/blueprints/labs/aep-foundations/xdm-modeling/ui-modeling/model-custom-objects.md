@@ -35,7 +35,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
  
 
-2\. Create the account object by utilizing the below details. When done click the **Apply **button in the right rail to see the change in the schema workspace
+2\. Create the account object by utilizing the below details. When done click the **Apply** button in the right rail to see the change in the schema workspace
 
 | Field Name | Display Name | Type     | Assign to a New Field Group                                                                                                   |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -71,11 +71,11 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 >[!NOTE]
 >
->You'll notice while adding the new fields the **Assign to **option is already filled in and references the field group you used for the account object.
+>You'll notice while adding the new fields the **Assign to** option is already filled in and references the field group you used for the account object.
 
 
 
-4\. When done your schemas account object should look like below. **Save **your schema!
+4\. When done your schemas account object should look like below. **Save** your schema!
 
 
 
@@ -89,7 +89,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 | ----------- | ----------------- | -------- | --------------------------------------- |
 | *acqSource* | *Acquired Source* | S*tring* | *web :: Web*<br />*inStore :: In Store* |
 
-For this field we want to standardize the values so we will use the **Enum & Suggested values** option within the fields properties. Select **Enum **radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
+For this field we want to standardize the values so we will use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
 
 - *web :: Web*
 - *inStore :: In Store*
@@ -104,9 +104,9 @@ For this field we want to standardize the values so we will use the **Enum & Sug
 
  
 
-6\. When done click the **Apply **button to add the new field to the schema.
+6\. When done click the **Apply** button to add the new field to the schema.
 
-7\.  **Save **your schema
+7\.  **Save** your schema
 
 >[!TIP]
 >
@@ -116,7 +116,7 @@ For this field we want to standardize the values so we will use the **Enum & Sug
 
 ## Plan Object Creation
 
-Repeat the steps you performed above and add the **Plan **object and associated fields. All new fields should be added under the Customer Account Details - \[your initials] field group.
+Repeat the steps you performed above and add the **Plan** object and associated fields. All new fields should be added under the Customer Account Details - \[your initials] field group.
 
 Use the metadata in the below table to create the plan object and its associated fields.
 
@@ -139,7 +139,7 @@ Use the metadata in the below table to create the plan object and its associated
 
 
 
-When done validate your schema matches the below screenshot. If it looks good **Save **your schema
+When done validate your schema matches the below screenshot. If it looks good **Save** your schema
 
 
 
@@ -153,7 +153,7 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 ## **Customer ID Field Creation**
 
-Adding the **customerID **field as this field is critical because it will serve as the primary identity for the schema as well as a general field to hold data in.
+Adding the **customerID** field as this field is critical because it will serve as the primary identity for the schema as well as a general field to hold data in.
 
 Perform the same steps as you have done previously and utilize the table below for referencing the metadata for the field.
 

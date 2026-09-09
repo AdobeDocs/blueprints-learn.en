@@ -6,11 +6,13 @@ solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
 ---
 
+# Object Copy Mappings
+
 In this section, you will add the object copy mappings and create some overrides. 
 
 ## Passthrough Mappings
 
-Add the following passthrough mappings with **Products\[\*] **and **Products\[\*].productID **by clicking New field type and add a new field for each row here. Some may already be present due to ML Recommendations. 
+Add the following passthrough mappings with **Products\[\*]** and **Products\[\*].productID** by clicking New field type and add a new field for each row here. Some may already be present due to ML Recommendations. 
 
 | Source Column           | XDM Column                |
 | ----------------------- | ------------------------- |
@@ -37,8 +39,8 @@ Add the following passthrough mappings with **Products\[\*] **and **Products\[\*
 
 ## Delete Overrides on Certain Fields
 
-1. Observe that** productListitems.currencyCode** and **productListItems.quantity** are auto-populated. 
-1. Remove the **productListItems\[\*].quantity** and **productListItems\[\*].currencyCode **mappings.
+1. Observe that **productListitems.currencyCode** and **productListItems.quantity** are auto-populated. 
+1. Remove the **productListItems\[\*].quantity** and **productListItems\[\*].currencyCode** mappings.
 1. The overrides do not happen and the object copy takes over with passthrough fields going through. 
 
 

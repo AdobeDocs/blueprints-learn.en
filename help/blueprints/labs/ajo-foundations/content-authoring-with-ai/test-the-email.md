@@ -22,17 +22,17 @@ By the end of this module, you will be able to:
 At this point, you have learned that we can not only personalize the profile attributes but also use attributes to create conditional logic that would determine the content you want to show. Adobe Journey Optimizer is extremely powerful and gives marketers a lot of flexibility. 
 
 1. Click **Simulate Content**.
-1. Select **Simulate content variation**.
+2. Select **Simulate content variation**.
 
 ![CHBaM4efsxWxR image](assets/content-authoring-with-ai-1.png)
 
 A simulation panel will open.
 
-1. Click **Send Proof**.
+3. Click **Send Proof**.
 
 ![Image](assets/test-the-email-4.png)
 
-1. Add your own personal email address.
+4. Add your own personal email address.
 
 >[!NOTE]
 >
@@ -40,11 +40,11 @@ A simulation panel will open.
 
 
 
-1. Select both variants.
-1. Add Sublect Line Prefix
+5. Select both variants.
+6. Add Sublect Line Prefix
    1. Variant 1: Above 40 
    2. Variant 2: Below 40 
-1. Click **Send Proof**. You will get green confirmation message "**Proofs sent successfully**"
+7. Click **Send Proof**. You will get green confirmation message "**Proofs sent successfully**"
 
 ![JkDe7m2wFduz1 image](assets/test-the-email-5.png)
 

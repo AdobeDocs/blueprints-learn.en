@@ -18,9 +18,9 @@ Label the tables from the Connection 5G data warehouse ERD and Streaming ERD wit
 
 Keep in mind the following when performing the lab:
 
-- **Individual Profile (traits) – **uniquely describes the traits of a person (e.g. name, email, address, preferences, etc.)
-- **Experience Event (behaviors) – **describe interactions and touchpoints a person has with a brand/company (e.g. web page visit, purchase, call center interactions, application submit, etc.)
-- **Lookups (supporting) – **provide additional contextual information in support of the Individual Profile or Experience Event
+- **Individual Profile (traits) –** uniquely describes the traits of a person (e.g. name, email, address, preferences, etc.)
+- **Experience Event (behaviors) –** describe interactions and touchpoints a person has with a brand/company (e.g. web page visit, purchase, call center interactions, application submit, etc.)
+- **Lookups (supporting) –** provide additional contextual information in support of the Individual Profile or Experience Event
 
 
 
@@ -48,8 +48,8 @@ Keep in mind the following when performing the lab:
 
 ## **Step 3.  Label XDM Supporting Tables**
 
-1. Identify all the source tables which represent lookup data and are directly related to either a **“P” **or **“E” **table you have marked in either the Connection 5G data warehouse ERD and Streaming ERD.
-1. Mark each table with a **“L” **signifying it is part of a non-person custom XDM class.
+1. Identify all the source tables which represent lookup data and are directly related to either a **“P”** or **“E”** table you have marked in either the Connection 5G data warehouse ERD and Streaming ERD.
+1. Mark each table with a **“L”** signifying it is part of a non-person custom XDM class.
 
 >[!NOTE]
 >

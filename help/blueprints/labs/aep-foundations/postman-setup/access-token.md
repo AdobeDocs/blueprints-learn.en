@@ -77,7 +77,7 @@ Successful Response
 
 ## Common Errors
 
-## Invalid Token
+### Invalid Token
 
 This occurs when the `private_key` in your environment file is malformed or no longer valid. If you see this ensure you have copied the entire key including the entire key with line breaks
 
@@ -95,7 +95,7 @@ some uber long varchar set is here
 >
 >Only applicated when using JWT based auth
 
-## Invalid IMS\_ORG
+### Invalid IMS\_ORG
 
 This error occurs when you forget to set your postman environment from the drop-down
 

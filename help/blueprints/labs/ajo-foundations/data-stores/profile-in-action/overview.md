@@ -16,7 +16,9 @@ exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
 
 If you have not completed these labs please do so now before continuing.
 
+## Lab Overview
 
+>[!VIDEO](https://video.tv.adobe.com/v/3491061/)
 
 ## Learning Objectives
 

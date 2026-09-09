@@ -29,7 +29,7 @@ A Merge Policy does two things:
 
 >[!WARNING]
 >
->Every sandbox requires at least one merge policy marked as the **default **merge policy in order for segmentation and profile to function
+>Every sandbox requires at least one merge policy marked as the **default** merge policy in order for segmentation and profile to function
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ When you are done click **Next**
 
 Remember that if you select timestamp ordered for the merge method you are telling the Profile Service that all XDM Individual Profile and Experience Event class-based datasets will participate in the formation of the Profile.
 
-Therefore you can simply click **Next **as there nothing to do in this step.
+Therefore you can simply click **Next** as there nothing to do in this step.
 
 ![Select experience event datasets](assets/select-experience-event-datasets.png)
 
@@ -92,7 +92,7 @@ Therefore you can simply click **Next **as there nothing to do in this step.
 
 In the final step you'll see a preview of the settings you've chosen and sample profiles showing you the merge policy in action.
 
-Click the **Finish **button to create the merge policy
+Click the **Finish** button to create the merge policy
 
 ![Review merge policy.png "Review merge policy"](assets/6mUCplj2o-En0jZtdr6wn_review-merge-policy.png "Review merge policy")
 
@@ -108,10 +108,10 @@ Remember the identity graph of the profile, Depeche Mode, looked like the below 
 Go ahead and open the profile viewer following the below steps:
 
 1. Click on **Profiles** in the left rail and then in the top navigation select **Browse**
-1. Select the Identity namespace of **Email **
+1. Select the Identity namespace of **Email**
 1. Enter the Identity value of **depeche.mode\@dep.com**
 1. Click on the **View** button to lookup the profile
-1. Click on the **link **to the profile to see the profile's details
+1. Click on the **link** to the profile to see the profile's details
 
 ![LxxLyKc0x1oi VIpnVZWW9P9ONfMiUKW6M 20241018 194817.png "Lookup Depeche Mode with the default timebased merge policy"](assets/n-ADAXZy_lxxLyKc0x1oi-VIpnVZWW9P9ONfMiUKW6M-20241018-194817.png "Lookup Depeche Mode with the default timebased merge policy")
 
@@ -120,10 +120,10 @@ Do another search for the Depeche Mode profile but this time using the **No ID S
 1. Right click on **Profiles** in the left rail and then select **open in a new tab**
 1. In the top navigation select **Browse**
 1. Select the Merge policy of **No ID Stitching**
-1. Select the Identity namespace of **Email **
+1. Select the Identity namespace of **Email**
 1. Enter the Identity value of **depeche.mode\@dep.com**
 1. Click on the **View** button to lookup the profile
-1. Click on the **link **to the profile to see the profile's details
+1. Click on the **link** to the profile to see the profile's details
 
 ![LxxLyKc0x1oi doj B3j9ZWBoEDpLTupQ1 20241018 195409.png "Lookup Depeche Mode with No ID Stitching merge policy"](assets/n-ADAXZy_lxxLyKc0x1oi-doj-B3j9ZWBoEDpLTupQ1-20241018-195409.png "Lookup Depeche Mode with No ID Stitching merge policy")
 
@@ -193,7 +193,7 @@ Without the identity graph the profile store can only retrieve profile fragments
 
 >[!NOTE]
 >
->**Have some extra time and want to experiment...: **
+>**Have some extra time and want to experiment...:**
 >
 >- Search for other profiles in the UI you know of that have two identities
 >- See how some Events are stored against one fragment but not the other

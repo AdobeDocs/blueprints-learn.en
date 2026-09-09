@@ -14,11 +14,11 @@ Verify that the event resulted in a profile update and segment qualification in 
 
 In Adobe Experience Platform lookup the profile you just sent in from the event you just sent into the Edge Network.  
 
-1. Navigate to **Customer **-> **Profiles **-> **Browse **to perform the lookup using the following information:
+1. Navigate to **Customer** -> **Profiles** -> **Browse** to perform the lookup using the following information:
    - **Merge policy** -> `Default Timebased`
    - **Identity Namespace** -> `Email`
    - **Identity Value** ->  `henry.creel@emailsim.io`
-1. Click **View **to lookup up the profile
+1. Click **View** to lookup up the profile
 
 ![YhLnKD84tNVUxSLTan2bG 20251223 172059](assets/validate-profile-on-hub-5.png)
 
@@ -27,14 +27,14 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 ## Validate Profile on Hub
 
 1. Click on the **Profile ID** to open the profile
-1. Click on the **Attributes **tab first and the ***Hub ***radio button to see the **Hub Profile**
+1. Click on the **Attributes** tab first and the ***Hub** *radio button to see the **Hub Profile**
 
 ![IJ iro 20251107 005528](assets/validate-profile-on-hub-4.png)
 
 
 ## Validate Events
 
-1. Click on **Events **in the top nav and you can see the event you just sent in
+1. Click on **Events** in the top nav and you can see the event you just sent in
 
 ![ZH1XaOgtwuC 20251222 222838](assets/validate-profile-on-hub-2.png)
 
@@ -42,11 +42,11 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 
 ### Via JSON
 
-1. Click on the **Attributes **header and View **JSON**
+1. Click on the **Attributes** header and View **JSON**
 
 ![2jS2liqd8p8Bb yRTLTfn 20251111 223239](assets/validate-profile-on-hub-1.png)
 
-1. Find **segmentMembership**.  It should look like this (your IDs will be different)
+2. Find **segmentMembership**.  It should look like this (your IDs will be different)
 
 ```json
   "segmentMembership": {
@@ -68,9 +68,9 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 >
 >[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
->**ups: **This is the map key for different kinds of audiences supported by AEP.  The ups key contains audiences created by the Rule Builder.  Other auidences will be contained in other keys (e.g. AAM).
+>**ups:** This is the map key for different kinds of audiences supported by AEP.  The ups key contains audiences created by the Rule Builder.  Other auidences will be contained in other keys (e.g. AAM).
 >
->**lastQualificationTime    **A timestamp of the last time this profile qualified for the segment
+>**lastQualificationTime** A timestamp of the last time this profile qualified for the segment
 >
 >**status**
 >
@@ -91,7 +91,7 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 >
 >**Why no Batch Audience?**
 >
->You should not see **dep: Any Event Batch (within the day) **qualified for since we streamed in data and batch evaluation happens once a day.
+>You should not see **dep: Any Event Batch (within the day)** qualified for since we streamed in data and batch evaluation happens once a day.
 
 ## Recap
 

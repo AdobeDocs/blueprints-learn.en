@@ -7,6 +7,8 @@ solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
 ---
 
+# Developer Console Setup
+
 >[!WARNING]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
@@ -49,7 +51,7 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 >
 >Reuse the credential you created above instead of creating a new one — the CLI only needs a single set of credentials, with combined scopes.
 
-1. Select the same product profile and select **Save configured API** 
+4. Select the same product profile and select **Save configured API** 
 
 ## Collect your values
 

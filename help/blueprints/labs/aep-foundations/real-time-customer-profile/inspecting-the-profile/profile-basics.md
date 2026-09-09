@@ -12,8 +12,8 @@ Remember that the view of any Real-Time Customer Profile is built using the sche
 
 You can see the Union Schema of the profile by doing the following:
 
-1. Click on **Profiles **in the left rail 
-1. Click on **Union Schema **in the top nav
+1. Click on **Profiles** in the left rail 
+1. Click on **Union Schema** in the top nav
 
 ![LxxLyKc0x1oi qkk7x9qYLauRcyynYFt39 20241017 193248.png "Profile Union View"](assets/n-ADAXZy_lxxLyKc0x1oi-qkk7x9qYLauRcyynYFt39-20241017-193248.png "Profile Union View")
 
@@ -39,10 +39,10 @@ Click on the **account** object and notice what appears in the right rail of the
 ## Profile Lookup
 
 1. Click on **Profiles** in the left rail and then in the top navigation select **Browse**
-1. Select the Identity namespace of **Email **
+1. Select the Identity namespace of **Email**
 1. Enter the Identity value of **depeche.mode\@dep.com**
 1. Click on the **View** button to lookup the profile
-1. Click on the **link **to the profile to see the profile's details
+1. Click on the **link** to the profile to see the profile's details
 
 ![LxxLyKc0x1oi  k AbBvi5cOvsBM8ZaWpm 20241017 200615.png "Profile Viewer (Browse](assets/n-ADAXZy_lxxLyKc0x1oi-_k-AbBvi5cOvsBM8ZaWpm-20241017-200615.png "Profile Viewer (Browse)")
 
@@ -61,14 +61,14 @@ Take a minute to explore the profile, Depeche Mode, by looking at each tab in th
 
 ## View Attributes
 
-Navigate to the **Attributes **tab and click **View JSON **
+Navigate to the **Attributes** tab and click **View JSON**
 
 ![LxxLyKc0x1oi Da2kw9BmD5pri1y8C5fGD 20241017 202102.png "Depeche Mode attributes"](assets/n-ADAXZy_lxxLyKc0x1oi-Da2kw9BmD5pri1y8C5fGD-20241017-202102.png "Depeche Mode attributes")
 
 Let’s see how fields show up that came from the Field Groups you added to the Customer Account Schema. 
 
 - Look for the parent node titled **entity**
-- Note the child object **billingAddress **(this came from Personal Contact Details Field Group)
+- Note the child object **billingAddress** (this came from Personal Contact Details Field Group)
 
 ```json
 "billingAddress": {
@@ -126,7 +126,7 @@ Compare this to what the Profile Union Schema has and you should lightbulb on wh
 
 
 
-Next look for **consents **object (this came from Consent and Preference Details field group)
+Next look for **consents** object (this came from Consent and Preference Details field group)
 
 ```json
 "consents":{
@@ -155,7 +155,7 @@ Scroll down to tenant namespace, **\_devbc**, and look for **plan** object (this
 
 
 
-Notice the **aggregates **object you defined to for the upsell use case. Those fields are also under the tenant namespace \_devbc. They came from a different schema (dep: Customer Aggregates) and a custom field group (dep: Aggregates)
+Notice the **aggregates** object you defined to for the upsell use case. Those fields are also under the tenant namespace \_devbc. They came from a different schema (dep: Customer Aggregates) and a custom field group (dep: Aggregates)
 
 ```json
 "aggregates":{
@@ -166,7 +166,7 @@ Notice the **aggregates **object you defined to for the upsell use case. Those f
 
 ## View Identity Map
 
-You can also see a profile's associated identities as they are stored within a map based object named **identityMap. **Look for **identityMap **near the bottom of the JSON document. 
+You can also see a profile's associated identities as they are stored within a map based object named **identityMap.** Look for **identityMap** near the bottom of the JSON document. 
 
 This is a representation of all the identities you have passed in regardless if you used the identityMap field or marked a field using an identity Descriptor.
 
@@ -252,7 +252,7 @@ Lets view the identity graph of Depeche Mode using the customerID identity inste
 1. Copy and save the **customerID** somewhere.
 1. Change the namespace value in the Identity namespace box to **customerID**
 1. Paste in the **customerID** value you saved from the previous step
-1. Click the **View **button to see the identity graph that contains this identity using the new identity value
+1. Click the **View** button to see the identity graph that contains this identity using the new identity value
 
 ![Identity graph view of.png "Identity Graph View of Identity Graph View of "](assets/CAoR0JPVtw5hL5qR3TIe2_identity-graph-view-of.png "Identity Graph View of Identity Graph View of ")
 
@@ -268,7 +268,7 @@ Go back to the Profile Viewer and lookup Depeche Mode using the customerID now
 
 1. Change the Identity namespace to **customerID**
 1. Update the Identity value using the customerID value you saved in the last section
-1. Click the **View **button
+1. Click the **View** button
 
 ![LxxLyKc0x1oi X7PNE3BFiKC9NNb5x 0VR 20241017 203302.png "Lookup Depeche Mode using customerID"](assets/n-ADAXZy_lxxLyKc0x1oi-X7PNE3BFiKC9NNb5x-0VR-20241017-203302.png "Lookup Depeche Mode using customerID")
 

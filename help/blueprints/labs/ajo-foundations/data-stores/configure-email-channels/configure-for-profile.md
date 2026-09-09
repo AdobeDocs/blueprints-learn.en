@@ -13,18 +13,18 @@ In the next set of steps you will create an Email Channel Configuration with bot
 ## Create Channel Configuration
 
 1. Navigate to **Channel Configurations** found under the menu **Administration → Channels → General settings**
-1. Click the **Create configuration **button
+2. Click the **Create configuration** button
 
 ![Create channel configuration](assets/configure-email-channels-4.png)
 
-1. In the Create wizard set the following values:
+3. In the Create wizard set the following values:
    - **Name:**  `Profile-Email`
    - **Channel:**  `Email`
    - **Marketing action:**  `Email Targeting`
 
 ![Channel configuration details](assets/configure-for-profile-8.png)
 
-**Note**: On selecting Email as the channel, a new section** Email settings **shows up. 
+**Note**: On selecting Email as the channel, a new section **Email settings** shows up. 
 
 ## Configure Email Type
 
@@ -57,9 +57,9 @@ From the **IP pool** dropdown, select **marketing**
 
 1. Set the the following fields as follows:
    - **From name:**  `DEP Labs`
-   - **From email prefix:  **`dep`
-   - **Reply to name:  **`DEP Labs Support`
-   - **Reply to email:  **`reply@email.dep-labs.com`
+   - **From email prefix:**`dep`
+   - **Reply to name:**`DEP Labs Support`
+   - **Reply to email:**`reply@email.dep-labs.com`
    - **Error email prefix:**  `error`
 
 ![Header parameters](assets/configure-email-channels-3.png)
@@ -74,7 +74,7 @@ Leave this blank
 
 ## Configure Email retry parameters
 
-Leave with the default settings of **Hours **set to **84 **
+Leave with the default settings of **Hours** set to **84**
 
 ## Configure URL tracking parameters
 
@@ -82,47 +82,47 @@ Leave with the default settings
 
 ## **Execution Details**
 
-1. Complete the **Execution details** section. Under **Journey and Action **tab**-> Execution dimension,** select **Profile** as **Source** and click on the Edit icon for **Delivery address** under the **Execution Address **section
+1. Complete the **Execution details** section. Under **Journey and Action** tab**-> Execution dimension,** select **Profile** as **Source** and click on the Edit icon for **Delivery address** under the **Execution Address** section
 
 ![Execution details](assets/configure-for-profile-7.png)
 
-1. Click on the folder titled **Personal Email** to open it up
+2. Click on the folder titled **Personal Email** to open it up
 
 ![Delivery address](assets/configure-for-profile-1.png)
 
-1. Click the **checkbox** on the `Address` field then click the **Select **button
+3. Click the **checkbox** on the `Address` field then click the **Select** button
 
 ![Personal Email as Delivery address](assets/configure-for-profile-9.png)
 
-1. For **Profile**, the `personalEmail.address` is now configured as the **Delivery address** under **Execution Address **section
+4. For **Profile**, the `personalEmail.address` is now configured as the **Delivery address** under **Execution Address** section
 
 ![Delivery address configured](assets/configure-for-profile-6.png)
 
-1. Click on the Orchestrated campaign tab and **check **the Enabled checkbox.
+5. Click on the Orchestrated campaign tab and **check** the Enabled checkbox.
 
 ![Orchestrated campaign configuration](assets/configure-email-channels-2.png)
 
-1. Under the Execution dimension heading configure the following:
+6. Under the Execution dimension heading configure the following:
    - **Deliver one message per:**  `Target Dimension`
    - **Profile Target Dimension:**  `dep-rel: Customer Account - customer_id`
 
 ![Target Dimension](assets/configure-for-profile-3.png)
 
-1. Under Execution Address configure the following:
-   - **Source:  **`Profile`
-   - **Delivery address: **` click on the Edit icon`
+7. Under Execution Address configure the following:
+   - **Source:**`Profile`
+   - **Delivery address:**` click on the Edit icon`
 
 ![Execution Address](assets/configure-for-profile-4.png)
 
-1. Search for and click on the `Personal Email` folder to open it
+8. Search for and click on the `Personal Email` folder to open it
 
 ![Personal Email Profile attribute](assets/configure-for-profile-2.png)
 
-1. Select the `Address` field within the Personal Email folder and click on **Select**
+9. Select the `Address` field within the Personal Email folder and click on **Select**
 
 ![Personal Email as Delivery address](assets/configure-for-profile-5.png)
 
-1. For **Orchestrated campaign**, the **dep-rel: Customer Account - customer\_id** is configured as **Profile** **Target Dimension **for **Execution Dimension** with **Execution Address** having a **Source** of **Profile** and `personalEmail.address` as **Delivery address**
+10. For **Orchestrated campaign**, the **dep-rel: Customer Account - customer\_id** is configured as **Profile** **Target Dimension** for **Execution Dimension** with **Execution Address** having a **Source** of **Profile** and `personalEmail.address` as **Delivery address**
 
 ![Execution dimension configured](assets/configure-for-profile-10.png)
 

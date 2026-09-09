@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 ---
 
+# AI Assistant & Content Personalization
+
 **Purpose:** Learn how to use Adobe Journey Optimizer’s AI Assistant to generate subject lines, refine email text, adjust tone, and create on-brand Firefly images directly inside the email designer.
 
 ## Learning Objectives
@@ -38,21 +40,21 @@ For this exercise, we will improve the email that we have created using the AI A
 ## Create Email Subject Line Using AI Assistant
 
 1. Go back to the Campaign by clicking the back button or edit the email you created in the previous module. (from previous step, you can click on settings tab on right hand side)
-1. Click on Email Container > Click on Edit Email button. 
-1. Click on the content tab, and then click on Email body
-1. Select the **Subject Line** field.
-1. Click the **AI Assistant icon**. (see below)
+2. Click on Email Container > Click on Edit Email button. 
+3. Click on the content tab, and then click on Email body
+4. Select the **Subject Line** field.
+5. Click the **AI Assistant icon**. (see below)
 
 ![Image](assets/ai-assistant-and-content-personalization-1.png)
 
-1. You will notice that Brand Guideline is selected by default. 
-1. Enter the prompt:
+6. You will notice that Brand Guideline is selected by default. 
+7. Enter the prompt:
 
 >We are launching iPhone 17 and want a subject line to be catchy
 
-1. Press **Generate**.
-1. Review the four variants generated.
-1. Choose the variant with the best alignment score and click **Select**.
+8. Press **Generate**.
+9. Review the four variants generated.
+10. Choose the variant with the best alignment score and click **Select**.
 
 ![Image](assets/ai-assistant-and-content-personalization-16.png)
 
@@ -69,32 +71,32 @@ For this exercise, we will improve the email that we have created using the AI A
 
 ![Image](assets/ai-assistant-and-content-personalization-20.png)
 
-1. Click on the **Product ****Catchy ****line** heading.
-1. Open AI Assistant by clicking on **Generate and select a text**
+2. Click on the **Product** **Catchy** **line** heading.
+3. Open AI Assistant by clicking on **Generate and select a text**
 
 ![Sbl image](assets/ai-assistant-and-content-personalization-13.png)
 
-1. Select **Connection 5G Brand Guidelines** from the dropdown.
+4. Select **Connection 5G Brand Guidelines** from the dropdown.
 
 ![Image](assets/ai-assistant-and-content-personalization-19.png)
 
-1. Prompt:
+5. Prompt:
 
 >*Write a bold, attention-grabbing headline for the iPhone 17 launch. Keep it under 10 words*
 
-1. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English **and Tone to **Exciting**. Use shorter version by scalling down the dial. 
+6. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English** and Tone to **Exciting**. Use shorter version by scalling down the dial. 
 
 ![F image](assets/ai-assistant-and-content-personalization-6.png)
 
-1. Click the **Generate** button
-1. Review and select the best version, 
-1. If your text is long then use the slier to **"shorter text" **and regenerate the text. 
+7. Click the **Generate** button
+8. Review and select the best version, 
+9. If your text is long then use the slier to **"shorter text"** and regenerate the text. 
 
 
 
 ![Image](assets/ai-assistant-and-content-personalization-25.png)
 
-1. Once you are happy with the text click on **Select**
+10. Once you are happy with the text click on **Select**
 
 ![Image](assets/ai-assistant-and-content-personalization-15.png)
 
@@ -106,19 +108,19 @@ This time we want to test how AI can help to find issues.
 
 ![Image](assets/ai-assistant-and-content-personalization-5.png)
 
-1. Click on evaluate button as shown below. 
+2. Click on evaluate button as shown below. 
 
 ![Image](assets/ai-assistant-and-content-personalization-11.png)
 
-1. Your original content will be automatically selected with your brand, as shown in Steps 1 and 2 below. Click the **Evaluate **button to proceed.
+3. Your original content will be automatically selected with your brand, as shown in Steps 1 and 2 below. Click the **Evaluate** button to proceed.
 
 ![Image](assets/ai-assistant-and-content-personalization-17.png)
 
-1. As expected, you will notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case we will not revise the existing materials. Instead, we will leave them as they are and create new content from scratch that fully aligns with brand standards.
+4. As expected, you will notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case we will not revise the existing materials. Instead, we will leave them as they are and create new content from scratch that fully aligns with brand standards.
 
 ![DCObYpgpMgLJM WX image](assets/ai-assistant-and-content-personalization-7.png)
 
-1. Lets use new paragraph that is generated for you using AI using the prompt below. You can use same approach for decription text using the prompt below.
+5. Lets use new paragraph that is generated for you using AI using the prompt below. You can use same approach for decription text using the prompt below.
 
 Prompt:
 
@@ -147,30 +149,30 @@ We understand that we have the year of birth of the profile. One of the experien
 
 ![Image](assets/ai-assistant-and-content-personalization-18.png)
 
-1. Click outside then select the image placeholder. (Make sure you click on the image otherwise you wont see Firefly option)
+2. Click outside then select the image placeholder. (Make sure you click on the image otherwise you wont see Firefly option)
 
 ![CuUzs4Go  image](assets/ai-assistant-and-content-personalization-26.png)
 
-1. Under **Firefly**, click **Generate and select image**.
+3. Under **Firefly**, click **Generate and select image**.
 
 ![Image](assets/ai-assistant-and-content-personalization-22.png)
 
 ## Upload Reference Image
 
 1. Turn on **Reference Style**.
-1. Select **Connection 5G Brand Guideline **on brand selection
+2. Select **Connection 5G Brand Guideline** on brand selection
 
 ![Image](assets/ai-assistant-and-content-personalization-8.png)
 
-1. Click on Upload Image
+3. Click on Upload Image
 
 ![Image](assets/ai-assistant-and-content-personalization-14.png)
 
-1. Select reference.jpg frmo the toolkit folder
+4. Select reference.jpg frmo the toolkit folder
 
 ![Image](assets/ai-assistant-and-content-personalization-12.png)
 
-1. Add Image Prompt
+5. Add Image Prompt
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
 ![Xp4IVBEKWnbcw image](assets/ai-assistant-and-content-personalization-23.png)
@@ -183,7 +185,7 @@ Choose your **Image settings**:
    - **Ratio:** Landscape (4:3)
    - **Content type:** Photo
    - **Colour & tone:** Cool tone
-   - **Lighting: **Dramatic Lighting
+   - **Lighting:** Dramatic Lighting
 1. Press **Generate** button 
 
 ![TByDX1ZBhU0Qpjd image](assets/ai-assistant-and-content-personalization-3.png)
@@ -195,15 +197,15 @@ Choose your **Image settings**:
 
 ![Image](assets/ai-assistant-and-content-personalization-10.png)
 
-1. Click **Select** for your desired chosen image.
+2. Click **Select** for your desired chosen image.
 
 ![Image](assets/ai-assistant-and-content-personalization-9.png)
 
-1. If prompted with an upload modal, click **Next**.
+3. If prompted with an upload modal, click **Next**.
 
 ![Image](assets/ai-assistant-and-content-personalization-24.png)
 
-1. Then click **Import**.
+4. Then click **Import**.
 
 ![Image](assets/ai-assistant-and-content-personalization-21.png)
 

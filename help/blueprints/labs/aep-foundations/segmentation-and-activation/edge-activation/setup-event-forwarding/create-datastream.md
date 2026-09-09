@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
 ---
 
+# Create Datastream
+
 A Datastream defines which services that will utilize it.
 
 - When sending data to the Edge you specify which Datastream to use
@@ -13,7 +15,7 @@ A Datastream defines which services that will utilize it.
   - Event Forwarding 
   - Adobe Experience Platform
 
-# Create a New Datastream
+## Create a New Datastream
 
 1. In the left rail under **Data Collection** click on **Datastreams**
 1. Then click on **New Datastream** to create one
@@ -26,8 +28,8 @@ Configure the datastream with following information:
 
 1. Name -> **Datastream SB + \<sandbox name> (i.e Datastream SB01)**
 1. Event Schema -> **dep: Web**
-1. Toggle **on **all the options under **Geolocation and Network Lookup**
-1. Click on the **Save **button when done
+1. Toggle **on** all the options under **Geolocation and Network Lookup**
+1. Click on the **Save** button when done
 
 >[!WARNING]
 >
@@ -96,7 +98,7 @@ You should the service now added to your datastream
 
 
 
-When done your final screen should look like below with two services present. **Copy **and **save **the **Datastream ID** to your local computer (we will use it later in Postman)
+When done your final screen should look like below with two services present. **Copy** and **save** the **Datastream ID** to your local computer (we will use it later in Postman)
 
 ![Final datastream configuration.png "Final Datastream Configuration"](assets/b4RE5cQh9vL9Odnlcivds_final-datastream-configuration.png "Final Datastream Configuration")
 

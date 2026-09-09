@@ -23,9 +23,9 @@ Every schema requires a primary identity field if its to be used with the Real-T
 
 1. Open the **Customer Account** schema you created
 1. Select the **\_\<tenant-name>.customerID** field by clicking on the field in the schema
-1. In the right rail check both the **Identity **and **Primary identity** checkboxes
-1. Select the **customerID **namespace from the dropdown
-1. When done click the **Apply **button in the right rail and then **Save **your changes. 
+1. In the right rail check both the **Identity** and **Primary identity** checkboxes
+1. Select the **customerID** namespace from the dropdown
+1. When done click the **Apply** button in the right rail and then **Save** your changes. 
 
 ![Screenshot 2024 10 23 at 124541 pm.png "Marking  dxp.customerID as a Primary Identity"](assets/YHQPFrUe6FhlQ8-4h4MwV_screenshot-2024-10-23-at-124541-pm.png "Marking _dxp.customerID as a Primary Identity")
 
@@ -49,11 +49,11 @@ Every schema requires a primary identity field if its to be used with the Real-T
 
 ## Mark the Person Identity Field(s)
 
-Remember that every schema that is to be used with the Real-Time Customer profile **optionally can contain **other person identity fields. To mark a field as a person identity perform the following actions on the Customer Account schema you created previously.
+Remember that every schema that is to be used with the Real-Time Customer profile **optionally can contain** other person identity fields. To mark a field as a person identity perform the following actions on the Customer Account schema you created previously.
 
 1. Select the **personalEmail.address** field
-1. Check the **Identity **checkbox found in the right rail
-1. Select the **Email **identity namespace from the dropdown
+1. Check the **Identity** checkbox found in the right rail
+1. Select the **Email** identity namespace from the dropdown
 1. **Apply & Save** your changes
 
 ![Screenshot 2024 10 23 at 125011 pm.png "Marking the personalEmail.address as an identity"](assets/CeLBGQqKkBNK1kdyAglJA_screenshot-2024-10-23-at-125011-pm.png "Marking the personalEmail.address as an identity")
@@ -70,7 +70,7 @@ In order to relate the Plan schema to the Customer Account schema as outlined in
 
 ## Add Relationship
 
-1. Select the **planID **field within the Plan object as shown below
+1. Select the **planID** field within the Plan object as shown below
 1. In the right rail click on the **Add relationship** icon
 
 ![Kvyr3C3 xNi9Jk 20250407 051258.png "Add relationship to the planID field"](assets/tuVzmBoiK7KLeP1a2YNos-kCCQbA_kvyr3C3-xNi9Jk-20250407-051258.png "Add relationship to the planID field")
@@ -81,7 +81,7 @@ In order to relate the Plan schema to the Customer Account schema as outlined in
 
 1. In the Type select box select the **One-to-one** option
 1. In the Reference schema select box choose the schema named **dep: Plan \[Lookup]** (this was pre-created for you)
-1. Click **Apply** and** Save**
+1. Click **Apply** and **Save**
 
 ![7UO1 screenshot 2024 10 23 at 125624 pm.png dep Plan Lookup relationship](assets/screenshot-2024-10-23-at-125624-pm.png)
 
@@ -101,11 +101,11 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 
 
-1. Open your newly created **Customer Account - \[your initials] **schema
+1. Open your newly created **Customer Account - \[your initials]** schema
 1. Click on the title of your schema from within the left rail
-1. Configure your schema for profile by toggling **ON **the Profile toggle in the right rail
-1. In the modal that appears click on the **Enable **button
-1. Don't forget to **Save **your schema when you are done!
+1. Configure your schema for profile by toggling **ON** the Profile toggle in the right rail
+1. In the modal that appears click on the **Enable** button
+1. Don't forget to **Save** your schema when you are done!
 
 ![LxxLyKc0x1oi jmqtGYpp2mn80cVYsf7Nq 20241023 200555.png "Schema Profile Toggle"](assets/n-ADAXZy_lxxLyKc0x1oi-jmqtGYpp2mn80cVYsf7Nq-20241023-200555.png "Schema Profile Toggle")
 
@@ -121,7 +121,7 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 As mentioned previously the power of XDM + the Real-Time Customer Profile is the ability to assemble a variety of fragments of an individual and their behaviors together.  This is referred to as the "Union View" of the customer.  In the steps below you'll see how you can preview what this union will look like for each XDM class that is configured for the Real-Time Customer Profile
 
-1. Navigate to **Profiles **in the left rail
+1. Navigate to **Profiles** in the left rail
 1. Select the **Union Schema** tab on the top menu
 1. Select the **XDM Individual Profile** class from the drop down
 

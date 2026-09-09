@@ -14,7 +14,7 @@ In the next few steps you are going to compose a VERY simple SMS message.  You'l
 
 ## Navigate to Content
 
-Click the **Edit content **button, or navigate directly to the **Content **tab
+Click the **Edit content** button, or navigate directly to the **Content** tab
 
 ![E1QKL7fHu4EffNuTHNt Y 20260119 201812.png "Edit content"](assets/e1QKL7fHu4EffNuTHNt-Y-20260119-201812.png "Edit content")
 
@@ -32,7 +32,7 @@ Click the **Edit content **button, or navigate directly to the **Content **tab
 
 
 
-1. Copy and paste the text below into the SMS message body.
+2. Copy and paste the text below into the SMS message body.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrade to the one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -44,7 +44,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 
 
-1. Update the two fields in the message called **phone\_make **and **phone\_model **below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
+3. Update the two fields in the message called **phone\_make** and **phone\_model** below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
 
 ![Final sms message](assets/compose-the-sms-1.png)
 
@@ -54,13 +54,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 
 
-1. Click the **V****alidate **on the editor and make sure there are no validation errors and if good click the **Save **button
+4. Click the **V****alidate** on the editor and make sure there are no validation errors and if good click the **Save** button
 
 ![Validate and save the message](assets/compose-the-sms-2.png)
 
 
 
-1. Click on the **back arrow (\<-)** when you are done to return to the workflow canvas
+5. Click on the **back arrow (\<-)** when you are done to return to the workflow canvas
 
 ![Return to workflow canvas](assets/compose-the-sms-4.png)
 

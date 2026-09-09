@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
 ---
 
+# Brand Alignment
+
 **Purpose:** Learn how to use Adobe Journey Optimizer’s Brand Alignment feature to evaluate email content, identify guideline violations, and apply AI‑powered recommendations to improve brand compliance.
 
 ## Learning Objectives
@@ -34,14 +36,14 @@ This module teaches you to run the evaluation, interpret results, and improve yo
 ## Open Brand Alignment Panel
 
 1. Open the email you created in the previous modules.
-1. Locate the **Brand Alignment** tab in the right rail or the **% icon** in the sidebar.
-1. Click to open the panel.
+2. Locate the **Brand Alignment** tab in the right rail or the **% icon** in the sidebar.
+3. Click to open the panel.
 
 ![Image](assets/brand-alignment-7.png)
 
-1. Ensure the correct brand is applied:
+4. Ensure the correct brand is applied:
    - **Connection 5G** (default).
-1. Click **Evaluate Score**.
+5. Click **Evaluate Score**.
 
 **Interpret the Brand Score and feedback:** After a moment, you will see the Brand Compliance Score for your content. This score may be presented as a rating (e.g. High, Medium, or Low) or a percentage, along with a color indicator (green, yellow, red) and the time of evaluation. A High score means your content strongly aligns with the brand guidelines, whereas a medium or low score indicates moderate or poor alignment.
 
@@ -92,25 +94,25 @@ Interpret the results to understand how closely your email matches Connection 5G
 # Apply AI Recommendations
 
 1. Click into flagged text blocks or images within the email.
-1. Lets use the paragraph we pasted in previous exercise as shown below. 
+2. Lets use the paragraph we pasted in previous exercise as shown below. 
 
 ![YuTxpuqTwm image](assets/brand-alignment-9.png)
 
-1. Use the suggested modifications provided by AI. Click on icon as shown below. 
+3. Use the suggested modifications provided by AI. Click on icon as shown below. 
 
 ![Image](assets/brand-alignment-8.png)
 
-1. Click on Fix with AI buton as shown below. 
+4. Click on Fix with AI buton as shown below. 
 
 ![Image](assets/brand-alignment-3.png)
 
-1. You will see suggested changes highlighted in green, and removed text shown in red with strikethrough, as illustrated below. You will also notice that the score has been updated (in our case, it is 80%). Click the **Apply **button for the changes to take effect.
+5. You will see suggested changes highlighted in green, and removed text shown in red with strikethrough, as illustrated below. You will also notice that the score has been updated (in our case, it is 80%). Click the **Apply** button for the changes to take effect.
 
 ![Image](assets/brand-alignment-1.png)
 
-1. Changes will be applied wih new text. 
-1. Review all highlighted areas and make the necessary updates to correct the content, either using AI or by editing manually. Ensure that all required changes are completed before proceeding.
-1. Save changes.
+6. Changes will be applied wih new text. 
+7. Review all highlighted areas and make the necessary updates to correct the content, either using AI or by editing manually. Ensure that all required changes are completed before proceeding.
+8. Save changes.
 
 ![Image](assets/brand-alignment-6.png)
 
@@ -118,9 +120,9 @@ Interpret the results to understand how closely your email matches Connection 5G
 ## Re-evaluate the Brand Score
 
 1. Make changes to all location to fix the content using AI or manually. 
-1. Return to the Brand Alignment panel.
-1. Click **Re-evaluate Score**.
-1. Compare the new score to the previous one.
+2. Return to the Brand Alignment panel.
+3. Click **Re-evaluate Score**.
+4. Compare the new score to the previous one.
 
 ![NsBe3nsLU image](assets/brand-alignment-10.png)
 
@@ -131,7 +133,7 @@ For example:
 
 This indicates your updates successfully aligned the email with brand standards.
 
-1. Click **Save** to finalise your email.
+5. Click **Save** to finalise your email.
 
 ![OyO4i image](assets/brand-alignment-4.png)
 

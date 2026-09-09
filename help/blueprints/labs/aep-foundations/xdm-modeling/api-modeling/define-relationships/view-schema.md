@@ -6,7 +6,7 @@ solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
 ---
 
-# ** View via the UI**
+# **View via the UI**
 
 1. Open your browser and navigate back to the `Schema -> Browse` section.
 1. Search for the schema `Sample Customer Schema - <your sandbox number>`

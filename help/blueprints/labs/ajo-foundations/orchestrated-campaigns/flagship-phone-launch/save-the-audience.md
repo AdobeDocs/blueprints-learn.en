@@ -14,13 +14,13 @@ In the next set of steps you will be saving the audience your created back to th
 
 ## Change the Dimension
 
-1. On the workflow canvas, click the **+**** icon** on **Save Audience** branch and from the list of activities, select the **Change Dimension **activity
+1. On the workflow canvas, click the **+** **icon** on **Save Audience** branch and from the list of activities, select the **Change Dimension** activity
 
 ![Image](assets/save-the-audience-11.png)
 
 
 
-1. Update the properties of the change dimension as outlined below:
+2. Update the properties of the change dimension as outlined below:
    - **Label:**  `Convert Line to Account`
    - **New target dimension:**  `dep-rel: Customer Account`
 
@@ -34,7 +34,7 @@ In the next set of steps you will be saving the audience your created back to th
 
 
 
-1. When done, you should now see this in your canvas.  Save your work!
+3. When done, you should now see this in your canvas.  Save your work!
 
 ![IleMvhafPtBOxvsR3YRIM 20260609 203448](assets/save-the-audience-4.png)
 
@@ -42,19 +42,19 @@ In the next set of steps you will be saving the audience your created back to th
 
 ## Deduplicate the Result
 
-1. Click the **+**** icon** after the Change Dimension activity and from the list of activities select the **Deduplication **activity
+1. Click the **+** **icon** after the Change Dimension activity and from the list of activities select the **Deduplication** activity
 
 ![Add deduplication activity](assets/save-the-audience-5.png)
 
 
 
-1. Update the label of the Deduplication activity to `Dedup customer id`
+2. Update the label of the Deduplication activity to `Dedup customer id`
 
 ![Deduplication label and primary set](assets/save-the-audience-12.png)
 
 
 
-1. Now click the **+ Add attribute** button and select the field from the schema titled **Customer ID**
+3. Now click the **+ Add attribute** button and select the field from the schema titled **Customer ID**
 
 ![Add attribute](assets/save-the-audience-14.png)
 
@@ -62,7 +62,7 @@ In the next set of steps you will be saving the audience your created back to th
 
 
 
-1. Under the Deduplication settings, ensure you have the following set:
+4. Under the Deduplication settings, ensure you have the following set:
    - **Duplicates to keep:**  `1`
    - **Deduplication method:**  `Random selection`
 
@@ -74,7 +74,7 @@ In the next set of steps you will be saving the audience your created back to th
 
 
 
-1. When you are done your canvas should now look like this. Click the **Save **button in the upper right before moving on.
+5. When you are done your canvas should now look like this. Click the **Save** button in the upper right before moving on.
 
 ![Deduplication activity fully configured](assets/save-the-audience-13.png)
 
@@ -82,11 +82,11 @@ In the next set of steps you will be saving the audience your created back to th
 
 ## Add Save Audience Activity
 
-1. Click the **+** icon after the Deduplication activity and select the** Save Audience **activity
+1. Click the **+** icon after the Deduplication activity and select the **Save Audience** activity
 
 ![Add the save audience activity](assets/save-the-audience-8.png)
 
-1. In the right rail set the properties of the activity to the following:
+2. In the right rail set the properties of the activity to the following:
    - **Audience Label**:  `Apple Upgrade Eligible Customer Accounts`
    - **Profile mapping field**:  `dep-rel: Customer Account - customer id`
 
@@ -115,7 +115,7 @@ By default the primary key of the targeting dimension (i.e., Customer ID) is add
 
 ## Fix Default Audience Field
 
-1. Rename the default Target Audience Field to **Customer\_ID **like shown below:
+1. Rename the default Target Audience Field to **Customer\_ID** like shown below:
 
 ![Default field renamed](assets/save-the-audience-3.png)
 
@@ -125,7 +125,7 @@ By default the primary key of the targeting dimension (i.e., Customer ID) is add
 
 
 
-1. Click the **Start **button to run your workflow. Your workflow should now look like this and you should see the counts as follows:
+2. Click the **Start** button to run your workflow. Your workflow should now look like this and you should see the counts as follows:
    - Build audience: `65`
    - Convert Line to Account:  `65`
    - Dedup customer id:  `46`

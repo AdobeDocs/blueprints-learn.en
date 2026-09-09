@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
 ---
 
+# Recap
+
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
 >[!NOTE]
@@ -14,7 +16,7 @@ exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
 
 
 
-# **Created the Customer Account Schema**
+## **Created the Customer Account Schema**
 
 You created the schema by `$ref` both the Adobe created field groups and your own custom created field group (i.e. tenant).  You also `$ref` the class the schema is meant to represent (i.e. XDM Individual Profile)
 
@@ -33,7 +35,7 @@ You used the JSON Patch method to modify the Customer Account schema to add a ne
 In this step you performed two (2) of the same `POST` calls to create `Identity Descriptors` for both the `_devbc.customerID` and `personalEmail.address` fields within the the Customer Account schema.
 
 1. The `_devbc.customerID` field was set as the **primary** identity
-1. The `personalEmail.address` field was **not set **as a primary
+1. The `personalEmail.address` field was **not set** as a primary
 
 ![LxxLyKc0x1oi jEL3jslviLmNs4IVEtej4 20241024 000121.png "Customer Account schema identity fields"](assets/n-ADAXZy_lxxLyKc0x1oi-jEL3jslviLmNs4IVEtej4-20241024-000121.png "Customer Account schema identity fields")
 

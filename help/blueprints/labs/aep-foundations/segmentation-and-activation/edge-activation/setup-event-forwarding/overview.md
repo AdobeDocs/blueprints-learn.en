@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336
 ---
 
+# Setup Event Forwarding
+
 Event Forwarding sits on the Edge and allows us to create a set of rules and light transformations to send events to any endpoint.
 
 At this step we are going to forward all events that we send into the Edge to a webhook. The webhook will act as a proxy for a third party and allow us to see what is happening.

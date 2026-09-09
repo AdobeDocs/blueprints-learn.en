@@ -29,8 +29,8 @@ Configure the datastream with following information:
 
 1. Name -> **Datastream SB + \<sandbox name> (i.e Datastream SB01)**
 1. Mapping Schema -> **dep: Web**
-1. Toggle **on **all the options under **Geolocation and Network Lookup**if you want to capture this info.
-1. Click on the **Save **button when done
+1. Toggle **on** all the options under **Geolocation and Network Lookup**if you want to capture this info.
+1. Click on the **Save** button when done
 
 >[!WARNING]
 >
@@ -48,17 +48,17 @@ After you save your datastream you will see the following screen:
 
 This will allow us to send data to the Hub and land in a dataset for data received by this Datastream.
 
-1. Click the blue **Add Service **button found in the middle of the screen
+1. Click the blue **Add Service** button found in the middle of the screen
 
 ![YUAtAJ3sUXP7ZCMCuTSPm 20260127 215802](assets/create-datastream-3.png)
 
-1. Configure the following items:
-   - **Service **-> `Adobe Experience Platform`
+2. Configure the following items:
+   - **Service** -> `Adobe Experience Platform`
    - **Event Dataset** -> `dep: Web`
    - **Profile Dataset** -> `dep: Customer Account`
    - **Select Checkbox** -> `Offer Decisioning`
    - **Select Checkbox** -> `Adobe Journey Optimizer`
-1. When done click **Save**
+3. When done click **Save**
 
 ![XEXihsnI1nn8gMjBEuIb  20251219 003026](assets/create-datastream-2.png)
 
@@ -66,7 +66,7 @@ You should the service now added to your datastream
 
 ![Adobe experience platform service added in datastream.png "Adobe Experience Platform Service added in datastream"](assets/dljvg2SwEkYDDcJ-DJG2H_adobe-experience-platform-service-added-in-datastream.png "Adobe Experience Platform Service added in datastream")
 
-**Copy **and **save **the **Datastream ID** to your local computer (we will use it later in Postman)
+**Copy** and **save** the **Datastream ID** to your local computer (we will use it later in Postman)
 
 ![AaljP9gL2OGb2Mz2IMI1y 20251028 165155](assets/create-datastream-1.png)
 

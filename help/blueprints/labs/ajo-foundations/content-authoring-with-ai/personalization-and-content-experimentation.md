@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 ---
 
+# Personalization and Content Experimentation
+
 **Purpose:** Learn how to personalise email content using profile attributes, build dynamic content variants, and apply conditional logic in Adobe Journey Optimizer.
 
 ## Learning Objectives
@@ -37,28 +39,28 @@ For this part of exercise we will keep personalisation simple. We want to add fi
 Add a text "Hi," above the main title and lick on personalisation icon. 
 
 1. Open your email created in earlier modules.
-1. Add a text block above the hero title with the content: **Hi,**
-1. Click the **Personalisation** icon.
+2. Add a text block above the hero title with the content: **Hi,**
+3. Click the **Personalisation** icon.
 
 ![Image](assets/personalization-and-content-experimentation-19.png)
 
-1. Search for **F****irst Name**.
+4. Search for **F****irst Name**.
 
 ![Image](assets/personalization-and-content-experimentation-1.png)
 
-1. Click **+** to add it to the expression area. 
-1. Add a **space** after the **First name **field.
+5. Click **+** to add it to the expression area. 
+6. Add a **space** after the **First name** field.
 
 ![NARHYKYxOban1e image](assets/personalization-and-content-experimentation-21.png)
 
-1. Repeat the process above but this time search and add **Last Name**.
+7. Repeat the process above but this time search and add **Last Name**.
 
 Your final syntax should show first and last name variables clearly separated.
 
 ![Image](assets/personalization-and-content-experimentation-8.png)
 
-1. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
-1. Click **Save** 
+8. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you will be using Full name for other email content creation. We can skip and go to the next step. 
+9. Click **Save** 
 
 Your view should be like this. Curly brackets consists of variables and each individual will receive email with their names. 
 
@@ -96,28 +98,28 @@ Remember this block we created in our previous module? Your image will be differ
 We will create another image for those aged below 40 (Remember we created Firefly image of person mid-40s) and use that for our exercise.
 
 1. Select the existing image block. (Click on the image) and click **Conditional Block**.
-1. Click **Add Variant**.
+2. Click **Add Variant**.
 
 ![Image](assets/personalization-and-content-experimentation-5.png)
 
-1. Rename the first variant to **Age above 40**.
+3. Rename the first variant to **Age above 40**.
 
 ![Image](assets/personalization-and-content-experimentation-13.png)
 
-1. Create a new Variant by clicking on **"Add variant"** button and Rename it to **Age below 40. **
+4. Create a new Variant by clicking on **"Add variant"** button and Rename it to **Age below 40.**
 
 ![QCzqNiThzrg image](assets/personalization-and-content-experimentation-3.png)
 
-1. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
-1. Click on the image and Import Media.
+5. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
+6. Click on the image and Import Media.
 
 ![Image](assets/personalization-and-content-experimentation-9.png)
 
-1. Select **variant-age-below-40.jpg** image. Import it by clicking on Next and finally press import in your folder (you should be default within your folder)
+7. Select **variant-age-below-40.jpg** image. Import it by clicking on Next and finally press import in your folder (you should be default within your folder)
 
 ![NQED515CO1 image](assets/personalization-and-content-experimentation-17.png)
 
-1. Try to toggle between variants and you will see different image is applied. 
+8. Try to toggle between variants and you will see different image is applied. 
 
 So far we have built the design but have not applied the logic. We will do this in next step. 
 
@@ -131,39 +133,39 @@ Both of the variants are ready but we have not applied conditional logic.
 ## Logic for “Age above 40”
 
 1. Select and hover the **Age above 40** variant.
-1. Click the **Conditional Logic** icon.
+2. Click the **Conditional Logic** icon.
 
 ![Image](assets/personalization-and-content-experimentation-7.png)
 
-1. Create a new condition.
+3. Create a new condition.
 
 ![Image](assets/personalization-and-content-experimentation-15.png)
 
-1. Search for **year** in the attribute list.
-1. Drag **Birth Year** into the canvas.
-1. Set condition to:
+4. Search for **year** in the attribute list.
+5. Drag **Birth Year** into the canvas.
+6. Set condition to:
    - **birthYear \< 1986**
 
 ![Image](assets/personalization-and-content-experimentation-20.png)
 
-1. Name the condition: **Age Above 40**
-1. Add a description - "**Image Variant for people who are above 40**"
-1. Click **Add → Select**.
+7. Name the condition: **Age Above 40**
+8. Add a description - "**Image Variant for people who are above 40**"
+9. Click **Add → Select**.
 
 ![Image](assets/personalization-and-content-experimentation-12.png)
 
 
 ## Logic for “Age Below 40”
 
-1. Select amd hover **Age below 40 **section. 
-1. Repeat the steps but change the logic to:
+1. Select amd hover **Age below 40** section. 
+2. Repeat the steps but change the logic to:
    - **birthYear >= 1986**
 
 ![Image](assets/personalization-and-content-experimentation-2.png)
 
-1. Name the condition: **Age Below 40**
-1. Add description. "**Image Variant for people who are below 40**"
-1. Click **Add → Select**.
+3. Name the condition: **Age Below 40**
+4. Add description. "**Image Variant for people who are below 40**"
+5. Click **Add → Select**.
 
 ![Image](assets/personalization-and-content-experimentation-10.png)
 
@@ -199,4 +201,4 @@ In this module, you successfully learned how to:
 - Build dynamic image variants
 - Apply conditional rules based on age
 
-You are now ready for next module - ** Simulation**, to test both variants
+You are now ready for next module - **Simulation**, to test both variants

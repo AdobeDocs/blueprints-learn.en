@@ -31,7 +31,7 @@ The screen you now see shows you a bunch of details about what the error codes m
 
 ## Understanding Error Types
 
-## **INGEST-XXXX-XXX Error**
+### **INGEST-XXXX-XXX Error**
 
 This error occurs because **person.birthDayAndMonth** is expected in the format of a two digit month plus a two digit day (i.e. April 27 should formatted as 04-27)
 
@@ -47,9 +47,9 @@ person.birthDayAndMonth of type: String
 
 
 
-## **MAPPER-XXXX-XXX Error**
+### **MAPPER-XXXX-XXX Error**
 
-This error occurs because the source field of **createDate **has string values of `Created on 2022-04-22T19:34:17Z`. This value cannot be converted into a date automatically because of the text at the beginning: `Created on`. A calculated field must be used to cleanse the data. 
+This error occurs because the source field of **createDate** has string values of `Created on 2022-04-22T19:34:17Z`. This value cannot be converted into a date automatically because of the text at the beginning: `Created on`. A calculated field must be used to cleanse the data. 
 
 ```none
 Error transforming data for destination path 

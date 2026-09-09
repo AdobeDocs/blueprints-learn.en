@@ -15,7 +15,7 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 
 >[!NOTE]
 >
->**Event Type Field **
+>**Event Type Field**
 >
 >We could have used:
 >
@@ -48,7 +48,7 @@ Search for Order ID and drag the field onto the Order Cancelled Event.
 
 
 
-Clear any search and click into **Placed **under the **Browse Variables**
+Clear any search and click into **Placed** under the **Browse Variables**
 
 ![Click into placed under the browse variables](assets/click-into-placed-under-the-browse-variables.png)
 
@@ -90,7 +90,7 @@ Your final result should be as you've seen below
 
 >[!NOTE]
 >
->**Container Names **
+>**Container Names**
 >
 >Containers will inherit their variable name from their context.  
 >

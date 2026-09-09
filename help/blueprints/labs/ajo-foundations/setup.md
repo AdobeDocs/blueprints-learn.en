@@ -7,6 +7,8 @@ solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
 ---
 
+# Setup
+
 Before you start the AJO Foundations labs, complete the setup steps below. Which steps you need depend on how you're taking this bootcamp.
 
 ## Sandbox Setup

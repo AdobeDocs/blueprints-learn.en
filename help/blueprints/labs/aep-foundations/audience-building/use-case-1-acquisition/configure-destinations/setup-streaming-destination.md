@@ -6,11 +6,13 @@ solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 ---
 
+# Setup Streaming Destination
+
 >[!NOTE]
 >
 >Skip to the next step you have already configured your streaming destination!
 
-# Get Webhook URL
+## Get Webhook URL
 
 >[!NOTE]
 >
@@ -30,8 +32,8 @@ exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 
 In the Experience Platform UI navigate to the destinations catalog by doing the following
 
-1. Click on **Destinations **in the left rail
-1. Click on **Catalog **on the top rail
+1. Click on **Destinations** in the left rail
+1. Click on **Catalog** on the top rail
 1. In the search box enter **http**
 1. Click on the **Set up** button to configure the HTTP API destination
 
@@ -58,15 +60,15 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 
 3\. Fill in the configuration details of your destination as follows:
 
-- **Name **-> `Streaming DEP Webhook - [Your Initials]`
-- **Description **->  `[your webhook endpoint you copied above]`
-- **Endpoint **-> ` [your webhook endpoint you copied above]`
+- **Name** -> `Streaming DEP Webhook - [Your Initials]`
+- **Description** ->  `[your webhook endpoint you copied above]`
+- **Endpoint** -> ` [your webhook endpoint you copied above]`
 - **Query Parameters** -> `leave blank`
-- **Headers **-> `leave blank`
+- **Headers** -> `leave blank`
 - Include segment names -> toggle on
 - Include segment timestamps -> toggle on
 
-When done ensure your configure matches what you see below.  If it looks good click the **Next **button in the upper right to continue to the next step
+When done ensure your configure matches what you see below.  If it looks good click the **Next** button in the upper right to continue to the next step
 
 ![LxxLyKc0x1oi 04Lph 8tmJSFqHA6LPvzY 20241021 201004](assets/setup-streaming-destination-1.png)
 
@@ -79,7 +81,7 @@ When done ensure your configure matches what you see below.  If it looks good cl
 ## Define Governance
 
 1. Select **Cross Site Targeting** from the Marketing Actions
-1. When done click the **Next **button to continue to the next step
+1. When done click the **Next** button to continue to the next step
 
 ![Governance screen for destinations.png "Governance screen for destinations"](assets/c76F7Kf1wV-YD8NridS1w_governance-screen-for-destinations.png "Governance screen for destinations")
 
@@ -94,7 +96,7 @@ When done ensure your configure matches what you see below.  If it looks good cl
 ## Select Audiences
 
 1. Select all audiences
-1. When done click the **Next **button to continue to the next step
+1. When done click the **Next** button to continue to the next step
 
 ![Select all audiences](assets/select-all-audiences.png)
 
@@ -104,10 +106,10 @@ When done ensure your configure matches what you see below.  If it looks good cl
 >
 >Here we are adding a field from Profile. If that field has no data, we may see nothing passed to the Destination. Multiple updates over time across Profile and Events sometimes can cause the Destination to trigger multiple times and send multiple payloads.
 
-1. Click on **Add new field **to add a field to the schema
-1. Type **model** into the schema field input box and select the** \_dep.activeProducts\[0].model **field from the list of fields that appears
-1. Change the **\[0]** to **\[\*] **in the field name.  Your final field should now show as **\_dep.activeProducts\[\*].model**
-1. When done click the **Next **button to continue to the next step
+1. Click on **Add new field** to add a field to the schema
+1. Type **model** into the schema field input box and select the **\_dep.activeProducts\[0].model** field from the list of fields that appears
+1. Change the **\[0]** to **\[\*]** in the field name.  Your final field should now show as **\_dep.activeProducts\[\*].model**
+1. When done click the **Next** button to continue to the next step
 
 
 
@@ -131,7 +133,7 @@ When done ensure your configure matches what you see below.  If it looks good cl
 
 ## Review Step
 
-Validate your final destination looks good and then click the **Finish **button
+Validate your final destination looks good and then click the **Finish** button
 
 ![Destination review screen.png "Destination review screen"](assets/YrD--mkpMGlzHBmWllgx6_destination-review-screen.png "Destination review screen")
 

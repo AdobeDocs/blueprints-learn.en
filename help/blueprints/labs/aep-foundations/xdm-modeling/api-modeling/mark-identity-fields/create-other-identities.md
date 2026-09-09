@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
 ---
 
+# Create Other Identities
+
 1. Click on the `Step 2 - Create Email Address Identity for Customer Account Schema` API call in the `XDM Schema Lab -> Create Identity Descriptors` folder
 
 >[!CAUTION]

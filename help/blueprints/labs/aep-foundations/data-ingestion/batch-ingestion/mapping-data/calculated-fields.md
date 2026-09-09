@@ -32,7 +32,7 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 
 
 
-3\. You should see a green checkmark in the top right corner of the black box indicating the validity of the expression and the data Preview should only show** “n” **or **“y”** as values. If everything looks good click **Save**.
+3\. You should see a green checkmark in the top right corner of the black box indicating the validity of the expression and the data Preview should only show **“n”** or **“y”** as values. If everything looks good click **Save**.
 
 
 
@@ -43,8 +43,8 @@ A new field will be added to the mapping screen but with an unmapped target fiel
 ![Sms optin unmapped.png "sms optin unmapped"](assets/ypkVU1U2D2Vjs8TYF5bVs_sms-optin-unmapped.png "sms_optin unmapped")
 
 1. Click on the **Map target field** for the new calculated field you created
-1. In the right pane, you will now see the target schema panel open. Type **sms **into the search box
-1. Select the **val **field
+1. In the right pane, you will now see the target schema panel open. Type **sms** into the search box
+1. Select the **val** field
 
 ![Map calculated field to target xdm field](assets/map-calculated-field-to-target-xdm-field.png)
 
@@ -113,5 +113,5 @@ date_part("yyyy",date(birth_Date,"M/d/yyyy"))
 
 >[!NOTE]
 >
->Observe that the dates are in **MM/DD/YYYY **format but **birth\_Date** data in the sample is coming as either single or double digits for the day and month. For the **date **function to work, you have to specify the input format of the data such as **M/d/yyyy **so that you can account for 1 to 2 digits for the month and day. Without this date input format specification, the validation of these mappings will fail.
+>Observe that the dates are in **MM/DD/YYYY** format but **birth\_Date** data in the sample is coming as either single or double digits for the day and month. For the **date** function to work, you have to specify the input format of the data such as **M/d/yyyy** so that you can account for 1 to 2 digits for the month and day. Without this date input format specification, the validation of these mappings will fail.
 

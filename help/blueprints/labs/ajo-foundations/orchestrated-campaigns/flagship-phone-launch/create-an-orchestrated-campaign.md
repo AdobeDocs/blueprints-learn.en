@@ -20,14 +20,14 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
 
 
 
-1. In the left navigation rail, select **Campaigns**
-1. Then click the button **Create campaign** in the upper right
+2. In the left navigation rail, select **Campaigns**
+3. Then click the button **Create campaign** in the upper right
 
 ![Create camaign](assets/create-an-orchestrated-campaign-1.png)
 
 
 
-1. In the modal that displays select **Orchestration - Marketing** and the click **Confirm**
+4. In the modal that displays select **Orchestration - Marketing** and the click **Confirm**
 
 ![Create orchestrated campaign](assets/create-an-orchestrated-campaign-4.png)
 
@@ -35,15 +35,15 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
 
 1. Fill out the required camaign metadata with the following information:
    - **Name** --> `Flagship Phone Launch`
-   - **Description **--> *leave empty*
+   - **Description** --> *leave empty*
    - **Merge policy** --> `Default Timebased`
-   - **Tags **-->* leave empty*
+   - **Tags** -->* leave empty*
 
 When done your screen should look like below. 
 
 ![Campaign settings](assets/create-an-orchestrated-campaign-3.png)
 
-1. Click the **Save **button to continue.
+2. Click the **Save** button to continue.
 
 
 

@@ -18,18 +18,18 @@ Verify that the web event was written to the Experience Platform Data Lake.
 >
 >You can find and query the Web dataset.
 
-1. Go to **Queries **and **Create Query**
+1. Go to **Queries** and **Create Query**
 
 ![NBZzK2rgWOnAsq8e1BVqo 20251027 224300](assets/validate-event-on-data-lake-2.png)
 
-1. Copy this SQL and paste it into your query
+2. Copy this SQL and paste it into your query
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-1. **Run **Query
+3. **Run** Query
 
 >[!WARNING]
 >

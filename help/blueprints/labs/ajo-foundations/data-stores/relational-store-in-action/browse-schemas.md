@@ -30,26 +30,26 @@ With relational XDM schemas you can easily view the entity relationship diagram 
 
 Do the following:
 
-1. Click on the **Relationships **tab and then click on the **View relationship diagram** button
+1. Click on the **Relationships** tab and then click on the **View relationship diagram** button
 
 ![View relationships diagram](assets/browse-schemas-3.png)
 
 
 
-1. Click **Select Schemas**
-1. From the pop-up, select `dep-rel: Customer Account` and then click **Confirm**
+2. Click **Select Schemas**
+3. From the pop-up, select `dep-rel: Customer Account` and then click **Confirm**
 
 ![Select dep-rel: Customer Account schema](assets/browse-schemas-1.png)
 
 
 
-1. On the ERD click the **3 dots** and select **Show related entities**
+4. On the ERD click the **3 dots** and select **Show related entities**
 
 ![Show related entities](assets/browse-schemas-2.png)
 
 
 
-1. View the ERD with all tables directly related to dep-rel: Customer Account. Optionally you can download the ERD as a PNG file.
+5. View the ERD with all tables directly related to dep-rel: Customer Account. Optionally you can download the ERD as a PNG file.
 
 ![View ERD diagram](assets/browse-schemas-4.png)
 

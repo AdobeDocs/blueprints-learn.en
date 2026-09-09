@@ -20,3 +20,7 @@ Explore Adobe Journey Optimizer’s architecture, journey orchestration, orches
 - Journey's Technical Building Blocks
 - Edge Profile and Edge Decisioning
 
+## Introduction
+
+>[!VIDEO](https://video.tv.adobe.com/v/3486223/)
+

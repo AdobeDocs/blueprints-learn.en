@@ -18,9 +18,9 @@ In this step you will be importing the API collection which contains all the var
 
 Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-1. Like before, click on the **Import** button.
-1. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json **file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import.
-1. After the import process is complete, click on **Collections** in the left navbar, expand the **AJO Bootcamp (Labs)** folder, and you should see the newly imported collection
+2. Like before, click on the **Import** button.
+3. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json** file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import.
+4. After the import process is complete, click on **Collections** in the left navbar, expand the **AJO Bootcamp (Labs)** folder, and you should see the newly imported collection
 
 ![verify postman collection import](assets/import-api-collection-1.png)
 
@@ -42,15 +42,15 @@ Details about each folder can be found below:
 To ensure that the environment and collection are functioning correctly together, please follow these steps. 
 
 1. If necessary, click on **Collections** in the left rail and then expand the **Profiles & Journey** **Labs** folder. 
-1. Click on the **Create Web Event** request, and you should see that environment variables are **red**
+2. Click on the **Create Web Event** request, and you should see that environment variables are **red**
 
 ![Saf2u44lB7bq2OHqBj9 F 20260107 215911.png "Verify postman environment variables are red"](assets/saf2u44lB7bq2OHqBj9-F-20260107-215911.png "Verify postman environment variables are red")
 
-1. Click on the **Environment Dropdown **in the upper-right corner and choose the **AJO Bootcamp** environment.
+3. Click on the **Environment Dropdown** in the upper-right corner and choose the **AJO Bootcamp** environment.
 
 ![Select correct Postman environment](assets/import-api-collection-2.png)
 
-1. With the proper environment selected, you should see that the EDGE\_REGION variable now turns a lighter blue color. This indicates that the variable now has a value for the selected environment. The DATASTREAM\_CONFIG variable will stay red because you haven't created the datastream yet, so you don't have a value for that environment variable yet. Hovering over the EDGE\_REGION will show you what the value of the environment value is.
+4. With the proper environment selected, you should see that the EDGE\_REGION variable now turns a lighter blue color. This indicates that the variable now has a value for the selected environment. The DATASTREAM\_CONFIG variable will stay red because you haven't created the datastream yet, so you don't have a value for that environment variable yet. Hovering over the EDGE\_REGION will show you what the value of the environment value is.
 
 ![EpMYLd0EA6K8yVlvSv37E 20260108 062937.png "Verify Postman enviroment works with collection"](assets/EpMYLd0EA6K8yVlvSv37E-20260108-062937.png "Verify Postman enviroment works with collection")
 

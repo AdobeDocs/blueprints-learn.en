@@ -11,7 +11,7 @@ exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
 You need to upload a sample data file to your Data Landing Zone via Azure Storage Explorer so that you can use it during the lab.  To do so do the following:
 
 1. Download the [Sample Files](../../../sample-files.md) 
-1. Drag 'n drop and/or upload the **Lab\_Historical\_Orders.json **file to the Data Landing Zone you saved from above.
+1. Drag 'n drop and/or upload the **Lab\_Historical\_Orders.json** file to the Data Landing Zone you saved from above.
 
 
 
@@ -34,7 +34,7 @@ When uploaded your screen should look like the below screenshot
 
 ## Preview the File
 
-1. Select the **Lab\_Historical\_Orders.json **file and preview its contents
+1. Select the **Lab\_Historical\_Orders.json** file and preview its contents
 1. Click **Next** in the upper right corner of the screen to continue to the next step
 
 ![Select and preview the lab historical orders.png "Select & Preview the Lab Historical Orders.json file"](assets/YlaOXmjTZGeyeWDUAaTAT_select-and-preview-the-lab-historical-orders.png "Select & Preview the Lab_Historical_Orders.json file")
@@ -55,6 +55,6 @@ When uploaded your screen should look like the below screenshot
 
 >[!CAUTION]
 >
->Ensure you have **enabled **your dataset for both profile and partial ingestion.
+>Ensure you have **enabled** your dataset for both profile and partial ingestion.
 
 Click **Next** in the upper right corner of the screen to continue to the next step

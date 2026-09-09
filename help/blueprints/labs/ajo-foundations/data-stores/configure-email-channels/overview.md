@@ -6,7 +6,11 @@ solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
 ---
 
-# Learning Objectives
+## Lab Overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3486540/)
+
+## Learning Objectives
 
 - Configure Email channel using AEP Profile attribute for Orchestrated Campaigns
 - Configure Email channel using Relational schema attribute for Orchestrated Campaigns

@@ -31,7 +31,7 @@ Identify and label tables in the Connection 5G warehouse and streaming ERDs that
 1. Identify all tables directly related to (one hop away from) the XDM Individual Profile  tables that do not yet have a label. Mark them with a star "**\***"
    .
 1. Looking at only the schema’s you just labeled with a star perform the following tasks:
-   1. **Add a label “B” for bridge table **– a table is considered a bridge table when two or more tables are related to it with the many side of the relationship from both tables pointing to the bridge table
+   1. **Add a label “B” for bridge table** – a table is considered a bridge table when two or more tables are related to it with the many side of the relationship from both tables pointing to the bridge table
    2. **Add a label “D” for tables to denormalize** – any entity that has a 1\:M or M:1 cardinality with the XDM Individual Profile labeled table and is not already marked
 
 >[!NOTE]
@@ -46,8 +46,8 @@ Identify and label tables in the Connection 5G warehouse and streaming ERDs that
 
 1. Identify all tables directly related to (one hop away from) the Experience Event labeled tables that do not yet have a label. Mark them with a star.
 1. Looking at only the tables you just labeled with a star perform the following tasks:
-   1. **Add a label “B” for bridge tables **– a table is considered a bridge table when two or more tables are related to it with the many side of the relationship pointing to the bridge table
-   2. **Add a label “D” for tables to denormalize **– any table that has a 1\:M or M:1 cardinality with the XDM Experience Event labeled table and is not already marked
+   1. **Add a label “B” for bridge tables** – a table is considered a bridge table when two or more tables are related to it with the many side of the relationship pointing to the bridge table
+   2. **Add a label “D” for tables to denormalize** – any table that has a 1\:M or M:1 cardinality with the XDM Experience Event labeled table and is not already marked
 
 >[!NOTE]
 >

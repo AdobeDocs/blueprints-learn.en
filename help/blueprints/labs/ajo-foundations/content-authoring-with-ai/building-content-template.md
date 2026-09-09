@@ -46,25 +46,25 @@ This functionality allows content-oriented users to work on templates outside ca
 
 ![8GT AZjDP0Ab4bIU image](assets/building-content-template-9.png)
 
-1. Click **Create Template **and then fill in the following:
+2. Click **Create Template** and then fill in the following:
    - **Name:** `Promotional Template`
    - **Description:** `Promotional Template for phone products`
    - **Channel:** `Email`
 
 ![Image](assets/building-content-template-13.png)
 
-1. Click **Create**.
+3. Click **Create**.
 
 ![Gwy image](assets/building-content-template-5.png)
 
 
 ## Add Subject Line & Open Email Designer
 
-1. Add subject line: `Promotional Template` and click **on the email body **to open it to edit
+1. Add subject line: `Promotional Template` and click **on the email body** to open it to edit
 
 ![Image](assets/building-content-template-6.png)
 
-1. You will see three options: 
+2. You will see three options: 
    1. Desing from scratch
    2. Code your own
    3. Import HTML
@@ -83,11 +83,11 @@ We will select third option. Click **Import HTML**
 
 ![CVvhKbyJUh41nbw image](assets/building-content-template-4.png)
 
-1. Click on Import button to **import** the template. 
+2. Click on Import button to **import** the template. 
 
 ![Image](assets/building-content-template-7.png)
 
-1. Wait for the layout to render. You will notice issues like broken image links and missing branding. (This is expected behavour as we have placeholder assets)
+3. Wait for the layout to render. You will notice issues like broken image links and missing branding. (This is expected behavour as we have placeholder assets)
 
 ![Image](assets/building-content-template-2.png)
 
@@ -136,19 +136,19 @@ You should see something like this.
 
 ![Image](assets/building-content-template-15.png)
 
-1. Your background will use template background color which is black currently. Set its **background colour to white. Click **in the Style tab on the right rail and use white colour from the colour picker. 
+2. Your background will use template background color which is black currently. Set its **background colour to white. Click** in the Style tab on the right rail and use white colour from the colour picker. 
 
 ![Image](assets/building-content-template-14.png)
 
-1. Open **Fragments** and drag in your **Header** fragment.
+3. Open **Fragments** and drag in your **Header** fragment.
 
 ![V8tK image](assets/building-content-template-12.png)
 
-1. Notice that the header fragment is neatly alligned to your template as shown below.
+4. Notice that the header fragment is neatly alligned to your template as shown below.
 
 ![Image](assets/building-content-template-1.png)
 
-1. Click the **Save **button to save your template and then click **Back**.
+5. Click the **Save** button to save your template and then click **Back**.
 
 ![Image](assets/building-content-template-11.png)
 
@@ -163,4 +163,4 @@ In this module, you successfully:
 
 - Imported HTML to build a full promotional template
 
-You are now ready to move on to next module - ** Email Creation**
+You are now ready to move on to next module - **Email Creation**

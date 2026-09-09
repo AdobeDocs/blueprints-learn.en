@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
 ---
 
+# Summary
+
 Through this lab you did the following activities:
 
 - Built an Orchestrated Campaign using a variety of workflow activities
@@ -29,7 +31,7 @@ If you had tried this in Journeys you would not have been able to satisfy both t
 
 >[!CAUTION]
 >
->**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB. **
+>**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
 

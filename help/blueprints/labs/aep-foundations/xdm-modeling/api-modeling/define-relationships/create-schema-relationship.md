@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 ---
 
+# Create Schema Relationship
+
 1. Click on the` Step 2 - Relationship Descriptor Customer Account To Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 
 >[!CAUTION]
@@ -59,7 +61,7 @@ You should now see a `201 Created` response like below
 
 >[!NOTE]
 >
->Remember the Real-Time Customer Profile (and all of Experience Platform) only supports what we call a **one (1) hop join  **from either the XDM Individual Profile or XDM Experience Event schemas (i.e. you can only create one (1) level lookup relationships)
+>Remember the Real-Time Customer Profile (and all of Experience Platform) only supports what we call a **one (1) hop join** from either the XDM Individual Profile or XDM Experience Event schemas (i.e. you can only create one (1) level lookup relationships)
 
 >[!NOTE]
 >

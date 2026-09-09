@@ -37,14 +37,14 @@ Example: "\_xdm.context.profile"
 
 entityId `string`
 
-ID of the entity. For Native XID lookup, use **'entityId=\<XID>' **and leave** 'entityIdNS' **absent; For Id\:NS lookup, use both **'entityId' **and **'entityIdNS' **fields.
+ID of the entity. For Native XID lookup, use **'entityId=\<XID>'** and leave **'entityIdNS'** absent; For Id\:NS lookup, use both **'entityId'** and **'entityIdNS'** fields.
 
 Example: "GtghAUFkdGVzdDE"
 
 
 entityIdNS `string`
 
-Identity Namespace code. Used for id\:ns lookup. If this field is used, **'entityId' **cannot be empty.
+Identity Namespace code. Used for id\:ns lookup. If this field is used, **'entityId'** cannot be empty.
 
 Example: "UPS1"
 
@@ -58,7 +58,7 @@ Example: "GtghAUFkdGVzdDE"
 
 relatedEntityIdNS `string`
 
-Identity Namespace code of the related entity id of experience event. Used when looking up experience events. If this field is used, '**entityId' **cannot be empty.
+Identity Namespace code of the related entity id of experience event. Used when looking up experience events. If this field is used, '**entityId'** cannot be empty.
 
 Example: "UPS1"
 
@@ -109,7 +109,7 @@ property `string`
 
 Filter by property value. Support evaluators \[=,!=,\<,>,\<=,>=]. When more than 1 property filter is provided, it will be concantenated with AND. Example: Paramter Input of
 
-**'property=web.webPageDetails.isHomepage=false\&placeContext.localTime\<="2019-07-20" **will result in a filter of '**placeContext.geo.city!="Burns Lake" AND placeContext.localTime\<="2019-07-20"' **Date filters should be provided as a '**String' **in the format of **'yyyy-mm-dd' **Notes: URL will need to be encoded. Maximum of 3 properties is supported. Only for experience events.
+**'property=web.webPageDetails.isHomepage=false\&placeContext.localTime\<="2019-07-20"** will result in a filter of '**placeContext.geo.city!="Burns Lake" AND placeContext.localTime\<="2019-07-20"'** Date filters should be provided as a '**String'** in the format of **'yyyy-mm-dd'** Notes: URL will need to be encoded. Maximum of 3 properties is supported. Only for experience events.
 
 Example: "web.webPageDetails.isHomepage=false"
 
@@ -166,9 +166,9 @@ Example: "Bearer \<replace with your token
 
 To get a feel the Entity Lookup API you'll use the Depeche Mode profile from the previous lab.
 
-1. Open up **Postman **and navigate to the **Profile Lab** folder
+1. Open up **Postman** and navigate to the **Profile Lab** folder
 1. Click on the **Entity Lookup (attributes)** request to open it
-1. Execute the call by clicking the **Send **button
+1. Execute the call by clicking the **Send** button
 
 ![3AYLtWMu profile entity lookup attributes api.png "Profile Entity Lookup (attributes](assets/lV7mJTqL9wBN_3AYLtWMu_profile-entity-lookup-attributes-api.png "Profile Entity Lookup (attributes) API")
 
@@ -182,9 +182,9 @@ A successful request should respond with a `200 OK` and you should see a result 
 
 With the Entity API there are a number of query parameters that you can utilize to change the what is returned in response.  
 
-1. In the Entity Lookup (attributes) request click on the **Params **option for the request
-1. Check the box next to **Key **named **fields**
-1. Execute the request by clicking the **Send **button
+1. In the Entity Lookup (attributes) request click on the **Params** option for the request
+1. Check the box next to **Key** named **fields**
+1. Execute the request by clicking the **Send** button
 
 ![Profile entity lookup attributes with filter enabled](assets/profile-entity-lookup-attributes-with-filter-enabled.png)
 
@@ -207,7 +207,7 @@ A successful request should respond with a `200 OK` and you should see only the 
 To lookup the events of a profile you use the same exact Profile Entity API.  The only difference is you have to tell the profile service that you want to change which class type use in the response.
 
 1. Click on the **Entity Lookup (events)** request to open it
-1. Execute the call by clicking the **Send **button
+1. Execute the call by clicking the **Send** button
 
 ![Profile entity lookup events](assets/profile-entity-lookup-events.png)
 
@@ -245,8 +245,8 @@ At some point you may have a question about what identities are part of a specif
 
 Try it yourself:
 
-1. Click on the **List Linked Identities **request to open it
-1. Execute the call by clicking the **Send **button
+1. Click on the **List Linked Identities** request to open it
+1. Execute the call by clicking the **Send** button
 
 >[!NOTE]
 >

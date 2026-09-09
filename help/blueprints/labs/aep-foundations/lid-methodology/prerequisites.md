@@ -25,7 +25,7 @@ The LID methodology labs you are about to perform will teach you how to think wh
 
 ## Lab Assets
 
-## Training Scenario
+### Training Scenario
 
 Famalarize yourself with the training scenario before you get started with the labs.
 
@@ -33,7 +33,7 @@ Famalarize yourself with the training scenario before you get started with the l
 
 
 
-## Reference Materials
+### Reference Materials
 
 To perform the various labs within the LID Methodology you will need the following materials:
 

@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: d95825ea-0c11-45ea-9c02-70467f0cfa67
 ---
 
+# That's a Wrap
+
 Check out the below resources if you wish to dig further into some of the things discussed in the learning 😀
 
 [Identity Service Overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)

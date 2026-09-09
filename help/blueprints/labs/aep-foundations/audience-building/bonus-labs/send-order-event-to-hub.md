@@ -66,8 +66,8 @@ Click Finish
 Launch postman on your computer and navigate to the following API call:
 
 1. **Postman Left Sidebar**  --> `Collections`
-1. **Collection **--> `AEP Foundations Bootcamps (labs)`
-1. **Folder **--> Profile Lab
+1. **Collection** --> `AEP Foundations Bootcamps (labs)`
+1. **Folder** --> Profile Lab
 1. **API Request** --> `Create Order Event`
 
 ![W43tBv create web event api request](assets/create-web-event-api-request.png)
@@ -81,12 +81,10 @@ Start by gathering the following values:
 
 ## Find Account Streaming Endpoint
 
-1. Navigate to **Sources **in the left rail and then click on **Accounts **in the top nav
+1. Navigate to **Sources** in the left rail and then click on **Accounts** in the top nav
 1. Search for **dep: HTTP API \[raw]**, highlight the row and copy and save the value of the **Streaming Endpoint** somewhere you can reference later
 
 ![LxxLyKc0x1oi VT rvewysl8ABem1xFkox 20241025 024115.png "dep: HTTP API \[raw]"](assets/n-ADAXZy_lxxLyKc0x1oi-VT-rvewysl8ABem1xFkox-20241025-024115.png "dep: HTTP API \[raw]")
-
-## ****
 
 ## **Find Dataflow ID**
 
@@ -103,8 +101,8 @@ Start by gathering the following values:
 
 Copy the values you saved in the previous steps into the places highlight below.  
 
-- **Red **--> `Streaming Endpoint URL`
-- **Green **--> `Dataflow ID`
+- **Red** --> `Streaming Endpoint URL`
+- **Green** --> `Dataflow ID`
 
 Your final API request should look like this when done
 
@@ -117,14 +115,12 @@ Your final API request should look like this when done
 
 ## Execute the API
 
-1. Save your API call by clicking the **Save **button
-1. Execute your request by clicking the **Send **button
+1. Save your API call by clicking the **Save** button
+1. Execute your request by clicking the **Send** button
 
 A successful call should result in the following response...
 
 ![Successful web event send](assets/successful-web-event-send.png)
-
-###
 
 ## Validate
 

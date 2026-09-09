@@ -12,13 +12,15 @@ exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
 >
 >The below labs must have been completed before starting this lab
 
-- **Data Stores -- Relational Store in Action** **--> **[Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **Data Stores -- Configure Email Channels --> **[Configure for Relational](../../data-stores/configure-email-channels/configure-for-relational.md)**
+- **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
+- **Data Stores -- Configure Email Channels -->** [Configure for Relational](../../data-stores/configure-email-channels/configure-for-relational.md)**
   *(this setup step takes up to 3hrs to complete)*
 
 If you have not completed these labs please do so now before continuing.
 
+## Lab Overview
 
+>[!VIDEO](https://video.tv.adobe.com/v/3486217/)
 
 ## Learning Objectives
 

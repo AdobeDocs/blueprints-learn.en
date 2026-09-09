@@ -6,9 +6,11 @@ solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
 ---
 
-If everything looks good go ahead and click the **Finish **button in the upper right to execute the data load.
+# Run Dataflow
 
-After you click** Finish**, you will be brought back to the **Dataflows** screen. It should takes a few minutes to create the Dataflow. The first run should kick in a couple of minutes. 
+If everything looks good go ahead and click the **Finish** button in the upper right to execute the data load.
+
+After you click **Finish**, you will be brought back to the **Dataflows** screen. It should takes a few minutes to create the Dataflow. The first run should kick in a couple of minutes. 
 
 ![Dataflows sources screen](assets/dataflows-sources-screen.png)
 

@@ -6,6 +6,7 @@ solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
 ---
 
+# Brand Management
 
 **Purpose:** Configure, refine, and publish the Connection 5G Brand Guidelines inside Adobe Journey Optimizer (AJO), so that all content and AI features stay aligned to the brand.
 
@@ -43,7 +44,7 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
 
 ![Image](assets/brand-management-3.png)
 
-1. Review the document to understand content used for Connection 5G:
+2. Review the document to understand content used for Connection 5G:
    - Tone of voice
    - Colours and visual style
    - Writing style and messaging examples
@@ -54,39 +55,39 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
 ## Create a New Brand in AJO
 
 1. In Adobe Journey Optimizer, go to the left navigation and click **Brands**.
-1. Click **Create Brand**.
+2. Click **Create Brand**.
 
 ![OB image](assets/brand-management-25.png)
 
-1. In the **Name** field, enter `Connection 5G Brand Guidelines`
-1. In the upload area, drag and drop the **Connection5g Brand Guidelines.pdf** file (or click **Select files** and choose it from your computer).
+3. In the **Name** field, enter `Connection 5G Brand Guidelines`
+4. In the upload area, drag and drop the **Connection5g Brand Guidelines.pdf** file (or click **Select files** and choose it from your computer).
 
 ![Image](assets/brand-management-4.png)
 
-1. Click **Create brand** to begin the extraction.
+5. Click **Create brand** to begin the extraction.
 
 A progress screen will appear while AJO analyses your file. This may take several minutes depending on the size of the document.
 
 ![Image](assets/brand-management-19.png)
 
-1. Once extraction is complete:
+6. Once extraction is complete:
    - A green confirmation bar appears at the top.
    - You are automatically redirected to the brand configuration screen.
    - Content and visual creation standards are now automatically populated based on the Brand Guidelines file uploaded.
 
 ![Image](assets/brand-management-1.png)
 
-1. Click on **Publish** button to publish the brand guidelines. 
+7. Click on **Publish** button to publish the brand guidelines. 
 
 ![Image](assets/brand-management-2.png)
 
-1. Confirm by pressing "Publish" button to confirm. 
+8. Confirm by pressing "Publish" button to confirm. 
 
 ![Image](assets/brand-management-10.png)
 
 A green confirmation bar appears at the bottom of the page indicating that your brand is successfully published.
 
-1. Click back on the main brand page and you will see your brand is now live (This shoudl be shown by green dot with a label **"Live"**)
+9. Click back on the main brand page and you will see your brand is now live (This shoudl be shown by green dot with a label **"Live"**)
 
 ![Image](assets/brand-management-24.png)
 
@@ -147,19 +148,19 @@ In the extracted content, some guiding principles may be incomplete. You will no
 
 ![A7avaV2vq1llopPDK image](assets/brand-management-20.png)
 
-1. Click on Edit Brand. You will get another tab to confirm Edit brand. Click on Edit brand button again. 
+2. Click on Edit Brand. You will get another tab to confirm Edit brand. Click on Edit brand button again. 
 
 ![Image](assets/brand-management-16.png)
 
-1. Go to the **About the Brand** tab.
+3. Go to the **About the Brand** tab.
 
 ![Image](assets/brand-management-11.png)
 
-1. Locate the section for **Guiding principles**, **Vision**, or similar high-level description.
+4. Locate the section for **Guiding principles**, **Vision**, or similar high-level description.
 
 ![T2wQ FaY7PpwIcx6MH image](assets/brand-management-17.png)
 
-1. Add the following text:
+5. Add the following text:
 
 **Vision:**
 
@@ -171,7 +172,7 @@ In the extracted content, some guiding principles may be incomplete. You will no
 
 ![Image](assets/brand-management-6.png)
 
-1. Click **Save**. (If you do not see Save button, click Overview tab first and click **save**)
+6. Click **Save**. (If you do not see Save button, click Overview tab first and click **save**)
 
 >[!TIP]
 >
@@ -186,15 +187,15 @@ Next, you will enhance the brand by adding a rule that ensures email buttons are
 
 ![Image](assets/brand-management-13.png)
 
-1. Make sure you are in the **Brand communication style** section.
+2. Make sure you are in the **Brand communication style** section.
 
 ![Image](assets/brand-management-7.png)
 
-1. Under the **Don’ts** area, click the **plus** icon to add a new rule.
+3. Under the **Don’ts** area, click the **plus** icon to add a new rule.
 
 ![Gn0cuhHHNc image](assets/brand-management-12.png)
 
-1. Configure the rule as follows:
+4. Configure the rule as follows:
    - **Exclusion:** `Be pushy` 
 
 >[!NOTE]
@@ -205,15 +206,15 @@ Next, you will enhance the brand by adding a rule that ensures email buttons are
 
 **Element:** Button
 
-1. Click **Add**.
+5. Click **Add**.
 
 ![Image](assets/brand-management-18.png)
 
-1. Confirm that the new Don’t rule appears as `Be pushy` in the list.
+6. Confirm that the new Don’t rule appears as `Be pushy` in the list.
 
 ![XfFlssw1 image](assets/brand-management-21.png)
 
-1. Click **Save**.
+7. Click **Save**.
 
 This rule will be applied wherever AI Assistant or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
 
@@ -230,17 +231,17 @@ This rule will be applied wherever AI Assistant or authors work on email button 
 Once you are satisfied with the configuration:
 
 1. Go back to Overview tab. Click on Save. 
-1. In the top right corner, click **Publish**.
+2. In the top right corner, click **Publish**.
 
 ![ZQ image](assets/brand-management-23.png)
 
-1. A confirmation dialog appears explaining that you are about to publish the updated Brand Guidelines for Connection 5G. Click **Publish** again to confirm.
+3. A confirmation dialog appears explaining that you are about to publish the updated Brand Guidelines for Connection 5G. Click **Publish** again to confirm.
 
 ![RFRebxTO64xr image](assets/brand-management-22.png)
 
-1. Wait for the green confirmation bar to appear.
-1. Click **Back** to return to the Brands list.
-1. Verify that a new card appears for **Connection 5G Brand Guidelines** with a status showing it is Live and available.
+4. Wait for the green confirmation bar to appear.
+5. Click **Back** to return to the Brands list.
+6. Verify that a new card appears for **Connection 5G Brand Guidelines** with a status showing it is Live and available.
 
 ![HyOzgpTBzTHc43hDUM SQ](assets/brand-management-15.png)
 

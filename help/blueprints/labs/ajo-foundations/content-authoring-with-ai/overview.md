@@ -12,10 +12,14 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 >
 >The below labs must have been completed before starting this lab
 
-- **Data Stores -- Relational Store in Action** **--> **[Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
+- **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Relational](../data-stores/configure-email-channels/configure-for-relational.md)
 
 If you have not completed these labs please do so now before continuing.
+
+## Lab Overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## Learning Objectives
 
@@ -75,13 +79,13 @@ Templates are reusable structures for channels, for example:
 
 ## Navigation & interface walkthrough
 
-## Log in and Access the Dashboard
+### Log in and Access the Dashboard
 
 1. Open Adobe Journey Optimizer in your browser.
 1. Sign in with your credentials.
 1. You will land on the main dashboard.
 
-## Locate the Main Navigation Menu
+### Locate the Main Navigation Menu
 
 Explore:
 
@@ -91,7 +95,7 @@ Explore:
 - Journeys
 - Assets
 
-## Access content creation tools
+### Access content creation tools
 
 Before you begin building your brand, let’s take a moment to explore the **content creation tools** available in Adobe Journey Optimizer including:
 

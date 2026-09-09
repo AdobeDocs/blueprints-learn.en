@@ -13,12 +13,12 @@ Verify that the journey was triggered and executed as expected.  Verify reports 
 ## Checking Your Journey
 
 1. Go to your Order Shipped Journey, open it if you closed it
-1. You should see at least 2 Profile Entered
+2. You should see at least 2 Profile Entered
 
 ![Iwa42eUkpVbVCNYzyI4jK 20251224 002013](assets/validate-journey-2.png)
 
-1. Click **View Report **->** Last 24 hours** in the top right.
-1. By default, you should be in the **Journey **tab (on the left rail)
+3. Click **View Report** -> **Last 24 hours** in the top right.
+4. By default, you should be in the **Journey** tab (on the left rail)
    - You should see some enters and exits (count will depend on how many events you sent in, any testing, any errors, etc.)
 
 ![VClBq 20251118 002624](assets/validate-journey-1.png)
@@ -47,16 +47,16 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 3 External Events
 
-1. Click on the **Email **tab (on the left rail)
+5. Click on the **Email** tab (on the left rail)
    - **Email - Sending Performance**
-     - You should see some values for **Delivered **and **Sent **(count will depend on how many events you sent in, any errors, etc.)
+     - You should see some values for **Delivered** and **Sent** (count will depend on how many events you sent in, any errors, etc.)
      - Hopefully, you have no errors (unless you ran into some problems earlier)
    - **Email - Statistics**
      - Email - 3 targeted, sent, delivered
 
 ![MOGtLfhTriQ u5UwoTNYQ 20251118 002651](assets/validate-journey-3.png)
 
-1. Go check your **email inbox** and see if you got the email (it should look similar to this below)
+6. Go check your **email inbox** and see if you got the email (it should look similar to this below)
    - *,*your order has shipped ETA: *10/17/2026* Tracking Number: *051009364*
 
 >[!CAUTION]
@@ -73,7 +73,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 
 
-1. *After 30-60 minutes*, you can even check your dataset in the data lake with the following: **Queries **-> **Create Query** -> **Copy/Paste SQL** -> **Run**
+7. *After 30-60 minutes*, you can even check your dataset in the data lake with the following: **Queries** -> **Create Query** -> **Copy/Paste SQL** -> **Run**
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 ![Final workflow](assets/run-the-workflow-1.png)
 
-1. If you haven't already stopped your workflow ensure you do so now by clicking the **Stop **button in the upper right.
+2. If you haven't already stopped your workflow ensure you do so now by clicking the **Stop** button in the upper right.
 
 ![DIEFIBX1zRN2ymj4kcPPo 20260119 223109](assets/run-the-workflow-3.png)
 
@@ -28,13 +28,13 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-1. Next click the **Start **button to execute and test the workflow end to end
+3. Next click the **Start** button to execute and test the workflow end to end
 
 ![Start the workflow](assets/run-the-workflow-8.png)
 
 
 
-1. Review the result coming into the SMS activity by clicking on **Result** (there are two Results so use the left one as shown below) and then in the left rail clicking on **Preview results** button.
+4. Review the result coming into the SMS activity by clicking on **Result** (there are two Results so use the left one as shown below) and then in the left rail clicking on **Preview results** button.
 
 ![YMsYL09mFzWqWTjUIzVjT 20260128 213646](assets/run-the-workflow-6.png)
 
@@ -42,7 +42,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-1. You should see **33 records** and the targeting dimension matches the Customer ID (the join key if you will to profile)
+5. You should see **33 records** and the targeting dimension matches the Customer ID (the join key if you will to profile)
 
 ![Records in the result](assets/run-the-workflow-5.png)
 
@@ -56,7 +56,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-1. Almost immediately you will see a new button appear labeled **View report**.  Click the **View report **button to launch into the report screen.
+2. Almost immediately you will see a new button appear labeled **View report**.  Click the **View report** button to launch into the report screen.
 
 ![View report of the SMS activity](assets/run-the-workflow-4.png)
 
@@ -66,7 +66,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-1. When you do get results you should see 100% were targeted!
+3. When you do get results you should see 100% were targeted!
 
 ![SMS test send results](assets/run-the-workflow-7.png)
 
@@ -74,13 +74,13 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-1. Go back to the workflow canvas and click on the transition **Result **coming into the SMS activity and then click on **Preview results** in the right rail.
+4. Go back to the workflow canvas and click on the transition **Result** coming into the SMS activity and then click on **Preview results** in the right rail.
 
 ![Re-review the transition results](assets/run-the-workflow-11.png)
 
 
 
-1. In the Preview results screen scroll all the way to bottom of the table and you'll notice that **4 records** have a **blank Targeting dimension**.
+5. In the Preview results screen scroll all the way to bottom of the table and you'll notice that **4 records** have a **blank Targeting dimension**.
 
 ![4 records missing a targeting dimension](assets/run-the-workflow-10.png)
 

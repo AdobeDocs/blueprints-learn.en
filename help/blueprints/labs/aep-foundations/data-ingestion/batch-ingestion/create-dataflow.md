@@ -20,7 +20,7 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 
 1. In the Dataflow detail screen, choose **New dataset**. 
 1. Name the output dataset as **Customer Account - \<Your Initials>**
-1. Select the **dep: Customer Account **schema from the dropdown list.
+1. Select the **dep: Customer Account** schema from the dropdown list.
 1. Turn ON the **Profile dataset** toggle box.
    (If you do not turn this on, the Profile Store will not be able to monitor for new data entering this dataset and hence will not ingest this data into Profile)
 1. Turn ON the **Enable partial ingestion**.
@@ -32,11 +32,11 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 
 >[!NOTE]
 >
->**Enabling partial ingestion **specifies the number of errors (**INGEST** and **DCVS**) as a percentage of the total number of records that can fail before the entire dataflow is declared a failure.
+>**Enabling partial ingestion** specifies the number of errors (**INGEST** and **DCVS**) as a percentage of the total number of records that can fail before the entire dataflow is declared a failure.
 
 >[!CAUTION]
 >
->Ensure you have **enabled the **dataset for both profile and partial ingestion before proceeding!
+>Ensure you have **enabled the** dataset for both profile and partial ingestion before proceeding!
 
 8\. If everything looks good click the **Next** button in the upper right corner of the screen to continue to the next step.
 
@@ -45,7 +45,7 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 ## Upload Sample File
 
 1. Download the sample files from the [Sample Files](../sample-files.md) for use with this lab
-1. Drag 'n drop and/or upload the **Lab\_Customer\_Account.csv **file in the UI.  When done your screen should look like below.
+1. Drag 'n drop and/or upload the **Lab\_Customer\_Account.csv** file in the UI.  When done your screen should look like below.
 
 ![Accessin.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform"](assets/pjFHpQeQwNQh8gy0MndQG_accessin.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
 

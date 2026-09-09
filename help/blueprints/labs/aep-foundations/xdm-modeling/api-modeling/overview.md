@@ -13,7 +13,7 @@ exl-id: f0ae0459-719c-4602-8dfa-e5819658f0b0
 
 
 
-## **Lab **Overview
+## **Lab** Overview
 
 Being able to work with the Experience Platform APIs is critical to being able to understand how to automate and operationalize various features of the platform. Defining schemas and understanding how data is described by those schemas is one of the first things a customer will do on Adobe Experience Platform as they define their data architecture.
 

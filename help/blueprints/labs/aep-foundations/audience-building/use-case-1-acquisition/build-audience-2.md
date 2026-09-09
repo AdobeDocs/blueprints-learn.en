@@ -148,7 +148,7 @@ Add the new path:
 
 7\. Select the **Streaming DEP Webhook** Destination and click **next**
 
-8\. Click **Next **and **Finish**
+8\. Click **Next** and **Finish**
 
 >[!WARNING]
 >

@@ -16,21 +16,21 @@ In the next set of steps you will start with creating an Orchestrated Campaign.
 
 ![Campaigns](assets/create-a-campaign-1.png)
 
-1. Click on **Create campaign**
+2. Click on **Create campaign**
 
 ![Create campaign](assets/create-a-campaign-2.png)
 
-1. Select **Orchestration - Marketing**  and click on **Confirm**
+3. Select **Orchestration - Marketing**  and click on **Confirm**
 
 ![Select Orchestration](assets/create-a-campaign-4.png)
 
-1. Provide Campaign details below and then click the **Save button** when done
+4. Provide Campaign details below and then click the **Save button** when done
    - **Name:** `OC-MDL-Campaign-Test`
    - **Description:** `OC Message Delivery Test`
 
 ![Provide Campaign details](assets/create-a-campaign-3.png)
 
-1. Wait for the confirmation message before proceeding
+5. Wait for the confirmation message before proceeding
 
 ![Settings updated](assets/create-a-campaign-5.png)
 

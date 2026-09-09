@@ -6,13 +6,15 @@ solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
 ---
 
+# Create Edge Audience
+
 This Audience will be used to qualify someone when a payload (e.g. page view), comes from the client (e.g. web sdk) to the Edge
 
 >[!NOTE]
 >
 >We evaluate an audience on the Edge usually so that we can turn around and use it in Personalization. If we aren't doing Personalization on the Edge, then we can just have the audience evaluate as Streaming on the Hub.
 
-# Create Audience
+## Create Audience
 
 1. In the left rail click on Audiences
 1. The click on Create Audience in the upper right corner of your screen
@@ -30,14 +32,14 @@ This Audience will be used to qualify someone when a payload (e.g. page view), c
 
 ## Convert Audience to Rules
 
-1. Go to **Audiences **and click into the **Experience Platform** folder
-1. Drag 'n drop the audience named **dep: Any Event Streaming (within the hour) **onto the canvas
+1. Go to **Audiences** and click into the **Experience Platform** folder
+1. Drag 'n drop the audience named **dep: Any Event Streaming (within the hour)** onto the canvas
 
 ![Convert audience to rules](assets/convert-audience-to-rules.png)
 
 
 
-3\. Convert the audience to a set of rules in the canvas by clicking on the **icon **show below and then click **Convert**
+3\. Convert the audience to a set of rules in the canvas by clicking on the **icon** show below and then click **Convert**
 
 ![Convert](assets/convert-.png)
 

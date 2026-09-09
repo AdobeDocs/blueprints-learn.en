@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
 ---
 
+# Option #2 - Use Pre-Aggregates
+
 The challenge with Aggregates in our Audience is that our Audience (while Streaming), is built on aggregations done inside Audiences which are Batch Audiences. Since Marketing has determined a more real time approach is needed, we have done three things to work this into the design:
 
 - Calculate the Aggregates before streaming the data in
@@ -17,7 +19,7 @@ The challenge with Aggregates in our Audience is that our Audience (while Stream
 - Use the denormalized Plan Name
 - Stream the data in 
 
-# Create the Audience
+## Create the Audience
 
 Let's create an audience of all the profiles whose billing data usage is high but do not currently have an ultimate phone plan.
 

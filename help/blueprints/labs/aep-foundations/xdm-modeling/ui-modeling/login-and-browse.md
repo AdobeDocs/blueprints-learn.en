@@ -32,7 +32,7 @@ Click on the Experience Platform icon from the quick access panel to access your
 
 ## **Navigate to Schemas**
 
-1. Click on the **Schemas **tab in the left rail
+1. Click on the **Schemas** tab in the left rail
 
 ![LxxLyKc0x1oi sonhskX7sVidOOyvcePlu 20241015 165825.png "Navigate to schema’s using the left rail"](assets/n-ADAXZy_lxxLyKc0x1oi-sonhskX7sVidOOyvcePlu-20241015-165825.png "Navigate to schema’s using the left rail")
 

@@ -6,9 +6,11 @@ solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
 ---
 
+# Pre-Work
+
 For this Use Case there isn’t much pre work to do. We basically have two things we are looking for, 1) Usage 2) Plan.  Let's find where they are.
 
-# Billing Data Usage
+## Billing Data Usage
 
 1. Create a new Audience
 1. Search for "usage" in Attributes. Click on the "i" to review the description (there is none).

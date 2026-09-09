@@ -12,7 +12,7 @@ Confirm that the profile does not exist on the Edge network profile store.
 
 ## Validate Profile on Edge 
 
-1. Click on the **Attributes **tab and the ***Edge ***radio button to see the Edge Profile
+1. Click on the **Attributes** tab and the ***Edge** *radio button to see the Edge Profile
 
 ![Haz0UYeW1zeZ3imcMyvVe 20251120 025352](assets/validate-profile-on-edge-1.png)
 
@@ -22,7 +22,7 @@ Confirm that the profile does not exist on the Edge network profile store.
 
 
 
-1. Click on the Audience Membership tab.  It will be **blank**.
+2. Click on the Audience Membership tab.  It will be **blank**.
 
 ![DLDIDx 20251120 025608](assets/validate-profile-on-edge-2.png)
 
@@ -30,7 +30,7 @@ Confirm that the profile does not exist on the Edge network profile store.
 >
 >**Why no Edge Membership?**
 >
->Shouldn't we have seen **dep: Any Event Edge (within the hour) **qualify?
+>Shouldn't we have seen **dep: Any Event Edge (within the hour)** qualify?
 >
 >Even though we have an audience that has an Edge evaluation, that audience does not exist on the Edge because we have no reason for it out there... yet.  
 >

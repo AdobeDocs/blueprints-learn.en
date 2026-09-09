@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 ---
 
+# Create Primary Identity
+
 1. Click on the `Step 1 - Create Primary Identity for Customer Account Schema` API request in the `XDM Schema Lab -> Create Identity Descriptors` folder
 
 ![Step 1 create primary identity for customer account schema.jpeg "Step 1   Create Primary Identity for Customer Account Schema"](assets/0gqRD5pD7afT23gI40IFm_step-1-create-primary-identity-for-customer-account-schema.jpeg "Step 1 - Create Primary Identity for Customer Account Schema")

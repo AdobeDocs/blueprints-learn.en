@@ -20,13 +20,13 @@ If you haven't downloaded Azure Storage Explorer do so now as its a requirement 
 
 ## Configure Azure Storage Explorer with Experience Platform 
 
-1. Open Azure Storage Explorer and click on the **Select Resource icon **and then select **ADLS Gen 2 Container or directory**
+1. Open Azure Storage Explorer and click on the **Select Resource icon** and then select **ADLS Gen 2 Container or directory**
 
 ![Choose the resource as shown above](assets/choose-the-resource-as-shown-above.png)
 
 
 
-2\. Select **Shared access signature URL (SAS) **and click **Next**
+2\. Select **Shared access signature URL (SAS)** and click **Next**
 
 ![Choose the sas url option as the mode of connection.png "Choose the SAS URL option as the mode of connection"](assets/rZAMQkVlythnjbt8d6TvE_choose-the-sas-url-option-as-the-mode-of-connection.png "Choose the SAS URL option as the mode of connection")
 
@@ -45,9 +45,9 @@ If you haven't downloaded Azure Storage Explorer do so now as its a requirement 
 4\. Go to Adobe Experience Platform and perform the navigate to the Data Landing zone by doing the following:
 
 - Navigate to **Sources -> Catalog**
-- Select **Cloud Storage **under the sources
+- Select **Cloud Storage** under the sources
 - Next locate the **Data Landing Zone** card
-- Click on the Data Landing Zone Card and then click **View Credentials **on the right rail
+- Click on the Data Landing Zone Card and then click **View Credentials** on the right rail
 
 ![LxxLyKc0x1oi JqCymPDJfxfQrCz7YwkDW 20241025 020415.png "Access Data Landing Zone Source Card in Adobe Experience Platform"](assets/n-ADAXZy_lxxLyKc0x1oi-JqCymPDJfxfQrCz7YwkDW-20241025-020415.png "Access Data Landing Zone Source Card in Adobe Experience Platform")
 
@@ -61,7 +61,7 @@ Navigate back to Azure Storage Explorer and paste the **SASUri value** into the 
 
 
 
-6\. Click **Next **to continue
+6\. Click **Next** to continue
 
 ![KCGVSqbCGrw0 copy sas url credentials into the sas url section in connection info.png "Copy SAS URL credentials into the SAS URL section in connection info"](assets/DuFA2rMn_kCGVSqbCGrw0_copy-sas-url-credentials-into-the-sas-url-section-in-connection-info.png "Copy SAS URL credentials into the SAS URL section in connection info")
 

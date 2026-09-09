@@ -10,7 +10,7 @@ exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
 
 1. Go to Adobe Experience Platform UI and navigate to **Sources**
 1. Click on **Catalog** in the top nav
-1. Select **Streaming **from the list of sources (ensure the All sources radio button is selected)
+1. Select **Streaming** from the list of sources (ensure the All sources radio button is selected)
 1. Click on **Setup** / **Add Data** for the HTTP API
 
 ![WexJ7cKPKWnMGP5dyx1 sequence of steps to create a http api account](assets/sequence-of-steps-to-create-a-http-api-account.png)
@@ -26,8 +26,8 @@ Perform the following tasks:
 1. Select **New Account** and add the following details:
    - Account Name -> `Streaming Ingestion - <Your Initials>`
 1. Leave the toggle for **Enable authentication** disabled
-1. Leave the checkbox for **XDM compatible **unchecked
-1. Click the **Connect to source **button to continue
+1. Leave the checkbox for **XDM compatible** unchecked
+1. Click the **Connect to source** button to continue
 
 >[!CAUTION]
 >
@@ -71,8 +71,8 @@ In this screen, you are creating a specific dataflow that leverages the HTTP API
 Perform the following steps:
 
 1. Create a New dataset and name it as -> `Customer Account Stream - <Your Initials>`
-1. Choose the **Schema **as ->`dep: Customer Account`
-1. Ensure the **Profile dataset **toggle is **enabled**.  If not **enable **it.
+1. Choose the **Schema** as ->`dep: Customer Account`
+1. Ensure the **Profile dataset** toggle is **enabled**.  If not **enable** it.
 1. Update the **Dataflow name** like so:
    - `Customer Account Stream - <Your Initials>`
 1. Click the **Next** button to continue

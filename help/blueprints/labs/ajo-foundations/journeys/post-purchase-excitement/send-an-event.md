@@ -19,8 +19,8 @@ Earlier, we sent in an Event to the Edge.  There are some use cases where we may
 1. Go over to your **Profiles** and lookup the Profile.
    - **Identity namespace** -> `email`
    - **Identity value** -> `henry.creel@emailsim.io`
-1. Click on **Events **tab.
-   - There should be **no **`orders.shipped` events
+1. Click on **Events** tab.
+   - There should be **no**`orders.shipped` events
 
 ## Modify API Request
 
@@ -30,7 +30,7 @@ Start by gathering the following values:
 
 ## Find Account Streaming Endpoint
 
-1. Navigate to **Sources **in the left rail and then click on **Accounts **in the top nav
+1. Navigate to **Sources** in the left rail and then click on **Accounts** in the top nav
 1. Search for **dep: HTTP API \[raw]**, highlight the row and copy and save the value of the **Streaming Endpoint** somewhere you can reference later
 
 ![LxxLyKc0x1oi VT rvewysl8ABem1xFkox 20241025 024115.png "dep: HTTP API \[raw]"](assets/n-ADAXZy_lxxLyKc0x1oi-VT-rvewysl8ABem1xFkox-20241025-024115.png "dep: HTTP API \[raw]")
@@ -55,8 +55,8 @@ Start by gathering the following values:
 Launch Postman on your computer and navigate to the following API call:
 
 - **Postman Left Sidebar**  --> `Collections`
-- **Collection **--> `AJO Bootcamp (Labs)`
-- **Folder **--> `Profile & Journey Labs`
+- **Collection** --> `AJO Bootcamp (Labs)`
+- **Folder** --> `Profile & Journey Labs`
 - **API Request** --> `Ship Order Event`
 
 ![ZLX6NcjOhwIEsdIy6sDwi 20260108 074225](assets/send-an-event-2.png)
@@ -66,9 +66,9 @@ Launch Postman on your computer and navigate to the following API call:
 ## Create Final API Request
 
 1. Copy the values you saved in the previous steps into the places highlight below.  
-1. Click on **Headers **and paste in these values (remove any trailing spaces):
-   - **Red **--> `Streaming Endpoint URL`
-   - **Green **--> `Dataflow ID`
+1. Click on **Headers** and paste in these values (remove any trailing spaces):
+   - **Red** --> `Streaming Endpoint URL`
+   - **Green** --> `Dataflow ID`
      - Value looks like a GUID (does not start with http)
 
 >[!NOTE]
@@ -79,8 +79,8 @@ Launch Postman on your computer and navigate to the following API call:
 
 ## Execute the API
 
-1. Save your API call by clicking the **Save **button
-1. Execute your request by clicking the **Send **button
+1. Save your API call by clicking the **Save** button
+1. Execute your request by clicking the **Send** button
 
 A successful call should result in the following response...
 

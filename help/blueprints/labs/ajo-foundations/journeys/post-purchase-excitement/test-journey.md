@@ -12,9 +12,9 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 ## Test the Journey
 
-1. Click on **Journeys **on the left rail and the **Browse tab** if you don't see a list of Journeys
-1. Click on your **Journey **to open it
-1. Click on **Alerts **& ensure no errors (warnings are ok)
+1. Click on **Journeys** on the left rail and the **Browse tab** if you don't see a list of Journeys
+2. Click on your **Journey** to open it
+3. Click on **Alerts** & ensure no errors (warnings are ok)
 
 ![ZYn2cnZa6 L1 20251113 200640](assets/post-purchase-excitement-3.png)
 
@@ -24,7 +24,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 >
 >Indicates the opt-out link is missing in an email variant
 
-1. Click on the **Simulate **and on the left side, select **Test Mode**
+4. Click on the **Simulate** and on the left side, select **Test Mode**
 
 ![WnyV5WyS3iyKIvOILMzRU 20260615 104621](assets/post-purchase-excitement-6.png)
 
@@ -36,27 +36,27 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-1. Click **Trigger an Event **and fill out these properties:
+5. Click **Trigger an Event** and fill out these properties:
    - **Event Type**: `orders.shipped`
    - **Personal Email**: `henry.creel@emailsim.io`
    - **Order ID**: `123`
-1. Click **Send **(note, it takes a few seconds to respond after clicking send)
+6. Click **Send** (note, it takes a few seconds to respond after clicking send)
 
 ![SvyzYc4SMYffxKat90AuF 20251113 201239](assets/post-purchase-excitement-1.png)
 
 >[!CAUTION]
 >
->Some students get errors and need to send this a few times. You may have to do this **multiple **times.
+>Some students get errors and need to send this a few times. You may have to do this **multiple** times.
 >
->**Sometimes **the first Send gives an error of:
+>**Sometimes** the first Send gives an error of:
 >
 >**Inlet does not exist (Reference id: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
 >
->If you get an error, Click** Trigger an Event**, then **send **again.  You may have to do this **multiple times**.
+>If you get an error, Click **Trigger an Event**, then **send** again.  You may have to do this **multiple times**.
 
 
 
-1. Under **Results **-> Click **Show Log **on left side
+7. Under **Results** -> Click **Show Log** on left side
 
 ![T83sahcgABemDM7PnACDD 20251113 201517](assets/post-purchase-excitement-2.png)
 
@@ -97,16 +97,16 @@ You should see something like this in the log:
 
 
 
-1. **Close **the Browser **tab**
-1. **Close Test Mode** in the top right
+8. **Close** the Browser **tab**
+9. **Close Test Mode** in the top right
 
 ![NiqxGZjRWMi7MDiQul5hw 20251117 235338](assets/post-purchase-excitement-4.png)
 
-1. Click on **Publish **the Journey in the top right
+10. Click on **Publish** the Journey in the top right
 
 ![RqfeWFQA4yR0J8CvPxu5o 20251118 001155](assets/post-purchase-excitement-5.png)
 
-1. **Close **the **Journey **by clicking \<- arrow in the top left
+11. **Close** the **Journey** by clicking \<- arrow in the top left
 
 ![ZxaTyocb4irBpx9COCJRk 20251117 235355](assets/post-purchase-excitement-7.png)
 

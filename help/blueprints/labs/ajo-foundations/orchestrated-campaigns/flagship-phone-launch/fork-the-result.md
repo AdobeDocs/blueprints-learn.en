@@ -17,15 +17,15 @@ This step is simple in that all you want to do is add a Fork activity such that 
 
 ## Create the Fork
 
-1. On the workflow canvas, click the **+**** icon** after Build Audience activity and select the **Fork Activity**
+1. On the workflow canvas, click the **+** **icon** after Build Audience activity and select the **Fork Activity**
 
 ![Add a fork activity](assets/fork-the-result-4.png)
 
 
 
-1. Update the names of each transition in the fork by click on the transition and then assigningthe names as outlined below:
-   - **Top **--> `Save Audience`
-   - **Bottom **--> `SMS`
+2. Update the names of each transition in the fork by click on the transition and then assigningthe names as outlined below:
+   - **Top** --> `Save Audience`
+   - **Bottom** --> `SMS`
 
 ![Update the transition names](assets/fork-the-result-1.png)
 
@@ -41,7 +41,7 @@ When done your canvas should now look like so...
 
 
 
-1. Click **Save **on the top of the workflow canvas.
+3. Click **Save** on the top of the workflow canvas.
 
 ![Save your work](assets/fork-the-result-2.png)
 

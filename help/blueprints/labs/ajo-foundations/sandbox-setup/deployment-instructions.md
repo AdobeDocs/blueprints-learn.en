@@ -7,6 +7,8 @@ solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
 ---
 
+# Deployment Instructions
+
 >[!WARNING]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
@@ -57,7 +59,7 @@ The AJO Architectural Foundations lab pack is deployed to your sandbox using the
 The CLI deploys to whichever sandbox your environment file points at, so this has to be set up correctly before you run anything.
 
 1. Copy `envFiles/sample-env.json` and give it a new name, e.g. `my-env.json`
-1. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md):
+2. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md):
 
 | **Field**       | **Value**                                                                                                                                                                                                                                                           |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,7 +69,7 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 | `SCOPES`        | Must include both Experience Platform API and Adobe Journey Optimizer API scopes<br />*(e.g. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
 | `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                                                                                                                                                      |
 
-1. Save and close the file
+3. Save and close the file
 
 >[!NOTE]
 >

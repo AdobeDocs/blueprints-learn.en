@@ -16,7 +16,7 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 
 
 
-2\. Click on the **Start **button
+2\. Click on the **Start** button
 
 ![Start](assets/start.png)
 
@@ -33,7 +33,7 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 
 4\. Copy the link somewhere you can reference later
 
-5\. Click the **Done **button
+5\. Click the **Done** button
 
 ![Copy link](assets/copy-link.png)
 
@@ -45,7 +45,7 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 
 
 
-7\. Enable **Event Transactions **and **Edge Delivery **by clicking on the **+ **button, then **Done**
+7\. Enable **Event Transactions** and **Edge Delivery** by clicking on the **+** button, then **Done**
 
 ![GDCKe 79Aw6  done](assets/done.png)
 
@@ -61,7 +61,7 @@ Go to Postman -> Create Web Event Edge (No Auth) -> Headers
 
 
 
-2\. In Postman, save and execute the** Create Web Event Edge (No Auth)** request
+2\. In Postman, save and execute the **Create Web Event Edge (No Auth)** request
 
 
 

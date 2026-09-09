@@ -6,7 +6,11 @@ solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
 ---
 
-# Learning Objectives
+## Lab Overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3486539/)
+
+## Learning Objectives
 
 - Browse schemas and view relationships
 - Setup a Profile Target Dimension

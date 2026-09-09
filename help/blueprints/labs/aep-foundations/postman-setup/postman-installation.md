@@ -6,13 +6,15 @@ solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760
 ---
 
+# Postman Installation
+
 >[!WARNING]
 >
 >Postman is required for various labs in this course.  Even if you have already Postman installed you will need to go through this lab to ensure you have the Environment Files and API Collection installed and properly setup.
 
 
 
-# Install Postman
+## Install Postman
 
 Navigate to the Postman website and either download the Postman app or ustilze the Web Version --> [https://www.postman.com/download/](https://www.postman.com/download/)
 
@@ -30,9 +32,9 @@ Open Postman and quickly familiarize yourself with a few areas of the applicatio
 
 The sidebar is what allows you to navigate quickly across the different Postman elements. During the labs you will only use the two items below:
 
-**Collections **- groups of saved requests that can be imported from an external location or created by yourself.
+**Collections** - groups of saved requests that can be imported from an external location or created by yourself.
 
-**Environments **- a set of variables that you can reference in your Postman requests. In Experience Platform you can think of Postman Environments as synonymous with Adobe IMS Orgs. We will use the Environment's function in Postman
+**Environments** - a set of variables that you can reference in your Postman requests. In Experience Platform you can think of Postman Environments as synonymous with Adobe IMS Orgs. We will use the Environment's function in Postman
 
 
 

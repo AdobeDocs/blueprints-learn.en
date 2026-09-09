@@ -15,7 +15,7 @@ exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
 
 >[!NOTE]
 >
->This GET call fetches all the schemas that exist within the "tenant" part of the schema registry (i.e. custom created schemas). We only need to search for the **Plan **schema so we can relate it to the Customer Account schema. 
+>This GET call fetches all the schemas that exist within the "tenant" part of the schema registry (i.e. custom created schemas). We only need to search for the **Plan** schema so we can relate it to the Customer Account schema. 
 
 
 

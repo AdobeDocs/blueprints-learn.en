@@ -13,11 +13,11 @@ In the next set of steps you will create an Email Channel Configuration with **o
 ## Create Channel Configuration
 
 1. Navigate to **Channel Configurations** found under the menu **Administration → Channels → General settings**
-1. Click the **Create configuration **button
+2. Click the **Create configuration** button
 
 ![Create Channel configuration](assets/configure-email-channels-4.png)
 
-1. In the Create wizard set the following values:
+3. In the Create wizard set the following values:
    - **Name:**  `Relational-Email`
    - **Channel:**  `Email`
    - **Marketing action:**  `Email Targeting`
@@ -63,9 +63,9 @@ From the **IP pool** dropdown, select **marketing**
 
 1. Set the the following fields as follows:
    - **From name:**  `DEP Labs`
-   - **From email prefix:  **`dep`
-   - **Reply to name:  **`DEP Labs Support`
-   - **Reply to email:  **`reply@email.dep-labs.com`
+   - **From email prefix:**`dep`
+   - **Reply to name:**`DEP Labs Support`
+   - **Reply to email:**`reply@email.dep-labs.com`
    - **Error email prefix:**  `error`
 
 ![Header parameters](assets/configure-email-channels-3.png)
@@ -80,7 +80,7 @@ Leave this blank
 
 ## Configure Email retry parameters
 
-Leave with the default settings of **Hours **set to **84 **
+Leave with the default settings of **Hours** set to **84**
 
 ## Configure URL tracking parameters
 
@@ -88,37 +88,37 @@ Leave with the default settings
 
 ## **Execution Details**
 
-1. In the Orchestrated campaign tab and **check **the Enabled checkbox.
+1. In the Orchestrated campaign tab and **check** the Enabled checkbox.
 
 ![Configure Orchestrated campaign](assets/configure-email-channels-2.png)
 
-1. Under Execution dimension configure the following:
+2. Under Execution dimension configure the following:
    - **Deliver one message per:**  `Target Dimension `
-   - **Profile Target Dimension:  **`dep-rel: Customer Account - customer_id`
+   - **Profile Target Dimension:**`dep-rel: Customer Account - customer_id`
 
 ![Execution dimension](assets/configure-for-relational-1.png)
 
-1. Under Execution Address configure the following:
+3. Under Execution Address configure the following:
    - **Source:** `Target Dimention`
    - **Delivery Address:**  `click on the Edit button`
 
 ![Target Dimension](assets/configure-for-relational-6.png)
 
-1. In the pop-up, click into the folder **dep-rel: Customer Account**
+4. In the pop-up, click into the folder **dep-rel: Customer Account**
 
 ![Configure Delivery address](assets/configure-for-relational-5.png)
 
-1. Select **Email** and click on the **Select **button
+5. Select **Email** and click on the **Select** button
 
 ![Email as Delivery address](assets/configure-for-relational-2.png)
 
-1. When done your final Exectuion details should look like the below screenshot
+6. When done your final Exectuion details should look like the below screenshot
 
 ![Execution dimension configured](assets/configure-for-relational-4.png)
 
 >[!NOTE]
 >
->For Orchestrated Campaigns you will be targeting the customer account with an email so you only need to send one message per Target Dimension.  The Execution address you will use will come from the Target Dimension itself (i.e. what is stored in the **dep-rel: Customer Account **table for **email** address)
+>For Orchestrated Campaigns you will be targeting the customer account with an email so you only need to send one message per Target Dimension.  The Execution address you will use will come from the Target Dimension itself (i.e. what is stored in the **dep-rel: Customer Account** table for **email** address)
 
 
 ## **Review & Save**

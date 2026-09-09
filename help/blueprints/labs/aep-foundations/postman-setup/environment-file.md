@@ -38,7 +38,7 @@ Once imported, you can validate your environment file exists by clicking on the 
 Before you can make any API calls you need to update a few of the variables in the environment file you just imported.  These variables are referenced in the API calls so be sure they are correctly filled in.  The variables are broken into two groups:
 
 - **Developer Project Values** -> these are the default variables generated from the Developer Project that were created in the Adobe Developer Console
-- **Other Values **-> these are custom created variables that typically created by a user to work with the various Experience Platform APIs
+- **Other Values** -> these are custom created variables that typically created by a user to work with the various Experience Platform APIs
 
 >[!NOTE]
 >

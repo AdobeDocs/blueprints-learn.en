@@ -31,7 +31,7 @@ You will start by creating the API connector that AJO will use to send outbound 
    - **Name:**  `DEP SMS`
    - **Account SID:**  Found on your Twilio Console dashboard
    - **Auth Token:**  Found on your Twilio Console dashboard (click **View** to reveal it)
-1. Click **Submit **to register the API credential 
+1. Click **Submit** to register the API credential 
 
 >[!NOTE]
 >
@@ -51,13 +51,13 @@ Now you will map this API credential to a channel configuration that journeys an
 
 
 
-1. Click **Create channel configuration**. 
+2. Click **Create channel configuration**. 
 
 ![Create a new channel configuration](assets/configure-sms-channel-5.png)
 
 
 
-1. Fill in SMS Channel Configuration Settings with the following values:
+3. Fill in SMS Channel Configuration Settings with the following values:
    - **Name:**  `Relational-SMS-Multi-Entity`
    - **Channel:**  `Mobile Message`
 
@@ -85,20 +85,20 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 ## Execution details
 
-1. Under Execution details**, **click the tab** Orchestrated campaign**
+1. Under Execution details**,** click the tab **Orchestrated campaign**
 
 ![3fXXt mHG8 image](assets/configure-sms-channel-6.png)
 
 
 
-1. Ensure the **Enabled **checkbox is checked
+2. Ensure the **Enabled** checkbox is checked
 
 ![Enabled orchestrated campaigns](assets/configure-sms-channel-4.png)
 
 
 
-1. Next under the sub-section **Execution dimension** ensure the following are setup as such:
-   - **Deliver on message per: ** `Target + Secondary Dimension`
+3. Next under the sub-section **Execution dimension** ensure the following are setup as such:
+   - **Deliver on message per:** `Target + Secondary Dimension`
    - **Profile Target Dimension:**  `del-rel: Customer Account - customer_id`
    - **Secondary Dimension:**  `Customer Line`
 
@@ -112,13 +112,13 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 
 
-1. Under Execution Address heading ensure you select the radio button for **Secondary Dimension **and then click the edit button on the **SMS Execution Field**
+4. Under Execution Address heading ensure you select the radio button for **Secondary Dimension** and then click the edit button on the **SMS Execution Field**
 
 ![Choose execution address](assets/configure-sms-channel-11.png)
 
 
 
-1. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
+5. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
 
 ![Image](assets/configure-sms-channel-10.png)
 
@@ -126,7 +126,7 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 
 
-1. Confirm the final Execution details section matches below
+6. Confirm the final Execution details section matches below
 
 ![Final execution details config](assets/flagship-phone-launch-1.png)
 
@@ -134,23 +134,23 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 
 ## Submit & Review
 
-1. You can click the **Submit **button to complete the configuration and should see a success message appear
+1. You can click the **Submit** button to complete the configuration and should see a success message appear
 
 ![Success message](assets/configure-sms-channel-1.png)
 
 
 
-1. On the channel configurations inventory page ensure the status shows as **Active **before moving on
+2. On the channel configurations inventory page ensure the status shows as **Active** before moving on
 
 ![Active SMS Channel configuration](assets/configure-sms-channel-3.png)
 
 >[!CAUTION]
 >
->Wait until the status turns **Active **otherwise future lab steps will fail miserabily for you
+>Wait until the status turns **Active** otherwise future lab steps will fail miserabily for you
 
 
 
-1. When the status turns Active you are complete!
+3. When the status turns Active you are complete!
 
 >[!TIP]
 >

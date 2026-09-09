@@ -44,7 +44,7 @@ Before you can execute the API request you need to add the datastream ID to the 
 >
 >**If you lost the Datastream ID**
 >
->1. In the left rail click on **Datastreams **(under the Data Collection heading)
+>1. In the left rail click on **Datastreams** (under the Data Collection heading)
 >2. Select your Datastream and copy the **Datastream ID** value
 >
 >![4G6rGvHEqMAe6IJyPU gather datastream id](assets/gather-datastream-id.png)
@@ -54,8 +54,8 @@ Before you can execute the API request you need to add the datastream ID to the 
 ## Navigate to the Call
 
 1. **Postman Left Sidebar**  -> `Collections`
-1. **Collection **-> `AJO Bootcamp (Labs)`
-1. **Folder **-> `Profile & Journey Labs`
+1. **Collection** -> `AJO Bootcamp (Labs)`
+1. **Folder** -> `Profile & Journey Labs`
 1. **API Request** -> `Create Web Event`
 
 ![RrRQ0BaywIDeyyb6nPMSd 20260108 070718](assets/send-an-edge-web-event-2.png)
@@ -66,22 +66,22 @@ Before you can execute the API request you need to add the datastream ID to the 
 
 ![R  mIJFGTDonPts4qLZwl 20251216 182201](assets/send-an-edge-web-event-5.png)
 
-1. Update the **DATASTREAM \_CONFIG ****Value **with the **datastream ID **from the first step on the page.
+2. Update the **DATASTREAM \_CONFIG** **Value** with the **datastream ID** from the first step on the page.
 
 ![QMJeuG rjBzd0dNPql 20260108 065751](assets/send-an-edge-web-event-4.png)
 
-1. **Save **your update (ctrl+s or command+s)
-1. Click the '**X**' in the upper right corner of the environment sidebar to close the sidebar
+3. **Save** your update (ctrl+s or command+s)
+4. Click the '**X**' in the upper right corner of the environment sidebar to close the sidebar
 
 ![Wuin7IF swFawTfHrnlYi 20260108 070102](assets/send-an-edge-web-event-6.png)
 
-1. The **Create Web Event** request should now be ready to send since all of the variables are now blue and have a value in the environment.
+5. The **Create Web Event** request should now be ready to send since all of the variables are now blue and have a value in the environment.
 
 ![C7ZuN0vvpqlYwTRnk3We0 20260108 070358](assets/send-an-edge-web-event-1.png)
 
 ## Execute the API
 
-Execute your request by clicking the **Send **button.
+Execute your request by clicking the **Send** button.
 
 Response will look something like this: 
 

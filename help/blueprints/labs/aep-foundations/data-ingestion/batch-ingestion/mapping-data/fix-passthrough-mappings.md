@@ -46,11 +46,11 @@ In this scenario you will see that the AI/ML recommender mapped two different so
 
 ## Bad Mappings
 
-This mapping looks right but upon closer inspection **email **is not the same as **emailFormat**
+This mapping looks right but upon closer inspection **email** is not the same as **emailFormat**
 
 ![Email seems to be mapped correctly but is incorrect as per requirements.png "email seems to be mapped correctly but is incorrect as per requirements"](assets/RfWELh4y6RWlYqzs5N1sW_email-seems-to-be-mapped-correctly-but-is-incorrect-as-per-requirements.png "email seems to be mapped correctly but is incorrect as per requirements")
 
-And this one where **email\_optin **is incorrectly mapping to the wrong consent object
+And this one where **email\_optin** is incorrectly mapping to the wrong consent object
 
 ![Email op.png "email optin seems to be mapped correctly but is incorrect as per requirements"](assets/WtXdsgFemj1REbMSd1Nf5_email-op.png "email_optin seems to be mapped correctly but is incorrect as per requirements")
 
@@ -62,10 +62,10 @@ To fix passthrough mappings that are incorrectly pointing to the wrong target fi
 
 **Example Only**
 
-1. Start with an invalid mapping and click on the target field box. For example, in the mapping below, the field **person.name.lastname **is not mapped correctly and is mapped to **planName**
+1. Start with an invalid mapping and click on the target field box. For example, in the mapping below, the field **person.name.lastname** is not mapped correctly and is mapped to **planName**
 1. In the target schema that options to the right choose the appropriate target field and select the name field **\_devbc.plan.name**
 1. The target field should now be updated in the target field box
-1. After you fix each such error, you should press the **Validate **button so that you can make sure you are reducing these kinds of errors and not introducing new ones. 
+1. After you fix each such error, you should press the **Validate** button so that you can make sure you are reducing these kinds of errors and not introducing new ones. 
 
 
 

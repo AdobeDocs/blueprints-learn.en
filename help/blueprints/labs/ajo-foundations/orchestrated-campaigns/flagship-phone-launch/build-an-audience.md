@@ -14,13 +14,13 @@ In next few steps you will be creating the audience you want to target for the c
 
 ## Add Build Audience Activity
 
-1. On the canvas click the **+ symbol** and then select the** Build audience** activity to add it to the workflow
+1. On the canvas click the **+ symbol** and then select the **Build audience** activity to add it to the workflow
 
 ![Add build audience activity](assets/build-an-audience-3.png)
 
 
 
-1. In the right rail you see the Build audience properties. Update the Label to state the following: `Active Lines with Apple`
+2. In the right rail you see the Build audience properties. Update the Label to state the following: `Active Lines with Apple`
 
 ![Build audience label](assets/build-an-audience-13.png)
 
@@ -33,7 +33,7 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 ![Select targeting dimension](assets/build-an-audience-2.png)
 
-1. On the popup, search for and select the table named **dep-rel: Customer Line **and then click the **Confirm **button.
+2. On the popup, search for and select the table named **dep-rel: Customer Line** and then click the **Confirm** button.
 
 ![Select dep-rel: Customer Line](assets/build-an-audience-11.png)
 
@@ -51,11 +51,11 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 Now that you have selected your targeting dimension (what relational schema you are going to query) you can start creating your definition.
 
-1. In the right rail click on the **Create Audience **button
+1. In the right rail click on the **Create Audience** button
 
 ![Create audience](assets/build-an-audience-7.png)
 
-1. Next click on the **Add condition** button
+2. Next click on the **Add condition** button
 
 ![Add condition](assets/build-an-audience-4.png)
 
@@ -73,7 +73,7 @@ Now its time to write the logic of the audience using the attributes found in th
 
 ![ATKkrA 20260115 223752](assets/build-an-audience-14.png)
 
-1. Click **Refresh **icon to view the qualifying counts on the condition. 
+2. Click **Refresh** icon to view the qualifying counts on the condition. 
 
 ![R2Dclw4l I2sB2VHLJEhQ 20260115 224023](assets/build-an-audience-10.png)
 
@@ -85,18 +85,18 @@ Now its time to write the logic of the audience using the attributes found in th
 
 ### Create condition #2 
 
-1. Clicking the** Add condition** button and select the **dep-rel: ****Product \[Lookup] **schema by clicking on the **>** icon
+1. Clicking the **Add condition** button and select the **dep-rel:** **Product \[Lookup]** schema by clicking on the **>** icon
 
 ![Selec the dep-rel: Product [Lookup] schema](assets/rqsHFzLBxbqvu-SnaRsml-20260609-202010.png)
 
 
-1. Look for the field named **Make** and click on the three dots and select **Distribution of values**
+2. Look for the field named **Make** and click on the three dots and select **Distribution of values**
 
 ![A4mBwu1QS6emUQIRLGJ 20260609 202430](assets/build-an-audience-12.png)
 
 
 
-1. Note the various values. You only want `Apple` and thankfully it doesn't have a 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
+3. Note the various values. You only want `Apple` and thankfully it doesn't have a 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
 
 ![XiRNtvbQF4NOMEEO RZCe 20260609 202625](assets/build-an-audience-6.png)
 
@@ -106,7 +106,7 @@ Now its time to write the logic of the audience using the attributes found in th
 
 
 
-1. The `Make` field is automatically added along with conditions shown below.
+4. The `Make` field is automatically added along with conditions shown below.
    - **Operator:**  `Equal to`
    - **Value:**  `Apple`
    - **Case sensitive:**  `Enabled`
@@ -123,7 +123,7 @@ Click on the **calculate icon** and you should see 85 as the result.
 
 ## Verify counts
 
-1. Click on the **Calculate icon** found in the right rail under the heading Profiles targeted to get an exact estimate of the audience size. You should see **65 **as the **final count**.
+1. Click on the **Calculate icon** found in the right rail under the heading Profiles targeted to get an exact estimate of the audience size. You should see **65** as the **final count**.
 
 ![Calculate exact audience size](assets/build-an-audience-8.png)
 
@@ -133,7 +133,7 @@ Click on the **calculate icon** and you should see 85 as the result.
 
 
 
-1. If you see final count of **65 **click the **Confirm **button in the top right of the screen and then click the **Save **button in the top right to save your work.
+2. If you see final count of **65** click the **Confirm** button in the top right of the screen and then click the **Save** button in the top right to save your work.
 
 
 

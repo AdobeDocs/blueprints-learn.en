@@ -6,5 +6,7 @@ solution: Experience Platform
 exl-id: 6c26ca3a-6f3b-4a7d-a638-bad84c146b72
 ---
 
+# How Identity Service is Utilized
+
 >[!VIDEO](https://video.tv.adobe.com/v/3481411/?quality=12&learn=on)
 

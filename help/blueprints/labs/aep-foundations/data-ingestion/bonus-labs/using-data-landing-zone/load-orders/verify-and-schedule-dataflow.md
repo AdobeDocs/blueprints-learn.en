@@ -60,7 +60,7 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 
 ## Schedule the Run
 
-1. Set the schedule to run **every 15 minutes **by setting the Frequency as Minute and Interval as 15. Review the flow and click Finish. 
+1. Set the schedule to run **every 15 minutes** by setting the Frequency as Minute and Interval as 15. Review the flow and click Finish. 
 
 >[!CAUTION]
 >

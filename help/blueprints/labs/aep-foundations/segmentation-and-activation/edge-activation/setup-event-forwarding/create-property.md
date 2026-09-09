@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
 ---
 
+# Create Property
+
 We want to forward an Experience Event out to usually to a third party (but doesn't have to be). This is usually used when a copy of an Event is needed in real time to notify a third party under specific circumstances (e.g. notifying Google, Meta or TikTok about a purchase).
 
 >[!NOTE]
@@ -13,17 +15,17 @@ We want to forward an Experience Event out to usually to a third party (but does
 >Reminder: A Property contains all the extensions, data elements and rules needed to decide what to forward and where to
 
 1. In the left rail click on Event Forwarding
-1. Then click on New Property
+2. Then click on New Property
 
 ![Create a new event forwarding property.png "Create a new event forwarding property"](assets/k7JN8MLoMC2Etju1-MWzS_create-a-new-event-forwarding-property.png "Create a new event forwarding property")
 
-3\. Update the property name using the following formula: `Event Forward Property SB + [sandbox number]`. Your final name would look something this then:  **Event Forward Property SB01**
+3. Update the property name using the following formula: `Event Forward Property SB + [sandbox number]`. Your final name would look something this then:  **Event Forward Property SB01**
 
-4\. Click **Save **when done
+4. Click **Save** when done
 
 ![Name your event forwarding property](assets/name-your-event-forwarding-property.png)
 
-# Install Extension
+## Install Extension
 
 1. Click on the Event Forwarding Property you just created
 
@@ -31,17 +33,17 @@ We want to forward an Experience Event out to usually to a third party (but does
 
 
 
-2\. You should see a screen like below.  Click on **Extensions**.
+2. You should see a screen like below.  Click on **Extensions**.
 
 ![JqDF19 1UFH4mp you should no see a screen like below click on extensions](assets/you-should-no-see-a-screen-like-below-click-on-extensions.png)
 
 
 
-3\. Install the extension Adobe Cloud Connector by doing the following:
+3. Install the extension Adobe Cloud Connector by doing the following:
 
-1. Click on **Catalog **in the top nav
-1. Click on the **Adobe Cloud Connector** card
-1. In the right rail click on the **Install **button
+4. Click on **Catalog** in the top nav
+5. Click on the **Adobe Cloud Connector** card
+6. In the right rail click on the **Install** button
 
 ![Install adobe cloud connector extension](assets/install-adobe-cloud-connector-extension.png)
 
@@ -65,13 +67,13 @@ After clicking install you should see the extension show under the Installed ext
 
 
 
-2\. Click on the **Create New Data Element** button
+2. Click on the **Create New Data Element** button
 
 ![Create new data element.png "Create New Data Element"](assets/Cip9X6-PMjLIeFGD3KpUg_create-new-data-element.png "Create New Data Element")
 
 
 
-3\. Configure the new data element with the following information:
+3. Configure the new data element with the following information:
 
 | Element Type      | Value to Configure |
 | ----------------- | ------------------ |
@@ -83,13 +85,13 @@ After clicking install you should see the extension show under the Installed ext
 
 
 
-4\. Click on the button **Open Editor** to add the following custom code:
+4. Click on the button **Open Editor** to add the following custom code:
 
 ![Open the editor.png "Open the editor"](assets/e-loRuF2wx-eNZixSibpf_open-the-editor.png "Open the editor")
 
 
 
-5\. Add custom code to the editor like so and save it
+5. Add custom code to the editor like so and save it
 
 ```none
 var xdm = arc?.event || '';
@@ -106,7 +108,7 @@ return xdm;
 
 
 
-6\. Click the **Save **button to save your data element.
+6. Click the **Save** button to save your data element.
 
 ![Click the save button to save your data elemen](assets/click-the-save-button-to-save-your-data-elemen.png)
 
@@ -134,17 +136,17 @@ When done you should see the following screen confirming your data element has b
 
 
 
-2\. Then click on **Create New Rule**
+2. Then click on **Create New Rule**
 
 ![Create a new rule](assets/create-a-new-rule.png)
 
 
 
-3\. Update the rule name using the following formula: `"EF Rule SB" + [your sandbox number]` (i.e. EF Rule SB01. You can find your sandbox number in the top right of your browser window as shown below\...
+3. Update the rule name using the following formula: `"EF Rule SB" + [your sandbox number]` (i.e. EF Rule SB01. You can find your sandbox number in the top right of your browser window as shown below\...
 
 ![9WxgiCpB 3 image](assets/create-property-1.png)
 
-4\. Click **Save **when done
+4. Click **Save** when done
 
 >[!NOTE]
 >
@@ -167,13 +169,13 @@ When done you should see the following screen confirming your data element has b
 
 
 1. Open the following link in a new tab in your browser -> [https://webhook.site](https://webhook.site/)
-1. Copy the unique URL you see and save it somewhere safe
+2. Copy the unique URL you see and save it somewhere safe
 
 ![Webhooksite copy your unique url](assets/webhooksite-copy-your-unique-url.png)
 
 
 
-3\. Configure your action with the following information:
+3. Configure your action with the following information:
 
 | Setting     | Value                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -200,7 +202,7 @@ When you are done validate your screen looks similar to below and then click on 
 
 
 
-4\. When done you should see your action added to your rule. Click **Save **to continue.
+4. When done you should see your action added to your rule. Click **Save** to continue.
 
 ![K6UcA8XcZ save your rule.png "Save your rule"](assets/9KrFJGCYfwo_k6UcA8XcZ_save-your-rule.png "Save your rule")
 
@@ -220,26 +222,26 @@ When you are done validate your screen looks similar to below and then click on 
 
 
 
-2\. Click on the button **Add Library**
+2. Click on the button **Add Library**
 
 ![Add library.png "Add library"](assets/yGg8fTMq1rzdv7JIQngwq_add-library.png "Add library")
 
 
 
-3\. Configure the library with the following information:
+3. Configure the library with the following information:
 
 - Name -> **EF Library**
 - Environment -> **Development**
 - Click on **Add All Changed Resources**
 
 
-When done your screen should look similar to the below screenshot.  If everything looks good click on the **Save & Build to Development **button
+When done your screen should look similar to the below screenshot.  If everything looks good click on the **Save & Build to Development** button
 
 ![Configure the library and save and build](assets/configure-the-library-and-save-and-build.png)
 
 
 
-4\. You should then see the development build go green stating its ready to use
+4. You should then see the development build go green stating its ready to use
 
 ![Sp9W2tJwMjepSuOtk you shou](assets/you-shou.png)
 

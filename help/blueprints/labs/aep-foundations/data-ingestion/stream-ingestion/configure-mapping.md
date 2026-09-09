@@ -6,11 +6,13 @@ solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
 ---
 
+# Configure Mapping
+
 >[!CAUTION]
 >
 >Only follow this section if you successfully completed the Batch Ingestion lab.  Otherwise follow the [Mapping Data](../batch-ingestion/mapping-data/overview.md) steps found in the Batch Ingestion lab.
 
-# Import Mapping Set
+## Import Mapping Set
 
 If you completed the Batch Ingestion lab you can re-use the mapping set you created there 😄🎉
 
@@ -33,7 +35,7 @@ After import you are going to see errors appear.  This is because the date forma
 - Batch Sample file used -> mm/dd/yyyy
 - Stream Sample file used -> yyyy-mm-dd
 
-The calculated fields that use **date **functions will need to be updated to account for the change in the date format used. 
+The calculated fields that use **date** functions will need to be updated to account for the change in the date format used. 
 
 ![Mapping after the import](assets/mapping-after-the-import.png)
 

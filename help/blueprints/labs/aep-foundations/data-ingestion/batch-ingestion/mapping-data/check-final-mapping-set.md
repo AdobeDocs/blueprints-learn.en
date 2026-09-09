@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 ---
 
+# Check Final Mapping Set
+
 >[!WARNING]
 >
 >If you are coming from the Streaming Ingestion Lab please click the below link to proceed to the next step in that lab:
@@ -14,7 +16,7 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 
 
 
-# Simple Mappings
+## Simple Mappings
 
 >[!NOTE]
 >

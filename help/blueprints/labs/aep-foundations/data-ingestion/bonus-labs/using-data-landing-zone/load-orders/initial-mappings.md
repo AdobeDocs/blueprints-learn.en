@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
 ---
 
+# Initial Mappings
+
 As in the previous exercise, you will need to verify the mapping and in some cases, modify it. 
 
 ## Verify ML Recommendations
@@ -18,7 +20,7 @@ As in the previous exercise, you will need to verify the mapping and in some cas
 >
 >Since we are mapping an Experience Event dataset for the first time, note that **\_id** and **timestamp** are never recommended or mapped by default for Experience Events. You have to manually ensure that these are mapped correctly.
 
-## Map *\_id, timestamp *and ***order.\_devbc.acqSource *****Fields**
+## Map *\_id, timestamp *and ***order.\_devbc.acqSource** ***Fields**
 
 1. To map **\_id,** write the following calculated field expression and click preview
 
@@ -30,7 +32,7 @@ concat(orderID, "-", lastOrderStatusUpdate)
 
 ![Map the calculated field to id.png "Map the calculated field to  id"](assets/gjHr1I9RfX9NIuy-B2czo_map-the-calculated-field-to-id.png "Map the calculated field to _id")
 
-3\. Ensure that **timestamp **field in the target schema is mapped to the following calculated field:
+3\. Ensure that **timestamp** field in the target schema is mapped to the following calculated field:
 
 ```none
 lastOrderStatusUpdate
@@ -46,7 +48,7 @@ lastOrderStatusUpdate
 
 ## Handling Duplicate Mappings
 
-If the mapping screen now complains there is a duplicate mapping such as** orderStatus **mapped to **order.\_devbc.acqSource, **click the "-" icon to remove the mapping.
+If the mapping screen now complains there is a duplicate mapping such as **orderStatus** mapped to **order.\_devbc.acqSource,** click the "-" icon to remove the mapping.
 
 >[!CAUTION]
 >

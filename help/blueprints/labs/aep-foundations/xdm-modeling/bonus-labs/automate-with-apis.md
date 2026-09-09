@@ -20,13 +20,13 @@ To see how you can automate deployments using API's you will execute a folder of
 
 ## Execute the Folder
 
-1. In Postman navigate to the **Automation with APIs** folder within the** XDM Schema Lab** folder
+1. In Postman navigate to the **Automation with APIs** folder within the **XDM Schema Lab** folder
 
 ![Automate with APIs folder](assets/automate-with-apis-1.png)
 
 
 
-2\. Click on the **Automation with APIs **folder and in the workspace click on the **Run **button
+2\. Click on the **Automation with APIs** folder and in the workspace click on the **Run** button
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ To see how you can automate deployments using API's you will execute a folder of
 
 
 
-3\. A new window should appear that shows all the API calls in the folder. Set the **Delay **to **500ms **and then click on the **Run **button.
+3\. A new window should appear that shows all the API calls in the folder. Set the **Delay** to **500ms** and then click on the **Run** button.
 
 ![VRMmiYsVdCv6Wz execute automation.png "Execute automation"](assets/xiCgs4_VRMmiYsVdCv6Wz_execute-automation.png "Execute automation")
 

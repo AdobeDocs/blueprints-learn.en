@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 ---
 
+# Content Simulation
+
 **Purpose:** Validate personalisation, conditional logic, and content variants using Adobe Journey Optimizer’s Simulation and Proof tools.
 
 ## Learning Objectives
@@ -40,11 +42,11 @@ A simulation panel will open after few seconds.
 1. Open **sample.csv** from your toolkit folder.
    - **Alex** → Above 40 years old 
    - **Jason** → Below 40 years old 
-1. Click **Upload Input Data**.
+2. Click **Upload Input Data**.
 
 ![Image](assets/content-simulation-2.png)
 
-1. Choose **sample.csv** and click **Continue**.
+3. Choose **sample.csv** and click **Continue**.
 
 ![MJz46u7gfk image](assets/content-simulation-5.png)
 
@@ -88,5 +90,5 @@ In this module, you successfully:
 - Validated variant switching logic
 - Confirmed personalised fields populate correctly
 
-You are now ready for next module - ** Brand Alignment**,
+You are now ready for next module - **Brand Alignment**,
 where you will evaluate your email against Connection 5G brand guidelines using AI.

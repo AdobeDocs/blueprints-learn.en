@@ -12,18 +12,18 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 
 ## Name and Define Entrance Criteria
 
-1. If necessary, expand the **Journey management **menu item in the left rail and click on **Journeys**. You will land on the 'Journeys' page.
-1. Click on the blue **Create Journey **button. 
-1. When the 'Create a Journey' overlay appears, select **Create from scratch **and click** Confirm**
-1. In the right rail, name the Journey **iPhone 17 Abandon Browse** and click the blue **Save** button so that you can start adding actions to the Journey canvas.
-1. Drag the **Audience Qualification **event onto the canvas.
-1. In the right rail, click the **Pencil** icon to select the audience for this event. 
-1. Select the **dep: Interested in iPhone 17** audience.
-1. Ensure that the **Namespace** drop-down is set to **customerID.** At this point, your Journey should look like this:
+1. If necessary, expand the **Journey management** menu item in the left rail and click on **Journeys**. You will land on the 'Journeys' page.
+2. Click on the blue **Create Journey** button. 
+3. When the 'Create a Journey' overlay appears, select **Create from scratch** and click **Confirm**
+4. In the right rail, name the Journey **iPhone 17 Abandon Browse** and click the blue **Save** button so that you can start adding actions to the Journey canvas.
+5. Drag the **Audience Qualification** event onto the canvas.
+6. In the right rail, click the **Pencil** icon to select the audience for this event. 
+7. Select the **dep: Interested in iPhone 17** audience.
+8. Ensure that the **Namespace** drop-down is set to **customerID.** At this point, your Journey should look like this:
 
 ![Intial Journey creation validation](assets/create-the-journey-9.png)
 
-1. Once everyone looks correct, click the blue **Save** button to save your progress.
+9. Once everyone looks correct, click the blue **Save** button to save your progress.
 
 >[!NOTE]
 >
@@ -34,21 +34,21 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 ## Configure the CBE and Decision Policy
 
 1. Expand the **Actions** accordion just left of the canvas, drag the **Action** element onto the canvas, and connect it to the first node.
-1. When the 'Select action type' overlay appears, select the **Code-base experience** action and click the blue **Add** button.
-1. In the now visible 'Action\:Code-based experience' properties, click the **Configure Action** button.
+2. When the 'Select action type' overlay appears, select the **Code-base experience** action and click the blue **Add** button.
+3. In the now visible 'Action\:Code-based experience' properties, click the **Configure Action** button.
 
 ![QTKaPey66lQoP0P8appO3 20260612 220457](assets/create-the-journey-14.png)
 
-1. Change the **Code-base configuration** dropdown to the **jsonOffer\_cbe** cbe that you created in the last section. 
+4. Change the **Code-base configuration** dropdown to the **jsonOffer\_cbe** cbe that you created in the last section. 
 
 ![Select the JSON cbe](assets/create-the-journey-6.png)
 
-1. Click the **Edit content** button just above the 'Code-based configuration' drop-down.
-1. On the resulting Code-base experience editor screen, click the **Edit code** button. The resulting screen is where you'll add the JSON that'll be returned to the Experience Event requests
+5. Click the **Edit content** button just above the 'Code-based configuration' drop-down.
+6. On the resulting Code-base experience editor screen, click the **Edit code** button. The resulting screen is where you'll add the JSON that'll be returned to the Experience Event requests
 
 ![FvLf7MF9jF1AMkWM33g3O 20260612 220912](assets/create-the-journey-10.png)
 
-1. On the far left side of the code editor, click the **Decision policy **menu item, followed by a click on the **Add decision policy** button in the new menu.
+7. On the far left side of the code editor, click the **Decision policy** menu item, followed by a click on the **Add decision policy** button in the new menu.
 
 ![Navigate to Decision Policy](assets/create-the-journey-3.png)
 
@@ -56,14 +56,14 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 >
 >If a selection strategy is where you tie an offer collection to a ranking method (and apply strategy-level eligibility), then a decision policy is where you tie a selection strategy to a specific delivery of a channel.
 
-1. Name this decision policy **iPhone 17 DP **and leave the Number of items set to 1. 
+8. Name this decision policy **iPhone 17 DP** and leave the Number of items set to 1. 
 
 >[!NOTE]
 >
 >Up to this point, we've configured the offers and how to order them, but we haven't configured how many we want in the response. This is where you configure how many offers should be returned. 
 
-1. Click the blue **Next** button, and this is where you'll add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
-1. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, you should see this:
+9. Click the blue **Next** button, and this is where you'll add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
+10. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, you should see this:
 
 ![Select the correct selection strategy](assets/create-the-journey-5.png)
 
@@ -73,16 +73,16 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 >
 >The fallback offer is optional because it would only apply if it were possible for end users to be (or become) ineligible for any of the offers. In our case, our selection strategy was for all visitors, and the only people who would reach the CBE node were those who entered the Journey. Being authenticated is a requirement for Journey entrance (the namespace set in the Journey is one they'd only have if they were authenticated). We also built a fallback offer into our Ranking formula, so in our case, there's no need to set this fallback offer.
 
-1. Click the blue **Next** button to review the decision policy. 
+11. Click the blue **Next** button to review the decision policy. 
 
 ![Review decision policy](assets/create-the-journey-11.png)
 
-1. Once everything looks correct, click the blue **Create** button. Once it's created, you'll be taken back to the expression editor page.
-1. If you should see a screen similar to the one below. If not, click on **Decision policy **again, and you'll see your decision policy appear.
+12. Once everything looks correct, click the blue **Create** button. Once it's created, you'll be taken back to the expression editor page.
+13. If you should see a screen similar to the one below. If not, click on **Decision policy** again, and you'll see your decision policy appear.
 
 ![Decision policy is ready](assets/create-the-journey-7.png)
 
-1. Click the **+ Insert policy** button, and you'll see a ForEach loop appear in the code editor:
+14. Click the **+ Insert policy** button, and you'll see a ForEach loop appear in the code editor:
 
 ![Insert decision policy](assets/create-the-journey-8.png)
 
@@ -90,7 +90,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 >
 >Why a for each loop? In our case, we're just returning a single offer. However, consider the previous steps where we could return multiple offers. When considering the functionality, the looping mechanism here makes sense.
 
-1. We now need to add valid JSON within the bounds of the loop. We want to return the make, model, and tier of the phone that should be offered to the end user. Since we have frequency capping in place as well, we need to have a trackingToken added to the response. More on this later in the instructions. To save time, simply copy and paste these lines of code into the code editor within the For Each loop:
+15. We now need to add valid JSON within the bounds of the loop. We want to return the make, model, and tier of the phone that should be offered to the end user. Since we have frequency capping in place as well, we need to have a trackingToken added to the response. More on this later in the instructions. To save time, simply copy and paste these lines of code into the code editor within the For Each loop:
 
 ```javascript
    {
@@ -107,14 +107,14 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 >
 >Recall that you added attributes to the standard offer XDM schema, specifically, the make, model, and tier. You then populated those attributes when the offers were created. We will now add those attributes as variables that will be populated with values from the selected offer. The trackingToken field is a system-generated value used for tracking clicks and impressions.
 
-1. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make **node.  Click the **+** icon on the **Make **element, and you'll see it populate the editor.
+16. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make** node.  Click the **+** icon on the **Make** element, and you'll see it populate the editor.
 
 ![Add Make item](assets/create-the-journey-2.png)
 
-1. Add the **model** and **tier** attributes in a similar manner. 
-1. Click on **Decision policy** in the attribute navigation to return to the root level.
-1. Populate the trackingToken attribute by navigating to the Tracking Token value via **\_experience > decisioning > decisionitem > Tracking Token **path.
-1. Finally, encase the entire piece of code in a set of square bracket (**\[]**). Your final JSON code should look like this:
+17. Add the **model** and **tier** attributes in a similar manner. 
+18. Click on **Decision policy** in the attribute navigation to return to the root level.
+19. Populate the trackingToken attribute by navigating to the Tracking Token value via **\_experience > decisioning > decisionitem > Tracking Token** path.
+20. Finally, encase the entire piece of code in a set of square bracket (**\[]**). Your final JSON code should look like this:
 
 ![Validate final JSON for CBE](assets/create-the-journey-12.png)
 
@@ -124,16 +124,16 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 
 
 
-1. Once everything looks the screenshot above, click the **Save and close** in the upper right to save your code. You will then be returned to the Code-based Experience page. 
-1. Click the back arrow **\<** icon next to the Journey name, and you'll be returned to the canvas.
+21. Once everything looks the screenshot above, click the **Save and close** in the upper right to save your code. You will then be returned to the Code-based Experience page. 
+22. Click the back arrow **\<** icon next to the Journey name, and you'll be returned to the canvas.
 
 ![AA 0NPdmS es1GlTCTa5J 20260612 222652](assets/create-the-journey-1.png)
 
-1. Click the blue **Save** button to save the CBE action node. Your Journey should now look like this:
+23. Click the blue **Save** button to save the CBE action node. Your Journey should now look like this:
 
 ![Final Journey Validation](assets/create-the-journey-13.png)
 
-1. With the Journey completed, click the blue **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you'll see that your Journey is now live!
+24. With the Journey completed, click the blue **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you'll see that your Journey is now live!
 
 ![Journey is live validation](assets/create-the-journey-4.png)
 

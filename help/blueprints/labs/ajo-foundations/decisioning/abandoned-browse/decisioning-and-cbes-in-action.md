@@ -57,30 +57,30 @@ The page bottom data collection call is purely for the sake of generating a page
 
 Let's start with Bob's Profile. 
 
-1. Click on the **Bob - Page Bottom Data Collection **request. 
-1. Click on the **Body** tab and notice the parameters being passed, such as the customerID namespace in the IdentityMap, which would indicate that he's authenticated, as well as the 'web.webPageDetails.name' parameter that passes in the pagename of 'phones\:apple\:iphone 17\:overview'.
+1. Click on the **Bob - Page Bottom Data Collection** request. 
+2. Click on the **Body** tab and notice the parameters being passed, such as the customerID namespace in the IdentityMap, which would indicate that he's authenticated, as well as the 'web.webPageDetails.name' parameter that passes in the pagename of 'phones\:apple\:iphone 17\:overview'.
 
 ![Bob page bottom call](assets/decisioning-and-cbes-in-action-7.png)
 
-1. Click **Send** in the upper right corner to send a page view. You should get a response back similar to this
+3. Click **Send** in the upper right corner to send a page view. You should get a response back similar to this
 
 ![Bob data collection response](assets/decisioning-and-cbes-in-action-3.png)
 
-1. Once you've received a proper response, click **Send** again to resend the same Page bottom event a 2nd time. Wait a few seconds, then send in a 3rd Data Collection call for the Bob profile. You should have sent a total of 3, page-bottom calls.
+4. Once you've received a proper response, click **Send** again to resend the same Page bottom event a 2nd time. Wait a few seconds, then send in a 3rd Data Collection call for the Bob profile. You should have sent a total of 3, page-bottom calls.
 
 At this point, the system should be processing those hits and adding Bob to the "dep: Interested in iPhone 17" streaming segment. Once that is done, Bob will be put into the Journey. Once in the Journey, it should only take a few minutes for Bob's entrance into the Journey and segment to be projected to the Edg Profile store for Bob. 
 
-1. Return to the AJO UI and click on **Profiles** in the left rail, followed by the **Browse** tab.
-1. Search for Bob's profile by using the **customerID** namespace with the value of **287415903**.
+5. Return to the AJO UI and click on **Profiles** in the left rail, followed by the **Browse** tab.
+6. Search for Bob's profile by using the **customerID** namespace with the value of **287415903**.
 
 ![Search for Bob](assets/decisioning-and-cbes-in-action-2.png)
 
-1. Click **View** to open Bob's profile (Bob's profile color may be different than is shown in the screenshot).
+7. Click **View** to open Bob's profile (Bob's profile color may be different than is shown in the screenshot).
 
 ![View Bob's profile](assets/decisioning-and-cbes-in-action-4.png)
 
-1. Once Bob's profile opens, click on the **Audience membership** tab, and you should see that Bob is now a member of the 'dep: Interested in iPhone 17' segment, at least from AEP Hub's perspective. 
-1. Click on **Attributes,** then select the **Edge **radio button to switch to the Edge view.
+8. Once Bob's profile opens, click on the **Audience membership** tab, and you should see that Bob is now a member of the 'dep: Interested in iPhone 17' segment, at least from AEP Hub's perspective. 
+9. Click on **Attributes,** then select the **Edge** radio button to switch to the Edge view.
 
 ![Switch to Edge View](assets/decisioning-and-cbes-in-action-1.png)
 
@@ -90,18 +90,18 @@ At this point, the system should be processing those hits and adding Bob to the 
 
 
 
-1. Click again on **Audience membership,** and if you did those steps quickly enough, you should see that the Edge is selected and shows that Bob has no Audience membership
+10. Click again on **Audience membership,** and if you did those steps quickly enough, you should see that the Edge is selected and shows that Bob has no Audience membership
 
 ![No edge audience membership](assets/decisioning-and-cbes-in-action-5.png)
 
-1. In a new browser tab, navigate to the Journey you created and click into it. You should see that one profile has entered the Journey and is now on the CBE node.
+11. In a new browser tab, navigate to the Journey you created and click into it. You should see that one profile has entered the Journey and is now on the CBE node.
 
 ![See Bob entery the journey](assets/decisioning-and-cbes-in-action-6.png)
 
 At this point, we know that Bob has entered the Journey and that the Edge projection is currently assembling a projection that will update Bob's profile on the Edge. 
 
-1. Switch back to Postman and click on the second of Bob's Experience Event calls, **Bob - Page Top Fetch.**
-1. Click **Send**. What should happen?
+12. Switch back to Postman and click on the second of Bob's Experience Event calls, **Bob - Page Top Fetch.**
+13. Click **Send**. What should happen?
     - If Bob's Edge Profile hasn't been updated yet, then you'll get a very similar response to what you got from the Data Collection call. If this is the case, wait another minute or two and then try sending in Bob's Page Top Fetch call again.
     - If Bob's Edge profile was updated, then you'll get a response with the JSON that was configured earlier, along with additional information used for reporting. But before moving on, what iPhone 17 offer should Bob be offered?
 
@@ -109,19 +109,19 @@ At this point, we know that Bob has entered the Journey and that the Edge projec
 
 ![Bob's first response](assets/decisioning-and-cbes-in-action-9.png)
 
-1. Remember that this Postman request automatically sends a display notification for this offer, so AJO has already recorded at least one impression for this offer. Click **Send** again to send a second impression. Verify that the base offer was again returned.
-1. Recall that we put a frequency cap of 3 impressions on the Base, Pro, and Ultra tier models. Click **Send** a 3rd time to get a 3rd response with the Base tier and to record another impression. 
-1. Click **Send **a fourth time, and what should happen? The frequency capping for the Base tier offer should be reached, and you'll receive the Generic offer in the response:
+14. Remember that this Postman request automatically sends a display notification for this offer, so AJO has already recorded at least one impression for this offer. Click **Send** again to send a second impression. Verify that the base offer was again returned.
+15. Recall that we put a frequency cap of 3 impressions on the Base, Pro, and Ultra tier models. Click **Send** a 3rd time to get a 3rd response with the Base tier and to record another impression. 
+16. Click **Send** a fourth time, and what should happen? The frequency capping for the Base tier offer should be reached, and you'll receive the Generic offer in the response:
 
 ![Bob's new offer](assets/decisioning-and-cbes-in-action-10.png)
 
-1. Click **Send **again, and you'll see the Generic tier offer. You could click Send 100 more times, and you'll get the same offer back until the next day when the frequency capping is reset.
+17. Click **Send** again, and you'll see the Generic tier offer. You could click Send 100 more times, and you'll get the same offer back until the next day when the frequency capping is reset.
 
 >[!WARNING]
 >
 >Remember that in AJO, the day resets at Midnight GMT. If you were to send in another Fetch call after Midnight GMT, you'd see the Base tier offer return instead.
 
-1. Return to the Journey Orchestration UI and click into the **iPhone 17 Abandon Browse **Journey you created. Because the Journey is live and published, you'll start seeing stats. You should see that 1 profile has entered the Journey and is currently at the CBE node.
+18. Return to the Journey Orchestration UI and click into the **iPhone 17 Abandon Browse** Journey you created. Because the Journey is live and published, you'll start seeing stats. You should see that 1 profile has entered the Journey and is currently at the CBE node.
 
 ![Journey reporting is updated](assets/decisioning-and-cbes-in-action-6.png)
 
@@ -134,9 +134,9 @@ At this point, we know that Bob has entered the Journey and that the Edge projec
 Now that you've seen the Journey working for Bob's profile, there are two other profiles to test. 
 
 1. Return to Postman and locate the Experience events for Peter and Ursula.
-1. Execute the "Page Bottom Data Collection" event 3 times for each profile, remembering to give 1-3 seconds between each Send/Data collection request.
-1. Wait a couple of minutes for the three profiles qualify for the Streaming segment, enter the Journey, and then have the CBE projected to their Edge Profiles. 
-1. Send in the Page Top Fetch call as many times as needed to verify that the Decisioning rules and Ranking formulas are working as expected.
+2. Execute the "Page Bottom Data Collection" event 3 times for each profile, remembering to give 1-3 seconds between each Send/Data collection request.
+3. Wait a couple of minutes for the three profiles qualify for the Streaming segment, enter the Journey, and then have the CBE projected to their Edge Profiles. 
+4. Send in the Page Top Fetch call as many times as needed to verify that the Decisioning rules and Ranking formulas are working as expected.
 
 **Decisioning Profiles: Expected behavior**
 
@@ -146,7 +146,7 @@ Now that you've seen the Journey working for Bob's profile, there are two other 
 | Peter      | Professional | Pro       | Base      | Generic   | Generic   |
 | Ursula     | Ultimate     | Ultra     | Pro       | Base      | Generic   |
 
-1. Once finished, return to the Journey. You should see that all 3 profiles have entered the Journey and are at the CBE node.
+5. Once finished, return to the Journey. You should see that all 3 profiles have entered the Journey and are at the CBE node.
 
 >[!NOTE]
 >

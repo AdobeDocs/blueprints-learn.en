@@ -101,7 +101,7 @@ Switch over to your Postman application and update the Create Customer Account r
 
 
 
-2\. Copy and paste the **Streaming endpoint **value you saved previously into the request's URL
+2\. Copy and paste the **Streaming endpoint** value you saved previously into the request's URL
 
 ![Create customer account streaming endpoint url](assets/create-customer-account-streaming-endpoint-url.png)
 
@@ -115,9 +115,9 @@ Switch over to your Postman application and update the Create Customer Account r
 
 4\. In the body of the request update the following attributes like so:
 
-- **firstName **-> Your First Name
-- **lastName **-> Your Last Name
-- **email **-> Your Email Address
+- **firstName** -> Your First Name
+- **lastName** -> Your Last Name
+- **email** -> Your Email Address
 - **birth Date**-> YYYY-MM-DD
 
 **5. Save** your request
@@ -143,7 +143,7 @@ Sample 200 OK Response
 
 >[!NOTE]
 >
->Note the **xactionId **in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as its a tracer bullet used by our support teams to debug any environment issues
+>Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as its a tracer bullet used by our support teams to debug any environment issues
 
 >[!TIP]
 >

@@ -292,6 +292,10 @@ nudge: orange
       + Sandbox Setup{#ajo-sandbox}
         + [Developer Console Setup](/help/blueprints/labs/ajo-foundations/sandbox-setup/developer-console-setup.md)
         + [Deployment Instructions](/help/blueprints/labs/ajo-foundations/sandbox-setup/deployment-instructions.md)
+      + Postman Setup{#ajo-postman}
+        + [Postman Installation](/help/blueprints/labs/ajo-foundations/postman-setup/postman-installation.md)
+        + [Import Environment File](/help/blueprints/labs/ajo-foundations/postman-setup/import-environment-file.md)
+        + [Import API Collection](/help/blueprints/labs/ajo-foundations/postman-setup/import-api-collection.md)
       + Architecture Building Blocks{#ajo-architecture}
         + [Lecture](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/lecture.md)
         + Mapping Use Cases to Architecture{#ajo-architecture-mapping}
@@ -299,10 +303,6 @@ nudge: orange
           + [Lab Introduction](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-introduction.md)
           + [Lab Exercise](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-exercise.md)
           + [Lab Review](/help/blueprints/labs/ajo-foundations/architecture-building-blocks/mapping-use-cases-to-architecture/lab-review.md)
-      + Postman Setup{#ajo-postman}
-        + [Postman Installation](/help/blueprints/labs/ajo-foundations/postman-setup/postman-installation.md)
-        + [Import Environment File](/help/blueprints/labs/ajo-foundations/postman-setup/import-environment-file.md)
-        + [Import API Collection](/help/blueprints/labs/ajo-foundations/postman-setup/import-api-collection.md)
       + Data Stores{#ajo-data-stores}
         + [Real-Time Customer Profile Lecture](/help/blueprints/labs/ajo-foundations/data-stores/real-time-customer-profile-lecture.md)
         + Profile in Action{#ajo-profile}

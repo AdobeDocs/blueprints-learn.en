@@ -74,7 +74,7 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-Review the response and note the JSON pointer path for the **plan **object is constructed using each of the properties highlighted below.
+Review the response and note the JSON pointer path for the **plan** object is constructed using each of the properties highlighted below.
 
 ![Customer account details path to the plan object.png "Customer Account Details Path to the Plan object"](assets/QhzcnKiPDrDpp5uW-K9I9_customer-account-details-path-to-the-plan-object.png "Customer Account Details Path to the Plan object")
 
@@ -94,7 +94,7 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 ## **PATCH the Field Group**
 
-## **JSON PATCH API Body Sample**
+### **JSON PATCH API Body Sample**
 
 ```none
 [
@@ -111,8 +111,8 @@ The fully composed path looks like what you see below.  Copy this path and save 
 ```
 
 - **op (Operation)** -> this provides the instruction for what action the PATCH should perform
-- **Path **-> this is the path you want to create, update or delete (i.e. this is the JSON pointer to the location of the new field)
-- **Value **-> this is an optional field and only used when creating or replacing an existing field
+- **Path** -> this is the path you want to create, update or delete (i.e. this is the JSON pointer to the location of the new field)
+- **Value** -> this is an optional field and only used when creating or replacing an existing field
 
 
 
@@ -126,12 +126,12 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 2\. Update the body of the request with the following information
 
-- **op **->` add`
-- **path **-> `path from previous step +`` the new field name`
-- **value **->
-  - **title **-> `Plan Description`
-  - **type **-> `string`
-  - **description **-> `High-level details about the plan`
+- **op** ->` add`
+- **path** -> `path from previous step +`` the new field name`
+- **value** ->
+  - **title** -> `Plan Description`
+  - **type** -> `string`
+  - **description** -> `High-level details about the plan`
 
 When you are done your API request should look something like this
 

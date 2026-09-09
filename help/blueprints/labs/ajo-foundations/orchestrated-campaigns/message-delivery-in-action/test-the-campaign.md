@@ -22,7 +22,7 @@ In the next set of steps you will run the campaign in test mode to confirm the f
 
 
 
-1. The test execution of all the campaign activities starts, verify the results
+2. The test execution of all the campaign activities starts, verify the results
 
 ![Test mode](assets/test-the-campaign-2.png)
 
@@ -34,11 +34,11 @@ In the next set of steps you will run the campaign in test mode to confirm the f
 
 ![Run test for Email Report #1](assets/test-the-campaign-8.png)
 
-1. Wait for the confirmation message and then click on **View report** to see details of the Email test
+2. Wait for the confirmation message and then click on **View report** to see details of the Email test
 
 ![View Report](assets/test-the-campaign-9.png)
 
-1. The Email report page is presented with Campaign statistics and the execution status. The Email test is a verification of the activity to ensure there are no errors and does not send emails. It typically takes about \~**5** minutes to complete.
+3. The Email report page is presented with Campaign statistics and the execution status. The Email test is a verification of the activity to ensure there are no errors and does not send emails. It typically takes about \~**5** minutes to complete.
 
 ![Campaign statistics](assets/test-the-campaign-1.png)
 
@@ -48,11 +48,11 @@ In the next set of steps you will run the campaign in test mode to confirm the f
 
 
 
-1. Once the Email test is complete, the results are presented. There will be some percentage of errors, click on **View more **to know the reason.﻿
+4. Once the Email test is complete, the results are presented. There will be some percentage of errors, click on **View more** to know the reason.﻿
 
 ![Error rate](assets/test-the-campaign-10.png)
 
-1. The reason states "`Email address not found in profile`"
+5. The reason states "`Email address not found in profile`"
 
 ![Reason](assets/test-the-campaign-3.png)
 
@@ -72,11 +72,11 @@ In the next set of steps you will run the campaign in test mode to confirm the f
 
 ![Run test for Email Report #2](assets/test-the-campaign-6.png)
 
-1. Wait for the confirmation message and then click on **View report** to see details of the Email test
+2. Wait for the confirmation message and then click on **View report** to see details of the Email test
 
 ![View report](assets/test-the-campaign-7.png)
 
-1. Once the Email test is complete, the results are presented. In this case, there will be no errors
+3. Once the Email test is complete, the results are presented. In this case, there will be no errors
 
 ![Campaign statistics](assets/test-the-campaign-5.png)
 

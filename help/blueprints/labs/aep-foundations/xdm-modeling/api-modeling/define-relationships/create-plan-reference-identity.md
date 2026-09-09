@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
 ---
 
+# Create Plan Reference Identity
+
 1. Click on the `Step 3 - Reference Descriptor for Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors `folder
 
 >[!CAUTION]

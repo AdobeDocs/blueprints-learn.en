@@ -6,13 +6,15 @@ solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
 ---
 
+# Send an Edge Event
+
 Now that everything is configured, we can send in an event to the Edge to see it all work. To do this we will use Postman to send a Web Event to the Datastream we created. This will send in an event **with no OAuth Token** to simulate a page view coming in from the web to the Edge.  Ensure you have Postman open on your machine to perform this lab.
 
 >[!NOTE]
 >
 >Because we are not passing in an authenticated token, we will not get back any attributes.
 
-# Lab Expectations
+## Lab Expectations
 
 1. Experience Event to hit the Edge
 1. Datastream configuration to use Event Forwarding Service
@@ -35,8 +37,8 @@ Now that everything is configured, we can send in an event to the Edge to see it
 ## Navigate to the Call
 
 1. **Postman Left Sidebar**  -> Collections
-1. **Collection **-> AEP Foundations Bootcamps (Labs)
-1. **Folder **-> Profile Lab
+1. **Collection** -> AEP Foundations Bootcamps (Labs)
+1. **Folder** -> Profile Lab
 1. **API Request** -> Create Web Event Edge (No Auth)
 
 ![Navigate to the postman call](assets/navigate-to-the-postman-call.png)
@@ -49,7 +51,7 @@ Before you can execute the API request you need to add some additional pieces of
 
 ## **Gather the Datastream ID**
 
-1. In the left rail click on **Datastreams **(under the Data Collection heading)
+1. In the left rail click on **Datastreams** (under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value
 
 ![Gather datastream id](assets/gather-datastream-id.png)
@@ -57,8 +59,8 @@ Before you can execute the API request you need to add some additional pieces of
 ## Update Postman Query Param
 
 1. In the request itself click on **Params**
-1. Update the **Value **with the datastream ID from the previous step
-1. Click the **Save **button to save your update
+1. Update the **Value** with the datastream ID from the previous step
+1. Click the **Save** button to save your update
 
 ![Update datastreamid](assets/update-datastreamid.png)
 
@@ -70,7 +72,7 @@ Change email to your email
 
 ## Execute the API
 
-Execute your request by clicking the **Send **button. 
+Execute your request by clicking the **Send** button. 
 
 ![Successful response from edge](assets/successful-response-from-edge.png)
 
@@ -132,14 +134,14 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 
 
 
-1. Click **View **to lookup up the profile
+1. Click **View** to lookup up the profile
 1. Click on the **Profile ID** to open the profile
 
 ![Lookup profile](assets/lookup-profile.png)
 
 
 
-3\. Click on **Events **in the top nav and you can see the event you just sent in
+3\. Click on **Events** in the top nav and you can see the event you just sent in
 
 ![View the profile event](assets/view-the-profile-event.png)
 
