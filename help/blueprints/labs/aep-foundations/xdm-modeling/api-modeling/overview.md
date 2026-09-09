@@ -29,4 +29,3 @@ Be able to build a schema utilizing only the Experience Platform API’s through
    1. Identities (including Primary)
    2. Relationship
    3. Reference
-

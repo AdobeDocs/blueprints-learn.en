@@ -197,4 +197,3 @@ AND identitymap['email'][0].ID in ('edge-email@dep.com')
 ORDER BY extSourceSystemAudit.LASTREFERENCEDDATE DESC
 LIMIT 10
 ```
-

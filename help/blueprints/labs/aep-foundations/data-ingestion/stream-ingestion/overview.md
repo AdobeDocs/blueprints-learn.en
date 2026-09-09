@@ -18,4 +18,3 @@ In this exercise, we will load the Customer Account data from Streaming source t
 >[!NOTE]
 >
 >If you did not complete the Customer Accounts schema creation in the previous labs, you can browse into the schema catalog and use **dep: Customer Account** instead
-

@@ -79,4 +79,3 @@ SELECT shippingAddress.postalCode FROM <table_name>
 >[!TIP]
 >
 >Congratulations!  You have successfully ingested and created a sample set of Real-Time Customer Profiles
-

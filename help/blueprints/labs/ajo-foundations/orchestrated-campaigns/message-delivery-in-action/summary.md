@@ -24,4 +24,3 @@ Through this lab you did the following activities:
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
-

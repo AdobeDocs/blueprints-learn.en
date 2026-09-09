@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
 ---
 
+# Stream an Order Event
+
 ## **Prerequisites**
 
 1. You have downloaded the [Sample Files](../sample-files.md) and see the file named --> **Lab\_Single\_Order\_sample.json**
@@ -24,6 +26,3 @@ Perform the following set of tasks just as you did in the previous lab.
 >[!NOTE]
 >
 >Good luck and may the Adobe Experience Platform gods be with you!
-
-
-

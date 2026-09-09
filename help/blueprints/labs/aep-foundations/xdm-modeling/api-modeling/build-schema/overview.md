@@ -22,4 +22,3 @@ In this lab you will build the Connection 5G Customer Account schema utilizing t
 
 
 ![AAZjjyBam ki final connection 5g customer mapping sheet.png "Final Connection 5G Customer Mapping Sheet"](assets/u8IHvfhB_aAZjjyBam_ki_final-connection-5g-customer-mapping-sheet.png "Final Connection 5G Customer Mapping Sheet")
-

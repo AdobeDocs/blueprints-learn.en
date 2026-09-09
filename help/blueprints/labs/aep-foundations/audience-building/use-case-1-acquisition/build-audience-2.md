@@ -163,6 +163,3 @@ Add the new path:
 >Finished early?
 >
 >Create an Audience of "Apple Device Loyalty" in one family.  All the people on the plan have same type of device (Apple).
-
-
-

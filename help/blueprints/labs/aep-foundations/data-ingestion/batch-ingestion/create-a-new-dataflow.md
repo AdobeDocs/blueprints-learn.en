@@ -58,4 +58,3 @@ On the mapping screen instead of setting up all your mappings again you can impo
 >[!NOTE]
 >
 >Importing mappings are a handy way to re-use mappings from other dataflows to reduce the amount mapping work you need to perform
-

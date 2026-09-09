@@ -62,4 +62,3 @@ A schema is always composed of one or more field groups and a class.  For the Co
 >[!NOTE]
 >
 >Do not continue until you have saved all three (3) `$id's` somewhere.  They will be required later to create the Customer Account schema
-

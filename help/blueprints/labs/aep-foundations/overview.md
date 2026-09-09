@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 ---
 
+# Overview
+
 ## **What You Will Learn**
 
 1. **Relational to NoSQL Translation:**
@@ -42,4 +44,3 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 - Working with REST APIs
 - General understanding of Adobe Experience Platform
 - Exposure to CDP's, ad-tech, CRM or other marketing technology stacks
-

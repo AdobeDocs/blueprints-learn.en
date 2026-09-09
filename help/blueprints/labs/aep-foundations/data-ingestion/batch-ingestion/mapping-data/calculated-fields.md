@@ -114,4 +114,3 @@ date_part("yyyy",date(birth_Date,"M/d/yyyy"))
 >[!NOTE]
 >
 >Observe that the dates are in **MM/DD/YYYY** format but **birth\_Date** data in the sample is coming as either single or double digits for the day and month. For the **date** function to work, you have to specify the input format of the data such as **M/d/yyyy** so that you can account for 1 to 2 digits for the month and day. Without this date input format specification, the validation of these mappings will fail.
-

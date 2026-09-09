@@ -136,4 +136,3 @@ Browse the XDM Individual Profile class and then take a few moments to review ot
 >[!WARNING]
 >
 >Only the XDM Individual Profile based class performs merges between similarly named fields.
-

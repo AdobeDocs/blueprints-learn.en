@@ -21,4 +21,3 @@ After configuring the journey, you tested the setup and sent a simulated event u
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
-

@@ -41,4 +41,3 @@ Once the schema mapping is set up, you will need to put your work to the test an
 - Verify and validate the data ingested successfully.
 
 You will learn the above concepts with relational and non-relational data ingestion scenarios.
-

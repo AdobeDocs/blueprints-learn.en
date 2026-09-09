@@ -77,4 +77,3 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 6\. In the Left Nav bar, Go to Datasets in Platform and click on **Orders - YourNameHere**
 
 7\. Click on the **Preview Dataset.**
-

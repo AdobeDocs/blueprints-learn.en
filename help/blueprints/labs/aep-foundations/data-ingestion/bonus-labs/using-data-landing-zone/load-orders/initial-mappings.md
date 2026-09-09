@@ -59,4 +59,3 @@ If the mapping screen now complains there is a duplicate mapping such as **order
 
 
 ![Duplicat.png "Duplicate mapping for order. devbc.acqSource since we created a calculated field and have already mapped to it. "](assets/tJE4v0HpQzToD1Hh4Uw6Q_duplicat.png "Duplicate mapping for order._devbc.acqSource since we created a calculated field and have already mapped to it. ")
-

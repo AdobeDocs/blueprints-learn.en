@@ -73,4 +73,3 @@ You just created a message and hopefully are now a bit more familiar with how th
 >[!NOTE]
 >
 >If you use the Real-Time Customer Profile attributes to personalize messages in Orchestrated Campaigns just remember its pulling from the Profile Snapshot dataset in the data lake so attributes can be up to 24 hours.   The Profile Snapshot is only updated once a day after the daily batch segmentation job.
-

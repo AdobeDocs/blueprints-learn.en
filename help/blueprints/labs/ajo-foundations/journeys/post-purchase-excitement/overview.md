@@ -47,6 +47,3 @@ When a customer places an order, you want to send a confirmation message with or
 >[!NOTE]
 >
 >In this lab you will only build out the Order Shipped message and skip the Order Confirmation message.
-
-
-

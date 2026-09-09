@@ -73,4 +73,3 @@ A successful response for creating the schema should result in a `201 Created` s
 >[!NOTE]
 >
 >**Congratulations! You have just created a schema using only the API's**
-

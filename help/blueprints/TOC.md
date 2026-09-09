@@ -263,7 +263,6 @@ nudge: orange
         + Use Case 1 - Acquisition{#aep-uc1}
           + [Overview](/help/blueprints/labs/aep-foundations/audience-building/use-case-1-acquisition/overview.md)
           + Configure Destinations{#aep-uc1-destinations}
-            + [Overview](/help/blueprints/labs/aep-foundations/audience-building/use-case-1-acquisition/configure-destinations/overview.md)
             + [Setup Custom Personalization Destination](/help/blueprints/labs/aep-foundations/audience-building/use-case-1-acquisition/configure-destinations/setup-custom-personalization-destination.md)
             + [Setup Streaming Destination](/help/blueprints/labs/aep-foundations/audience-building/use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)
           + [Build Audience 1](/help/blueprints/labs/aep-foundations/audience-building/use-case-1-acquisition/build-audience-1.md)

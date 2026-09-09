@@ -19,4 +19,3 @@ To configure this, we will set up:
   - A Rule to add any Conditions on what to forward, transform the payload and where to send it
 - A Datastream that configures which services that will utilize it (e.g. Event Forwarding & AEP)
   - Data sent to these Datastreams can then take action according to the service configured (e.g. forward an event and send data to a Dataset)
-

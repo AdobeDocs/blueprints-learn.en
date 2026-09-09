@@ -40,4 +40,3 @@ Reference Identity Descriptor
 Create Relationship identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
 ![LxxLyKc0x1oi dNRps1V ngEdac6AdbbpB 20241024 001844](assets/overview-1.png)
-

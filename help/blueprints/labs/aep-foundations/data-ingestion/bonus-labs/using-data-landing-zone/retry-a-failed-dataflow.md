@@ -19,4 +19,3 @@ To retry a workflow, do the following:
 >[!NOTE]
 >
 >Note that when you retry a failed dataflow a new dataflow is created and executed. It will appear at the top of the list of dataflows
-

@@ -23,6 +23,3 @@ XDM (Experience Data Model) is Adobe’s standardized framework for organizing c
 ## Advanced XDM Information
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459090/?quality=12&learn=on)
-
-
-

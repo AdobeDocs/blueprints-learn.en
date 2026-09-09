@@ -30,4 +30,3 @@ We will go through how to activate using the Adobe Edge with Event Forwarding, E
 - This triggers
   - Edge Segment to qualify
   - Event Forwarding on Edge to send to webhook
-

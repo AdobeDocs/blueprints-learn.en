@@ -31,4 +31,3 @@ In Adobe Experience Platform, there are two main patterns of data ingestion: bat
 ## Data Prep with Complex Data
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459102/?quality=12&learn=on)
-

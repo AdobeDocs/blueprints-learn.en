@@ -163,4 +163,3 @@ The audience will store all 65 records, but a read audience activity will dedup 
 ## Recap
 
 You should now have a good understanding of how the Save Audience works and why deduplication matters.  Remember that you always need to have the Profile Target Mapping defined because the Relational Store data has to know how to join to the Real-Time Customer Profile.  The Profile Target Mapping is the join condition 🙂
-

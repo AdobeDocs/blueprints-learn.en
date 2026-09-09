@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
 ---
 
+# Relational Store in Action
+
 ## Lab Overview
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486539/)
@@ -17,6 +19,3 @@ exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
 - Build an Orchestrated Campaign using a variety of workflow activities
 - Construct an audience using a Read Audience activity and use attributes from the Relational schema 
 - Test the campaign and understand the behavior when using AEP audiences in conjunction with relational schema
-
-
-

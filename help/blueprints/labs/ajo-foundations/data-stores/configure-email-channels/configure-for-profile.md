@@ -149,4 +149,3 @@ Leave with the default settings
 ## Recap
 
 You have now seen how to create an Email Channel Configuration to use the AEP Profile attribute for both Journeys and Orchestrated Campaigns.
-

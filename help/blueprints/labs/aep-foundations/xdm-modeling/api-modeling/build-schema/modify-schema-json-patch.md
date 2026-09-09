@@ -162,4 +162,3 @@ You should see a `200 OK `response and should now see the `planDescription` fiel
 Browse your Schema through the UI and have a look at your newly added field.  Pretty cool huh?
 
 ![LxxLyKc0x1oi mdrBo 0 LI7Hy9ixmldbS 20241023 212329.png "Plan Description added to the Customer Account Details   Sandbox \<your number> field group. Modify Schema JSON"](assets/n-ADAXZy_lxxLyKc0x1oi-mdrBo_0-LI7Hy9ixmldbS-20241023-212329.png "Plan Description added to the Customer Account Details - Sandbox \<your number> field group. Modify Schema JSON")
-

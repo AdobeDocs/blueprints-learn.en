@@ -50,4 +50,3 @@ Download File — [LID Lab Worksheets.pdf](assets/lid-lab-worksheets.pdf)
 >[!NOTE]
 >
 >You need to print out the LID Lab Worksheet.pdf after you download to be able to complete the upcoming labs.
-

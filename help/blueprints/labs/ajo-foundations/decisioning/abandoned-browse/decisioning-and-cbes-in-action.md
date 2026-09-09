@@ -161,5 +161,4 @@ On this final pageof the lab, you moved into the execution phase, where you test
 - Offers were returned and counted against frequency caps as configured, showing how different rules and ranking logic affected which offer was delivered. 
 - You verified that frequency capping and eligibility worked as expected by repeatedly sending offer fetch calls. 
 
-You have executed real decisioning calls and validated that your eligibility rules, ranking formula, and offer setup behave correctly when profiles interact with the decisioning engine. 
-
+You have executed real decisioning calls and validated that your eligibility rules, ranking formula, and offer setup behave correctly when profiles interact with the decisioning engine.

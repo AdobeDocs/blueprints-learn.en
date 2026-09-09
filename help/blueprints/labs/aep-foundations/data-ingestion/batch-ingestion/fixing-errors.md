@@ -98,4 +98,3 @@ Click on the **Profiles** card and then scroll on the bottom bar to see the deta
 >[!NOTE]
 >
 >Note that there is the Destination card and it has metrics that looks similar to what we explored in this lab. These metrics will only make sense once you activate an audience or a dataset.
-

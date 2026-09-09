@@ -44,4 +44,3 @@ Immediately following the launch of a manufactures' latest flagship device, send
 >[!NOTE]
 >
 >This scenario simulates a **telecom contract upgrade campaign**, where secondary (dependent) lines receive targeted upgrade messaging.
-

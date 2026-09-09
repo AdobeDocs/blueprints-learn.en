@@ -68,4 +68,3 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 >You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab
 
 4\. Click the **Next** button in the upper right corner of the screen to continue to the next step
-

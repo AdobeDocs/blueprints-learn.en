@@ -58,4 +58,3 @@ Welp, you created a Fork of the result (i.e. duplicate the result) which allows 
 >[!NOTE]
 >
 >You need to use Forks especially if you plan to save the audience as a Save Audience activity does not allow activites to follow it.
-

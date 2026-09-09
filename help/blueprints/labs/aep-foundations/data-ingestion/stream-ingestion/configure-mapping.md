@@ -51,4 +51,3 @@ Update each calculated field by simply clicking on the arrow icon next to each c
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | person.birthYear        | date\_part("yyyy",date(birth\_Date,"yyyy-M-d"))                                                                                     |
 | person.birthDayAndMonth | concat(date\_part("mm", date(birth\_Date, "yyyy-M-d")).toString(), "-", date\_part("dd", date(birth\_Date, "yyyy-M-d")).toString()) |
-

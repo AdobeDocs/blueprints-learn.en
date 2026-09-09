@@ -71,4 +71,3 @@ You should now see a `201 Created` response like below
 >The Real-Time Customer Profile is built to describe the traits and behaviors of an individual person.  Therefore from a individual person lens a lookup table is **only** **ever** defined as a 1:1 relationship during segmentation.
 >
 >Its okay if your brain hurts...
-

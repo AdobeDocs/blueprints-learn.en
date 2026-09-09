@@ -199,4 +199,3 @@ Without the identity graph the profile store can only retrieve profile fragments
 >- See how some Events are stored against one fragment but not the other
 >- See how some Profile attributes are stored against one fragment but not the other
 >- Go to a profile you already have looked up and re-lookup it up using the No ID Stitching merge policy.  Note the difference
-

@@ -73,4 +73,3 @@ In the next set of steps you will build an audience from the relational schema b
 You have now seen how easy use the Build Audience activity in the campaign by choosing the right Target dimension from the relational schema. You then added a condition to  refine the audience building criteria and used the refresh option to check the expected number of rows. 
 
 You can read more [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) if you are interested.
-

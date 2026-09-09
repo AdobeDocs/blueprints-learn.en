@@ -27,7 +27,7 @@ Download File — [toolkit.zip](assets/toolkit.zip)
 >
 >Before starting the hands-on labs, make sure to download the toolkit file (see below toolkit.zip). Unzip the file to access the images and supporting files required for the exercises. Keep these assets somewhere easy to access, as you will reference them throughout the lab.
 
-# Introduction
+## Introduction
 
 In this module, you will build the **Connection 5G** brand inside AJO using a prepared brand guideline PDF.
 

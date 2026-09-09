@@ -91,7 +91,7 @@ Interpret the results to understand how closely your email matches Connection 5G
 ![Image](assets/brand-alignment-5.png)
 
 
-# Apply AI Recommendations
+## Apply AI Recommendations
 
 1. Click into flagged text blocks or images within the email.
 2. Lets use the paragraph we pasted in previous exercise as shown below. 

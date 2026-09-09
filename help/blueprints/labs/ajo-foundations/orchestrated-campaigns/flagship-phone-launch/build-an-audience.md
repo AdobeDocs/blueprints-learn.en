@@ -160,4 +160,3 @@ Its zero :) Do you know why?
 You have successfully created your first audience and should now see how easy it is to develop and validate your counts within the Build Audience activity.
 
 ![Image](assets/build-an-audience-1.png)
-

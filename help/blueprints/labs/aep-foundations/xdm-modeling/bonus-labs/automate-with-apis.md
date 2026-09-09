@@ -59,4 +59,3 @@ To see how you can automate deployments using API's you will execute a folder of
 >[!NOTE]
 >
 >Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema
-

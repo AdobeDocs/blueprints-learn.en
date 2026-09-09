@@ -151,4 +151,4 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 
 ## Recap
 
-On this page, you configured a Code-Based Experience (CBE) channel that enables external systems to request offer decisions via an API-style inbound channel. This setup included specifying the surface/location parameters that client systems will send, and choosing the JSON output format. 
+On this page, you configured a Code-Based Experience (CBE) channel that enables external systems to request offer decisions via an API-style inbound channel. This setup included specifying the surface/location parameters that client systems will send, and choosing the JSON output format.

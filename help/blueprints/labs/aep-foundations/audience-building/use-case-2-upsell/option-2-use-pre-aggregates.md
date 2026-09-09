@@ -53,4 +53,3 @@ Let's create an audience of all the profiles whose billing data usage is high bu
 >Finished early?
 >
 >We would like to reach out to our VIPs in real time with a special message when they purchase.  Create an audience of "VIPs".  A VIP is someone who purchased more than $1,000 in the last month.
-

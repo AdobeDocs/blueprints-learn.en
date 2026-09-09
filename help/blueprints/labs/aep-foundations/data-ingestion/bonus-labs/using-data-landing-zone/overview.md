@@ -80,4 +80,3 @@ You should now see a screen that looks like below
 >[!NOTE]
 >
 >Congratulations!  You've successfully configured Azure Storage Explorer
-

@@ -79,4 +79,3 @@ Also notice how each specific field from the mapping sheet is substantiated with
 >Do not continue until you have saved the `$id` somewhere.  It will be required later to create the Customer Account schema
 >
 >
-

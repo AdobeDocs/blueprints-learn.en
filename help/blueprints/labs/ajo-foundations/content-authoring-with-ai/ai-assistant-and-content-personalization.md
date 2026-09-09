@@ -65,7 +65,7 @@ For this exercise, we will improve the email that we have created using the AI A
 
 
 
-# Improve Hero Title & Description
+## Improve Hero Title & Description
 
 1. Open email by clicking on "Edit email body" button. 
 

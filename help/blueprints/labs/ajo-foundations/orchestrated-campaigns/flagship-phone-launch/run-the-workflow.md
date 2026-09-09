@@ -120,4 +120,3 @@ You are not going to do this in the lab, but for context here is what happens at
      - Matching profiles honor the consent found on the profile
      - Non-matching profiles are created on the fly
    - Delivery logs are created in the `AJO Message Feedback Event Dataset`
-

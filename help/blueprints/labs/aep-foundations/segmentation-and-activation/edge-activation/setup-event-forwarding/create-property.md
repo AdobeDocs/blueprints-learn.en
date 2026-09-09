@@ -244,4 +244,3 @@ When done your screen should look similar to the below screenshot.  If everythin
 4. You should then see the development build go green stating its ready to use
 
 ![Sp9W2tJwMjepSuOtk you shou](assets/you-shou.png)
-

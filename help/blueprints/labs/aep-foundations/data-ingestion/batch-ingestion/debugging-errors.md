@@ -59,5 +59,4 @@ Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 
 >[!WARNING]
 >
->This error is not a serious one as this leads to only warnings during mapping. The dataflow run will not fail because of this so for our lab we will not fix this error. 
-
+>This error is not a serious one as this leads to only warnings during mapping. The dataflow run will not fail because of this so for our lab we will not fix this error.

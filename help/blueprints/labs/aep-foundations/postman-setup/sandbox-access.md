@@ -29,4 +29,3 @@ A successful response will look like so:
 >[!TIP]
 >
 >Congratulations!  You are ready to start using the Experience Platform APIs
-

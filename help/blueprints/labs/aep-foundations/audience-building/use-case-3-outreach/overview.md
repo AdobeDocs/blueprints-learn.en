@@ -36,4 +36,3 @@ For this use case we are going to use two features of the Audience Engine:
 
 - Sequential Audiences
 - Dynamic Audiences
-

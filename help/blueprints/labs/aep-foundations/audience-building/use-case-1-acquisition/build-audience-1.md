@@ -264,4 +264,3 @@ Do not change the mapping, click Next and Finish
 >When we start storing the same value in different places for different reasons and purposes, we need to think through the ramifications to our Users and how the Profile will merge these (and how a Merge Policy will resolve this conflict if needed).
 >
 >Our current descriptions make it difficult for the Marketer to know which to use
-

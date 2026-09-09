@@ -42,6 +42,3 @@ You should now see a `200 OK` response and you should be able to browse to the e
 
 
 ![Pt4Ed88GbpjwD dSfX reference identity descriptor.png "Reference Identity Descriptor"](assets/yi_pt4Ed88GbpjwD-dSfX_reference-identity-descriptor.png "Reference Identity Descriptor")
-
-
-

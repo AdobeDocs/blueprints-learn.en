@@ -163,4 +163,3 @@ On selecting Channel as Mobile Message**,** a new section SMS settings shows up.
 You have now seen how to successfully configure a SMS channel.  Note this is an API-based SMS so depending on your provider they may use alternative methods for authentication.
 
 You can read more [here ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)if you are interested.
-

@@ -72,4 +72,4 @@ You should the service now added to your datastream
 
 ## Recap
 
-You should have a functioning datastream with Adobe Experience Platform service configured 
+You should have a functioning datastream with Adobe Experience Platform service configured

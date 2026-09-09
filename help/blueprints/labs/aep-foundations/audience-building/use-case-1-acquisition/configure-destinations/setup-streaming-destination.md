@@ -151,4 +151,3 @@ Validate your final destination looks good and then click the **Finish** button
 >
 >- It takes up to 2hrs for any backfill (existing qualified profile) to start activating
 >- It takes up to 20mins for a newly added audience to start activating
-

@@ -21,4 +21,3 @@ In the Mapping screen, the AI/ML recommendation engine will map several attribut
 >[!NOTE]
 >
 >Note that all source columns are ALWAYS treated as strings
-

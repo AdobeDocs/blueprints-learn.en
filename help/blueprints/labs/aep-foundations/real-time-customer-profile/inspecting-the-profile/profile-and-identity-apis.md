@@ -265,4 +265,3 @@ A successful response should look like the below screenshot
 >[!NOTE]
 >
 >You'll notice the response contains all the identities of the profile Depeche Mode
-

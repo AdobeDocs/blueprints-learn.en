@@ -145,4 +145,3 @@ In this audience build we will need to determine total billing data usage in the
 >[!NOTE]
 >
 >This approach will work, but we now have an Streaming Audience (real time), using Batch Audiences (that will run once every 24 hours). If this works for our use cases and data loads, then this is a good choice (e.g. maybe our billing data is loaded daily or monthly which is highly likely but not all use cases will be like this). If not, a common approach is to aggregate the data before sending to AEP. Let’s look at another option if we need a more real time approach.
-

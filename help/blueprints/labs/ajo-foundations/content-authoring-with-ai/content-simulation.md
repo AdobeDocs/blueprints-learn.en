@@ -37,7 +37,7 @@ You will use the sample test profile file **sample.csv** from your toolkit.
 
 A simulation panel will open after few seconds.
 
-# Upload the Test Profile Data
+## Upload the Test Profile Data
 
 1. Open **sample.csv** from your toolkit folder.
    - **Alex** → Above 40 years old 

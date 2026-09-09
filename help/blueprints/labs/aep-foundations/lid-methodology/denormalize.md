@@ -64,4 +64,3 @@ Always remember to review the customer use cases when building out the data mode
 ## Review
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459086/?quality=12&learn=on)
-

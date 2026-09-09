@@ -193,6 +193,3 @@ Bottom line: we traded off faster entry into the Audience by breaking it into pi
 >Finished early?
 >
 >I want to target people with an email if they have an old phone.  Create an Audience of "Has Old Phone".  How might we target them?
-
-
-

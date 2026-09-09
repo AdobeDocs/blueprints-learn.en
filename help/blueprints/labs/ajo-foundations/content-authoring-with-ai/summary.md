@@ -34,4 +34,3 @@ Throughout this course, you've explored the full journey of building personalize
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
-

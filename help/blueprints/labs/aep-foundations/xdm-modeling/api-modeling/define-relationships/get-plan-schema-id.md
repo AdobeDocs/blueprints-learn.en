@@ -33,4 +33,3 @@ exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
 >[!WARNING]
 >
 >Do not continue until you have saved `$id` of the schema somewhere.  It will be required later to create the Relationship Descriptor
-

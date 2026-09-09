@@ -106,4 +106,3 @@ This error occurs when you forget to set your postman environment from the drop-
 >Don't forget to set your postman environment when executing API calls
 >
 >![Set postman environment](assets/set-postman-environment.png)
-

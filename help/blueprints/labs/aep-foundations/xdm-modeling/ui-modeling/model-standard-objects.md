@@ -167,9 +167,3 @@ When you are done your final schema should now look like this.  Be sure to click
 >[!TIP]
 >
 >You are now finished with adding standard components to your schema. Great job! Let’s move on to building some custom attributes for your schema.
-
-
-
-
-
-

@@ -42,4 +42,3 @@ Please take a look at your profile and validate it matches what you streamed in.
 >Using the customerId namespace instead (which is the primary identity) ensured you could look up the profile immediately.  
 >
 >Remember that profile only knows about the primary identities 😄
-

@@ -75,4 +75,3 @@ Identify and label tables in the Connection 5G warehouse and streaming ERDs that
 ## Review
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459064/?quality=12&learn=on)
-

@@ -47,4 +47,3 @@ Click on the Experience Platform icon from the quick access panel to access your
 >[!TIP]
 >
 >Let's start building some schemas!
-

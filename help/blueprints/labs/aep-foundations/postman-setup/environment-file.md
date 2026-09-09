@@ -85,4 +85,3 @@ When you are done your environment file should look like this:
 >[!TIP]
 >
 >Congratulations! You have completed your Postman Environment configuration
-

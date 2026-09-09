@@ -69,4 +69,3 @@ When done, your environment file should look similar to this:
 >[!TIP]
 >
 >Congratulations! You have completed your Postman Environment file
-

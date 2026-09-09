@@ -23,11 +23,11 @@ Add the following passthrough mappings with **Products\[\*]** and **Products\[\*
 
 >[!NOTE]
 >
->Note that ***Products\[\*]*** is doing a 1-1 field mapping between the object fields and the explicit field mapping ***Products\[\*].productID***is overriding the default copy.
+>Note that **Products\[\*]** is doing a 1-1 field mapping between the object fields and the explicit field mapping **Products\[\*].productID** is overriding the default copy.
 
 >[!NOTE]
 >
->***Products\[\*].productID ***is also mapped to ***prodictListItems\[\*].SKU ***in addition to ***prodictListItems\[\*].\_id*****. **This is an example of a single input field being mapped to multiple output fields in the XDM schema. Keep the mapping as it is.
+>**Products\[\*].productID** is also mapped to **prodictListItems\[\*].SKU** in addition to **prodictListItems\[\*].\_id**. This is an example of a single input field being mapped to multiple output fields in the XDM schema. Keep the mapping as it is.
 
 2\. Keep the mapping **products\[\*].price** to **productListItems\[\*].priceTotal**
 
@@ -66,4 +66,3 @@ There are 2 sets of mappings that you should verify. In total, you should have 6
 ![The resultant mappings for productlistitems should look like this.png "The resultant mappings for ProductListItems\[*] should look like this"](assets/pxtfzDmbEF935LVFdNUgL_the-resultant-mappings-for-productlistitems-should-look-like-this.png "The resultant mappings for ProductListItems\[*] should look like this")
 
 ![The resultant mappings for productlistitems should look like this copy](assets/the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
-

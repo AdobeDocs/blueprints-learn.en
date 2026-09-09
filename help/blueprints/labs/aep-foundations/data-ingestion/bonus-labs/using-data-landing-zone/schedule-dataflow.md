@@ -47,4 +47,3 @@ After you click **Finish**, you will be brought back to the **Dataflows** screen
 >[!NOTE]
 >
 >If you turned on all the alerts you'll receive an alert in your browser in the upper right corner of your browser when the flow starts running and successfully completes or fails
-

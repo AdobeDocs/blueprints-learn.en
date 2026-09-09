@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 ---
 
+# Creating the Email
+
 ## Content creation with Templates
 
 **Purpose:** Learn how to create reusable templates in Adobe Journey Optimizer, then apply them inside a real email within a campaign.
@@ -123,7 +125,7 @@ Go ahead and update all the product images (images provided in the toolkit folde
 
 ![PjNjeRIGKkQTkSSYso image](assets/creating-the-email-6.png)
 
-# Recap
+## Recap
 
 In this module, you successfully:
 

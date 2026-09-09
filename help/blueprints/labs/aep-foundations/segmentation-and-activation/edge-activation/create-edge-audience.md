@@ -81,4 +81,3 @@ Segment Details:
 
 - Name -> **Any Event Batch (within 1 day)**
 - Evaluation Method -> Batch
-

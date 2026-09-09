@@ -63,4 +63,3 @@ exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 >You need to re-upload the JSON sample file by first deleting it and adding it back again so that the mapper is now refreshed with a new copy for validation.
 
 ![Cllck to sources greaterdataflows greaterdataflow name.png "Click Update dataflow"](assets/jN0OzYqUhwQMwcU5AcBe1_cllck-to-sources-greaterdataflows-greaterdataflow-name.png "Click Update dataflow")
-

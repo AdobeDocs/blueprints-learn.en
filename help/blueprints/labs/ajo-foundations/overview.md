@@ -23,4 +23,3 @@ Explore Adobe Journey Optimizer’s architecture, journey orchestration, orches
 ## Introduction
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)
-

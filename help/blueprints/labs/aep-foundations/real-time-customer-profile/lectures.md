@@ -15,4 +15,3 @@ exl-id: dbe4b648-67a7-41f9-9110-380b3bb7d014
 ## The Real-Time Customer Profile Explained
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459076/?quality=12&learn=on)
-

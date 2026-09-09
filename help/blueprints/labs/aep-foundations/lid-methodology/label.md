@@ -60,4 +60,3 @@ Keep in mind the following when performing the lab:
 ## Review
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459081/?quality=12&learn=on)
-

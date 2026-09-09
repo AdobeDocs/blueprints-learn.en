@@ -48,4 +48,3 @@ The last step was to create the relationship between the Customer Account and Pl
 >[!NOTE]
 >
 >The `referenceIdentity` descriptor tells the Real-Time Customer Profile what field in the `Customer Account` schema matches to what identity namespace. Remember that when you define a lookup schema you must mark a field as a primary identity and assign it a namespace with a type of `non-person`.
-

@@ -39,4 +39,3 @@ For this use case we are going to break it down into multiple Audiences:
 1. No Order exists iPhone/Pixel
 1. No Active iPhone/Pixel
 1. Visited iPhone/Pixel & No Order exists iPhone/Pixel & No Active iPhone/Pixel
-

@@ -132,6 +132,3 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 1. Check if the Profile has two identities (Identity Graph has linked on the Hub) after a few minutes
 1. Check if the Profile qualified for the audiences (properly defined audience)
 1. Check if Data Lake has event.
-
-
-

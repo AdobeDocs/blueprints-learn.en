@@ -82,4 +82,3 @@ Perform the following steps:
 >[!NOTE]
 >
 >If you do not enable the dataset for Profile then data will be streamed into the Data Lake only. You will not see your streaming events in the Profile or the Identity Graph.
-

@@ -78,6 +78,3 @@ To fix passthrough mappings that are incorrectly pointing to the wrong target fi
 >[!WARNING]
 >
 >Do not continue to the next step until you have resolved all your mapping errors
-
-
-

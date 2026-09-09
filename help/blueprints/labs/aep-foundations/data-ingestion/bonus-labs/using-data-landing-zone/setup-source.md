@@ -83,4 +83,3 @@ Click **Next** in the upper right corner of the screen to continue to the next s
 >[!NOTE]
 >
 >**Enable partial ingestion** specifies the number of errors (**INGEST** and **DCVS**) as a percentage of the total number of records that can fail before the entire dataflow is declared a failure.
-

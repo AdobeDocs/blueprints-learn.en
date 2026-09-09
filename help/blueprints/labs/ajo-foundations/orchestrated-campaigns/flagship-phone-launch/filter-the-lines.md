@@ -158,4 +158,3 @@ You made it through this one and hopefully learned two very important things:
 
 1. You final results targeting dimension has to match the channel configuration you want to use
 1. The Change dimension activity is likely going to become your best friend for ensuring this happens
-

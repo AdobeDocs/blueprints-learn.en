@@ -51,4 +51,3 @@ EXAMPLE ONLY
 >[!NOTE]
 >
 >Congratulations!  You just created a primary identity descriptor in your schema
-

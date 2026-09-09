@@ -139,4 +139,3 @@ AND identitymap['email'][0].ID in ('depche.mode@dep.com')
 ORDER BY extSourceSystemAudit.LASTREFERENCEDDATE DESC
 LIMIT 10
 ```
-

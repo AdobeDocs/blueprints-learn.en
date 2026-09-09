@@ -45,4 +45,3 @@ Details about each folder can be found below:
 >[!TIP]
 >
 >Congratulations!  You have successfully imported the bootcamp's Postman Collection
-

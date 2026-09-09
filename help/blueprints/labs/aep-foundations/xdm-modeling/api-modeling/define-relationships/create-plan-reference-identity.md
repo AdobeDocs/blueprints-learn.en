@@ -66,4 +66,3 @@ You should now see a `201 Created` response like below
 >[!NOTE]
 >
 >Awesome! You just created all the required descriptors to relate the `dep: Lookup Plan` schema to the `Customer Account` schema as well as enabled it to be referenced during batch segmentation
-

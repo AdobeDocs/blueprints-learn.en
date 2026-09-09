@@ -148,4 +148,3 @@ Sample 200 OK Response
 >[!TIP]
 >
 >Congratulations!  You've successfully streamed in a profile record into the Adobe Experience Platform
-

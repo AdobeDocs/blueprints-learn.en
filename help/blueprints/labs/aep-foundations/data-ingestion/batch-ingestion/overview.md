@@ -22,4 +22,3 @@ In this exercise, you will load the Customer Account data from a file-based sour
 >[!NOTE]
 >
 >If you did not complete the Customer Accounts schema creation in the previous labs, you can browse into the schema catalog and use **dep: Customer Account** instead
-

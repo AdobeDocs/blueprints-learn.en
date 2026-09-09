@@ -45,4 +45,3 @@ What you will walk away with:
 - Build a relationship between two schemas
 - Understand the reason why to **test** the schema before enabling for Profile
 - Understand the **union schema** and visually see it in action
-

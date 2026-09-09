@@ -9,4 +9,3 @@ exl-id: 036becd6-27c7-47ec-ae84-8cb7da9e35b5
 # Critical Thinking Review
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459401/?quality=12&learn=on)
-

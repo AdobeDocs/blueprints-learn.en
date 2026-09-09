@@ -74,4 +74,3 @@ You should see a response now that looks like this:
 >[!NOTE]
 >
 >This is important to understand because when working with APIs you do not always need the fully resolved response if all you are doing is getting the `$id` of the schema or simply checking its composition
-

@@ -81,4 +81,3 @@ Identify in each lookup table the field that will be Primary Identity and label 
 ## Review
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459088/?quality=12&learn=on)
-

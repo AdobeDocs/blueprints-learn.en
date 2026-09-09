@@ -23,4 +23,3 @@ When you are done you should see a folder like so with the following contents.  
 
 
 ![VchOudKt7ExznPWu sample files.png "Sample Files"](assets/ZgHa_VchOudKt7ExznPWu_sample-files.png "Sample Files")
-

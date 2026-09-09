@@ -41,4 +41,3 @@ Example of your final request after adding the `$meta:altId`
 If you received a `200 OK` response you should be able to browse the schema you created just through the lens the XDM JSON structure
 
 ![Lddj b MOMwVdMVxd sample customer account schema.png "Sample Customer Account Schema"](assets/5fC_lddj-b_MOMwVdMVxd_sample-customer-account-schema.png "Sample Customer Account Schema")
-

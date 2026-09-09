@@ -47,4 +47,3 @@ EXAMPLE ONLY
 5\. Execute the API by clicking the `Send` button. You should now see a `201 Created` response like below
 
 ![Successful identity descriptor for email address.png "Successful Identity Descriptor for Email Address"](assets/WdV4wU2sci4CT-L4SHAM8_successful-identity-descriptor-for-email-address.png "Successful Identity Descriptor for Email Address")
-

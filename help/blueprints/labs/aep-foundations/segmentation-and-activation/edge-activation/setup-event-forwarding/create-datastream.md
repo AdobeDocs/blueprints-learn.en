@@ -101,4 +101,3 @@ You should the service now added to your datastream
 When done your final screen should look like below with two services present. **Copy** and **save** the **Datastream ID** to your local computer (we will use it later in Postman)
 
 ![Final datastream configuration.png "Final Datastream Configuration"](assets/b4RE5cQh9vL9Odnlcivds_final-datastream-configuration.png "Final Datastream Configuration")
-

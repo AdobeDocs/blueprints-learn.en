@@ -171,4 +171,4 @@ In this module, you successfully:
 - Broke down an email into reusable header fragment
 - Created a header content blocks
 
-You are now ready to move on to next module - **Content Creation - Template**, where you will use fragment you created to generate new template. 
+You are now ready to move on to next module - **Content Creation - Template**, where you will use fragment you created to generate new template.

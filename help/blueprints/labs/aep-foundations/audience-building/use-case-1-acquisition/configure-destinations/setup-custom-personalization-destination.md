@@ -126,6 +126,3 @@ On the final screen you can review the details of your configuration and then cl
 >[!NOTE]
 >
 >This is the point where [Automatic Enforcement](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement) will check against your [Data Usage Policies](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview) It will check your Marketing Actions with the Rules you created and raise any errors.
-
-
-

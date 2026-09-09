@@ -23,4 +23,3 @@ Finally, you **tested the end-to-end decisioning flow**, validating that Adobe J
 >**IF YOU ARE READING THIS, IT MEANS YOU ARE AT THE END OF THE LAB.**
 >
 >**DO NOT PROCEED, DO NOT PASS GO, DO NOT COLLECT $200**
-

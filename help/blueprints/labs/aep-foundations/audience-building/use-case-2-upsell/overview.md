@@ -51,4 +51,3 @@ For this use case we are going to evaluate two options:
 - Option #2 (Use Pre-Aggregates)
   - This will utilize aggregation that was done before putting the data on Profile
     - Billing Data Usage High But No Ultimate Plan (Agg)
-

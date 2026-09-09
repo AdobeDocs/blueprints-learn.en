@@ -6,6 +6,8 @@ solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
 ---
 
+# Configure Email Channels
+
 ## Lab Overview
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486540/)

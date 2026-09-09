@@ -41,10 +41,3 @@ Since eligibility is one of the key building blocks of an offer, the first step 
 ## Recap
 
 You've now created a reusable Decision Rule, which you will use for offer eligibility.
-
-
-
-
-
-
-

@@ -24,4 +24,3 @@ It will teach you to do identify the following items within a relational model t
 - Relationship identifiers between Individual Profile / Experience Event tables and associated lookup tables
 - Required fields needed for the Experience Event schema's
 - Recommended fields for Individual Profile and lookup schemas
-

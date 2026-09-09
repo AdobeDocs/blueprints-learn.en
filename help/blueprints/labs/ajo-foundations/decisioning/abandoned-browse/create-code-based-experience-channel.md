@@ -45,4 +45,3 @@ Recall that the business requirements are that any of Connection 5G's systems sh
 ## Recap
 
 On this page, you configured a Code-Based Experience (CBE) channel and set up a new inbound channel that can return offer decisions in JSON format so external systems (like web pages, apps, or kiosks) can request and receive the appropriate offers based on the selection strategy you built earlier.
-

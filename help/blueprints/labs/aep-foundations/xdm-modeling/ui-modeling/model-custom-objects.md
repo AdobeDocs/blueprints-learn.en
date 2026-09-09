@@ -184,4 +184,3 @@ Your final result should look like the screenshot below when you are complete
 >[!TIP]
 >
 >You have built your first XDM schema! In the next section you will configure the schema for use with the Real-Time Customer Profile.
-
