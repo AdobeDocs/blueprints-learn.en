@@ -2,12 +2,9 @@
 title: Setup
 description: Complete the sandbox and Postman setup steps required before starting the AEP Foundations bootcamp labs.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
 ---
-
-# Setup
 
 Before you start the AEP Foundations labs, complete the setup steps below. Which steps you need depend on how you're taking this bootcamp.
 
