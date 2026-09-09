@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
 ---
 
-# Drop Specific Mappings
+# Fix Passthrough Mappings
+
+## Drop Specific Mappings
 
 Some of the source data that you have will need to handled using calculated fields.  To address these lets drop these from the mappings to and re-validate the mappings.
 

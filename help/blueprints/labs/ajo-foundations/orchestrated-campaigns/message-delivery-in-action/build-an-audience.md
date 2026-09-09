@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
 ---
 
-# Objective
+# Build an Audience
+
+## Objective
 
 In the next set of steps you will build an audience from the relational schema by selecting the right Targeting dimension and setting the appropriate conditions. You will also use the refresh option to check the expected number of row counts.
 

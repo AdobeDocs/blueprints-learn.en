@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 ---
 
-# Objective
+# Add Email Activities
+
+## Objective
 
 In the next set of steps, you will build on the campaign to add two Email activities to the two Fork activity branches. You will configure the two Email activities to use the Email channels, created previously. Finally you will also add basic Email setup (subject and body) to each of these Email activity. 
 

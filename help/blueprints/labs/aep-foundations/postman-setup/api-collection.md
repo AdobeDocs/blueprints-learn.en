@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
 ---
 
-# Postman API Collection File
+# API Collection
+
+## Postman API Collection File
 
 Download File — [AEP Foundations Bootcamp (Labs).postman_collection.json](assets/aep-foundations-bootcamp-labs.postman_collection.json)
 
@@ -31,7 +33,7 @@ You should now see a collection populated under the left sidebars `Collections` 
 
 ![FAzecdAmuwqG image](assets/api-collection-1.png)
 
-## **AEP Foundations Bootcamp Collection Overview**
+## AEP Foundations Bootcamp Collection Overview
 
 The API collection you imported contains all the necessary API calls you will need for labs throughout the bootcamp.  Each lab is organized into a specific folder with its own set of APIs.  Please be aware of this as you work through labs this week.
 

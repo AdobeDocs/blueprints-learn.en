@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
 ---
 
-# Objective
+# Import Environment File
+
+## Objective
 
 On this page, you will import the Postman Environment File.  This file contains a number of global variables that will be utilized within various API calls you will make during other labs throughout the bootcamp.
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
 ---
 
-# Objective
+# Read an Audience
+
+## Objective
 
 In the next set of steps you will create a campaign to read an audience from AEP and use  it along with the Profile Target Dimension created earlier. Use the Split activity to split the data based on a condition. Finally test the campaign to understand how these audiences work when used with the Relational schema.
 

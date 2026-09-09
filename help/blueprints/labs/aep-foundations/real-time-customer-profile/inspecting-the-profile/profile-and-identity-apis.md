@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
 ---
 
-# Profile Entity API
+# Profile & Identity API's
+
+## Profile Entity API
 
 Knowing how to utilize the profile API's is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to endless possibilities around system integrations from call centers to kiosks.
 
@@ -202,7 +204,7 @@ A successful request should respond with a `200 OK` and you should see only the 
 
 ###
 
-## **Entity Lookup (events)**
+## Entity Lookup (events)
 
 To lookup the events of a profile you use the same exact Profile Entity API.  The only difference is you have to tell the profile service that you want to change which class type use in the response.
 

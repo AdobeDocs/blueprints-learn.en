@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: c42503a2-24e7-4a5d-98bf-38c16fe69733
 ---
 
-# Learning Objective
+# Decision Item XDM
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

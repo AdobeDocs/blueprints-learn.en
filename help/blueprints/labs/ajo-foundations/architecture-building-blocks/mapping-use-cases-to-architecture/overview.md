@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 650e13e9-35d9-44a5-895f-8a7844e0614f
 ---
 
-# Learning Objectives
+# Mapping Use Cases to Architecture
+
+## Learning Objectives
 
 By the end of this lab, you will be able to:
 

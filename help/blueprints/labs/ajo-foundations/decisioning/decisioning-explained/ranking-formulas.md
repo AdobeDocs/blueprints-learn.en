@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 08183f1a-8db6-43c5-8b2e-05fa3d9c0f8d
 ---
 
-# Learning Objective
+# Ranking Formulas
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

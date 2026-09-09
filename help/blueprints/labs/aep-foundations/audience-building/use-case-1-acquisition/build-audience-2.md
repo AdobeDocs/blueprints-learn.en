@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
 ---
 
-# Lab Objective
+# Build Audience #2
+
+## Lab Objective
 
 Build an audience that finds all profiles who do not have an active line that is an iPhone 14
 

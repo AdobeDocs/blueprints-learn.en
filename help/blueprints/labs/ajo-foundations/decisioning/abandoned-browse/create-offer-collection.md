@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
 ---
 
-# Objective
+# Create Offer Collection
+
+## Objective
 
 Now that your offers have been created, they need to be organized into a collection. A collection has one or more offer items, and an offer item can be in more than one collection. 
 

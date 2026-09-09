@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
 ---
 
-# **View via the UI**
+# View Schema
+
+## View via the UI
 
 1. Open your browser and navigate back to the `Schema -> Browse` section.
 

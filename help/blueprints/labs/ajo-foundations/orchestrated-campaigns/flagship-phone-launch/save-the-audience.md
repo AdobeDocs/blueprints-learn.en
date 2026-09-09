@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
 ---
 
-# Objective
+# Save the Audience
+
+## Objective
 
 In the next set of steps you will be saving the audience your created back to the Audience Portal so other solutions across Adobe Experience Platform and its applications can leverage it for their own use cases.
 

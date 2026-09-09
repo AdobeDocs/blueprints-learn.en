@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 ---
 
-# Pre-Requisites
+# Message Delivery in Action
+
+## Pre-Requisites
 
 >[!WARNING]
 >

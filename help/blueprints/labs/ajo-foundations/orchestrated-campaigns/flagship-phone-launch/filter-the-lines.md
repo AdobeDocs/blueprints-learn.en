@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 ---
 
-# Objective
+# Filter the Lines
+
+## Objective
 
 In the next set of steps you are going to filter out all the lines that are actually not allowed to be targeted with a SMS message due to the their opt'ing out at the line level.  You can not rely here on Profile consent because this is a line level target.
 

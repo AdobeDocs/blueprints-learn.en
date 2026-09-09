@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
 ---
 
-# Postman Environment File
+# Environment File
+
+## Postman Environment File
 
 Download File — [AEP Bootcamp.postman_environment.json](assets/aep-bootcamp.postman_environment.json)
 

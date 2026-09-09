@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
 ---
 
-# Overview
+# Configure for Profile
+
+## Overview
 
 In order to utilize a schema for the Real-Time Customer Profile you need to first ensure its configured appropriately. This means taking what you identified during the LID lab as primary/person identities, relationship identities, etc. and ensuring those configurations are made to each schema. When everything is done you can then "flip the switch" and enable a schema for use with profile.
 

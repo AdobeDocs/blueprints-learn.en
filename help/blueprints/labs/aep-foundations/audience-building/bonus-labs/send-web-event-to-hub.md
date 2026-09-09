@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
 ---
 
-# Open Postman
+# Send Web Event to Hub
+
+## Open Postman
 
 Launch postman on your computer and navigate to the following API call:
 
@@ -35,7 +37,7 @@ Start by gathering the following values:
 
 ###
 
-## **Find Web Dataflow ID**
+## Find Web Dataflow ID
 
 1. Click into the **HTTP API \[raw]** Account
 1. Find and Select the dataflow row called **dep: Web (stream)**

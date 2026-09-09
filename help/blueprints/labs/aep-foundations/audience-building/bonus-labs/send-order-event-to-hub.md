@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
 ---
 
-# Streaming to Hub vs Edge
+# Send Order Event to Hub
+
+## Streaming to Hub vs Edge
 
 In Use Case #1 we sent in an Event to the Edge.  There are some use cases where we may have a back end system that wants to stream in an event, but does not need to send it to the Edge.  This lab shows how to do that by streaming in an Order event to the Hub.
 
@@ -86,7 +88,7 @@ Start by gathering the following values:
 
 ![LxxLyKc0x1oi VT rvewysl8ABem1xFkox 20241025 024115.png "dep: HTTP API \[raw]"](assets/n-ADAXZy_lxxLyKc0x1oi-VT-rvewysl8ABem1xFkox-20241025-024115.png "dep: HTTP API \[raw]")
 
-## **Find Dataflow ID**
+## Find Dataflow ID
 
 1. Find the record for **dep: Orders (stream)** click on the dataflows link
 1. In the right rail copy and save the **Dataflow ID** values somewhere you can reference later

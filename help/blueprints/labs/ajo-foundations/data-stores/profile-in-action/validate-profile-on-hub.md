@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 ---
 
-# Learning Objective
+# Validate Profile on Hub
+
+## Learning Objective
 
 Verify that the event resulted in a profile update and segment qualification in Real-Time Profile on the Hub.
 

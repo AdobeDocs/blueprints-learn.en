@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
 ---
 
-# Login via UI
+# Login & Browse
+
+## Login via UI
 
 1. Navigate to [https://experience.adobe.com](https://experience.adobe.com/) in your browser.
 1. Login using the Adobe ID that has developer access to your sandbox — the same one you used to complete [Developer Console Setup](../../sandbox-setup/developer-console-setup.md).
@@ -20,7 +22,7 @@ exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
 
 
 
-## **Launch Experience Platform**
+## Launch Experience Platform
 
 Click on the Experience Platform icon from the quick access panel to access your bootcamp sandbox
 

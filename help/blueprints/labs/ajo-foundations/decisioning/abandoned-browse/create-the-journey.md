@@ -6,9 +6,7 @@ solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 ---
 
-# Objective
-
-
+# Create the Journey
 
 ## Name and Define Entrance Criteria
 

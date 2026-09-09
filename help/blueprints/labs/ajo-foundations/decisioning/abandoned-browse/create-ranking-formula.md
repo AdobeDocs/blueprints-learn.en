@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
 ---
 
-# Objective
+# Create Ranking Formula
+
+## Objective
 
 Now that all the offer items have been created, prioritized, had eligibility applied, and organized into a collection, we can turn our attention to determining how they will be ranked for a given profile. This is done by creating a ranking formula. 
 

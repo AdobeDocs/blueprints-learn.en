@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 ---
 
-# **Modify the Body of API**
+# Create Schema
+
+## Modify the Body of API
 
 >[!CAUTION]
 >

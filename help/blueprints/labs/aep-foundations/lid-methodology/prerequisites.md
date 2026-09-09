@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
 ---
 
-# Overview
+# Prerequisites
+
+## Overview
 
 The LID methodology labs you are about to perform will teach you how to think when it comes to translating relational data models into the Experience Platform's NoSQL data model.  You will learn not just how to perform the data translations but more importantly why you must perform them and what questions you need to be asking along the way to validate your design.
 

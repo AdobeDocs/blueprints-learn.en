@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
 ---
 
-# Content creation with Templates & Fragments
+# Building Content Fragments
+
+## Content creation with Templates & Fragments
 
 **Purpose:** Learn how to create reusable fragments in Adobe Journey Optimizer, then apply them inside a real email within a journey.
 

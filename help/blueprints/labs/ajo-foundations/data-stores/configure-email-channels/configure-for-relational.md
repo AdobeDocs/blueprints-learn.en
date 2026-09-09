@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
 ---
 
-# Objective
+# Configure for Relational
+
+## Objective
 
 In the next set of steps you will create an Email Channel Configuration with **only** the Orchestrated Campaigns using the `email` attribute from the  Relational schema `dep-rel: Customer Account` 
 
@@ -38,7 +40,7 @@ Set the **Email Type** to **Marketing**
 
 ![Email settings](assets/configure-email-channels-5.png)
 
-## **Configure Subdomain**
+## Configure Subdomain
 
 From the **Subdomain** dropdown, select **email.dep-labs.com**
 
@@ -86,7 +88,7 @@ Leave with the default settings of **Hours** set to **84**
 
 Leave with the default settings
 
-## **Execution Details**
+## Execution Details
 
 1. In the Orchestrated campaign tab and **check** the Enabled checkbox.
 
@@ -121,7 +123,7 @@ Leave with the default settings
 >For Orchestrated Campaigns you will be targeting the customer account with an email so you only need to send one message per Target Dimension.  The Execution address you will use will come from the Target Dimension itself (i.e. what is stored in the **dep-rel: Customer Account** table for **email** address)
 
 
-## **Review & Save**
+## Review & Save
 
 1. Review all details again to ensure they match. 
 1. Scroll up and click **Submit**.

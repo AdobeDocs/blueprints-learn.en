@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 ---
 
-# Preview the Dataset
+# Verification and Validation
+
+## Preview the Dataset
 
 1. Click on **Datasets**
 1. **Locate** and **click** the dataset name that you created.

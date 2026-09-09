@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
 ---
 
-# Objective
+# Add Fork Activity
+
+## Objective
 
 In the next set of steps you will add the Fork activity to the campaign and create identitical branches of the data.
 

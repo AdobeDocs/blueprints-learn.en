@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
 ---
 
-# Pre-requisite
+# Using Data Landing Zone
+
+## Pre-requisite
 
 If you haven't downloaded Azure Storage Explorer do so now as its a requirement for this lab.  You can find the download at the link below:
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
 ---
 
-# Learning Objective
+# Configure Event
+
+## Learning Objective
 
 Create and configure an event that will trigger a customer journey when the post-purchase action (order shipped) occurs.
 

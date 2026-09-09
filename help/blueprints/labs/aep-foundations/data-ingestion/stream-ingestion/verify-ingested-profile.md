@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
 ---
 
-# Streaming Validation
+# Verify Ingested Profile
+
+## Streaming Validation
 
 Validating streaming data within the Adobe Experience Platform requires a few different steps.  Remember that streaming data can write to multiple databases depending on the dataset's configuration.
 

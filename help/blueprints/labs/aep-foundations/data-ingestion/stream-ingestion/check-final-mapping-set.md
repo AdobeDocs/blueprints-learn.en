@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 ---
 
-# Passthrough Mappings
+# Check Final Mapping Set
+
+## Passthrough Mappings
 
 >[!CAUTION]
 >

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
 ---
 
-# Objective
+# Browse Schemas
+
+## Objective
 
 In the next set of steps you will navigate the UI to view the Schemas and their relationships.  This is important to familiarize with the schemas and relationships available when you are building your campaign.
 

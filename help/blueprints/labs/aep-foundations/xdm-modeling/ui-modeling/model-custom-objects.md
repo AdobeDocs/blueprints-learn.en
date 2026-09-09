@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
 ---
 
-# Adding Custom Fields
+# Model Custom Objects
+
+## Adding Custom Fields
 
 As discussed in the lecture, there are no standard out of the box field groups or data types that model the Customer Account custom fields.  The below fields currently are considered custom and must be modeled within the XDM schema.
 
@@ -151,7 +153,7 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 
 
-## **Customer ID Field Creation**
+## Customer ID Field Creation
 
 Adding the **customerID** field as this field is critical because it will serve as the primary identity for the schema as well as a general field to hold data in.
 

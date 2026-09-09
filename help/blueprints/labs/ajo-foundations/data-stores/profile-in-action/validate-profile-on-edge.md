@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
 ---
 
-# Learning Objective
+# Validate Profile on Edge
+
+## Learning Objective
 
 Confirm that the profile does not exist on the Edge network profile store.
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 ---
 
-# Objective
+# Create Decision Rule
+
+## Objective
 
 Since eligibility is one of the key building blocks of an offer, the first step is to create the necessary entities to support it. In many cases, audience membership is the deciding factor, but in this case, we'll use Decision Rules. With Connection 5G, higher-end iPhone 17s can only be activated for users with a high-tier plan. As such, we'll use a decision rule to ensure that offers for higher-end phones are available only to those with a high enough plan. 
 

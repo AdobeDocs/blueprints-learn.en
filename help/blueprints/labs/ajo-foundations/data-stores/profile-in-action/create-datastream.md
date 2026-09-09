@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
 ---
 
-# Learning Objective
+# Create Datastream
+
+## Learning Objective
 
 Create and configure a datastream with the required services to enable Edge event processing.
 

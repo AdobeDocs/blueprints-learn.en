@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300
 ---
 
-# Lecture
+# Denormalize
+
+## Lecture
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459083/?quality=12&learn=on)
 
@@ -46,14 +48,14 @@ Always remember to review the customer use cases when building out the data mode
 
 
 
-## **Step 2 – Fill in the Experience Event Tables**
+## Step 2 – Fill in the Experience Event Tables
 
 1. Write in the fields that need to be denormalized back into the Billing and Order’s table from any related “**B**” or “**D**” tables
 1. Reviewing the use cases above what additional fields are required to support streaming segmentation and/or personalization? Add those fields to the table
 
 
 
-## **Step 3 – Fill in the Lookup Tables**
+## Step 3 – Fill in the Lookup Tables
 
 1. Write in the fields that need to be de-normalized back into the Product lookup table from any related “**B**” or “**D**” tables
 1. Reviewing the use cases above what additional fields are required to support streaming segmentation and/or personalization? Add those fields to the table

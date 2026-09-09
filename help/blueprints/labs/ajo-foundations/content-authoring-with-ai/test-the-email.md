@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 ---
 
-# Learning Objectives
+# Test the Email
+
+## Learning Objectives
 
 By the end of this module, you will be able to:
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
 ---
 
-# Learning Objective
+# Send an Edge Web Event
+
+## Learning Objective
 
 Send a simulated web event to the Adobe Edge Network using the API.
 
@@ -36,7 +38,7 @@ This will send in an event with no OAuth Token.  Ensure you have Postman open on
 
 Before you can execute the API request you need to add the datastream ID to the Postman variable environment. Start by gathering the following values:
 
-## **Gather the Datastream ID**
+## Gather the Datastream ID
 
 1. You should already have the **Datastream ID**
 

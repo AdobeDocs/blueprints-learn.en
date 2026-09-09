@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
 ---
 
-# Learning Objectives
+# Identify
+
+## Learning Objectives
 
 The **Identify** step within the LID methodology is broken into two distinct parts:
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
 ---
 
-# Navigate to Schemas
+# Model Standard Objects
+
+## Navigate to Schemas
 
 1. Click on the **Schemas** tab in the left rail 
 
@@ -23,7 +25,7 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 >You'll notice there are already schemas that are pre-created in your sandbox. These include schemas that were pre-created as part of this bootcamp (they are prefixed with `dep`), as well as system generated schemas for both Adobe Real-Time CDP and Adobe Journey Optimizer.
 
 
-## **Create Individual Profile Schema**
+## Create Individual Profile Schema
 
 1. Start by clicking **Create schema**
 

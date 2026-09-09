@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
 ---
 
-# Learning Objective
+# Send an Event
+
+## Learning Objective
 
 Send a simulated Order Shipped event to trigger the journey using Postman
 
@@ -36,7 +38,7 @@ Start by gathering the following values:
 ![LxxLyKc0x1oi VT rvewysl8ABem1xFkox 20241025 024115.png "dep: HTTP API \[raw]"](assets/n-ADAXZy_lxxLyKc0x1oi-VT-rvewysl8ABem1xFkox-20241025-024115.png "dep: HTTP API \[raw]")
 
 
-## **Find Dataflow ID**
+## Find Dataflow ID
 
 1. Click on **dep: HTTP API \[raw]**
 1. Find the record for **dep: Orders (stream)** click on the dataflows link
@@ -86,6 +88,6 @@ A successful call should result in the following response...
 
 ![Successful web event send](assets/successful-web-event-send.png)
 
-## **Recap**
+## Recap
 
 A Ship Order event is successfully sent to the platform

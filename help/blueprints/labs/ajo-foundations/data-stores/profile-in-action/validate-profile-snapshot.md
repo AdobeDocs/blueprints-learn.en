@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
 ---
 
-# Learning Objective
+# Validate Profile Snapshot
+
+## Learning Objective
 
 Confirm that the profile does not yet appear in the Profile Snapshot dataset.
 

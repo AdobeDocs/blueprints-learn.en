@@ -8,7 +8,7 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 # Overview
 
-## **What You Will Learn**
+## What You Will Learn
 
 1. **Relational to NoSQL Translation:**
    - Understand the architecture, modeling, and assembly of the Real-Time Customer Profile
@@ -27,7 +27,7 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 
 
-## **Target Audience**
+## Target Audience
 
 - Solution Architects
 - Enterprise Architects
@@ -37,7 +37,7 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 
 
-## **Recommend Experience or Familiarity**
+## Recommend Experience or Familiarity
 
 - Database concepts (create, update, delete)
 - Data modeling concepts (rows, fields, keys, etc.)

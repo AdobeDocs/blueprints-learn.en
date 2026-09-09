@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: b155ceb1-476f-4401-8158-f8abe7eb2f27
 ---
 
-# Learning Objective
+# Collections
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

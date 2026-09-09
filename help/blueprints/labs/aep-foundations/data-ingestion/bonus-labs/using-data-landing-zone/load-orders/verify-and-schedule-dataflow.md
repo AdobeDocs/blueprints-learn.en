@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 ---
 
-# **Double Check Mapping Set**
+# Verify and Schedule Dataflow
+
+## Double Check Mapping Set
 
 | #  | Source Column                               | XDM Column                                               |
 | -- | ------------------------------------------- | -------------------------------------------------------- |

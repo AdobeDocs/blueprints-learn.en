@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
 ---
 
-# Fix Birth Day and Month
+# Fixing Errors
+
+## Fix Birth Day and Month
 
 1. Click on the arrow icon next to the calculated field populating the **person.birthDayAndMonth** XDM field
 

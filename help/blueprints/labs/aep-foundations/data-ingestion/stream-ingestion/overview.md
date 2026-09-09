@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
 ---
 
-# Learning Objectives
+# Stream Ingestion
+
+## Learning Objectives
 
 In this exercise, we will load the Customer Account data from Streaming source to Adobe Experience Platform Data Lake and Profile. What should you walk away with after taking this Lab?
 

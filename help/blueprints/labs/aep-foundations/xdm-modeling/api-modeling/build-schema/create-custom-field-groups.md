@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
 ---
 
-# Field Group Structure
+# Create Custom Field Groups
+
+## Field Group Structure
 
 A field group is always composed of the following fields. You will see this in the request in the next step.
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
 ---
 
-# Learning Objective
+# Validate Event Ingested
+
+## Learning Objective
 
 Confirm that the event was successfully ingested into Adobe Experience Platform.
 
@@ -50,6 +52,6 @@ Now that you have validated the Profile got in, let's send in some Order Shipped
 3. **Save** and hit **Send**.  
 4. Go back to steps 1-3 and validate using your email address. 
 
-## **Recap**
+## Recap
 
 The event appears in the Profile store and the Profile is now part of Audiences that were  looking for the event.

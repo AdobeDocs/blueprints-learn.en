@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
 ---
 
-# **Navigate to Streaming Sources**
+# Setup Source
+
+## Navigate to Streaming Sources
 
 1. Go to Adobe Experience Platform UI and navigate to **Sources**
 1. Click on **Catalog** in the top nav
@@ -17,7 +19,7 @@ exl-id: a5c02337-8af3-45dc-82a0-fa9731892fe4
 
 
 
-## **Create HTTP API Account**
+## Create HTTP API Account
 
 The first thing you will need to do is create a new account. This account holds the details around how authentication is handled and if the data being streamed in is XDM compatible (i.e. already matching the structure of the underlying XDM schema)
 

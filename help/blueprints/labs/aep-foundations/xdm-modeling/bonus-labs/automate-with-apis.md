@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
 ---
 
-# Introduction
+# Automate with API's
+
+## Introduction
 
 To see how you can automate deployments using API's you will execute a folder of APIs that will create the following objects:
 

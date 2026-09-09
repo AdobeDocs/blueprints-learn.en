@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
 ---
 
-# Lab Objective
+# Build Audience #1
+
+## Lab Objective
 
 Build an audience that only finds profiles who placed an order for an iPhone 14
 

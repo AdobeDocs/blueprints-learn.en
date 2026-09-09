@@ -46,7 +46,7 @@ This will send in an event **with no OAuth Token** to simulate a page view comin
 
 Before you can execute the API request you need to add some additional pieces of information to the request. Start by gathering the following values:
 
-## **Gather the Datastream ID**
+## Gather the Datastream ID
 
 1. In the left rail click on **Datastreams** (under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value

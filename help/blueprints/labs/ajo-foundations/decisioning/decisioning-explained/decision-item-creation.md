@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
 ---
 
-# Learning Objective
+# Decision Item Creation
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

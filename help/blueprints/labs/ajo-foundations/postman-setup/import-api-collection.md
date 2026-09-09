@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
 ---
 
-# Objective
+# Import API Collection
+
+## Objective
 
 In this step you will be importing the API collection which contains all the various requests you will need to make throughout the bootcamp.  This API requests in this file are reliant on the environment file you just imported.
 
@@ -30,7 +32,7 @@ Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootc
 
 
 
-## **Validate Environment Variables**
+## Validate Environment Variables
 
 The collection you imported contains all the necessary API calls you will need for labs throughout the bootcamp.  Each lab is organized into a specific folder with its own set of requests.  
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
 ---
 
-# Goals
+# Lab Overview
+
+## Goals
 
 The goal of these labs is to prepare you to deal with the practical challenges of data ingestion. With this understanding, you will be able to handle, manage, and guide your team on data implementations in production. As much as the theory is fascinating, we will be spending time debugging issues as they come up and connect what we see in the tool to that of the broader concepts taught in this bootcamp. 
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
 ---
 
-# Content creation with Templates & Fragments
+# Building Content Template
+
+## Content creation with Templates & Fragments
 
 **Purpose:** Learn how to create reusable templates in Adobe Journey Optimizer
 

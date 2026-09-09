@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 43c915d9-56a2-409d-939a-e69baba01dfa
 ---
 
-# Learning Objective
+# Introduction
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

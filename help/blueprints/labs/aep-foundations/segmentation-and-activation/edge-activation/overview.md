@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
 ---
 
-# Activation Speed Recap
+# Edge Activation
+
+## Activation Speed Recap
 
 Adobe has three speeds of activation meant to address different needs:
 

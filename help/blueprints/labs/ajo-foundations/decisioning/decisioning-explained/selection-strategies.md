@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
 ---
 
-# Learning Objective
+# Selection Strategies
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

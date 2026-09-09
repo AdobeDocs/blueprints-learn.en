@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 ---
 
-# Objective
+# Test the Campaign
+
+## Objective
 
 In the next set of steps you will run the campaign in test mode to confirm the functioning as expected before publishing the campaign. In this case, test mode does not actually send emails, but it helps verify the entire flow and identify issues early.
 

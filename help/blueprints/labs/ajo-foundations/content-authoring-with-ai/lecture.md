@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
 ---
 
-# Learning Objectives
+# Lecture
+
+## Learning Objectives
 
 - Explain why content, not data or journeys, is the primary constraint in personalization programs at scale
 - Describe the four-layer content anatomy model: assets, fragments, templates, and messages

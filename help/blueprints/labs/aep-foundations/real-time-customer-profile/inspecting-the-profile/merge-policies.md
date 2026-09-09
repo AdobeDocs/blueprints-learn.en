@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
 ---
 
-# What Is It?
+# Merge Policies
+
+## What Is It?
 
 You see merge policies in the Profile Viewer every time you search for a Profile (you probably just didn't realize it did something)
 

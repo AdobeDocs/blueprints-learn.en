@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 ---
 
-# Objective
+# Profile Target Dimension
+
+## Objective
 
 In the next set of steps you will navigate the UI to view the Schema and setup the Identity. Next, you will setup the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
 

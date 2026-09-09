@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
 ---
 
-# Learning Objective
+# Validate Event on Data Lake
+
+## Learning Objective
 
 Verify that the web event was written to the Experience Platform Data Lake.
 

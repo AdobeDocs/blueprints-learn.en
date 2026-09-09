@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
 ---
 
-# Lecture
+# Part 2 - Key Fields
+
+## Lecture
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459085/?quality=12&learn=on)
 
@@ -46,7 +48,7 @@ For each table from the Connection 5G Warehouse ERD and streaming ERD that you h
 
 
 
-## **Step 1 – Label Key Fields in the XDM Individual Profile Tables**
+## Step 1 – Label Key Fields in the XDM Individual Profile Tables
 
 Perform the below steps to identify the key fields within the Customer Account table:
 
@@ -56,7 +58,7 @@ Perform the below steps to identify the key fields within the Customer Account t
 
 
 
-## **Step 2 – Label Key Fields in the XDM Experience Event Tables**
+## Step 2 – Label Key Fields in the XDM Experience Event Tables
 
 Perform the same set of tasks you did in Step #1  but now for the XDM Experience Event tables:
 
@@ -72,7 +74,7 @@ In addition to the labels above also label the following:
 
 
 
-## **Step 3 – Label Key Fields in the Lookup Tables**
+## Step 3 – Label Key Fields in the Lookup Tables
 
 Identify in each lookup table the field that will be Primary Identity and label it with a `PI` 
 

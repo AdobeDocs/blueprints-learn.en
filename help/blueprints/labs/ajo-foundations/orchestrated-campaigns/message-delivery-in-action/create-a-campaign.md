@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 ---
 
-# Objective
+# Create a Campaign
+
+## Objective
 
 In the next set of steps you will start with creating an Orchestrated Campaign.
 

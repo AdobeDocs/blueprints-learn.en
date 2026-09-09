@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 ---
 
-# Objective
+# Configure SMS channel
+
+## Objective
 
 In the next step of steps you will configuration the SMS channel.  This is required so that you can send messages to individual line holders later on when you are building your campaign.
 
@@ -41,7 +43,7 @@ You will start by creating the API connector that AJO will use to send outbound 
 
 
 
-## Create **SMS Channel Configuration**
+## Create SMS Channel Configuration
 
 Now you will map this API credential to a channel configuration that journeys and campaigns can use.
 

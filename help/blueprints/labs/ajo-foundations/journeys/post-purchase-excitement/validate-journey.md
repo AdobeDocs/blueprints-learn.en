@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
 ---
 
-# Learning Objective
+# Validate Journey
+
+## Learning Objective
 
 Verify that the journey was triggered and executed as expected.  Verify reports show metrics updated as expected.
 

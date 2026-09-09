@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 ---
 
-# Create the Audience
+# Build Use Case #3
+
+## Create the Audience
 
 1. Create a new Audience
 1. Add the Order Placed Event to the canvas

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 6a935c42-0446-43f7-8abc-442ee696a6cf
 ---
 
-# **Schema Assembly**
+# Build Schema
+
+## Schema Assembly
 
 All schemas as part of XDM are composed in the same way.  A schema is always composed of only one class and one or more field groups. Additionally a schema's class dictates how other systems within the Experience Platform will interpret the data (i.e. as a record-based or time-series).
 

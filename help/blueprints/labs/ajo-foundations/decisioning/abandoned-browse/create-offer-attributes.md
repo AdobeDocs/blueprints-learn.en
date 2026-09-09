@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
 ---
 
-# Objective
+# Create Offer Attributes
+
+## Objective
 
 In this section, you'll add custom XDM fields to the standard Offer XDM schema. These custom fields can be used in ranking, sorting, and eligibility criteria. They can also be data that is returned to the requesting device.  
 

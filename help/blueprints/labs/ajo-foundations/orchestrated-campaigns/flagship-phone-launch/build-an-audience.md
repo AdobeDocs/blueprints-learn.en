@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
 ---
 
-# Objective
+# Build an Audience
+
+## Objective
 
 In next few steps you will be creating the audience you want to target for the campaign which is the all the active line holders who have a make that matches the flagship phone that is launching.  The goal being this is the group you want to target with a SMS message nudging them to upgrade their phones.
 

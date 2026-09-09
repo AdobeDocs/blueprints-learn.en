@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 90902f6e-ba3c-4852-ab82-ad852698b227
 ---
 
-# Learning Objective
+# Guardrails, AI Models Decisioning Future
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

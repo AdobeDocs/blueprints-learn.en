@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 ---
 
-# Objectives
+# Create Offer Items
+
+## Objectives
 
 In this section, you will create the actual offer items that the Code-Based Experience (CBE) will return to the requesting client. Some of the offer items will have eligibility requirements and frequency capping, while others will not. 
 

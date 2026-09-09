@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 ---
 
-# Objective
+# Configure for Profile
+
+## Objective
 
 In the next set of steps you will create an Email Channel Configuration with both Journeys and Orchestrated Campaigns using the `personalEmail.address`AEP Profile attribute 
 
@@ -32,7 +34,7 @@ Set the **Email Type** to **Marketing**
 
 ![Email Type](assets/configure-email-channels-5.png)
 
-## Configure **Subdomain**
+## Configure Subdomain
 
 From the **Subdomain** dropdown, select **email.dep-labs.com**
 
@@ -80,7 +82,7 @@ Leave with the default settings of **Hours** set to **84**
 
 Leave with the default settings
 
-## **Execution Details**
+## Execution Details
 
 1. Complete the **Execution details** section. Under **Journey and Action** tab**-> Execution dimension,** select **Profile** as **Source** and click on the Edit icon for **Delivery address** under the **Execution Address** section
 
@@ -131,7 +133,7 @@ Leave with the default settings
 >For Orchestrated Campaigns you will be targeting the customer account with an email so you only need to send *one message per Profile*.  The Execution address you will use will come from the Profile itself (i.e. what is stored in AEP Profile under the **personalEmail.address** attribute)
 
 
-## **Review & Save**
+## Review & Save
 
 1. Review all details again to ensure they match. 
 1. Scroll up and click on **Submit**. 

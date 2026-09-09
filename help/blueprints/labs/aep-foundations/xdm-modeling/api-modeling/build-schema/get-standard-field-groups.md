@@ -14,7 +14,7 @@ exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 
 
 
-## **Request XDM Standard Field Groups**
+## Request XDM Standard Field Groups
 
 1. Click on `Step 1 - Get XDM Standard Field Groups` API call in the `XDM Schema Lab -> Create Schema` folder
 1. Execute the call by clicking the `Send` button
@@ -43,7 +43,7 @@ exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
 ![H6E step 1 response.png "Step 1 Response"](assets/D9EYiVszLVd8QhpPG_H6E_step-1-response.png "Step 1 Response")
 
 
-## **Identify Required XDM Standard Field Groups**
+## Identify Required XDM Standard Field Groups
 
 A schema is always composed of one or more field groups and a class.  For the Connection 5G Individual Profile schema find the standard XDM field groups required for the schema.
 

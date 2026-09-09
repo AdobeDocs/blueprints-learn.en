@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
 ---
 
-# Lab Objective
+# Build Audience #3
+
+## Lab Objective
 
 Build an audience that visitied an iPhone 14 product page
 
@@ -115,7 +117,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-## **Create an Audience of Audiences**
+## Create an Audience of Audiences
 
 1. Navigate to the Audiences tab in the top left nav
 1. Drill down to Experience Platform
@@ -164,7 +166,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-## **Why Create Multiple Audiences?**
+## Why Create Multiple Audiences?
 
 If we were to have built all these Audiences in one Audience instead of four, we would get a batch evaluation method even though each Audience individually is Streaming.
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 742b58fa-3feb-4275-ab45-eb8d3aade22c
 ---
 
-# Lecture
+# Part 1 - Remaining Table Types
+
+## Lecture
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459082/?quality=12&learn=on)
 

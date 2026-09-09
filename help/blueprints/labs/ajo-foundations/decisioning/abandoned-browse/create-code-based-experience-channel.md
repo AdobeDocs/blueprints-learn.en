@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
 ---
 
-# Objective
+# Create Code-Based Experience Channel
+
+## Objective
 
 Recall that the business requirements are that any of Connection 5G's systems should be able to return an appropriate offer. Whether it's a customer agent's computer, an in-store kiosk, a mobile app, or the website, the customer should receive the same offer experience. The only AJO channel that can do that is a Code-based Experience (CBE), one of the inbound AJO channels. While a CBE can return HTML, its primary function is to return information about what offer should be presented to the receiving system, with that system knowing what to do with that offer information. Unlike the web channel, CBEs aren't automatically rendered or reported. While it's a little more manual work for the customer, they offer a lot of flexibility as they can be configured to return JSON that any mobile, web, or IOT system can use to execute decisions.
 

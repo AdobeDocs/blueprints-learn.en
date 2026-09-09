@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
 ---
 
-# Objective
+# Create Selection Strategy
+
+## Objective
 
 Up to this point, you've created offers, defined offer eligibility with a decision rule, gathered them into a collection, and created a formula that dynamically re-orders them based on attributes of the profile requesting the personalization. Because we're only using a single set of 4 offers for a single use case, it's tempting to think that each of these elements is related, especially when we named them similarly. However, it's important to think more abstractly when considering a long-term strategy and enterprise-sized scope. Offers could be sorted into one or many collections. Ranking formulas could be applied to any collection of offers. In actuality, the first time you actually connect these elements is when creating a Selection Strategy.
 

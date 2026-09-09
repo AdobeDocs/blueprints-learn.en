@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
 ---
 
-# Learning Objective
+# Build Journey
+
+## Learning Objective
 
 Create a unitary journey that begins with the configured Order Shipped event, gets the ETA from an external service and sends an email.
 
@@ -99,7 +101,7 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped** e
 
 
 
-### **Add Email Action**
+### Add Email Action
 
 1. Under the Actions menu drag 'n drop the **Action** action onto the canvas after the GetShippingDetails action
 

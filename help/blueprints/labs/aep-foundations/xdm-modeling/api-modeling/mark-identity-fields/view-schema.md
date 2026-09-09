@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
 ---
 
-# **View via the UI**
+# View Schema
+
+## View via the UI
 
 1. Open your browser and navigate back to the `Schema -> Browse`section.
 1. Search for the schema `Sample Customer Schema - <your sandbox number>`
@@ -15,7 +17,7 @@ exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
 ![LxxLyKc0x1oi aKjUnWfVu4aH XNWPHeqL 20241023 215737.png "Schema UI View with Identities"](assets/n-ADAXZy_lxxLyKc0x1oi-aKjUnWfVu4aH-XNWPHeqL-20241023-215737.png "Schema UI View with Identities")
 
 
-## **View via the API**
+## View via the API
 
 1. Select the `Step 3 - Get Customer Account Schema and it's descriptors`API by clicking on it.
 

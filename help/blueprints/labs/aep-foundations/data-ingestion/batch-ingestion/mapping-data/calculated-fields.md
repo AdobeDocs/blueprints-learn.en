@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
 ---
 
-# Overview
+# Calculated Fields
+
+## Overview
 
 The sms\_optin field is a required field in the Customer Account schema. The issue is that sms\_optin field in our streaming source can send *null* values and we need a calculated field to address that otherwise these records will be skipped from ingestion which is a loss. 
 

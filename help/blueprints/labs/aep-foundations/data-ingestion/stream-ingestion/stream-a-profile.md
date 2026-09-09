@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
 ---
 
-# API Overview
+# Stream a Profile
+
+## API Overview
 
 It's important to understand the structure of the API when streaming data into the Adobe Experience Platform in raw form so you can easily re-create it regardless of what dataflow you create.  Below is an example of the basic structure of the call using cURL
 

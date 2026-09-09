@@ -160,7 +160,7 @@ When done you should see the following screen confirming your data element has b
 
 ![Add an action.png "Add an action"](assets/DiTGVvpE4CoNzoikmLyNv_add-an-action.png "Add an action")
 
-## **Get Webhook URL (to use in action)**
+## Get Webhook URL (to use in action)
 
 >[!NOTE]
 >

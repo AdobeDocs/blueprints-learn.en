@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 ---
 
-# Navigate to Assurance
+# Monitor Your Event
+
+## Navigate to Assurance
 
 [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home) is a product from Adobe Experience Cloud to help you inspect, proof, simulate, and validate how you collect data to the Adobe Experience Platform Edge.
 

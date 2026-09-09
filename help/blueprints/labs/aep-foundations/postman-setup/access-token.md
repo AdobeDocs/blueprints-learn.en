@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
 ---
 
-# API Security Overview
+# Access Token
+
+## API Security Overview
 
 
 

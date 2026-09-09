@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
 ---
 
-# List All Tenant Schemas
+# Get Plan Schema ID
+
+## List All Tenant Schemas
 
 1. Click on the `Step 1 - Get Lookup Schemas`API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 1. Execute the API by clicking the `Send` button

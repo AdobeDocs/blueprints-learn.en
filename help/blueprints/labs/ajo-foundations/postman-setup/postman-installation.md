@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
 ---
 
-# Objective
+# Postman Installation
+
+## Objective
 
 By the end of this lab, you will be able to install Postman, configure a basic workspace and environment so that you can make subsequent api calls needed by future labs.
 

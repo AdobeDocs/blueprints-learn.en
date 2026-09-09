@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
 ---
 
-# Overview
+# Modify Schema - JSON Patch
+
+## Overview
 
 Let's assume for a minute that after building the schema you need to come back and add an additional field to the `plan `object called `planDescription` because either you forgot to add it at time of creation or it was a request that came in months later.  To perform this task you can simply perform a `PATCH` operation which updates the schema with the new field.
 
@@ -34,7 +36,7 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-## **Locate & Identify the Field Group to Update**
+## Locate & Identify the Field Group to Update
 
 1. Select the `Step 1 - Get Tenant Field groups` API call located in the `XDM Schema Lab -> Customize Schema` folder 
 1. Execute the request by clicking the `Send` button
@@ -63,7 +65,7 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-## **Lookup the Field Group by $meta\:altId**
+## Lookup the Field Group by $meta\:altId
 
 1. Select the `Step 2 - Fetch path for the object to be modified` API call in the `XDM Schema Lab -> Customize Schema` folder
 1. In the URL of the request replace the `<replace me>` with the `$meta:altId` you saved from the previous section step to the end of the call like shown below
@@ -92,9 +94,9 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 
 
-## **PATCH the Field Group**
+## PATCH the Field Group
 
-### **JSON PATCH API Body Sample**
+### JSON PATCH API Body Sample
 
 ```none
 [
@@ -157,7 +159,7 @@ You should see a `200 OK `response and should now see the `planDescription` fiel
 
 
 
-## **View the Change in the UI**
+## View the Change in the UI
 
 Browse your Schema through the UI and have a look at your newly added field.  Pretty cool huh?
 

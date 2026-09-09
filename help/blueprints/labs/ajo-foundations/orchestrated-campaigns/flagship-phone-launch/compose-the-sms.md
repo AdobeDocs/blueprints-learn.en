@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 ---
 
-# Objective
+# Compose the SMS
+
+## Objective
 
 In the next few steps you are going to compose a VERY simple SMS message.  You'll see how you can easily add some content at an EXTREMELY basic level and personalize the message based on the data in the relational store.
 

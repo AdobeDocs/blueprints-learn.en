@@ -6,7 +6,7 @@ solution: Experience Platform
 exl-id: 66c3a386-7292-49e4-a75a-619e73c2a14d
 ---
 
-# Learning Objectives
+# UI Modeling
 
 ## Mapping Source to XDM
 

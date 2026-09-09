@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
 ---
 
-# Pre-Requisites
+# Profile in Action
+
+## Pre-Requisites
 
 >[!WARNING]
 >

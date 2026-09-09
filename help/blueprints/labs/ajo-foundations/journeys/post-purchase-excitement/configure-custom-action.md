@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
 ---
 
-# Learning Objective
+# Configure Custom Action
+
+## Learning Objective
 
 Create a custom action that defines how the journey will communicate with an external endpoint or service to get an ETA for when the package will arrive.
 

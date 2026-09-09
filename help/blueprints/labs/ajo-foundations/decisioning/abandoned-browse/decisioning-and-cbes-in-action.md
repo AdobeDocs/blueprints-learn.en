@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
 ---
 
-# Objective
+# Decisioning and CBEs In Action
+
+## Objective
 
 Now that the Journey is live, you can start sending in Experience Events and see offers returned. Since the birth year and phone plan IDs of individual profiles affect what offer is returned, we have to send in Experience Events for preconfigured profiles with specific birth years and plan IDs. 
 

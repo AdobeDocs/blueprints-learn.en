@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 ---
 
-# Objective
+# Create an Orchestrated Campaign
+
+## Objective
 
 In the next step of steps you create the shell of an Orchestrated Campaign (no activities) which is the starting point for any campaign.
 
@@ -31,7 +33,7 @@ In the next step of steps you create the shell of an Orchestrated Campaign (no a
 
 ![Create orchestrated campaign](assets/create-an-orchestrated-campaign-4.png)
 
-## **Campaign Settings**
+## Campaign Settings
 
 1. Fill out the required camaign metadata with the following information:
    - **Name** --> `Flagship Phone Launch`

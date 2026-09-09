@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158
 ---
 
-# Learning Objectives
+# Batch Ingestion
+
+## Learning Objectives
 
 In this exercise, you will load the Customer Account data from a file-based source connector to AEP Data Lake and then to Profile. You will learn the following: 
 

@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
 ---
 
-# Objective
+# Run the Workflow
+
+## Objective
 
 In the next few steps you will learn how to test your workflow and more importantly your SMS activity using test mode. 
 

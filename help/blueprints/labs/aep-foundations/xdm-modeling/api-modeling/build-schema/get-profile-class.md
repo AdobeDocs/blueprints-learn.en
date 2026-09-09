@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: d87c21a2-dad4-4666-b917-cdf8e16058d4
 ---
 
-# Execute Step 3 - Get Profile Class
+# Get Profile Class
+
+## Execute Step 3 - Get Profile Class
 
 1. Click on the `Step 3 - Get Profile Class` request in the `XDM API Lab -> Create Schema` folder
 1. Execute by clicking the `Send` button

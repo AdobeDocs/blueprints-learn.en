@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 332ead7a-ca6e-4e30-bb35-8419c060c596
 ---
 
-# Lecture
+# Label
+
+## Lecture
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459087/?quality=12&learn=on)
 
@@ -46,7 +48,7 @@ Keep in mind the following when performing the lab:
 
  
 
-## **Step 3.  Label XDM Supporting Tables**
+## Step 3.  Label XDM Supporting Tables
 
 1. Identify all the source tables which represent lookup data and are directly related to either a **“P”** or **“E”** table you have marked in either the Connection 5G data warehouse ERD and Streaming ERD.
 1. Mark each table with a **“L”** signifying it is part of a non-person custom XDM class.

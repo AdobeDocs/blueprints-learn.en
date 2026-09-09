@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
 ---
 
-# Profile Union Schema
+# Profile Basics
+
+## Profile Union Schema
 
 Remember that the view of any Real-Time Customer Profile is built using the schema's you defined and enabled for the profile. This is what Adobe refers to as the Union Schema of the profile.
 

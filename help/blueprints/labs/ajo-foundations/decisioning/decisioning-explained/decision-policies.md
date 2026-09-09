@@ -7,7 +7,9 @@ solution: Experience Platform
 exl-id: 21dc67fd-76ac-4b82-ae78-be024c7bfc55
 ---
 
-# Learning Objective
+# Decision Policies
+
+## Learning Objective
 
 By the end of this lesson, you will be able to:
 

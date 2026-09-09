@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
 ---
 
-# **Identity Descriptors**
+# Mark Identity Fields
+
+## Identity Descriptors
 
 In order to mark a field as an identity you need to create an Identity Descriptor in the schema registry. A sample schema descriptor body looks like the following:
 
@@ -31,7 +33,7 @@ In order to mark a field as an identity you need to create an Identity Descripto
 - **xdm\:isPrimary** -> if a primary identity then `true` else it is `false`
 
 
-## **Your Objective**
+## Your Objective
 
 Create both primary and non-primary identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 

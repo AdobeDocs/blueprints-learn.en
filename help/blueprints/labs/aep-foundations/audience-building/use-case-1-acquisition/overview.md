@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
 ---
 
-# Overview
+# Use Case #1 - Acquisition
+
+## Overview
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459402/?quality=12&learn=on)
 

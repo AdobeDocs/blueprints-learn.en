@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
 ---
 
-# Objective
+# Fork the Result
+
+## Objective
 
 This step is simple in that all you want to do is add a Fork activity such that you can duplicate the result to do two different things with it in future steps:
 

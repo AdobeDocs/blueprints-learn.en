@@ -8,7 +8,7 @@ exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
 
 # Stream an Order Event
 
-## **Prerequisites**
+## Prerequisites
 
 1. You have downloaded the [Sample Files](../sample-files.md) and see the file named --> **Lab\_Single\_Order\_sample.json**
 1. You have successfully completed the [Using Data Landing Zone](./using-data-landing-zone/overview.md) lab and have a valid mapping set to import

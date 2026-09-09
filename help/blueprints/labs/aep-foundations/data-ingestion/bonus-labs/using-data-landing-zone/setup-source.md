@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
 ---
 
-# Upload Sample File
+# Setup Souce
+
+## Upload Sample File
 
 You need to upload a sample data file to your Data Landing Zone via Azure Storage Explorer so that you can use it during the lab.  To do so do the following:
 
@@ -21,7 +23,7 @@ When uploaded your screen should look like the below screenshot.
 
 ![Make sure you do not upload the file](assets/make-sure-you-do-not-upload-the-file.png)
 
-## **Navigate to Sources**
+## Navigate to Sources
 
 1. Go to Adobe Experience Platform and navigate to: **Sources** -> **Catalog** -> **Cloud storage**
 1. Click on **Setup** / **Add Data** for the Data Landing Zone

@@ -20,7 +20,7 @@ As in the previous exercise, you will need to verify the mapping and in some cas
 >
 >Since we are mapping an Experience Event dataset for the first time, note that **\_id** and **timestamp** are never recommended or mapped by default for Experience Events. You have to manually ensure that these are mapped correctly.
 
-## Map *\_id, timestamp *and ***order.\_devbc.acqSource** ***Fields**
+## Map \_id, timestamp and order.\_devbc.acqSource Fields
 
 1. To map **\_id,** write the following calculated field expression and click preview
 

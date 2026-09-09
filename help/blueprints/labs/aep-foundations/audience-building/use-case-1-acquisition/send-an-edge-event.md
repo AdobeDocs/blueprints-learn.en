@@ -49,7 +49,7 @@ If you have already done this, you can skip down to Execute the API.
 
 Before you can execute the API request you need to add some additional pieces of information to the request. Start by gathering the following values:
 
-## **Gather the Datastream ID**
+## Gather the Datastream ID
 
 1. In the left rail click on **Datastreams** (under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value
@@ -157,7 +157,7 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 
 ![Visited iphone 14 page](assets/visited-iphone-14-page.png)
 
-## **Validate Streaming Destination Activation**
+## Validate Streaming Destination Activation
 
 Check your webhook to see if the streaming destination you configured has activated any segments.  They should appear in \~5 minutes.
 

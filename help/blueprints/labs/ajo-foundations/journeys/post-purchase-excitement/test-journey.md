@@ -6,7 +6,9 @@ solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 ---
 
-# Learning Objective
+# Test Journey
+
+## Learning Objective
 
 Use the journey testing tools to verify that the event trigger and journey logic are configured correctly.
 
