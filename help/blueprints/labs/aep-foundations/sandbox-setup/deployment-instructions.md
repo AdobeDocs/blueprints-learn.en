@@ -52,15 +52,17 @@ The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a co
 The CLI deploys to whichever sandbox your environment file points at, so this has to be set up correctly before you run anything.
 
 1. Copy `envFiles/sample-env.json` and give it a new name, e.g. `my-env.json`
-2. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md), then save and close the file:
+1. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md):
 
-| **Field**       | **Value**                                                                                                                             |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY`       | Client ID                                                                                                                             |
-| `CLIENT_SECRET` | Client Secret                                                                                                                         |
-| `IMS_ORG`       | Organization ID                                                                                                                       |
-| `SCOPES`        | Must include Experience Platform API scopes (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
-| `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                        |
+   | **Field**       | **Value**                                                                                                                             |
+   | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY`       | Client ID                                                                                                                             |
+   | `CLIENT_SECRET` | Client Secret                                                                                                                         |
+   | `IMS_ORG`       | Organization ID                                                                                                                       |
+   | `SCOPES`        | Must include Experience Platform API scopes (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
+   | `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                        |
+
+1. Save and close the file
 
 >[!NOTE]
 >
