@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Object copy mappings
 description: Configure object copy mappings for a products array, then add and remove field-level overrides on top of the default copy.
 doc-type: article

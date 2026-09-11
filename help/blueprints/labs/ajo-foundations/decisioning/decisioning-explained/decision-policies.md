@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Decision policies
 description: Learn how decision policies apply selection strategies to a delivery channel and how individual versus grouped combination methods change offer order.
 doc-type: article

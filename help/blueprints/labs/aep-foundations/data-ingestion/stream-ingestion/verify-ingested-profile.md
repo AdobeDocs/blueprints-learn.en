@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Verify ingested profile
 description: Look up a streamed profile in the Profiles browser using its primary identity namespace to confirm successful ingestion.
 doc-type: article

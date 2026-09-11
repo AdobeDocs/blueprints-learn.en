@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Get Standard Field Groups
 description: Query the global schema registry API to find and save the $ids of standard XDM field groups needed to build a customer profile schema.
 doc-type: article

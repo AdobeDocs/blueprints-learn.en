@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Modify Schema - JSON Patch
 description: Use a JSON PATCH API call to add a new field to an existing tenant field group and see the change reflected in the schema.
 doc-type: article

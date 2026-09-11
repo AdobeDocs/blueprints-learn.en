@@ -1,4 +1,5 @@
 ---
+hold: true
 title: UI modeling
 description: Learn how to map source data to XDM standard and custom objects and build and configure a schema for profile using the Schema UI.
 doc-type: overview-page

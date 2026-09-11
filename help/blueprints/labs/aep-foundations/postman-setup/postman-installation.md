@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Postman installation
 description: Install Postman and get familiar with its collections, environments, and interface before starting the bootcamp API labs.
 doc-type: article

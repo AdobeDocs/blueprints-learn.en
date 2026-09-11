@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Configure SMS channel
 description: Learn how to configure a Twilio-based SMS channel and its execution dimensions for use in Orchestrated Campaigns.
 doc-type: article

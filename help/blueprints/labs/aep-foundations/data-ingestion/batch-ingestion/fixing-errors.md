@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Fixing errors
 description: Fix a calculated field expression for a date formatting error, then confirm success using the Sources, Identities, and Profiles monitoring metrics.
 doc-type: article

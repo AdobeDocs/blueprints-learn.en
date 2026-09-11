@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Add fork activity
 description: Learn how to add a Fork activity to an Orchestrated Campaign to create two identical branches of audience data.
 doc-type: article

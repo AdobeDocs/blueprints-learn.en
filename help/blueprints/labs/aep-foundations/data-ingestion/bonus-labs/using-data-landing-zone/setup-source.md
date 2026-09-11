@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Set up the source
 description: Upload a sample Customer Account file to the Data Landing Zone and configure a new cloud storage source dataflow.
 doc-type: article

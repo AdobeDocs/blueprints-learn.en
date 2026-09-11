@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Stream an order event
 description: Practice building an HTTP API streaming dataflow to send a sample order event and link it to an existing customer profile.
 doc-type: article

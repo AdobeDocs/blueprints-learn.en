@@ -1,4 +1,5 @@
 ---
+hold: true
 title: API modeling
 description: Learn how to build an XDM schema entirely through the Experience Platform APIs, covering classes, field groups, and identity, relationship, and reference descriptors.
 doc-type: overview-page

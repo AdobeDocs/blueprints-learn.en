@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Option #1 - using Audiences to aggregate
 description: Build audiences that use in-audience Sum and Average aggregation on billing usage events and denormalized plan data to enable streaming evaluation.
 doc-type: article

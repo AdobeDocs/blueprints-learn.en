@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Use case #3 - Outreach
 description: Define an outreach use case targeting customers who cancel orders within a week of purchase using sequential and dynamic audience features.
 doc-type: overview-page

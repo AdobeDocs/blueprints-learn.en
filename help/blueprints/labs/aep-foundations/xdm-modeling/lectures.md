@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Lectures
 description: Watch introductory videos explaining the Experience Data Model (XDM) framework and advanced XDM concepts.
 doc-type: article

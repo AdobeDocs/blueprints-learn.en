@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Profile Target Dimension
 description: Learn how to label a relational schema field as an identity and create a Profile Target Dimension to join the Real-Time Customer Profile with the Relational Store.
 doc-type: article

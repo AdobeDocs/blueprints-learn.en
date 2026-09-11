@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Mapping Data
 description: Understand why AI/ML-generated passthrough mappings between source fields and schema fields need careful inspection before ingestion.
 doc-type: overview-page

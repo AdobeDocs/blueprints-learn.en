@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Send an Edge Event
 description: Send an unauthenticated web event to the Edge via Postman and verify it flows through event forwarding, profile ingestion, and edge audience qualification.
 doc-type: article

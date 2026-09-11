@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Test the email
 description: Learn how to send and verify proof emails in Adobe Journey Optimizer to validate personalized content and conditional variants before activation.
 doc-type: article

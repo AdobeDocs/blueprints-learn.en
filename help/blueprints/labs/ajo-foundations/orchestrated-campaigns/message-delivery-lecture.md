@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Message delivery lecture
 description: Watch a video lecture on the architecture of message delivery within Orchestrated Campaigns and how it differs from Journeys.
 doc-type: article

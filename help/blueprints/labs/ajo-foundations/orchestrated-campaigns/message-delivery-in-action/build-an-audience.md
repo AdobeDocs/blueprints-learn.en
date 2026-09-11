@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Build an audience
 description: Learn how to use the Build Audience activity to target Basic plan members from a relational schema and verify the resulting row counts.
 doc-type: article

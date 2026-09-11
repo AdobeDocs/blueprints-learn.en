@@ -1,4 +1,5 @@
 ---
+hold: true
 title: API collection
 description: Download and import the bootcamp's Postman API collection containing the requests used throughout the AEP Foundations labs.
 doc-type: article

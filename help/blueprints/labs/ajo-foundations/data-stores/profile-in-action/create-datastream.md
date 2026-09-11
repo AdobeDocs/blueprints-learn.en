@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Create datastream
 description: Learn how to create and configure a datastream with Adobe Experience Platform, Offer Decisioning, and Journey Optimizer services to enable Edge event processing.
 doc-type: article

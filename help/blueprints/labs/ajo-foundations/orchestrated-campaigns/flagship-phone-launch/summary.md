@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Summary
 description: Recap building an Orchestrated Campaign with an SMS channel that targets both customer accounts and individual lines and saves an audience to the Audience Portal.
 doc-type: article

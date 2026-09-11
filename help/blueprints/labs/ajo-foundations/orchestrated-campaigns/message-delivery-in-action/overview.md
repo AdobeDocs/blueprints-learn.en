@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Message delivery in action
 description: Get an overview of building an Orchestrated Campaign that targets Basic plan members and compares delivery behavior between AEP Profile and Relational schema email channels.
 doc-type: overview-page

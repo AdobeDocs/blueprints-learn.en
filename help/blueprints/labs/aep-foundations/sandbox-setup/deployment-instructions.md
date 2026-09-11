@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Deployment instructions
 description: Use the DEP CLI to deploy the AEP Foundations lab pack's schemas, datasets, dataflows, and sample profile data to your sandbox.
 doc-type: article

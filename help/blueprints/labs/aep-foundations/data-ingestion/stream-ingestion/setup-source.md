@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Set up the source
 description: Create an HTTP API streaming account and configure a dataflow to stream Customer Account JSON data into a Profile-enabled dataset.
 doc-type: article

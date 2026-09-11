@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Setup Event Forwarding
 description: Learn how Event Forwarding uses properties, data elements, rules, and datastreams to forward edge events to a third-party endpoint.
 doc-type: overview-page

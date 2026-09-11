@@ -1,4 +1,5 @@
 ---
+hold: true
 title: View Schema
 description: View the Customer Account schema's lookup relationship to the Plan schema through both the schema UI and the Get Schema API.
 doc-type: article

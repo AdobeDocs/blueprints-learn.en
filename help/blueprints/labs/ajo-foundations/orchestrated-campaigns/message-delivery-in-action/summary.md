@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Summary
 description: Recap building an Orchestrated Campaign that forks an audience and compares email delivery results between Profile-based and Relational-based email channels.
 doc-type: article

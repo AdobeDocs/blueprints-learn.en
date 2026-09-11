@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Prerequisites
 description: Review the LID methodology's training scenario, learning objectives, and required worksheets before starting the data modeling labs.
 doc-type: article

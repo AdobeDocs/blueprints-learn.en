@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Build journey
 description: Build a unitary journey that responds to an Order Shipped event, calls a custom action for shipping ETA, and sends a personalized email.
 doc-type: article

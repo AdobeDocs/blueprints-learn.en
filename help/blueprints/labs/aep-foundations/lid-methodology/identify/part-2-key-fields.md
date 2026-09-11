@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Part 2 - Key fields
 description: Identify primary, person, and relationship identity fields plus required Experience Event fields across labeled ERD tables.
 doc-type: article

@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Bonus labs
 description: Explore optional bonus labs that extend the audience building exercises with additional event streaming and monitoring practice.
 doc-type: overview-page

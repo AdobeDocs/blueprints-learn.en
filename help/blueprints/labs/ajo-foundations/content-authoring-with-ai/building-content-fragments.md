@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Building content fragments
 description: Learn how to break an email design into reusable fragments, such as a header block, that stay consistent across templates in Adobe Journey Optimizer.
 doc-type: article

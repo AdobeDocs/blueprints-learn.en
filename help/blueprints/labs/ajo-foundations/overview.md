@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Overview
 description: Explore Adobe Journey Optimizer's architecture, journey orchestration, orchestrated campaigns, decisioning, and real-time customer profiles through hands-on labs.
 doc-type: overview-page

@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Configure for profile
 description: Mark primary and person identity fields, build a schema relationship, enable a schema for Real-Time Customer Profile, and review the profile union schema.
 doc-type: article

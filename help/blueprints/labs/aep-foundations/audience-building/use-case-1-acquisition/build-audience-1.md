@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Build Audience #1
 description: Build a streaming audience that finds profiles who placed an order for an iPhone 14 today, exploring event source selection and array containers.
 doc-type: article

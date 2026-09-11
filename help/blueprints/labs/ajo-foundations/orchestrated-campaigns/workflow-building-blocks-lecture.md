@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Workflow building blocks lecture
 description: Watch a video lecture overview of how the Orchestrated Campaigns workflow canvas functions and its core capabilities.
 doc-type: article

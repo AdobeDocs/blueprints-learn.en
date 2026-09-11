@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Post-purchase excitement
 description: Learn how to build an event-driven post-purchase journey that triggers a shipping notification email with dynamic tracking details from a third-party API.
 doc-type: overview-page

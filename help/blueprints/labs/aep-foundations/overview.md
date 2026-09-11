@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Overview
 description: Preview the AEP Foundations bootcamp's coverage of relational-to-NoSQL modeling, XDM schemas, data ingestion, and audience activation.
 doc-type: overview-page

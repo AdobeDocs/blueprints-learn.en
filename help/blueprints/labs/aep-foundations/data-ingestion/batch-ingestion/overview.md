@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Batch ingestion
 description: Load Customer Account data through batch ingestion into the Data Lake and Profile while fixing mapping and data quality errors.
 doc-type: overview-page

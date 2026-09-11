@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Personalization and content experimentation
 description: Learn how to personalize email content with profile attributes and Handlebars syntax, and build age-based conditional content variants in Adobe Journey Optimizer.
 doc-type: article

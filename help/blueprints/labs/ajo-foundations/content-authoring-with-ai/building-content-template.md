@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Building content template
 description: Learn how to build a reusable email template in Adobe Journey Optimizer by importing HTML and inserting a previously created header fragment.
 doc-type: article

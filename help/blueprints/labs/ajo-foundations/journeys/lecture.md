@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Lecture
 description: Watch a video explaining how Journey Orchestration building blocks work together with the Real-Time Customer Profile data store.
 doc-type: article

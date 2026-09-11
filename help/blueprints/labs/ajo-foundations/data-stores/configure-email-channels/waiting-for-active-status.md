@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Waiting for active status
 description: Confirm that both of your email channel configurations reach Active status before continuing to the next labs.
 doc-type: article

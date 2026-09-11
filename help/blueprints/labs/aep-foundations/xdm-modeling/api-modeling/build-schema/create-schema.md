@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Create Schema
 description: Use the schema registry API to assemble a customer schema from a profile class and standard and custom field group references.
 doc-type: article

@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Set up the source
 description: Upload a historical orders JSON file to the Data Landing Zone and configure a new dataflow targeting the Orders schema.
 doc-type: article

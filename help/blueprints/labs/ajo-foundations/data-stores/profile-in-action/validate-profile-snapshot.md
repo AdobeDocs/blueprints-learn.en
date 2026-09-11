@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Validate Profile Snapshot
 description: Learn how to query the Profile Snapshot dataset and understand why a newly streamed profile update doesn't appear until the next daily batch job.
 doc-type: article

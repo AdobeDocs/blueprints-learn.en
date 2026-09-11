@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Create Selection Strategy
 description: Configure a selection strategy that ties an offer collection, eligibility rules, and a ranking formula together for decisioning.
 doc-type: article

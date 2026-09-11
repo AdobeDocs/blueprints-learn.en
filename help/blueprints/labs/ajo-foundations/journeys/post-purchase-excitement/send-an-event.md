@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Send an event
 description: Use Postman to stream a simulated Order Shipped event directly to the Hub to trigger the journey, rather than sending it to the Edge.
 doc-type: article

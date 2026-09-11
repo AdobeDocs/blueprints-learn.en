@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Create Schema Relationship
 description: Use the schema registry API to create a one-to-one relationship descriptor linking the Customer Account schema to a lookup Plan schema.
 doc-type: article

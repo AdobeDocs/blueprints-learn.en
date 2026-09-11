@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Merge policies
 description: Create a merge policy without identity stitching and compare profile lookups by email, customer ID, and GAID to see how identity graphs shape profile assembly.
 doc-type: article

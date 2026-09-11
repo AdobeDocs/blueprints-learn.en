@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Build use case #3
 description: Build a batch audience that uses container variables to match order-placed and order-cancelled events for the same order within a week.
 doc-type: article

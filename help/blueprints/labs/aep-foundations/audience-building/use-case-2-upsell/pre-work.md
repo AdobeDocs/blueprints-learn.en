@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Pre-Work
 description: Investigate schema fields for billing usage and plan name, highlighting how missing descriptions and duplicate fields can confuse audience builders.
 doc-type: article

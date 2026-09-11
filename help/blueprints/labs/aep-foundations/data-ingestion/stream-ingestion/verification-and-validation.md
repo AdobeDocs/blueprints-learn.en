@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Verification and validation
 description: Preview a streamed dataset in the UI and run SQL queries to verify ingested records and nested schema fields.
 doc-type: article

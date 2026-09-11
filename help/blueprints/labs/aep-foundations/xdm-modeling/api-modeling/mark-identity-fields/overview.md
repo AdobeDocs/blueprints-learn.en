@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Mark identity fields
 description: Learn how identity descriptors mark schema fields as primary or non-primary identities using the XDM schema registry API.
 doc-type: overview-page

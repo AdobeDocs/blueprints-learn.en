@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Configure custom action
 description: Configure a reusable custom action in Adobe Journey Optimizer that calls a third-party endpoint to retrieve shipping ETA and tracking details.
 doc-type: article

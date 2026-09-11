@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Selection strategies
 description: Learn the three components of a selection strategy and how item-level versus strategy-level eligibility and ranking methods work together.
 doc-type: article

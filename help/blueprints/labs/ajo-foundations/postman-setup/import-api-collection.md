@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Import API collection
 description: Import the bootcamp's Postman API collection and validate that its environment variables resolve correctly against your sandbox.
 doc-type: article

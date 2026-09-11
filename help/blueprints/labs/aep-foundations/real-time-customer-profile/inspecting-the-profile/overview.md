@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Inspecting the profile
 description: Watch an introductory video on exploring and validating profile data within Real-Time Customer Profile.
 doc-type: overview-page

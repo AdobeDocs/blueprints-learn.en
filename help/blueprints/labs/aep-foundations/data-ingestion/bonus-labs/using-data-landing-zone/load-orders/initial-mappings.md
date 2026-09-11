@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Initial mappings
 description: Manually map the required _id and timestamp fields for an Experience Event dataset using calculated field expressions.
 doc-type: article

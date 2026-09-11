@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Bonus labs
 description: Explore an optional bonus lab on automating XDM schema deployment using the Experience Platform APIs.
 doc-type: overview-page

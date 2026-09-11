@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Model standard objects
 description: Create an Individual Profile schema in the UI and add and trim standard field groups like Demographic Details and Consent and Preferences.
 doc-type: article

@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Flagship phone launch
 description: Get an overview of building an Orchestrated Campaign that targets account holders and individual lines with an SMS upgrade offer following a flagship phone launch.
 doc-type: overview-page

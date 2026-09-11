@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Create primary identity
 description: Use the schema registry API to create a primary customerID identity descriptor for the Customer Account schema.
 doc-type: article

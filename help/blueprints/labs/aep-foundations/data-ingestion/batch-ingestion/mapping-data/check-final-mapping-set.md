@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Check final mapping set
 description: Compare your simple and calculated field mappings for the Customer Account schema against the expected final mapping set.
 doc-type: article

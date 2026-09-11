@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Define Relationships
 description: Learn how relationship descriptors link a customer schema to a lookup schema in the XDM schema registry via the API.
 doc-type: overview-page

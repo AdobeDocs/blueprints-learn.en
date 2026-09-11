@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Monitor your event
 description: Use Adobe Experience Platform Assurance to create a debug session, send a validated event via Postman, and inspect edge event processing logs.
 doc-type: article

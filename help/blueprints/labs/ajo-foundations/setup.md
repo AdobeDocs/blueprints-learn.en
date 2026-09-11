@@ -1,4 +1,5 @@
 ---
+hold: true
 title: Setup
 description: Complete the sandbox deployment and Postman configuration steps required before starting the AJO Foundations labs.
 doc-type: article

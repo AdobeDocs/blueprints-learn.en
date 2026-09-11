@@ -1,4 +1,5 @@
 ---
+hold: true
 title: AI assistant and content personalization
 description: Use Adobe Journey Optimizer's AI Assistant to generate on-brand subject lines, refine email copy and tone, and create Firefly-generated images inside the email designer.
 doc-type: article
