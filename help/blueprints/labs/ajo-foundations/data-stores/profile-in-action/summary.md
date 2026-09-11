@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Summary
 description: Recap how a simulated web event flows through the Edge Network, Real-Time Profile, and Data Lake layers of Adobe Experience Platform.
 doc-type: article

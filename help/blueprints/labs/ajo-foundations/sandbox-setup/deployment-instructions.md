@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Deployment instructions
 description: Use the DEP CLI to deploy the AJO Architectural Foundations lab pack's schemas, datasets, dataflows, and sample data to your sandbox.
 doc-type: article

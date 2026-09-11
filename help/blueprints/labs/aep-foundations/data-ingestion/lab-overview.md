@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Lab overview
 description: Review the goals and syllabus for the data ingestion labs, from schema mapping and passthrough fixes to dataflow debugging and validation.
 doc-type: article

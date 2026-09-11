@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Configure for Relational
 description: Learn how to configure an email channel using the email attribute from a Relational schema for Orchestrated Campaigns only.
 doc-type: article

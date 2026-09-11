@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Real-Time Customer Profile lecture
 description: Watch a video lecture on the Real-Time Customer Profile data store architecture that underlies Adobe Journey Optimizer Journeys.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Profile & identity APIs
 description: Use the Profile Entity API and Identity Service Cluster API in Postman to look up profile attributes, events, and linked identities.
 doc-type: article

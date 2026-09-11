@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Datastream
 description: Create and configure a datastream with Event Forwarding and Adobe Experience Platform services to route incoming edge events.
 doc-type: article

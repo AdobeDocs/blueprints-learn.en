@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Stream a profile
 description: Use Postman and the streaming endpoint and dataflow ID to send a customer profile record into Adobe Experience Platform via the HTTP API.
 doc-type: article

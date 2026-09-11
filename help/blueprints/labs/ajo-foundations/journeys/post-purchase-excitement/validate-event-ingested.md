@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Validate event ingested
 description: Confirm an Order Shipped event was ingested into a profile and qualifies it for the expected audiences.
 doc-type: article

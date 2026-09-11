@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Check final mapping set
 description: Compare your streaming ingestion mappings against the expected final passthrough and calculated field mapping set.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Edge Audience
 description: Build and publish an Edge-evaluated audience alongside a batch equivalent to compare how each responds to real-time incoming events.
 doc-type: article

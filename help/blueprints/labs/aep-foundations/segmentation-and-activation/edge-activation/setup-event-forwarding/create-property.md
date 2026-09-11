@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Property
 description: Create an Event Forwarding property with a data element and rule that forwards incoming experience events to a webhook endpoint.
 doc-type: article

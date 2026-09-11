@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Import environment file
 description: Import the Postman environment file and set global variables like EDGE_REGION needed for API calls throughout the bootcamp.
 doc-type: article

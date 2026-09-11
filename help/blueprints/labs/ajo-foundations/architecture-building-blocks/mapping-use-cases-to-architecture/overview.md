@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Mapping use cases to architecture
 description: Learn how to apply a structured framework for choosing between Orchestrated Campaigns and Journeys based on real-world marketing use cases.
 doc-type: overview-page

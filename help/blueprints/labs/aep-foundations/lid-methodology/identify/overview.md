@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Identify
 description: Learn the two-part Identify step of the LID methodology: labeling remaining table types and identifying key identity fields.
 doc-type: overview-page

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create a new dataflow
 description: Create a batch source dataflow against an existing dataset and import mappings from a prior dataflow to speed up setup.
 doc-type: article

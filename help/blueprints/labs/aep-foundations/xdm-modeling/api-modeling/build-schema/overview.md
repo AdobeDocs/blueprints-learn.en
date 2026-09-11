@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Build Schema
 description: Assemble a Connection 5G Customer Account schema from a class and multiple field groups using the previously completed mapping sheet.
 doc-type: overview-page

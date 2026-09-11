@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Model custom objects
 description: Build custom account, plan, and customerID fields and objects in the schema editor, including enum values, to model data with no standard field group equivalent.
 doc-type: article

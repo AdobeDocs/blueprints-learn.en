@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Decisioning and CBEs in action
 description: Use Postman to send experience events for test profiles and validate that eligibility, ranking, and frequency capping return the correct offers.
 doc-type: article

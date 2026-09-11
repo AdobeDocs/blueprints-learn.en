@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create a campaign
 description: Learn how to create and configure the basic settings of a new Orchestrated Campaign.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Developer console setup
 description: Create an Adobe Developer Console project with OAuth Server-to-Server credentials for the DEP CLI to authenticate to your sandbox.
 doc-type: article

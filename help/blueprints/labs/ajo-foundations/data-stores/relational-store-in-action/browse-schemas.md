@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Browse schemas
 description: Learn how to browse relational schemas and view entity relationship diagrams in Adobe Experience Platform to understand schema relationships used in campaigns.
 doc-type: article

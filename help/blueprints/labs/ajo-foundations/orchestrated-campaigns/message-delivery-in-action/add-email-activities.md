@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Add email activities
 description: Learn how to add and configure two Email activities on separate Fork branches using different email channel configurations in an Orchestrated Campaign.
 doc-type: article

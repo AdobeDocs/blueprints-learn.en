@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Access token
 description: Generate an OAuth server-to-server access token in Postman and understand the required headers for authenticating AEP API calls.
 doc-type: article

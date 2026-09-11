@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create offer collection
 description: Group related offer items into a collection using attribute-based rules so they can be evaluated together by a selection strategy.
 doc-type: article

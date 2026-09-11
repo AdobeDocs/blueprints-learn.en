@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Configure event
 description: Create and configure a unitary Order Shipped event, including identity namespace settings, to serve as a journey's entry trigger.
 doc-type: article

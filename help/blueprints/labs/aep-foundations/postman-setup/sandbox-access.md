@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Sandbox access
 description: Verify your Postman environment can successfully retrieve your assigned Experience Platform sandbox before starting the labs.
 doc-type: article

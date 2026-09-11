@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Calculated fields
 description: Create calculated field expressions to backfill missing SMS consent values and split a birth date into day, month, and year fields.
 doc-type: article

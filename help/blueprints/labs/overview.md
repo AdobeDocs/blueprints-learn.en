@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Adobe Experience Platform Hands-on Labs
 description: Self-paced, bring-your-own-sandbox workshops for Adobe Experience Platform and applications, created by Adobe solution architects.
 doc-type: overview-page

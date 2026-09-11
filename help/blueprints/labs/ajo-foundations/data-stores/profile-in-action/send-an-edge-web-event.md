@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Send an Edge web event
 description: Learn how to send a simulated web event to the Adobe Edge Network via a Postman API call using your datastream ID.
 doc-type: article

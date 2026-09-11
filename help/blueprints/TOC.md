@@ -144,7 +144,7 @@ nudge: orange
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
-+ {hide-from-toc} Hands-on Labs{#labs}
++ Hands-on Labs{#labs}
   + [Hands-on Labs Overview](/help/blueprints/labs/overview.md)
   + Hands-on Workshops{#workshops}
     + AEP Foundations{#aep-foundations}

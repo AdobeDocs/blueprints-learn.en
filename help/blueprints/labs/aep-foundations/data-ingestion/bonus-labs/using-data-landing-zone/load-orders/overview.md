@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Load orders
 description: Learn how to batch ingest nested JSON order data and use object copy mappings to simplify complex field-to-XDM mappings.
 doc-type: overview-page

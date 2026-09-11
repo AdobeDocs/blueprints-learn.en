@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Use case #2 - Upsell
 description: Define an upsell use case targeting high data-usage customers without an ultimate phone plan, comparing audience aggregation approaches for activation.
 doc-type: overview-page

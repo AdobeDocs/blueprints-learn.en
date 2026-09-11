@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Send order event to Hub
 description: Learn how to stream an order event to the Hub via API, build a streaming order segment, activate it to a destination, and validate profile results.
 doc-type: article

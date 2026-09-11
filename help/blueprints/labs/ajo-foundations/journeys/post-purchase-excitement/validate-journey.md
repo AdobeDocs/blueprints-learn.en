@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Validate journey
 description: Verify journey execution through entry and exit counts, email delivery reporting, and query service data for step events.
 doc-type: article

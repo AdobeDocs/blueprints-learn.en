@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Plan Reference Identity
 description: Use the schema registry API to create a reference identity descriptor on the lookup schema so it can be used in batch segmentation.
 doc-type: article

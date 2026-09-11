@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Relational Store in action
 description: Get an overview of browsing relational schemas, setting up a Profile Target Dimension, and building and testing an Orchestrated Campaign with relational and AEP audience data.
 doc-type: overview-page

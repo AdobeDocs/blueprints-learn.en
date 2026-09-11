@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Summary
 description: Recap of the completed Adobe Journey Optimizer Decisioning lab covering offer schema, eligibility, ranking, selection strategy, and CBE testing.
 doc-type: article

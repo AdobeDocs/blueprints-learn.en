@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Critical thinking review
 description: Watch a video review discussing the design decisions and trade-offs behind the outreach use case audience built in this section.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Use case #1 - Acquisition
 description: Define an acquisition use case that targets iPhone 14 page visitors who haven't ordered or owned the device, and plan the audience-building approach.
 doc-type: overview-page

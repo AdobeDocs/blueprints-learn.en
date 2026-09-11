@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Set up streaming destination
 description: Configure an HTTP API streaming destination with a webhook endpoint, governance policy, audiences, and field mappings to test segment activation.
 doc-type: article

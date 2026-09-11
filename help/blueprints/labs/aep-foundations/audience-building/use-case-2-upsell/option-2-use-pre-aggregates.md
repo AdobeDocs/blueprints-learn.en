@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Option #2 - use pre-aggregates
 description: Build a fully streaming audience by using pre-aggregated usage attributes calculated upstream instead of aggregating events inside the audience rule.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Fork the result
 description: Learn how to add a Fork activity to an Orchestrated Campaign to branch a result for saving an audience and sending SMS messages.
 doc-type: article

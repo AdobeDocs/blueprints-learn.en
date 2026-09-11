@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Retry a failed dataflow
 description: Retry a failed dataflow run so the source data is reprocessed against updated mapping rules in a new dataflow.
 doc-type: article

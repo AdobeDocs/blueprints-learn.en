@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Get Profile Class
 description: Call the global schema registry API to retrieve and save the $id of the XDM Individual Profile class for use in a custom schema.
 doc-type: article

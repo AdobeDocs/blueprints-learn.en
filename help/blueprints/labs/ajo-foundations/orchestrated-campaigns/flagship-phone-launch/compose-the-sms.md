@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Compose the SMS
 description: Learn how to compose and personalize an SMS message in Orchestrated Campaigns using phone make and model attributes from the relational store.
 doc-type: article
