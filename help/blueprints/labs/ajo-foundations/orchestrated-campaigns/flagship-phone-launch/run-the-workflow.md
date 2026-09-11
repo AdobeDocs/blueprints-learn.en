@@ -18,29 +18,29 @@ In the next few steps you will learn how to test your workflow and more importan
 
 1. The final workflow looks something like the following when you are done. Double check everything looks good. You see:
 
-![Final workflow canvas ready for testing](assets/run-the-workflow-final-workflow-canvas.png)
+   ![Final workflow canvas ready for testing](assets/run-the-workflow-final-workflow-canvas.png)
 
 2. If you haven't already stopped your workflow ensure you do so now by clicking the **Stop** button in the upper right.
 
-![Stop button in the upper right of the workflow](assets/run-the-workflow-click-stop-button.png)
+   ![Stop button in the upper right of the workflow](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->Optionally you can try clicking on the Restart button but it's likely you'll see an error since you've added activities after the workflow was created, and its cache is no longer valid.
+   >[!NOTE]
+   >
+   >Optionally you can try clicking on the Restart button but it's likely you'll see an error since you've added activities after the workflow was created, and its cache is no longer valid.
 
 
 
 3. Next click the **Start** button to execute and test the workflow end to end
 
-![Start button to execute the workflow test](assets/run-the-workflow-click-start-button.png)
+   ![Start button to execute the workflow test](assets/run-the-workflow-click-start-button.png)
 
 
 
 4. Review the result coming into the SMS activity by clicking on **Result** (there are two Results so use the left one as shown below) and then in the left rail clicking on **Preview results** button.
 
-![Left Result transition selected before the SMS activity](assets/run-the-workflow-select-result-transition.png)
+   ![Left Result transition selected before the SMS activity](assets/run-the-workflow-select-result-transition.png)
 
-![Preview results button in the right rail](assets/run-the-workflow-click-preview-results.png)
+   ![Preview results button in the right rail](assets/run-the-workflow-click-preview-results.png)
 
 
 
@@ -54,31 +54,31 @@ In the next few steps you will learn how to test your workflow and more importan
 
 1. Close out of the previous window and click on the **SMS activity** and then click the **Run test** button in the right rail
 
-![Run test button on the SMS activity](assets/run-the-workflow-click-run-test-sms.png)
+   ![Run test button on the SMS activity](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
 2. Almost immediately, a new button appears labeled **View report**.  Click the **View report** button to launch into the report screen.
 
-![View report button for the SMS activity test](assets/run-the-workflow-click-view-report.png)
+   ![View report button for the SMS activity test](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->This screen will not be populated initially as it takes some time to execute the test run. You may need to refresh a few times before you see results.
+   >[!NOTE]
+   >
+   >This screen will not be populated initially as it takes some time to execute the test run. You may need to refresh a few times before you see results.
 
 
 
 3. When you get results, you see 100% were targeted!
 
-![SMS test send results showing 100 percent targeted](assets/run-the-workflow-100-percent-targeted.png)
+   ![SMS test send results showing 100 percent targeted](assets/run-the-workflow-100-percent-targeted.png)
 
-*Wait, a minute...the incoming result was 33 records so where did the 4 go?*
+   *Wait, a minute...the incoming result was 33 records so where did the 4 go?*
 
 
 
 4. Go back to the workflow canvas and click on the transition **Result** coming into the SMS activity and then click on **Preview results** in the right rail.
 
-![Re-reviewing the transition results after the SMS test](assets/run-the-workflow-recheck-transition-results.png)
+   ![Re-reviewing the transition results after the SMS test](assets/run-the-workflow-recheck-transition-results.png)
 
 
 

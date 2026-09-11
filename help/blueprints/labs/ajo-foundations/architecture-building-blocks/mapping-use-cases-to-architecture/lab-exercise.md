@@ -14,7 +14,7 @@ exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
 - Mapping Use Cases to Architecture Workbook — [Print Workbook Below]
 - Pen, pencil, or highlighter
 
-Download File — [Mapping Capabilities to Architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+Download File — [Mapping Capabilities to Architecture Exercise.pdf](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **For each of the three Connection 5G use cases, you will:**
 

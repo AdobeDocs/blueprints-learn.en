@@ -10,11 +10,11 @@ exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
 
 1. Click on the `Step 2 - Create Email Address Identity for Customer Account Schema` API call in the `XDM Schema Lab -> Create Identity Descriptors` folder
 
->[!CAUTION]
->
->Do not execute the request...yet
+   >[!CAUTION]
+   >
+   >Do not execute the request...yet
 
-![Step 2 - Create Email Address Identity for Customer Account Schema Postman request](assets/create-other-identities-step-2-postman-request.jpeg "Step 2 - Create email address identity descriptor")
+   ![Step 2 - Create Email Address Identity for Customer Account Schema Postman request](assets/create-other-identities-step-2-postman-request.jpeg "Step 2 - Create email address identity descriptor")
 
 
 
@@ -22,23 +22,23 @@ exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
 
 1. Update the `xdm:isPrimary` value in the body of the request to `false`
 
-EXAMPLE ONLY
+   EXAMPLE ONLY
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/personalEmail/address",
-  "xdm:namespace": "Email",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": false
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/personalEmail/address",
+     "xdm:namespace": "Email",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": false
+   }
+   ```
 
->[!NOTE]
->
->Remember to update the tenant name above (\_devbc) with your own
+   >[!NOTE]
+   >
+   >Remember to update the tenant name above (\_devbc) with your own
 
 
 

@@ -24,47 +24,47 @@ In the next set of steps, you will build on the campaign to add two Email activi
 
 1. Click on the **+** of the top flow and select **Email** from the **Channel activities**
 
-![Add Email activity](assets/add-email-activities-select-email-activity.png)
+   ![Add Email activity](assets/add-email-activities-select-email-activity.png)
 
-The **Email** details pane opens
+   The **Email** details pane opens
 
-![Email details pane](assets/add-email-activities-email-details-pane.png)
+   ![Email details pane](assets/add-email-activities-email-details-pane.png)
 
 2. Rename the label to **Email using Profile attribute** for the **Email** activity and click on **Edit email**. Note that the email body creation is only for testing purposes
 
-![Rename Email activity label and click Edit email](assets/add-email-activities-rename-and-edit-email.png)
+   ![Rename Email activity label and click Edit email](assets/add-email-activities-rename-and-edit-email.png)
 
 3. Select the **Actions** tab and from the drop down select **Profile-Email** channel config
 
-![Select Profile-Email channel config in Actions tab](assets/add-email-activities-select-profile-email-channel.png)
+   ![Select Profile-Email channel config in Actions tab](assets/add-email-activities-select-profile-email-channel.png)
 
 4. Next, click on **Edit content** to add some test content
 
-![Click Edit content to add test content](assets/add-email-activities-edit-content.png)
+   ![Click Edit content to add test content](assets/add-email-activities-edit-content.png)
 
 5. Provide a **Subject Line** ("Upgrade Offer for Basic plan members") and click on the **Edit email body** button
 
-![Add subject line and edit email body](assets/add-email-activities-subject-line-edit-body.png)
+   ![Add subject line and edit email body](assets/add-email-activities-subject-line-edit-body.png)
 
 6. There are many options, for this test, choose **Code your own** HTML option
 
-![Choose Code your own HTML option](assets/add-email-activities-code-your-own-html.png)
+   ![Choose Code your own HTML option](assets/add-email-activities-code-your-own-html.png)
 
 7. In the **Email Designer**, insert a test line "Upgrade Offer Available!" just before the `</body></html>` tags as shown and click on **Save**
 
-![Insert test line in Email Designer and click Save](assets/add-email-activities-email-designer-save.png)
+   ![Insert test line in Email Designer and click Save](assets/add-email-activities-email-designer-save.png)
 
 8. Wait for the confirmation message to appear at the bottom-right corner
 
-![Confirmation message appears](assets/add-email-activities-confirmation-message.png)
+   ![Confirmation message appears](assets/add-email-activities-confirmation-message.png)
 
 9. Click on the **left arrow** next to the **Email Designer** to exit
 
-![Click left arrow to exit Email Designer](assets/add-email-activities-exit-email-designer.png)
+   ![Click left arrow to exit Email Designer](assets/add-email-activities-exit-email-designer.png)
 
 10. A confirmation dialog pops up, click on the **Save & close** button
 
-![Confirmation dialog with Save & close button](assets/add-email-activities-save-and-close-dialog.png)
+   ![Confirmation dialog with Save & close button](assets/add-email-activities-save-and-close-dialog.png)
 
 11. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
 

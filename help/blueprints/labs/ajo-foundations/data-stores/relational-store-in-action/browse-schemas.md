@@ -34,20 +34,20 @@ Do the following:
 
 1. Click on the **Relationships** tab and then click on the **View relationship diagram** button
 
-![Relationships tab with the View relationship diagram button](assets/browse-schemas-relationships-tab.png)
+   ![Relationships tab with the View relationship diagram button](assets/browse-schemas-relationships-tab.png)
 
 
 
 2. Click **Select Schemas**
 3. From the pop-up, select `dep-rel: Customer Account` and then click **Confirm**
 
-![Select Schemas popup with dep-rel: Customer Account chosen](assets/browse-schemas-select-schema-popup.png)
+   ![Select Schemas popup with dep-rel: Customer Account chosen](assets/browse-schemas-select-schema-popup.png)
 
 
 
 4. On the ERD click the **3 dots** and select **Show related entities**
 
-![Show related entities option in the ERD context menu](assets/browse-schemas-show-related-entities.png)
+   ![Show related entities option in the ERD context menu](assets/browse-schemas-show-related-entities.png)
 
 
 

@@ -17,7 +17,7 @@ We usually want to forward an Experience Event out to a third party (though it d
 1. In the left rail click on Event Forwarding
 2. Then click on New Property
 
-![Event Forwarding section with the New Property button highlighted](assets/create-property-new-property-button.png "Create a new event forwarding property")
+   ![Event Forwarding section with the New Property button highlighted](assets/create-property-new-property-button.png "Create a new event forwarding property")
 
 3. Update the property name using the following formula: `Event Forward Property SB + [sandbox number]`. Your final name would look something like this: **Event Forward Property SB01**
 
@@ -29,13 +29,13 @@ We usually want to forward an Experience Event out to a third party (though it d
 
 1. Click on the Event Forwarding Property you just created
 
-![List of Event Forwarding properties with the newly created property highlighted](assets/create-property-open-new-property.png "Open your event property")
+   ![List of Event Forwarding properties with the newly created property highlighted](assets/create-property-open-new-property.png "Open your event property")
 
 
 
 2. You should see a screen like below.  Click on **Extensions**.
 
-![Event Forwarding property overview screen with the Extensions tab highlighted](assets/create-property-click-extensions-tab.png)
+   ![Event Forwarding property overview screen with the Extensions tab highlighted](assets/create-property-click-extensions-tab.png)
 
 
 
@@ -63,46 +63,46 @@ After clicking install you should see the extension show under the Installed ext
 
 
 
-![Left rail navigation with the Data Elements link highlighted](assets/create-property-navigate-to-data-elements.png "Navigate to data elements")
+   ![Left rail navigation with the Data Elements link highlighted](assets/create-property-navigate-to-data-elements.png "Navigate to data elements")
 
 
 
 2. Click on the **Create New Data Element** button
 
-![Data Elements page with the Create New Data Element button highlighted](assets/create-property-create-new-data-element-button.png "Create New Data Element")
+   ![Data Elements page with the Create New Data Element button highlighted](assets/create-property-create-new-data-element-button.png "Create New Data Element")
 
 
 
 3. Configure the new data element with the following information:
 
-| Element Type      | Value to Configure |
-| ----------------- | ------------------ |
-| Name              | Data Object        |
-| Extension         | Core               |
-| Data Element Type | Custom Code        |
+   | Element Type      | Value to Configure |
+   | ----------------- | ------------------ |
+   | Name              | Data Object        |
+   | Extension         | Core               |
+   | Data Element Type | Custom Code        |
 
-![Data element configuration with Name, Extension, and Data Element Type fields set](assets/create-property-data-element-config-step-1.png "Step 1 of data element config")
+   ![Data element configuration with Name, Extension, and Data Element Type fields set](assets/create-property-data-element-config-step-1.png "Step 1 of data element config")
 
 
 
 4. Click on the button **Open Editor** to add the following custom code:
 
-![Data element settings with the Open Editor button highlighted for custom code](assets/create-property-open-custom-code-editor.png "Open the editor")
+   ![Data element settings with the Open Editor button highlighted for custom code](assets/create-property-open-custom-code-editor.png "Open the editor")
 
 
 
 5. Add custom code to the editor like so and save it
 
-```none
-var xdm = arc?.event || '';
-return xdm;
-```
+   ```none
+   var xdm = arc?.event || '';
+   return xdm;
+   ```
 
-![Custom code editor showing the script that returns the incoming XDM event object](assets/create-property-custom-code-added.png "Custom code")
+   ![Custom code editor showing the script that returns the incoming XDM event object](assets/create-property-custom-code-added.png "Custom code")
 
->[!NOTE]
->
->This is grabbing the whole xdm object without doing any translations to the payload.  If needed we could parse out each individual pieces within the XDM object (e.g. page name, purchase amount), into one data element per field.  The reason for doing this might be if there is transformation of the structure to a different structure
+   >[!NOTE]
+   >
+   >This is grabbing the whole xdm object without doing any translations to the payload.  If needed we could parse out each individual pieces within the XDM object (e.g. page name, purchase amount), into one data element per field.  The reason for doing this might be if there is transformation of the structure to a different structure
 
 
 
@@ -132,27 +132,27 @@ When done you should see the following screen confirming your data element has b
 
 1. In the left rail click on **Rules**
 
-![Left rail navigation with the Rules link highlighted](assets/create-property-navigate-to-rules.png)
+   ![Left rail navigation with the Rules link highlighted](assets/create-property-navigate-to-rules.png)
 
 
 
 2. Then click on **Create New Rule**
 
-![Rules page with the Create New Rule button highlighted](assets/create-property-new-rule-button.png)
+   ![Rules page with the Create New Rule button highlighted](assets/create-property-new-rule-button.png)
 
 
 
 3. Update the rule name using the following formula: `"EF Rule SB" + [your sandbox number]` (i.e. EF Rule SB01). You can find your sandbox number in the top right of your browser window as shown below\...
 
-![Browser window top right corner showing the sandbox number used in the rule name](assets/create-property-sandbox-number-location.png)
+   ![Browser window top right corner showing the sandbox number used in the rule name](assets/create-property-sandbox-number-location.png)
 
 4. Click **Save** when done
 
->[!NOTE]
->
->Make sure your rule name follows the formula pattern of `"EF Rule SB" + [sandbox number]`
+   >[!NOTE]
+   >
+   >Make sure your rule name follows the formula pattern of `"EF Rule SB" + [sandbox number]`
 
-![Rule name field filled in with the EF Rule sandbox naming pattern](assets/create-property-add-rule-name.png "Add name to rule")
+   ![Rule name field filled in with the EF Rule sandbox naming pattern](assets/create-property-add-rule-name.png "Add name to rule")
 
 
 
@@ -171,7 +171,7 @@ When done you should see the following screen confirming your data element has b
 1. Open the following link in a new tab in your browser -> [https://webhook.site](https://webhook.site/)
 2. Copy the unique URL you see and save it somewhere safe
 
-![Webhook.site page with the unique URL highlighted for copying](assets/create-property-webhooksite-copy-url.png)
+   ![Webhook.site page with the unique URL highlighted for copying](assets/create-property-webhooksite-copy-url.png)
 
 
 
@@ -218,26 +218,26 @@ When you are done validate your screen looks similar to below and then click on 
 
 1. In the left rail click on **Publishing Flow**
 
-![Left rail navigation with the Publishing Flow link highlighted](assets/create-property-navigate-to-publishing-flow.png "Navigate to the Publishing Flow")
+   ![Left rail navigation with the Publishing Flow link highlighted](assets/create-property-navigate-to-publishing-flow.png "Navigate to the Publishing Flow")
 
 
 
 2. Click on the button **Add Library**
 
-![Publishing Flow page with the Add Library button highlighted](assets/create-property-add-library-button.png "Add library")
+   ![Publishing Flow page with the Add Library button highlighted](assets/create-property-add-library-button.png "Add library")
 
 
 
 3. Configure the library with the following information:
 
-- Name -> **EF Library**
-- Environment -> **Development**
-- Click on **Add All Changed Resources**
+   - Name -> **EF Library**
+   - Environment -> **Development**
+   - Click on **Add All Changed Resources**
 
 
-When done your screen should look similar to the below screenshot.  If everything looks good click on the **Save & Build to Development** button
+   When done your screen should look similar to the below screenshot.  If everything looks good click on the **Save & Build to Development** button
 
-![Library configuration with name, Development environment, and Save & Build to Development button](assets/create-property-configure-library-save-and-build.png)
+   ![Library configuration with name, Development environment, and Save & Build to Development button](assets/create-property-configure-library-save-and-build.png)
 
 
 

@@ -50,7 +50,7 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 
 1. Preview the mapping output. Scroll through all the attributes to ensure there is no red exclamation next to any of the attributes on the right-hand side. 
 
-![Preview mapping screen with no errors on any mapped attributes](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "Preview mapping screen will look like this")
+   ![Preview mapping screen with no errors on any mapped attributes](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "Preview mapping screen will look like this")
 
 1. On the left-hand side navigation of the Preview, select the **productListItems** object array. The right-hand side updates to show only the attributes in that object array. 
 
@@ -64,9 +64,9 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 
 1. Set the schedule to run **every 15 minutes** by setting the Frequency as Minute and Interval as 15. Review the flow and click Finish. 
 
->[!CAUTION]
->
->Ensure that your schedule is set to 15 minutes. If you schedule the run as **Run Once**, you cannot run it again even if you make changes to the mapping later.
+   >[!CAUTION]
+   >
+   >Ensure that your schedule is set to 15 minutes. If you schedule the run as **Run Once**, you cannot run it again even if you make changes to the mapping later.
 
 1. Dataflow execution does not start immediately and takes a few minutes. So, the last Dataflow Run Status is set to “*No runs*”.
 

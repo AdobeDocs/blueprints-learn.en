@@ -52,7 +52,7 @@ This allows you to send data to the Hub and land in a dataset for data received 
 
 1. Click the blue **Add Service** button found in the middle of the screen
 
-![Add Service button on the datastream configuration screen](assets/create-datastream-add-service-button.png)
+   ![Add Service button on the datastream configuration screen](assets/create-datastream-add-service-button.png)
 
 2. Configure the following items:
    - **Service** -> `Adobe Experience Platform`

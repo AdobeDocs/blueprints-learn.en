@@ -14,7 +14,7 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 ## Validate event
 
-> [!NOTE]
+>[!NOTE]
 >
 >Eventually the data will appear in the Data Lake.  **This could take up to 60 minutes**.  We know the dataset is enabled for profile and thus the event will create a profile fragment.
 >
@@ -22,18 +22,18 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 1. Go to **Queries** and **Create Query**
 
-![Create Query screen in the Queries section](assets/validate-event-on-data-lake-create-query.png)
+   ![Create Query screen in the Queries section](assets/validate-event-on-data-lake-create-query.png)
 
 2. Copy this SQL and paste it into your query
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
 3. **Run** Query
 
-> [!NOTE]
+>[!NOTE]
 >
 >**Remember**: Eventually the data will appear in the Data Lake.  **This could take up to 60 minutes**.
 >

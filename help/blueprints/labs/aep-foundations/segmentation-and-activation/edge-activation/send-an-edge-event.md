@@ -103,11 +103,11 @@ In Adobe Experience Platform look up the profile you just sent in from the event
 1. Click **View** to look up the profile
 1. Click on the **Profile ID** to open the profile
 
-![Profile Browse search results with the View link to open the matched profile](assets/send-an-edge-event-lookup-profile.png "Lookup profile")
+   ![Profile Browse search results with the View link to open the matched profile](assets/send-an-edge-event-lookup-profile.png "Lookup profile")
 
 1. Click on **Events** in the top nav and you can see the event you just sent in
 
-![Profile Events tab showing the experience event that was just sent to the Edge](assets/send-an-edge-event-view-profile-event.png "View the profile event")
+   ![Profile Events tab showing the experience event that was just sent to the Edge](assets/send-an-edge-event-view-profile-event.png "View the profile event")
 
 1. Validate the Profile has qualified for the Audiences by reviewing the Audience Membership tab in the top nav. You should see the following:
 

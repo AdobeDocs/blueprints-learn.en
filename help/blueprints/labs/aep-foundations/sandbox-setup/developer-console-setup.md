@@ -9,7 +9,7 @@ exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
 
 # Developer console setup
 
-> [!NOTE]
+>[!NOTE]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 

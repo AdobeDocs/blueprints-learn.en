@@ -61,13 +61,13 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 1. Copy `envFiles/sample-env.json` and give it a new name, e.g. `my-env.json`
 2. Open the file and fill in the following fields using the values from [Developer Console setup](developer-console-setup.md):
 
-| **Field**       | **Value**                                                                                                                                                                                                                                                           |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY`       | Client ID                                                                                                                                                                                                                                                           |
-| `CLIENT_SECRET` | Client Secret                                                                                                                                                                                                                                                       |
-| `IMS_ORG`       | Organization ID                                                                                                                                                                                                                                                     |
-| `SCOPES`        | Must include both Experience Platform API and Adobe Journey Optimizer API scopes<br />*(e.g. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
-| `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                                                                                                                                                      |
+   | **Field**       | **Value**                                                                                                                                                                                                                                                           |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY`       | Client ID                                                                                                                                                                                                                                                           |
+   | `CLIENT_SECRET` | Client Secret                                                                                                                                                                                                                                                       |
+   | `IMS_ORG`       | Organization ID                                                                                                                                                                                                                                                     |
+   | `SCOPES`        | Must include both Experience Platform API and Adobe Journey Optimizer API scopes<br />*(e.g. cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
+   | `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                                                                                                                                                      |
 
 3. Save and close the file
 
@@ -113,7 +113,7 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 >
 >Use Step 6 instead of running Steps 4 and 5 separately — it does the same thing in one pass with the propagation wait handled for you.
 
-> [!NOTE]
+>[!NOTE]
 >
 >All wait times above are checked automatically by the CLI. If you run a step too early, it blocks and tells you how long to wait.
 

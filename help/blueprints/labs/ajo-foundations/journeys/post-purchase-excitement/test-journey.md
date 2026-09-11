@@ -18,23 +18,23 @@ Use the journey testing tools to verify that the event trigger and journey logic
 2. Click on your **Journey** to open it
 3. Click on **Alerts** & ensure no errors (warnings are ok)
 
-![Alerts panel showing no errors after opening the journey](assets/test-journey-alerts-no-errors.png)
+   ![Alerts panel showing no errors after opening the journey](assets/test-journey-alerts-no-errors.png)
 
->[!NOTE]
->
->**What is CJMMAS - 2001-200**
->
->Indicates the opt-out link is missing in an email variant
+   >[!NOTE]
+   >
+   >**What is CJMMAS - 2001-200**
+   >
+   >Indicates the opt-out link is missing in an email variant
 
 4. Click on the **Simulate** and on the left side, select **Test Mode**
 
-![Test Mode selected under Simulate on the left side](assets/test-journey-select-test-mode.png)
+   ![Test Mode selected under Simulate on the left side](assets/test-journey-select-test-mode.png)
 
 
 
->[!NOTE]
->
->It might take a minute to get ready. During that time the Trigger an Event button will not be available.
+   >[!NOTE]
+   >
+   >It might take a minute to get ready. During that time the Trigger an Event button will not be available.
 
 
 
@@ -44,17 +44,17 @@ Use the journey testing tools to verify that the event trigger and journey logic
    - **Order ID**: `123`
 6. Click **Send** (note, it takes a few seconds to respond after clicking send)
 
-![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
+   ![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
 
-> [!WARNING]
->
->Some students get errors and need to send this a few times. You may have to do this **multiple** times.
->
->**Sometimes** the first Send gives an error of:
->
->**Inlet does not exist (Reference id: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
->
->If you get an error, Click **Trigger an Event**, then **send** again.  You may have to do this **multiple times**.
+   >[!WARNING]
+   >
+   >Some students get errors and need to send this a few times. You may have to do this **multiple** times.
+   >
+   >**Sometimes** the first Send gives an error of:
+   >
+   >**Inlet does not exist (Reference id: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
+   >
+   >If you get an error, Click **Trigger an Event**, then **send** again.  You may have to do this **multiple times**.
 
 
 
@@ -62,7 +62,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 ![Show Log option under Results after triggering the test event](assets/test-journey-show-log-results.png)
 
-> [!NOTE]
+>[!NOTE]
 >
 >Some students who received errors sometimes receive different logs showing an empty instances array `{"instances": []}`. This is not a blocker, go ahead and move on to the next step.
 
@@ -102,11 +102,11 @@ You should see something like this in the log:
 8. **Close** the Browser **tab**
 9. **Close Test Mode** in the top right
 
-![Close Test Mode button in the top right](assets/test-journey-close-test-mode.png)
+   ![Close Test Mode button in the top right](assets/test-journey-close-test-mode.png)
 
 10. Click on **Publish** the Journey in the top right
 
-![Publish button for the Journey in the top right](assets/test-journey-publish-journey.png)
+   ![Publish button for the Journey in the top right](assets/test-journey-publish-journey.png)
 
 11. **Close** the **Journey** by clicking \<- arrow in the top left
 

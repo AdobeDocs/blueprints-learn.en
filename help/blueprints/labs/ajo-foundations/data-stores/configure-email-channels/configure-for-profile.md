@@ -17,7 +17,7 @@ In the next set of steps you will create an Email Channel Configuration with bot
 1. Navigate to **Channel Configurations** found under the menu **Administration → Channels → General settings**
 2. Click the **Create configuration** button
 
-![Create channel configuration](assets/configure-for-profile-create-configuration-button.png)
+   ![Create channel configuration](assets/configure-for-profile-create-configuration-button.png)
 
 3. In the Create wizard set the following values:
    - **Name:**  `Profile-Email`
@@ -88,43 +88,43 @@ Leave with the default settings
 
 1. Complete the **Execution details** section. Under the **Journey and Action** tab -> **Execution dimension**, select **Profile** as **Source** and click on the Edit icon for **Delivery address** under the **Execution Address** section
 
-![Execution details](assets/configure-for-profile-execution-details-journey-tab.png)
+   ![Execution details](assets/configure-for-profile-execution-details-journey-tab.png)
 
 2. Click on the folder titled **Personal Email** to open it up
 
-![Delivery address](assets/configure-for-profile-personal-email-folder.png)
+   ![Delivery address](assets/configure-for-profile-personal-email-folder.png)
 
 3. Click the **checkbox** on the `Address` field then click the **Select** button
 
-![Personal Email as Delivery address](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![Personal Email as Delivery address](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
 4. For **Profile**, the `personalEmail.address` is now configured as the **Delivery address** under **Execution Address** section
 
-![Delivery address configured](assets/configure-for-profile-delivery-address-configured-journeys.png)
+   ![Delivery address configured](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
 5. Click on the Orchestrated campaign tab and **check** the Enabled checkbox.
 
-![Orchestrated campaign configuration](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Orchestrated campaign configuration](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
 6. Under the Execution dimension heading configure the following:
    - **Deliver one message per:**  `Target Dimension`
    - **Profile Target Dimension:**  `dep-rel: Customer Account - customer_id`
 
-![Target Dimension](assets/configure-for-profile-target-dimension-settings.png)
+   ![Target Dimension](assets/configure-for-profile-target-dimension-settings.png)
 
 7. Under Execution Address configure the following:
    - **Source:** `Profile`
    - **Delivery address:** `click on the Edit icon`
 
-![Execution Address](assets/configure-for-profile-execution-address-source-profile.png)
+   ![Execution Address](assets/configure-for-profile-execution-address-source-profile.png)
 
 8. Search for and click on the `Personal Email` folder to open it
 
-![Personal Email Profile attribute](assets/configure-for-profile-search-personal-email-folder.png)
+   ![Personal Email Profile attribute](assets/configure-for-profile-search-personal-email-folder.png)
 
 9. Select the `Address` field within the Personal Email folder and click on **Select**
 
-![Personal Email as Delivery address](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![Personal Email as Delivery address](assets/configure-for-profile-select-address-field-orchestrated.png)
 
 10. For **Orchestrated campaign**, the **dep-rel: Customer Account - customer\_id** is configured as **Profile Target Dimension** for **Execution dimension** with **Execution Address** having a **Source** of **Profile** and `personalEmail.address` as **Delivery address**
 
@@ -140,7 +140,7 @@ Leave with the default settings
 1. Review all details again to ensure they match. 
 1. Scroll up and click on **Submit**. 
 
-> [!NOTE]
+>[!NOTE]
 >
 >The processing of the Email channel configuration has been observed to take up to 2hrs!  Yikes! 
 >

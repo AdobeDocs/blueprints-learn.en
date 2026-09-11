@@ -12,7 +12,7 @@ exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
 
 By the end of this lab, you will be able to install Postman, configure a basic workspace and environment so that you can make subsequent api calls needed by future labs.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >Postman is required for various labs in this course.  Even if you have already installed Postman, you will need to complete this lab to ensure that you have the Environment Files and API Collection installed and properly set up.
 

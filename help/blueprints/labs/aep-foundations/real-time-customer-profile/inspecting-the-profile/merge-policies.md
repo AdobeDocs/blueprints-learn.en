@@ -23,7 +23,7 @@ A Merge Policy does two things:
    - Timestamp Precedence - use the most recent record from all datasets as the truth set and let all other records fill in the gaps in order of recent to oldest
    - Dataset Precedence - pick what XDM Individual Profile datasets are allowed to be used to form the profile and in what order to assemble them
 
-> [!NOTE]
+>[!NOTE]
 >
 >When the merge method of Dataset Precedence is chosen you can choose which XDM Individual Profile and XDM Experience Event datasets are allowed to be used in the profile's formation.  
 >
@@ -115,9 +115,9 @@ Go ahead and open the profile viewer following the below steps:
 1. Click on the **View** button to lookup the profile
 1. Click on the **link** to the profile to see the profile's details
 
-![Looking up the Depeche Mode profile by email using the default timestamp-based merge policy](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Lookup Depeche Mode with the default timebased merge policy")
+   ![Looking up the Depeche Mode profile by email using the default timestamp-based merge policy](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Lookup Depeche Mode with the default timebased merge policy")
 
-Do another search for the Depeche Mode profile but this time using the **No ID Stitching** merge policy.  
+   Do another search for the Depeche Mode profile but this time using the **No ID Stitching** merge policy.  
 
 1. Right click on **Profiles** in the left rail and then select **open in a new tab**
 1. In the top navigation select **Browse**
@@ -191,7 +191,7 @@ When the identity graph is used with the profile store you can think of it as gi
 
 Without the identity graph the profile store can only retrieve profile fragments using a single identifier (i.e. primary identity)
 
-> [!TIP]
+>[!TIP]
 >
 >**Have some extra time and want to experiment...:**
 >

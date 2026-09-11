@@ -14,7 +14,7 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 
 1. Go to Adobe Experience Platform -> Assurance -> Create Session
 
-![Navigate to Adobe Experience Platform Assurance and create a session](assets/monitor-your-event-navigate-to-assurance-create-session.png)
+   ![Navigate to Adobe Experience Platform Assurance and create a session](assets/monitor-your-event-navigate-to-assurance-create-session.png)
 
 
 
@@ -31,19 +31,19 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
    - Note this URL would be replaced by your customer's actual site 
 1. Click the Next button
 
-![Click Next after entering the session name and URL](assets/monitor-your-event-click-next-button.png)
+   ![Click Next after entering the session name and URL](assets/monitor-your-event-click-next-button.png)
 
 4. Copy the link somewhere you can reference later
 
 5. Click the **Done** button
 
-![Copy the Assurance session link and click Done](assets/monitor-your-event-copy-link.png)
+   ![Copy the Assurance session link and click Done](assets/monitor-your-event-copy-link.png)
 
 
 
 6. Navigate to **Settings**
 
-![Navigate to the Settings tab in the Assurance session](assets/monitor-your-event-navigate-to-settings.png "Click on settings")
+   ![Navigate to the Settings tab in the Assurance session](assets/monitor-your-event-navigate-to-settings.png "Click on settings")
 
 
 
@@ -59,7 +59,7 @@ Go to Postman -> Create Web Event Edge (No Auth) -> Headers
 1. Add the **x-adobe-aep-validation-token** to the Headers with the link copied above from Assurance. Grab **just the ID** value after the = in the link you copied from Assurance. e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. We would just use the [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) value, not the full url
 
-![Add the x-adobe-aep-validation-token header with the Assurance session ID in Postman](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
+   ![Add the x-adobe-aep-validation-token header with the Assurance session ID in Postman](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 

@@ -51,7 +51,7 @@ Use the Order Placed Event Type card and drag it onto the canvas.
 
 ![Drag the Order Placed event type card onto the canvas](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-> [!TIP]
+>[!TIP]
 >
 >**Optional:**
 >

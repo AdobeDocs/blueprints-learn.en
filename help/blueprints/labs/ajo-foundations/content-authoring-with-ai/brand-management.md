@@ -42,7 +42,7 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
 
 1. Open the **Connection 5G Brand Guideline** PDF from the toolkit folder (make sure you unzip it first). 
 
-![Connection 5G Brand Guideline PDF opened from the toolkit folder](assets/brand-management-open-brand-guideline-pdf.png)
+   ![Connection 5G Brand Guideline PDF opened from the toolkit folder](assets/brand-management-open-brand-guideline-pdf.png)
 
 2. Review the document to understand content used for Connection 5G:
    - Tone of voice
@@ -57,35 +57,35 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
 1. In Adobe Journey Optimizer, go to the left navigation and click **Brands**.
 2. Click **Create Brand**.
 
-![Create Brand button in the Brands section](assets/brand-management-click-create-brand-button.png)
+   ![Create Brand button in the Brands section](assets/brand-management-click-create-brand-button.png)
 
 3. In the **Name** field, enter `Connection 5G Brand Guidelines`
 4. In the upload area, drag and drop the **Connection5g Brand Guidelines.pdf** file (or click **Select files** and choose it from your computer).
 
-![Drag and drop the Connection5g Brand Guidelines PDF into the upload area](assets/brand-management-upload-brand-guideline-pdf.png)
+   ![Drag and drop the Connection5g Brand Guidelines PDF into the upload area](assets/brand-management-upload-brand-guideline-pdf.png)
 
 5. Click **Create brand** to begin the extraction.
 
-A progress screen appears while AJO analyses your file. This may take several minutes depending on the size of the document.
+   A progress screen appears while AJO analyses your file. This may take several minutes depending on the size of the document.
 
-![Progress screen shown while AJO analyses the brand guideline file](assets/brand-management-extraction-progress-screen.png)
+   ![Progress screen shown while AJO analyses the brand guideline file](assets/brand-management-extraction-progress-screen.png)
 
 6. Once extraction is complete:
    - A green confirmation bar appears at the top.
    - You are automatically redirected to the brand configuration screen.
    - Content and visual creation standards are now automatically populated based on the Brand Guidelines file uploaded.
 
-![Brand configuration screen populated after extraction completes](assets/brand-management-brand-configuration-populated.png)
+   ![Brand configuration screen populated after extraction completes](assets/brand-management-brand-configuration-populated.png)
 
 7. Click on **Publish** button to publish the brand guidelines. 
 
-![Publish button for the brand guidelines](assets/brand-management-click-publish-button.png)
+   ![Publish button for the brand guidelines](assets/brand-management-click-publish-button.png)
 
 8. Confirm by pressing "Publish" button to confirm. 
 
-![Confirm Publish dialog for the brand guidelines](assets/brand-management-confirm-publish-dialog.png)
+   ![Confirm Publish dialog for the brand guidelines](assets/brand-management-confirm-publish-dialog.png)
 
-A green confirmation bar appears at the bottom of the page indicating that your brand is successfully published.
+   A green confirmation bar appears at the bottom of the page indicating that your brand is successfully published.
 
 9. Click back on the main brand page and you see your brand is now live (this should be shown by a green dot with the label **"Live"**).
 
@@ -146,31 +146,31 @@ In the extracted content, some guiding principles may be incomplete. Now complet
 
 1. Click on the brand you just created
 
-![Clicking the newly created Connection 5G brand card](assets/brand-management-click-created-brand-card.png)
+   ![Clicking the newly created Connection 5G brand card](assets/brand-management-click-created-brand-card.png)
 
 2. Click **Edit Brand**. A confirmation tab appears; click **Edit Brand** again to confirm.
 
-![Edit Brand button and confirmation tab](assets/brand-management-click-edit-brand-button.png)
+   ![Edit Brand button and confirmation tab](assets/brand-management-click-edit-brand-button.png)
 
 3. Go to the **About the Brand** tab.
 
-![Navigating to the About the Brand tab while editing](assets/brand-management-about-the-brand-tab-edit.png)
+   ![Navigating to the About the Brand tab while editing](assets/brand-management-about-the-brand-tab-edit.png)
 
 4. Locate the section for **Guiding principles**, **Vision**, or similar high-level description.
 
-![Guiding principles and Vision section in the About the Brand tab](assets/brand-management-guiding-principles-vision-section.png)
+   ![Guiding principles and Vision section in the About the Brand tab](assets/brand-management-guiding-principles-vision-section.png)
 
 5. Add the following text:
 
-**Vision:**
+   **Vision:**
 
->Empower every individual with instant, reliable connectivity that enhances life, work, and play, no matter where they are.
+   >Empower every individual with instant, reliable connectivity that enhances life, work, and play, no matter where they are.
 
-**Market positioning:**
+   **Market positioning:**
 
->Connection 5G delivers premium-speed mobile service designed for digital lifestyles, standing out with unmatched reliability, simplicity, and future-ready innovation.
+   >Connection 5G delivers premium-speed mobile service designed for digital lifestyles, standing out with unmatched reliability, simplicity, and future-ready innovation.
 
-![Vision and market positioning text added to the brand](assets/brand-management-vision-market-positioning-added.png)
+   ![Vision and market positioning text added to the brand](assets/brand-management-vision-market-positioning-added.png)
 
 6. Click **Save**. (If you do not see the **Save** button, click the **Overview** tab first, then click **Save**.)
 
@@ -185,34 +185,34 @@ Next, enhance the brand by adding a rule that ensures email buttons are never wr
 
 1. Go to the **Writing Style** tab.
 
-![Writing Style tab opened to add an exclusion rule](assets/brand-management-writing-style-tab-exclusion.png)
+   ![Writing Style tab opened to add an exclusion rule](assets/brand-management-writing-style-tab-exclusion.png)
 
 2. Make sure you are in the **Brand communication style** section.
 
-![Brand communication style section in the Writing Style tab](assets/brand-management-brand-communication-style-section.png)
+   ![Brand communication style section in the Writing Style tab](assets/brand-management-brand-communication-style-section.png)
 
 3. Under the **Don’ts** area, click the **plus** icon to add a new rule.
 
-![Plus icon under the Don'ts area to add a new rule](assets/brand-management-add-donts-rule-plus-icon.png)
+   ![Plus icon under the Don'ts area to add a new rule](assets/brand-management-add-donts-rule-plus-icon.png)
 
 4. Configure the rule as follows:
    - **Exclusion:** `Be pushy` 
 
->[!NOTE]
->
->This is added as a Don’t rule, meaning the brand does not want pushy CTAs
+   >[!NOTE]
+   >
+   >This is added as a Don’t rule, meaning the brand does not want pushy CTAs
 
-**Channel:** Email
+   **Channel:** Email
 
-**Element:** Button
+   **Element:** Button
 
 5. Click **Add**.
 
-![Add button for the Be pushy exclusion rule](assets/brand-management-click-add-rule-button.png)
+   ![Add button for the Be pushy exclusion rule](assets/brand-management-click-add-rule-button.png)
 
 6. Confirm that the new Don’t rule appears as `Be pushy` in the list.
 
-![Be pushy Don't rule confirmed in the rule list](assets/brand-management-be-pushy-dont-rule-confirmed.png)
+   ![Be pushy Don't rule confirmed in the rule list](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
 7. Click **Save**.
 
@@ -233,11 +233,11 @@ Once you are satisfied with the configuration:
 1. Go back to the **Overview** tab. Click **Save**. 
 2. In the top right corner, click **Publish**.
 
-![Publish button in the top right corner](assets/brand-management-click-publish-top-right.png)
+   ![Publish button in the top right corner](assets/brand-management-click-publish-top-right.png)
 
 3. A confirmation dialog appears explaining that you are about to publish the updated Brand Guidelines for Connection 5G. Click **Publish** again to confirm.
 
-![Confirmation dialog to publish the updated Brand Guidelines](assets/brand-management-confirm-publish-updated-guidelines.png)
+   ![Confirmation dialog to publish the updated Brand Guidelines](assets/brand-management-confirm-publish-updated-guidelines.png)
 
 4. Wait for the green confirmation bar to appear.
 5. Click **Back** to return to the Brands list.

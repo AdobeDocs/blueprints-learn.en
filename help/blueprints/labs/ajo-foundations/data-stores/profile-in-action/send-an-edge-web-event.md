@@ -66,16 +66,16 @@ Before you can execute the API request you need to add the datastream ID to the 
 
 1. Click on **Variables in Request** in the top right
 
-![Variables in Request option in the Postman toolbar](assets/send-an-edge-web-event-click-variables-in-request.png)
+   ![Variables in Request option in the Postman toolbar](assets/send-an-edge-web-event-click-variables-in-request.png)
 
 2. Update the **DATASTREAM_CONFIG** **Value** with the **datastream ID** from the first step on the page.
 
-![DATASTREAM_CONFIG variable updated with the datastream ID](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   ![DATASTREAM_CONFIG variable updated with the datastream ID](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
 3. **Save** your update (ctrl+s or command+s)
 4. Click the '**X**' in the upper right corner of the environment sidebar to close the sidebar
 
-![Closing the Postman environment sidebar after saving](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![Closing the Postman environment sidebar after saving](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
 5. The **Create Web Event** request is now ready to send since all of the variables are now blue and have a value in the environment.
 

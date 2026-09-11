@@ -66,7 +66,7 @@ Also notice how each specific field from the mapping sheet is substantiated with
 
 
 
-![Example title and description filled in for the custom field group](assets/create-custom-field-groups-field-group-title-description-example.png "Field Group Title & Description Example")
+   ![Example title and description filled in for the custom field group](assets/create-custom-field-groups-field-group-title-description-example.png "Field Group Title & Description Example")
 
 
 

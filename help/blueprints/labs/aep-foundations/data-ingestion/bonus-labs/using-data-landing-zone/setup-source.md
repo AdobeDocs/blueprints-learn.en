@@ -38,25 +38,25 @@ When uploaded your screen should look like the below screenshot.
 
 1. Select the **Lab\_Customer\_Account.csv**
 
-![Selecting the Lab_Customer_Account.csv file to preview in Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
+   ![Selecting the Lab_Customer_Account.csv file to preview in Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
 
 1. In the preview pane, look at the following attributes and observe the following:
 
-- **sms\_optIn** is a consent field that has several missing values (shown in preview as - )
-- **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
-- **account\_end\_date** has the proper date format.
+   - **sms\_optIn** is a consent field that has several missing values (shown in preview as - )
+   - **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
+   - **account\_end\_date** has the proper date format.
 
 
 
-![sms_optIn field with several missing values shown in the file preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
+   ![sms_optIn field with several missing values shown in the file preview](assets/setup-source-sms-optin-missing-values.png "sms_optin")
 
 
 
-![account_create_date and account_end_date fields shown in the file preview](assets/setup-source-account-create-date-account-end-date.png "account_create_date & account_end_date")
+   ![account_create_date and account_end_date fields shown in the file preview](assets/setup-source-account-create-date-account-end-date.png "account_create_date & account_end_date")
 
->[!NOTE]
->
->You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab
+   >[!NOTE]
+   >
+   >You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab
 
 1. Click **Next** in the upper right corner of the screen to continue to the next step
 

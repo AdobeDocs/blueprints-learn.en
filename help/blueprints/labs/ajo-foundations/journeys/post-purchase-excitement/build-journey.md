@@ -81,19 +81,19 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped** e
 
 1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails** after the orderShipped event
 
-![Drag the GetShippingDetails custom action onto the canvas after the orderShipped event](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
+   ![Drag the GetShippingDetails custom action onto the canvas after the orderShipped event](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
 2. In the right rail, under Access and privacy configuration --> Marketing Action drop-down ensure the value is set to **None**
 
-![Marketing Action drop-down set to None in Access and privacy configuration](assets/build-journey-set-marketing-action-to-none.png)
+   ![Marketing Action drop-down set to None in Access and privacy configuration](assets/build-journey-set-marketing-action-to-none.png)
 
 3. Under the Endpoint configuration --> Query Parameters menu click on the **Pencil icon** next to orderid
 
-![Pencil icon to edit the orderid query parameter in Endpoint configuration](assets/build-journey-edit-orderid-query-parameter.png)
+   ![Pencil icon to edit the orderid query parameter in Endpoint configuration](assets/build-journey-edit-orderid-query-parameter.png)
 
 4. In the modal that appears expand **Context** -> **orderShipped** -> **Order** and then select **Order ID (orderID)** and click **OK**
 
-![Select Order ID (orderID) from the orderShipped Order context fields](assets/build-journey-select-order-id-context-field.png)
+   ![Select Order ID (orderID) from the orderShipped Order context fields](assets/build-journey-select-order-id-context-field.png)
 
 5. Back in the right rail, ensure the option for Timeout or error is **unchecked** and then click the **Save button**
 
@@ -105,15 +105,15 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped** e
 
 1. Under the Actions menu drag 'n drop the **Action** action onto the canvas after the GetShippingDetails action
 
-![Drag the Action node onto the canvas after the GetShippingDetails action](assets/build-journey-drag-email-action-onto-canvas.png)
+   ![Drag the Action node onto the canvas after the GetShippingDetails action](assets/build-journey-drag-email-action-onto-canvas.png)
 
 2. Select **Email** for the marketing action, then **Add**.
 
-![Select Email as the marketing action and click Add](assets/build-journey-select-email-marketing-action.png)
+   ![Select Email as the marketing action and click Add](assets/build-journey-select-email-marketing-action.png)
 
 3. In the right rail, click **Configure action**
 
-![Configure action button in the right rail](assets/build-journey-click-configure-action.png)
+   ![Configure action button in the right rail](assets/build-journey-click-configure-action.png)
 
 4. set **Email channel Configuration** to `Profile-Email` and then click on **Edit Content**
 
@@ -127,60 +127,60 @@ For content, you are going to keep things simple. Like stupid simple.
 
 1. Update the Subject line to `Order Shipped` and then click on the **Edit email body button**
 
-![Subject line updated to Order Shipped with Edit email body button](assets/build-journey-update-subject-line-order-shipped.png)
+   ![Subject line updated to Order Shipped with Edit email body button](assets/build-journey-update-subject-line-order-shipped.png)
 
 2. In the top bar click on the **Design from Scratch** content block
 
-![Design from Scratch content block in the top bar](assets/build-journey-click-design-from-scratch.png)
+   ![Design from Scratch content block in the top bar](assets/build-journey-click-design-from-scratch.png)
 
 3. From the left bar under the Structure container drag 'n drop the **1:1 Column** onto the canvas
 
-![Drag the 1:1 Column structure element onto the email canvas](assets/build-journey-drag-1-1-column-onto-canvas.png)
+   ![Drag the 1:1 Column structure element onto the email canvas](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
 4. Then under the Contents container drag 'n drop the **Text** component into your **1:1 Column**
 
-![Drag the Text component into the 1:1 Column](assets/build-journey-drag-text-component-into-column.png)
+   ![Drag the Text component into the 1:1 Column](assets/build-journey-drag-text-component-into-column.png)
 
 5. Click into the Text component and **delete the current text** and then click the **Add Personalization** icon
 
-![Add Personalization icon after deleting the default text](assets/build-journey-click-add-personalization-icon.png)
+   ![Add Personalization icon after deleting the default text](assets/build-journey-click-add-personalization-icon.png)
 
 6. In the left rail click on the **Contextual Attributes** folder and then navigate thru **Journey Orchestration** -> **Actions** and select **GetShippingDetails**
 
-![Select GetShippingDetails under Contextual Attributes - Journey Orchestration - Actions](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
+   ![Select GetShippingDetails under Contextual Attributes - Journey Orchestration - Actions](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
 
 7. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
 
-```json
-{{profile.person.name.firstName}}, your order has shipped
-ETA: 
-Tracking Number: 
-```
+   ```json
+   {{profile.person.name.firstName}}, your order has shipped
+   ETA: 
+   Tracking Number: 
+   ```
 
 8. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
    - **ETA:** `eta`
    - **Tracking Number:**  `tracking_number`
 
-![ETA and Tracking Number personalization fields added to the email](assets/build-journey-add-eta-tracking-number-fields.png)
+   ![ETA and Tracking Number personalization fields added to the email](assets/build-journey-add-eta-tracking-number-fields.png)
 
->[!NOTE]
->
->Click the **+ symbol** to add personalization attributes from the rail to the canvas.  It will place them where your cursor is so ensure you are "lined up" appropriately
+   >[!NOTE]
+   >
+   >Click the **+ symbol** to add personalization attributes from the rail to the canvas.  It will place them where your cursor is so ensure you are "lined up" appropriately
 
->[!NOTE]
->
->Your email will use a combination of context attributes (ETA & tracking number) and Profile attributes (first Name). If you wanted to add other Profile attributes, you can click on the Profile Attributes tab and select anything you see.
->
->![Profile Attributes tab for adding additional profile attributes](assets/build-journey-profile-attributes-tab.png)
+   >[!NOTE]
+   >
+   >Your email will use a combination of context attributes (ETA & tracking number) and Profile attributes (first Name). If you wanted to add other Profile attributes, you can click on the Profile Attributes tab and select anything you see.
+   >
+   >![Profile Attributes tab for adding additional profile attributes](assets/build-journey-profile-attributes-tab.png)
 
 9. On the bottom of the screen click the **Validate** button and ensure you have no errors
 
-![Validate button with no errors shown at the bottom of the screen](assets/build-journey-click-validate-button.png)
+   ![Validate button with no errors shown at the bottom of the screen](assets/build-journey-click-validate-button.png)
 
 10. If everything looks good click the **Save button** in the top right
 11. Then click the **Save** button again in the top right and click the **\<- left arrow** in the top left
 
-![Save button and back arrow in the top right and top left](assets/build-journey-save-and-back-arrow.png)
+   ![Save button and back arrow in the top right and top left](assets/build-journey-save-and-back-arrow.png)
 
 12. Finally, click the **\< Back icon** in top left to get back to the Journey Canvas
 
@@ -200,15 +200,15 @@ Back on the main Journey Canvas, on the Email node, make sure you can see the re
 
 1. Scroll down to **Email Parameters** and click on the **Enable parameter override** icon
 
-![Enable parameter override icon under Email Parameters](assets/build-journey-enable-parameter-override.png)
+   ![Enable parameter override icon under Email Parameters](assets/build-journey-enable-parameter-override.png)
 
 2. Click in the empty text box and then in the left rail drill down into **Context** -> **orderShipped** -> **\_dep** and click on the **personalEmail** field.  Then click the **OK button**
 
-![Select the personalEmail field under orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
+   ![Select the personalEmail field under orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
 
->[!WARNING]
->
->This is a dangerous thing to do so avoid using it unless you need to in a production setting.  This will override the default location that Journeys looks for on the profile to execute messages.
+   >[!WARNING]
+   >
+   >This is a dangerous thing to do so avoid using it unless you need to in a production setting.  This will override the default location that Journeys looks for on the profile to execute messages.
 
 
 

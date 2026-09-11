@@ -18,14 +18,14 @@ In the next set of steps you create the shell of an Orchestrated Campaign (no ac
 
 1. First make sure you are in the Adobe Journey Optimizer application by selecting the app from the apps drawer in the upper right of your browser
 
-![Select Adobe Journey Optimizer from the apps drawer](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![Select Adobe Journey Optimizer from the apps drawer](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
 2. In the left navigation rail, select **Campaigns**
 3. Then click the button **Create campaign** in the upper right
 
-![Create campaign button in Campaigns navigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![Create campaign button in Campaigns navigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
@@ -41,9 +41,9 @@ In the next set of steps you create the shell of an Orchestrated Campaign (no ac
    - **Merge policy** --> `Default Timebased`
    - **Tags** --> *leave empty*
 
-When done your screen should look like below. 
+   When done your screen should look like below. 
 
-![Campaign settings filled in with name and merge policy](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![Campaign settings filled in with name and merge policy](assets/create-an-orchestrated-campaign-settings-filled.png)
 
 2. Click the **Save** button to continue.
 

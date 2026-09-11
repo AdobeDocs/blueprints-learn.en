@@ -21,7 +21,7 @@ This step is simple in that all you want to do is add a Fork activity such that 
 
 1. On the workflow canvas, click the **+** **icon** after Build Audience activity and select the **Fork Activity**
 
-![Add a Fork activity after the Build Audience activity](assets/fork-the-result-add-fork-activity.png)
+   ![Add a Fork activity after the Build Audience activity](assets/fork-the-result-add-fork-activity.png)
 
 
 
@@ -29,17 +29,17 @@ This step is simple in that all you want to do is add a Fork activity such that 
    - **Top** --> `Save Audience`
    - **Bottom** --> `SMS`
 
-![Fork transitions renamed to Save Audience and SMS](assets/fork-the-result-rename-transitions.png)
+   ![Fork transitions renamed to Save Audience and SMS](assets/fork-the-result-rename-transitions.png)
 
 
 
-When done your canvas should now look like so...
+   When done your canvas should now look like so...
 
-![Workflow canvas after adding the fork activity](assets/fork-the-result-final-canvas.png)
+   ![Workflow canvas after adding the fork activity](assets/fork-the-result-final-canvas.png)
 
->[!NOTE]
->
->A fork activity essentially is just duplicating the result from the previous activity into two independent branches
+   >[!NOTE]
+   >
+   >A fork activity essentially is just duplicating the result from the previous activity into two independent branches
 
 
 

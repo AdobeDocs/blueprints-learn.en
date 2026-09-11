@@ -26,19 +26,19 @@ At this point, you have learned that we can not only personalize the profile att
 1. Click **Simulate Content**.
 2. Select **Simulate content variation**.
 
-![Clicking Simulate Content and selecting Simulate content variation](assets/content-simulation-click-simulate-content-variation.png)
+   ![Clicking Simulate Content and selecting Simulate content variation](assets/content-simulation-click-simulate-content-variation.png)
 
-A simulation panel opens.
+   A simulation panel opens.
 
 3. Click **Send Proof**.
 
-![Send Proof button in the simulation panel](assets/test-the-email-click-send-proof-button.png)
+   ![Send Proof button in the simulation panel](assets/test-the-email-click-send-proof-button.png)
 
 4. Add your own personal email address.
 
->[!NOTE]
->
->Note that at times your corporate email will block emails from the sandbox. I would recommend you to use your personal email. 
+   >[!NOTE]
+   >
+   >Note that at times your corporate email will block emails from the sandbox. I would recommend you to use your personal email. 
 
 
 

@@ -10,11 +10,11 @@ exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
 
 1. Click on the `Step 3 - Reference Descriptor for Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 
->[!CAUTION]
->
->Do not execute the request...yet
+   >[!CAUTION]
+   >
+   >Do not execute the request...yet
 
-![Step 3 - Reference Descriptor for Plan schema API request](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Step 3 - Reference Descriptor for Plan schema")
+   ![Step 3 - Reference Descriptor for Plan schema API request](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Step 3 - Reference Descriptor for Plan schema")
 
 
 

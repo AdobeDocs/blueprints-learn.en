@@ -39,7 +39,7 @@ This module teaches you to run the evaluation, interpret results, and improve yo
 2. Locate the **Brand Alignment** tab in the right rail or the **% icon** in the sidebar.
 3. Click to open the panel.
 
-![Brand Alignment tab and percentage icon in the sidebar](assets/brand-alignment-open-panel-icon.png)
+   ![Brand Alignment tab and percentage icon in the sidebar](assets/brand-alignment-open-panel-icon.png)
 
 4. Ensure the correct brand is applied:
    - **Connection 5G** (default).
@@ -96,19 +96,19 @@ Interpret the results to understand how closely your email matches Connection 5G
 1. Click into flagged text blocks or images within the email.
 2. Use the paragraph you pasted in the previous exercise, as shown below. 
 
-![Flagged text block from the pasted description paragraph](assets/brand-alignment-flagged-text-block.png)
+   ![Flagged text block from the pasted description paragraph](assets/brand-alignment-flagged-text-block.png)
 
 3. Use the suggested modifications provided by AI. Click on the icon as shown below. 
 
-![AI suggestion icon for applying suggested modifications](assets/brand-alignment-ai-suggestion-icon.png)
+   ![AI suggestion icon for applying suggested modifications](assets/brand-alignment-ai-suggestion-icon.png)
 
 4. Click on the **Fix with AI** button as shown below. 
 
-![Fix with AI button for a flagged guideline](assets/brand-alignment-fix-with-ai-button.png)
+   ![Fix with AI button for a flagged guideline](assets/brand-alignment-fix-with-ai-button.png)
 
 5. You see suggested changes highlighted in green, and removed text shown in red with strikethrough, as illustrated below. You also notice that the score has been updated (in this case, it is 80%). Click the **Apply** button for the changes to take effect.
 
-![Suggested changes highlighted in green with removed text struck through in red](assets/brand-alignment-apply-suggested-changes.png)
+   ![Suggested changes highlighted in green with removed text struck through in red](assets/brand-alignment-apply-suggested-changes.png)
 
 6. Changes are applied with new text. 
 7. Review all highlighted areas and make the necessary updates to correct the content, either using AI or by editing manually. Ensure that all required changes are completed before proceeding.
@@ -124,14 +124,14 @@ Interpret the results to understand how closely your email matches Connection 5G
 3. Click **Re-evaluate Score**.
 4. Compare the new score to the previous one.
 
-![Comparing the re-evaluated brand score to the previous score](assets/brand-alignment-re-evaluate-score-comparison.png)
+   ![Comparing the re-evaluated brand score to the previous score](assets/brand-alignment-re-evaluate-score-comparison.png)
 
-For example:
+   For example:
 
-- Original score: **56%**
-- Updated score: **90%**
+   - Original score: **56%**
+   - Updated score: **90%**
 
-This indicates your updates successfully aligned the email with brand standards.
+   This indicates your updates successfully aligned the email with brand standards.
 
 5. Click **Save** to finalise your email.
 

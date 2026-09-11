@@ -135,6 +135,6 @@ Browse the XDM Individual Profile class and then take a few moments to review ot
 >
 >Notice the schema shown is an aggregate merged view of all profile-enabled schemas in your sandbox. Similar fields within the hierarchal XDM structure merge together, whereas fields with different names and/or hierarchies are added to the overall view.
 
-> [!NOTE]
+>[!NOTE]
 >
 >Only the XDM Individual Profile based class performs merges between similarly named fields.

@@ -17,7 +17,7 @@ Verify that the journey was triggered and executed as expected.  Verify reports 
 1. Go to your Order Shipped Journey, open it if you closed it
 2. You see at least 2 Profile Entered
 
-![Profile Entered count shown for the journey](assets/validate-journey-profile-entered-count.png)
+   ![Profile Entered count shown for the journey](assets/validate-journey-profile-entered-count.png)
 
 3. Click **View Report** -> **Last 24 hours** in the top right.
 4. By default, you are in the **Journey** tab (on the left rail)
@@ -56,22 +56,22 @@ You can click the toggle at the top to **exclude test events** if you want and y
    - **Email - Statistics**
      - Email - 3 targeted, sent, delivered
 
-![Email tab showing sending performance and statistics](assets/validate-journey-email-tab-sending-performance.png)
+   ![Email tab showing sending performance and statistics](assets/validate-journey-email-tab-sending-performance.png)
 
 6. Go check your **email inbox** and see if you got the email (it looks similar to this below)
    - *,*your order has shipped ETA: *10/17/2026* Tracking Number: *051009364*
 
-> [!NOTE]
->
->Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
+   >[!NOTE]
+   >
+   >Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
->[!NOTE]
->
->**Why is first name missing?**
->
->We changed the Email node to look at the Event Context for the email address.  But the first name in the personalization is pulling from \{\{profile.person.name.firstName\}\}.  
->
->When you look up your profile for your email, do you have a firstName?
+   >[!NOTE]
+   >
+   >**Why is first name missing?**
+   >
+   >We changed the Email node to look at the Event Context for the email address.  But the first name in the personalization is pulling from \{\{profile.person.name.firstName\}\}.  
+   >
+   >When you look up your profile for your email, do you have a firstName?
 
 
 

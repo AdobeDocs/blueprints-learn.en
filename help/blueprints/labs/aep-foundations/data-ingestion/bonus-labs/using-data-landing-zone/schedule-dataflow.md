@@ -40,7 +40,7 @@ After you click **Finish**, you're brought back to the **Dataflows** screen. It 
 
 ![Dataflows screen showing the new dataflow with a No runs status](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Dataflows sources screen")
 
-> [!NOTE]
+>[!NOTE]
 >
 >You need to refresh the page continuously to see the status update as the backend does not push updates out to the UI.
 

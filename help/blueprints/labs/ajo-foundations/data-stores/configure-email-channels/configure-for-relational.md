@@ -17,7 +17,7 @@ In the next set of steps you will create an Email Channel Configuration for use 
 1. Navigate to **Channel Configurations** found under the menu **Administration → Channels → General settings**
 2. Click the **Create configuration** button
 
-![Create Channel configuration](assets/configure-for-profile-create-configuration-button.png)
+   ![Create Channel configuration](assets/configure-for-profile-create-configuration-button.png)
 
 3. In the Create wizard set the following values:
    - **Name:**  `Relational-Email`
@@ -92,27 +92,27 @@ Leave with the default settings
 
 1. In the Orchestrated campaign tab and **check** the Enabled checkbox.
 
-![Configure Orchestrated campaign](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Configure Orchestrated campaign](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
 2. Under Execution dimension configure the following:
    - **Deliver one message per:**  `Target Dimension `
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
 
-![Execution dimension](assets/configure-for-relational-execution-dimension-target-settings.png)
+   ![Execution dimension](assets/configure-for-relational-execution-dimension-target-settings.png)
 
 3. Under Execution Address configure the following:
    - **Source:** `Target Dimension`
    - **Delivery address:**  `click on the Edit button`
 
-![Target Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
+   ![Target Dimension](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
 4. In the pop-up, click into the folder **dep-rel: Customer Account**
 
-![Configure Delivery address](assets/configure-for-relational-customer-account-folder.png)
+   ![Configure Delivery address](assets/configure-for-relational-customer-account-folder.png)
 
 5. Select **Email** and click on the **Select** button
 
-![Email as Delivery address](assets/configure-for-relational-select-email-as-delivery-address.png)
+   ![Email as Delivery address](assets/configure-for-relational-select-email-as-delivery-address.png)
 
 6. When done, your final Execution details look like the screenshot below
 

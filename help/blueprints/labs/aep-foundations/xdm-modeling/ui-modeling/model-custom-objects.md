@@ -29,11 +29,11 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 1. Add a new field by clicking the **+ (add)** button at the top of your schema
 
-![Add (+) button at the top of the schema to add a custom field](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![Add (+) button at the top of the schema to add a custom field](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->Notice the right rail opens with some fields for you to fill out
+   >[!NOTE]
+   >
+   >Notice the right rail opens with some fields for you to fill out
 
  
 
@@ -66,14 +66,14 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 1. Add the following fields show below under the Account object you just created.
 
-| Field Name   | Display Name  | Type       |
-| ------------ | ------------- | ---------- |
-| *createDate* | *Create Date* | *DateTime* |
-| *endDate*    | *End Date*    | *DateTime* |
+   | Field Name   | Display Name  | Type       |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *Create Date* | *DateTime* |
+   | *endDate*    | *End Date*    | *DateTime* |
 
->[!NOTE]
->
->You notice while adding the new fields the **Assign to** option is already filled in and references the field group you used for the account object.
+   >[!NOTE]
+   >
+   >You notice while adding the new fields the **Assign to** option is already filled in and references the field group you used for the account object.
 
 
 
@@ -81,28 +81,28 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 
 
-![Customer Account schema with account object and child fields added](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![Customer Account schema with account object and child fields added](assets/model-custom-objects-account-object-with-child-fields.png)
 
  
 
 1. Add one more custom field to the account object. Click the  **+ (add)** button next to the account object.  Create the following field:
 
-| Field Name  | Display Name      | Type     | Enumerations                            |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *Acquired Source* | *String* | *web :: Web*<br />*inStore :: In Store* |
+   | Field Name  | Display Name      | Type     | Enumerations                            |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *Acquired Source* | *String* | *web :: Web*<br />*inStore :: In Store* |
 
-This field needs standardized values, so use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
+   This field needs standardized values, so use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
 
-- *web :: Web*
-- *inStore :: In Store*
+   - *web :: Web*
+   - *inStore :: In Store*
 
 
 
-![Enum values web and inStore added for the Acquisition Source field](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![Enum values web and inStore added for the Acquisition Source field](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->The goal of Enum & Suggested values is make segmentation easier for the end user. Enums enforce validation at time of data ingestion whereas Suggested values do not. To learn more about this feature you can read more in the documentation here -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >The goal of Enum & Suggested values is make segmentation easier for the end user. Enums enforce validation at time of data ingestion whereas Suggested values do not. To learn more about this feature you can read more in the documentation here -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
  
 

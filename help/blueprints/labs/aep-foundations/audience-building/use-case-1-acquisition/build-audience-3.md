@@ -24,18 +24,18 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 1. Find Page View event on the Event tab under Event Types in the left rail and add to the Audience
 
-![Find the Page View event under Event Types in the left rail](assets/build-audience-3-find-page-view-event.png)
+   ![Find the Page View event under Event Types in the left rail](assets/build-audience-3-find-page-view-event.png)
 
->[!NOTE]
->
->**Using Event Types**
->
->By using the Page View Event we ensure the Audience is only evaluating Page Name in the context of a Page View. It should be redundant since a Page Name only exists on a Page View, but provides two benefits:
->
->- Provides high level visual documentation to the user when looking in the UI
->- Provides filtering to ensure as new events are added that they are not included when that was not the intent
->
->For this reason, we recommend each Event Schema you build should have a lot of thought put into the Event Types you use. They are fundamental to filtering and visual guides.
+   >[!NOTE]
+   >
+   >**Using Event Types**
+   >
+   >By using the Page View Event we ensure the Audience is only evaluating Page Name in the context of a Page View. It should be redundant since a Page Name only exists on a Page View, but provides two benefits:
+   >
+   >- Provides high level visual documentation to the user when looking in the UI
+   >- Provides filtering to ensure as new events are added that they are not included when that was not the intent
+   >
+   >For this reason, we recommend each Event Schema you build should have a lot of thought put into the Event Types you use. They are fundamental to filtering and visual guides.
 
 
 
@@ -43,7 +43,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 3. Above the Placed Event, change "Any time" to "Today"
 
-![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
+   ![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
 
 4. Save this Audience as “*Visited Any Page*”
 
@@ -57,47 +57,47 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 1. Create a new Audience and add the Page Views Event
 
-![Create a new audience and add the Page Views event](assets/build-audience-3-create-a-new-audience-and-add-the-page-views-event.png)
+   ![Create a new audience and add the Page Views event](assets/build-audience-3-create-a-new-audience-and-add-the-page-views-event.png)
 
 
 
 2. Navigate to where Page Name is and add the Page Name field to the Event so we can filter on it.
 
-- XDM ExperienceEvent --> Web --> Web page details --> Name
+   - XDM ExperienceEvent --> Web --> Web page details --> Name
 
-![Navigate to XDM ExperienceEvent > Web > Web page details > Name](assets/build-audience-3-navigate-to-page-name-field.png)
+   ![Navigate to XDM ExperienceEvent > Web > Web page details > Name](assets/build-audience-3-navigate-to-page-name-field.png)
 
 
 
 3. Add contains “iPhone 14”
 
-![Add a contains condition for "iPhone 14"](assets/build-audience-3-add-contains-iphone-14.png)
+   ![Add a contains condition for "iPhone 14"](assets/build-audience-3-add-contains-iphone-14.png)
 
-> [!TIP]
->
->**Searching for "Page"**
->
->Rather than navigating to the field, try searching for "Page"
->
->You see Page Name does not come up. This is because of how it is named:
->
->- XDM ExperienceEvent > Web > Web page details > Name
->
->So your folder will come up, but not the field itself. When you are putting your naming conventions together, consider this and other common terms people might search on and incorporate those into your naming.
->
->Search does not search descriptions
->
->![Searching for "Page" does not surface the Page Name field](assets/build-audience-3-searching-for-page-does-not-find-field.png)
+   >[!TIP]
+   >
+   >**Searching for "Page"**
+   >
+   >Rather than navigating to the field, try searching for "Page"
+   >
+   >You see Page Name does not come up. This is because of how it is named:
+   >
+   >- XDM ExperienceEvent > Web > Web page details > Name
+   >
+   >So your folder will come up, but not the field itself. When you are putting your naming conventions together, consider this and other common terms people might search on and incorporate those into your naming.
+   >
+   >Search does not search descriptions
+   >
+   >![Searching for "Page" does not surface the Page Name field](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
 4. Above the Placed Event, change "Any time" to "Today"
 
-![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
+   ![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
 
->[!NOTE]
->
->Since we are activating based on events that happened today, we only focus on page views for today.
+   >[!NOTE]
+   >
+   >Since we are activating based on events that happened today, we only focus on page views for today.
 
 
 
@@ -105,7 +105,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 6. Save Audience as "*Visited iPhone 14 Page*"
 
-![Save the audience as "Visited iPhone 14 Page"](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+   ![Save the audience as "Visited iPhone 14 Page"](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
@@ -124,7 +124,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 1. Pull in the three other Audiences we previously created
 1. Change the Include to Does not include for Owns iPhone 14 and Placed Order iPhone 14.
 
-![Set Owns iPhone 14 and Placed Order iPhone 14 to Does not include in the audience of audiences](assets/build-audience-3-audience-of-audiences-does-not-include.png)
+   ![Set Owns iPhone 14 and Placed Order iPhone 14 to Does not include in the audience of audiences](assets/build-audience-3-audience-of-audiences-does-not-include.png)
 
 
 
@@ -146,7 +146,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >The requirements had no time requirements, so if someone visited three years ago, they would qualify. Depending on our use case that may or may not work. It is worth asking. We added one because we are activating based on people who visited our website today.  That may not work in all use cases.  If we add a time filter, how far back can we go before an Edge Audience becomes Streaming or even Batch? 
 
-> [!NOTE]
+>[!NOTE]
 >
 >**Ramifications of breaking this up**
 >

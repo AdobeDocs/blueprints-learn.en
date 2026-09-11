@@ -20,17 +20,17 @@ The sms\_optIn field is a required field in the Customer Account schema. The iss
 
 1. Create a calculated field by clicking **New field type** icon and then select **Add Calculated Field**. For all missing values, consent is assumed to be not given and is marked as **"n"**. Note that calculated fields appear in the left column as the transformation via calculated field is the input to this new mapping. 
 
-![New field type icon menu with Add Calculated Field option selected](assets/calculated-fields-add-a-calculated-field.png "Add a calculated field")
+   ![New field type icon menu with Add Calculated Field option selected](assets/calculated-fields-add-a-calculated-field.png "Add a calculated field")
 
 
 
 1. In the Create Calculated field dialog box add the following expression and then click **Preview**
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![Create Calculated Field dialog with the sms_optIn expression and Preview result](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn calculated field")
+   ![Create Calculated Field dialog with the sms_optIn expression and Preview result](assets/calculated-fields-sms-optin-calculated-field.png "sms_optIn calculated field")
 
 
 
@@ -48,13 +48,13 @@ A new field is added to the mapping screen but with an unmapped target field pat
 1. In the right pane, you now see the target schema panel open. Type **sms** into the search box
 1. Select the **val** field
 
-![Target schema panel with the sms.val field selected for the calculated field mapping](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![Target schema panel with the sms.val field selected for the calculated field mapping](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-Your final mapping should look like this:
+   Your final mapping should look like this:
 
-![Final mapping screen with the sms_optin calculated field mapped to the target schema](assets/calculated-fields-final-mapping-screen.png)
+   ![Final mapping screen with the sms_optin calculated field mapped to the target schema](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -77,21 +77,21 @@ There is a requirement to separate out the birth day, month and year into separa
 1. Add a new calculated field to capture the profiles birth day and month
 1. Use the following code for the calculated field:
 
->[!NOTE]
->
->Instead of just copying the code above, try to understand what is happening by executing the code pieces separately to see how it has been composed to create more complex calculated fields in a single line as multiline is not allowed. Try the following:
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >Instead of just copying the code above, try to understand what is happening by executing the code pieces separately to see how it has been composed to create more complex calculated fields in a single line as multiline is not allowed. Try the following:
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. Click preview and you should see the following result. If everything looks good click **Save**
 
-![Preview result of the birth day and month calculated field expression](assets/calculated-fields-birth-day-month-preview.png)
+   ![Preview result of the birth day and month calculated field expression](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -105,9 +105,9 @@ There is a requirement to separate out the birth day, month and year into separa
 
 1. Create a new calculated field to capture the birth year of the profile using the code below
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. Map the calculated field to the target location of **person.birthYear**
 

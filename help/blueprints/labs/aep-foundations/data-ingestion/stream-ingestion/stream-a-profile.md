@@ -72,18 +72,18 @@ Perform the following steps:
 
 1. Copy the **Streaming endpoint** value and save it to your local machine (assuming you haven't navigated away from the previous section's step). If you did navigate away, you can find it under Sources->Accounts.
 
->[!NOTE]
->
->If you did navigate away you can get to this page by doing the following:
->
->- Click on **Sources** in the left rail
->- Ensure you are on **Accounts** tab and click on the account you created titled **Streaming Ingestion - \<Your Initials>**
+   >[!NOTE]
+   >
+   >If you did navigate away you can get to this page by doing the following:
+   >
+   >- Click on **Sources** in the left rail
+   >- Ensure you are on **Accounts** tab and click on the account you created titled **Streaming Ingestion - \<Your Initials>**
 
->[!NOTE]
->
->If you do not see this value ensure you do not have the dataflow row selected by clicking on the row.  DO NOT CLICK ON THE BLUE LINKS
+   >[!NOTE]
+   >
+   >If you do not see this value ensure you do not have the dataflow row selected by clicking on the row.  DO NOT CLICK ON THE BLUE LINKS
 
-![Streaming endpoint URL displayed on the right side of the account details](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![Streaming endpoint URL displayed on the right side of the account details](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -99,34 +99,34 @@ Switch over to your Postman application and update the Create Customer Account r
 
 1. Open Postman and navigate to the **Data Ingestion Lab -> Create Customer Account** API request and open it
 
-![Create Customer Account API request open in Postman](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Create Customer Account API request open in Postman](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. Copy and paste the **Streaming endpoint** value you saved previously into the request's URL
 
-![Streaming endpoint value pasted into the Create Customer Account request URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![Streaming endpoint value pasted into the Create Customer Account request URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. Copy and paste the Dataflow ID value you saved previously into **x-adobe-flow-id** header value
 
-![Dataflow ID pasted into the x-adobe-flow-id header value](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![Dataflow ID pasted into the x-adobe-flow-id header value](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. In the body of the request update the following attributes like so:
 
-- **firstName** -> Your First Name
-- **lastName** -> Your Last Name
-- **email** -> Your Email Address
-- **birth_Date** -> YYYY-MM-DD
+   - **firstName** -> Your First Name
+   - **lastName** -> Your Last Name
+   - **email** -> Your Email Address
+   - **birth_Date** -> YYYY-MM-DD
 
-**5. Save** your request
+   **5. Save** your request
 
 1. Click on the **Send** button to execute the request to stream in your Customer Account Profile
 
-![Final Create Customer Account request ready to send in Postman](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![Final Create Customer Account request ready to send in Postman](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

@@ -12,17 +12,17 @@ exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
 
 1. Click on the arrow icon next to the calculated field populating the **person.birthDayAndMonth** XDM field
 
-![Calculated field expression editor for the birthDayAndMonth fix](assets/fixing-errors-update-the-calculated-expression.png)
+   ![Calculated field expression editor for the birthDayAndMonth fix](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. Update the expression using the below calculated field code and click **Preview**
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->Data should appear as 2 digit month and 2 digit day (i.e. April 27 shown as 04-27). The `mm` and the `dd` parameters add 0 padding.
+   >[!NOTE]
+   >
+   >Data should appear as 2 digit month and 2 digit day (i.e. April 27 shown as 04-27). The `mm` and the `dd` parameters add 0 padding.
 
 1. If everything looks good **Save** the calculated field
 

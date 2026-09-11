@@ -19,16 +19,16 @@ Confirm that the event was successfully ingested into Adobe Experience Platform.
    - **Identity value** -> `henry.creel@emailsim.io`
 2. Click on **Events** tab. Look for `orders.shipped` event.
 
-![orders.shipped event shown on the Events tab of the profile](assets/validate-event-ingested-orders-shipped-event.png)
+   ![orders.shipped event shown on the Events tab of the profile](assets/validate-event-ingested-orders-shipped-event.png)
 
->[!WARNING]
->
->Did you get any **message.feedback** events.  These are from Journeys and usually indicate a failure or exclusion.  Click on them and look at the `reason`.
->
->Some examples you might run into in production might be:
->
->- EmailNoAddressFoundInProfile (you tried to send an email to a profile that didn't have an email)
->- EmailNoConsent (you tried to send an email to a profile that had consent set to no.
+   >[!WARNING]
+   >
+   >Did you get any **message.feedback** events.  These are from Journeys and usually indicate a failure or exclusion.  Click on them and look at the `reason`.
+   >
+   >Some examples you might run into in production might be:
+   >
+   >- EmailNoAddressFoundInProfile (you tried to send an email to a profile that didn't have an email)
+   >- EmailNoConsent (you tried to send an email to a profile that had consent set to no.
 
 
 
@@ -47,7 +47,7 @@ Now that you have validated the Profile got in, send in some Order Shipped Event
 1. Go back to Postman, find the **Ship Order Event**
 2. click on the **Body** & change the **email address** to yours.  
 
-![Email address changed in the Postman request body](assets/validate-event-ingested-change-email-in-postman-body.png)
+   ![Email address changed in the Postman request body](assets/validate-event-ingested-change-email-in-postman-body.png)
 
 3. **Save** and hit **Send**.  
 4. Go back to steps 1-3 and validate using your email address. 

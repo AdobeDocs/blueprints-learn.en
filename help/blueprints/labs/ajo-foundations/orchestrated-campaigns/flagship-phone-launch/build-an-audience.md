@@ -18,7 +18,7 @@ In next few steps you will be creating the audience you want to target for the c
 
 1. On the canvas click the **+ symbol** and then select the **Build audience** activity to add it to the workflow
 
-![Add Build audience activity to the workflow canvas](assets/build-an-audience-add-activity.png)
+   ![Add Build audience activity to the workflow canvas](assets/build-an-audience-add-activity.png)
 
 
 
@@ -33,7 +33,7 @@ The next step is to select the **Targeting dimension** (i.e. what table you want
 
 1. Click on the **search icon** in the Targeting dimension box
 
-![Search icon in the Targeting dimension box](assets/build-an-audience-search-targeting-dimension.png)
+   ![Search icon in the Targeting dimension box](assets/build-an-audience-search-targeting-dimension.png)
 
 2. On the popup, search for and select the table named **dep-rel: Customer Line** and then click the **Confirm** button.
 
@@ -55,7 +55,7 @@ Now that you have selected your targeting dimension (what relational schema you 
 
 1. In the right rail click on the **Create Audience** button
 
-![Create Audience button in the right rail](assets/build-an-audience-click-create-audience.png)
+   ![Create Audience button in the right rail](assets/build-an-audience-click-create-audience.png)
 
 2. Next click on the **Add condition** button
 
@@ -73,7 +73,7 @@ Now its time to write the logic of the audience using the attributes found in th
    - **Attribute**:  `Active Line`
    - **Value**:  `true`
 
-![Condition 1 set to Active Line equal to true](assets/build-an-audience-condition-active-line-true.png)
+   ![Condition 1 set to Active Line equal to true](assets/build-an-audience-condition-active-line-true.png)
 
 2. Click **Refresh** icon to view the qualifying counts on the condition. 
 
@@ -89,22 +89,22 @@ Now its time to write the logic of the audience using the attributes found in th
 
 1. Click the **Add condition** button and select the **dep-rel:** **Product \[Lookup]** schema by clicking on the **>** icon
 
-![Select the dep-rel: Product [Lookup] schema by clicking the > icon](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Select the dep-rel: Product [Lookup] schema by clicking the > icon](assets/build-an-audience-select-product-lookup-schema.png)
 
 
 2. Look for the field named **Make** and click on the three dots and select **Distribution of values**
 
-![Distribution of values option for the Make field](assets/build-an-audience-make-distribution-of-values.png)
+   ![Distribution of values option for the Make field](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
 3. Note the various values. You only want `Apple` and thankfully it doesn't have 100 different spellings. Click on the **Apple field** to select it and then click the **Select attribute and value button** in the upper right.
 
-![Apple value selected with Select attribute and value button](assets/build-an-audience-select-apple-attribute-value.png)
+   ![Apple value selected with Select attribute and value button](assets/build-an-audience-select-apple-attribute-value.png)
 
->[!NOTE]
->
->This is a prime example of where the data architect should have designed the schema with enumerations.  This way a marketer doesn't have to manually select/type in the value.  Shame on the data architect!
+   >[!NOTE]
+   >
+   >This is a prime example of where the data architect should have designed the schema with enumerations.  This way a marketer doesn't have to manually select/type in the value.  Shame on the data architect!
 
 
 
@@ -127,11 +127,11 @@ Now its time to write the logic of the audience using the attributes found in th
 
 1. Click on the **Calculate icon** found in the right rail under the heading Profiles targeted to get an exact estimate of the audience size. You see **65** as the **final count**.
 
-![Calculate icon showing final audience size of 65](assets/build-an-audience-calculate-final-audience-size.png)
+   ![Calculate icon showing final audience size of 65](assets/build-an-audience-calculate-final-audience-size.png)
 
->[!NOTE]
->
->Notice how each individual condition returned a different number (condition #1 --> 241 and condition #2 --> 85) but the final audience size was the lesser of the two conditions.  This is because of that AND operator.
+   >[!NOTE]
+   >
+   >Notice how each individual condition returned a different number (condition #1 --> 241 and condition #2 --> 85) but the final audience size was the lesser of the two conditions.  This is because of that AND operator.
 
 
 

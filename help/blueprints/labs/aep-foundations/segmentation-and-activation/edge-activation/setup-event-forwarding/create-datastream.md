@@ -51,13 +51,13 @@ This allows you to use Event Forwarding for data received by this Datastream.
 
 1. Click on **Add Service**
 
-![Datastream detail page with the Add Service button highlighted](assets/create-datastream-add-service-button.png "Add Service")
+   ![Datastream detail page with the Add Service button highlighted](assets/create-datastream-add-service-button.png "Add Service")
 
 1. Configure the following items:
 
-- Service -> Event Forwarding
-- Property -> Select the property you created in the previous step.  It should be named like so: Event Forwarding Property SB + \<your sandbox number>
-- Environment -> Development
+   - Service -> Event Forwarding
+   - Property -> Select the property you created in the previous step.  It should be named like so: Event Forwarding Property SB + \<your sandbox number>
+   - Environment -> Development
 
 1. When done click **Save**
 
@@ -73,17 +73,17 @@ This allows you to send data to the Hub and land in a dataset for data received 
 
 1. Click on **Add Service**
 
-![Datastream detail page with Add Service button highlighted to add the Adobe Experience Platform service](assets/create-datastream-add-second-service-button.png "Add a new service")
+   ![Datastream detail page with Add Service button highlighted to add the Adobe Experience Platform service](assets/create-datastream-add-second-service-button.png "Add a new service")
 
 1. Configure the following items:
 
-- Service -> Adobe Experience Platform
-- Event Dataset -> dep: Web
-- Profile Dataset -> dep: Customer Account
-- Select Checkbox -> Edge Segmentation
-- Select Checkbox -> Personalization Destination
+   - Service -> Adobe Experience Platform
+   - Event Dataset -> dep: Web
+   - Profile Dataset -> dep: Customer Account
+   - Select Checkbox -> Edge Segmentation
+   - Select Checkbox -> Personalization Destination
 
-![Adobe Experience Platform service configuration with event dataset, profile dataset, and segmentation checkboxes set](assets/create-datastream-aep-service-config.png "Configure Service")
+   ![Adobe Experience Platform service configuration with event dataset, profile dataset, and segmentation checkboxes set](assets/create-datastream-aep-service-config.png "Configure Service")
 
 1. When done click **Save**.  
 

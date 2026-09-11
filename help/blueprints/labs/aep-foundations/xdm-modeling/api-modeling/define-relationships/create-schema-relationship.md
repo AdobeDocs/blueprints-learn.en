@@ -10,11 +10,11 @@ exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 
 1. Click on the `Step 2 - Relationship Descriptor Customer Account To Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 
->[!CAUTION]
->
->Do not execute the request...yet
+   >[!CAUTION]
+   >
+   >Do not execute the request...yet
 
-![Step 2 - Relationship Descriptor Customer Account to Plan API request](assets/create-schema-relationship-step-2-descriptor-request.png "Step 2 - Relationship Descriptor Customer Account to Plan")
+   ![Step 2 - Relationship Descriptor Customer Account to Plan API request](assets/create-schema-relationship-step-2-descriptor-request.png "Step 2 - Relationship Descriptor Customer Account to Plan")
 
 
 

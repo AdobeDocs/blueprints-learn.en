@@ -108,7 +108,7 @@ Copy the values you saved in the previous steps into the places highlighted belo
 
 Your final API request should look like this when done
 
-> [!CAUTION]
+>[!CAUTION]
 >
 >DO NOT EXECUTE YET!
 
