@@ -26,7 +26,7 @@ In the left rail under the  Administration menu click to **Configurations** and 
 
 1. In the upper right click on the **Create Action** button
 
-![Create Action button in the upper right](assets/configure-custom-action-click-create-action-button.png)
+   ![Create Action button in the upper right](assets/configure-custom-action-click-create-action-button.png)
 
 2. In the configuration panel that appears update the following basic values as shown below:
    - **Name**: `GetShippingDetails`
@@ -67,24 +67,24 @@ Now you need to provide a sample payload so the action knows what the response p
 
 1. In the Payloads area click on the **Pencil icon** to open the Field configuration screen
 
-![Pencil icon to open the Field configuration screen in Payloads area](assets/configure-custom-action-open-field-configuration.png)
+   ![Pencil icon to open the Field configuration screen in Payloads area](assets/configure-custom-action-open-field-configuration.png)
 
-![Field configuration screen for the response payload](assets/configure-custom-action-open-field-configuration--2.png)
+   ![Field configuration screen for the response payload](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
 2. **Copy and paste** the below payload into the Payload box
 
-```json
-{
+   ```json
+   {
     "eta": "11/19/2025",
     "tracking_number": "072000326"
-}
-```
+   }
+   ```
 
->[!NOTE]
->
->This is the same JSON structure that the Mockaroo endpoint above should return:
+   >[!NOTE]
+   >
+   >This is the same JSON structure that the Mockaroo endpoint above should return:
 
 
 3. The response payload will display. Click the **Save** button.
@@ -101,32 +101,32 @@ Now you need to provide a sample payload so the action knows what the response p
 
 1. Click the **Send test request** button in the bottom right rail to validate you didn't mess anything up 😀
 
-![Send test request button in the bottom right rail](assets/configure-custom-action-click-send-test-request.png)
+   ![Send test request button in the bottom right rail](assets/configure-custom-action-click-send-test-request.png)
 
 
 
 2. Click on the **Query parameters** tab and update the value for `orderId` to **123**
 
-![Query parameters tab with orderId value set to 123](assets/configure-custom-action-set-orderid-query-parameter.png)
+   ![Query parameters tab with orderId value set to 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
 3. Click the **Send button** and if all works out well you should see a response code of 200 and a Preview of the payload as shown below...
 
-![Response code 200 and payload preview after sending the test request](assets/configure-custom-action-response-200-preview.png)
+   ![Response code 200 and payload preview after sending the test request](assets/configure-custom-action-response-200-preview.png)
 
-Preview
+   Preview
 
-```json
-{
-  "eta": "12/26/2025",
-  "tracking_number": "063112249"
-}
-```
+   ```json
+   {
+     "eta": "12/26/2025",
+     "tracking_number": "063112249"
+   }
+   ```
 
->[!WARNING]
->
->If you are not seeing a 200 response or a Preview do not continue. Raise your ✋to get some help.
+   >[!WARNING]
+   >
+   >If you are not seeing a 200 response or a Preview do not continue. Raise your ✋to get some help.
 
 
 

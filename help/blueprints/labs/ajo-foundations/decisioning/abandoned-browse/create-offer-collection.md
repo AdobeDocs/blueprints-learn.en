@@ -17,29 +17,29 @@ Now that your offers have been created, they need to be organized into a collect
 1. If necessary, expand **Decisioning** in the left rail, then click **Catalogs**. You see the four offers you created in the previous section.
 2. Click on **Collections** just left of the offer name
 
-![Collections tab on the Catalogs page](assets/create-offer-collection-collections-tab.png)
+   ![Collections tab on the Catalogs page](assets/create-offer-collection-collections-tab.png)
 
 3. Click the blue **Create collection** to create the new collection.
 4. Name the collection **iPhone 17 Collection**
 5. In the 'Collection rules' section, click on the text box that contains the text **_Click to create a decision item_**. Once clicked on, the options for creating the rule will appear.
 
-![Collection rule text box open for creating a decision item](assets/create-offer-collection-create-decision-item.png)
+   ![Collection rule text box open for creating a decision item](assets/create-offer-collection-create-decision-item.png)
 
 6. Click the **Select attribute** button, then navigate through the offer item schema by clicking on **Device > Make**. Click **Save,** and you see that the 'Make' attribute is now in the decision rule.
 
-![Device Make attribute added to the collection rule](assets/create-offer-collection-select-make-attribute.png)
+   ![Device Make attribute added to the collection rule](assets/create-offer-collection-select-make-attribute.png)
 
->[!NOTE]
->
->Notice that the options available to you are the same configurable fields you used when creating the offer items. Since a collection is a grouping of offer items, it makes sense that the rules to group them depend on their attributes. 
+   >[!NOTE]
+   >
+   >Notice that the options available to you are the same configurable fields you used when creating the offer items. Since a collection is a grouping of offer items, it makes sense that the rules to group them depend on their attributes. 
 
 7. Leave the 'Equals' operator in place and enter the text **iPhone** in the value field, and you see that the number of items changes to 4, indicating that all of your offer items meet that criteria
 
-![Collection rule showing four offer items matching the iPhone criteria](assets/create-offer-collection-four-matching-offers.png)
+   ![Collection rule showing four offer items matching the iPhone criteria](assets/create-offer-collection-four-matching-offers.png)
 
->[!NOTE]
->
->You can also click the **Preview Collection** button and see the offer items that meet the criteria.
+   >[!NOTE]
+   >
+   >You can also click the **Preview Collection** button and see the offer items that meet the criteria.
 
 8. With all four of the offer items selected, click the blue **Create** button. This takes you to a page that shows your newly created collection.
 

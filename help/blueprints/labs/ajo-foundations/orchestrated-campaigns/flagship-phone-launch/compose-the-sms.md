@@ -26,39 +26,39 @@ Click the **Edit content** button, or navigate directly to the **Content** tab
 
 1. Click on the **Personalization** button to create your message.
 
-![Personalization button to create the SMS message](assets/compose-the-sms-click-personalization-button.png)
+   ![Personalization button to create the SMS message](assets/compose-the-sms-click-personalization-button.png)
 
->[!NOTE]
->
->The "magic wand" option uses AI to help you write a message. Check it out if you'd like but we won't be covering it in this lab.
+   >[!NOTE]
+   >
+   >The "magic wand" option uses AI to help you write a message. Check it out if you'd like but we won't be covering it in this lab.
 
 
 
 2. Copy and paste the text below into the SMS message body.
 
-```none
-Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
-```
+   ```none
+   Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
+   ```
 
->[!NOTE]
->
->Be sure to turn Word wrap to **On** in the message editor.  You can find in the lower right pane of the window.
+   >[!NOTE]
+   >
+   >Be sure to turn Word wrap to **On** in the message editor.  You can find in the lower right pane of the window.
 
 
 
 3. Update the two fields in the message called **phone\_make** and **phone\_model** below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
 
-![Final SMS message with phone make and model personalized](assets/compose-the-sms-final-message-text.png)
+   ![Final SMS message with phone make and model personalized](assets/compose-the-sms-final-message-text.png)
 
->[!NOTE]
->
->Why are you doing this?  Well you want to personalize the message with the customers phone make and model and this information lives within the Customer Line table in the relational store.  This demonstrates how you can use data from Orchestrated Campaigns to personalize messages.
+   >[!NOTE]
+   >
+   >Why are you doing this?  Well you want to personalize the message with the customers phone make and model and this information lives within the Customer Line table in the relational store.  This demonstrates how you can use data from Orchestrated Campaigns to personalize messages.
 
 
 
 4. Click the **Validate** on the editor and make sure there are no validation errors and if good click the **Save** button
 
-![Validate and Save buttons in the message editor](assets/compose-the-sms-validate-and-save.png)
+   ![Validate and Save buttons in the message editor](assets/compose-the-sms-validate-and-save.png)
 
 
 

@@ -26,11 +26,11 @@ In order to create a Journey that uses a Unitary Event, we need to first configu
 
 1. In the left rail under the  Administration menu click to **Configurations** and then on the Events tile click the **Manage** button
 
-![Manage button on the Events tile under Configurations](assets/configure-event-open-events-manage.png)
+   ![Manage button on the Events tile under Configurations](assets/configure-event-open-events-manage.png)
 
 2. In the upper right click the **Create Event** button
 
-![Create Event button in the upper right](assets/configure-event-click-create-event-button.png)
+   ![Create Event button in the upper right](assets/configure-event-click-create-event-button.png)
 
 3. Update the settings of the event as follows:
    - **Name** = `orderShipped`
@@ -38,35 +38,35 @@ In order to create a Journey that uses a Unitary Event, we need to first configu
    - **Event Id type** = `Rule based`
    - **Schema** = `dep: Orders v.1`
 
-![orderShipped event configured with Unitary type and dep: Orders v.1 schema](assets/configure-event-set-name-type-schema.png)
+   ![orderShipped event configured with Unitary type and dep: Orders v.1 schema](assets/configure-event-set-name-type-schema.png)
 
 4. In the `Fields` input box click on the **Pencil icon**
 
-![Pencil icon in the Fields input box](assets/configure-event-click-fields-pencil-icon.png)
+   ![Pencil icon in the Fields input box](assets/configure-event-click-fields-pencil-icon.png)
 
 5. Select the following fields to add to the event and when done click the **OK** button
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-![Event Type and Order ID fields selected to add to the event](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![Event Type and Order ID fields selected to add to the event](assets/configure-event-select-eventtype-orderid-fields.png)
 
->[!NOTE]
->
->Ensure you only select the Order ID field and not all the fields in the Order 😁
+   >[!NOTE]
+   >
+   >Ensure you only select the Order ID field and not all the fields in the Order 😁
 
 
 
 6. In the `Event Id condition input`, click on the **Pencil icon**
 
-![Pencil icon in the Event Id condition input](assets/configure-event-click-event-id-condition-pencil.png)
+   ![Pencil icon in the Event Id condition input](assets/configure-event-click-event-id-condition-pencil.png)
 
 7. **Drag** the `Event Type` field onto the canvas
 
-![Drag the Event Type field onto the condition canvas](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![Drag the Event Type field onto the condition canvas](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
 8. In the selection box that appears look for and check the value titled **orders.shipped.** Then click the **OK** button.
 
-![orders.shipped value checked in the selection box](assets/configure-event-select-orders-shipped-value.png)
+   ![orders.shipped value checked in the selection box](assets/configure-event-select-orders-shipped-value.png)
 
 9. Next update the last two values of Namespace and Profile Identifier with the values shown below:
    - **Namespace** --> `Email`

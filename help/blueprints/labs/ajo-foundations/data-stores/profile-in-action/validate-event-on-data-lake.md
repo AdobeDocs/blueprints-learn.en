@@ -22,14 +22,14 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 1. Go to **Queries** and **Create Query**
 
-![Create Query screen in the Queries section](assets/validate-event-on-data-lake-create-query.png)
+   ![Create Query screen in the Queries section](assets/validate-event-on-data-lake-create-query.png)
 
 2. Copy this SQL and paste it into your query
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
 3. **Run** Query
 

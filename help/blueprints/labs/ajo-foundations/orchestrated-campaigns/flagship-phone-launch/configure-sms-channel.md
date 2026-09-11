@@ -49,13 +49,13 @@ Now you will map this API credential to a channel configuration that journeys an
 
 1. Navigate to **Channels** → **General Settings** → **Channel configurations**. 
 
-![Navigate to Channel configurations under General Settings](assets/configure-sms-channel-navigate-channel-configurations.png)
+   ![Navigate to Channel configurations under General Settings](assets/configure-sms-channel-navigate-channel-configurations.png)
 
 
 
 2. Click **Create channel configuration**. 
 
-![Create channel configuration button](assets/configure-sms-channel-click-create-configuration.png)
+   ![Create channel configuration button](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
@@ -86,13 +86,13 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
 1. Under Execution details, click the tab **Orchestrated campaign**
 
-![Orchestrated campaign tab under Execution details](assets/configure-sms-channel-execution-details-tab.png)
+   ![Orchestrated campaign tab under Execution details](assets/configure-sms-channel-execution-details-tab.png)
 
 
 
 2. Ensure the **Enabled** checkbox is checked
 
-![Enabled checkbox checked for orchestrated campaigns](assets/configure-sms-channel-enabled-checkbox.png)
+   ![Enabled checkbox checked for orchestrated campaigns](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
@@ -101,27 +101,27 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
    - **Profile Target Dimension:**  `dep-rel: Customer Account - customer_id`
    - **Secondary Dimension:**  `Customer Line`
 
-![Execution dimension settings with target and secondary dimension](assets/configure-sms-channel-execution-dimension-setup.png)
+   ![Execution dimension settings with target and secondary dimension](assets/configure-sms-channel-execution-dimension-setup.png)
 
-![Secondary Dimension set to Customer Line in execution dimension settings "Secondary Dimension"](assets/configure-sms-channel-secondary-dimension-detail.png "Secondary Dimension")
+   ![Secondary Dimension set to Customer Line in execution dimension settings "Secondary Dimension"](assets/configure-sms-channel-secondary-dimension-detail.png "Secondary Dimension")
 
->[!NOTE]
->
->This is telling Orchestrated Campaigns that when it sends messages, it should deliver one message per record that matches to the Profile Target Dimension.
+   >[!NOTE]
+   >
+   >This is telling Orchestrated Campaigns that when it sends messages, it should deliver one message per record that matches to the Profile Target Dimension.
 
 
 
 4. Under Execution Address heading ensure you select the radio button for **Secondary Dimension** and then click the edit button on the **SMS Execution Field**
 
-![Execution address set to Secondary Dimension with edit field](assets/configure-sms-channel-execution-address-selection.png)
+   ![Execution address set to Secondary Dimension with edit field](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
 5. On the pop-up, click into the schema **dep-rel: Customer Line** and select **Mobile Phone**.
 
-![Schema pop-up for the dep-rel: Customer Line schema](assets/configure-sms-channel-customer-line-schema-popup.png)
+   ![Schema pop-up for the dep-rel: Customer Line schema](assets/configure-sms-channel-customer-line-schema-popup.png)
 
-![Mobile Phone field selected from the dep-rel: Customer Line schema "Mobile Phone field"](assets/configure-sms-channel-mobile-phone-field-selected.png "Mobile Phone field")
+   ![Mobile Phone field selected from the dep-rel: Customer Line schema "Mobile Phone field"](assets/configure-sms-channel-mobile-phone-field-selected.png "Mobile Phone field")
 
 
 
@@ -135,17 +135,17 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
 1. You can click the **Submit** button to complete the configuration and see a success message appear
 
-![Success message after submitting the channel configuration](assets/configure-sms-channel-submit-success-message.png)
+   ![Success message after submitting the channel configuration](assets/configure-sms-channel-submit-success-message.png)
 
 
 
 2. On the channel configurations inventory page ensure the status shows as **Active** before moving on
 
-![Channel configuration status shown as Active](assets/configure-sms-channel-active-status.png)
+   ![Channel configuration status shown as Active](assets/configure-sms-channel-active-status.png)
 
->[!CAUTION]
->
->Wait until the status turns **Active** otherwise future lab steps will fail miserably for you
+   >[!CAUTION]
+   >
+   >Wait until the status turns **Active** otherwise future lab steps will fail miserably for you
 
 
 

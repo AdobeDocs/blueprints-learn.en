@@ -78,19 +78,19 @@ Create a header fragment to start with. However, before creating the fragment, s
 
 1. From the left-hand navigation, locate the **Content Management** section and click on **Assets**.
 
-![Content Management section with Assets option in left navigation](assets/building-content-fragments-content-management-assets-nav.png)
+   ![Content Management section with Assets option in left navigation](assets/building-content-fragments-content-management-assets-nav.png)
 
 2. Click on **Assets** under Assets Management section.
 
-![Assets option under the Assets Management section](assets/building-content-fragments-assets-under-assets-management.png)
+   ![Assets option under the Assets Management section](assets/building-content-fragments-assets-under-assets-management.png)
 
 3. Create a folder by clicking **"Create Folder"** button. 
 
-![Create Folder button in the Assets area](assets/building-content-fragments-click-create-folder-button.png)
+   ![Create Folder button in the Assets area](assets/building-content-fragments-click-create-folder-button.png)
 
 4. Give a name like your first and last name. eg. Nish\_Pithia\_LabAssets (Something you can remember)
 
-![Naming the new asset folder with your first and last name](assets/building-content-fragments-name-asset-folder.png)
+   ![Naming the new asset folder with your first and last name](assets/building-content-fragments-name-asset-folder.png)
 
 5. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
 
@@ -108,49 +108,49 @@ Create a header fragment to start with. However, before creating the fragment, s
 
 6. Click on **Create button** on your top right.
 
-![Create button in the top right of the new fragment dialog](assets/building-content-fragments-click-create-button-top-right.png)
+   ![Create button in the top right of the new fragment dialog](assets/building-content-fragments-click-create-button-top-right.png)
 
-This opens a blank fragment creator screen. 
+   This opens a blank fragment creator screen. 
 
 7. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
-![Animated demo of dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Animated demo of dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
 8. Next, drag "**image**" on the 1:1 row which we just added
 
-![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
+   ![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
 
 9. Upload the logo image that you have been provided. Click on **"Import media button"**
 
-![Import media button to upload the logo image](assets/building-content-fragments-click-import-media-button.png)
+   ![Import media button to upload the logo image](assets/building-content-fragments-click-import-media-button.png)
 
 10. **Upload the logo:** Upload the logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
 
-![Selecting C5G-Logo.png from the toolkit folder to upload](assets/building-content-fragments-upload-logo-select-file.png)
+   ![Selecting C5G-Logo.png from the toolkit folder to upload](assets/building-content-fragments-upload-logo-select-file.png)
 
-![Clicking Next after selecting the logo upload](assets/building-content-fragments-upload-logo-click-next.png)
+   ![Clicking Next after selecting the logo upload](assets/building-content-fragments-upload-logo-click-next.png)
 
 11. Select the **asset folder** that you have created, then click **Import**. The file is saved in your folder.
 
-![Selecting the created asset folder and clicking Import](assets/building-content-fragments-select-asset-folder-import.png)
+   ![Selecting the created asset folder and clicking Import](assets/building-content-fragments-select-asset-folder-import.png)
 
 12. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Style tab** and set the width to 40% by dragging the slider, as shown below. 
 
->[!NOTE]
->
->Note that when the toggle button is on, the 40 number represents % and not pixels. If you want an absolute pixel-perfect value, toggle the button to px. 
+   >[!NOTE]
+   >
+   >Note that when the toggle button is on, the 40 number represents % and not pixels. If you want an absolute pixel-perfect value, toggle the button to px. 
 
 
 
-![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
+   ![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
 13. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation. 
 
-![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
+   ![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
 14. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button. 
 
-![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
+   ![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
 
 15. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation. 
 

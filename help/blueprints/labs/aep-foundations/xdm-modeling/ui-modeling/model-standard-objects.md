@@ -12,7 +12,7 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
 1. Click on the **Schemas** tab in the left rail 
 
-![Schemas tab in the left rail navigation](assets/model-standard-objects-schemas-tab-left-rail.png "Navigate to schemas using the left rail")
+   ![Schemas tab in the left rail navigation](assets/model-standard-objects-schemas-tab-left-rail.png "Navigate to schemas using the left rail")
 
 
 
@@ -29,13 +29,13 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
 1. Start by clicking **Create schema**
 
-![Create schema button](assets/model-standard-objects-create-schema-button.png "Create Schema")
+   ![Create schema button](assets/model-standard-objects-create-schema-button.png "Create Schema")
 
 
 
 1. Select **Manual**
 
-![Select Manual schema creation option](assets/model-standard-objects-select-manual-option.png "Select Manual")
+   ![Select Manual schema creation option](assets/model-standard-objects-select-manual-option.png "Select Manual")
 
    
 
@@ -61,20 +61,20 @@ There are many field groups that exist as standard XDM in Adobe Experience Platf
 
 1. Click the **+ (add)** on the left rail in the field group section.
 
-![Add field group button in the left rail](assets/model-standard-objects-add-field-group-button.png "Add a field group")
+   ![Add field group button in the left rail](assets/model-standard-objects-add-field-group-button.png "Add a field group")
 
    
 
 1. Search for **Demographic Details**, or find it by browsing the list. 
 
-- When you find the field group click on the magnifying glass to the right of the field group to view its structure.  This is a useful way to preview what you are about to add to your schema without actually adding it.
-- Close the preview when done reviewing
+   - When you find the field group click on the magnifying glass to the right of the field group to view its structure.  This is a useful way to preview what you are about to add to your schema without actually adding it.
+   - Close the preview when done reviewing
 
 
 
-![Click the magnify glass to preview the field group's structure](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Click the magnify glass to preview the Field Group's structure")
+   ![Click the magnify glass to preview the field group's structure](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Click the magnify glass to preview the Field Group's structure")
 
-![Preview of the Demographic Details field group structure](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![Preview of the Demographic Details field group structure](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
@@ -119,24 +119,24 @@ To remove fields from any Adobe standard field group you can utilize the **Manag
 1. Select the **person** object in your schema
 1. Click on the **Manage related fields** in the right rail
 
-![Manage related fields option for the person object in the Demographic Details field group](assets/model-standard-objects-manage-related-fields-person-object.png "Manage related fields for the person object as part of the Demographic Details field group")
+   ![Manage related fields option for the person object in the Demographic Details field group](assets/model-standard-objects-manage-related-fields-person-object.png "Manage related fields for the person object as part of the Demographic Details field group")
 
    
 
 1. Expand the person object by clicking the chevron to the left of person and expand the full name object by clicking the chevron to the left of the name object. Keep only the following fields:
 
-- person.name.firstName
-- person.name.lastName
-- person.birthDayAndMonth
-- person.birthYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.birthDayAndMonth
+   - person.birthYear
 
-When you are done click the **Confirm** button in the upper right corner.
+   When you are done click the **Confirm** button in the upper right corner.
 
-![Manage related fields dialog showing selected Demographic Details person fields](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Manage related fields of the Demographic Details person object")
+   ![Manage related fields dialog showing selected Demographic Details person fields](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Manage related fields of the Demographic Details person object")
 
->[!NOTE]
->
->You can click the top-most checkbox for **Demographic Details** to auto-deselect all child objects and then reselect only those that you need!
+   >[!NOTE]
+   >
+   >You can click the top-most checkbox for **Demographic Details** to auto-deselect all child objects and then reselect only those that you need!
 
 
 

@@ -20,7 +20,7 @@ Perform the following steps:
 
 1. Click on the **Import Mapping** button on the mapping screen
 
-![Import Mapping button on the mapping screen](assets/configure-mapping-import-mapping-button.png)
+   ![Import Mapping button on the mapping screen](assets/configure-mapping-import-mapping-button.png)
 
 
 

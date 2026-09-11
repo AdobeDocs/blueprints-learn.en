@@ -35,7 +35,7 @@ This Audience will be used to qualify someone when a payload (e.g. page view) co
 1. Go to **Audiences** and click into the **Experience Platform** folder
 1. Drag 'n drop the audience named **dep: Any Event Streaming (within the hour)** onto the canvas
 
-![Dragging the dep: Any Event Streaming (within the hour) audience onto the rule builder canvas](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Dragging the dep: Any Event Streaming (within the hour) audience onto the rule builder canvas](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

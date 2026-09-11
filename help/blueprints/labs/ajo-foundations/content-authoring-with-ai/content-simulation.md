@@ -44,7 +44,7 @@ A simulation panel opens after few seconds.
    - **Jason** → Below 40 years old 
 2. Click **Upload Input Data**.
 
-![Upload Input Data button in the simulation panel](assets/content-simulation-click-upload-input-data.png)
+   ![Upload Input Data button in the simulation panel](assets/content-simulation-click-upload-input-data.png)
 
 3. Choose **sample.csv** and click **Continue**.
 

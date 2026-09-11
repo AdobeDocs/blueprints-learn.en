@@ -36,7 +36,7 @@ Click on the Experience Platform icon from the quick access panel to access your
 
 1. Click on the **Schemas** tab in the left rail
 
-![Schemas tab in the left rail navigation](assets/login-and-browse-schemas-tab-left-rail.png "Navigate to schemas using the left rail")
+   ![Schemas tab in the left rail navigation](assets/login-and-browse-schemas-tab-left-rail.png "Navigate to schemas using the left rail")
 
 1. In the top navigation you see options to browse existing schemas as well as view field groups and data types that are currently in the XDM registry. 
 

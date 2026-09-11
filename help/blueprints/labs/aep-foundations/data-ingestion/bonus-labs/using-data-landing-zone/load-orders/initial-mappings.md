@@ -24,23 +24,23 @@ As in the previous exercise, you will need to verify the mapping and in some cas
 
 1. To map **\_id,** write the following calculated field expression and click preview
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![Calculated field for mapping _id, ready to save](assets/initial-mappings-calculated-field-for-id-mapping.png "Calculated field for mapping _id will look similar to this. Click Save to save the calculated field")
+   ![Calculated field for mapping _id, ready to save](assets/initial-mappings-calculated-field-for-id-mapping.png "Calculated field for mapping _id will look similar to this. Click Save to save the calculated field")
 
-![Mapping the calculated field to the _id attribute](assets/initial-mappings-map-calculated-field-to-id.png "Map the calculated field to _id")
+   ![Mapping the calculated field to the _id attribute](assets/initial-mappings-map-calculated-field-to-id.png "Map the calculated field to _id")
 
 1. Ensure that **timestamp** field in the target schema is mapped to the following calculated field:
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![Calculated field expression preview for the timestamp mapping](assets/initial-mappings-expression-preview.png "Write the following expression and click Preview. NOTE that this value is case-sensitive and must be written exactly this way")
+   ![Calculated field expression preview for the timestamp mapping](assets/initial-mappings-expression-preview.png "Write the following expression and click Preview. NOTE that this value is case-sensitive and must be written exactly this way")
 
-![Mapping the calculated field expression "inStore" to order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![Mapping the calculated field expression "inStore" to order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. Map the calculated field expression **"inStore"** to **order.\_devbc.acqSource**
 

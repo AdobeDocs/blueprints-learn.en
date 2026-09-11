@@ -41,11 +41,11 @@ To add a new field to a schema you need to perform the following operations in o
 1. Select the `Step 1 - Get Tenant Field groups` API call located in the `XDM Schema Lab -> Customize Schema` folder 
 1. Execute the request by clicking the `Send` button
 
-![Step 1 - Get Tenant Field Groups API request](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "Step 1 - Get Tenant Field Groups")
+   ![Step 1 - Get Tenant Field Groups API request](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "Step 1 - Get Tenant Field Groups")
 
->[!NOTE]
->
->Remember that you created the `plan` object within a custom field group. Custom created objects in the XDM schema registry are referred to as "tenant" hence the API call utilizing the `/schemaregistry/tenant/mixins/` path.
+   >[!NOTE]
+   >
+   >Remember that you created the `plan` object within a custom field group. Custom created objects in the XDM schema registry are referred to as "tenant" hence the API call utilizing the `/schemaregistry/tenant/mixins/` path.
 
 
 
@@ -122,26 +122,26 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 1. Click on the `Step 3 - Modify Tenant Field group` API call in the `XDM Schema Lab -> Customize Schema` folder
 
-![Step 3 - Modify Tenant Field Group API call](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "Step 3 - Modify Tenant Field Group")
+   ![Step 3 - Modify Tenant Field Group API call](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "Step 3 - Modify Tenant Field Group")
 
 
 
 2. Update the body of the request with the following information
 
-- **op** ->` add`
-- **path** -> `path from previous step +`` the new field name`
-- **value** ->
-  - **title** -> `Plan Description`
-  - **type** -> `string`
-  - **description** -> `High-level details about the plan`
+   - **op** ->` add`
+   - **path** -> `path from previous step +`` the new field name`
+   - **value** ->
+     - **title** -> `Plan Description`
+     - **type** -> `string`
+     - **description** -> `High-level details about the plan`
 
-When you are done your API request should look something like this
+   When you are done your API request should look something like this
 
-![Completed JSON PATCH request body adding the planDescription field](assets/modify-schema-json-patch-step-3-final-call-example.png "Step 3 - Final Call Example")
+   ![Completed JSON PATCH request body adding the planDescription field](assets/modify-schema-json-patch-step-3-final-call-example.png "Step 3 - Final Call Example")
 
->[!WARNING]
->
->Make sure you include the new field name, **planDescription,** in your path
+   >[!WARNING]
+   >
+   >Make sure you include the new field name, **planDescription,** in your path
 
 
 

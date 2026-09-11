@@ -16,7 +16,7 @@ exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 
 1. Click on the `Step 4 - Create Customer Account Schema` API call in the `XDM Schema Lab -> Create Schema` folder.
 
-![Step 4 - Create Customer Account Schema API call in the Postman collection](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
+   ![Step 4 - Create Customer Account Schema API call in the Postman collection](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
 
 
 
@@ -24,18 +24,18 @@ exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 
 3. Populate the `title` and `description` fields in the body of the schema with the following:
 
-- Title -> `Sample Customer Schema - <your sandbox number>`
-- Description -> `Sample Customer Schema - <your sandbox number>`
+   - Title -> `Sample Customer Schema - <your sandbox number>`
+   - Description -> `Sample Customer Schema - <your sandbox number>`
 
 4. Populate the `$ref` fields with the `$ids` you saved from the previous lab sections you completed: [Create Custom Field Groups](./create-custom-field-groups.md)  and [Get Profile Class](./get-profile-class.md). You should have $ids for each of the following items:
 
-- Class -> XDM Individual Profile
-- Field Group -> Demographic Details
-- Field Group -> Personal Contact Details
-- Field Group -> Consent and Preference Details
-- Field Group (custom) -> Customer Account Details
+   - Class -> XDM Individual Profile
+   - Field Group -> Demographic Details
+   - Field Group -> Personal Contact Details
+   - Field Group -> Consent and Preference Details
+   - Field Group (custom) -> Customer Account Details
 
-![Empty schema request body before adding class and field group references](assets/create-schema-empty-schema-api-body.png "Empty Schema API Body")
+   ![Empty schema request body before adding class and field group references](assets/create-schema-empty-schema-api-body.png "Empty Schema API Body")
 
 
 

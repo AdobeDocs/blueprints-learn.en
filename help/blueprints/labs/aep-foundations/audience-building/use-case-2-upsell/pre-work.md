@@ -15,7 +15,7 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 1. Create a new Audience
 1. Search for "usage" in Attributes. Click on the "i" to review the description (there is none).
 
-![Search for usage in Attributes - no description shown](assets/pre-work-search-usage-in-attributes.png)
+   ![Search for usage in Attributes - no description shown](assets/pre-work-search-usage-in-attributes.png)
 
 
 

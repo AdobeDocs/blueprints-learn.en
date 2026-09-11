@@ -18,7 +18,7 @@ exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 
 1. Navigate to **Monitoring->Streaming End-to-End** and locate your **Dataflow**:
 
-![Locating the streaming dataflow in the Monitoring section](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "Locate your dataflow in Monitoring")
+   ![Locating the streaming dataflow in the Monitoring section](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "Locate your dataflow in Monitoring")
 
 
 
@@ -36,25 +36,25 @@ exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 
 1. If your dataflow had errors because you did not follow instructions, you see the following.
 
-![Failures reported for a streaming dataflow with mapping errors](assets/monitoring-and-debugging-errors-failures-reported.png "Failures reported")
+   ![Failures reported for a streaming dataflow with mapping errors](assets/monitoring-and-debugging-errors-failures-reported.png "Failures reported")
 
 
 
 1. If you click on the Failures, you obtain the following screen:
 
-![Error diagnostics screen showing INGEST, DCVS, and MAPPER error details](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "Preview error diagnostics")
+   ![Error diagnostics screen showing INGEST, DCVS, and MAPPER error details](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png "Preview error diagnostics")
 
->[!NOTE]
->
->A successful micro-batch may take longer than 15 minutes as it may need time to write the records to the data lake.
+   >[!NOTE]
+   >
+   >A successful micro-batch may take longer than 15 minutes as it may need time to write the records to the data lake.
 
 
 
 1. Analyze the error message, identify the **source/target fields,** and look for the code:
 
-- **INGEST XXXX** - This is a serious error either due to data corruption or formatting issues i.e. not following a regex format. 
-- **DCVS XXXX** -  This error is seen with `required` fields. If the values do not exist or are mapped incorrectly (not within the enum list), these rows are skipped.
-- **MAPPER XXXX** - These are warnings and no rows are skipped. But the values may have been "nullified" - so you should check to make sure that they do not impact downstream activities. 
+   - **INGEST XXXX** - This is a serious error either due to data corruption or formatting issues i.e. not following a regex format. 
+   - **DCVS XXXX** -  This error is seen with `required` fields. If the values do not exist or are mapped incorrectly (not within the enum list), these rows are skipped.
+   - **MAPPER XXXX** - These are warnings and no rows are skipped. But the values may have been "nullified" - so you should check to make sure that they do not impact downstream activities. 
 
 1. To recover from the errors, you need to go to **Sources->Dataflows->Dataflow Name->Update dataflow** and fix your mappings. 
 

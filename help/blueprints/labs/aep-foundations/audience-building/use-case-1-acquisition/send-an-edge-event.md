@@ -132,13 +132,13 @@ In Adobe Experience Platform look up the profile you just sent in from the event
 1. Click **View** to look up the profile
 1. Click on the **Profile ID** to open the profile
 
-![Look up the profile and click the Profile ID to open it](assets/send-an-edge-event-lookup-profile.png)
+   ![Look up the profile and click the Profile ID to open it](assets/send-an-edge-event-lookup-profile.png)
 
 
 
 3. Click on **Events** in the top nav and you can see the event you just sent in
 
-![View the event in the Events tab of the profile](assets/send-an-edge-event-view-the-profile-event.png)
+   ![View the event in the Events tab of the profile](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 

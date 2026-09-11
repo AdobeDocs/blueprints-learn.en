@@ -115,9 +115,9 @@ Go ahead and open the profile viewer following the below steps:
 1. Click on the **View** button to lookup the profile
 1. Click on the **link** to the profile to see the profile's details
 
-![Looking up the Depeche Mode profile by email using the default timestamp-based merge policy](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Lookup Depeche Mode with the default timebased merge policy")
+   ![Looking up the Depeche Mode profile by email using the default timestamp-based merge policy](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Lookup Depeche Mode with the default timebased merge policy")
 
-Do another search for the Depeche Mode profile but this time using the **No ID Stitching** merge policy.  
+   Do another search for the Depeche Mode profile but this time using the **No ID Stitching** merge policy.  
 
 1. Right click on **Profiles** in the left rail and then select **open in a new tab**
 1. In the top navigation select **Browse**

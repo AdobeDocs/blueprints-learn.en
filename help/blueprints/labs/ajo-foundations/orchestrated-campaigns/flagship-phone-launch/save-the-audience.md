@@ -18,7 +18,7 @@ In the next set of steps you will be saving the audience you created back to the
 
 1. On the workflow canvas, click the **+** **icon** on **Save Audience** branch and from the list of activities, select the **Change Dimension** activity
 
-![Add the Change Dimension activity on the Save Audience branch](assets/save-the-audience-add-change-dimension.png)
+   ![Add the Change Dimension activity on the Save Audience branch](assets/save-the-audience-add-change-dimension.png)
 
 
 
@@ -26,13 +26,13 @@ In the next set of steps you will be saving the audience you created back to the
    - **Label:**  `Convert Line to Account`
    - **New target dimension:**  `dep-rel: Customer Account`
 
-![Change Dimension label and new target dimension fields](assets/save-the-audience-change-dimension-label.png)
+   ![Change Dimension label and new target dimension fields](assets/save-the-audience-change-dimension-label.png)
 
-![Customer Account selected as the new target dimension](assets/save-the-audience-select-customer-account.png)
+   ![Customer Account selected as the new target dimension](assets/save-the-audience-select-customer-account.png)
 
->[!NOTE]
->
->**Why are you doing this you ask?**  Remember that to join to the Real-Time Customer Profile (which is where you save audiences to) you have to use the Profile Target Mapping you configured which only joins from the dep-rel: Customer Account schema.
+   >[!NOTE]
+   >
+   >**Why are you doing this you ask?**  Remember that to join to the Real-Time Customer Profile (which is where you save audiences to) you have to use the Profile Target Mapping you configured which only joins from the dep-rel: Customer Account schema.
 
 
 
@@ -46,21 +46,21 @@ In the next set of steps you will be saving the audience you created back to the
 
 1. Click the **+** **icon** after the Change Dimension activity and from the list of activities select the **Deduplication** activity
 
-![Add the Deduplication activity after Change Dimension](assets/save-the-audience-add-deduplication-activity.png)
+   ![Add the Deduplication activity after Change Dimension](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
 2. Update the label of the Deduplication activity to `Dedup customer id`
 
-![Deduplication activity label set to Dedup customer id](assets/save-the-audience-deduplication-label.png)
+   ![Deduplication activity label set to Dedup customer id](assets/save-the-audience-deduplication-label.png)
 
 
 
 3. Now click the **+ Add attribute** button and select the field from the schema titled **Customer ID**
 
-![Add attribute button for the Deduplication activity](assets/save-the-audience-add-attribute-button.png)
+   ![Add attribute button for the Deduplication activity](assets/save-the-audience-add-attribute-button.png)
 
-![Customer ID field selected from the schema](assets/save-the-audience-select-customer-id-field.png)
+   ![Customer ID field selected from the schema](assets/save-the-audience-select-customer-id-field.png)
 
 
 
@@ -68,11 +68,11 @@ In the next set of steps you will be saving the audience you created back to the
    - **Duplicates to keep:**  `1`
    - **Deduplication method:**  `Random selection`
 
-![Deduplication settings with duplicates to keep and method](assets/save-the-audience-deduplication-settings.png)
+   ![Deduplication settings with duplicates to keep and method](assets/save-the-audience-deduplication-settings.png)
 
->[!NOTE]
->
->The other options for deduplication allow you to specify your own custom logic.  Most of the time if you need to deduplicate you'll be doing it using the primary key of the table.
+   >[!NOTE]
+   >
+   >The other options for deduplication allow you to specify your own custom logic.  Most of the time if you need to deduplicate you'll be doing it using the primary key of the table.
 
 
 
@@ -86,7 +86,7 @@ In the next set of steps you will be saving the audience you created back to the
 
 1. Click the **+** icon after the Deduplication activity and select the **Save Audience** activity
 
-![Add the Save Audience activity after Deduplication](assets/save-the-audience-add-save-audience-activity.png)
+   ![Add the Save Audience activity after Deduplication](assets/save-the-audience-add-save-audience-activity.png)
 
 2. In the right rail set the properties of the activity to the following:
    - **Audience Label**:  `Apple Upgrade Eligible Customer Accounts`
@@ -119,11 +119,11 @@ By default the primary key of the targeting dimension (i.e., Customer ID) is add
 
 1. Rename the default Target Audience Field to **Customer\_ID** like shown below:
 
-![Target Audience Field renamed to Customer_ID](assets/save-the-audience-field-renamed.png)
+   ![Target Audience Field renamed to Customer_ID](assets/save-the-audience-field-renamed.png)
 
->[!TIP]
->
->Now you have a human legible field name 🎉
+   >[!TIP]
+   >
+   >Now you have a human legible field name 🎉
 
 
 

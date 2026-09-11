@@ -46,7 +46,7 @@ In Adobe Experience Platform look up the profile you just sent in from the event
 
 1. Click on the **Attributes** header and View **JSON**
 
-![Profile attributes JSON view showing segmentMembership](assets/validate-profile-on-hub-json-view.png)
+   ![Profile attributes JSON view showing segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
 2. Find **segmentMembership**.  It should look like this (your IDs will be different)
 

@@ -21,13 +21,13 @@ exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
 
 1. Select the `Step 4 - Get Customer Account Schema and its descriptors` API by clicking on it
 
-![Step 4 - Get Customer Account Schema and its descriptors API call](assets/view-schema-step-4-get-schema-and-descriptors.png "Step 4 - Get Customer Account Schema and its descriptors")
+   ![Step 4 - Get Customer Account Schema and its descriptors API call](assets/view-schema-step-4-get-schema-and-descriptors.png "Step 4 - Get Customer Account Schema and its descriptors")
 
 
 
 2. In the URL of the request replace the `<replace me>` with the `$meta:altId` you saved from the previous section [Create Schema](../build-schema/create-schema.md) as shown below
 
-![Step 4 request with the meta:altId appended to the URL](assets/view-schema-final-step-4-request.png "Final Step 4 Request")
+   ![Step 4 request with the meta:altId appended to the URL](assets/view-schema-final-step-4-request.png "Final Step 4 Request")
 
 
 

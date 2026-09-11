@@ -46,14 +46,14 @@ This functionality allows content-oriented users to work on templates outside ca
 
 1. Go to **Content Management → Content Templates**.
 
-![Navigating to Content Management then Content Templates](assets/building-content-template-navigate-content-templates.png)
+   ![Navigating to Content Management then Content Templates](assets/building-content-template-navigate-content-templates.png)
 
 2. Click **Create Template** and then fill in the following:
    - **Name:** `Promotional Template`
    - **Description:** `Promotional Template for phone products`
    - **Channel:** `Email`
 
-![Create Template form with name, description, and Email channel](assets/building-content-template-create-template-form-fields.png)
+   ![Create Template form with name, description, and Email channel](assets/building-content-template-create-template-form-fields.png)
 
 3. Click **Create**.
 
@@ -64,7 +64,7 @@ This functionality allows content-oriented users to work on templates outside ca
 
 1. Add subject line: `Promotional Template` and click **on the email body** to open it to edit
 
-![Adding the subject line and opening the email body to edit](assets/building-content-template-add-subject-line-open-editor.png)
+   ![Adding the subject line and opening the email body to edit](assets/building-content-template-add-subject-line-open-editor.png)
 
 2. You see three options: 
    1. Design from scratch
@@ -83,11 +83,11 @@ Select the third option. Click **Import HTML**
 
 1. Upload the template html file from the toolkit folder `promotional-template-final.html`
 
-![Uploading promotional-template-final.html from the toolkit folder](assets/building-content-template-upload-html-template-file.png)
+   ![Uploading promotional-template-final.html from the toolkit folder](assets/building-content-template-upload-html-template-file.png)
 
 2. Click on Import button to **import** the template. 
 
-![Import button to import the uploaded HTML template](assets/building-content-template-click-import-button.png)
+   ![Import button to import the uploaded HTML template](assets/building-content-template-click-import-button.png)
 
 3. Wait for the layout to render. You notice issues like broken image links and missing branding. (This is expected behaviour as we have placeholder assets)
 
@@ -132,23 +132,23 @@ Now improve the template. You have already created the header and footer.
 
 1. Drag a **1:1 Column** above the existing content.
 
-![Dragging a 1:1 Column above the existing template content](assets/building-content-template-drag-1-1-column-above-content.png)
+   ![Dragging a 1:1 Column above the existing template content](assets/building-content-template-drag-1-1-column-above-content.png)
 
-You see something like this. 
+   You see something like this. 
 
-![Template layout after adding the new column above the content](assets/building-content-template-column-added-above-content.png)
+   ![Template layout after adding the new column above the content](assets/building-content-template-column-added-above-content.png)
 
 2. Your background uses the template background color, which is currently black. Set its **background colour to white. Click** in the Style tab on the right rail and use white colour from the colour picker. 
 
-![Setting the column background colour to white using the colour picker](assets/building-content-template-set-background-color-white.png)
+   ![Setting the column background colour to white using the colour picker](assets/building-content-template-set-background-color-white.png)
 
 3. Open **Fragments** and drag in your **Header** fragment.
 
-![Dragging the Header fragment into the template from the Fragments panel](assets/building-content-template-drag-header-fragment-into-template.png)
+   ![Dragging the Header fragment into the template from the Fragments panel](assets/building-content-template-drag-header-fragment-into-template.png)
 
 4. Notice that the header fragment is neatly aligned to your template as shown below.
 
-![Header fragment neatly aligned within the template](assets/building-content-template-header-fragment-aligned-template.png)
+   ![Header fragment neatly aligned within the template](assets/building-content-template-header-fragment-aligned-template.png)
 
 5. Click the **Save** button to save your template and then click **Back**.
 

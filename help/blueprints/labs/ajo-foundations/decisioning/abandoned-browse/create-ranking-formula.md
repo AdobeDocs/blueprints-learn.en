@@ -21,14 +21,14 @@ In this lab scenario, we'll pretend that the research marketing team for Connect
 1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You land on the 'Decisioning Rules' page and see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
 2. Click on **Ranking formulas** under the 'Ranking methods' menu. This opens an empty page since you don't have any ranking formulas yet.
 
-![Empty Ranking formulas page before creating a formula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
+   ![Empty Ranking formulas page before creating a formula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
 
 3. Click the blue **Create formula** button to start creating a new ranking formula
 4. Name the ranking formula **iPhone 17 Ranking Formula**
 
->[!NOTE]
->
->When an Experience Event is sent to Edge Data Collection with the required parameters to request an offer from an active Decisioning package, all offers in that package are evaluated using the ranking formula. Each offer will either keep its original priority or have its priority dynamically adjusted based on the profile that triggered the Experience Event. 
+   >[!NOTE]
+   >
+   >When an Experience Event is sent to Edge Data Collection with the required parameters to request an offer from an active Decisioning package, all offers in that package are evaluated using the ranking formula. Each offer will either keep its original priority or have its priority dynamically adjusted based on the profile that triggered the Experience Event. 
 
 5. Scroll to the bottom of the 'Criteria' section and click the **\</>** icon of the bottom-most text box and select the **Offer priority score** variable.
 
@@ -60,29 +60,29 @@ One way to think about priority adjustment rules is to treat them as standard if
 
 1. Start by creating the ranking rule for the Ultra tier offer item. Click into the first textbox in the **Criterion 1** section, then click on the **Select attribute** button when it appears.
 
-![Select attribute option shown for Criterion 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
+   ![Select attribute option shown for Criterion 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
 
 2. When the 'Select an attribute' dialog box opens, click on **Offer name**. Once selected, click **Save.**
 
->[!NOTE]
->
->The 'Decision attribute' refers to elements of the offer item. Since this is where you outline which offer items the criteria will apply to, the only options available to you are attributes of the offer item.
->
+   >[!NOTE]
+   >
+   >The 'Decision attribute' refers to elements of the offer item. Since this is where you outline which offer items the criteria will apply to, the only options available to you are attributes of the offer item.
+   >
 
 3. Leave the operator set to 'Equals' and in the remaining textbox, enter the name of the ultra tier offer item, which is **iphone:17\:ultra**. After entering the text, the UI updates and reflects that the matching condition has been accepted.
 4. Click **+Add Condition**, then click into the **new text box that appears** (it has the text '*Click to create a decision item...*' in it
 5.  Click the now available **Select attribute** option**.**
 6. When the 'Select an attribute' dialog box opens, click on **Profile attributes  > Person** (you likely need to scroll down) **> Birth Year**. Once selected, click **Save.**
 
->[!NOTE]
->
-> 'Profile attributes' refers to the user or profile that sent the Experience Event, and 'Context data' refers to elements in the Experience Event itself, such as URL, page name, or other attributes of the Experience Event payload.
+   >[!NOTE]
+   >
+   > 'Profile attributes' refers to the user or profile that sent the Experience Event, and 'Context data' refers to elements in the Experience Event itself, such as URL, page name, or other attributes of the Experience Event payload.
 
 7. Change the operator to **Greater than** and enter the birth year **1986** (the UI puts a comma in the year, which is expected). After entering, the UI updates to reflect that the condition has been accepted. Since the business use case is to offer the Ultra tier to anyone under 40, the priority is adjusted for anyone born after 1986.
 
->[!NOTE]
->
->As mentioned earlier, the UI indicates that these additional conditions are 'optional.' That is true because one may want to dynamically adjust the priority on a set of offer items without any additional criteria. It may be that the same offer items could be used in a different collection and ranked with a different set of ranking rules. Since this lab uses only a single set of offer items, additional conditions are used to adjust the priority.
+   >[!NOTE]
+   >
+   >As mentioned earlier, the UI indicates that these additional conditions are 'optional.' That is true because one may want to dynamically adjust the priority on a set of offer items without any additional criteria. It may be that the same offer items could be used in a different collection and ranked with a different set of ranking rules. Since this lab uses only a single set of offer items, additional conditions are used to adjust the priority.
 
 8. The original priority for the Ultra tier offer item is 4. To boost the priority, multiply that by 100. To do that, click the **\</>** icon next to the last text box and select the **Offer priority score** variable. Add a **\*100** after the automatically entered text. This expression multiplies the original priority (4) by 100 and gives it a new priority of 400. 
 
@@ -103,9 +103,9 @@ One way to think about priority adjustment rules is to treat them as standard if
 1. Immediately below the adjusting rule you just created, click the **+ Add Criterion** button.
 2. Create a matching condition for where the **Offer name** does NOT equal **iphone:17\:ultra**.
 
->[!WARNING]
->
->This rule is intended to apply to all of the other offer items. More details on why are further along on this page, but you should be very careful about using this kind of logic in practice, as it would apply to every offer in the collection that doesn't have this value. In our case, that's fine, but it may not be in other use cases.
+   >[!WARNING]
+   >
+   >This rule is intended to apply to all of the other offer items. More details on why are further along on this page, but you should be very careful about using this kind of logic in practice, as it would apply to every offer in the collection that doesn't have this value. In our case, that's fine, but it may not be in other use cases.
 
 3. Add the condition that this rule should apply to anyone with a birth year greater than **1966** (anyone younger than 60).
 4. Just like the previous rule, multiply the offer item's default priority score by 100. When finished, your 'Criterion 2' rule looks like this:

@@ -16,11 +16,11 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 1. Once the two Email flows have been configured, the Campaign looks like the following. Click on **Start** button to run the campaign in **Test mode**
 
-![Click Start to run the campaign in Test mode](assets/test-the-campaign-click-start-test-mode.png)
+   ![Click Start to run the campaign in Test mode](assets/test-the-campaign-click-start-test-mode.png)
 
->[!NOTE]
->
->As mentioned in the previous lab, Test mode enables you to validate the campaign execution and the outcomes of the various activities. Each activity is executed sequentially until the end of the flow is reached.
+   >[!NOTE]
+   >
+   >As mentioned in the previous lab, Test mode enables you to validate the campaign execution and the outcomes of the various activities. Each activity is executed sequentially until the end of the flow is reached.
 
 
 
@@ -34,25 +34,25 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 1. To test the Email delivery, click on the **Email using Profile attribute** activity and in the right hand pane, click on **Run test**
 
-![Run test for Email using Profile attribute activity](assets/test-the-campaign-run-test-profile-attribute.png)
+   ![Run test for Email using Profile attribute activity](assets/test-the-campaign-run-test-profile-attribute.png)
 
 2. Wait for the confirmation message and then click on **View report** to see details of the Email test
 
-![Click View report to see Email test details](assets/test-the-campaign-view-report-1.png)
+   ![Click View report to see Email test details](assets/test-the-campaign-view-report-1.png)
 
 3. The Email report page is presented with Campaign statistics and the execution status. The Email test is a verification of the activity to ensure there are no errors and does not send emails. It typically takes about \~**5** minutes to complete.
 
-![Email report page with Campaign statistics](assets/test-the-campaign-campaign-statistics-1.png)
+   ![Email report page with Campaign statistics](assets/test-the-campaign-campaign-statistics-1.png)
 
->[!NOTE]
->
->You may need to refresh the page a few times to see the final test result.
+   >[!NOTE]
+   >
+   >You may need to refresh the page a few times to see the final test result.
 
 
 
 4. Once the Email test is complete, the results are presented. There is some percentage of errors; click on **View more** to know the reason.
 
-![Error rate with View more link](assets/test-the-campaign-error-rate-view-more.png)
+   ![Error rate with View more link](assets/test-the-campaign-error-rate-view-more.png)
 
 5. The reason states `Email address not found in profile`
 
@@ -72,11 +72,11 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 1. Repeat the same process for the **Email using Target Dimension** activity
 
-![Run test for Email using Target Dimension activity](assets/test-the-campaign-run-test-target-dimension.png)
+   ![Run test for Email using Target Dimension activity](assets/test-the-campaign-run-test-target-dimension.png)
 
 2. Wait for the confirmation message and then click on **View report** to see details of the Email test
 
-![Click View report to see Email test details](assets/test-the-campaign-view-report-2.png)
+   ![Click View report to see Email test details](assets/test-the-campaign-view-report-2.png)
 
 3. Once the Email test is complete, the results are presented. In this case, there will be no errors
 

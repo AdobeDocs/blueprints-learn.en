@@ -73,17 +73,17 @@ To get a feel for the Entity Lookup API you use the Depeche Mode profile from th
 1. Click on the **Entity Lookup (attributes)** request to open it
 1. Execute the call by clicking the **Send** button
 
-![Postman request pane for the Entity Lookup (attributes) call before sending](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup (attributes) API")
+   ![Postman request pane for the Entity Lookup (attributes) call before sending](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup (attributes) API")
 
-A successful request should respond with a `200 OK` and you should see a result that contains all the attributes for the Depeche Mode profile.
+   A successful request should respond with a `200 OK` and you should see a result that contains all the attributes for the Depeche Mode profile.
 
-![200 OK response containing all attributes for the Depeche Mode profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) API Response")
+   ![200 OK response containing all attributes for the Depeche Mode profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) API Response")
 
->[!NOTE]
->
->By default if no merge policy is specified in a profile entity request it uses the default merge policy in the sandbox
+   >[!NOTE]
+   >
+   >By default if no merge policy is specified in a profile entity request it uses the default merge policy in the sandbox
 
-With the Entity API there are a number of query parameters that you can utilize to change what is returned in response.  
+   With the Entity API there are a number of query parameters that you can utilize to change what is returned in response.  
 
 1. In the Entity Lookup (attributes) request click on the **Params** option for the request
 1. Check the box next to **Key** named **fields**

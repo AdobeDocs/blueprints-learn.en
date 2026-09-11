@@ -18,29 +18,29 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. Click the **+** icon on the bottom transition of the Fork activity and select the **Split** activity on the popup. 
 
-![Add a Split activity to the bottom fork branch](assets/filter-the-lines-add-split-activity.png)
+   ![Add a Split activity to the bottom fork branch](assets/filter-the-lines-add-split-activity.png)
 
 
 
 2. In the right rail update the Label to state the following:  `Filter out opt'd out lines`
 
-![Split activity label set to Filter out opt'd out lines](assets/filter-the-lines-set-split-label.png)
+   ![Split activity label set to Filter out opt'd out lines](assets/filter-the-lines-set-split-label.png)
 
 
 
 3. In the right rail expand the default segment **Subset** section and click the **Create filter** button
 
-![Create filter button in the Subset section](assets/filter-the-lines-create-filter-button.png)
+   ![Create filter button in the Subset section](assets/filter-the-lines-create-filter-button.png)
 
 
 
 4. Add a condition to ensure that you remove all Customer Lines that are opt'd out of SMS messaging and then click **Confirm**.
 
-![Condition removing Customer Lines opted out of SMS](assets/filter-the-lines-sms-optin-condition.png)
+   ![Condition removing Customer Lines opted out of SMS](assets/filter-the-lines-sms-optin-condition.png)
 
->[!NOTE]
->
->You need to figure out how to create the condition but the final result matches the screenshot above.  You got this!
+   >[!NOTE]
+   >
+   >You need to figure out how to create the condition but the final result matches the screenshot above.  You got this!
 
 
 
@@ -54,15 +54,15 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 1. On the workflow canvas, click the **+** icon after the split condition you added and select the **SMS Activity**
 
-![Add the SMS activity after the split condition](assets/filter-the-lines-add-sms-activity.png)
+   ![Add the SMS activity after the split condition](assets/filter-the-lines-add-sms-activity.png)
 
-![SMS activity added to the workflow canvas](assets/filter-the-lines-sms-activity-on-canvas.png)
+   ![SMS activity added to the workflow canvas](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
 2. In the right rail click on the Edit SMS button to start configuration of the SMS message
 
-![Edit SMS button in the right rail](assets/filter-the-lines-edit-sms-button.png)
+   ![Edit SMS button in the right rail](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -102,13 +102,13 @@ So how do you get this to work?  Add a change dimension 😀
 
 1. Click the back button on the SMS edit screen
 
-![Back button to exit the SMS edit screen](assets/filter-the-lines-exit-sms-editor.png)
+   ![Back button to exit the SMS edit screen](assets/filter-the-lines-exit-sms-editor.png)
 
 
 
 2. On the workflow canvas, click the **+** **icon** between the Filter and SMS activities and select **Change Dimension**. 
 
-![Add a Change Dimension activity between Filter and SMS](assets/filter-the-lines-add-change-dimension.png)
+   ![Add a Change Dimension activity between Filter and SMS](assets/filter-the-lines-add-change-dimension.png)
 
 
 
@@ -116,7 +116,7 @@ So how do you get this to work?  Add a change dimension 😀
    - **Label:**  `Convert Line to Account`
    - **New target dimension:**`dep-rel: Customer Account`
 
-![Change Dimension configured to convert Line to Account](assets/filter-the-lines-change-dimension-settings.png)
+   ![Change Dimension configured to convert Line to Account](assets/filter-the-lines-change-dimension-settings.png)
 
 
 
@@ -134,11 +134,11 @@ Now that you've fixed the workflow, reconfigure the SMS.
 
 1. Click on the SMS activity in the workflow canvas and then, in the left rail, click on the **Edit SMS** button
 
-![Edit SMS button to reconfigure the SMS message](assets/filter-the-lines-edit-sms-button.png)
+   ![Edit SMS button to reconfigure the SMS message](assets/filter-the-lines-edit-sms-button.png)
 
->[!NOTE]
->
->This screen takes a while to load.  I know it's annoying, trust me it's being fixed
+   >[!NOTE]
+   >
+   >This screen takes a while to load.  I know it's annoying, trust me it's being fixed
 
 
 

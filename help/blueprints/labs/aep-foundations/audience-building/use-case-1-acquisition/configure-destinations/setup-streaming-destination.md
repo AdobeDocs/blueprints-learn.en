@@ -48,11 +48,11 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 1. Connection type **None**
 1. Click on **Connect to destination**
 
-![Connect to destination](assets/setup-streaming-destination-connect-to-destination.png "Connect to destination")
+   ![Connect to destination](assets/setup-streaming-destination-connect-to-destination.png "Connect to destination")
 
->[!NOTE]
->
->Typically we would add any authentication credentials at this stage, but none are required for this webhook.
+   >[!NOTE]
+   >
+   >Typically we would add any authentication credentials at this stage, but none are required for this webhook.
 
 
 

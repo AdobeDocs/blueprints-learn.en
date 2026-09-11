@@ -83,35 +83,35 @@ Marketing walked in today and gave us a requirement to have this Streaming and u
 
 1. Open the "*Owns iPhone 14*" Audience and change the name to "*Owns iPhone 14 Batch*".
 
->[!WARNING]
->
->Today we cannot change the Evaluation Method in the UI. Any Audiences that reference this Audience also have to be deleted. Keep this in mind when deciding on your building strategy of using Segments within Segments.
+   >[!WARNING]
+   >
+   >Today we cannot change the Evaluation Method in the UI. Any Audiences that reference this Audience also have to be deleted. Keep this in mind when deciding on your building strategy of using Segments within Segments.
 
 
 
 2. Create a new Audience. Add the "Owns iPhone 14 Audience Batch" Audience to the canvas and click Convert to Rules.
 
-![Add the Owns iPhone 14 Batch audience to the canvas and click Convert to Rules](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![Add the Owns iPhone 14 Batch audience to the canvas and click Convert to Rules](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Audience converted to rules on the canvas](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
+   ![Audience converted to rules on the canvas](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
 3. Update the Description, Name and Evaluation Method to Streaming on the bottom right corner, then click on the folder icon next to the Evaluation Method. You should see this: 
 
-![Evaluation Method set to Streaming after clicking the folder icon](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![Evaluation Method set to Streaming after clicking the folder icon](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
 
 
-While not obvious, the reason for this is we are using Product Name on a lookup schema
+   While not obvious, the reason for this is we are using Product Name on a lookup schema
 
->[!NOTE]
->
->Whenever we use a lookup, our evaluation method is forced to Batch.
->
->You can tell this if you look at the path and it has "properties" in it anywhere
->
->![Path containing "properties" forces the evaluation method to Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
+   >[!NOTE]
+   >
+   >Whenever we use a lookup, our evaluation method is forced to Batch.
+   >
+   >You can tell this if you look at the path and it has "properties" in it anywhere
+   >
+   >![Path containing "properties" forces the evaluation method to Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
 
 
 
@@ -119,32 +119,32 @@ While not obvious, the reason for this is we are using Product Name on a lookup 
 
 4. Replace the existing value for product name to now come from the XDM Individual Profile schema
 
-Replace the following path:
+   Replace the following path:
 
-- XDM Individual Profile > Dep > Active Products > Product ID properties > Product Name
+   - XDM Individual Profile > Dep > Active Products > Product ID properties > Product Name
 
-Add the new path:
+   Add the new path:
 
-- XDM Individual Profile > Dep > Active Products > Model
+   - XDM Individual Profile > Dep > Active Products > Model
 
-![Replace the product name path with the XDM Individual Profile Active Products Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+   ![Replace the product name path with the XDM Individual Profile Active Products Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
 
-![Updated audience rule referencing the XDM Individual Profile Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+   ![Updated audience rule referencing the XDM Individual Profile Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
 
 
 
 5. Change the Evaluation Method to Streaming and click the folder icon 
 
-![Change the Evaluation Method to Streaming and click the folder icon](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+   ![Change the Evaluation Method to Streaming and click the folder icon](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
 6. For your new Streaming eligible Audience, provide a description.
 
-- Save the Audience as "*Owns iPhone 14*" Audience.
-- Click the blue button **Activate Audience** to Destination
+   - Save the Audience as "*Owns iPhone 14*" Audience.
+   - Click the blue button **Activate Audience** to Destination
 
-![Click Activate Audience to Destination for the streaming-eligible audience](assets/build-audience-2-activate-audience-to-destination.png)
+   ![Click Activate Audience to Destination for the streaming-eligible audience](assets/build-audience-2-activate-audience-to-destination.png)
 
 
 

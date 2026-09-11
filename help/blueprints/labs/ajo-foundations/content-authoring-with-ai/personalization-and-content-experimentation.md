@@ -40,22 +40,22 @@ This part of the exercise keeps personalisation simple. Add the first and last n
 2. Add a text block above the hero title with the content: **Hi,**
 3. Click the **Personalisation** icon.
 
-![Personalisation icon in the email text toolbar](assets/personalization-and-content-experimentation-click-personalization-icon.png)
+   ![Personalisation icon in the email text toolbar](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
 4. Search for **F****irst Name**.
 
-![Searching for the First Name attribute in the personalisation panel](assets/personalization-and-content-experimentation-search-first-name-field.png)
+   ![Searching for the First Name attribute in the personalisation panel](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
 5. Click **+** to add it to the expression area. 
 6. Add a **space** after the **First name** field.
 
-![Adding a space after the First Name field in the expression area](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
+   ![Adding a space after the First Name field in the expression area](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
 
 7. Repeat the process above but this time search and add **Last Name**.
 
-Your final syntax shows first and last name variables clearly separated.
+   Your final syntax shows first and last name variables clearly separated.
 
-![First and last name variables clearly separated in the expression syntax](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
+   ![First and last name variables clearly separated in the expression syntax](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
 8. Validate the fragment. Note that there is an option to save the content as fragment. This is a great opportunity to do if you're using Full name for other email content creation. Skip this and go to the next step. 
 9. Click **Save** 
@@ -98,24 +98,24 @@ Create another image for those aged below 40 (remember, you created a Firefly im
 1. Select the existing image block. (Click on the image) and click **Conditional Block**.
 2. Click **Add Variant**.
 
-![Add Variant button on the conditional image block](assets/personalization-and-content-experimentation-click-add-variant-button.png)
+   ![Add Variant button on the conditional image block](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
 3. Rename the first variant to **Age above 40**.
 
-![Renaming the first variant to Age above 40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
+   ![Renaming the first variant to Age above 40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
 
 4. Create a new Variant by clicking on **"Add Variant"** button and Rename it to **Age below 40.**
 
-![Creating and renaming a new variant to Age below 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
+   ![Creating and renaming a new variant to Age below 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
 5. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
 6. Click on the image and Import Media.
 
-![Clicking the image and Import Media for the below-40 variant](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![Clicking the image and Import Media for the below-40 variant](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
 7. Select **variant-age-below-40.jpg** image. Import it by clicking **Next** and finally press **Import** in your folder (you should already be in your folder by default).
 
-![Selecting and importing the variant-age-below-40.jpg image](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![Selecting and importing the variant-age-below-40.jpg image](assets/personalization-and-content-experimentation-select-below-40-image.png)
 
 8. Try to toggle between variants and you see a different image applied. 
 
@@ -133,18 +133,18 @@ Both of the variants are ready but you have not yet applied conditional logic.
 1. Select and hover the **Age above 40** variant.
 2. Click the **Conditional Logic** icon.
 
-![Conditional Logic icon for the Age above 40 variant](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
+   ![Conditional Logic icon for the Age above 40 variant](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
 3. Create a new condition.
 
-![Creating a new condition for the Age above 40 variant](assets/personalization-and-content-experimentation-create-new-condition.png)
+   ![Creating a new condition for the Age above 40 variant](assets/personalization-and-content-experimentation-create-new-condition.png)
 
 4. Search for **year** in the attribute list.
 5. Drag **Birth Year** into the canvas.
 6. Set condition to:
    - **birthYear \< 1986**
 
-![Condition set to birthYear less than 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
+   ![Condition set to birthYear less than 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
 7. Name the condition: **Age above 40**
 8. Add a description - "**Image Variant for people who are above 40**"
@@ -159,7 +159,7 @@ Both of the variants are ready but you have not yet applied conditional logic.
 2. Repeat the steps but change the logic to:
    - **birthYear >= 1986**
 
-![Condition changed to birthYear greater than or equal to 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
+   ![Condition changed to birthYear greater than or equal to 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
 3. Name the condition: **Age below 40**
 4. Add description. "**Image Variant for people who are below 40**"

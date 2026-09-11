@@ -30,15 +30,15 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 1. Set the Dataflow name as **Customer Account Batch – \<Your Initials>** 
 1. Turn on all the alerts **Sources Dataflow Start/Success/Failure**
 
-![Dataflow detail screen with new dataset, Profile, and partial ingestion settings configured](assets/create-dataflow-new-dataset-flow-details.png "Data Flow Details")
+   ![Dataflow detail screen with new dataset, Profile, and partial ingestion settings configured](assets/create-dataflow-new-dataset-flow-details.png "Data Flow Details")
 
->[!NOTE]
->
->**Enabling partial ingestion** specifies the number of errors (**INGEST** and **DCVS**) as a percentage of the total number of records that can fail before the entire dataflow is declared a failure.
+   >[!NOTE]
+   >
+   >**Enabling partial ingestion** specifies the number of errors (**INGEST** and **DCVS**) as a percentage of the total number of records that can fail before the entire dataflow is declared a failure.
 
->[!CAUTION]
->
->Ensure you have **enabled the** dataset for both profile and partial ingestion before proceeding!
+   >[!CAUTION]
+   >
+   >Ensure you have **enabled the** dataset for both profile and partial ingestion before proceeding!
 
 1. If everything looks good click the **Next** button in the upper right corner of the screen to continue to the next step.
 
@@ -49,24 +49,24 @@ exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
 1. Download the sample files from the [Sample Files](../sample-files.md) for use with this lab
 1. Drag 'n drop and/or upload the **Lab\_Customer\_Account.csv** file in the UI.  When done your screen should look like below.
 
-![Preview of the uploaded Customer Account CSV file in the source data screen](assets/create-dataflow-uploaded-csv-preview.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
+   ![Preview of the uploaded Customer Account CSV file in the source data screen](assets/create-dataflow-uploaded-csv-preview.png "Accessing the Azure Storage Explorer files within Adobe Experience Platform")
 
 1. In the preview pane, look at the following attributes and note the following things:
 
-- **sms\_optIn** is a consent field has several missing values (shown in preview as - )
-- **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
-- **account\_end\_date** has the proper date format.
+   - **sms\_optIn** is a consent field has several missing values (shown in preview as - )
+   - **account\_create\_date** does not have the proper date format. It has string values along with date and time values in one string.
+   - **account\_end\_date** has the proper date format.
 
 
 
-![Preview showing sms_optIn field with several missing consent values](assets/create-dataflow-sms-optin-missing-values.png "sms_optin")
+   ![Preview showing sms_optIn field with several missing consent values](assets/create-dataflow-sms-optin-missing-values.png "sms_optin")
 
 
 
-![Preview of account_create_date and account_end_date field values showing inconsistent formatting](assets/create-dataflow-account-create-end-date-preview.png "account_create_date & account_end_date")
+   ![Preview of account_create_date and account_end_date field values showing inconsistent formatting](assets/create-dataflow-account-create-end-date-preview.png "account_create_date & account_end_date")
 
->[!NOTE]
->
->You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab
+   >[!NOTE]
+   >
+   >You will need to deal with the missing values, dates and improperly formatted fields in the mapping steps later in this lab
 
 1. Click the **Next** button in the upper right corner of the screen to continue to the next step

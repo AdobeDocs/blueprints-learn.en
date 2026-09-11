@@ -12,9 +12,9 @@ exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
 
 1. Open your browser and navigate back to the `Schema -> Browse` section.
 
->[!NOTE]
->
->Refresh the UI to see it, since you just created it and need to re-query the schema registry
+   >[!NOTE]
+   >
+   >Refresh the UI to see it, since you just created it and need to re-query the schema registry
 
 2. Search for the schema `Sample Customer Schema - <your sandbox number>`
 

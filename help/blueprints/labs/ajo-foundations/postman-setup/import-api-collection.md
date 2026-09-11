@@ -18,7 +18,7 @@ In this step you will be importing the API collection which contains all the var
 
 1. Download the **AJO Bootcamp (Labs).postman\_collection.json** file:
 
-Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
+   Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
 2. Like before, click on the **Import** button.
 3. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json** file into the import modal text box or drop it into the import dialog box.  This triggers an automatic import.
@@ -46,11 +46,11 @@ To ensure that the environment and collection are functioning correctly together
 1. If necessary, click on **Collections** in the left rail and then expand the **Profile & Journey Labs** folder. 
 2. Click on the **Create Web Event** request, and you see that environment variables are **red**
 
-![Postman request showing environment variables highlighted in red because no environment is selected](assets/import-api-collection-environment-variables-shown-red.png "Verify postman environment variables are red")
+   ![Postman request showing environment variables highlighted in red because no environment is selected](assets/import-api-collection-environment-variables-shown-red.png "Verify postman environment variables are red")
 
 3. Click on the **Environment Dropdown** in the upper-right corner and choose the **AJO Bootcamp** environment.
 
-![Select correct Postman environment](assets/import-api-collection-select-postman-environment.png)
+   ![Select correct Postman environment](assets/import-api-collection-select-postman-environment.png)
 
 4. With the proper environment selected, you see that the EDGE\_REGION variable now turns a lighter blue color. This indicates that the variable now has a value for the selected environment. The DATASTREAM\_CONFIG variable stays red because you haven't created the datastream yet, so you don't have a value for that environment variable yet. Hovering over the EDGE\_REGION shows you what the value of the environment value is.
 

@@ -16,11 +16,11 @@ Confirm that the profile does not exist on the Edge network profile store.
 
 1. Click on the **Attributes** tab and the **Edge** radio button to see the Edge Profile
 
-![Edge Profile shown on the Attributes tab](assets/validate-profile-on-edge-attributes-tab.png)
+   ![Edge Profile shown on the Attributes tab](assets/validate-profile-on-edge-attributes-tab.png)
 
->[!NOTE]
->
->It is possible you may see a "stripped down" version of the profile that consists of only the identities depending on how much time has passed.
+   >[!NOTE]
+   >
+   >It is possible you may see a "stripped down" version of the profile that consists of only the identities depending on how much time has passed.
 
 
 
