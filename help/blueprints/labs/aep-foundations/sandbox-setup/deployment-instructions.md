@@ -52,7 +52,7 @@ The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a co
 The CLI deploys to whichever sandbox your environment file points at, so this has to be set up correctly before you run anything.
 
 1. Copy `envFiles/sample-env.json` and give it a new name, e.g. `my-env.json`
-2. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md):
+2. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md), then save and close the file:
 
 | **Field**       | **Value**                                                                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,8 +61,6 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 | `IMS_ORG`       | Organization ID                                                                                                                       |
 | `SCOPES`        | Must include Experience Platform API scopes (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
 | `SANDBOX_NAME`  | The sandbox you're targeting — must be empty and of type `dev`                                                                        |
-
-3. Save and close the file
 
 >[!NOTE]
 >
