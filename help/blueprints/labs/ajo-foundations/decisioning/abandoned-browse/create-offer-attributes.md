@@ -1,23 +1,23 @@
 ---
-title: Create Offer Attributes
+title: Create offer attributes
 description: Add custom device attributes like make, model, and tier to the standard Offer XDM schema for use in ranking and eligibility rules.
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
 ---
 
-# Create Offer Attributes
+# Create offer attributes
 
 ## Objective
 
 In this section, you'll add custom XDM fields to the standard Offer XDM schema. These custom fields can be used in ranking, sorting, and eligibility criteria. They can also be data that is returned to the requesting device.  
 
-## Create Custom Device Parent Object
+## Create custom Device parent object
 
 1. Expand the **Decisioning** menu item in the left rail if necessary and click **Catalogs.**
 2. By default, the 'Offers' page is shown. Click the **Edit schema** button in the upper-right corner.
 
-![Navigate to edit offers schema](assets/create-offer-attributes-3.png)
+![Edit schema button on the Offers catalog page](assets/create-offer-attributes-edit-schema-button.png)
 
 >[!TIP]
 >
@@ -37,25 +37,25 @@ In this section, you'll add custom XDM fields to the standard Offer XDM schema. 
 
 >[!NOTE]
 >
->The Assign to Field Group appears to be a dropdown, but it also accepts direct text input; therefore, enter the text 'Offer Details'. When you type it in, you'll see an 'Offer Details (New)' item appear as well. Any new attribute has to be assigned to a field group, so in this step, you're effectively creating a new field group called Offer Details.
+>The Assign to Field Group appears to be a dropdown, but it also accepts direct text input; therefore, enter the text 'Offer Details'. When you type it in, you see an 'Offer Details (New)' item appear as well. Any new attribute has to be assigned to a field group, so in this step, you're effectively creating a new field group called Offer Details.
 
 4. Ensure that all of the properties have been filled out like the screenshot below:
 
-![Create Device Schema](assets/create-offer-attributes-1.png)
+![Field properties for the new Device object filled in](assets/create-offer-attributes-device-object-field-properties.png)
 
 5. Once you've verified that all the fields are correct, click the blue **Apply** button at the bottom of the 'Field properties' menu (right rail) to see your changes applied to the schema:
 
-![Device schema created](assets/create-offer-attributes-4.png)
+![Device field group applied to the offer schema](assets/create-offer-attributes-device-object-applied.png)
 
 >[!TIP]
 >
->Just like normal XDM, the custom attributes are grouped under a namespace specific to the IMS organization, namely the imsorg tenant ID or 'dep' in this case. You'll also see that the new 'Offer Details' field group is now listed in the 'Composition' pane, left of the schema.
+>Just like normal XDM, the custom attributes are grouped under a namespace specific to the IMS organization, namely the imsorg tenant ID or 'dep' in this case. You also see that the new 'Offer Details' field group is now listed in the 'Composition' pane, left of the schema.
 
 >[!WARNING]
 >
->Note that these changes are NOT saved....they are just 'Applied.' If you were to navigate away from the page without saving, you would lose your work. Finish out the steps in this section before navigating away. 
+>Note that these changes are NOT saved. They are just 'Applied.' If you were to navigate away from the page without saving, you would lose your work. Finish out the steps in this section before navigating away. 
 
-## Create Custom Device Attributes
+## Create custom Device attributes
 
 Now that the Device XDM object has been created, you can move on to creating device-specific fields. 
 
@@ -67,7 +67,7 @@ Now that the Device XDM object has been created, you can move on to creating dev
    - Once you've verified that all the fields are correct, click the blue **Apply** button to see your changes applied to the schema
 2. Repeat the previous steps to add two additional attributes for **Model** and **Tier**. Use the same naming pattern, type, and field group. When finished, the schema should look like this:
 
-![Full offers schema validation](assets/create-offer-attributes-2.png)
+![Offer schema showing the completed Make, Model, and Tier fields](assets/create-offer-attributes-make-model-tier-fields.png)
 
 3. With all of the new XDM fields/attributes created, click **Save** in the upper right corner and you will receive a green "Schema Successfully Saved" message at the bottom of the screen. You've now completed the steps in this section. 
 
@@ -77,4 +77,4 @@ Now that the Device XDM object has been created, you can move on to creating dev
 
 ## Recap
 
-You’ve successfully updated the standard offers schema with reusable custom fields that will be leveraged in later parts of the lab when creating and evaluating offers.
+You've successfully updated the standard offers schema with reusable custom fields that will be leveraged in later parts of the lab when creating and evaluating offers.

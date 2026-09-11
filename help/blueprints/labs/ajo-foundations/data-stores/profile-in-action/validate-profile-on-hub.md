@@ -8,45 +8,45 @@ exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 
 # Validate Profile on Hub
 
-## Learning Objective
+## Learning objective
 
 Verify that the event resulted in a profile update and segment qualification in Real-Time Profile on the Hub.
 
-## Lookup the Profile on Hub
+## Look up the Profile on Hub
 
-In Adobe Experience Platform lookup the profile you just sent in from the event you just sent into the Edge Network.  
+In Adobe Experience Platform look up the profile you just sent in from the event you just sent into the Edge Network.  
 
 1. Navigate to **Customer** -> **Profiles** -> **Browse** to perform the lookup using the following information:
    - **Merge policy** -> `Default Timebased`
    - **Identity Namespace** -> `Email`
    - **Identity Value** ->  `henry.creel@emailsim.io`
-1. Click **View** to lookup up the profile
+1. Click **View** to look up the profile
 
-![YhLnKD84tNVUxSLTan2bG 20251223 172059](assets/validate-profile-on-hub-5.png)
+![Browse profile screen with merge policy and identity lookup fields](assets/validate-profile-on-hub-browse-profile-lookup.png)
 
 
 
-## Validate Profile on Hub
+## Check the Hub Profile
 
 1. Click on the **Profile ID** to open the profile
-1. Click on the **Attributes** tab first and the ***Hub** *radio button to see the **Hub Profile**
+1. Click on the **Attributes** tab first and the **Hub** radio button to see the **Hub Profile**
 
-![IJ iro 20251107 005528](assets/validate-profile-on-hub-4.png)
+![Hub Profile shown on the Attributes tab](assets/validate-profile-on-hub-attributes-tab.png)
 
 
-## Validate Events
+## Validate events
 
 1. Click on **Events** in the top nav and you can see the event you just sent in
 
-![ZH1XaOgtwuC 20251222 222838](assets/validate-profile-on-hub-2.png)
+![Events tab showing the streamed event on the profile](assets/validate-profile-on-hub-events-tab.png)
 
-## Validate Segments
+## Validate segments
 
 ### Via JSON
 
 1. Click on the **Attributes** header and View **JSON**
 
-![2jS2liqd8p8Bb yRTLTfn 20251111 223239](assets/validate-profile-on-hub-1.png)
+![Profile attributes JSON view showing segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
 2. Find **segmentMembership**.  It should look like this (your IDs will be different)
 
@@ -70,7 +70,7 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 >
 >[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
->**ups:** This is the map key for different kinds of audiences supported by AEP.  The ups key contains audiences created by the Rule Builder.  Other auidences will be contained in other keys (e.g. AAM).
+>**ups:** This is the map key for different kinds of audiences supported by AEP.  The ups key contains audiences created by the Rule Builder.  Other audiences will be contained in other keys (e.g. AAM).
 >
 >**lastQualificationTime** A timestamp of the last time this profile qualified for the segment
 >
@@ -87,7 +87,7 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
    - dep: Any Event Streaming (within the hour)
    - dep: Any Event Edge (within the hour)
 
-![QyX j 20251120 025018](assets/validate-profile-on-hub-3.png)
+![Audience Membership tab showing qualified segments](assets/validate-profile-on-hub-audience-membership-tab.png)
 
 >[!NOTE]
 >

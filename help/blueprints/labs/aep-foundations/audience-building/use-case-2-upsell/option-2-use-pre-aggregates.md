@@ -1,12 +1,12 @@
 ---
-title: Option #2 - Use Pre-Aggregates
+title: Option #2 - use pre-aggregates
 description: Build a fully streaming audience by using pre-aggregated usage attributes calculated upstream instead of aggregating events inside the audience rule.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
 ---
 
-# Option #2 - Use Pre-Aggregates
+# Option #2 - use pre-aggregates
 
 The challenge with Aggregates in our Audience is that our Audience (while Streaming), is built on aggregations done inside Audiences which are Batch Audiences. Since Marketing has determined a more real time approach is needed, we have done three things to work this into the design:
 
@@ -21,24 +21,24 @@ The challenge with Aggregates in our Audience is that our Audience (while Stream
 
 ## Create the Audience
 
-Let's create an audience of all the profiles whose billing data usage is high but do not currently have an ultimate phone plan.
+Create an audience of all the profiles whose billing data usage is high but do not currently have an ultimate phone plan.
 
 1. Create a new Audience
 1. Search for “Agg” on the Attributes not Event tab and drag the two Aggregates onto the canvas. Set the appropriate operators and values for each.
 
-![FTK9UlYHTuo set the appropriate operators and values for each](assets/set-the-appropriate-operators-and-values-for-each.png)
+![Set the appropriate operators and values for each aggregate](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-3\. Search for the Plan Name on the Profile and add it (XDM Individual Profile > Devbc > Plan Details > Plan Name.  Select Does not Equal “Ultimate”
+3. Search for the Plan Name on the Profile and add it (XDM Individual Profile > Devbc > Plan Details > Plan Name). Select Does not Equal “Ultimate”
 
-![DPgZ3P0VztyTF A select does not equal ultimate](assets/select-does-not-equal-ultimate.png)
+![Select Plan Name Does Not Equal Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4\. Provide a description.  Validate evaluation method is Streaming.  
+4. Provide a description.  Validate evaluation method is Streaming.  
 
-5\. Save the Audience as “*Billing Data Usage High But No Ultimate Plan (Agg)*”
+5. Save the Audience as “*Billing Data Usage High But No Ultimate Plan (Agg)*”
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
 
 If everything looks good go ahead and click the **Finish** button in the upper right to execute the data load.
 
-After you click **Finish**, you will be brought back to the **Dataflows** screen. It should takes a few minutes to create the Dataflow. The first run should kick in a couple of minutes. 
+After you click **Finish**, you are brought back to the **Dataflows** screen. It should take a few minutes to create the Dataflow. The first run should kick in a couple of minutes. 
 
-![Dataflows sources screen](assets/dataflows-sources-screen.png)
+![Dataflows screen showing the newly created dataflow and run status](assets/run-dataflow-dataflows-sources-screen.png)
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ After you click **Finish**, you will be brought back to the **Dataflows** screen
 
 >[!NOTE]
 >
->If you turned on all the alerts you'll receive an alert in your browser in the upper right corner of your browser when the flow starts running and successfully completes or fails
+>If you turned on all the alerts you receive an alert in your browser in the upper right corner of your browser when the flow starts running and successfully completes or fails

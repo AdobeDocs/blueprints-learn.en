@@ -1,5 +1,5 @@
 ---
-title: Decision Policies
+title: Decision policies
 description: Learn how decision policies apply selection strategies to a delivery channel and how individual versus grouped combination methods change offer order.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: 21dc67fd-76ac-4b82-ae78-be024c7bfc55
 ---
 
-# Decision Policies
+# Decision policies
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 - Differentiate the individual and grouped methods of combining multiple selection strategies
 - Explain how frequency capping interacts with the number of decision items a policy returns
 
-## Materials Needed
+## Materials needed
 
 - 12 playing cards (Jack, Queen, King from each suit) 
 - 13 sticky notes
@@ -27,11 +27,11 @@ By the end of this lesson, you will be able to:
 
 ## Lecture
 
-This is the longest and most involved simlet in the course. You'll simulate live decision policy behavior — making repeated "requests," tracking impressions against frequency caps, and watching cards drop out and get replaced — then apply everything to a real business scenario comparing individual vs. grouped selection strategy combination.
+This is the longest and most involved simulate in the course. You'll simulate live decision policy behavior — making repeated "requests," tracking impressions against frequency caps, and watching cards drop out and get replaced — then apply everything to a real business scenario comparing individual vs. grouped selection strategy combination.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502210/)
+>[!VIDEO](https://video.tv.adobe.com/v/3502211/)
 
-## Key Takeaways
+## Key takeaways
 
 - A decision policy applies selection strategies to an actual AJO delivery channel, configured on a channel node in a journey or a campaign's channel section
 - A policy can use none, one, or many selection strategies; with none, it returns items by original priority score, filtered by item-level eligibility

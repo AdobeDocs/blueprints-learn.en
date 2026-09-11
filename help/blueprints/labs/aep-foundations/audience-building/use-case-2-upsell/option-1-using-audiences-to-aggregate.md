@@ -1,22 +1,22 @@
 ---
-title: Option #1 - Using Audiences to Aggregate
+title: Option #1 - using Audiences to aggregate
 description: Build audiences that use in-audience Sum and Average aggregation on billing usage events and denormalized plan data to enable streaming evaluation.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
 ---
 
-# Option #1 - Using Audiences to Aggregate
+# Option #1 - using Audiences to aggregate
 
 Aggregates in Audiences allow us to aggregate Events in the Audience rule. But since we can only do one aggregate at a time, we need to split the two from our use case. 
 
-## Audience #1 - Billing Data Usage in the Last 6 Months > 140GB
+## Audience #1 - billing data usage in the last 6 months > 140GB
 
-In this audience build we will need to determine total billing data usage in the last 6 months > 140gb. To do so perform the following:
+In this audience build, you determine total billing data usage in the last 6 months > 140gb. To do so, perform the following:
 
 1. Create a new Audience.  Use the Billing Statement Event Card.
 
-![QPzeyFejTc 8hjTOkT create a new audience use the billing statement event card](assets/create-a-new-audience-use-the-billing-statement-event-card.png)
+![Create a new audience using the Billing Statement event card](assets/option-1-using-audiences-to-aggregate-new-audience-billing-statement-card.png)
 
 >[!NOTE]
 >
@@ -28,29 +28,29 @@ In this audience build we will need to determine total billing data usage in the
 
 
 
-2\. Click on the Ellipse in the bottom right rules and choose Aggregate. Click on Select an Attribute and type Usage. Select the Billing Data Usage field.
+2. Click on the Ellipse in the bottom right rules and choose Aggregate. Click on Select an Attribute and type Usage. Select the Billing Data Usage field.
 
 
 
-![Select the billing data usage field 1](assets/select-the-billing-data-usage-field-1.png)
+![Select an attribute and choose the Billing Data Usage field](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field.png)
 
 
 
-![YCpKnuB4ahBt1 select the billing data usage field 2](assets/select-the-billing-data-usage-field-2.png)
+![Billing Data Usage field selected in the attribute list](assets/option-1-using-audiences-to-aggregate-select-billing-data-usage-field--2.png)
 
 
 
-3\. Change the Equals to Greater than and the value of 140.
+3. Change the Equals to Greater than and the value to 140.
 
-4\. Change the time above the Event card from Any Time to In Last and the value to 6 and the days to months
+4. Change the time above the Event card from Any Time to In Last and the value to 6 and the days to months
 
-![Change t](assets/change-t.png)
+![Change the event time window to In Last 6 months](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-5\. Provide a description and save.  
+5. Provide a description and save.  
 
-6\. Give the Audience the name “*Billing Usage Sum > 140 GB (last 6 months)*”
+6. Give the Audience the name “*Billing Usage Sum > 140 GB (last 6 months)*”
 
 >[!NOTE]
 >
@@ -63,29 +63,29 @@ In this audience build we will need to determine total billing data usage in the
 >- Sum/Count/Min/Max/Average (like we did above)
 >- Counts only (this counts each Event as 1)
 >
->![Counts only this counts each event as 1](assets/counts-only-this-counts-each-event-as-1.png)
+>![Counts only aggregate mode counts each event as 1](assets/option-1-using-audiences-to-aggregate-counts-only-aggregate-mode.png)
 >
 >Both can be used together if desired
 >
->![Both can be used together if desired](assets/both-can-be-used-together-if-desired.png)
+>![Sum and counts only aggregate modes used together](assets/option-1-using-audiences-to-aggregate-both-can-be-used-together.png)
 
-## Audience #2 - Rolling 6 Month Avg. Monthly Data Usage of >= 20GB 
+## Audience #2 - rolling 6 month avg. monthly data usage of >= 20GB 
 
 1. Do not click on the hyperlink, but select the row in the Audience List UI so it is highlighting the one we just created. Once it is highlighted, click copy.
 
-![E4Z21gQIQtPK v once it is highlighted click copy](assets/once-it-is-highlighted-click-copy.png)
+![Select the audience row and click copy](assets/option-1-using-audiences-to-aggregate-select-row-and-click-copy.png)
 
 
 
-2\. Click the copy and Edit it.  Click on the Event card and change the Sum to Average. Change the greater than to greater than or equal to, and the value to 20. Copy the pseudo code into the description.
+2. Click the copy and Edit it.  Click on the Event card and change the Sum to Average. Change the greater than to greater than or equal to, and the value to 20. Copy the pseudo code into the description.
 
-![7jXI8ncd copy the pseudo code into the description](assets/copy-the-pseudo-code-into-the-description.png)
+![Copy the pseudo code into the audience description](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-3\. Give the Audience the name “*Billing Usage Avg > 20 GB (last 6 months)*” 
+3. Give the Audience the name “*Billing Usage Avg > 20 GB (last 6 months)*” 
 
-## Audience #3 - Does Not Have an Ultimate Phone Plan
+## Audience #3 - does not have an ultimate phone plan
 
 1. Create a new Audience
 1. In Attributes, search for Plan Name
@@ -94,39 +94,39 @@ In this audience build we will need to determine total billing data usage in the
 
 >[!NOTE]
 >
->Remember our Pre-Work? We are going to use a field on our lookup dimension:
+>Remember our Pre-Work? This uses a field on our lookup dimension:
 >
->XDM Individual Profile > Devbc> Plan Details > Plan ID properties > **Plan Name (Plan Name)**
+>XDM Individual Profile > Devbc > Plan Details > Plan ID properties > **Plan Name (Plan Name)**
 
-![Eb9q22 select 22ultimate 22 change to does not equal](assets/select-22ultimate-22-change-to-does-not-equal.png)
-
-
-
-5\. Click on Audiences --> Experience Platform. Drag Billing Usage Sum > 140 GB and Billing Usage Avg >= 20 GB next to Plan Name.
-
-![20 gb next to plan name](assets/20-gb-next-to-plan-name.png)
+![Select Ultimate and change operator to Does Not Equal](assets/option-1-using-audiences-to-aggregate-select-ultimate-does-not-equal.png)
 
 
 
-6\. Copy the pseudo code into the description
+5. Click on Audiences --> Experience Platform. Drag Billing Usage Sum > 140 GB and Billing Usage Avg >= 20 GB next to Plan Name.
 
-7\. Check this can be Streaming. **It can’t be Streaming**. Let’s make some changes
+![Drag the billing usage audiences next to Plan Name](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
+
+
+
+6. Copy the pseudo code into the description
+
+7. Check this can be Streaming. **It can’t be Streaming**. Make some changes:
 
 >[!NOTE]
 >
 >Any use of a Lookup dataset creates a Multi-Entity Audience which becomes evaluated in Batch.  We used a field in our Audience:
 >
->XDM Individual Profile > Devbc> Plan Details > Plan ID properties > Plan Name (Plan Name)
+>XDM Individual Profile > Devbc > Plan Details > Plan ID properties > Plan Name (Plan Name)
 
 
 
-8\. Replace **Plan Name (Plan Name)** with: XDM Individual Profile > Devbc > Plan Details > **Plan Name**
+8. Replace **Plan Name (Plan Name)** with: XDM Individual Profile > Devbc > Plan Details > **Plan Name**
 
-![Plan name](assets/plan-name.png)
+![Replace Plan Name (Plan Name) with the denormalized Plan Name field](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
 >[!NOTE]
 >
->Remember during the LID Denormalize step we added Plan Name to the Profile?  Doing this allows us to refer to it in a Audience.  Thus, we remove a join to the lookup and we can now make our evaluation method Streaming.
+>Recall that the LID Denormalize step adds Plan Name to the Profile. This allows you to refer to it in an Audience. As a result, this removes a join to the lookup and lets you make the evaluation method Streaming.
 >
 >The tradeoff here is we have moved this logic upstream to pre data ingest instead of during Audience evaluation.
 >
@@ -136,12 +136,12 @@ In this audience build we will need to determine total billing data usage in the
 
 
 
-9\. Validate we can now be able to save this as Streaming. Save Audience as “*Billing Data Usage High But No Ultimate Plan*” 
+9. Validate that you can now save this as Streaming. Save Audience as “*Billing Data Usage High But No Ultimate Plan*” 
 
->[!WARNING]
+> [!NOTE]
 >
 >While this evaluation method is Streaming, it is basing Audience qualification on two batch Audiences.
 
 >[!NOTE]
 >
->This approach will work, but we now have an Streaming Audience (real time), using Batch Audiences (that will run once every 24 hours). If this works for our use cases and data loads, then this is a good choice (e.g. maybe our billing data is loaded daily or monthly which is highly likely but not all use cases will be like this). If not, a common approach is to aggregate the data before sending to AEP. Let’s look at another option if we need a more real time approach.
+>This approach will work, but we now have a Streaming Audience (real time), using Batch Audiences (that will run once every 24 hours). If this works for our use cases and data loads, then this is a good choice (e.g. maybe our billing data is loaded daily or monthly which is highly likely but not all use cases will be like this). If not, a common approach is to aggregate the data before sending to AEP. Look at another option if you need a more real-time approach.

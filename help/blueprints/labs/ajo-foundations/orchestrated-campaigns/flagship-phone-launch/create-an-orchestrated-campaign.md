@@ -10,52 +10,52 @@ exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 
 ## Objective
 
-In the next step of steps you create the shell of an Orchestrated Campaign (no activities) which is the starting point for any campaign.
+In the next set of steps you create the shell of an Orchestrated Campaign (no activities) which is the starting point for any campaign.
 
 
 
-## Navigate to Campaigns
+## Navigate to campaigns
 
 1. First make sure you are in the Adobe Journey Optimizer application by selecting the app from the apps drawer in the upper right of your browser
 
-![BORA8SSNEuzdu1Q3KYXZC 20251202 180155](assets/create-an-orchestrated-campaign-2.png)
+![Select Adobe Journey Optimizer from the apps drawer](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
 2. In the left navigation rail, select **Campaigns**
 3. Then click the button **Create campaign** in the upper right
 
-![Create camaign](assets/create-an-orchestrated-campaign-1.png)
+![Create campaign button in Campaigns navigation](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
 4. In the modal that displays select **Orchestration - Marketing** and the click **Confirm**
 
-![Create orchestrated campaign](assets/create-an-orchestrated-campaign-4.png)
+![Select Orchestration - Marketing and click Confirm](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
-## Campaign Settings
+## Campaign settings
 
-1. Fill out the required camaign metadata with the following information:
+1. Fill out the required campaign metadata with the following information:
    - **Name** --> `Flagship Phone Launch`
    - **Description** --> *leave empty*
    - **Merge policy** --> `Default Timebased`
-   - **Tags** -->* leave empty*
+   - **Tags** --> *leave empty*
 
 When done your screen should look like below. 
 
-![Campaign settings](assets/create-an-orchestrated-campaign-3.png)
+![Campaign settings filled in with name and merge policy](assets/create-an-orchestrated-campaign-settings-filled.png)
 
 2. Click the **Save** button to continue.
 
 
 
-## Understanding Scheduling
+## Understanding scheduling
 
 You should land immediately into the workflow canvas after you create your campaign.  Note that in the upper right there is a scheduling option for how often this workflow should run for you campaign.
 
-The default is alwasy set to **As soon as possible**. For this exercise, we will use the default but there are many other options to available to you.
+The default is always set to **As soon as possible**. For this exercise, we will use the default but there are many other options available to you.
 
-![OkPM9d8kFHlnpCAqtY 20260115 221302.png "Scheduler options"](assets/1u_OkPM9d8kFHlnpCAqtY-20260115-221302.png "Scheduler options")
+![Scheduler options for how often the campaign workflow runs "Scheduler options"](assets/create-an-orchestrated-campaign-scheduler-options.png "Scheduler options")
 
 
 

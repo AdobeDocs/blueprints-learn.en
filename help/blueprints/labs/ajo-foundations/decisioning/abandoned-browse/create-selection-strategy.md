@@ -16,10 +16,10 @@ Imagine that we had hundreds of offers utilized in forty collections and a dozen
 
 ## Create the Selection Strategy
 
-1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You will land on the 'Decisioning Rules' page and should see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
+1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You land on the 'Decisioning Rules' page, where you see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
 2. Click on **Selection Strategies** just below the 'Ranking methods' menu. With no selection strategies available, click the blue **Create selection strategy** button.
 
-![Navigate to Selection Strategies](assets/create-selection-strategy-2.png)
+![Selection Strategies page with the Create selection strategy button](assets/create-selection-strategy-create-button.png)
 
 3. Name the selection strategy **iPhone 17 Selection Strategy**
 4. You can see that a selection strategy requires 3 things. 
@@ -33,7 +33,7 @@ Click the **Select Collection** button, tick the box next to the only Collection
 
 >[!NOTE]
 >
->Eligibility can be applied at the offer level, the selection strategy level, or the Journey/Campaign level via the criteria for entering the Journey or Campaign. It all depends on the use case you are trying to realize. If you click on the **Eligibility** drop-down, you'll see the same Audience and Decision Rule options that you saw at the offer level. In our use case, we only wanted to limit specific offers, so it made sense to do eligibility at the offer level.
+>Eligibility can be applied at the offer level, the selection strategy level, or the Journey/Campaign level via the criteria for entering the Journey or Campaign. It all depends on the use case you are trying to realize. If you click on the **Eligibility** drop-down, you see the same Audience and Decision Rule options that you saw at the offer level. In our use case, we only wanted to limit specific offers, so it made sense to do eligibility at the offer level.
 
 6. Set the **Ranking method** to **formula,** then click the **Select formula** button
 
@@ -43,15 +43,15 @@ Click the **Select Collection** button, tick the box next to the only Collection
 >
 >The AI Model option uses an AI model that analyzes impressions, clicks, and conversions for returned offers to determine which offer to display to the individual. We will not be using them in this lab as there are minimum data thresholds as well as two weeks required to train the models.
 
-7. Tick the box next to the only Ranking formula you have (**iPhone 17 Ranking Formula**) and click **Save**. When finished, your selection strategy should look like this:
+7. Tick the box next to the only Ranking formula you have (**iPhone 17 Ranking Formula**) and click **Save**. When finished, your selection strategy looks like this:
 
-![Complete Selection Strategy validation](assets/create-selection-strategy-1.png)
+![Completed selection strategy with collection, eligibility, and ranking formula set](assets/create-selection-strategy-completed-configuration.png)
 
 8. Once your selection strategy is correct, click the blue **Create** button.
 
 >[!TIP]
 >
->You should now see your iPhone 17 Selection Strategy in the 'Selection strategy' menu
+>You now see your iPhone 17 Selection Strategy in the 'Selection strategy' menu
 
 >[!NOTE]
 >
@@ -59,4 +59,4 @@ Click the **Select Collection** button, tick the box next to the only Collection
 
 ## Recap
 
-On this page, you created a selection strategy that ties together the core components you’ve built so far — the offer collection, eligibility rules, and ranking formula.
+On this page, you created a selection strategy that ties together the core components you've built so far — the offer collection, eligibility rules, and ranking formula.

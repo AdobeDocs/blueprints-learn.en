@@ -1,14 +1,14 @@
 ---
-title: Mark Identity Fields
+title: Mark identity fields
 description: Learn how identity descriptors mark schema fields as primary or non-primary identities using the XDM schema registry API.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
 ---
 
-# Mark Identity Fields
+# Mark identity fields
 
-## Identity Descriptors
+## Identity descriptors
 
 In order to mark a field as an identity you need to create an Identity Descriptor in the schema registry. A sample schema descriptor body looks like the following:
 
@@ -33,8 +33,8 @@ In order to mark a field as an identity you need to create an Identity Descripto
 - **xdm\:isPrimary** -> if a primary identity then `true` else it is `false`
 
 
-## Your Objective
+## Your objective
 
 Create both primary and non-primary identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
-![LxxLyKc0x1oi  KIec4DfNpiRj7z0Wyf7M 20241024 001607](assets/overview-1.png)
+![Customer Account schema after creating primary and non-primary identity descriptors](assets/overview-schema-with-primary-and-non-primary-identities.png)

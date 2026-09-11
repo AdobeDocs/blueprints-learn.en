@@ -1,12 +1,12 @@
 ---
-title: Create Ranking Formula
+title: Create ranking formula
 description: Build a ranking formula that dynamically boosts offer priority scores based on profile attributes such as age.
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
 ---
 
-# Create Ranking Formula
+# Create ranking formula
 
 ## Objective
 
@@ -16,12 +16,12 @@ A ranking formula dynamically boosts specific offer prioritizations so they "ris
 
 In this lab scenario, we'll pretend that the research marketing team for Connection 5G showed that those under age 39 would be drawn to the Ultra or Pro tiers and those 40-59 would be drawn to the base and pro tiers. And since Connection 5G would rather sell higher-tier phones, all things being equal, the ultra model would be presented first for those under 39, with the pro model being presented first for those 40-59. This section will show you how to create a ranking formula to meet those business requirements. 
 
-## Create a Ranking Formula and Default Expression
+## Create a ranking formula and default expression
 
-1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You will land on the 'Decisioning Rules' page and should see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
-2. Click on **Ranking formulas** under the 'Ranking methods' menu, and you'll be taken to an empty page since you don't have any ranking formulas yet.
+1. If necessary, expand **Decisioning** in the left rail and click on **Strategy setup**. You land on the 'Decisioning Rules' page and see the 'Upper Tier Plans' Decision Rule that you created previously and used as eligibility requirements for the upper-tier phone offer items. 
+2. Click on **Ranking formulas** under the 'Ranking methods' menu. This opens an empty page since you don't have any ranking formulas yet.
 
-![Navigate to ranking formula](assets/create-ranking-formula-3.png)
+![Empty Ranking formulas page before creating a formula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
 
 3. Click the blue **Create formula** button to start creating a new ranking formula
 4. Name the ranking formula **iPhone 17 Ranking Formula**
@@ -32,35 +32,35 @@ In this lab scenario, we'll pretend that the research marketing team for Connect
 
 5. Scroll to the bottom of the 'Criteria' section and click the **\</>** icon of the bottom-most text box and select the **Offer priority score** variable.
 
-![Use offer priority score in a formula](assets/create-ranking-formula-4.png)
+![Offer priority score variable selected in the ranking formula criteria](assets/create-ranking-formula-select-offer-priority-score.png)
 
-The default expression should now be set like this:
+The default expression is now set like this:
 
-![Validate default offer priority score](assets/create-ranking-formula-6.png)
+![Default expression set to the offer priority score variable](assets/create-ranking-formula-default-expression-set.png)
 
 >[!NOTE]
 >
->This bottom text box is the default expression applied to any offer item that doesn't meet any priority adjustment criteria. In this case, this will simply be the priority assigned to the offer when it was created. If no default priority score is given to the collection that this ranking formula will execute on, then you'd want to assign a default score
+>This bottom text box is the default expression applied to any offer item that doesn't meet any priority adjustment criteria. In this case, this is simply the priority assigned to the offer when it was created. If no default priority score is given to the collection that this ranking formula will execute on, then you'd want to assign a default score
 
-## Create Priority Adjusting Rules
+## Create priority adjusting rules
 
-Now that there is a default expression, we can start adding rules that will dynamically adjust the priority based on the user's age. 
+Now that there is a default expression, you can start adding rules that dynamically adjust the priority based on the user's age. 
 
 One way to think about priority adjustment rules is to treat them as standard if/then statements that only apply to certain offers. If the test proves true, then adjust the priority for offers that meet a given criterion. The UI does arrange these in a slightly different order, as called out in this screenshot.
 
-![Hy6rwlv7aolO7zUjtvFN8 20251210 073229.png "If, then, and where on priority adjustment rules"](assets/hy6rwlv7aolO7zUjtvFN8-20251210-073229.png "If, then, and where on priority adjustment rules")
+![UI order of if, then, and where sections in a priority adjustment rule](assets/create-ranking-formula-if-then-where-rule-order.png "UI order of if, then, and where sections in a priority adjustment rule")
 
 >[!NOTE]
 >
 >The "if" is optional because one could apply a priority adjustment rule where an offer meets a specific criterion without a conditional statement first. Expanding on our example in this guide, imagine we had several offers with a phone OS attribute (Android vs. iOS). One could boost the priority of all iPhone offers where the profile's preferred OS is iOS. There is no "if." Just "adjust the score where offer attribute = profile attribute." Below is an image similar to the one above that outlines this idea without a conditional statement. 
 >
->![RecBj1ufiz 20260312 002839.png "Two step create ranking rule criterion"](assets/ef4tRlQIsc_RecBj1ufiz-20260312-002839.png "Two step create ranking rule criterion")
+>![Priority adjustment rule applied without a conditional if statement](assets/create-ranking-formula-rule-without-conditional.png "Priority adjustment rule applied without a conditional if statement")
 
-## Create Criterion 1: Adjustment Rule for those Younger than 39
+## Create criterion 1: adjustment rule for those younger than 39
 
-1. We'll start by creating the ranking rule for the Ultra tier offer item. Click into the first textbox in the **Criterion 1** section, then click on the **Select attribute** button when it appears.
+1. Start by creating the ranking rule for the Ultra tier offer item. Click into the first textbox in the **Criterion 1** section, then click on the **Select attribute** button when it appears.
 
-![Attribute for Criterion one](assets/create-ranking-formula-2.png)
+![Select attribute option shown for Criterion 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
 
 2. When the 'Select an attribute' dialog box opens, click on **Offer name**. Once selected, click **Save.**
 
@@ -69,26 +69,26 @@ One way to think about priority adjustment rules is to treat them as standard if
 >The 'Decision attribute' refers to elements of the offer item. Since this is where you outline which offer items the criteria will apply to, the only options available to you are attributes of the offer item.
 >
 
-3. Leave the operator set to 'Equals' and in the remaining textbox, enter the name of the ultra tier offer item, which is **iphone:17\:ultra**. After entering the text, the UI will update and reflect that the matching condition has been accepted.
-4. Click **+Add Condition**, then click into the **new text box that appears** (it'll have the text '*Click to create a decision item...*' in it
+3. Leave the operator set to 'Equals' and in the remaining textbox, enter the name of the ultra tier offer item, which is **iphone:17\:ultra**. After entering the text, the UI updates and reflects that the matching condition has been accepted.
+4. Click **+Add Condition**, then click into the **new text box that appears** (it has the text '*Click to create a decision item...*' in it
 5.  Click the now available **Select attribute** option**.**
-6. When the 'Select an attribute' dialog box opens, click on **Profile attributes  > Person** (you'll likely need to scroll down) **> Birth Year**. Once selected, click **Save.**
+6. When the 'Select an attribute' dialog box opens, click on **Profile attributes  > Person** (you likely need to scroll down) **> Birth Year**. Once selected, click **Save.**
 
 >[!NOTE]
 >
 > 'Profile attributes' refers to the user or profile that sent the Experience Event, and 'Context data' refers to elements in the Experience Event itself, such as URL, page name, or other attributes of the Experience Event payload.
 
-7. Change the operator to **Greater than** and enter the birth year **1986** (the UI will put a comma in the year, which is expected). After entering, the UI will update to reflect that the condition has been accepted. Since the business use case is to offer the Ultra tier to anyone under 40, we want to adjust the priority for anyone born after 1986.
+7. Change the operator to **Greater than** and enter the birth year **1986** (the UI puts a comma in the year, which is expected). After entering, the UI updates to reflect that the condition has been accepted. Since the business use case is to offer the Ultra tier to anyone under 40, the priority is adjusted for anyone born after 1986.
 
 >[!NOTE]
 >
->As mentioned earlier, the UI indicates that these additional conditions are 'optional.' That is true because one may want to dynamically adjust the priority on a set of offer items without any additional criteria. It may be that the same offer items could be used in a different collection and ranked with a different set of ranking rules. Since we're only using a single set of offer items, we'll be using additional conditions to adjust the priority.
+>As mentioned earlier, the UI indicates that these additional conditions are 'optional.' That is true because one may want to dynamically adjust the priority on a set of offer items without any additional criteria. It may be that the same offer items could be used in a different collection and ranked with a different set of ranking rules. Since this lab uses only a single set of offer items, additional conditions are used to adjust the priority.
 
-8. The original priority for the Ultra tier offer item is 4. To boost the priority, we'll multiply that by 100. To do that, click the **\</>** icon next to the last text box and select the **Offer priority score** variable. Add a **\*100** after the automatically entered text. This expression will multiply the original priority (4) by 100 and give it a new priority of 400. 
+8. The original priority for the Ultra tier offer item is 4. To boost the priority, multiply that by 100. To do that, click the **\</>** icon next to the last text box and select the **Offer priority score** variable. Add a **\*100** after the automatically entered text. This expression multiplies the original priority (4) by 100 and gives it a new priority of 400. 
 
    Your rule should now look like this:
 
-![Validate criterion rule one](assets/create-ranking-formula-1.png)
+![Criterion 1 rule boosting the Ultra tier offer priority score by 100](assets/create-ranking-formula-criterion-one-ultra-boost.png)
 
 >[!NOTE]
 >
@@ -98,28 +98,28 @@ One way to think about priority adjustment rules is to treat them as standard if
 
 
 
-## Create Criterion 2: Adjustment Rule for those 49-50
+## Create criterion 2: adjustment rule for those 40-59
 
 1. Immediately below the adjusting rule you just created, click the **+ Add Criterion** button.
 2. Create a matching condition for where the **Offer name** does NOT equal **iphone:17\:ultra**.
 
 >[!WARNING]
 >
->We want this rule to apply to all of the other offer items. More details on why are further along on this page, but you should be very careful about using this kind of logic in practice, as it would apply to every offer in the collection that doesn't have this value. In our case, that's fine, but it may not be in other use cases.
+>This rule is intended to apply to all of the other offer items. More details on why are further along on this page, but you should be very careful about using this kind of logic in practice, as it would apply to every offer in the collection that doesn't have this value. In our case, that's fine, but it may not be in other use cases.
 
 3. Add the condition that this rule should apply to anyone with a birth year greater than **1966** (anyone younger than 60).
-4. Just like the previous rule, multiply the offer item's default priority score by 100. When finished, your 'Criterion 2' rule should look like this:
+4. Just like the previous rule, multiply the offer item's default priority score by 100. When finished, your 'Criterion 2' rule looks like this:
 
-![Validate criterion 2 in the ranking formula](assets/create-ranking-formula-5.png)
+![Criterion 2 rule adjusting priority for profiles born after 1966](assets/create-ranking-formula-criterion-two-rule.png)
 
 >[!NOTE]
 >
->Using ranking formulas and eligibility rules together can feel complex, but here’s the core idea:
+>Using ranking formulas and eligibility rules together can feel complex, but here's the core idea:
 >
 >- **Ranking formulas** dynamically adjust the priority scores and, therefore, the order of the offers.
->- **Eligibility rules** (such as decision rules and frequency caps) remove offers from the ordered list if the user isn’t allowed to see them.
+>- **Eligibility rules** (such as decision rules and frequency caps) remove offers from the ordered list if the user isn't allowed to see them.
 >
->Let's consider how the offers would be ordered given these examples and the ranking formula you just created:
+>Here's how the offers would be ordered given these examples and the ranking formula you just created:
 >
 >**Birth Year = 1990**
 >
@@ -142,11 +142,11 @@ One way to think about priority adjustment rules is to treat them as standard if
 
 >[!TIP]
 >
->You should now be taken back to the 'Strategy Setup' page, and you will see the single Ranking Formula that you just created. 
+>You're now taken back to the 'Strategy Setup' page, and you see the single Ranking Formula that you just created. 
 
->[!WARNING]
+> [!NOTE]
 >
->What happens if two offers result in the same priority? Offers with the same priority score will be chosen at random for return to the requesting system. 
+>What happens if two offers result in the same priority? Offers with the same priority score are chosen at random for return to the requesting system. 
 
 ## Recap
 

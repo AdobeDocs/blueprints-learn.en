@@ -1,14 +1,16 @@
 ---
-title: Use Case #3 - Outreach
+title: Use case #3 - Outreach
 description: Define an outreach use case targeting customers who cancel orders within a week of purchase using sequential and dynamic audience features.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: aeef5e97-e66d-4332-bfde-38736343ea9d
 ---
 
-# Use Case #3 - Outreach
+# Use case #3 - Outreach
 
 ## Overview
+
+In this video you will learn how to approach the outreach use case, which re-engages customers who cancel orders within a week of purchase.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459490/?quality=12&learn=on)
 
@@ -18,7 +20,7 @@ A trend in both orders placed and orders cancelled has been seen. Management now
 
 
 
-## Analysis Tasks
+## Analysis tasks
 
 1. What fields you think are needed to address this use case?
 1. Does the evaluation method need to be Streaming?
@@ -32,7 +34,7 @@ A trend in both orders placed and orders cancelled has been seen. Management now
 
 
 
-## Approach 
+## Approach
 
 For this use case we are going to use two features of the Audience Engine:
 

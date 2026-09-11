@@ -1,26 +1,26 @@
 ---
-title: Sandbox Access
+title: Sandbox access
 description: Verify your Postman environment can successfully retrieve your assigned Experience Platform sandbox before starting the labs.
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
 ---
 
-# Sandbox Access
+# Sandbox access
 
-Before you continue we want to double check that your access is legit. Perform the following steps:
+Before you continue, double check that your access is legit. Perform the following steps:
 
 1. Open the folder titled `Check Sandbox Access` and click on the call titled `Retrieve Your Sandbox`
-1. Next in the upper right corner of Postman you'll see an Environment drop-down box.  Be sure to select the `AEP Bootcamp` environment
+1. Next in the upper right corner of Postman you see an Environment drop-down box.  Be sure to select the `AEP Bootcamp` environment
 1. Execute the call by clicking the `Send` button
 
-![Check sandbox.png "Retrieve your sandbox API call"](assets/zCLbt7QlciemmMZ-QXguZ_check-sandbox.png "Retrieve your sandbox API call")
+![Postman request pane for the Retrieve Your Sandbox call before sending](assets/sandbox-access-check-sandbox-request.png "Retrieve your sandbox API call")
 
 
 
-A successful response will look like so:
+A successful response looks like so:
 
-![Sandbox success.png "200 OK Successful sandbox request"](assets/MtPo9F-842nGytENwXCaN_sandbox-success.png "200 OK Successful sandbox request")
+![200 OK response confirming successful retrieval of the assigned sandbox](assets/sandbox-access-successful-response.png "200 OK Successful sandbox request")
 
 >[!NOTE]
 >

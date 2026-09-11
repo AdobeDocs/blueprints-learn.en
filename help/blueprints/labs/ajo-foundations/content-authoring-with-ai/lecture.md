@@ -9,7 +9,7 @@ exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
 
 # Lecture
 
-## Learning Objectives
+## Learning objectives
 
 - Explain why content, not data or journeys, is the primary constraint in personalization programs at scale
 - Describe the four-layer content anatomy model: assets, fragments, templates, and messages
@@ -23,9 +23,11 @@ exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
 
 ## Video
 
+In this video you will learn the four-layer content anatomy model, the three AJO content integration patterns, and how AI capabilities fit into a governed content system.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3491063/?quality=12&learn=on)
 
-## Key Takeaways
+## Key takeaways
 
 Personalization at scale depends on three pillars: content, data, and journeys. Most enterprises invest heavily in data and journey orchestration but treat content as an afterthought, which is exactly why content is where personalization programs break first. For an AJO architect, understanding how to structure content as a governed system, rather than a pile of one-off assets, is what separates a scalable implementation from one that collapses under its own template sprawl.
 

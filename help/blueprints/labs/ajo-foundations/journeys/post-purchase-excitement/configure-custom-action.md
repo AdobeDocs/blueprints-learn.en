@@ -1,32 +1,32 @@
 ---
-title: Configure Custom Action
+title: Configure custom action
 description: Configure a reusable custom action in Adobe Journey Optimizer that calls a third-party endpoint to retrieve shipping ETA and tracking details.
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
 ---
 
-# Configure Custom Action
+# Configure custom action
 
-## Learning Objective
+## Learning objective
 
 Create a custom action that defines how the journey will communicate with an external endpoint or service to get an ETA for when the package will arrive.
 
-## Navigate to Actions
+## Navigate to actions
 
-In the left rail under the  Adminstration menu click to **Configurations** and then on the Actions tile click the **Manage** button
+In the left rail under the  Administration menu click to **Configurations** and then on the Actions tile click the **Manage** button
 
-![LmhfabYwizD64PUMaDDRX 20251117 221425](assets/configure-custom-action-8.png)
+![Manage button on the Actions tile under Configurations](assets/configure-custom-action-open-actions-manage.png)
 
 
 
-## Configure the Action
+## Configure the action
 
-### Action Name & Details
+### Action name & details
 
 1. In the upper right click on the **Create Action** button
 
-![Create a new action](assets/configure-custom-action-3.png)
+![Create Action button in the upper right](assets/configure-custom-action-click-create-action-button.png)
 
 2. In the configuration panel that appears update the following basic values as shown below:
    - **Name**: `GetShippingDetails`
@@ -35,10 +35,10 @@ In the left rail under the  Adminstration menu click to **Configurations** and t
    - **Channel**: `Email`
    - **Required marketing Action**: `Email Targeting`
 
-![Ad8 20260121 222336](assets/configure-custom-action-10.png)
+![Basic values configured for the GetShippingDetails custom action](assets/configure-custom-action-set-basic-values.png)
 
 
-### Endpoint Details
+### Endpoint details
 
 In the Endpoint configuration area provide the following details:
 
@@ -55,27 +55,25 @@ In the Endpoint configuration area provide the following details:
 
 - **Authentication Type**: `No Authentication`
 
-![RZ MD9gDP54DaU3wV2Ffv 20260121 224857](assets/configure-custom-action-11.png)
+![Endpoint URL, method, and query parameter configured for the custom action](assets/configure-custom-action-endpoint-details-configured.png)
 
-![X7b2R7jGuU2KoXlb84DVY 20260121 224916](assets/configure-custom-action-7.png)
+![Authentication Type set to No Authentication for the endpoint](assets/configure-custom-action-endpoint-details-configured--2.png)
 
 
 
-### Response Payload Details
+### Response payload details
 
 Now you need to provide a sample payload so the action knows what the response payload should look like.
 
 1. In the Payloads area click on the **Pencil icon** to open the Field configuration screen
 
-![JNPWtISmH68 rVbooJAGN 20251112 191547](assets/configure-custom-action-5.png)
+![Pencil icon to open the Field configuration screen in Payloads area](assets/configure-custom-action-open-field-configuration.png)
 
-![P9syM UXJbkAx4aRXPgj  20251112 191647](assets/configure-custom-action-9.png)
+![Field configuration screen for the response payload](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
 2. **Copy and paste** the below payload into the Payload box
-
-JSON
 
 ```json
 {
@@ -86,12 +84,12 @@ JSON
 
 >[!NOTE]
 >
->This is the same JSON structure the mockaroo endpoint we use above should return:
+>This is the same JSON structure that the Mockaroo endpoint above should return:
 
 
 3. The response payload will display. Click the **Save** button.
 
-![FSWM 20251112 191815](assets/configure-custom-action-1.png)
+![Response payload displayed with the Save button](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
@@ -99,30 +97,30 @@ JSON
 
 
 
-### Test the Action
+### Test the action
 
 1. Click the **Send test request** button in the bottom right rail to validate you didn't mess anything up 😀
 
-![Z3Zn defewlUqo O 20251112 192923](assets/configure-custom-action-2.png)
+![Send test request button in the bottom right rail](assets/configure-custom-action-click-send-test-request.png)
 
 
 
-2. Click on the **Query parameters** tab and update the value for `orderId`to **123**
+2. Click on the **Query parameters** tab and update the value for `orderId` to **123**
 
-![9HtNxkbpHpG2CVRs6H7xu 20251112 193020](assets/configure-custom-action-4.png)
+![Query parameters tab with orderId value set to 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. Click the **Send button** and if all works out well you should see a response code of 200 and a Preview of the payload as shown below\...
+3. Click the **Send button** and if all works out well you should see a response code of 200 and a Preview of the payload as shown below...
 
-![WYsxnbwpkIVug1YHoEWBP 20260121 230625](assets/configure-custom-action-6.png)
+![Response code 200 and payload preview after sending the test request](assets/configure-custom-action-response-200-preview.png)
 
 Preview
 
 ```json
 {
-  "eta": string "12/26/2025",
-  "tracking_number": string "063112249"
+  "eta": "12/26/2025",
+  "tracking_number": "063112249"
 }
 ```
 
@@ -140,4 +138,4 @@ Preview
 
 ## Recap
 
-A reusable custom action configured in Adobe Journey Optimizer that takes an Order Id and returns the ETA and Tracking Number
+A reusable custom action configured in Adobe Journey Optimizer that takes an Order ID and returns the ETA and Tracking Number.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 description: Get an introduction to brands, brand guidelines, journeys, and templates, and learn to navigate Adobe Journey Optimizer's content creation tools.
 doc-type: overview-page
@@ -8,7 +8,7 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 # Overview
 
-## Pre-Requisites
+## Pre-requisites
 
 >[!WARNING]
 >
@@ -19,11 +19,13 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 If you have not completed these labs please do so now before continuing.
 
-## Lab Overview
+## Lab overview
+
+In this video you will learn what to expect across the three acts of this hands-on lab -- setting up the Connection 5G brand, building fragments, templates, and an AI-assisted email, and validating it through simulation and a proof send.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
@@ -44,7 +46,7 @@ Content is at the centre of every customer interaction. In Adobe Journey Optimiz
 
 This lab introduces the core elements required to create and manage branded content for Connection 5G.
 
-## 1. Brands
+### 1. Brands
 
 A Brand in AJO represents a unique identity (e.g., Connection 5G). Each brand includes:
 
@@ -53,7 +55,7 @@ A Brand in AJO represents a unique identity (e.g., Connection 5G). Each brand in
 - Tone and voice rules
 - Assets and creative materials
 
-## 2. Brand Guidelines
+### 2. Brand guidelines
 
 Brand Guidelines define:
 
@@ -62,7 +64,7 @@ Brand Guidelines define:
 - Legal requirements
 - Visual standards such as colour, imagery, and iconography
 
-## 3. Journeys
+### 3. Journeys
 
 Journeys are automated workflows that orchestrate customer experiences based on:
 
@@ -70,7 +72,7 @@ Journeys are automated workflows that orchestrate customer experiences based on:
 - Events or triggers
 - Eligibility and conditions
 
-## 4. Templates
+### 4. Templates
 
 Templates are reusable structures for channels, for example:
 
@@ -81,13 +83,13 @@ Templates are reusable structures for channels, for example:
 
 ## Navigation & interface walkthrough
 
-### Log in and Access the Dashboard
+### Log in and access the dashboard
 
 1. Open Adobe Journey Optimizer in your browser.
 1. Sign in with your credentials.
-1. You will land on the main dashboard.
+1. You land on the main dashboard.
 
-### Locate the Main Navigation Menu
+### Locate the main navigation menu
 
 Explore:
 
@@ -99,17 +101,15 @@ Explore:
 
 ### Access content creation tools
 
-Before you begin building your brand, let’s take a moment to explore the **content creation tools** available in Adobe Journey Optimizer including:
+Before you begin building your brand, take a moment to explore the **content creation tools** available in Adobe Journey Optimizer including:
 
-·      Assets
+- Assets
+- Content Templates
+- Fragments
 
-·      Content Templates 
+Click on each of them and get familiar with the UI. This lab goes through each section in detail. 
 
-·      Fragments
-
-Click on each of them and get familiar with the UI. We will go through each section in this lab. 
-
-![Zc3Uu3K1Tqtuh](assets/overview-1.png)
+![Content creation tools including Assets, Content Templates, and Fragments in the navigation menu](assets/overview-content-creation-tools-navigation-menu.png)
 
 ## Summary
 
@@ -119,4 +119,4 @@ You have now learned:
 - Definitions of Brands, Brand Guidelines, Journeys, and Templates
 - How to navigate the AJO interface and locate key content creation tools
 
-You are ready to continue to next module - Brand Management.
+You are ready to continue to the next module - **Brand management**.

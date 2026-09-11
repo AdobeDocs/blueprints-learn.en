@@ -1,18 +1,20 @@
 ---
-title: Configure Email Channels
+title: Configure email channels
 description: Configure two email channel configurations, one using an AEP Profile attribute and one using a Relational schema attribute, for Orchestrated Campaigns.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
 ---
 
-# Configure Email Channels
+# Configure email channels
 
-## Lab Overview
+## Lab overview
+
+In this video you will learn how to create the two email channel configurations used in this lab -- one using an AEP Profile attribute and one using a Relational schema attribute as the execution address.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486540/)
 
-## Learning Objectives
+## Learning objectives
 
 - Configure Email channel using AEP Profile attribute for Orchestrated Campaigns
 - Configure Email channel using Relational schema attribute for Orchestrated Campaigns

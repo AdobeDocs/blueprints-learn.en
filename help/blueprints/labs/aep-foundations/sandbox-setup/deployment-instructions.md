@@ -1,5 +1,5 @@
 ---
-title: Deployment Instructions
+title: Deployment instructions
 description: Use the DEP CLI to deploy the AEP Foundations lab pack's schemas, datasets, dataflows, and sample profile data to your sandbox.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
 ---
 
-# Deployment Instructions
+# Deployment instructions
 
->[!WARNING]
+> [!NOTE]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
@@ -33,7 +33,7 @@ The AEP Foundations lab pack is deployed to your sandbox using the DEP CLI, a co
 
 - **License Entitlements.** Administrative privileges for an IMS Org with Real-Time CDP (w/streaming segmentation)
 - **Access Rights.** An Adobe Experience Platform role with all permissions on the target sandbox including the API credential you created from [Developer Console Setup](developer-console-setup.md).
-- **Developer Console credentials.** A project that includes Adobe Experience Platform API's. If you don't have these yet, follow [Developer Console Setup](developer-console-setup.md) first
+- **Developer Console credentials.** A project that includes Adobe Experience Platform APIs. If you don't have these yet, follow [Developer Console Setup](developer-console-setup.md) first
 - **A sandbox.** Empty, of type `dev` and in a "Ready" state for at least 60 minutes before you start deployment
 - **Node.js.** Any recent LTS version, on Windows or Mac
 
@@ -66,9 +66,9 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 
 >[!NOTE]
 >
->You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
+>You're prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
 
-## 3. Run the AEP Foundations menu
+## 3. Run the AEP foundations menu
 
 From the main menu, select **AEP foundations**. There are three steps, and they have to run in order.
 
@@ -84,9 +84,9 @@ From the main menu, select **AEP foundations**. There are three steps, and they 
 
 Step 1 takes about 2 minutes to run, Step 2 about 6 minutes, and Step 3 is a quick validation with no wait of its own. The 60- and 15-minute gaps between steps are for AEP to finish propagating data behind the scenes — that's most of your 2-hour timeline.
 
->[!WARNING]
+> [!NOTE]
 >
->The CLI checks these wait times automatically. If you run a step too early, it will block and tell you how many minutes remain — you don't need to track the clock yourself.
+>The CLI checks these wait times automatically. If you run a step too early, it blocks and tells you how many minutes remain — you don't need to track the clock yourself.
 
 >[!NOTE]
 >
@@ -102,4 +102,4 @@ Step 1 takes about 2 minutes to run, Step 2 about 6 minutes, and Step 3 is a qui
 
 >[!CAUTION]
 >
->Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.
+>Resetting a sandbox is destructive. The CLI asks you to type the sandbox name to confirm before proceeding.

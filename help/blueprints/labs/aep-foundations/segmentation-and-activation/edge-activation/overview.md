@@ -8,7 +8,7 @@ exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
 
 # Edge Activation
 
-## Activation Speed Recap
+## Activation speed recap
 
 Adobe has three speeds of activation meant to address different needs:
 
@@ -16,15 +16,15 @@ Adobe has three speeds of activation meant to address different needs:
 1. Streaming
 1. Batch
 
-We will go through how to activate using the Adobe Edge with Event Forwarding, Edge Audiences and Edge Personalization. Then show how to use Streaming Destinations from the Hub to both the Edge and to an external destination.
+We will go through how to activate using the Adobe Edge with Event Forwarding, Edge Audiences and Edge Personalization. We will then show how to use Streaming Destinations from the Hub to both the Edge and to an external destination.
 
 >[!NOTE]
 >
->We will not be covering Batch Activation in this lab. Batch Activation can be scheduled at different intervals and the timing makes it hard to showcase in a lab environment w/o having at least 3-24 hours.
+>We will not be covering Batch Activation in this lab. Batch Activation can be scheduled at different intervals and the timing makes it hard to showcase in a lab environment without having at least 3-24 hours.
 
 
 
-## What the Lab Will Cover
+## What the lab will cover
 
 - Create Edge Segment
 - Configure Event Forwarding

@@ -8,12 +8,12 @@ exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
 
 # Get Plan Schema ID
 
-## List All Tenant Schemas
+## List all tenant schemas
 
-1. Click on the `Step 1 - Get Lookup Schemas`API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
+1. Click on the `Step 1 - Get Lookup Schemas` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 1. Execute the API by clicking the `Send` button
 
-![Step 1 get lookup schemas.jpeg "Step 1   Get Lookup Schemas"](assets/2WgUimjBRcQiUeBTOFrvq_step-1-get-lookup-schemas.jpeg "Step 1 - Get Lookup Schemas")
+![Step 1 - Get Lookup Schemas API request](assets/get-plan-schema-id-step-1-get-lookup-schemas.jpeg "Step 1 - Get Lookup Schemas")
 
 >[!NOTE]
 >
@@ -21,12 +21,12 @@ exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
 
 
 
-## Identify the Plan Schema
+## Identify the plan schema
 
 1. Search for the `dep: Plan [Lookup] `schema in the calls response
 1. Copy the `$id` of the schema and save it somewhere for future reference
 
-![JkA 0UjRCfQ tCmSus dep lookup plan schema sid.png "dep: Lookup Plan schema $id"](assets/3__JkA-0UjRCfQ-tCmSus_dep-lookup-plan-schema-sid.png "dep: Lookup Plan schema $id")
+![The dep: Plan Lookup schema $id located in the API response](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: Lookup Plan schema $id")
 
 >[!NOTE]
 >

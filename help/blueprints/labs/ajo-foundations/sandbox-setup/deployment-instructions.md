@@ -1,5 +1,5 @@
 ---
-title: Deployment Instructions
+title: Deployment instructions
 description: Use the DEP CLI to deploy the AJO Architectural Foundations lab pack's schemas, datasets, dataflows, and sample data to your sandbox.
 doc-type: article
 
@@ -7,7 +7,7 @@ solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
 ---
 
-# Deployment Instructions
+# Deployment instructions
 
 >[!WARNING]
 >
@@ -39,8 +39,8 @@ The AJO Architectural Foundations lab pack is deployed to your sandbox using the
 ## Prerequisites
 
 - **License Entitlements.** Administrative privileges for an IMS Org with Real-Time CDP (w/streaming segmentation) and Adobe Journey Optimizer (w/Orchestrated Campaigns)
-- **Access Rights.** An Experience Platform role with all permissions on the target sandbox including the API credential you created from [Developer Console Setup](developer-console-setup.md).
-- **Developer Console credentials.** A project that includes both Adobe Experience Platform API and Adobe Journey Optimizer API's. If you don't have these yet, follow [Developer Console Setup](developer-console-setup.md) first
+- **Access Rights.** An Experience Platform role with all permissions on the target sandbox including the API credential you created from [Developer Console setup](developer-console-setup.md).
+- **Developer Console credentials.** A project that includes both Adobe Experience Platform API and Adobe Journey Optimizer APIs. If you don't have these yet, follow [Developer Console setup](developer-console-setup.md) first
 - **A sandbox.** Empty, of type `dev` and in a "Ready" state for at least 120 minutes before you start deployment
 - **Node.js.** Any recent LTS version, on Windows or Mac
 
@@ -59,7 +59,7 @@ The AJO Architectural Foundations lab pack is deployed to your sandbox using the
 The CLI deploys to whichever sandbox your environment file points at, so this has to be set up correctly before you run anything.
 
 1. Copy `envFiles/sample-env.json` and give it a new name, e.g. `my-env.json`
-2. Open the file and fill in the following fields using the values from [Developer Console Setup](developer-console-setup.md):
+2. Open the file and fill in the following fields using the values from [Developer Console setup](developer-console-setup.md):
 
 | **Field**       | **Value**                                                                                                                                                                                                                                                           |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -73,7 +73,7 @@ The CLI deploys to whichever sandbox your environment file points at, so this ha
 
 >[!NOTE]
 >
->You'll be prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
+>You're prompted for this file's name each time you run a CLI command, so you can reuse it across every step below.
 
 ## 3. Run the AJO Architectural Foundations menu
 
@@ -113,9 +113,9 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 >
 >Use Step 6 instead of running Steps 4 and 5 separately — it does the same thing in one pass with the propagation wait handled for you.
 
->[!WARNING]
+> [!NOTE]
 >
->All wait times above are checked automatically by the CLI. If you run a step too early, it will block and tell you how long to wait.
+>All wait times above are checked automatically by the CLI. If you run a step too early, it blocks and tells you how long to wait.
 
 ## Troubleshooting
 
@@ -131,4 +131,4 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 
 >[!CAUTION]
 >
->Resetting a sandbox is destructive. The CLI will ask you to type the sandbox name to confirm before proceeding.
+>Resetting a sandbox is destructive. The CLI asks you to type the sandbox name to confirm before proceeding.

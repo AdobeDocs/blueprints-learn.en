@@ -10,9 +10,9 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 
 ## Objective
 
-In the next set of steps you will navigate the UI to view the Schema and setup the Identity. Next, you will setup the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
+In the next set of steps you will navigate the UI to view the Schema and set up the Identity. Next, you will set up the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
 
-## Why This is Important
+## Why this is important
 
 The Profile Target Dimension is used to tell Adobe Journey Optimizer how data between the Real-Time Customer Profile and Relational Store can be joined. The ingredients of this configuration are as follows:
 
@@ -28,27 +28,27 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 1. Click on the **Apps** icon and select **Journey Optimizer**
 
-![Navigate to Journey Optimizer](assets/profile-target-dimension-8.png)
+![Apps icon menu with Journey Optimizer selected](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
 2. Click on **Schemas** under the Data Management menu and make sure you have the **Browse** tab selected.
 3. Search for the schema called `dep-rel: Customer Account`
 
-![Search for schema dep-rel: Customer Account](assets/profile-target-dimension-9.png)
+![Schema search for dep-rel: Customer Account](assets/profile-target-dimension-search-schema.png)
 
 4. Open the schema by clicking on its name and then click on the field **customer\_id**
 
-![Select schema field customer_id](assets/profile-target-dimension-2.png)
+![Schema field list with customer_id selected](assets/profile-target-dimension-select-customer-id-field.png)
 
 5. In the right rail locate the checkbox named **Identity**, **check the box** and choose the Identity namespace titled **customerID**
 
-![Choose the identity namespace customerID](assets/profile-target-dimension-5.png)
+![Identity checkbox with the customerID namespace selected](assets/profile-target-dimension-choose-identity-namespace.png)
 
-6. Click the **Save** button to save your schema. A confirmation message will show up
+6. Click the **Save** button to save your schema. A confirmation message shows up
 7. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
 
 >[!CAUTION]
 >
->If you do not save the schema after adding the identity label the next set of configuration steps will not work
+>If you do not save the schema after adding the identity label, the next set of configuration steps does not work
 
 >[!NOTE]
 >
@@ -58,15 +58,15 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 1. Click on **Configurations** under **Administration**
 
-![Configurations](assets/profile-target-dimension-7.png)
+![Administration menu with Configurations selected](assets/profile-target-dimension-configurations-menu.png)
 
 2. Select **Profile Target Dimension** and click on **Manage**
 
-![Profile Target Dimension](assets/profile-target-dimension-10.png)
+![Profile Target Dimension configuration with the Manage option](assets/profile-target-dimension-manage-configuration.png)
 
 3. The Profile Target Dimension pane opens, click on **Create**
 
-![Create](assets/profile-target-dimension-4.png)
+![Profile Target Dimension pane with the Create button](assets/profile-target-dimension-create-button.png)
 
 4. Select the schema `dep-rel: Customer Account` from the drop-down.
 
@@ -74,11 +74,11 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 >
 >It might take a few minutes for the schema to appear in this screen after marking the identity. Refresh the page and repeat the previous two steps until the schema appears.
 
-![Create Profile Target Dimension](assets/profile-target-dimension-3.png)
+![Create Profile Target Dimension form with the schema drop-down](assets/profile-target-dimension-select-schema-dropdown.png)
 
 5. For the **Identity value** select `/customer_id`
 
-![Select Identity value](assets/profile-target-dimension-1.png)
+![Identity value drop-down with /customer_id selected](assets/profile-target-dimension-select-identity-value.png)
 
 >[!NOTE]
 >
@@ -86,17 +86,17 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 
 
-6. Click the **Save** button to create the Profile Target Dimension. You should then see the record appear.
+6. Click the **Save** button to create the Profile Target Dimension. You then see the record appear.
 
-![Profile Target Dimension saved](assets/profile-target-dimension-6.png)
+![Saved Profile Target Dimension record in the list](assets/profile-target-dimension-saved-record.png)
 
 >[!NOTE]
 >
->The name of the record created is a concatination of the schema name *(dep-rel: Customer Account)* and the field labeled with the identity *(customer\_id)*
+>The name of the record created is a concatenation of the schema name *(dep-rel: Customer Account)* and the field labeled with the identity *(customer\_id)*
 
 >[!TIP]
 >
->Congratulations! this concludes the Profile Target Dimension creation step in the lab.
+>Congratulations! This concludes the Profile Target Dimension creation step in the lab.
 
 ## Recap
 

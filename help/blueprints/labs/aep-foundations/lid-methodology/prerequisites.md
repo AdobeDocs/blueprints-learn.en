@@ -12,35 +12,37 @@ exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
 
 The LID methodology labs you are about to perform will teach you how to think when it comes to translating relational data models into the Experience Platform's NoSQL data model.  You will learn not just how to perform the data translations but more importantly why you must perform them and what questions you need to be asking along the way to validate your design.
 
+In this video you will learn the three-step LID methodology of Label, Identify, and Denormalize used to translate relational data into the Real-Time Customer Profile's XDM model.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3459078/?quality=12&learn=on)
 
 
 
-## Learning Objectives
+## Learning objectives
 
 1. Describe the training scenario customer architecture, data sources and business use cases
-1. Explain the how to convert an Entity Relationship Diagrams (ERD) relationships and cardinality types of one-to-many, many-to-one and one-to-one into XDM
+1. Explain how to convert an Entity Relationship Diagram's (ERD) relationships and cardinality types of one-to-many, many-to-one and one-to-one into XDM
 1. Describe the composition of the Real-Time Customer Profile as it relates to XDM schemas
 1. Identify the steps within the LID Methodology and how to effectively apply each step to a relational database model
 
 
 
-## Lab Assets
+## Lab assets
 
-### Training Scenario
+### Training scenario
 
-Famalarize yourself with the training scenario before you get started with the labs.
+Familiarize yourself with the training scenario before you get started with the labs. In this video you will learn about Connection 5G's business objectives, current marketing architecture, and target Adobe Experience Platform architecture used throughout the LID methodology labs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459080/?quality=12&learn=on)
 
 
 
-### Reference Materials
+### Reference materials
 
 To perform the various labs within the LID Methodology you will need the following materials:
 
 - Pen or Pencil
-- Ability to print out the the LID Lab Worksheets.pdf (linked below)
+- Ability to print out the LID Lab Worksheets.pdf (linked below)
 - Download a copy of the Connection 5G Training Scenario.pdf (linked below)
 
 
@@ -51,4 +53,4 @@ Download File — [LID Lab Worksheets.pdf](assets/lid-lab-worksheets.pdf)
 
 >[!NOTE]
 >
->You need to print out the LID Lab Worksheet.pdf after you download to be able to complete the upcoming labs.
+>You need to print out the LID Lab Worksheets.pdf after you download to be able to complete the upcoming labs.

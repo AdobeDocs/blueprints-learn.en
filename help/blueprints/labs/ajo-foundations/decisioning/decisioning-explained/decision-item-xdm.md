@@ -1,5 +1,5 @@
 ---
-title: Decision Item XDM
+title: Decision item XDM
 description: Learn the pre-built XDM schema every decision item shares and how custom attributes are nested under a tenant namespace.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: c42503a2-24e7-4a5d-98bf-38c16fe69733
 ---
 
-# Decision Item XDM
+# Decision item XDM
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
@@ -17,7 +17,7 @@ By the end of this lesson, you will be able to:
 - Explain where custom attributes live within the schema and the cap that applies to them
 - Recognize how nesting attributes under a parent object supports reuse
 
-## Materials Needed
+## Materials needed
 
 - pad of at least 12 sticky notes (more in case you make mistakes)
 
@@ -27,7 +27,7 @@ Partway through the video, you'll pause to write four attribute names across the
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502206/)
 
-## Key Takeaways
+## Key takeaways
 
 - Every decision item uses the same pre-built schema: personalized offer items – experience decisioning
 - Everything under the \_experience node is system-required and cannot be edited

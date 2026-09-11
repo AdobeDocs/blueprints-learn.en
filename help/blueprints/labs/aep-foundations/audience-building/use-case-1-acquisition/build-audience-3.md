@@ -8,23 +8,23 @@ exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
 
 # Build Audience #3
 
-## Lab Objective
+## Lab objective
 
-Build an audience that visitied an iPhone 14 product page
+Build an audience that visited an iPhone 14 product page
 
 
 
-## Analysis Tasks
+## Analysis tasks
 
 This Audience should be straight forward.  We might have multiple product pages, but nothing tricky here.
 
 
 
-## Create an Audience (Visited Any Page)
+## Create an Audience (visited any page)
 
 1. Find Page View event on the Event tab under Event Types in the left rail and add to the Audience
 
-![LiM find pag](assets/find-pag.png)
+![Find the Page View event under Event Types in the left rail](assets/build-audience-3-find-page-view-event.png)
 
 >[!NOTE]
 >
@@ -39,47 +39,47 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-2\. Provide a description and make it Streaming.  
+2. Provide a description and make it Streaming.  
 
-3\. Above the Placed Event, change "Any time" to "Today"
+3. Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
+![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
 
-4\. Save this Audience as “*Visited Any Page*”
+4. Save this Audience as “*Visited Any Page*”
 
-5\. Click the blue button **Activate Audience** to Destination
+5. Click the blue button **Activate Audience** to Destination
 
-6\. Select the **Streaming DEP Webhook** Destination and click next
+6. Select the **Streaming DEP Webhook** Destination and click Next
 
-7\. Click Next and Finish
+7. Click Next and Finish
 
-## Create an Audience (Visited iPhone 14 Page but Not Owns/Ordered it)
+## Create an Audience (visited iPhone 14 page but not owns/ordered it)
 
 1. Create a new Audience and add the Page Views Event
 
-![5MGYCxJ EfgS create a new audience and add the page views event](assets/create-a-new-audience-and-add-the-page-views-event.png)
+![Create a new audience and add the Page Views event](assets/build-audience-3-create-a-new-audience-and-add-the-page-views-event.png)
 
 
 
-2\. Navigate to where Page Name is and add the Page Name field to the Event so we can filter on it.
+2. Navigate to where Page Name is and add the Page Name field to the Event so we can filter on it.
 
 - XDM ExperienceEvent --> Web --> Web page details --> Name
 
-![Xdm experienceevent greater web greater web page details greater name](assets/xdm-experienceevent-greater-web-greater-web-page-details-greater-name.png)
+![Navigate to XDM ExperienceEvent > Web > Web page details > Name](assets/build-audience-3-navigate-to-page-name-field.png)
 
 
 
-3\. Add contains “iPhone 14”
+3. Add contains “iPhone 14”
 
-![Add contains iphone 14](assets/add-contains-iphone-14.png)
+![Add a contains condition for "iPhone 14"](assets/build-audience-3-add-contains-iphone-14.png)
 
->[!CAUTION]
+> [!TIP]
 >
 >**Searching for "Page"**
 >
 >Rather than navigating to the field, try searching for "Page"
 >
->You will see Page Name does not come up. This is because of how it is named:
+>You see Page Name does not come up. This is because of how it is named:
 >
 >- XDM ExperienceEvent > Web > Web page details > Name
 >
@@ -87,13 +87,13 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >Search does not search descriptions
 >
->![W3bu8fPD U2 searching for 22page 22](assets/searching-for-22page-22.png)
+>![Searching for "Page" does not surface the Page Name field](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
-4\. Above the Placed Event, change "Any time" to "Today"
+4. Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
+![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
 
 >[!NOTE]
 >
@@ -101,19 +101,19 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-5\. Validate this is Streaming and provide a description.
+5. Validate this is Streaming and provide a description.
 
-6\. Save Audience as "*Visited iPhone 14 Page*"
+6. Save Audience as "*Visited iPhone 14 Page*"
 
-![6PRF save audience as 22visited iphone 14 page](assets/save-audience-as-22visited-iphone-14-page.png)
+![Save the audience as "Visited iPhone 14 Page"](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-7\. Click the blue button **Activate Audience** to Destination
+7. Click the blue button **Activate Audience** to Destination
 
-8\. Select the **Streaming DEP Webhook** Destination and click next
+8. Select the **Streaming DEP Webhook** Destination and click Next
 
-9\. Click Next and Finish
+9. Click Next and Finish
 
 
 
@@ -124,21 +124,21 @@ This Audience should be straight forward.  We might have multiple product pages,
 1. Pull in the three other Audiences we previously created
 1. Change the Include to Does not include for Owns iPhone 14 and Placed Order iPhone 14.
 
-![Provide a description](assets/provide-a-description.png)
+![Set Owns iPhone 14 and Placed Order iPhone 14 to Does not include in the audience of audiences](assets/build-audience-3-audience-of-audiences-does-not-include.png)
 
 
 
-5\. Provide a description.
+5. Provide a description.
 
-6\. Change to Streaming
+6. Change to Streaming
 
-7\. Save as “*Visited iPhone 14 Page but Not Owns/Ordered it*” 
+7. Save as “*Visited iPhone 14 Page but Not Owns/Ordered it*” 
 
-8\. Click the blue button **Activate Audience** to Destination
+8. Click the blue button **Activate Audience** to Destination
 
-9\. Select the **Streaming DEP Webhook** Destination and click next
+9. Select the **Streaming DEP Webhook** Destination and click Next
 
-10\. Click Next and Finish
+10. Click Next and Finish
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >The requirements had no time requirements, so if someone visited three years ago, they would qualify. Depending on our use case that may or may not work. It is worth asking. We added one because we are activating based on people who visited our website today.  That may not work in all use cases.  If we add a time filter, how far back can we go before an Edge Audience becomes Streaming or even Batch? 
 
->[!WARNING]
+> [!NOTE]
 >
 >**Ramifications of breaking this up**
 >
@@ -170,11 +170,11 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 If we were to have built all these Audiences in one Audience instead of four, we would get a batch evaluation method even though each Audience individually is Streaming.
 
-![Why are we creating multiple audiences](assets/why-are-we-creating-multiple-audiences.png)
+![Building one combined audience results in Batch evaluation instead of Streaming](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
 
 
 
-By breaking up these Audiences and using a Audience of Audiences, we get this behavior.  Real-time qualification of these Audience as data streams in 
+By breaking up these Audiences and using a Audience of Audiences, we get this behavior.  Real-time qualification of these Audiences as data streams in 
 
 - Ordered iPhone 14
 - Owns iPhone 14

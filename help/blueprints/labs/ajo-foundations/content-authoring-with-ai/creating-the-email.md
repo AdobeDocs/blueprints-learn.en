@@ -1,25 +1,25 @@
 ---
-title: Creating the Email
+title: Creating the email
 description: Learn how to apply a branded content template to a campaign email in Adobe Journey Optimizer and replace hero and product images.
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 ---
 
-# Creating the Email
+# Creating the email
 
-## Content creation with Templates
+## Content creation with templates
 
 **Purpose:** Learn how to create reusable templates in Adobe Journey Optimizer, then apply them inside a real email within a campaign.
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
 1. Create a new campaign and use your new branded template.
 1. Update hero images, product images, buttons, and layout styling.
 
-## Create and Update the Email in a Campaign
+## Create and update the email in a campaign
 
 ### Objective
 
@@ -32,98 +32,98 @@ This step demonstrates how templates can be reused across journeys, allowing tea
 1. Go back to the main screen and click on **Journeys Management → Campaigns**.
 2. Click on **Create Campaign** 
 
-![Image](assets/creating-the-email-17.png)
+![Create Campaign button in Journeys Management](assets/creating-the-email-click-create-campaign-button.png)
 
 3. Select "**Orchestration - Marketing**" and click **confirm**
 
-![Image](assets/creating-the-email-9.png)
+![Selecting Orchestration - Marketing and clicking confirm](assets/creating-the-email-select-orchestration-marketing.png)
 
-4.  Name your campaign `Flagship Phone Launch Branded`. Press **Save** button. 
+4. Name your campaign `Flagship Phone Launch Branded`. Press **Save** button. 
 
-![Image](assets/creating-the-email-13.png)
+![Naming the campaign Flagship Phone Launch Branded and clicking Save](assets/creating-the-email-name-campaign-save.png)
 
 5. Click on the **+ sign** and select **Read Audience** activity 
 
-![Image](assets/creating-the-email-5.png)
+![Plus sign to select the Read Audience activity](assets/creating-the-email-click-plus-read-audience.png)
 
 6. The next step is to select **"Read Audience"** box and click on **Audience folder icon**
 
-![Image](assets/creating-the-email-4.png)
+![Read Audience box and Audience folder icon](assets/creating-the-email-read-audience-folder-icon.png)
 
 7. Select the **dep: Interested in iPhone 17** audience and click "**Add Audience**" button
 
-![Image](assets/creating-the-email-19.png)
+![Selecting the Interested in iPhone 17 audience and clicking Add Audience](assets/creating-the-email-select-audience-add-button.png)
 
 8. Select Entity - **dep-rel: Customer Account - customer\_id** (or any as it does not matter for this part)
 9. Add the **Email activity** by clicking **+ sign** and then select **Email** from Channel activities. 
 
-![Image](assets/creating-the-email-1.png)
+![Adding the Email activity from Channel activities](assets/creating-the-email-add-email-channel-activity.png)
 
 10. Click on **Edit email**. 
 
-![Image](assets/creating-the-email-21.png)
+![Edit email option for the campaign email activity](assets/creating-the-email-click-edit-email.png)
 
-11. Click on the **Action tab** and and select the **your** email configuration. In my sandbox it is Relational Email. (Select Any)
+11. Click on the **Action tab** and select **your** email configuration. Your sandbox may show this as Relational Email. (Select any)
 
-![Image](assets/creating-the-email-3.png)
+![Action tab with the email configuration selected](assets/creating-the-email-action-tab-email-configuration.png)
 
 12. Click on **Content tab**
 
-![DlVWDsaNj6hrqydpH image](assets/creating-the-email-12.png)
+![Content tab in the email editor](assets/creating-the-email-click-content-tab.png)
 
 13. Click on **Apply Content Template**
 
-![Image](assets/creating-the-email-15.png)
+![Apply Content Template option in the email editor](assets/creating-the-email-click-apply-content-template.png)
 
 14. Select the template **"Promotional Template"** you created and click **Confirm**
 
-![Image](assets/creating-the-email-16.png)
+![Selecting the Promotional Template and clicking Confirm](assets/creating-the-email-select-promotional-template-confirm.png)
 
 15. Click on **Edit email body**
 
-![Image](assets/creating-the-email-14.png)
+![Edit email body option after applying the template](assets/creating-the-email-click-edit-email-body.png)
 
 16. Confirm the new header, hero, footer, and content blocks appear correctly.
 
-![SWGIHO image](assets/creating-the-email-20.png)
+![Header, hero, footer, and content blocks appearing correctly in the email](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
 
-## Replace Hero Image & Product Images
+## Replace hero image & product images
 
-Let us change hero and phone images. You will need to upload content to assets from the toolkit folder. Currently your product hero banner image is a placeholder.
+Change the hero and phone images. You need to upload content to assets from the toolkit folder. Currently your product hero banner image is a placeholder.
 
 1. Click the broken hero banner image.
 
-![Image](assets/creating-the-email-8.png)
+![Clicking the placeholder hero banner image](assets/creating-the-email-click-broken-hero-banner-image.png)
 
 2. Remove the temporary source URL.
 
-![Image](assets/creating-the-email-7.png)
+![Removing the temporary source URL from the image](assets/creating-the-email-remove-temporary-source-url.png)
 
 3. Click on **Import Media**
 
-![Image](assets/creating-the-email-18.png)
+![Import Media button for the hero image](assets/creating-the-email-click-import-media.png)
 
 4. Upload `hero.png` from your toolkit. (You can drag the file)
 
-![LHDJECCXMpCBrEl70f image](assets/creating-the-email-10.png)
+![Uploading hero.png from the toolkit folder](assets/creating-the-email-upload-hero-png-file.png)
 
 5. Click **Next,** Select **your folder for assets** and press **import**
 
-![Image](assets/creating-the-email-11.png)
+![Selecting the assets folder and clicking import for the hero image](assets/creating-the-email-select-folder-import-hero.png)
 
-6. Your email template is coming up nicely. It should appear like below. Click on **"Save"** to save your work. 
+6. Your email template is coming up nicely. It appears like the following. Click on **"Save"** to save your work. 
 
-![Image](assets/creating-the-email-2.png)
+![Updated email template with the new hero image before saving](assets/creating-the-email-save-updated-email-template.png)
 
 
-## Optional Exercise
+## Optional exercise
 
-### Replace Product Images
+### Replace product images
 
-Go ahead and update all the product images (images provided in the toolkit folder) and also add rounded border to your liking. Your email should look nicer without any broken links as shown below. Repeat the process for all product cards.
+Go ahead and update all the product images (images provided in the toolkit folder) and also add rounded border to your liking. Your email looks nicer without any broken links, as shown below. Repeat the process for all product cards.
 
-![PjNjeRIGKkQTkSSYso image](assets/creating-the-email-6.png)
+![Email with all product images updated and no broken links](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
 ## Recap
 
@@ -133,4 +133,4 @@ In this module, you successfully:
 - Updated hero and product images
 - Enhanced styling 
 
-You are now ready to move on to next module - **AI Assistant & Content Personalisation**, where you will use AI to refine text and generate images automatically.
+You are now ready to move on to the next module - **AI assistant and content personalization**, where you will use AI to refine text and generate images automatically.

@@ -1,14 +1,14 @@
 ---
-title: Verify and Schedule Dataflow
+title: Verify and schedule dataflow
 description: Verify the complete Orders mapping set, preview the output, and schedule the dataflow to run every 15 minutes.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 ---
 
-# Verify and Schedule Dataflow
+# Verify and schedule dataflow
 
-## Double Check Mapping Set
+## Double check mapping set
 
 | #  | Source Column                               | XDM Column                                               |
 | -- | ------------------------------------------- | -------------------------------------------------------- |
@@ -46,36 +46,36 @@ exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
 
 
 
-## Preview the Mapping Output
+## Preview the mapping output
 
 1. Preview the mapping output. Scroll through all the attributes to ensure there is no red exclamation next to any of the attributes on the right-hand side. 
 
-![Preview mapping screen will look like this.png "Preview mapping screen will look like this"](assets/SNjJQUkbOxdBKWJIEdMXH_preview-mapping-screen-will-look-like-this.png "Preview mapping screen will look like this")
+![Preview mapping screen with no errors on any mapped attributes](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "Preview mapping screen will look like this")
 
-2\. On the left-hand side navigation of the Preview, select the **productListItems** object array. The right-hand side will update to show only the attributes in that object array. 
+1. On the left-hand side navigation of the Preview, select the **productListItems** object array. The right-hand side updates to show only the attributes in that object array. 
 
 >[!NOTE]
 >
->Notice that **productListitems.currencyCode** and **productListitems.quantity** is automatically populated (even after removing the mappings). This happens because **productListItems** as a parent object are mapped.
+>Notice that **productListItems.currencyCode** and **productListItems.quantity** are automatically populated (even after removing the mappings). This happens because **productListItems** as a parent object are mapped.
 
-![QC6WGQz56SM5zZ2 completed mapping will look similar to the following screenshot.png "Completed mapping will look similar to the following screenshot"](assets/KqMC9_qC6WGQz56SM5zZ2_completed-mapping-will-look-similar-to-the-following-screenshot.png "Completed mapping will look similar to the following screenshot")
+![Completed mapping screen for productListItems after removing duplicate overrides](assets/verify-and-schedule-dataflow-completed-mapping-screenshot.png "Completed mapping will look similar to the following screenshot")
 
-## Schedule the Run
+## Schedule the run
 
 1. Set the schedule to run **every 15 minutes** by setting the Frequency as Minute and Interval as 15. Review the flow and click Finish. 
 
 >[!CAUTION]
 >
->Ensure that your schedule is set to 15 minutes. If you schedule the run as **Run Once**, you will not be able to run it again even if you make changes to the mapping later.
+>Ensure that your schedule is set to 15 minutes. If you schedule the run as **Run Once**, you cannot run it again even if you make changes to the mapping later.
 
-2\. Dataflow execution will not start immediately and will take a few minutes. So, the last Dataflow Run Status will be set to “*No runs*”.
+1. Dataflow execution does not start immediately and takes a few minutes. So, the last Dataflow Run Status is set to “*No runs*”.
 
-3\. After a few minutes, the Dataflow will succeed. Notice the **Last Dataflow Run Status** and **Last Dataflow Run Date**. 
+1. After a few minutes, the Dataflow succeeds. Notice the **Last Dataflow Run Status** and **Last Dataflow Run Date**. 
 
-4\. Click on the Dataflow name to get a list of Dataflow Runs. 10 Records should be ingested.
+1. Click on the Dataflow name to get a list of Dataflow Runs. 10 Records should be ingested.
 
-5\. Click on the Dataflow Run Start time to see error diagnostic details.
+1. Click on the Dataflow Run Start time to see error diagnostic details.
 
-6\. In the Left Nav bar, Go to Datasets in Platform and click on **Orders - YourNameHere**
+1. In the Left Nav bar, Go to Datasets in Platform and click on **Orders - YourNameHere**
 
-7\. Click on the **Preview Dataset.**
+1. Click on the **Preview Dataset.**

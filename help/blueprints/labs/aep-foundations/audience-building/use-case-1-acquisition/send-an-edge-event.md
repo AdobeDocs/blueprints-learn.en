@@ -1,20 +1,20 @@
 ---
-title: Send an Edge Event
+title: Send an Edge event
 description: Send an unauthenticated web event to the Edge via Postman and trace it through event forwarding, profile ingestion, audience qualification, and destination activation.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
 ---
 
-# Send an Edge Event
+# Send an Edge event
 
-Now that everything is configured, we can send in an event to the Edge to see it all work. To do this we will use Postman to send a Web Event to the Datastream we created. This will send in an event **with no OAuth Token** to simulate a page view coming in from the web to the Edge.  Ensure you have Postman open on your machine to perform this lab.
+Now that everything is configured, send in an event to the Edge to see it all work. To do this, use Postman to send a Web Event to the Datastream you created. This sends in an event **with no OAuth Token** to simulate a page view coming in from the web to the Edge.  Ensure you have Postman open on your machine to perform this lab.
 
 >[!NOTE]
 >
->Because we are not passing in an authenticated token, we will not get back any attributes.
+>Because you are not passing in an authenticated token, you don't get back any attributes.
 
-## Lab Expectations
+## Lab expectations
 
 1. Experience Event to hit the Edge
 1. Datastream configuration to use Event Forwarding Service
@@ -34,47 +34,44 @@ Now that everything is configured, we can send in an event to the Edge to see it
 
 
 
-## Navigate to the Call
+## Navigate to the call
 
 1. **Postman Left Sidebar**  -> Collections
 1. **Collection** -> AEP Foundations Bootcamps (Labs)
 1. **Folder** -> Profile Lab
 1. **API Request** -> Create Web Event Edge (No Auth)
 
-![Navigate to the postman call](assets/navigate-to-the-postman-call.png)
+![Open the Create Web Event Edge (No Auth) request in Postman](assets/send-an-edge-event-navigate-to-the-postman-call.png)
 
-## Modify API Request
+## Modify API request
 
 If you have already done this, you can skip down to Execute the API.
 
 Before you can execute the API request you need to add some additional pieces of information to the request. Start by gathering the following values:
 
-## Gather the Datastream ID
+## Gather the datastream ID
 
 1. In the left rail click on **Datastreams** (under the Data Collection heading)
 1. Select your Datastream and copy the **Datastream ID** value
 
-![Gather datastream id](assets/gather-datastream-id.png)
+![Copy the Datastream ID value](assets/send-an-edge-event-gather-datastream-id.png)
 
-## Update Postman Query Param
+## Update Postman query param
 
 1. In the request itself click on **Params**
 1. Update the **Value** with the datastream ID from the previous step
 1. Click the **Save** button to save your update
+1. Change email to your email
 
-![Update datastreamid](assets/update-datastreamid.png)
+![Update the Params value with the datastream ID and click Save](assets/send-an-edge-event-update-datastreamid.png)
 
-
-
-Change email to your email
-
-![O5DCKlW6oIADaE change email to your email](assets/change-email-to-your-email.png)
+![Change the email value in the request body to your own email](assets/send-an-edge-event-change-email-to-your-email.png)
 
 ## Execute the API
 
 Execute your request by clicking the **Send** button. 
 
-![Successful response from edge](assets/successful-response-from-edge.png)
+![Successful 200 OK response returned from the Edge Network](assets/send-an-edge-event-successful-response-from-edge.png)
 
 
 
@@ -82,21 +79,19 @@ What you should see coming back in the response are these core things:
 
 - A 200 OK response means the data was successfully sent and accepted by the Edge Network
 - In the payload response you should also see the following:
-  - the destinationId of the Custom Personalization destination you setup
+  - the destinationId of the Custom Personalization destination you set up
   - the alias name of that destination (yours was called customPersonalization)
   - any of the segments the profile qualified for that exist on the edge
 
 >[!NOTE]
 >
->Any streaming and batch segments will not show until they are evaluated at the hub first
+>Any streaming and batch segments don't show until they are evaluated at the hub first
 
 >[!NOTE]
 >
 >If you were sending to server.adobedc.net using a bearer token you would also see the attribute you configured in the Custom Personalization Destination
 
-###
-
-## Errors You Might Encounter
+## Errors you might encounter
 
 Below is an example of an error you may encounter. This means the edge segmentation evaluation is not yet available to evaluate the data being sent into the edge network.
 
@@ -114,19 +109,19 @@ Below is an example of an error you may encounter. This means the edge segmentat
     ]
 ```
 
-## Validate Event Forwarding
+## Validate event forwarding
 
 On webhook.site you should immediately see the same payload body you sent via your Postman request appear. 
 
-![On webho](assets/on-webho.png)
+![Payload appears on webhook.site after event forwarding](assets/send-an-edge-event-payload-appears-on-webhook-site.png)
 
 >[!NOTE]
 >
->Notice the payload has added the geo lookup information you asked for when you setup the datastream you used in your edge setup
+>Notice the payload has added the geo lookup information you asked for when you set up the datastream you used in your edge setup
 
-## Lookup the Profile
+## Look up the Profile
 
-In Adobe Experience Platform lookup the profile you just sent in from the event you just sent into the Edge Network.  Navigate to Profiles -> Browse to perform the lookup using the following information:
+In Adobe Experience Platform look up the profile you just sent in from the event you just sent into the Edge Network.  Navigate to Profiles -> Browse to perform the lookup using the following information:
 
 - Merge policy -> Default Time-based
 - Identity Namespace -> Email
@@ -134,20 +129,20 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
 
 
 
-1. Click **View** to lookup up the profile
+1. Click **View** to look up the profile
 1. Click on the **Profile ID** to open the profile
 
-![Lookup profile](assets/lookup-profile.png)
+![Look up the profile and click the Profile ID to open it](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-3\. Click on **Events** in the top nav and you can see the event you just sent in
+3. Click on **Events** in the top nav and you can see the event you just sent in
 
-![View the profile event](assets/view-the-profile-event.png)
+![View the event in the Events tab of the profile](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4\. Validate the Profile has qualified for the Audiences by reviewing the Audience Membership tab in the top nav.  You should see the following:
+4. Validate the Profile has qualified for the Audiences by reviewing the Audience Membership tab in the top nav.  You should see the following:
 
 - Any Event Edge (within last 15 minutes)
 - Any Event Streaming (within the last hour)
@@ -155,25 +150,25 @@ In Adobe Experience Platform lookup the profile you just sent in from the event 
   - Visited iPhone 14 Page but Not Owns/Ordered it
   - Visited iPhone 14 Page
 
-![Visited iphone 14 page](assets/visited-iphone-14-page.png)
+![Profile qualified for the Visited iPhone 14 Page audiences](assets/send-an-edge-event-visited-iphone-14-page.png)
 
-## Validate Streaming Destination Activation
+## Validate streaming destination activation
 
 Check your webhook to see if the streaming destination you configured has activated any segments.  They should appear in \~5 minutes.
 
-![Validate streaming destination activation](assets/validate-streaming-destination-activation.png)
+![Validate the streaming destination activated segments on the webhook](assets/send-an-edge-event-validate-streaming-destination-activation.png)
 
 >[!NOTE]
 >
 >Streaming Destinations may send another segment qualification payload if the two identities have not linked yet.
 
-If ECID and email have not yet linked, a few minutes after that, another payload may appear with the same values except identityMap will now how two identities (email & ecid)
+If ECID and email have not yet linked, a few minutes after that, another payload may appear with the same values except identityMap will now have two identities (email & ecid)
 
 Over time you should begin to receive more payloads out to the webhook for "exited" status.
 
-![Webhook streaming destination 22exited 22](assets/webhook-streaming-destination-22exited-22.png)
+![Webhook payload showing an "exited" status for the streaming destination](assets/send-an-edge-event-webhook-exited-status-payload.png)
 
-## How to Interpret all the Checks
+## How to interpret all the checks
 
 1. Check for 200 response in Postman (properly formatted payload)
 1. Check if the webhook has the event (properly configured Event Forwarding)
@@ -184,7 +179,7 @@ Over time you should begin to receive more payloads out to the webhook for "exit
 1. Check if Postman response includes segments (properly configured Custom Personalization Destination)
 1. Check if Data Lake has log of sending (properly configured and sent Audience Qualification and Streaming Destination). See Below.
 
-## Data Lake "Log" of Destinations
+## Data Lake "Log" of destinations
 
 After at least 60 minutes you can even check your dataset has the event you sent. To do so perform the following query using Query Service.
 

@@ -1,16 +1,16 @@
 ---
-title: Automate with API's
+title: Automate with APIs
 description: Run a Postman collection that automates creating schemas, field groups, identity and relationship descriptors, and datasets in one pass.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
 ---
 
-# Automate with API's
+# Automate with APIs
 
 ## Introduction
 
-To see how you can automate deployments using API's you will execute a folder of APIs that will create the following objects:
+To see how you can automate deployments using APIs you execute a folder of APIs that creates the following objects:
 
 - Customer Account and Plan \[Lookup] schema(s)
 - Field groups that compose the schemas above
@@ -20,44 +20,44 @@ To see how you can automate deployments using API's you will execute a folder of
 
 
 
-## Execute the Folder
+## Execute the folder
 
 1. In Postman navigate to the **Automation with APIs** folder within the **XDM Schema Lab** folder
 
-![Automate with APIs folder](assets/automate-with-apis-1.png)
+![Automation with APIs folder within the XDM Schema Lab folder in Postman](assets/automate-with-apis-postman-automation-folder.png)
 
 
 
-2\. Click on the **Automation with APIs** folder and in the workspace click on the **Run** button
+1. Click on the **Automation with APIs** folder and in the workspace click on the **Run** button
 
 >[!NOTE]
 >
 >The run button is in the upper right of your Postman workspace
 
-![Click on the folder run.png "Click on the folder Run"](assets/k48Az7N7R7fieBX8NJ7lJ_click-on-the-folder-run.png "Click on the folder Run")
+![Run button in the upper right of the Postman workspace for the Automation with APIs folder](assets/automate-with-apis-click-folder-run-button.png "Click on the folder Run")
 
 
 
-3\. A new window should appear that shows all the API calls in the folder. Set the **Delay** to **500ms** and then click on the **Run** button.
+1. A new window should appear that shows all the API calls in the folder. Set the **Delay** to **500ms** and then click on the **Run** button.
 
-![VRMmiYsVdCv6Wz execute automation.png "Execute automation"](assets/xiCgs4_VRMmiYsVdCv6Wz_execute-automation.png "Execute automation")
-
-
-
-4\. You will see the API calls start to execute in order and when complete you should see 32 passed tests.
-
-![Successful automation.png "Successful Automation"](assets/0AFXuzHE0Ok6zCsAGBWaJ_successful-automation.png "Successful Automation")
+![Execute Automation dialog with Delay set to 500ms before clicking Run](assets/automate-with-apis-execute-automation-dialog.png "Execute automation")
 
 
 
-5\. Go the Experience Platform UI and you should see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
+1. You see the API calls start to execute in order, and when complete you should see 32 passed tests.
 
-![LxxLyKc0x1oi W W3kPDYjFu52exXE6 bs 20241017 191330.png "Automation Schemas"](assets/n-ADAXZy_lxxLyKc0x1oi-W_W3kPDYjFu52exXE6-bs-20241017-191330.png "Automation Schemas")
+![Successful automation run with 32 passed tests](assets/automate-with-apis-successful-automation-32-passed-tests.png "Successful Automation")
 
 
 
-![Automation datasets.png "Automation Datasets"](assets/BcqFozB78hmUiuOusmC6R_automation-datasets.png "Automation Datasets")
+1. Go to the Experience Platform UI and you should see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
 
->[!NOTE]
+![Two schemas created and enabled for profile with the postman: prefix](assets/automate-with-apis-schemas-created-in-ui.png "Automation Schemas")
+
+
+
+![Two datasets created with the postman: prefix matching the automated schemas](assets/automate-with-apis-datasets-created-in-ui.png "Automation Datasets")
+
+> [!TIP]
 >
 >Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema

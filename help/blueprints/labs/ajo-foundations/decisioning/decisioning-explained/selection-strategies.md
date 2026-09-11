@@ -1,5 +1,5 @@
 ---
-title: Selection Strategies
+title: Selection strategies
 description: Learn the three components of a selection strategy and how item-level versus strategy-level eligibility and ranking methods work together.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
 ---
 
-# Selection Strategies
+# Selection strategies
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
@@ -17,7 +17,7 @@ By the end of this lesson, you will be able to:
 - Explain the difference between item-level and strategy-level eligibility
 - Identify the three ranking method options a selection strategy can use
 
-## Materials Needed
+## Materials needed
 
 - 12 playing cards (Jack, Queen, King from each suit) 
 - 12 sticky notes, filled with both attribute name and values from previous lessons
@@ -28,7 +28,7 @@ During this lesson you'll apply two full selection strategies (a collection + a 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502210/)
 
-## Key Takeaways
+## Key takeaways
 
 - A selection strategy applies a ranking method to a collection of decision items, plus optional strategy-level eligibility
 - The three ingredients of every selection strategy: a collection, eligibility, and a ranking method

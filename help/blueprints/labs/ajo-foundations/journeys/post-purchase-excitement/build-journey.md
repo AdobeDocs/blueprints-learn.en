@@ -1,26 +1,26 @@
 ---
-title: Build Journey
+title: Build journey
 description: Build a unitary journey that responds to an Order Shipped event, calls a custom action for shipping ETA, and sends a personalized email.
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
 ---
 
-# Build Journey
+# Build journey
 
-## Learning Objective
+## Learning objective
 
 Create a unitary journey that begins with the configured Order Shipped event, gets the ETA from an external service and sends an email.
 
-## Create Journey
+## Create journey
 
 Go to **Journeys** and click **Create Journey - Create from scratch**
 
-![RaGUUvFOSPhdhWYohoZ3T 20251112 205319](assets/build-journey-25.png)
+![Create Journey - Create from scratch screen in Adobe Journey Optimizer](assets/build-journey-create-journey-from-scratch.png)
 
 
 
-## Journey Properties
+## Journey properties
 
 1. Update the Journey Properties in the right rail with the following:
    - **Name**: `Order Shipped Journey`
@@ -56,98 +56,98 @@ Go to **Journeys** and click **Create Journey - Create from scratch**
 
 2. If everything looks good click the **Save** button
 
-![MLQgSI5VZ6ayZeen 20251113 011132](assets/build-journey-10.png)
+![Save button for the Journey Properties panel](assets/build-journey-save-journey-properties.png)
 
 
 
 
-## Journey Canvas
+## Journey canvas
 
-### Add a Unitary Event
+### Add a unitary event
 
 From the left pane under the **Events menu** drag 'n drop the **orderShipped** event onto the canvas as shown below
 
-![48Vp2fxzZi18gKAc6RLW  20251113 012116](assets/build-journey-2.png)
+![Drag the orderShipped event from the Events menu onto the journey canvas](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
 
 
-![Lmn6jKE1hVlRvKw35tCVT 20251113 012227](assets/build-journey-22.png)
+![Order Shipped event placed on the journey canvas](assets/build-journey-drag-order-shipped-event-onto-canvas--2.png)
 
 
 
 
 
-### Add a Custom Action
+### Add a custom action
 
 1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails** after the orderShipped event
 
-![E8 e zCT 20251113 012517](assets/build-journey-6.png)
+![Drag the GetShippingDetails custom action onto the canvas after the orderShipped event](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
 2. In the right rail, under Access and privacy configuration --> Marketing Action drop-down ensure the value is set to **None**
 
-![Image](assets/build-journey-26.png)
+![Marketing Action drop-down set to None in Access and privacy configuration](assets/build-journey-set-marketing-action-to-none.png)
 
 3. Under the Endpoint configuration --> Query Parameters menu click on the **Pencil icon** next to orderid
 
-![YAaVRitMmP9hKpa3Q 20251121 192339](assets/build-journey-24.png)
+![Pencil icon to edit the orderid query parameter in Endpoint configuration](assets/build-journey-edit-orderid-query-parameter.png)
 
 4. In the modal that appears expand **Context** -> **orderShipped** -> **Order** and then select **Order ID (orderID)** and click **OK**
 
-![NwJ7  20251113 013041](assets/build-journey-14.png)
+![Select Order ID (orderID) from the orderShipped Order context fields](assets/build-journey-select-order-id-context-field.png)
 
 5. Back in the right rail, ensure the option for Timeout or error is **unchecked** and then click the **Save button**
 
-![KJCyB6WTtNyGhF2CC5cdX 20251117 231216](assets/build-journey-21.png)
+![Timeout or error option unchecked with Save button highlighted](assets/build-journey-uncheck-timeout-or-error.png)
 
 
 
-### Add Email Action
+### Add email action
 
 1. Under the Actions menu drag 'n drop the **Action** action onto the canvas after the GetShippingDetails action
 
-![EHlfUwB4FUguiZ38Wi7LV 20260610 171228](assets/build-journey-16.png)
+![Drag the Action node onto the canvas after the GetShippingDetails action](assets/build-journey-drag-email-action-onto-canvas.png)
 
 2. Select **Email** for the marketing action, then **Add**.
 
-![LsRb 20260615 094254](assets/build-journey-8.png)
+![Select Email as the marketing action and click Add](assets/build-journey-select-email-marketing-action.png)
 
 3. In the right rail, click **Configure action**
 
-![9 20260615 094515](assets/build-journey-1.png)
+![Configure action button in the right rail](assets/build-journey-click-configure-action.png)
 
 4. set **Email channel Configuration** to `Profile-Email` and then click on **Edit Content**
 
-![HQEokhDKs5xAZra7MaPg9 20260615 094856](assets/build-journey-20.png)
+![Email channel Configuration set to Profile-Email with Edit Content link](assets/build-journey-set-profile-email-channel-configuration.png)
 
 
 
-### Add Email Body Content
+### Add email body content
 
 For content, you are going to keep things simple. Like stupid simple.
 
-1. Update the Subject line to `Order Shipped`and then click on the **Edit email body button**
+1. Update the Subject line to `Order Shipped` and then click on the **Edit email body button**
 
-![FKmn1 vVHrim0K9CwfBTV 20251117 231415](assets/build-journey-9.png)
+![Subject line updated to Order Shipped with Edit email body button](assets/build-journey-update-subject-line-order-shipped.png)
 
 2. In the top bar click on the **Design from Scratch** content block
 
-![6vtCM 7SERuC85HW7XJ 20251117 231709](assets/build-journey-5.png)
+![Design from Scratch content block in the top bar](assets/build-journey-click-design-from-scratch.png)
 
 3. From the left bar under the Structure container drag 'n drop the **1:1 Column** onto the canvas
 
-![6dhPFQYOdTHlRw2swYNVW 20251113 180605](assets/build-journey-4.png)
+![Drag the 1:1 Column structure element onto the email canvas](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
 4. Then under the Contents container drag 'n drop the **Text** component into your **1:1 Column**
 
-![R5k4g3L9OQ6ldTmyWqkqj 20251113 180642](assets/build-journey-11.png)
+![Drag the Text component into the 1:1 Column](assets/build-journey-drag-text-component-into-column.png)
 
 5. Click into the Text component and **delete the current text** and then click the **Add Personalization** icon
 
-![KkU 20251113 180737](assets/build-journey-19.png)
+![Add Personalization icon after deleting the default text](assets/build-journey-click-add-personalization-icon.png)
 
 6. In the left rail click on the **Contextual Attributes** folder and then navigate thru **Journey Orchestration** -> **Actions** and select **GetShippingDetails**
 
-![EpgPQiob6ESay4BzP9ilp 20251113 180824](assets/build-journey-7.png)
+![Select GetShippingDetails under Contextual Attributes - Journey Orchestration - Actions](assets/build-journey-select-getshippingdetails-contextual-attribute.png)
 
 7. In the main body of the email now **copy & paste** the below JSON into the Personalization **editor**
 
@@ -161,7 +161,7 @@ Tracking Number:
    - **ETA:** `eta`
    - **Tracking Number:**  `tracking_number`
 
-![54bDWrDigSBU6GsKrKDAO 20251121 193136](assets/build-journey-3.png)
+![ETA and Tracking Number personalization fields added to the email](assets/build-journey-add-eta-tracking-number-fields.png)
 
 >[!NOTE]
 >
@@ -171,42 +171,40 @@ Tracking Number:
 >
 >Your email will use a combination of context attributes (ETA & tracking number) and Profile attributes (first Name). If you wanted to add other Profile attributes, you can click on the Profile Attributes tab and select anything you see.
 >
->![VMjj8RIOkqFVcqrc7SU5b 20251119 011923](assets/build-journey-12.png)
+>![Profile Attributes tab for adding additional profile attributes](assets/build-journey-profile-attributes-tab.png)
 
 9. On the bottom of the screen click the **Validate** button and ensure you have no errors
 
-![DXZ9kxZKWZzBRR3WDdtbN 20251117 232100](assets/build-journey-15.png)
+![Validate button with no errors shown at the bottom of the screen](assets/build-journey-click-validate-button.png)
 
 10. If everything looks good click the **Save button** in the top right
 11. Then click the **Save** button again in the top right and click the **\<- left arrow** in the top left
 
-![GEau2 20251113 181826](assets/build-journey-23.png)
+![Save button and back arrow in the top right and top left](assets/build-journey-save-and-back-arrow.png)
 
 12. Finally, click the **\< Back icon** in top left to get back to the Journey Canvas
 
-![8jWIbwxPB 5XZ8rq 20251113 182114](assets/build-journey-17.png)
-
-13. And then click the **Back** button again...
+![Back icon in the top left to return to the Journey Canvas](assets/build-journey-back-icon-to-journey-canvas.png)
 
 >[!TIP]
 >
->Kidding! Thats was the last back button.....in this section 😜
+>And then click the **Back** button again... Kidding! That's the last back button...in this section 😜
 
 
 
-### Override Email Parameters
+### Override email parameters
 
 Back on the main Journey Canvas, on the Email node, make sure you can see the read-only fields (you may need to click on the **Show read-only fields** icon)
 
-![T9irNGuprlOaUDddCff1R 20251223 223958](assets/build-journey-27.png)
+![Read-only fields shown on the Email node in the Journey Canvas](assets/build-journey-show-read-only-fields-email-node.png)
 
 1. Scroll down to **Email Parameters** and click on the **Enable parameter override** icon
 
-![TbwfBth tFmGR 20251223 224153](assets/build-journey-18.png)
+![Enable parameter override icon under Email Parameters](assets/build-journey-enable-parameter-override.png)
 
 2. Click in the empty text box and then in the left rail drill down into **Context** -> **orderShipped** -> **\_dep** and click on the **personalEmail** field.  Then click the **OK button**
 
-![TzhJOLofP 5pzYYO8aVJ  20251223 224541](assets/build-journey-28.png)
+![Select the personalEmail field under orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
 
 >[!WARNING]
 >
@@ -216,7 +214,7 @@ Back on the main Journey Canvas, on the Email node, make sure you can see the re
 
 3. Click the **Save button** in the top right and then click the **back arrow** \<- in the top left to **close** the Journey
 
-![AR2 pJ8hT4GJh0D2vGP3J 20251117 232350](assets/build-journey-13.png)
+![Save button and back arrow to close the Journey](assets/build-journey-save-and-close-journey.png)
 
 ## Recap
 

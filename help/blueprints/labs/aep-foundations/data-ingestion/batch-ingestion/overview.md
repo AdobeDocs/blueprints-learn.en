@@ -1,14 +1,14 @@
 ---
-title: Batch Ingestion
+title: Batch ingestion
 description: Load Customer Account data through batch ingestion into the Data Lake and Profile while fixing mapping and data quality errors.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158
 ---
 
-# Batch Ingestion
+# Batch ingestion
 
-## Learning Objectives
+## Learning objectives
 
 In this exercise, you will load the Customer Account data from a file-based source connector to AEP Data Lake and then to Profile. You will learn the following: 
 
@@ -19,8 +19,8 @@ In this exercise, you will load the Customer Account data from a file-based sour
 1. Dealing with errors arising from missing values in required fields
 1. Dealing with errors arising from data type mismatch errors
 1. Dealing with data ingest errors and recovering from such failure
-1. Iteratively use test data to generate a comprehensive mapping set. 
+1. Iteratively using test data to generate a comprehensive mapping set. 
 
 >[!NOTE]
 >
->If you did not complete the Customer Accounts schema creation in the previous labs, you can browse into the schema catalog and use **dep: Customer Account** instead
+>If you did not complete the Customer Account schema creation in the previous labs, you can browse into the schema catalog and use **dep: Customer Account** instead

@@ -1,12 +1,12 @@
 ---
-title: Run the Workflow
+title: Run the workflow
 description: Learn how to run an Orchestrated Campaign workflow in test mode and troubleshoot why some records are dropped from an SMS send due to missing target dimension joins.
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
 ---
 
-# Run the Workflow
+# Run the workflow
 
 ## Objective
 
@@ -14,53 +14,53 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-## Verify Workflow
+## Verify workflow
 
-1. The final workflow should look something like below when you are done. Double check everything looks good. You should see
+1. The final workflow looks something like the following when you are done. Double check everything looks good. You see:
 
-![Final workflow](assets/run-the-workflow-1.png)
+![Final workflow canvas ready for testing](assets/run-the-workflow-final-workflow-canvas.png)
 
 2. If you haven't already stopped your workflow ensure you do so now by clicking the **Stop** button in the upper right.
 
-![DIEFIBX1zRN2ymj4kcPPo 20260119 223109](assets/run-the-workflow-3.png)
+![Stop button in the upper right of the workflow](assets/run-the-workflow-click-stop-button.png)
 
 >[!NOTE]
 >
->Optionally you can try clicking on the Restart button but its likely you will see an error since you've added activities since the workflow and its cache is no longer valid.
+>Optionally you can try clicking on the Restart button but it's likely you'll see an error since you've added activities after the workflow was created, and its cache is no longer valid.
 
 
 
 3. Next click the **Start** button to execute and test the workflow end to end
 
-![Start the workflow](assets/run-the-workflow-8.png)
+![Start button to execute the workflow test](assets/run-the-workflow-click-start-button.png)
 
 
 
 4. Review the result coming into the SMS activity by clicking on **Result** (there are two Results so use the left one as shown below) and then in the left rail clicking on **Preview results** button.
 
-![YMsYL09mFzWqWTjUIzVjT 20260128 213646](assets/run-the-workflow-6.png)
+![Left Result transition selected before the SMS activity](assets/run-the-workflow-select-result-transition.png)
 
-![Preview results](assets/run-the-workflow-2.png)
-
-
-
-5. You should see **33 records** and the targeting dimension matches the Customer ID (the join key if you will to profile)
-
-![Records in the result](assets/run-the-workflow-5.png)
+![Preview results button in the right rail](assets/run-the-workflow-click-preview-results.png)
 
 
 
-## Test the SMS Activity
+5. You see **33 records** and the targeting dimension matches the Customer ID (the join key if you will to profile)
+
+![33 records with targeting dimension matching Customer ID](assets/run-the-workflow-33-records-customer-id.png)
+
+
+
+## Test the SMS activity
 
 1. Close out of the previous window and click on the **SMS activity** and then click the **Run test** button in the right rail
 
-![Click the Run test on the SMS activity](assets/run-the-workflow-9.png)
+![Run test button on the SMS activity](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-2. Almost immediately you will see a new button appear labeled **View report**.  Click the **View report** button to launch into the report screen.
+2. Almost immediately, a new button appears labeled **View report**.  Click the **View report** button to launch into the report screen.
 
-![View report of the SMS activity](assets/run-the-workflow-4.png)
+![View report button for the SMS activity test](assets/run-the-workflow-click-view-report.png)
 
 >[!NOTE]
 >
@@ -68,23 +68,23 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-3. When you do get results you should see 100% were targeted!
+3. When you get results, you see 100% were targeted!
 
-![SMS test send results](assets/run-the-workflow-7.png)
+![SMS test send results showing 100 percent targeted](assets/run-the-workflow-100-percent-targeted.png)
 
-`Wait, a minute...the incoming result  was 33 records so where did the 4 go?`
+*Wait, a minute...the incoming result was 33 records so where did the 4 go?*
 
 
 
 4. Go back to the workflow canvas and click on the transition **Result** coming into the SMS activity and then click on **Preview results** in the right rail.
 
-![Re-review the transition results](assets/run-the-workflow-11.png)
+![Re-reviewing the transition results after the SMS test](assets/run-the-workflow-recheck-transition-results.png)
 
 
 
-5. In the Preview results screen scroll all the way to bottom of the table and you'll notice that **4 records** have a **blank Targeting dimension**.
+5. In the Preview results screen scroll all the way to bottom of the table and you notice that **4 records** have a **blank Targeting dimension**.
 
-![4 records missing a targeting dimension](assets/run-the-workflow-10.png)
+![4 records with a blank targeting dimension at the bottom of the table](assets/run-the-workflow-4-records-missing-dimension.png)
 
 
 
@@ -111,7 +111,7 @@ Result --> Orchestrated Campaigns drops those 4 records on message execution
 
 
 
-## Publishing the Workflow
+## Publishing the workflow
 
 You are not going to do this in the lab, but for context here is what happens at publication time:
 

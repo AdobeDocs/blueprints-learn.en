@@ -1,5 +1,5 @@
 ---
-title: Developer Console Setup
+title: Developer console setup
 description: Create an Adobe Developer Console project with OAuth Server-to-Server credentials for the DEP CLI to authenticate to your sandbox.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
 ---
 
-# Developer Console Setup
+# Developer console setup
 
->[!WARNING]
+> [!NOTE]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
@@ -27,7 +27,7 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 
 ## Create the project
 
-1. Go to Adobe Developer Console and sign in
+1. Go to [Adobe Developer Console](https://developer.adobe.com/console) and sign in
 1. If you have access to more than one organization, use the org switcher in the top right to select the correct one
 1. Select **Create new project**
 1. Rename the project to something you'll recognize later (e.g., `DEP Sandbox`)
@@ -43,7 +43,7 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 
 ## Collect your values
 
-Open your credential's **OAuth Server-to-Server** overview page. You'll need four values for the CLI's environment file:
+Open your credential's **OAuth Server-to-Server** overview page. You need four values for the CLI's environment file:
 
 | **Dev Console value** | **Env file field**              |
 | --------------------- | ------------------------------- |
@@ -54,6 +54,6 @@ Open your credential's **OAuth Server-to-Server** overview page. You'll need fou
 
 >[!NOTE]
 >
->Copy the default scopes shown on the credential page — you don't need to add anything manually. If you added both APIs above, the scopes list will include both automatically.
+>Copy the default scopes shown on the credential page — you don't need to add anything manually. If you added both APIs above, the scopes list includes both automatically.
 
 Keep this page open, or copy these four values somewhere safe. You'll paste them into the CLI's environment file in the next step of your track's setup guide.

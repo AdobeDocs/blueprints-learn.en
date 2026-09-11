@@ -10,11 +10,13 @@ exl-id: 332ead7a-ca6e-4e30-bb35-8419c060c596
 
 ## Lecture
 
+In this video you will learn how to label relational tables as an XDM Individual Profile (P), Experience Event (E), or Lookup (L) table using the Connection 5G ERD as an example.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3459087/?quality=12&learn=on)
 
 
 
-## Lab Details
+## Lab details
 
 Label the tables from the Connection 5G data warehouse ERD and Streaming ERD with the appropriate XDM class label for Individual Profile, Experience Event, and Lookup tables.
 
@@ -26,7 +28,7 @@ Keep in mind the following when performing the lab:
 
 
 
-## Step 1.  Label XDM Individual Profile Tables
+## Step 1. Label XDM Individual Profile tables
 
 1. Identify all the source tables which represent an individual person in both the customer data warehouse ERD and the customer streaming ERD. 
 1. Mark each table with a “**P**” signifying it is part of the XDM Individual Profile class
@@ -37,7 +39,7 @@ Keep in mind the following when performing the lab:
 
 
 
-## Step 2.  Label XDM Experience Event Tables
+## Step 2. Label XDM Experience Event tables
 
 1. Identify all the source tables which represent the behavior of an individual person in both the Connection 5G data warehouse ERD and Streaming ERD.
 1. Mark each table with an “**E**” signifying it is part of the XDM Experience Event class.
@@ -48,7 +50,7 @@ Keep in mind the following when performing the lab:
 
  
 
-## Step 3.  Label XDM Supporting Tables
+## Step 3. Label XDM supporting tables
 
 1. Identify all the source tables which represent lookup data and are directly related to either a **“P”** or **“E”** table you have marked in either the Connection 5G data warehouse ERD and Streaming ERD.
 1. Mark each table with a **“L”** signifying it is part of a non-person custom XDM class.
@@ -60,5 +62,7 @@ Keep in mind the following when performing the lab:
 
 
 ## Review
+
+The below video reviews the correct labels for the Connection 5G warehouse and streaming ERDs, explaining why the customer account, orders, and billing statement tables were labeled as they were.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459081/?quality=12&learn=on)

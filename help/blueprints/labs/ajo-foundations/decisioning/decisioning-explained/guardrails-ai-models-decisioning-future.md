@@ -1,5 +1,5 @@
 ---
-title: Guardrails, AI Models Decisioning Future
+title: Guardrails, AI Models, and the future of Decisioning
 description: Learn the key decisioning guardrails, how AI ranking models differ from formulas, and how decisioning's building blocks connect end to end.
 doc-type: article
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: 90902f6e-ba3c-4852-ab82-ad852698b227
 ---
 
-# Guardrails, AI Models Decisioning Future
+# Guardrails, AI Models, and the future of Decisioning
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
@@ -20,9 +20,11 @@ By the end of this lesson, you will be able to:
 
 ## Lecture
 
+The below video covers the two most common decisioning guardrails, how AI ranking models differ from manual ranking formulas, how decisioning extends beyond the legacy Offer Decisioning Engine, and a recap of how the eight building blocks connect end to end.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3502212/)
 
-## Key Takeaways
+## Key takeaways
 
 - The two most commonly hit guardrails: 10,000 decision items per IMS org (not per sandbox), and 100 custom attributes per schema; check product documentation for current numbers, as these are subject to change
 - AI models can be used within ranking formulas; auto-optimization is non-personalized and optimizes on global performance, while personalized optimization serves items toward specific business goals per profile

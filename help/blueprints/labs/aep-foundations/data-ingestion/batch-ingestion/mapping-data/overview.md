@@ -14,7 +14,7 @@ In the Mapping screen, the AI/ML recommendation engine will map several attribut
 
 
 
-![Ai ml based contextual recommendations.png "AI/ML based contextual recommendations"](assets/E-TLi0HaLbXdAouZraE-s_ai-ml-based-contextual-recommendations.png "AI/ML-based contextual recommendations")
+![Mapping screen showing AI/ML-based contextual recommendations for passthrough mappings](assets/overview-ai-ml-based-contextual-recommendations.png "AI/ML-based contextual recommendations")
 
 >[!NOTE]
 >

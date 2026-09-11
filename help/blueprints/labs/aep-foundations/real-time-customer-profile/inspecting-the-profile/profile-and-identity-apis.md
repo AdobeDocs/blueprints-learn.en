@@ -1,236 +1,135 @@
 ---
-title: Profile & Identity API's
+title: Profile & identity APIs
 description: Use the Profile Entity API and Identity Service Cluster API in Postman to look up profile attributes, events, and linked identities.
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
 ---
 
-# Profile & Identity API's
+# Profile & identity APIs
 
 ## Profile Entity API
 
-Knowing how to utilize the profile API's is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to endless possibilities around system integrations from call centers to kiosks.
+Knowing how to utilize the profile APIs is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to endless possibilities around system integrations from call centers to kiosks.
 
-One of the most important API's is the Profile Entity API.  This API allows you to lookup an individual profile (just like you saw in the UI) but uses param's to dictate whether you want to see the attributes or events of the profile.
+One of the most important APIs is the Profile Entity API.  This API allows you to lookup an individual profile (just like you saw in the UI) but uses params to dictate whether you want to see the attributes or events of the profile.
 
 Below is the entire spec for the GET method for the Profile Entity API
 
 
-## API Overview
+## API overview
 
-`GET` https\://platform.adobe.io/data/core/ups/access/entities
+Below is the minimum information needed to call the Profile Entity API.
 
-## Query parameters 
+`GET https://platform.adobe.io/data/core/ups/access/entities`
 
-**schema.name**`*` `string`
+### Required query parameter
 
-XED Schema Class name.
+Send this parameter with every request. Its value depends on whether you're looking up a profile's attributes or its events:
 
-Example: "\_xdm.context.profile"
+| Parameter     | Type   | Description                                                                                                                                    | Example                        |
+| ------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| `schema.name` | string | XDM schema class name of the entity you're looking up.                                                                                         | `_xdm.context.profile`         |
+| `schema.name` | string | Use this value instead to look up a profile's events. Pair it with `relatedSchema.name=_xdm.context.profile` to scope the events to a profile. | `_xdm.context.experienceevent` |
 
+### Identifying the entity to look up
 
-relatedSchema.name `string`
+Most requests use `entityId` and `entityIdNS` to identify the entity by any known identity value — such as an email address, CRM ID, or loyalty ID — rather than requiring you to already know its XID. An XID is a base64-encoded identifier that Identity Service generates and assigns internally to represent an identity, consolidating its namespace and ID value into a single compact token (see [Native XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en) for details):
 
-XED Schema Class name that the experience event is associated with. Used when looking up experience events.
-
-Example: "\_xdm.context.profile"
-
-
-entityId `string`
-
-ID of the entity. For Native XID lookup, use **'entityId=\<XID>'** and leave **'entityIdNS'** absent; For Id\:NS lookup, use both **'entityId'** and **'entityIdNS'** fields.
-
-Example: "GtghAUFkdGVzdDE"
-
-
-entityIdNS `string`
-
-Identity Namespace code. Used for id\:ns lookup. If this field is used, **'entityId'** cannot be empty.
-
-Example: "UPS1"
-
-
-relatedEntityId `string`
-
-ID of the entity that the experience events are associated with. Used when looking up experience events. For Native XID lookup, use '**relatedEntityId=\<XID>'** and leave '**relatedEntityIdNS'** absent; For Id\:NS lookup, use both '**relatedEntityId'** and '**relatedEntityIdNS'** fields.
-
-Example: "GtghAUFkdGVzdDE"
-
-
-relatedEntityIdNS `string`
-
-Identity Namespace code of the related entity id of experience event. Used when looking up experience events. If this field is used, '**entityId'** cannot be empty.
-
-Example: "UPS1"
-
-
-fields `string`
-
-Fields to be returned for the model object. By default, all fields will be fetched. For each field, paths are seprated by '.'. Different fields are separated by ','.
-
-Example: "person.name.firstName,person.name.lastName"
-
-
-mergePolicyId `string`
-
-Id of the mergePolicy. MergePolicy includes information of Identity stitching and key-value xdm object merging. If not present, default merge policy will be used.
-
-Example: "example-mergePolicy"
-
-
-startTime `number`
-
-Start time of Time range filter for experience events. Should be at millisecond granularity. Included. Default: From beginning.
-
-Example: "1539838505"
-
-
-endTime `number`
-
-End time of Time range filter for experience events. Should be at millisecond granularity. Excluded. Default: To the end.
-
-Example: "1539838510"
-
-
-limit `number`
-
-Number of records to return from the result. Only for time-series objects. Default: 1000
-
-Example: 10
-
-
-orderby `string`
-
-The sort order of retrieved experience events by timestamp. Syntax: (+/-)timestsamp. Default: +timestamp
-
-Example: "-timestamp"
-
-
-property `string`
-
-Filter by property value. Support evaluators \[=,!=,\<,>,\<=,>=]. When more than 1 property filter is provided, it will be concantenated with AND. Example: Paramter Input of
-
-**'property=web.webPageDetails.isHomepage=false\&placeContext.localTime\<="2019-07-20"** will result in a filter of '**placeContext.geo.city!="Burns Lake" AND placeContext.localTime\<="2019-07-20"'** Date filters should be provided as a '**String'** in the format of **'yyyy-mm-dd'** Notes: URL will need to be encoded. Maximum of 3 properties is supported. Only for experience events.
-
-Example: "web.webPageDetails.isHomepage=false"
-
-
-withUISApi `boolean`
-
-You can use UIS API to get identity map with this params equals to true
-
-
-withUISCache `boolean`
-
-You can use UIS cached records in UPS to get identity map with this params equals to true
-
-
-withUISDebug `boolean`
-
-When you are using UIS cached records in UPS to get identity map, with this params equals to true, you will get the union set of all the xids identity map
-
-## Header parameters
-
-x-gw-ims-org-id`*``string`
-
-IMS Organization ID
-
-Example: "\<replace with your ims org>"
-
-
-x-api-key`*``string`
-
-API Key
-
-Example: "\<replace with your api key>"
-
-
-Authorization`*``string`
-
-Authorization token
-
-Example: "Bearer \<replace with your token
+| Parameter    | Type   | Description                                                                                                                                    | Example                |
+| ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| `entityId`   | string | The identifier value to look up. If you already know the entity's XID, use it here on its own and omit `entityIdNS`.                           | `depeche.mode@dep.com` |
+| `entityIdNS` | string | Identity namespace code that `entityId` belongs to (for example, `email`, `crmid`, `ECID`). Required whenever `entityId` isn't already an XID. | `email`                |
 
 >[!NOTE]
 >
->You can learn more about the Profile API's and others on the [Adobe Developer ](https://developer.adobe.com/experience-platform-apis/)website
+>This lab's Postman requests look up the Depeche Mode profile by its email address (`entityIdNS=email`, `entityId=depeche.mode@dep.com`) rather than its XID.
+
+### Required headers
+
+Every request also needs these headers:
+
+| Header            | Type   | Description                                    | Example               |
+| ----------------- | ------ | ---------------------------------------------- | --------------------- |
+| `x-gw-ims-org-id` | string | IMS Organization ID.                           | `<your IMS org>`      |
+| `x-api-key`       | string | API key of your registered project/credential. | `<your API key>`      |
+| `Authorization`   | string | Bearer token for the request.                  | `Bearer <your token>` |
+
+>[!NOTE]
+>
+>See the [Profile Entities API reference](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities) for the complete list of query parameters, including additional identity lookup options, event filtering (`startTime`, `endTime`, `property`, `orderby`, `limit`), field selection, and merge policy overrides.
 
 >[!WARNING]
 >
->Remember all API requests are sandbox specific so its important when working with the API's that you ensure your header param in each request called `x-sandbox-name` is correctly set the appropriate sandbox.
+>Remember all API requests are sandbox specific so it's important when working with the APIs that you ensure your header param in each request called `x-sandbox-name` is correctly set to the appropriate sandbox.
 >
 >For this lab you already have the `x-sandbox-name` set in your environment file
 
-###
-
 ## Entity Lookup (attributes)
 
-To get a feel the Entity Lookup API you'll use the Depeche Mode profile from the previous lab.
+To get a feel for the Entity Lookup API you use the Depeche Mode profile from the previous lab.
 
 1. Open up **Postman** and navigate to the **Profile Lab** folder
 1. Click on the **Entity Lookup (attributes)** request to open it
 1. Execute the call by clicking the **Send** button
 
-![3AYLtWMu profile entity lookup attributes api.png "Profile Entity Lookup (attributes](assets/lV7mJTqL9wBN_3AYLtWMu_profile-entity-lookup-attributes-api.png "Profile Entity Lookup (attributes) API")
+![Postman request pane for the Entity Lookup (attributes) call before sending](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup (attributes) API")
 
 A successful request should respond with a `200 OK` and you should see a result that contains all the attributes for the Depeche Mode profile.
 
-![Ur7P0oenhGc2 successful profile entity attributes api response.png "Successful Profile Entity (attributes](assets/Gogu7oCC_Ur7P0oenhGc2_successful-profile-entity-attributes-api-response.png "Successful Profile Entity (attributes) API Response")
+![200 OK response containing all attributes for the Depeche Mode profile](assets/profile-and-identity-apis-successful-attributes-api-response.png "Successful Profile Entity (attributes) API Response")
 
 >[!NOTE]
 >
 >By default if no merge policy is specified in a profile entity request it uses the default merge policy in the sandbox
 
-With the Entity API there are a number of query parameters that you can utilize to change the what is returned in response.  
+With the Entity API there are a number of query parameters that you can utilize to change what is returned in response.  
 
 1. In the Entity Lookup (attributes) request click on the **Params** option for the request
 1. Check the box next to **Key** named **fields**
 1. Execute the request by clicking the **Send** button
 
-![Profile entity lookup attributes with filter enabled](assets/profile-entity-lookup-attributes-with-filter-enabled.png)
+![Entity Lookup (attributes) request with the fields parameter enabled to filter the response](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
 
 >[!NOTE]
 >
->Notice there is also a parameter for specifying the `mergePolicyId`.  You can find the value for this utilizing other API's or looking up the ID using the UI.
+>Notice there is also a parameter for specifying the `mergePolicyId`.  You can find the value for this utilizing other APIs or looking up the ID using the UI.
 
 A successful request should respond with a `200 OK` and you should see only the fields specified in the param filter you just enabled:  First Name, Last Name and an array of Active Products.
 
-![Successf.png "Successful Profile Entity Lookup (attributes](assets/a8YtaW9-H7Ohxku-jR6Ew_successf.png "Successful Profile Entity Lookup (attributes) API Response with filter enabled")
+![Filtered 200 OK response showing only First Name, Last Name, and Active Products fields](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Successful Profile Entity Lookup (attributes) API Response with filter enabled")
 
->[!NOTE]
+> [!TIP]
 >
 >Congratulations!  You've successfully looked up a profile's attributes utilizing the Profile Entity API
 
-###
-
 ## Entity Lookup (events)
 
-To lookup the events of a profile you use the same exact Profile Entity API.  The only difference is you have to tell the profile service that you want to change which class type use in the response.
+To look up the events of a profile you use the same exact Profile Entity API.  The only difference is you have to tell the profile service that you want to change which class type to use in the response.
 
 1. Click on the **Entity Lookup (events)** request to open it
 1. Execute the call by clicking the **Send** button
 
-![Profile entity lookup events](assets/profile-entity-lookup-events.png)
+![Postman request pane for the Entity Lookup (events) call before sending](assets/profile-and-identity-apis-entity-lookup-events-request.png)
 
-A successful request should respond with a` 200 OK` and you should see a result that contains all the events for the Depeche Mode profile.
+A successful request should respond with a `200 OK` and you should see a result that contains all the events for the Depeche Mode profile.
 
 
 
-![LLZG3u2wYuw046kQ successful profile entity lookup events api response.png "Successful Profile Entity Lookup (events](assets/Fsmu_LLZG3u2wYuw046kQ_successful-profile-entity-lookup-events-api-response.png "Successful Profile Entity Lookup (events) API Response")
+![200 OK response containing all events for the Depeche Mode profile](assets/profile-and-identity-apis-successful-events-api-response.png "Successful Profile Entity Lookup (events) API Response")
 
-Just like when looking up profile attributes the Entity API has even more query parameters that can be utilized to change the what is returned in response.
+Just like when looking up profile attributes the Entity API has even more query parameters that can be utilized to change what is returned in response.
 
-You can try a few of them by turning enabling them in the Params section and executing the request.  Try it out and see how it works!
+You can try a few of them by enabling them in the Params section and executing the request.  Try it out and see how it works!
 
-![LbDoa5Tnv27Y8diQW profile entity lookup for experience events.png "Profile Entity Lookup for Experience Events"](assets/-1k_LbDoa5Tnv27Y8diQW_profile-entity-lookup-for-experience-events.png "Profile Entity Lookup for Experience Events")
+![Entity Lookup (events) request with additional query parameters enabled in the Params section](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "Profile Entity Lookup for Experience Events")
 
 **Sample Query Param Definitions**
 
 | Key           | Value                           | Description                                                                                                                                               |
 | ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | mergePolicyId | \<blank>                        | If provided you can switch the merge policy used to perform the lookup. For the lab leaving it blank means it will use the sandboxes default merge policy |
-| fields        | eventType,timestamp,identityMap | Only displays these fields from each event regardless if the field specificed has a value                                                                 |
+| fields        | eventType,timestamp,identityMap | Only displays these fields from each event regardless if the field specified has a value                                                                 |
 | property      | eventType="order.placed"        | Filters down the events of the profile to only those that are of type "order.placed"                                                                      |
 | orderby       | +timestamp                      | Sorts the events in descending order                                                                                                                      |
 | limit         | 5                               | Only shows 5 events in the response                                                                                                                       |
@@ -243,7 +142,7 @@ You can try a few of them by turning enabling them in the Params section and exe
 
 ## Identity Service Cluster API
 
-At some point you may have a question about what identities are part of a specific profiles identity cluster within the identity graph.  This API allows you to pass a single identity namespace/value and in response you'll receive the full identity cluster for that profile.
+At some point you may have a question about what identities are part of a specific profile's identity cluster within the identity graph.  This API allows you to pass a single identity namespace/value and in response you receive the full identity cluster for that profile.
 
 Try it yourself:
 
@@ -256,14 +155,14 @@ Try it yourself:
 
 
 
-![List linked identities api.png "List Linked Identities API"](assets/Xls-UKprd9UcF0GRhQ701_list-linked-identities-api.png "List Linked Identities API")
+![Postman request pane for the List Linked Identities call before sending](assets/profile-and-identity-apis-list-linked-identities-request.png "List Linked Identities API")
 
 A successful response should look like the below screenshot
 
 
 
-![GCE1tBuGkhecfU you ll n](assets/you-ll-n.png)
+![Successful List Linked Identities response showing all identities of the Depeche Mode profile](assets/profile-and-identity-apis-successful-list-linked-identities-response.png)
 
 >[!NOTE]
 >
->You'll notice the response contains all the identities of the profile Depeche Mode
+>You notice the response contains all the identities of the profile Depeche Mode

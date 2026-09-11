@@ -8,7 +8,7 @@ exl-id: 74b3e855-fd2d-496b-b7b6-5b11daa2fa5a
 
 # Data vs. Identities
 
-If you look at the graphic you'll see two rows and two columns of data. Assume for the moment that each row represents a single profile containing two identities.
+If you look at the graphic, you see two rows and two columns of data. Assume for the moment that each row represents a single profile containing two identities.
 
 If you were asked to identify which column contains CRM identities vs. Loyalty identities how would you do this? Would you assume that values starting with C mean CRM and those starting with L mean Loyalty? Do you want to assume the identities of a person?
 

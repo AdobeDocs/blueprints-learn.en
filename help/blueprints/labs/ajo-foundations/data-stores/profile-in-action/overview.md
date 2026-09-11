@@ -1,14 +1,14 @@
 ---
-title: Profile in Action
+title: Profile in action
 description: Get an overview of simulating a web page visit from the Edge Network to Adobe Experience Platform, including creating a datastream, sending a test event, and validating profile and segment data.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
 ---
 
-# Profile in Action
+# Profile in action
 
-## Pre-Requisites
+## Pre-requisites
 
 >[!WARNING]
 >
@@ -18,13 +18,15 @@ exl-id: 46aaf0e5-2f03-4140-8456-22b4fd27d235
 
 If you have not completed these labs please do so now before continuing.
 
-## Lab Overview
+## Lab overview
+
+In this video you will learn how this lab simulates a web page visit from the Edge Network into Adobe Experience Platform, and how you'll validate the resulting profile, segment qualification, and data lake event.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491061/)
 
-## Learning Objectives
+## Learning objectives
 
-In this exercise, we will simulate a Web Page visit from an Edge source to Adobe Experience Platform. What should you walk away with after taking this Lab?
+In this exercise, we will simulate a Web Page visit from an Edge source to Adobe Experience Platform. What should you walk away with after taking this lab?
 
 - Create and configure a datastream in Adobe Experience Platform
 - Send a test web event to the Edge Network using Postman 

@@ -1,50 +1,50 @@
 ---
-title: Object Copy Mappings
+title: Object copy mappings
 description: Configure object copy mappings for a products array, then add and remove field-level overrides on top of the default copy.
 doc-type: article
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
 ---
 
-# Object Copy Mappings
+# Object copy mappings
 
 In this section, you will add the object copy mappings and create some overrides. 
 
-## Passthrough Mappings
+## Passthrough mappings
 
-Add the following passthrough mappings with **Products\[\*]** and **Products\[\*].productID** by clicking New field type and add a new field for each row here. Some may already be present due to ML Recommendations. 
+Add the following passthrough mappings with **products\[\*]** and **products\[\*].productID** by clicking New field type and add a new field for each row here. Some may already be present due to ML Recommendations. 
 
 | Source Column           | XDM Column                |
 | ----------------------- | ------------------------- |
 | orderStatus             | eventType                 |
 | lastOrderStatusUpdate   | timestamp                 |
-| Products\[\*]           | productListItems\[\*]     |
-| Products\[\*].productID | productListItems\[\*].SKU |
+| products\[\*]           | productListItems\[\*]     |
+| products\[\*].productID | productListItems\[\*].SKU |
 
 >[!NOTE]
 >
->Note that **Products\[\*]** is doing a 1-1 field mapping between the object fields and the explicit field mapping **Products\[\*].productID** is overriding the default copy.
+>Note that **products\[\*]** is doing a 1-1 field mapping between the object fields and the explicit field mapping **products\[\*].productID** is overriding the default copy.
 
 >[!NOTE]
 >
->**Products\[\*].productID** is also mapped to **prodictListItems\[\*].SKU** in addition to **prodictListItems\[\*].\_id**. This is an example of a single input field being mapped to multiple output fields in the XDM schema. Keep the mapping as it is.
+>**products\[\*].productID** is also mapped to **productListItems\[\*].SKU** in addition to **productListItems\[\*].\_id**. This is an example of a single input field being mapped to multiple output fields in the XDM schema. Keep the mapping as it is.
 
-2\. Keep the mapping **products\[\*].price** to **productListItems\[\*].priceTotal**
+1. Keep the mapping **products\[\*].price** to **productListItems\[\*].priceTotal**
 
-## Add Overrides on Certain Fields 
+## Add overrides on certain fields 
 
 1. Override the object copy mappings by 
    1. Mapping **products\[\*].make** to **productListItems\[\*].\_devbc.make**
    2. Mapping **products\[\*].model** to **productListItems\[\*].\_devbc.model**
 
-## Delete Overrides on Certain Fields
+## Delete overrides on certain fields
 
-1. Observe that **productListitems.currencyCode** and **productListItems.quantity** are auto-populated. 
+1. Observe that **productListItems.currencyCode** and **productListItems.quantity** are auto-populated. 
 1. Remove the **productListItems\[\*].quantity** and **productListItems\[\*].currencyCode** mappings.
 1. The overrides do not happen and the object copy takes over with passthrough fields going through. 
 
 
-## Summary of Object Copy Mappings, Overrides and Deletes
+## Summary of object copy mappings, overrides and deletes
 
 | Source Column              | XDM Column                          | Action                                 |
 | -------------------------- | ----------------------------------- | -------------------------------------- |
@@ -57,12 +57,12 @@ Add the following passthrough mappings with **Products\[\*]** and **Products\[\*
 | products\[\*].quantity     | productListItems\[\*].quantity      | `Remove`    |
 | products\[\*].currencyCode | productListItems\[\*].currencyCode  | `Remove`    |
 
-## Verify Mappings
+## Verify mappings
 
 There are 2 sets of mappings that you should verify. In total, you should have 6 mappings after the removal of 2. 
 
 
 
-![The resultant mappings for productlistitems should look like this.png "The resultant mappings for ProductListItems\[*] should look like this"](assets/pxtfzDmbEF935LVFdNUgL_the-resultant-mappings-for-productlistitems-should-look-like-this.png "The resultant mappings for ProductListItems\[*] should look like this")
+![Resultant mappings for productListItems after adding object copy overrides](assets/object-copy-mappings-resultant-mappings-for-productlistitems.png "The resultant mappings for ProductListItems\[*] should look like this")
 
-![The resultant mappings for productlistitems should look like this copy](assets/the-resultant-mappings-for-productlistitems-should-look-like-this-copy.png)
+![Second view of the resultant mappings for productListItems after object copy overrides](assets/object-copy-mappings-resultant-mappings-for-productlistitems--2.png)

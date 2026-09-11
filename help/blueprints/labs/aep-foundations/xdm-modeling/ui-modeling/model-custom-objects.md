@@ -1,14 +1,14 @@
 ---
-title: Model Custom Objects
+title: Model custom objects
 description: Build custom account, plan, and customerID fields and objects in the schema editor, including enum values, to model data with no standard field group equivalent.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
 ---
 
-# Model Custom Objects
+# Model custom objects
 
-## Adding Custom Fields
+## Adding custom fields
 
 As discussed in the lecture, there are no standard out of the box field groups or data types that model the Customer Account custom fields.  The below fields currently are considered custom and must be modeled within the XDM schema.
 
@@ -25,11 +25,11 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 
 
-## Account Object Creation
+## Account object creation
 
 1. Add a new field by clicking the **+ (add)** button at the top of your schema
 
-![Add a custom field to your schema](assets/add-a-custom-field-to-your-schema.png)
+![Add (+) button at the top of the schema to add a custom field](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
 >[!NOTE]
 >
@@ -37,34 +37,34 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
  
 
-2\. Create the account object by utilizing the below details. When done click the **Apply** button in the right rail to see the change in the schema workspace
+1. Create the account object by utilizing the below details. When done click the **Apply** button in the right rail to see the change in the schema workspace
 
 | Field Name | Display Name | Type     | Assign to a New Field Group                                                                                                   |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| *account*  | *Account*    | *Object* | *Customer Account Details - \[Your Initials] *<br />*(you’ll need to type this in and select the dropdown or hit enter)* |
+| *account*  | *Account*    | *Object* | *Customer Account Details - \[Your Initials]*<br />*(type this in and select the dropdown or hit enter)* |
 
 >[!WARNING]
 >
->Your field names need to follow a specific casing. The reason is because we have already pre-created the same schema you are building. If your casing is off, it will cause a conflict with the field paths from the pre-existing schema in your sandbox
+>Your field names need to follow a specific casing. The reason is that we have already pre-created the same schema you are building. If your casing is off, it will cause a conflict with the field paths from the pre-existing schema in your sandbox
 
-![Adding the account object.png "Adding the account object"](assets/qaM2eAV0vOinxJYBeKVvu_adding-the-account-object.png "Adding the account object")
-
->[!NOTE]
->
->Notice the custom field you created automatically is placed under a tenant namespace, denoted by `_devbc`in the screenshot. Your tenant namespace may be different. Tenant namespaces are used to differentiate custom objects from Adobe standard ones and ensure future additions/updates to Adobe standards do not conflict with custom create ones.
+![Adding the account object with its assigned field group](assets/model-custom-objects-adding-the-account-object.png "Adding the account object")
 
 >[!NOTE]
 >
->Notice that your new custom field group appears in the left rail under the `Field groups` without a lock icon.  This denotes its a custom created field group.
+>Notice the custom field you created automatically is placed under a tenant namespace, denoted by `_devbc` in the screenshot. Your tenant namespace may be different. Tenant namespaces are used to differentiate custom objects from Adobe standard ones and ensure future additions/updates to Adobe standards do not conflict with custom created ones.
+
+>[!NOTE]
+>
+>Notice that your new custom field group appears in the left rail under the `Field groups` without a lock icon.  This denotes it's a custom created field group.
 
 >[!WARNING]
 >
->You cannot save your schema at this point. If you do an error will occur because you cannot create an empty object in JSON schema as it does not describe what its contents are
+>You cannot save your schema at this point. If you do, an error occurs because you cannot create an empty object in JSON schema as it does not describe what its contents are
 
 
  
 
-3\. Add the following fields show below under the Account object you just created.
+1. Add the following fields show below under the Account object you just created.
 
 | Field Name   | Display Name  | Type       |
 | ------------ | ------------- | ---------- |
@@ -73,32 +73,32 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 >[!NOTE]
 >
->You'll notice while adding the new fields the **Assign to** option is already filled in and references the field group you used for the account object.
+>You notice while adding the new fields the **Assign to** option is already filled in and references the field group you used for the account object.
 
 
 
-4\. When done your schemas account object should look like below. **Save** your schema!
+1. When done your schemas account object should look like below. **Save** your schema!
 
 
 
-![Customer Account Schema with account object and child fields added](assets/customer-account-schema-with-account-object-and-child-fields-added.png)
+![Customer Account schema with account object and child fields added](assets/model-custom-objects-account-object-with-child-fields.png)
 
  
 
-5\. Add one more custom field to the account object. Click the  **+ (add)** button next to the account object.  You will create the following field:
+1. Add one more custom field to the account object. Click the  **+ (add)** button next to the account object.  Create the following field:
 
 | Field Name  | Display Name      | Type     | Enumerations                            |
 | ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *Acquired Source* | S*tring* | *web :: Web*<br />*inStore :: In Store* |
+| *acqSource* | *Acquired Source* | *String* | *web :: Web*<br />*inStore :: In Store* |
 
-For this field we want to standardize the values so we will use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
+This field needs standardized values, so use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
 
 - *web :: Web*
 - *inStore :: In Store*
 
 
 
-![Enum values for Acquisition Source field](assets/enum-values-for-acquisition-source-field.png)
+![Enum values web and inStore added for the Acquisition Source field](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
 >[!NOTE]
 >
@@ -106,9 +106,9 @@ For this field we want to standardize the values so we will use the **Enum & Sug
 
  
 
-6\. When done click the **Apply** button to add the new field to the schema.
+1. When done click the **Apply** button to add the new field to the schema.
 
-7\.  **Save** your schema
+1.  **Save** your schema
 
 >[!TIP]
 >
@@ -116,7 +116,7 @@ For this field we want to standardize the values so we will use the **Enum & Sug
 
 
 
-## Plan Object Creation
+## Plan object creation
 
 Repeat the steps you performed above and add the **Plan** object and associated fields. All new fields should be added under the Customer Account Details - \[your initials] field group.
 
@@ -126,8 +126,8 @@ Use the metadata in the below table to create the plan object and its associated
 | ---------- | -------------- | -------- | ------------------------------------------------------------------------------------- |
 | *plan*     | *Plan Details* | *Object* | -                                                                                     |
 | *planID*   | *Plan ID*      | *String* | -                                                                                     |
-| *name*     | *Plan Name*    | *String* | Enum <br />*basic :: Basic *<br />*ultimate :: Ultimate *<br />*pro :: Pro* |
-| type       | Type           | String   | -                                                                                     |
+| *name*     | *Plan Name*    | *String* | Enum <br />*basic :: Basic*<br />*ultimate :: Ultimate*<br />*pro :: Pro* |
+| *type*     | *Type*         | *String* | -                                                                                     |
 
 >[!WARNING]
 >
@@ -135,7 +135,7 @@ Use the metadata in the below table to create the plan object and its associated
 >
 >
 >
->![Ensure that you are adding the new fieldds](assets/ensure-that-you-are-adding-the-new-fieldds.png)
+>![Customer Account Details field group selected in the left rail before adding a new field](assets/model-custom-objects-field-group-selected-before-adding-field.png)
 >
 >
 
@@ -145,7 +145,7 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 
 
-![Customer Account schema with plan object and child fields added](assets/customer-account-schema-with-plan-object-and-child-fields-added.png)
+![Customer Account schema with plan object and child fields added](assets/model-custom-objects-plan-object-with-child-fields.png)
 
 >[!TIP]
 >
@@ -153,7 +153,7 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 
 
-## Customer ID Field Creation
+## Customer ID field creation
 
 Adding the **customerID** field as this field is critical because it will serve as the primary identity for the schema as well as a general field to hold data in.
 
@@ -165,7 +165,7 @@ Perform the same steps as you have done previously and utilize the table below f
 
 >[!NOTE]
 >
->The `customerID`could be put anywhere in the schema from a hierarchical perspective. In this lab we've chosen to keep it at the root and not nested within one of the custom objects you previously created.  This is where data architecture has opinions 
+>The `customerID` could be put anywhere in the schema from a hierarchical perspective. In this lab we've chosen to keep it at the root and not nested within one of the custom objects you previously created.  This is where data architecture has opinions 
 >
 >😄
 
@@ -173,15 +173,15 @@ Perform the same steps as you have done previously and utilize the table below f
 
 Your final result should look like the screenshot below when you are complete
 
-![Customer Account schema with customerId field added](assets/customer-account-schema-with-customerid-field-added.png)
+![Customer Account schema with customerID field added at the root](assets/model-custom-objects-customerid-field-added.png)
 
 
 
-## Final Schema Result
+## Final schema result
 
 
 
-![9i fEemrUwm44IXGMVf9 final schema with custom objects.jpeg "Final schema with custom objects"](assets/_9i_fEemrUwm44IXGMVf9_final-schema-with-custom-objects.jpeg "Final schema with custom objects")
+![Final schema with all custom objects and fields added](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Final schema with custom objects")
 
 >[!TIP]
 >

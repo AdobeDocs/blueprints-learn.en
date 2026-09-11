@@ -1,28 +1,28 @@
 ---
-title: Send Order Event to Hub
+title: Send order event to Hub
 description: Learn how to stream an order event to the Hub via API, build a streaming order segment, activate it to a destination, and validate profile results.
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
 ---
 
-# Send Order Event to Hub
+# Send order event to Hub
 
 ## Streaming to Hub vs Edge
 
 In Use Case #1 we sent in an Event to the Edge.  There are some use cases where we may have a back end system that wants to stream in an event, but does not need to send it to the Edge.  This lab shows how to do that by streaming in an Order event to the Hub.
 
-## Create an Order Segment (if you haven't)
+## Create an order segment (if you haven't)
 
-Click on Audience on the left rail and create Audience button in the top right.  
+Click on Audience on the left rail and click the Create Audience button in the top right.  
 
-![Click on](assets/click-on.png)
+![Click Audience in the left rail, then click Create Audience](assets/send-order-event-to-hub-click-create-audience-button.png)
 
-Find and use Order Placed Event Type card and Drag that onto the canvas.
+Find the Order Placed event type card and drag it onto the canvas.
 
-![C let s use order placed event type card and drag that onto the canvas](assets/let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
+![Drag the Order Placed event type card onto the canvas](assets/send-order-event-to-hub-drag-order-placed-event-onto-canvas.png)
 
-## Update Event Rules
+## Update event rules
 
 Make the following changes to the event rules (you may need to expand the event to see it)
 
@@ -35,9 +35,9 @@ Save as **Order Event Streaming (within 15 minutes)**
 
 
 
-![Image](assets/send-order-event-to-hub-1.png)
+![Save the audience as Order Event Streaming (within 15 minutes) with streaming evaluation](assets/send-order-event-to-hub-save-streaming-evaluation-rule.png)
 
-## Activate to Destination
+## Activate to destination
 
 Open the audience you just created if it is closed.
 
@@ -45,7 +45,7 @@ Click Activate to Destination
 
 
 
-![K5 image](assets/send-order-event-to-hub-2.png)
+![Click Activate to Destination for the order audience](assets/send-order-event-to-hub-click-activate-to-destination.png)
 
 ### Destination
 
@@ -53,13 +53,13 @@ Select the Streaming Destination you created earlier (Streaming DEP Webhook)
 
 
 
-![XQnwts5CiaLLjQ  image](assets/send-order-event-to-hub-4.png)
+![Select the Streaming DEP Webhook destination](assets/send-order-event-to-hub-select-streaming-destination.png)
 
 ### Mapping
 
 Leave Mapping alone and click Next
 
-![Image](assets/send-order-event-to-hub-3.png)
+![Leave the mapping unchanged and click Next](assets/send-order-event-to-hub-leave-mapping-click-next.png)
 
 Click Finish
 
@@ -72,47 +72,47 @@ Launch postman on your computer and navigate to the following API call:
 1. **Folder** --> Profile Lab
 1. **API Request** --> `Create Order Event`
 
-![W43tBv create web event api request](assets/create-web-event-api-request.png)
+![Open the Create Order Event API request in Postman](assets/send-order-event-to-hub-create-order-event-api-request.png)
 
 
-## Modify API Request
+## Modify API request
 
 To create the sample API request you need to fill in the following pieces in the body of the API request.
 
 Start by gathering the following values:
 
-## Find Account Streaming Endpoint
+## Find account streaming endpoint
 
 1. Navigate to **Sources** in the left rail and then click on **Accounts** in the top nav
 1. Search for **dep: HTTP API \[raw]**, highlight the row and copy and save the value of the **Streaming Endpoint** somewhere you can reference later
 
-![LxxLyKc0x1oi VT rvewysl8ABem1xFkox 20241025 024115.png "dep: HTTP API \[raw]"](assets/n-ADAXZy_lxxLyKc0x1oi-VT-rvewysl8ABem1xFkox-20241025-024115.png "dep: HTTP API \[raw]")
+![Search for the dep: HTTP API \[raw] account and copy its Streaming Endpoint](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png "dep: HTTP API \[raw]")
 
-## Find Dataflow ID
+## Find dataflow ID
 
-1. Find the record for **dep: Orders (stream)** click on the dataflows link
+1. Find the record for **dep: Orders (stream)** and click on the dataflows link
 1. In the right rail copy and save the **Dataflow ID** values somewhere you can reference later
 
 >[!NOTE]
 >
 >Click in an empty space on the row.  DO NOT click on the blue links!
 
-![Screenshot 2024 10 24 at 73808 pm.png "Web Dataflow and Dataset IDs"](assets/YZq5xpIpR2udKhtI8osBm_screenshot-2024-10-24-at-73808-pm.png "Web Dataflow and Dataset IDs")
+![Copy the Dataflow ID for the dep: Orders (stream) dataflow](assets/send-order-event-to-hub-orders-stream-dataflow-id.png "Web Dataflow and Dataset IDs")
 
-## Create Final API Request
+## Create final API request
 
-Copy the values you saved in the previous steps into the places highlight below.  
+Copy the values you saved in the previous steps into the places highlighted below.  
 
 - **Red** --> `Streaming Endpoint URL`
 - **Green** --> `Dataflow ID`
 
 Your final API request should look like this when done
 
->[!NOTE]
+> [!CAUTION]
 >
 >DO NOT EXECUTE YET!
 
-![Tguisg final order api request](assets/final-order-api-request.png)
+![Completed Create Order Event API request with Streaming Endpoint and Dataflow ID filled in](assets/send-order-event-to-hub-final-order-api-request.png)
 
 
 ## Execute the API
@@ -122,12 +122,12 @@ Your final API request should look like this when done
 
 A successful call should result in the following response...
 
-![Successful web event send](assets/successful-web-event-send.png)
+![Successful API response after sending the order event](assets/send-order-event-to-hub-successful-api-response.png)
 
 ## Validate
 
-1. Go over to your Profile and lookup your Profile to see that the event was ingested onto Profile.  It should appear in seconds.
-   1. Lookup the Profile using the email in the Order
+1. Go over to your Profile and look up your Profile to see that the event was ingested onto Profile.  It should appear in seconds.
+   1. Look up the Profile using the email in the Order
 1. Validate the Profile has qualified for the Segments (it may take a few minutes). It should appear in seconds to minutes.
    1. Order Event Streaming (within 15 minutes)
 1. Check your webhook to see if the Destination has notified the webhook of a Segment "realized".  It should appear in 5-10 minutes.

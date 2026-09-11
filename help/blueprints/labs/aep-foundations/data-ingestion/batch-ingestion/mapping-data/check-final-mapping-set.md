@@ -1,14 +1,14 @@
 ---
-title: Check Final Mapping Set
+title: Check final mapping set
 description: Compare your simple and calculated field mappings for the Customer Account schema against the expected final mapping set.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 ---
 
-# Check Final Mapping Set
+# Check final mapping set
 
->[!WARNING]
+> [!NOTE]
 >
 >If you are coming from the Streaming Ingestion Lab please click the below link to proceed to the next step in that lab:
 >
@@ -16,7 +16,7 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 
 
 
-## Simple Mappings
+## Simple mappings
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | shipping\_state           | shippingAddress.state             |
 | shipping\_street\_address | shippingAddress.street1           |
 
->[!CAUTION]
+> [!NOTE]
 >
 >Ensure your final mapping matches what is shown below before continuing.
 
 
 
-## Calculated Mappings
+## Calculated mappings
 
 | Calculated fields                                                                                                                     | XDM Field                  |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
@@ -59,6 +59,6 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | concat(date\_part("month", date(birth\_Date,"M/d/yyyy")).toString(), "-", date\_part("day", date(birth\_Date,"M/d/yyyy")).toString()) | person.birthDayAndMonth    |
 | date\_part("yyyy",date(birth\_Date,"M/d/yyyy"))                                                                                       | person.birthYear           |
 
->[!CAUTION]
+> [!NOTE]
 >
->Ensure your final mapping matches to what is shown below before continuing
+>Ensure your final mapping matches what is shown below before continuing

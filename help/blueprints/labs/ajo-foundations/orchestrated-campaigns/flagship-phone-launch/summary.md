@@ -12,9 +12,9 @@ Through this lab you did the following activities:
 
 - Built an Orchestrated Campaign using a variety of workflow activities
 - Constructed an audience using a Build Audience activity
-- Cofingured a messaging channel (SMS to be exact)
+- Configured a messaging channel (SMS to be exact)
 - Saved an audience to the audience portal
-- Targeted both the customer account and individual lines with email and sms messages
+- Targeted both the customer account and individual lines with email and SMS messages
 
 
 
@@ -29,7 +29,7 @@ If you had tried this in Journeys you would not have been able to satisfy both t
 
 
 
->[!CAUTION]
+> [!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

@@ -8,7 +8,7 @@ exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
 
 # Define Relationships
 
-## Relationship Descriptors
+## Relationship descriptors
 
 In order to create a relationship from one schema to another, you need to create a Relationship Descriptor in the schema registry. A sample schema descriptor body looks like the following:
 
@@ -37,8 +37,8 @@ Reference Identity Descriptor
 }
 ```
 
-## Your Objective
+## Your objective
 
 Create Relationship identities for the Customer Account Schema. After performing the steps in the next section, your schema should look like below.
 
-![LxxLyKc0x1oi dNRps1V ngEdac6AdbbpB 20241024 001844](assets/overview-1.png)
+![Customer Account schema showing the relationship and reference identity descriptors](assets/overview-schema-with-relationship-identities.png)

@@ -8,17 +8,17 @@ exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 
 # Create Schema Relationship
 
-1. Click on the` Step 2 - Relationship Descriptor Customer Account To Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
+1. Click on the `Step 2 - Relationship Descriptor Customer Account To Plan` API request in the `XDM Schema Lab -> Create Relationship Descriptors` folder
 
 >[!CAUTION]
 >
 >Do not execute the request...yet
 
-![Step 2 relationship descriptor customre acount to plan.png "Step 2   Relationship Descriptor Customre Acount to Plan"](assets/oCG9DCH3isLOcSg5GbDQB_step-2-relationship-descriptor-customre-acount-to-plan.png "Step 2 - Relationship Descriptor Customre Acount to Plan")
+![Step 2 - Relationship Descriptor Customer Account to Plan API request](assets/create-schema-relationship-step-2-descriptor-request.png "Step 2 - Relationship Descriptor Customer Account to Plan")
 
 
 
-2\. Update the following properties in the body of the API call. 
+2. Update the following properties in the body of the API call. 
 
 - Set the value of the `xdm:sourceSchema` property to the `$id` of the Customer Account schema you saved from the [Create Schema](../build-schema/create-schema.md) lab step
 - Set the value of the `xdm:sourceProperty` to the path of the `planID` field from the Customer Account Schema. 
@@ -26,7 +26,7 @@ exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 
 >[!NOTE]
 >
->Use the dot notation value of the planId field from the Customer Account Schema and replace the`.` with`/`
+>Use the dot notation value of the planId field from the Customer Account Schema and replace the `.` with `/`
 >
 >
 >Don't forget the leading `/` either 😄
@@ -35,7 +35,7 @@ EXAMPLE ONLY
 
 ```json
 {
-  "@type": "xdm:descriptorOnetoOne",
+  "@type": "xdm:descriptorOneToOne",
   "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
   "xdm:sourceVersion": 1,
   "xdm:sourceProperty": "/_devbc/plan/planID",
@@ -51,13 +51,13 @@ EXAMPLE ONLY
 
 
 
-3\. Save your request before continuing using the `Save` button
+3. Save your request before continuing using the `Save` button
 
-4\. Execute the API by clicking the `Send` button
+4. Execute the API by clicking the `Send` button
 
 You should now see a `201 Created` response like below
 
-![Customer account plan relationship descriptor.png "Customer Account   Plan Relationship Descriptor"](assets/zt937YGQr28qtVyrsoTXw_customer-account-plan-relationship-descriptor.png "Customer Account - Plan Relationship Descriptor")
+![201 Created response after creating the Customer Account to Plan relationship descriptor](assets/create-schema-relationship-customer-account-plan-descriptor.png "Customer Account - Plan Relationship Descriptor")
 
 >[!NOTE]
 >

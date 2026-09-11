@@ -18,7 +18,7 @@ Finally, you **tested the end-to-end decisioning flow**, validating that Adobe J
 
 
 
->[!CAUTION]
+> [!TIP]
 >
 >**IF YOU ARE READING THIS, IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

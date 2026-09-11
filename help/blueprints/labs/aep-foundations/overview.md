@@ -8,7 +8,7 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 # Overview
 
-## What You Will Learn
+## What you will learn
 
 1. **Relational to NoSQL Translation:**
    - Understand the architecture, modeling, and assembly of the Real-Time Customer Profile
@@ -27,7 +27,7 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 
 
-## Target Audience
+## Target audience
 
 - Solution Architects
 - Enterprise Architects
@@ -37,10 +37,17 @@ exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
 
 
 
-## Recommend Experience or Familiarity
+## Recommended experience or familiarity
 
 - Database concepts (create, update, delete)
 - Data modeling concepts (rows, fields, keys, etc.)
 - Working with REST APIs
 - General understanding of Adobe Experience Platform
-- Exposure to CDP's, ad-tech, CRM or other marketing technology stacks
+- Exposure to CDPs, ad-tech, CRM or other marketing technology stacks
+
+
+## Introduction
+
+This video unpacks what personalization at scale means at Adobe and why moving beyond audience- or group-based targeting is key to delivering truly individualized customer experiences.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3459077/?quality=12&learn=on)

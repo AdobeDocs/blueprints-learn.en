@@ -1,16 +1,16 @@
 ---
-title: Brand Alignment
+title: Brand alignment
 description: Learn how to evaluate email content against brand guidelines using AJO's AI-driven Brand Alignment Score and apply AI recommendations to improve compliance.
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
 ---
 
-# Brand Alignment
+# Brand alignment
 
 **Purpose:** Learn how to use Adobe Journey Optimizer’s Brand Alignment feature to evaluate email content, identify guideline violations, and apply AI‑powered recommendations to improve brand compliance.
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
@@ -33,19 +33,19 @@ This ensures:
 
 This module teaches you to run the evaluation, interpret results, and improve your content using AI.
 
-## Open Brand Alignment Panel
+## Open brand alignment panel
 
 1. Open the email you created in the previous modules.
 2. Locate the **Brand Alignment** tab in the right rail or the **% icon** in the sidebar.
 3. Click to open the panel.
 
-![Image](assets/brand-alignment-7.png)
+![Brand Alignment tab and percentage icon in the sidebar](assets/brand-alignment-open-panel-icon.png)
 
 4. Ensure the correct brand is applied:
    - **Connection 5G** (default).
 5. Click **Evaluate Score**.
 
-**Interpret the Brand Score and feedback:** After a moment, you will see the Brand Compliance Score for your content. This score may be presented as a rating (e.g. High, Medium, or Low) or a percentage, along with a color indicator (green, yellow, red) and the time of evaluation. A High score means your content strongly aligns with the brand guidelines, whereas a medium or low score indicates moderate or poor alignment.
+**Interpret the Brand Score and feedback:** After a moment, you see the Brand Compliance Score for your content. This score may be presented as a rating (e.g. High, Medium, or Low) or a percentage, along with a color indicator (green, yellow, red) and the time of evaluation. A High score means your content strongly aligns with the brand guidelines, whereas a medium or low score indicates moderate or poor alignment.
 
 Review the detailed feedback provided in the panel for each category of guidelines. 
 
@@ -55,14 +55,14 @@ Take note of any specific messages or highlights – for example, the panel migh
 
 >[!NOTE]
 >
->Note that your score will be different from screen below. Your goal is to improve the score using the brand guidelines and AI. 
+>Note that your score is different from the screen below. Your goal is to improve the score using the brand guidelines and AI. 
 
 
 
-![Image](assets/brand-alignment-2.png)
+![Brand Compliance Score and feedback after evaluation](assets/brand-alignment-score-and-feedback.png)
 
 
-## Review the Alignment Score
+## Review the alignment score
 
 After evaluation, AJO displays:
 
@@ -72,11 +72,11 @@ After evaluation, AJO displays:
 - Timestamp
 - Guideline categories (Tone, Style, Imagery, etc.)
 
-![Image](assets/brand-alignment-5.png)
+![Brand Alignment Score with guideline category breakdown](assets/brand-alignment-guideline-categories-score.png)
 
 Interpret the results to understand how closely your email matches Connection 5G guidelines.
 
-## Examine Detailed Feedback
+## Examine detailed feedback
 
 1. Scroll through the guideline categories.
 1. Look for warnings or red indicators.
@@ -88,43 +88,43 @@ Interpret the results to understand how closely your email matches Connection 5G
    - Missing trademark usage
    - Image style violations
 
-![Image](assets/brand-alignment-5.png)
+![Brand Alignment Score with guideline category breakdown](assets/brand-alignment-guideline-categories-score.png)
 
 
-## Apply AI Recommendations
+## Apply AI recommendations
 
 1. Click into flagged text blocks or images within the email.
-2. Lets use the paragraph we pasted in previous exercise as shown below. 
+2. Use the paragraph you pasted in the previous exercise, as shown below. 
 
-![YuTxpuqTwm image](assets/brand-alignment-9.png)
+![Flagged text block from the pasted description paragraph](assets/brand-alignment-flagged-text-block.png)
 
-3. Use the suggested modifications provided by AI. Click on icon as shown below. 
+3. Use the suggested modifications provided by AI. Click on the icon as shown below. 
 
-![Image](assets/brand-alignment-8.png)
+![AI suggestion icon for applying suggested modifications](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. Click on Fix with AI buton as shown below. 
+4. Click on the **Fix with AI** button as shown below. 
 
-![Image](assets/brand-alignment-3.png)
+![Fix with AI button for a flagged guideline](assets/brand-alignment-fix-with-ai-button.png)
 
-5. You will see suggested changes highlighted in green, and removed text shown in red with strikethrough, as illustrated below. You will also notice that the score has been updated (in our case, it is 80%). Click the **Apply** button for the changes to take effect.
+5. You see suggested changes highlighted in green, and removed text shown in red with strikethrough, as illustrated below. You also notice that the score has been updated (in this case, it is 80%). Click the **Apply** button for the changes to take effect.
 
-![Image](assets/brand-alignment-1.png)
+![Suggested changes highlighted in green with removed text struck through in red](assets/brand-alignment-apply-suggested-changes.png)
 
-6. Changes will be applied wih new text. 
+6. Changes are applied with new text. 
 7. Review all highlighted areas and make the necessary updates to correct the content, either using AI or by editing manually. Ensure that all required changes are completed before proceeding.
 8. Save changes.
 
-![Image](assets/brand-alignment-6.png)
+![Saving changes after correcting the flagged content](assets/brand-alignment-save-changes.png)
 
 
-## Re-evaluate the Brand Score
+## Re-evaluate the brand score
 
-1. Make changes to all location to fix the content using AI or manually. 
+1. Make changes to all locations to fix the content using AI or manually. 
 2. Return to the Brand Alignment panel.
 3. Click **Re-evaluate Score**.
 4. Compare the new score to the previous one.
 
-![NsBe3nsLU image](assets/brand-alignment-10.png)
+![Comparing the re-evaluated brand score to the previous score](assets/brand-alignment-re-evaluate-score-comparison.png)
 
 For example:
 
@@ -135,7 +135,7 @@ This indicates your updates successfully aligned the email with brand standards.
 
 5. Click **Save** to finalise your email.
 
-![OyO4i image](assets/brand-alignment-4.png)
+![Save button to finalise the email](assets/brand-alignment-save-finalize-email.png)
 
 ## Recap
 
@@ -147,4 +147,4 @@ In this module, you learned to:
 - Apply AI-recommended corrections
 - Improve brand consistency across your communication
 
-Your content is now validated and ready for testing in next module - **Test Email**.
+Your content is now validated and ready for testing in the next module - **Test the email**.

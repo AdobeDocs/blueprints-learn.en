@@ -1,14 +1,14 @@
 ---
-title: Test the Email
+title: Test the email
 description: Learn how to send and verify proof emails in Adobe Journey Optimizer to validate personalized content and conditional variants before activation.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 ---
 
-# Test the Email
+# Test the email
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
@@ -19,20 +19,20 @@ By the end of this module, you will be able to:
 - Confirm that email content is accurate, personalized, and ready for activation.
 
 
-## Send Proof Emails (Optional, but recommended)
+## Send proof emails (optional, but recommended)
 
 At this point, you have learned that we can not only personalize the profile attributes but also use attributes to create conditional logic that would determine the content you want to show. Adobe Journey Optimizer is extremely powerful and gives marketers a lot of flexibility. 
 
 1. Click **Simulate Content**.
 2. Select **Simulate content variation**.
 
-![CHBaM4efsxWxR image](assets/content-authoring-with-ai-1.png)
+![Clicking Simulate Content and selecting Simulate content variation](assets/content-simulation-click-simulate-content-variation.png)
 
-A simulation panel will open.
+A simulation panel opens.
 
 3. Click **Send Proof**.
 
-![Image](assets/test-the-email-4.png)
+![Send Proof button in the simulation panel](assets/test-the-email-click-send-proof-button.png)
 
 4. Add your own personal email address.
 
@@ -43,14 +43,14 @@ A simulation panel will open.
 
 
 5. Select both variants.
-6. Add Sublect Line Prefix
+6. Add Subject Line Prefix
    1. Variant 1: Above 40 
    2. Variant 2: Below 40 
-7. Click **Send Proof**. You will get green confirmation message "**Proofs sent successfully**"
+7. Click **Send Proof**. You get a green confirmation message "**Proofs sent successfully**"
 
-![JkDe7m2wFduz1 image](assets/test-the-email-5.png)
+![Green confirmation message showing proofs sent successfully](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 
-Verify that you have received both email should land on your inbox.
+Verify that both emails have landed in your inbox.
 
 >[!NOTE]
 >
@@ -58,27 +58,25 @@ Verify that you have received both email should land on your inbox.
 
 
 
-![Image](assets/test-the-email-6.png)
+![Proof email that landed in the Spam folder](assets/test-the-email-proof-email-in-spam-folder.png)
 
-You may experience clipped message but it is fine, since some of the footer links are not real. If you click on the link you should see both emails with variants has come through. 
+You may experience clipped message but it is fine, since some of the footer links are not real. If you click on the link you see both emails with variants have come through. 
 
-![Image](assets/test-the-email-1.png)
+![Clipped proof email showing both variants after clicking the link](assets/test-the-email-clipped-proof-email-variants.png)
 
-Verify Proof Delivery in AJO
+### Verify proof delivery in AJO
+
+Finally, you can also see proof delivery in Adobe Journey Optimizer.
 
 1. Return to the email editor.
-1. Click **View Proof**.
-1. Review delivery logs, timestamps, and sent variants.
+2. Go back to the email creation screen and click **View Proof**.
+3. Review delivery logs, timestamps, and sent variants.
 
-Finally, you can also see proof delivery in Adobe Journey Optimizer. 
+![View Proof button on the email creation screen](assets/test-the-email-click-view-proof-button.png)
 
-Go back to email creation screen and click on "**View Proof**"
+You notice your proof email details. 
 
-![Image](assets/test-the-email-2.png)
-
-You will notice your proof email details. 
-
-![Image](assets/test-the-email-3.png)
+![Proof email delivery logs, timestamps, and sent variants in AJO](assets/test-the-email-proof-email-delivery-details.png)
 
 
 ## Recap

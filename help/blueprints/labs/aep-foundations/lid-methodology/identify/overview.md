@@ -8,7 +8,7 @@ exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
 
 # Identify
 
-## Learning Objectives
+## Learning objectives
 
 The **Identify** step within the LID methodology is broken into two distinct parts:
 
@@ -17,12 +17,12 @@ The **Identify** step within the LID methodology is broken into two distinct par
 
 
 
-It will teach you to do identify the following items within a relational model that you will need for designing the Real-Time Customer Profile:
+It will teach you to identify the following items within a relational model that you will need for designing the Real-Time Customer Profile:
 
-- Bridge tables (that Many to Many relationships)
+- Bridge tables (tables that handle many-to-many relationships)
 - Tables that will require denormalization
 - Primary identities within the Real-Time Customer Profile
 - Person-based identities within the primary entity classes that can be used to uniquely identify a person
 - Relationship identifiers between Individual Profile / Experience Event tables and associated lookup tables
-- Required fields needed for the Experience Event schema's
+- Required fields needed for the Experience Event schemas
 - Recommended fields for Individual Profile and lookup schemas

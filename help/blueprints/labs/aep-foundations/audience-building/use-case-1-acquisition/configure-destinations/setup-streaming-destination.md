@@ -1,18 +1,18 @@
 ---
-title: Setup Streaming Destination
+title: Set up streaming destination
 description: Configure an HTTP API streaming destination with a webhook endpoint, governance policy, audiences, and field mappings to test segment activation.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 ---
 
-# Setup Streaming Destination
+# Set up streaming destination
 
 >[!NOTE]
 >
->Skip to the next step you have already configured your streaming destination!
+>Skip to the next step if you have already configured your streaming destination!
 
-## Get Webhook URL
+## Get webhook URL
 
 >[!NOTE]
 >
@@ -21,10 +21,10 @@ exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
 1. Open the following link in a new tab in your browser -> [https://webhook.site](https://webhook.site/)
 1. Copy the unique URL you see and save it somewhere safe
 
-![Webhooksite copy your unique url.png "Webhook.site copy your unique URL"](assets/FZjiu3ESI1tSWn5jTMHeH_webhooksite-copy-your-unique-url.png "Webhook.site copy your unique URL")
+![Webhook.site copy your unique URL](assets/setup-streaming-destination-webhooksite-copy-your-unique-url.png "Webhook.site copy your unique URL")
 
 
-## Configure HTTP API Destination
+## Configure HTTP API destination
 
 >[!NOTE]
 >
@@ -37,20 +37,18 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 1. In the search box enter **http**
 1. Click on the **Set up** button to configure the HTTP API destination
 
-![LxxLyKc0x1oi RQE8bk1LfsgmlXTfh1LP8 20241025 023030.png "Navigate to the HTTP API destination and intitiate the setup"](assets/n-ADAXZy_lxxLyKc0x1oi-RQE8bk1LfsgmlXTfh1LP8-20241025-023030.png "Navigate to the HTTP API destination and intitiate the setup")
+![Navigate to the HTTP API destination and initiate the setup](assets/setup-streaming-destination-navigate-to-http-api-destination.png "Navigate to the HTTP API destination and initiate the setup")
 
 >[!NOTE]
 >
 >You are using the HTTP API streaming destination for the lab(s) to demonstrate how a real world streaming connector would work.
-
-###
 
 ## Configure
 
 1. Connection type **None**
 1. Click on **Connect to destination**
 
-![Qalu26TqOpYn connect to destination.png "Connect to destination"](assets/ceOAAC2J_qalu26TqOpYn_connect-to-destination.png "Connect to destination")
+![Connect to destination](assets/setup-streaming-destination-connect-to-destination.png "Connect to destination")
 
 >[!NOTE]
 >
@@ -58,7 +56,7 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 
 
 
-3\. Fill in the configuration details of your destination as follows:
+3. Fill in the configuration details of your destination as follows:
 
 - **Name** -> `Streaming DEP Webhook - [Your Initials]`
 - **Description** ->  `[your webhook endpoint you copied above]`
@@ -70,20 +68,18 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 
 When done ensure your configure matches what you see below.  If it looks good click the **Next** button in the upper right to continue to the next step
 
-![LxxLyKc0x1oi 04Lph 8tmJSFqHA6LPvzY 20241021 201004](assets/setup-streaming-destination-1.png)
+![Configure destination fields including name, description, endpoint, and toggles](assets/setup-streaming-destination-configure-destination-fields.png)
 
 >[!CAUTION]
 >
 >The endpoint, header and query params cannot be changed in the UI once saved
 
-###
-
-## Define Governance
+## Define governance
 
 1. Select **Cross Site Targeting** from the Marketing Actions
 1. When done click the **Next** button to continue to the next step
 
-![Governance screen for destinations.png "Governance screen for destinations"](assets/c76F7Kf1wV-YD8NridS1w_governance-screen-for-destinations.png "Governance screen for destinations")
+![Governance screen for destinations](assets/setup-streaming-destination-governance-screen-for-destinations.png "Governance screen for destinations")
 
 >[!NOTE]
 >
@@ -91,16 +87,14 @@ When done ensure your configure matches what you see below.  If it looks good cl
 >
 >[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
-###
-
 ## Select Audiences
 
 1. Select all audiences
 1. When done click the **Next** button to continue to the next step
 
-![Select all audiences](assets/select-all-audiences.png)
+![Select all audiences](assets/setup-streaming-destination-select-all-audiences.png)
 
-## Add Mappings
+## Add mappings
 
 >[!NOTE]
 >
@@ -113,11 +107,11 @@ When done ensure your configure matches what you see below.  If it looks good cl
 
 
 
-![Select model field.png "Select Model Field"](assets/0A43ygDjMcBwAohd-5Hda_select-model-field.png "Select Model Field")
+![Select Model Field](assets/setup-streaming-destination-select-model-field.png "Select Model Field")
 
 
 
-![Final model field.png "Final Model Field"](assets/Q2qButkM8RGukEa-ku7nS_final-model-field.png "Final Model Field")
+![Final Model Field](assets/setup-streaming-destination-final-model-field.png "Final Model Field")
 
 >[!NOTE]
 >
@@ -127,15 +121,13 @@ When done ensure your configure matches what you see below.  If it looks good cl
 >2. Audience qualifies the Profile based on rules 
 >3. Qualification is stored on the Profile 
 >4. The Destination is notified the Profile has qualified 
->5. The Destination sends the Profile What this means is when Destination goes to send the Profile it no longer has awareness of the Event that triggered the Audience evaluation.
+>5. The Destination sends the Profile. What this means is when the Destination goes to send the Profile it no longer has awareness of the Event that triggered the Audience evaluation.
 
-###
-
-## Review Step
+## Review step
 
 Validate your final destination looks good and then click the **Finish** button
 
-![Destination review screen.png "Destination review screen"](assets/YrD--mkpMGlzHBmWllgx6_destination-review-screen.png "Destination review screen")
+![Destination review screen](assets/setup-streaming-destination-destination-review-screen.png "Destination review screen")
 
 >[!NOTE]
 >

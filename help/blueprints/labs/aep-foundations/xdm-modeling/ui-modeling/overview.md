@@ -1,14 +1,14 @@
 ---
-title: UI Modeling
+title: UI modeling
 description: Learn how to map source data to XDM standard and custom objects and build and configure a schema for profile using the Schema UI.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 66c3a386-7292-49e4-a75a-619e73c2a14d
 ---
 
-# UI Modeling
+# UI modeling
 
-## Mapping Source to XDM
+## Mapping source to XDM
 
 Get experience with translating what you put on paper and learn how to discover and map to XDM **standard** objects and fields versus create **custom** objects and fields.
 
@@ -22,7 +22,7 @@ What you will walk away with:
 
 ## Building XDM via UI
 
-Go hands on with building out the Connection 5G Customer Account schema that utilizes the schema you created in using the LID methodology
+Go hands-on with building out the Connection 5G Customer Account schema that utilizes the schema you created using the LID methodology
 
 What you will walk away with:
 
@@ -35,7 +35,7 @@ What you will walk away with:
 
 
 
-## Configuring for Profile
+## Configuring for profile
 
 Learn the steps required to configure a schema for use with the Real-Time Customer Profile from identity marking to establishing relations for lookup schemas.
 

@@ -1,12 +1,12 @@
 ---
-title: Lab Overview
+title: Lab overview
 description: Review the goals and syllabus for the data ingestion labs, from schema mapping and passthrough fixes to dataflow debugging and validation.
 doc-type: article
 solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
 ---
 
-# Lab Overview
+# Lab overview
 
 ## Goals
 
@@ -14,7 +14,7 @@ The goal of these labs is to prepare you to deal with the practical challenges o
 
 
 
-## What to Expect
+## What to expect
 
 I need your focus. Here is why: data will be the foundation of any implementation you will ever do. 
 
@@ -24,7 +24,7 @@ These next set of labs will require attention and dedication as you will be touc
 
 
 
-## Syllabus in a Nutshell
+## Syllabus in a nutshell
 
 Since you have source schemas and you have defined target schemas in XDM, you will need to connect the two schemas through mappings. Since this process requires a field by field mapping, you will need to learn some techniques that speed up the process while being aware of some common pitfalls:
 

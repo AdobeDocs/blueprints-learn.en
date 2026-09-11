@@ -10,14 +10,14 @@ exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
 
 ## Overview
 
-Let's assume for a minute that after building the schema you need to come back and add an additional field to the `plan `object called `planDescription` because either you forgot to add it at time of creation or it was a request that came in months later.  To perform this task you can simply perform a `PATCH` operation which updates the schema with the new field.
+Assume for a minute that after building the schema you need to come back and add an additional field to the `plan` object called `planDescription` because either you forgot to add it at time of creation or it was a request that came in months later.  To perform this task you can simply perform a `PATCH` operation which updates the schema with the new field.
 
-You can learn more about JSON PATCH at the links below but for the purposes of this lab we'll assume you have some concept of how this works 😄
+You can learn more about JSON PATCH at the links below, but for the purposes of this lab, assume you have some concept of how this works 😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
 - [Experience League API Fundamentals](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
-![LxxLyKc0x1oi 2ufuyWvSHXbQeAjJ0t 5Y 20241023 210803.png "Patching in a Missing Field Plan Description"](assets/n-ADAXZy_lxxLyKc0x1oi-2ufuyWvSHXbQeAjJ0t-5Y-20241023-210803.png "Patching in a Missing Field Plan Description")
+![Diagram of patching a missing planDescription field into an existing schema](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patching in a Missing Field Plan Description")
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ You can learn more about JSON PATCH at the links below but for the purposes of t
 
 
 
-To add a new field to a schema you need to perform the following operations in order.  This is what you will do in the following lab steps.
+To add a new field to a schema you need to perform the following operations in order.  This is what you do in the following lab steps.
 
 - Identify the field group where you would like to add the new property
 - Construct a JSON PATCH call to update the field group
@@ -36,12 +36,12 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-## Locate & Identify the Field Group to Update
+## Locate & identify the field group to update
 
 1. Select the `Step 1 - Get Tenant Field groups` API call located in the `XDM Schema Lab -> Customize Schema` folder 
 1. Execute the request by clicking the `Send` button
 
-![Step 1 get tenanat field groups.png "Step 1   Get Tenant Field Groups"](assets/8RppBgT3d9uij3j5FYpwL_step-1-get-tenanat-field-groups.png "Step 1 - Get Tenant Field Groups")
+![Step 1 - Get Tenant Field Groups API request](assets/modify-schema-json-patch-step-1-get-tenant-field-groups.png "Step 1 - Get Tenant Field Groups")
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-3\. In the response search for the schema ID for the custom field group you created previously titled `Customer Account Details - Sandbox <your number here> `
+1. In the response search for the schema ID for the custom field group you created previously titled `Customer Account Details - Sandbox <your number here> `
 
-4\. Copy the `meta:altId` and save it somewhere safe as you will need it for the next step
+1. Copy the `$meta:altId` and save it somewhere safe as you will need it for the next step
 
-![Le search the response for the customer account details field group.jpeg "Search the response for the Customer Account Details Field Group"](assets/CFWe-WOAgOiqTHTjx6_Le_search-the-response-for-the-customer-account-details-field-group.jpeg "Search the response for the Customer Account Details Field Group")
+![Locating the custom Customer Account Details field group in the API response](assets/modify-schema-json-patch-search-field-group-response.jpeg "Search the response for the Customer Account Details Field Group")
 
 >[!CAUTION]
 >
@@ -65,20 +65,20 @@ To add a new field to a schema you need to perform the following operations in o
 
 
 
-## Lookup the Field Group by $meta\:altId
+## Look up the field group by $meta\:altId
 
 1. Select the `Step 2 - Fetch path for the object to be modified` API call in the `XDM Schema Lab -> Customize Schema` folder
 1. In the URL of the request replace the `<replace me>` with the `$meta:altId` you saved from the previous section step to the end of the call like shown below
 1. Save the edits you've made to the request
 1. Execute the request by clicking the `Send` button
 
-![Step 2 fetch path for the object to be modified steps.jpeg "Step 2   Fetch path for the object to be modified steps"](assets/PDdjn4tK-FU4TUpfItiDw_step-2-fetch-path-for-the-object-to-be-modified-steps.jpeg "Step 2 - Fetch path for the object to be modified steps")
+![Step 2 - Fetch path for the object to be modified API call](assets/modify-schema-json-patch-step-2-fetch-object-path.jpeg "Step 2 - Fetch path for the object to be modified steps")
 
 
 
 Review the response and note the JSON pointer path for the **plan** object is constructed using each of the properties highlighted below.
 
-![Customer account details path to the plan object.png "Customer Account Details Path to the Plan object"](assets/QhzcnKiPDrDpp5uW-K9I9_customer-account-details-path-to-the-plan-object.png "Customer Account Details Path to the Plan object")
+![Highlighted properties composing the JSON pointer path to the plan object](assets/modify-schema-json-patch-customer-account-details-path-to-the-plan-object.png "Customer Account Details Path to the Plan object")
 
 
 
@@ -88,15 +88,15 @@ The fully composed path looks like what you see below.  Copy this path and save 
 /definitions/customFields/properties/_devbc/properties/plan/properties
 ```
 
->[!CAUTION]
+>[!NOTE]
 >
 >Remember to update the tenant name above (\_devbc) with the your own
 
 
 
-## PATCH the Field Group
+## PATCH the field group
 
-### JSON PATCH API Body Sample
+### JSON PATCH API body sample
 
 ```none
 [
@@ -118,15 +118,15 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 
 
-### Execute the API Request
+### Execute the API request
 
 1. Click on the `Step 3 - Modify Tenant Field group` API call in the `XDM Schema Lab -> Customize Schema` folder
 
-![Mo 3tqSIfILrFhQt step 3 modify tenant field group.png "Step 3   Modify Tenant Field Group"](assets/Cr2U_mo-3tqSIfILrFhQt_step-3-modify-tenant-field-group.png "Step 3 - Modify Tenant Field Group")
+![Step 3 - Modify Tenant Field Group API call](assets/modify-schema-json-patch-step-3-modify-tenant-field-group.png "Step 3 - Modify Tenant Field Group")
 
 
 
-2\. Update the body of the request with the following information
+2. Update the body of the request with the following information
 
 - **op** ->` add`
 - **path** -> `path from previous step +`` the new field name`
@@ -137,7 +137,7 @@ The fully composed path looks like what you see below.  Copy this path and save 
 
 When you are done your API request should look something like this
 
-![VVFV0aPdkrHg278 step 3 final call example.png "Step 3   Final Call Example"](assets/7kxvG_vVFV0aPdkrHg278_step-3-final-call-example.png "Step 3 - Final Call Example")
+![Completed JSON PATCH request body adding the planDescription field](assets/modify-schema-json-patch-step-3-final-call-example.png "Step 3 - Final Call Example")
 
 >[!WARNING]
 >
@@ -145,22 +145,22 @@ When you are done your API request should look something like this
 
 
 
-3\. If everything looks good `Save` your call
+3. If everything looks good `Save` your call
 
-4\. `Execute `the call to perform the PATCH
+4. `Execute` the call to perform the PATCH
 
 You should see a `200 OK `response and should now see the `planDescription` field in your field group like so:
 
-![Step 3 200 ok successful patch.png "Step 3   200 OK Successful PATCH"](assets/7iZi-UgJ85ETSCPX7KUvL_step-3-200-ok-successful-patch.png "Step 3 - 200 OK Successful PATCH")
+![200 OK response after successfully patching the field group with planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "Step 3 - 200 OK Successful PATCH")
 
->[!NOTE]
+>[!TIP]
 >
 >Congratulations! You have successfully updated a field group/schema using JSON PATCH
 
 
 
-## View the Change in the UI
+## View the change in the UI
 
 Browse your Schema through the UI and have a look at your newly added field.  Pretty cool huh?
 
-![LxxLyKc0x1oi mdrBo 0 LI7Hy9ixmldbS 20241023 212329.png "Plan Description added to the Customer Account Details   Sandbox \<your number> field group. Modify Schema JSON"](assets/n-ADAXZy_lxxLyKc0x1oi-mdrBo_0-LI7Hy9ixmldbS-20241023-212329.png "Plan Description added to the Customer Account Details - Sandbox \<your number> field group. Modify Schema JSON")
+![Plan Description field visible in the schema after JSON Patch in the Experience Platform UI](assets/modify-schema-json-patch-plan-description-added-to-field-group.png "Plan Description added to the Customer Account Details - Sandbox \<your number> field group. Modify Schema JSON")

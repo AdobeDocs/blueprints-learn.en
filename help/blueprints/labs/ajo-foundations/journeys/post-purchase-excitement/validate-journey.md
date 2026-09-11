@@ -1,37 +1,37 @@
 ---
-title: Validate Journey
+title: Validate journey
 description: Verify journey execution through entry and exit counts, email delivery reporting, and query service data for step events.
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
 ---
 
-# Validate Journey
+# Validate journey
 
-## Learning Objective
+## Learning objective
 
 Verify that the journey was triggered and executed as expected.  Verify reports show metrics updated as expected.
 
-## Checking Your Journey
+## Checking your journey
 
 1. Go to your Order Shipped Journey, open it if you closed it
-2. You should see at least 2 Profile Entered
+2. You see at least 2 Profile Entered
 
-![Iwa42eUkpVbVCNYzyI4jK 20251224 002013](assets/validate-journey-2.png)
+![Profile Entered count shown for the journey](assets/validate-journey-profile-entered-count.png)
 
 3. Click **View Report** -> **Last 24 hours** in the top right.
-4. By default, you should be in the **Journey** tab (on the left rail)
-   - You should see some enters and exits (count will depend on how many events you sent in, any testing, any errors, etc.)
+4. By default, you are in the **Journey** tab (on the left rail)
+   - You see some enters and exits (count will depend on how many events you sent in, any testing, any errors, etc.)
 
-![VClBq 20251118 002624](assets/validate-journey-1.png)
+![Journey tab reporting showing enters and exits](assets/validate-journey-journey-tab-enters-exits.png)
 
-If everything went through clean you should have (scroll down to check):
+If everything went through clean you have (scroll down to check):
 
 **Journey's statistics**
 
 3 Entered Profiles (Henry, You and the Testing we did)
 
-You can click the toggle at the top to **exclude test events** if you want and you will see these numbers change
+You can click the toggle at the top to **exclude test events** if you want and you see these numbers change
 
 3 Exited Profiles (Henry, You and the Testing we did)
 
@@ -51,17 +51,17 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 5. Click on the **Email** tab (on the left rail)
    - **Email - Sending Performance**
-     - You should see some values for **Delivered** and **Sent** (count will depend on how many events you sent in, any errors, etc.)
+     - You see some values for **Delivered** and **Sent** (count will depend on how many events you sent in, any errors, etc.)
      - Hopefully, you have no errors (unless you ran into some problems earlier)
    - **Email - Statistics**
      - Email - 3 targeted, sent, delivered
 
-![MOGtLfhTriQ u5UwoTNYQ 20251118 002651](assets/validate-journey-3.png)
+![Email tab showing sending performance and statistics](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Go check your **email inbox** and see if you got the email (it should look similar to this below)
+6. Go check your **email inbox** and see if you got the email (it looks similar to this below)
    - *,*your order has shipped ETA: *10/17/2026* Tracking Number: *051009364*
 
->[!CAUTION]
+> [!NOTE]
 >
 >Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -79,7 +79,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
 
 >[!NOTE]
 >
->The order shipped event was streamed in, so while it updated profile quickly, it will take a while before the data lake is updated.
+>The order shipped event was streamed in, so while it updated profile quickly, it takes a while before the data lake is updated.
 
 ```sql
 SELECT * FROM dep_orders
@@ -87,9 +87,9 @@ WHERE timestamp >= CURRENT_DATE
 LIMIT 10
 ```
 
-![Xqv654TpraIH1PHv0dFgW 20251118 195218](assets/validate-journey-4.png)
+![Query service results for the dep_orders dataset](assets/validate-journey-query-service-dataset-results.png)
 
-## Bonus (check Step Events)
+## Bonus (check step events)
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ select timestamp,
 limit 50
 ```
 
-Results will have over 100 columns and gives you an idea of what Step Events records.
+Results have over 100 columns and give you an idea of what Step Events records.
 
 >[!NOTE]
 >

@@ -23,16 +23,16 @@ Since eligibility is one of the key building blocks of an offer, the first step 
 
 3. Click on **Decisioning Rules** under the 'Eligibility' menu, followed by the **Create rule** button in the upper right corner.
 
-![Navigating to Decision Rules](assets/create-decision-rule-1.png)
+![Decisioning Rules page with the Create rule button](assets/create-decision-rule-create-rule-button.png)
 
-4. You will be taken to a screen that resembles the Segment Builder UI. Add the Plan ID attribute to the rule canvas by clicking on **XDM Individual Profile > DEP > Plan Details** and then dragging the **Plan ID** attribute to the canvas.
+4. This opens a screen that resembles the Segment Builder UI. Add the Plan ID attribute to the rule canvas by clicking on **XDM Individual Profile > DEP > Plan Details** and then dragging the **Plan ID** attribute to the canvas.
 5. Change the drop-down from equals to **contains.**
-6. Enter the text **2** in the box, press **Tab** key to accept the 2 value, then enter a **3,** press **Tab** again so that the rule is looking for any Plan IDs that contain a 2 or 3
+6. Enter the text **2** in the box, press the **Tab** key to accept the 2 value, then enter a **3,** press **Tab** again so that the rule is looking for any Plan IDs that contain a 2 or 3
 7. Use the **Name** textbox in the right rail to name the Decision Rule **Upper Tier Plans**. Add a description if you'd like. When finished, your Decision Rule should look like this:
 
-![W1YLuDeRos8EcyCAq1Oh2 20251202 203901.png "Decision rule finished state"](assets/w1YLuDeRos8EcyCAq1Oh2-20251202-203901.png "Decision rule finished state")
+![Completed Upper Tier Plans decision rule with Plan ID containing 2 or 3](assets/create-decision-rule-upper-tier-plans-finished.png "Completed Upper Tier Plans decision rule with Plan ID containing 2 or 3")
 
-8. Once the rule is correct, click the blue **Create** button in the upper-right corner, and you'll be returned to the Strategy Setup page with the Decision Rule you just created listed as the only Decision rule.
+8. Once the rule is correct, click the blue **Create** button in the upper-right corner, and you're returned to the Strategy Setup page with the Decision Rule you just created listed as the only Decision rule.
 
 >[!NOTE]
 >

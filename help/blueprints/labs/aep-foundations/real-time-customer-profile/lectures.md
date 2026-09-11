@@ -8,12 +8,8 @@ exl-id: dbe4b648-67a7-41f9-9110-380b3bb7d014
 
 # Lectures
 
-## Personalization at Scale
+## The Real-Time Customer Profile explained
 
->[!VIDEO](https://video.tv.adobe.com/v/3459077/?quality=12&learn=on)
-
-
-
-## The Real-Time Customer Profile Explained
+In this video you will learn why the Real-Time Customer Profile is built on a NoSQL database instead of a relational one, and how its primary and dimensional entity classes work together to represent a person's traits and behaviors.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459076/?quality=12&learn=on)

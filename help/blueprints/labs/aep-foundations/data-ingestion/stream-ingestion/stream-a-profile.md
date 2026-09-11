@@ -1,14 +1,14 @@
 ---
-title: Stream a Profile
+title: Stream a profile
 description: Use Postman and the streaming endpoint and dataflow ID to send a customer profile record into Adobe Experience Platform via the HTTP API.
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
 ---
 
-# Stream a Profile
+# Stream a profile
 
-## API Overview
+## API overview
 
 It's important to understand the structure of the API when streaming data into the Adobe Experience Platform in raw form so you can easily re-create it regardless of what dataflow you create.  Below is an example of the basic structure of the call using cURL
 
@@ -55,7 +55,7 @@ A few important elements to note in the request above:
 | Request URL (i.e. location) | -        | This is the URL of the HTTP API source account you created that the streaming data will point to. **It is always of type POST**                                                             |
 | Header 'Content-Type'       | *        | Always set to `application/json` as the data you are sending in is in JSON format                                                                                                           |
 | Header 'x-adobe-flow-id'    | -        | Set to the dataflow id created from the source connector                                                                                                                                    |
-| Header 'Authorization'      | *        | Optional value but highly encouraged for security reason. This is the same `access_token` you generated during the [Postman Setup](../../postman-setup/environment-file.md)  labs |
+| Header 'Authorization'      | *        | Optional value but highly encouraged for security reasons. This is the same `access_token` you generated during the [Postman Setup](../../postman-setup/environment-file.md)  labs |
 | Body Content                | -        | Contains the actual data you want to send into the Adobe Experience Platform                                                                                                                |
 
 >[!NOTE]
@@ -64,13 +64,13 @@ A few important elements to note in the request above:
 
 
 
-## Gather Required Values
+## Gather required values
 
 Before you can stream in data you need to gather a few of the required values listed above (i.e. specifically the streaming endpoint URL and body content 'header' values). 
 
 Perform the following steps:
 
-1. Copy the **Streaming endpoint** value and save it to your local machine (assuming you haven't navigated away from the previous sections step). If you did navigate away, you can find it under Sources->Accounts.
+1. Copy the **Streaming endpoint** value and save it to your local machine (assuming you haven't navigated away from the previous section's step). If you did navigate away, you can find it under Sources->Accounts.
 
 >[!NOTE]
 >
@@ -81,56 +81,56 @@ Perform the following steps:
 
 >[!NOTE]
 >
->If you do not see this value ensure you do not have the dataflow row selected by click on the row.  DO NOT CLICK ON THE BLUE LINKS
+>If you do not see this value ensure you do not have the dataflow row selected by clicking on the row.  DO NOT CLICK ON THE BLUE LINKS
 
-![Streaming endpoint url is available as a url on the right](assets/streaming-endpoint-url-is-available-as-a-url-on-the-right.png)
-
-
-
-2\. Select the dataflow row by clicking anywhere on it avoiding the blue links. Copy the **Dataflow ID** and save it somewhere safe
-
-![Dataflow details right rail with api usage details](assets/dataflow-details-right-rail-with-api-usage-details.png)
+![Streaming endpoint URL displayed on the right side of the account details](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
-## Update Your API Request
+1. Select the dataflow row by clicking anywhere on it avoiding the blue links. Copy the **Dataflow ID** and save it somewhere safe
+
+![Dataflow details right rail showing API usage details and Dataflow ID](assets/stream-a-profile-dataflow-details-right-rail-api-usage.png)
+
+
+
+## Update your API request
 
 Switch over to your Postman application and update the Create Customer Account request with the information you just gathered.
 
 1. Open Postman and navigate to the **Data Ingestion Lab -> Create Customer Account** API request and open it
 
-![Create customer account api request](assets/create-customer-account-api-request.png)
+![Create Customer Account API request open in Postman](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
-2\. Copy and paste the **Streaming endpoint** value you saved previously into the request's URL
+1. Copy and paste the **Streaming endpoint** value you saved previously into the request's URL
 
-![Create customer account streaming endpoint url](assets/create-customer-account-streaming-endpoint-url.png)
-
-
-
-3\. Copy and paste the Dataflow ID value you saved previously into **x-adobe-flow-id** header value
-
-![Copy paste x adobe flow id](assets/copy-paste-x-adobe-flow-id.png)
+![Streaming endpoint value pasted into the Create Customer Account request URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
-4\. In the body of the request update the following attributes like so:
+1. Copy and paste the Dataflow ID value you saved previously into **x-adobe-flow-id** header value
+
+![Dataflow ID pasted into the x-adobe-flow-id header value](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+
+
+
+1. In the body of the request update the following attributes like so:
 
 - **firstName** -> Your First Name
 - **lastName** -> Your Last Name
 - **email** -> Your Email Address
-- **birth Date**-> YYYY-MM-DD
+- **birth_Date** -> YYYY-MM-DD
 
 **5. Save** your request
 
-6\. Click on the **Send** button to execute the request to stream in your Customer Account Profile
+1. Click on the **Send** button to execute the request to stream in your Customer Account Profile
 
-![Final create customer account request](assets/final-create-customer-account-request.png)
+![Final Create Customer Account request ready to send in Postman](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 
-7\. You should receive a `200 OK` response indicating it was successfully received by the Adobe Experience Platform
+1. You should receive a `200 OK` response indicating it was successfully received by the Adobe Experience Platform
 
 Sample 200 OK Response
 
@@ -145,7 +145,7 @@ Sample 200 OK Response
 
 >[!NOTE]
 >
->Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as its a tracer bullet used by our support teams to debug any environment issues
+>Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as it's a tracer bullet used by our support teams to debug any environment issues
 
 >[!TIP]
 >

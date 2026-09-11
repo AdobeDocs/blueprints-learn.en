@@ -1,17 +1,17 @@
 ---
-title: Brand Management
+title: Brand management
 description: Learn how to create a brand in Adobe Journey Optimizer by uploading a brand guideline PDF, refining the extracted details, and publishing it for use across content tools.
 doc-type: article
 solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
 ---
 
-# Brand Management
+# Brand management
 
 **Purpose:** Configure, refine, and publish the Connection 5G Brand Guidelines inside Adobe Journey Optimizer (AJO), so that all content and AI features stay aligned to the brand.
 
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
@@ -33,16 +33,16 @@ In this module, you will build the **Connection 5G** brand inside AJO using a pr
 
 Adobe Journey Optimizer’s **Brands** feature helps you define and maintain a consistent identity across all marketing efforts. From logos and colours to tone of voice and messaging style, creating a brand ensures that every email, campaign, and content piece reflects a unified personality.
 
-We will be using pattern 1 from the lecture (AJO only) for this lab. Note that the asset stored us using **Assets Essentials**. 
+We will be using pattern 1 from the lecture (AJO only) for this lab. Note that the assets are stored using **Assets Essentials**. 
 
 You will start with the Connection 5G Brand Guideline document, upload it, let AJO extract key information, then refine and publish the result.
 
 
-## Prepare the Brand Guideline
+## Prepare the brand guideline
 
 1. Open the **Connection 5G Brand Guideline** PDF from the toolkit folder (make sure you unzip it first). 
 
-![Image](assets/brand-management-3.png)
+![Connection 5G Brand Guideline PDF opened from the toolkit folder](assets/brand-management-open-brand-guideline-pdf.png)
 
 2. Review the document to understand content used for Connection 5G:
    - Tone of voice
@@ -52,51 +52,51 @@ You will start with the Connection 5G Brand Guideline document, upload it, let A
    - Legal and compliance notes
 
 
-## Create a New Brand in AJO
+## Create a new brand in AJO
 
 1. In Adobe Journey Optimizer, go to the left navigation and click **Brands**.
 2. Click **Create Brand**.
 
-![OB image](assets/brand-management-25.png)
+![Create Brand button in the Brands section](assets/brand-management-click-create-brand-button.png)
 
 3. In the **Name** field, enter `Connection 5G Brand Guidelines`
 4. In the upload area, drag and drop the **Connection5g Brand Guidelines.pdf** file (or click **Select files** and choose it from your computer).
 
-![Image](assets/brand-management-4.png)
+![Drag and drop the Connection5g Brand Guidelines PDF into the upload area](assets/brand-management-upload-brand-guideline-pdf.png)
 
 5. Click **Create brand** to begin the extraction.
 
-A progress screen will appear while AJO analyses your file. This may take several minutes depending on the size of the document.
+A progress screen appears while AJO analyses your file. This may take several minutes depending on the size of the document.
 
-![Image](assets/brand-management-19.png)
+![Progress screen shown while AJO analyses the brand guideline file](assets/brand-management-extraction-progress-screen.png)
 
 6. Once extraction is complete:
    - A green confirmation bar appears at the top.
    - You are automatically redirected to the brand configuration screen.
    - Content and visual creation standards are now automatically populated based on the Brand Guidelines file uploaded.
 
-![Image](assets/brand-management-1.png)
+![Brand configuration screen populated after extraction completes](assets/brand-management-brand-configuration-populated.png)
 
 7. Click on **Publish** button to publish the brand guidelines. 
 
-![Image](assets/brand-management-2.png)
+![Publish button for the brand guidelines](assets/brand-management-click-publish-button.png)
 
 8. Confirm by pressing "Publish" button to confirm. 
 
-![Image](assets/brand-management-10.png)
+![Confirm Publish dialog for the brand guidelines](assets/brand-management-confirm-publish-dialog.png)
 
 A green confirmation bar appears at the bottom of the page indicating that your brand is successfully published.
 
-9. Click back on the main brand page and you will see your brand is now live (This shoudl be shown by green dot with a label **"Live"**)
+9. Click back on the main brand page and you see your brand is now live (this should be shown by a green dot with the label **"Live"**).
 
-![Image](assets/brand-management-24.png)
+![Brand list showing the new brand with a green Live status label](assets/brand-management-brand-live-status-label.png)
 
 
 ## Review the brand tabs
 
 You will now review and understand the three key tabs that have been populated for Connection 5G.
 
-## About the Brand
+### About the brand
 
 This tab defines the brand’s identity at a high level. It typically includes:
 
@@ -108,11 +108,11 @@ This tab defines the brand’s identity at a high level. It typically includes:
 
 Everything else in the system builds from this foundation, so it is important that this tab reflects the true DNA of Connection 5G.
 
-![JXAsy5PuxebtfcnE e image](assets/brand-management-8.png)
+![About the Brand tab showing extracted brand identity fields](assets/brand-management-about-the-brand-tab.png)
 
 Spend a moment browsing the extracted fields and checking that they match the original PDF.
 
-## Writing Style
+### Writing style
 
 The **Writing Style** tab defines how the brand communicates. It includes:
 
@@ -122,11 +122,11 @@ The **Writing Style** tab defines how the brand communicates. It includes:
 - Taglines and slogans
 - Legal rules such as when to include trademarks
 
-![Image](assets/brand-management-9.png)
+![Writing Style tab defining brand tone, phrasing, and legal rules](assets/brand-management-writing-style-tab.png)
 
 You can add and refine rules in natural language and even apply them only to specific channels, such as email or SMS. This gives you flexible but precise control over how AI Assistant and content authors should write.
 
-## Visual Content
+### Visual content
 
 The **Visual Content** tab outlines how the brand should look. It covers:
 
@@ -135,30 +135,30 @@ The **Visual Content** tab outlines how the brand should look. It covers:
 - Iconography rules
 - Visual Dos and Don’ts
 
-![Image](assets/brand-management-5.png)
+![Visual Content tab covering photography, illustration, and iconography rules](assets/brand-management-visual-content-tab.png)
 
 This ensures everything from images to icons feels consistent and aligned with Connection 5G’s core values.
 
 
-## Add Missing Vision and Market Positioning
+## Add missing vision and market positioning
 
-In the extracted content, some guiding principles may be incomplete. You will now complete them using the official wording from the PDF.
+In the extracted content, some guiding principles may be incomplete. Now complete them using the official wording from the PDF.
 
 1. Click on the brand you just created
 
-![A7avaV2vq1llopPDK image](assets/brand-management-20.png)
+![Clicking the newly created Connection 5G brand card](assets/brand-management-click-created-brand-card.png)
 
-2. Click on Edit Brand. You will get another tab to confirm Edit brand. Click on Edit brand button again. 
+2. Click **Edit Brand**. A confirmation tab appears; click **Edit Brand** again to confirm.
 
-![Image](assets/brand-management-16.png)
+![Edit Brand button and confirmation tab](assets/brand-management-click-edit-brand-button.png)
 
 3. Go to the **About the Brand** tab.
 
-![Image](assets/brand-management-11.png)
+![Navigating to the About the Brand tab while editing](assets/brand-management-about-the-brand-tab-edit.png)
 
 4. Locate the section for **Guiding principles**, **Vision**, or similar high-level description.
 
-![T2wQ FaY7PpwIcx6MH image](assets/brand-management-17.png)
+![Guiding principles and Vision section in the About the Brand tab](assets/brand-management-guiding-principles-vision-section.png)
 
 5. Add the following text:
 
@@ -170,30 +170,30 @@ In the extracted content, some guiding principles may be incomplete. You will no
 
 >Connection 5G delivers premium-speed mobile service designed for digital lifestyles, standing out with unmatched reliability, simplicity, and future-ready innovation.
 
-![Image](assets/brand-management-6.png)
+![Vision and market positioning text added to the brand](assets/brand-management-vision-market-positioning-added.png)
 
-6. Click **Save**. (If you do not see Save button, click Overview tab first and click **save**)
+6. Click **Save**. (If you do not see the **Save** button, click the **Overview** tab first, then click **Save**.)
 
 >[!TIP]
 >
 >You have now ensured that the brand’s purpose, vision, and market positioning are clearly represented in AJO.
 
 
-## Add an Email Button Exclusion Rule
+## Add an email button exclusion rule
 
-Next, you will enhance the brand by adding a rule that ensures email buttons are never written in a pushy way.
+Next, enhance the brand by adding a rule that ensures email buttons are never written in a pushy way.
 
 1. Go to the **Writing Style** tab.
 
-![Image](assets/brand-management-13.png)
+![Writing Style tab opened to add an exclusion rule](assets/brand-management-writing-style-tab-exclusion.png)
 
 2. Make sure you are in the **Brand communication style** section.
 
-![Image](assets/brand-management-7.png)
+![Brand communication style section in the Writing Style tab](assets/brand-management-brand-communication-style-section.png)
 
 3. Under the **Don’ts** area, click the **plus** icon to add a new rule.
 
-![Gn0cuhHHNc image](assets/brand-management-12.png)
+![Plus icon under the Don'ts area to add a new rule](assets/brand-management-add-donts-rule-plus-icon.png)
 
 4. Configure the rule as follows:
    - **Exclusion:** `Be pushy` 
@@ -208,42 +208,42 @@ Next, you will enhance the brand by adding a rule that ensures email buttons are
 
 5. Click **Add**.
 
-![Image](assets/brand-management-18.png)
+![Add button for the Be pushy exclusion rule](assets/brand-management-click-add-rule-button.png)
 
 6. Confirm that the new Don’t rule appears as `Be pushy` in the list.
 
-![XfFlssw1 image](assets/brand-management-21.png)
+![Be pushy Don't rule confirmed in the rule list](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
 7. Click **Save**.
 
-This rule will be applied wherever AI Assistant or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
+This rule applies wherever AI Assistant or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
 
-![Image](assets/brand-management-14.png)
+![Email button exclusion rule applied for AI Assistant and authors](assets/brand-management-email-button-exclusion-rule-applied.png)
 
 >[!NOTE]
 >
->You may find under "Don'ts" some other don't labels and not similar to the screenshot. Ignore this as it is expected behaviour. 
+>You may see other 'don't' rules listed that don't match the screenshot exactly. Ignore this as it is expected behaviour. 
 
 
 
-## Publish the Brand Guidelines
+## Publish the brand guidelines
 
 Once you are satisfied with the configuration:
 
-1. Go back to Overview tab. Click on Save. 
+1. Go back to the **Overview** tab. Click **Save**. 
 2. In the top right corner, click **Publish**.
 
-![ZQ image](assets/brand-management-23.png)
+![Publish button in the top right corner](assets/brand-management-click-publish-top-right.png)
 
 3. A confirmation dialog appears explaining that you are about to publish the updated Brand Guidelines for Connection 5G. Click **Publish** again to confirm.
 
-![RFRebxTO64xr image](assets/brand-management-22.png)
+![Confirmation dialog to publish the updated Brand Guidelines](assets/brand-management-confirm-publish-updated-guidelines.png)
 
 4. Wait for the green confirmation bar to appear.
 5. Click **Back** to return to the Brands list.
 6. Verify that a new card appears for **Connection 5G Brand Guidelines** with a status showing it is Live and available.
 
-![HyOzgpTBzTHc43hDUM SQ](assets/brand-management-15.png)
+![Connection 5G Brand Guidelines card showing Live status](assets/brand-management-brand-guidelines-card-live-status.png)
 
 Your brand is now live and ready to be used throughout Adobe Journey Optimizer.
 

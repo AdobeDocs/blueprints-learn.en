@@ -1,24 +1,24 @@
 ---
-title: Test Journey
+title: Test journey
 description: Use the journey Test Mode simulator to trigger an Order Shipped event and confirm the trigger and action logic run correctly before publishing.
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 ---
 
-# Test Journey
+# Test journey
 
-## Learning Objective
+## Learning objective
 
 Use the journey testing tools to verify that the event trigger and journey logic are configured correctly.
 
-## Test the Journey
+## Test the journey
 
 1. Click on **Journeys** on the left rail and the **Browse tab** if you don't see a list of Journeys
 2. Click on your **Journey** to open it
 3. Click on **Alerts** & ensure no errors (warnings are ok)
 
-![ZYn2cnZa6 L1 20251113 200640](assets/post-purchase-excitement-3.png)
+![Alerts panel showing no errors after opening the journey](assets/test-journey-alerts-no-errors.png)
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 4. Click on the **Simulate** and on the left side, select **Test Mode**
 
-![WnyV5WyS3iyKIvOILMzRU 20260615 104621](assets/post-purchase-excitement-6.png)
+![Test Mode selected under Simulate on the left side](assets/test-journey-select-test-mode.png)
 
 
 
@@ -44,9 +44,9 @@ Use the journey testing tools to verify that the event trigger and journey logic
    - **Order ID**: `123`
 6. Click **Send** (note, it takes a few seconds to respond after clicking send)
 
-![SvyzYc4SMYffxKat90AuF 20251113 201239](assets/post-purchase-excitement-1.png)
+![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
 
->[!CAUTION]
+> [!WARNING]
 >
 >Some students get errors and need to send this a few times. You may have to do this **multiple** times.
 >
@@ -60,9 +60,9 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 7. Under **Results** -> Click **Show Log** on left side
 
-![T83sahcgABemDM7PnACDD 20251113 201517](assets/post-purchase-excitement-2.png)
+![Show Log option under Results after triggering the test event](assets/test-journey-show-log-results.png)
 
->[!WARNING]
+> [!NOTE]
 >
 >Some students who received errors sometimes receive different logs showing an empty instances array `{"instances": []}`. This is not a blocker, go ahead and move on to the next step.
 
@@ -102,15 +102,15 @@ You should see something like this in the log:
 8. **Close** the Browser **tab**
 9. **Close Test Mode** in the top right
 
-![NiqxGZjRWMi7MDiQul5hw 20251117 235338](assets/post-purchase-excitement-4.png)
+![Close Test Mode button in the top right](assets/test-journey-close-test-mode.png)
 
 10. Click on **Publish** the Journey in the top right
 
-![RqfeWFQA4yR0J8CvPxu5o 20251118 001155](assets/post-purchase-excitement-5.png)
+![Publish button for the Journey in the top right](assets/test-journey-publish-journey.png)
 
 11. **Close** the **Journey** by clicking \<- arrow in the top left
 
-![ZxaTyocb4irBpx9COCJRk 20251117 235355](assets/post-purchase-excitement-7.png)
+![Back arrow in the top left to close the Journey](assets/test-journey-close-journey-back-arrow.png)
 
 Next we will send a real Order Shipped Event into AEP
 

@@ -9,7 +9,7 @@ exl-id: b155ceb1-476f-4401-8158-f8abe7eb2f27
 
 # Collections
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
@@ -17,7 +17,7 @@ By the end of this lesson, you will be able to:
 - State the guardrail on decision items per collection
 - Explain how logical operators combine multiple grouping rules
 
-## Materials Needed
+## Materials needed
 
 - 12 playing cards (Jack, Queen, King from each suit) 
 - 12 sticky notes, filled with both attribute name and values from previous lessons
@@ -28,7 +28,7 @@ During this video you'll write two grouping labels on your sticky notes, then ph
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502208/)
 
-## Key Takeaways
+## Key takeaways
 
 - A collection is a group of decision items that share a relationship — a campaign, similar features, or any other connection
 - Decision items can be grouped by any attribute or by metadata tags, using logical operators (and/or) that depend on the attribute's data type

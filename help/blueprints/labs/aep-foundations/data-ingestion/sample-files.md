@@ -18,8 +18,8 @@ When you are done you should see a folder like so with the following contents.  
 
 
 
-![Folders.png "Folders"](assets/arR805WGQwlYdtc-wvRJ9_folders.png "Folders")
+![Folder structure after unzipping the sample files download](assets/sample-files-extracted-folder-structure.png "Folders")
 
 
 
-![VchOudKt7ExznPWu sample files.png "Sample Files"](assets/ZgHa_VchOudKt7ExznPWu_sample-files.png "Sample Files")
+![List of sample data files inside the extracted folder](assets/sample-files-extracted-file-list.png "Sample Files")

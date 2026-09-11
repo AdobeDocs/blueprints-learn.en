@@ -8,12 +8,12 @@ exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
 
 # Build Audience #2
 
-## Lab Objective
+## Lab objective
 
 Build an audience that finds all profiles who do not have an active line that is an iPhone 14
 
 
-## Analysis Tasks
+## Analysis tasks
 
 This Audience is "those who do not have an active iPhone 14"
 
@@ -23,19 +23,19 @@ This Audience is "those who do not have an active iPhone 14"
   - Include those who have any web data coming from an iPhone 14
   - Any others?
 
-In the end, this boils down to a business choice on who they want to market to. In our case, the company has deemed this so important we built a schema that defines Active Lines, so let’s use that. 
+In the end, this boils down to a business choice on who they want to market to. In our case, the company has deemed this so important we built a schema that defines Active Lines, so use that. 
 
 >[!NOTE]
 >
 >Since Active Lines is an array stored on a Profile, this is going to select the owner of the account vs each individual owner of the device. Make sure the Marketing team is aware of and wants that. Otherwise, you might want a different approach.
 
-## Create a New Audience (Owns iPhone 14)
+## Create a new Audience (Owns iPhone 14)
 
 1. On the Attributes tab in the left rail, navigate down to Product Name (or search for it).
    - XDM Individual Profile --> \<tenant name> --> Active Products --> Product ID properties --> Product Name
 1. Drag Product Name onto the canvas 
 
-![FELpHTm2j1 drag product name onto the canvas](assets/drag-product-name-onto-the-canvas.png)
+![Drag Product Name onto the canvas](assets/build-audience-2-drag-product-name-onto-the-canvas.png)
 
 
 
@@ -46,7 +46,7 @@ In the end, this boils down to a business choice on who they want to market to. 
 1. Save Audience as “*Owns iPhone 14*” 
    - Go through the same steps above for the Pixel 7 (if you have time).
 
-![Save aud](assets/save-aud.png)
+![Save the audience as "Owns iPhone 14"](assets/build-audience-2-save-audience-as-owns-iphone-14.png)
 
 >[!TIP]
 >
@@ -63,43 +63,43 @@ In the end, this boils down to a business choice on who they want to market to. 
 >   1. What if my data load failed, my count might drop to zero if I’m only looking back one month in order to exclude old data
 >   1. Do we even capture the Device for a Billing Event? No, so we would have to change our data feed
 >
->In the end, we will have to make some trade offs for this Audience. If your heart is still set on using Events for this rule, read this Blog about it: https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/ how-to-capture-latest-experience-event-in-adobe-experience/ba-p/430941 
+>In the end, we will have to make some trade offs for this Audience. If your heart is still set on using Events for this rule, read this Blog about it: https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-to-capture-latest-experience-event-in-adobe-experience/ba-p/430941 
 
 >[!NOTE]
 >
 >**Enabling a Merge Policy for Edge**
 >
->Let's ensure our Merge Policy is configured for Edge Audiences. Go to your Merge Policies and Edit the Default Merge Policy for \_xdm.context.profile.  Turn on the Active-On-Edge Merge Policy and save.
+>Ensure your Merge Policy is configured for Edge Audiences. Go to your Merge Policies and Edit the Default Merge Policy for \_xdm.context.profile.  Turn on the Active-On-Edge Merge Policy and save.
 >
->![Enabling a merge policy for edge 1](assets/enabling-a-merge-policy-for-edge-1.png)
+>![Edit the Default Merge Policy for _xdm.context.profile](assets/build-audience-2-enabling-a-merge-policy-for-edge-1.png)
 >
 >
 >
->![Enabling a merge policy for edge 2](assets/enabling-a-merge-policy-for-edge-2.png)
+>![Turn on the Active-On-Edge Merge Policy and save](assets/build-audience-2-enabling-a-merge-policy-for-edge-2.png)
 
 ## Rebuild the Audience
 
-Marketing walked in today and gave us a requirement to have this Streaming and unfortunately the way we have this built is Batch. Let’s fix that:
+Marketing walked in today and gave us a requirement to have this Streaming and unfortunately the way we have this built is Batch. Fix that:
 
 1. Open the "*Owns iPhone 14*" Audience and change the name to "*Owns iPhone 14 Batch*".
 
 >[!WARNING]
 >
->Today we cannot change the Evaluation Method in the UI. Any Audiences that reference this Audience will also have to be deleted. Keep this in mind when deciding on your building strategy of using Segments within Segments.
+>Today we cannot change the Evaluation Method in the UI. Any Audiences that reference this Audience also have to be deleted. Keep this in mind when deciding on your building strategy of using Segments within Segments.
 
 
 
-2\. Create a new Audience. Add the "Owns iPhone 14 Audience Batch" Audience to the canvas and click Convert to Rules.
+2. Create a new Audience. Add the "Owns iPhone 14 Audience Batch" Audience to the canvas and click Convert to Rules.
 
-![Audience to the canvas and click convert to rules](assets/audience-to-the-canvas-and-click-convert-to-rules.png)
+![Add the Owns iPhone 14 Batch audience to the canvas and click Convert to Rules](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Audience to the canvas and click convert to rules 2](assets/audience-to-the-canvas-and-click-convert-to-rules-2.png)
+![Audience converted to rules on the canvas](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-3\. Update the Description, Name and Evaluation Method to Streaming on the bottom right corner, then click on the folder icon next to the Evaluation Method. You should see this: 
+3. Update the Description, Name and Evaluation Method to Streaming on the bottom right corner, then click on the folder icon next to the Evaluation Method. You should see this: 
 
-![You should see this](assets/you-should-see-this.png)
+![Evaluation Method set to Streaming after clicking the folder icon](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
 
 
@@ -111,13 +111,13 @@ While not obvious, the reason for this is we are using Product Name on a lookup 
 >
 >You can tell this if you look at the path and it has "properties" in it anywhere
 >
->![You can](assets/you-can-.png)
+>![Path containing "properties" forces the evaluation method to Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
 
 
 
 
 
-4\. Replace the existing value for product name to now come from the XDM Individual Profile schema
+4. Replace the existing value for product name to now come from the XDM Individual Profile schema
 
 Replace the following path:
 
@@ -127,32 +127,32 @@ Add the new path:
 
 - XDM Individual Profile > Dep > Active Products > Model
 
-![With xdm](assets/with-xdm.png)
+![Replace the product name path with the XDM Individual Profile Active Products Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
 
-![With xdm](assets/with-xdm-2.png)
-
-
-
-5\. Change the Evaluation Method to Streaming and click the folder icon 
-
-![A2H7tWbSMr7oXhmQwQKa change the evaluation method to streaming and click the folder icon](assets/change-the-evaluation-method-to-streaming-and-click-the-folder-icon.png)
+![Updated audience rule referencing the XDM Individual Profile Model path](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
 
 
 
-6\. For your new Streaming eligible Audience, provide a description.
+5. Change the Evaluation Method to Streaming and click the folder icon 
+
+![Change the Evaluation Method to Streaming and click the folder icon](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. For your new Streaming eligible Audience, provide a description.
 
 - Save the Audience as "*Owns iPhone 14*" Audience.
 - Click the blue button **Activate Audience** to Destination
 
-![Activate audience to destination](assets/activate-audience-to-destination.png)
+![Click Activate Audience to Destination for the streaming-eligible audience](assets/build-audience-2-activate-audience-to-destination.png)
 
 
 
-7\. Select the **Streaming DEP Webhook** Destination and click **next**
+7. Select the **Streaming DEP Webhook** Destination and click **Next**
 
-8\. Click **Next** and **Finish**
+8. Click **Next** and **Finish**
 
->[!WARNING]
+> [!NOTE]
 >
 >Considerations why you may want to select Batch vs Streaming or Edge:
 >
@@ -164,4 +164,4 @@ Add the new path:
 >
 >Finished early?
 >
->Create an Audience of "Apple Device Loyalty" in one family.  All the people on the plan have same type of device (Apple).
+>Create an Audience of "Apple Device Loyalty" in one family.  All the people on the plan have the same type of device (Apple).

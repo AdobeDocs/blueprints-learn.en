@@ -1,25 +1,25 @@
 ---
-title: Validate Event Ingested
+title: Validate event ingested
 description: Confirm an Order Shipped event was ingested into a profile and qualifies it for the expected audiences.
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
 ---
 
-# Validate Event Ingested
+# Validate event ingested
 
-## Learning Objective
+## Learning objective
 
 Confirm that the event was successfully ingested into Adobe Experience Platform.
 
-## Validate Event in Profile
+## Validate event in Profile
 
-1. Go over to your **Profiles** and lookup your Profile to see that the event was ingested onto Profile.  It should appear in seconds.
+1. Go over to your **Profiles** and lookup your Profile to see that the event was ingested onto Profile.  It appears in seconds.
    - **Identity namespace** -> `email`
    - **Identity value** -> `henry.creel@emailsim.io`
 2. Click on **Events** tab. Look for `orders.shipped` event.
 
-![PpKXqvI9HUjWc 20251118 002104](assets/validate-event-ingested-3.png)
+![orders.shipped event shown on the Events tab of the profile](assets/validate-event-ingested-orders-shipped-event.png)
 
 >[!WARNING]
 >
@@ -36,18 +36,18 @@ Confirm that the event was successfully ingested into Adobe Experience Platform.
    - Any Event Edge (within 15 minutes)
    - Any Event Streaming (within 15 minutes)
 
-![NIpWSijjwrCP8n9yT7qb 20251118 002155](assets/validate-event-ingested-2.png)
+![Profile qualified for Any Event Edge and Any Event Streaming audiences](assets/validate-event-ingested-profile-qualified-audiences.png)
 
 
 
-## Try with Your Own Email
+## Try with your own email
 
-Now that you have validated the Profile got in, let's send in some Order Shipped Events using your own email.
+Now that you have validated the Profile got in, send in some Order Shipped Events using your own email.
 
 1. Go back to Postman, find the **Ship Order Event**
 2. click on the **Body** & change the **email address** to yours.  
 
-![J6R uupsRQFa3cVlQi4aq 20251111 230837](assets/validate-event-ingested-1.png)
+![Email address changed in the Postman request body](assets/validate-event-ingested-change-email-in-postman-body.png)
 
 3. **Save** and hit **Send**.  
 4. Go back to steps 1-3 and validate using your email address. 

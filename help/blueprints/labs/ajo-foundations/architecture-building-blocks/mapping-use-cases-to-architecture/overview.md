@@ -1,5 +1,5 @@
 ---
-title: Mapping Use Cases to Architecture
+title: Mapping use cases to architecture
 description: Learn how to apply a structured framework for choosing between Orchestrated Campaigns and Journeys based on real-world marketing use cases.
 doc-type: overview-page
 
@@ -7,9 +7,9 @@ solution: Experience Platform
 exl-id: 650e13e9-35d9-44a5-895f-8a7844e0614f
 ---
 
-# Mapping Use Cases to Architecture
+# Mapping use cases to architecture
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this lab, you will be able to:
 

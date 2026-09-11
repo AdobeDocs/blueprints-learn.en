@@ -1,14 +1,16 @@
 ---
-title: Use Case #2 - Upsell
+title: Use case #2 - Upsell
 description: Define an upsell use case targeting high data-usage customers without an ultimate phone plan, comparing audience aggregation approaches for activation.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
 ---
 
-# Use Case #2 - Upsell
+# Use case #2 - Upsell
 
 ## Overview
+
+In this video you will learn how to approach the upsell use case, which targets high data-usage customers for activation through paid and direct mail channels.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459487/?quality=12&learn=on)
 
@@ -16,7 +18,7 @@ exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
 
 **Use Case Definition**
 
-Find all customers who have a total billing data usage in the last 6 months >140GB, a rolling 6 month avg. monthly data usage of >=20GB and they do not have an ultimate phone plan. 
+Find all customers who have a total billing data usage in the last 6 months >140GB, a rolling 6 month avg. monthly data usage of >=20GB and who do not have an ultimate phone plan. 
 
 Activate into Facebook / Google and Direct Mail channels. 
 
@@ -28,7 +30,7 @@ Direct Mail Personalization fields:
 
 
 
-## Analysis Tasks
+## Analysis tasks
 
 Analyze the above and write down:
 

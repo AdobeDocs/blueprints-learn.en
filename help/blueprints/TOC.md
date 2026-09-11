@@ -356,7 +356,6 @@ nudge: orange
           + [Configure Custom Action](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/configure-custom-action.md)
           + [Build Journey](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/build-journey.md)
           + [Test Journey](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/test-journey.md)
-          + [Test Journey - Cloned with Children](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/test-journey-cloned-with-children.md)
           + [Send an Event](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/send-an-event.md)
           + [Validate Event Ingested](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/validate-event-ingested.md)
           + [Validate Journey](/help/blueprints/labs/ajo-foundations/journeys/post-purchase-excitement/validate-journey.md)

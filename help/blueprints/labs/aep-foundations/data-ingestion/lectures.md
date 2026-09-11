@@ -12,7 +12,9 @@ In Adobe Experience Platform, there are two main patterns of data ingestion: bat
 
 
 
-## Data Ingestion Architecture
+## Data ingestion architecture
+
+In this video you will learn about the architecture behind batch and streaming data ingestion, including how source connectors move data through Data Prep into the data lake and Real-Time Customer Profile.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459101/?quality=12&learn=on)
 
@@ -20,7 +22,9 @@ In Adobe Experience Platform, there are two main patterns of data ingestion: bat
 
 
 
-## Dataflow Framework
+## Dataflow framework
+
+In this video you will learn about the accounts, data flows, and mappings that make up a dataflow, along with the format choices and monitoring steps used to validate ingestion.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459103/?quality=12&learn=on)
 
@@ -28,6 +32,8 @@ In Adobe Experience Platform, there are two main patterns of data ingestion: bat
 
 
 
-## Data Prep with Complex Data
+## Data Prep with complex data
+
+In this video you will learn how to model and ingest complex list data as arrays or maps, since Data Prep can only map fields one-to-one and can't build lists on its own.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459102/?quality=12&learn=on)

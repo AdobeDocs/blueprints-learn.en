@@ -9,13 +9,13 @@ exl-id: 43c915d9-56a2-409d-939a-e69baba01dfa
 
 # Introduction
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
 - Differentiate AJO decisioning from the legacy Offer Decisioning Engine (ODE)
 - Identify the building blocks covered in this course
-- Gather the materials you'll use for the hands-on simulates throughout the course
+- Gather the materials you'll use for the hands-on simulations throughout the course
 
 ## Lecture
 
@@ -24,9 +24,11 @@ Have these ready before starting the video as you'll use them in every lesson go
 - 12 playing cards (Jack, Queen, King from each suit) 
 - pad of at least 12 sticky notes (more in case you make mistakes)
 
+The video below introduces AJO decisioning terminology and previews the building blocks and hands-on card-and-sticky-note simulations you'll work through in this course.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3502205/)
 
-## Key Takeaways
+## Key takeaways
 
 - AJO decisioning (also called experience decisioning) is a different product from the legacy Offer Decisioning Engine (ODE), also known as Offers or Decision Management
 - "offer" (lowercase o) is a generic industry term; "Offers" (capital O) refers specifically to the legacy ODE product — don't confuse the two

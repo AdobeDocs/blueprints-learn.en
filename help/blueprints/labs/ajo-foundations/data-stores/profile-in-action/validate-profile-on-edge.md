@@ -8,15 +8,15 @@ exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
 
 # Validate Profile on Edge
 
-## Learning Objective
+## Learning objective
 
 Confirm that the profile does not exist on the Edge network profile store.
 
-## Validate Profile on Edge 
+## Check the Edge Profile
 
-1. Click on the **Attributes** tab and the ***Edge** *radio button to see the Edge Profile
+1. Click on the **Attributes** tab and the **Edge** radio button to see the Edge Profile
 
-![Haz0UYeW1zeZ3imcMyvVe 20251120 025352](assets/validate-profile-on-edge-1.png)
+![Edge Profile shown on the Attributes tab](assets/validate-profile-on-edge-attributes-tab.png)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Confirm that the profile does not exist on the Edge network profile store.
 
 2. Click on the Audience Membership tab.  It will be **blank**.
 
-![DLDIDx 20251120 025608](assets/validate-profile-on-edge-2.png)
+![Empty Audience Membership tab on the Edge profile](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 
 >[!NOTE]
 >

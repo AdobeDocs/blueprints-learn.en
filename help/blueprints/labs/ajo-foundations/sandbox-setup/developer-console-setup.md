@@ -1,5 +1,5 @@
 ---
-title: Developer Console Setup
+title: Developer Console setup
 description: Create an Adobe Developer Console project with OAuth Server-to-Server credentials for the Experience Platform and Journey Optimizer APIs used by the DEP CLI.
 doc-type: article
 
@@ -7,7 +7,7 @@ solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
 ---
 
-# Developer Console Setup
+# Developer Console setup
 
 >[!WARNING]
 >
@@ -17,7 +17,7 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 
 >[!NOTE]
 >
->If you already have a Developer Console project with credentials for Adobe Experience Platform (and, if needed, Adobe Journey Optimizer), skip this section and go straight to [Deployment Instructions](deployment-instructions.md).
+>If you already have a Developer Console project with credentials for Adobe Experience Platform (and, if needed, Adobe Journey Optimizer), skip this section and go straight to [Deployment instructions](deployment-instructions.md).
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 
 ## Create the project
 
-1. Go to Adobe Developer Console and sign in
+1. Go to [Adobe Developer Console](https://developer.adobe.com/console) and sign in
 1. If you have access to more than one organization, use the org switcher in the top right to select the correct one
 1. Select **Create new project**
 1. Rename the project to something you'll recognize later (e.g., `DEP Sandbox`)
@@ -39,19 +39,20 @@ The DEP CLI authenticates to your sandbox using OAuth Server-to-Server credentia
 1. Select **Next**
 1. Choose **OAuth Server-to-Server** as the authentication type and select **Next**
 1. Give the credential a name and select **Next**
-1. Select the product profile that matches the sandbox you'll be using, then select **Save configured API**
+1. Select the product profile that matches the sandbox you're using, then select **Save configured API**
 
 ## Add Adobe Journey Optimizer API
 
 1. From the project overview, select **Add API** 
 1. Choose the **Adobe Journey Optimizer** product icon and select the relevant API 
 1. Select **OAuth Server-to-Server** 
+1. Select the same product profile and select **Save configured API** 
 
 >[!NOTE]
 >
 >Reuse the credential you created above instead of creating a new one — the CLI only needs a single set of credentials, with combined scopes.
 
-4. Select the same product profile and select **Save configured API** 
+
 
 ## Collect your values
 

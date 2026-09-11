@@ -1,12 +1,12 @@
 ---
-title: Build Use Case #3
+title: Build use case #3
 description: Build a batch audience that uses container variables to match order-placed and order-cancelled events for the same order within a week.
 doc-type: article
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 ---
 
-# Build Use Case #3
+# Build use case #3
 
 ## Create the Audience
 
@@ -24,11 +24,11 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 >- Any Event filtered by Event Type=order.placed
 >- Any Event filtered by Event Type=order.cancelled
 
-![Change the time to within a week 1](assets/change-the-time-to-within-a-week-1.png)
+![Change the event time window to within a week](assets/build-use-case-3-change-time-to-within-a-week.png)
 
 
 
-![Change the time to within a week 2](assets/change-the-time-to-within-a-week-2.png)
+![Order Placed and Order Cancelled events configured to occur within a week](assets/build-use-case-3-change-time-to-within-a-week--2.png)
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
 
 Search for Order ID and drag the field onto the Order Cancelled Event.
 
-![Search for order id and drag the field onto the order cancelled event](assets/search-for-order-id-and-drag-the-field-onto-the-order-cancelled-event.png)
+![Search for Order ID and drag the field onto the Order Cancelled event](assets/build-use-case-3-search-order-id-drag-onto-order-cancelled-event.png)
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Search for Order ID and drag the field onto the Order Cancelled Event.
 
 Clear any search and click into **Placed** under the **Browse Variables**
 
-![Click into placed under the browse variables](assets/click-into-placed-under-the-browse-variables.png)
+![Click into Placed under the Browse Variables](assets/build-use-case-3-click-into-placed-under-browse-variables.png)
 
 
 
 Drill down to Order ID, then drag over to add a compare operand 
 
-![Yw09Sx drill down to order id then drag over to add a compare operand](assets/drill-down-to-order-id-then-drag-over-to-add-a-compare-operand.png)
+![Drill down to Order ID and drag to add a compare operand](assets/build-use-case-3-drill-down-to-order-id-add-compare-operand.png)
 
 >[!WARNING]
 >
@@ -70,7 +70,7 @@ Drill down to Order ID, then drag over to add a compare operand
 
 Your final result should be as you've seen below
 
-![You should have this](assets/you-should-have-this.png)
+![Final audience configuration with Order ID compare operand added](assets/build-use-case-3-final-audience-configuration-result.png)
 
 >[!NOTE]
 >
@@ -85,10 +85,10 @@ Your final result should be as you've seen below
 >How else could we use this?
 >
 >- Comparing a Product SKU for a Page View is the Product SKU Purchased
->- Comparing an Ship to City is different than the Bill to City
+>- Comparing a Ship to City is different than the Bill to City
 >- Comparing any two fields of the same data type should be possible even though the Events can come from different Schemas
 >
->https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform- blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780
+>https\://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Your final result should be as you've seen below
 
 
 
-## Save Your Audience
+## Save your Audience
 
 1. Provide a description. Set your Evaluation method as Batch. 
 1. Save your Audience as "*Order Placed and Order Cancelled within a Week*"

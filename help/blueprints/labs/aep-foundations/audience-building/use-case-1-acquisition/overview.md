@@ -1,14 +1,16 @@
 ---
-title: Use Case #1 - Acquisition
+title: Use case #1 - Acquisition
 description: Define an acquisition use case that targets iPhone 14 page visitors who haven't ordered or owned the device, and plan the audience-building approach.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
 ---
 
-# Use Case #1 - Acquisition
+# Use case #1 - Acquisition
 
 ## Overview
+
+In this video you will learn how to approach building the audience for the iPhone 14 acquisition use case.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459402/?quality=12&learn=on)
 
@@ -20,7 +22,7 @@ Activate all profiles who have visited an iPhone 14 product page and no order ex
 
 
 
-## Analysis Tasks
+## Analysis tasks
 
 Analyze the above and write down:
 

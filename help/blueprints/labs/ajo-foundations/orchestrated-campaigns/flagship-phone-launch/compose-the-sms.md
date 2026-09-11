@@ -14,19 +14,19 @@ In the next few steps you are going to compose a VERY simple SMS message.  You'l
 
 
 
-## Navigate to Content
+## Navigate to content
 
 Click the **Edit content** button, or navigate directly to the **Content** tab
 
-![E1QKL7fHu4EffNuTHNt Y 20260119 201812.png "Edit content"](assets/e1QKL7fHu4EffNuTHNt-Y-20260119-201812.png "Edit content")
+![Edit content button and Content tab navigation "Edit content"](assets/compose-the-sms-navigate-to-content-tab.png "Edit content")
 
 
 
-## Create the Message
+## Create the message
 
 1. Click on the **Personalization** button to create your message.
 
-![5Q7S7Ew iQF8FzqlJ image](assets/compose-the-sms-3.png)
+![Personalization button to create the SMS message](assets/compose-the-sms-click-personalization-button.png)
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Click the **Edit content** button, or navigate directly to the **Content** tab
 2. Copy and paste the text below into the SMS message body.
 
 ```none
-Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrade to the one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
+Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
 ```
 
 >[!NOTE]
@@ -48,7 +48,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 3. Update the two fields in the message called **phone\_make** and **phone\_model** below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
 
-![Final sms message](assets/compose-the-sms-1.png)
+![Final SMS message with phone make and model personalized](assets/compose-the-sms-final-message-text.png)
 
 >[!NOTE]
 >
@@ -56,15 +56,15 @@ Hi from Connection 5G! Your phone_make phone_model is eligilbe for a free upgrad
 
 
 
-4. Click the **V****alidate** on the editor and make sure there are no validation errors and if good click the **Save** button
+4. Click the **Validate** on the editor and make sure there are no validation errors and if good click the **Save** button
 
-![Validate and save the message](assets/compose-the-sms-2.png)
+![Validate and Save buttons in the message editor](assets/compose-the-sms-validate-and-save.png)
 
 
 
 5. Click on the **back arrow (\<-)** when you are done to return to the workflow canvas
 
-![Return to workflow canvas](assets/compose-the-sms-4.png)
+![Back arrow to return to the workflow canvas](assets/compose-the-sms-return-to-canvas.png)
 
 
 
@@ -74,4 +74,4 @@ You just created a message and hopefully are now a bit more familiar with how th
 
 >[!NOTE]
 >
->If you use the Real-Time Customer Profile attributes to personalize messages in Orchestrated Campaigns just remember its pulling from the Profile Snapshot dataset in the data lake so attributes can be up to 24 hours.   The Profile Snapshot is only updated once a day after the daily batch segmentation job.
+>If you use the Real-Time Customer Profile attributes to personalize messages in Orchestrated Campaigns just remember it's pulling from the Profile Snapshot dataset in the data lake so attributes can be up to 24 hours old. The Profile Snapshot is only updated once a day after the daily batch segmentation job.

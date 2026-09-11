@@ -10,7 +10,7 @@ exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
 
 Before you start the AEP Foundations labs, complete the setup steps below. Which steps you need depend on how you're taking this bootcamp.
 
-## Sandbox Setup
+## Sandbox setup
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ If you're working through this bootcamp at your own pace and don't already have 
 - [Developer Console Setup](sandbox-setup/developer-console-setup.md)
 - [Deployment Instructions](sandbox-setup/deployment-instructions.md)
 
-## Postman Setup
+## Postman setup
 
 Postman is required for the labs in this course, regardless of how your sandbox was provisioned. Complete the following before continuing:
 

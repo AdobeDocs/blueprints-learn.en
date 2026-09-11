@@ -1,25 +1,25 @@
 ---
-title: Building Content Fragments
+title: Building content fragments
 description: Learn how to break an email design into reusable fragments, such as a header block, that stay consistent across templates in Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
 ---
 
-# Building Content Fragments
+# Building content fragments
 
-## Content creation with Templates & Fragments
+## Content creation with templates & fragments
 
 **Purpose:** Learn how to create reusable fragments in Adobe Journey Optimizer, then apply them inside a real email within a journey.
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you will be able to:
 
 1. Break down an email design into reusable fragments.
 1. Create header, footer, banner, body, and CTA fragments.
 
-## Why Fragments matter
+## Why fragments matter
 
 Fragments allow you to create consistent, brand‑aligned content that can be reused across emails, campaigns, and journeys.
 
@@ -43,14 +43,14 @@ Whenever a fragment is updated, all emails using it update automatically.
 
 Below is the final email you will create from this lab.
 
-![Image](assets/building-content-fragments-18.png)
+![Final email design you build in this lab](assets/building-content-fragments-final-email-preview.png)
 
 But the design team normally provides you with templates such as this:
 
-![Image](assets/building-content-fragments-14.png)
+![Generic design template provided by the design team](assets/building-content-fragments-generic-design-template.png)
 
 
-## Step 1: Create Content Fragments
+## Step 1: Create content fragments
 
 The below template is a generic design template and our goal is to break this down into repeatable content blocks. In Adobe journey optimizer this is called **Fragments**. 
 
@@ -58,7 +58,7 @@ The first step is to identify how many fragments do we need to create. In this t
 
 
 
-![Image](assets/building-content-fragments-11.png)
+![Template broken down into five identified fragments](assets/building-content-fragments-five-fragments-identified.png)
 
 We have identified the templates requires 5 fragments as follows. 
 
@@ -70,101 +70,99 @@ We have identified the templates requires 5 fragments as follows.
 
 >[!NOTE]
 >
->For this exercise we will just create one header fragment in order to save time. 
+>For this exercise, you create only one header fragment to save time. 
 
 
 
-Let us create a header fragment to start with. However, before we start creating fragment we need to setup an asset folder as we are sharing the assets enviroment. To achieve this we will first create your own folder. 
+Create a header fragment to start with. However, before creating the fragment, set up an asset folder since the assets environment is shared. To do this, first create your own folder. 
 
-1. From the left-hand navigation, locate the **Content Management** section and click on **Assets**
+1. From the left-hand navigation, locate the **Content Management** section and click on **Assets**.
 
-.
-
-![Image](assets/building-content-fragments-7.png)
+![Content Management section with Assets option in left navigation](assets/building-content-fragments-content-management-assets-nav.png)
 
 2. Click on **Assets** under Assets Management section.
 
-![Image](assets/building-content-fragments-17.png)
+![Assets option under the Assets Management section](assets/building-content-fragments-assets-under-assets-management.png)
 
 3. Create a folder by clicking **"Create Folder"** button. 
 
-![Image](assets/building-content-fragments-15.png)
+![Create Folder button in the Assets area](assets/building-content-fragments-click-create-folder-button.png)
 
 4. Give a name like your first and last name. eg. Nish\_Pithia\_LabAssets (Something you can remember)
 
-![Image](assets/building-content-fragments-16.png)
+![Naming the new asset folder with your first and last name](assets/building-content-fragments-name-asset-folder.png)
 
-5. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment. 
+5. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
 
-![Image](assets/building-content-fragments-6.png)
+   ![Fragments option under Content Management to create a new fragment](assets/building-content-fragments-click-fragments-create-new.png)
 
-Give a friendly name as shown below. Add all details as follows: 
+   Give a friendly name as shown below. Add all details as follows:
 
-**Name:** Header
+   **Name:** Header
 
-**Description:** Fragment Header for the template
+   **Description:** Fragment Header for the template
 
-**Type:** Select Visual fragment
+   **Type:** Select Visual fragment
 
-![Image](assets/building-content-fragments-3.png)
+   ![Header fragment name, description, and Visual fragment type fields](assets/building-content-fragments-fragment-name-type-details.png)
 
 6. Click on **Create button** on your top right.
 
-![Image](assets/building-content-fragments-19.png)
+![Create button in the top right of the new fragment dialog](assets/building-content-fragments-click-create-button-top-right.png)
 
-You will now be presented with a blank fragment creator screen. 
+This opens a blank fragment creator screen. 
 
 7. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
-![CO8gSyUOmK89AEC](assets/building-content-fragments-1.gif)
+![Animated demo of dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
 8. Next, drag "**image**" on the 1:1 row which we just added
 
-![Image](assets/building-content-fragments-4.png)
+![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
 
 9. Upload the logo image that you have been provided. Click on **"Import media button"**
 
-![Image](assets/building-content-fragments-9.png)
+![Import media button to upload the logo image](assets/building-content-fragments-click-import-media-button.png)
 
-10. **Upload the logo:** You will need to upload logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
+10. **Upload the logo:** Upload the logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
 
-![Image](assets/building-content-fragments-5.png)
+![Selecting C5G-Logo.png from the toolkit folder to upload](assets/building-content-fragments-upload-logo-select-file.png)
 
-![Image](assets/building-content-fragments-13.png)
+![Clicking Next after selecting the logo upload](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. Select the **asset folder** that you have created, then click **Import**. The file will be saved in your folder.
+11. Select the **asset folder** that you have created, then click **Import**. The file is saved in your folder.
 
-![Image](assets/building-content-fragments-8.png)
+![Selecting the created asset folder and clicking Import](assets/building-content-fragments-select-asset-folder-import.png)
 
 12. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Style tab** and set the width to 40% by dragging the slider, as shown below. 
 
 >[!NOTE]
 >
->Note that the the toggle button is on means that the 40 number reprents % and not pixel). if you want an absolute pixel perfect value, toggle the button to px. 
+>Note that when the toggle button is on, the 40 number represents % and not pixels. If you want an absolute pixel-perfect value, toggle the button to px. 
 
 
 
-![KsAz 8u image](assets/building-content-fragments-20.png)
+![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Click **“Save”** and your fragment is saved. You will get a green bar notification on the confirmation. 
+13. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation. 
 
-![TobdQzQobFP7iDy image](assets/building-content-fragments-10.png)
+![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. The fragment saved is in a draft mode. Before you use you will need to publish it. Click on the **back** button. 
+14. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button. 
 
-![Image](assets/building-content-fragments-21.png)
+![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Click "**Publish**" button. You will see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation. 
+15. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation. 
 
-![Image](assets/building-content-fragments-12.png)
+![Publish button and publishing fragment confirmation message](assets/building-content-fragments-click-publish-fragment-button.png)
 
-You will see the status will change to **"Live"**. At this point, we have completed building a header fragment which we will be used in our next step. 
+You see the status change to **"Live"**. At this point, you have completed building a header fragment, which is used in the next step. 
 
-![VME0 2x4UKBD image](assets/building-content-fragments-2.png)
+![Header fragment status changed to Live](assets/building-content-fragments-fragment-status-live.png)
 
 >[!NOTE]
 >
->Note that in this exercise, we will create only one fragment. In practice, architects may choose to create multiple fragments, such as headers, footers, or other reusable components.
+>Note that in this exercise, you created only one fragment. In practice, architects may choose to create multiple fragments, such as headers, footers, or other reusable components.
 
 ## Recap
 
@@ -173,4 +171,4 @@ In this module, you successfully:
 - Broke down an email into reusable header fragment
 - Created a header content blocks
 
-You are now ready to move on to next module - **Content Creation - Template**, where you will use fragment you created to generate new template.
+You are now ready to move on to the next module - **Building content template**, where you will use fragment you created to generate new template.

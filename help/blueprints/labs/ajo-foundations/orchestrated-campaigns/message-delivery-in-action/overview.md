@@ -1,14 +1,14 @@
 ---
-title: Message Delivery in Action
+title: Message delivery in action
 description: Get an overview of building an Orchestrated Campaign that targets Basic plan members and compares delivery behavior between AEP Profile and Relational schema email channels.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 ---
 
-# Message Delivery in Action
+# Message delivery in action
 
-## Pre-Requisites
+## Pre-requisites
 
 >[!WARNING]
 >
@@ -19,11 +19,13 @@ exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 
 If you have not completed these labs please do so now before continuing.
 
-## Lab Overview
+## Lab overview
+
+In this video you will learn how to build the orchestrated campaign for this lab, including building and forking a Basic plan member audience and comparing delivery results between the Profile and Relational email channels.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486541/)
 
-## Learning Objectives
+## Learning objectives
 
 - Build an Orchestrated Campaign using a variety of workflow activities
 - Construct an audience using the Build Audience activity

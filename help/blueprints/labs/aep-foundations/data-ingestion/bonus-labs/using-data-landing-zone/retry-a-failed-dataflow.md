@@ -1,12 +1,12 @@
 ---
-title: Retry a Failed Dataflow
+title: Retry a failed dataflow
 description: Retry a failed dataflow run so the source data is reprocessed against updated mapping rules in a new dataflow.
 doc-type: article
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
 ---
 
-# Retry a Failed Dataflow
+# Retry a failed dataflow
 
 To retry a workflow, do the following:
 
@@ -14,7 +14,7 @@ To retry a workflow, do the following:
 1. Highlight the dataflow run that failed to bring up the right rail.
 1. Click on **Retry**. The retry will take the copy of the data associated with the failed run and will now apply the new mapping rules to it
 
-![Retry a failed dataflow](assets/retry-a-failed-dataflow.png)
+![Retrying a failed dataflow run from the right rail](assets/retry-a-failed-dataflow.png)
 
 >[!NOTE]
 >

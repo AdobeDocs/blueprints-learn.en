@@ -1,5 +1,5 @@
 ---
-title: Ranking Formulas
+title: Ranking formulas
 description: Learn how ranking formulas dynamically adjust a decision item's priority score per profile using conditional math expressions.
 doc-type: article
 
@@ -7,18 +7,18 @@ solution: Experience Platform
 exl-id: 08183f1a-8db6-43c5-8b2e-05fa3d9c0f8d
 ---
 
-# Ranking Formulas
+# Ranking formulas
 
-## Learning Objective
+## Learning objective
 
 By the end of this lesson, you will be able to:
 
-- A collection is a group of decision items that share a relationship — a campaign, similar features, or any other connection
-- Decision items can be grouped by any attribute or by metadata tags, using logical operators (and/or) that depend on the attribute's data type
-- A collection can have up to 500 decision items
-- A single decision item can belong to more than one collection at once
+- Define a ranking formula and explain what it adjusts
+- Explain the if/then structure of a ranking formula rule
+- Explain why every ranking formula setup requires a default formula
+- Determine the outcome when two decision items land on the same adjusted priority score
 
-## Materials Needed
+## Materials needed
 
 - 12 playing cards (Jack, Queen, King from each suit) 
 - 12 sticky notes, filled with both attribute name and values from previous lessons
@@ -29,7 +29,7 @@ This lesson has several rounds of reordering your cards by hand — first by ori
 
 >[!VIDEO](https://video.tv.adobe.com/v/3502209/)
 
-## Key Takeaways
+## Key takeaways
 
 - A ranking formula dynamically adjusts a decision item's priority score on a per-profile basis, based on profile attributes or the triggering experience event
 - Formulas support basic math (add, subtract, multiply, divide) and can reference the decision item's original priority score as a variable

@@ -8,42 +8,42 @@ exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
 
 # Create Edge Audience
 
-This Audience will be used to qualify someone when a payload (e.g. page view), comes from the client (e.g. web sdk) to the Edge
+This Audience will be used to qualify someone when a payload (e.g. page view) comes from the client (e.g. Web SDK) to the Edge.
 
 >[!NOTE]
 >
 >We evaluate an audience on the Edge usually so that we can turn around and use it in Personalization. If we aren't doing Personalization on the Edge, then we can just have the audience evaluate as Streaming on the Hub.
 
-## Create Audience
+## Create audience
 
 1. In the left rail click on Audiences
-1. The click on Create Audience in the upper right corner of your screen
+1. Then click on Create Audience in the upper right corner of your screen
 1. Then click on Build Rule
 
 
 
-![Create audeince 1](assets/create-audeince-1.png)
+![Audiences page with Create Audience button and Build Rule option highlighted](assets/create-edge-audience-create-audience-step-1.png)
 
 
 
-![Create audience 2](assets/create-audience-2.png)
+![Build Rule canvas opened for creating a new audience](assets/create-edge-audience-create-audience-step-2.png)
 
 
 
-## Convert Audience to Rules
+## Convert audience to rules
 
 1. Go to **Audiences** and click into the **Experience Platform** folder
 1. Drag 'n drop the audience named **dep: Any Event Streaming (within the hour)** onto the canvas
 
-![Convert audience to rules](assets/convert-audience-to-rules.png)
+![Dragging the dep: Any Event Streaming (within the hour) audience onto the rule builder canvas](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 
-3\. Convert the audience to a set of rules in the canvas by clicking on the **icon** show below and then click **Convert**
+1. Convert the audience to a set of rules in the canvas by clicking on the **icon** show below and then click **Convert**
 
-![Convert](assets/convert-.png)
+![Convert icon in the canvas used to convert the audience into a set of rules](assets/create-edge-audience-convert-to-rules-icon.png)
 
-## Update Event Rules
+## Update event rules
 
 Make the following changes to the event rules (you may need to expand the event to see it)
 
@@ -51,17 +51,17 @@ Make the following changes to the event rules (you may need to expand the event 
 1. 15
 1. Minutes
 
-![Update event rules](assets/update-event-rules.png)
+![Event rule configured to trigger In Last 15 Minutes](assets/create-edge-audience-update-event-rules.png)
 
-## Publish Segment
+## Publish segment
 
 1. Update the name of the segment to **Any Event Edge (within 15 minutes)**
 1. Update the evaluation method to Edge
 1. Publish the segment
 
-![Publish segment](assets/publish-segment.png)
+![Segment details showing the Edge evaluation method before publishing](assets/create-edge-audience-publish-segment.png)
 
-## Create Batch Evaluated Segment
+## Create batch evaluated segment
 
 Repeat the same steps you just did for the edge segment you created but use the following information instead:
 

@@ -8,32 +8,32 @@ exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
 
 # Build Audience #1
 
-## Lab Objective
+## Lab objective
 
 Build an audience that only finds profiles who placed an order for an iPhone 14
 
-## Breaking Down the Audience
+## Breaking down the Audience
 
-Let us start by creating our first audience. It is composed of many pieces that we need to incorporate. Click on Audience on the left rail and create Audience button in the top right.  
+Start by creating your first audience. It is composed of many pieces that we need to incorporate. Click on Audience on the left rail and click the Create Audience button in the top right.  
 
-![Click on](assets/click-on.png)
+![Click Audience in the left rail, then click Create Audience](assets/build-audience-1-click-create-audience-button.png)
 
 
 
 We are going to break this Use Case up into pieces and solve them with multiple Audiences. The reason for this is we are trying to make this a streaming and two things are preventing this:
 
 1. The exclude clause “no order exists for iPhone 14/Pixel 7”
-1. The exclude clause “no active iPhone 14/Pixel 7” We will go over the ramifications of this at the end. 
+1. The exclude clause “no active iPhone 14/Pixel 7”. We will go over the ramifications of this at the end. 
 
-## Part 1 - Discovery
+## Part 1 - discovery
 
 The first part of our Audience is to look for “no order exists for an iPhone 14”. Imagine we are a new Marketer to AEP and did not design the Schema. Do a search for “Order” in the Events tab on the left rail 
 
-![Ek1cGeisQd9hKALh do a search for order in the events tab on the left rail](assets/do-a-search-for-order-in-the-events-tab-on-the-left-rail.png)
+![Search for "Order" in the Events tab on the left rail](assets/build-audience-1-search-order-in-events-tab.png)
 
 
 
-We get a lot of objects related to an order
+You get a lot of objects related to an order
 
 - Attributes: e.g. Order ID, Order Date
 - Folders: e.g. Order, Plan Order Details
@@ -47,11 +47,11 @@ We get a lot of objects related to an order
 
 
 
-Let's use Order Placed Event Type card and Drag that onto the canvas.
+Use the Order Placed Event Type card and drag it onto the canvas.
 
-![C let s use order placed event type card and drag that onto the canvas](assets/let-s-use-order-placed-event-type-card-and-drag-that-onto-the-canvas.png)
+![Drag the Order Placed event type card onto the canvas](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
->[!NOTE]
+> [!TIP]
 >
 >**Optional:**
 >
@@ -63,11 +63,11 @@ Let's use Order Placed Event Type card and Drag that onto the canvas.
 >
 >In a new Audience, go into XDM Experience Event and drag on Event Type.
 >
->![In a new audience go into xdm experience event and drag on event type](assets/in-a-new-audience-go-into-xdm-experience-event-and-drag-on-event-type.png)
+>![In a new audience, drag the XDM Experience Event Type field onto the canvas](assets/build-audience-1-drag-event-type-field-onto-canvas.png)
 >
 >Filtering using Event Type cards is the same as filtering using the Event Type Field
 >
->![The same as filtering using the event type fiel](assets/the-same-as-filtering-using-the-event-type-fiel.png)
+>![Filtering using an Event Type card is the same as filtering using the Event Type field](assets/build-audience-1-event-type-card-vs-field-comparison.png)
 >
 >Benefit of using Event Type Cards: 
 >
@@ -89,13 +89,13 @@ Let's use Order Placed Event Type card and Drag that onto the canvas.
 
 
 
-Our Marketer knows from their training that more than one data sources was loaded: 
+Our Marketer knows from their training that more than one data source was loaded: 
 
 - Orders (captured by the Order system across all channels)
 - Web (client side tracking of what people are clicking on, including Orders placed on the site)
 - eCommerce (captured by the eCommerce system on the site)
 
-Which source should we use? They all logically represent the same event “Order Placed”. But they physically stored in different systems. How do we know which to use? The best way is to look at the descriptions on each Schema object and each field to know. 
+Which source should we use? They all logically represent the same event “Order Placed”. But they are physically stored in different systems. How do we know which to use? The best way is to look at the descriptions on each Schema object and each field to know. 
 
 >[!NOTE]
 >
@@ -128,19 +128,19 @@ For us, we want to use Order Placed, but keep in mind, depending on our use case
 
 After doing some analysis, we are going to go with the `Orders Event of Event Type=”order. placed”`. We want to ensure our Audience is using the source of truth at the tradeoff of speed (the web data streams in with each click while the Order goes through some processing before sent). Plus in the future we may want to exclude those who Cancelled and that could be done through any channel. 
 
-## Part 2 - Build the Audience
+## Part 2 - build the Audience
 
 Turn on Show Full Schema
 
 
 
-![Turn on show full schema 1](assets/turn-on-show-full-schema-1.png)
+![Turn on Show Full Schema in the attributes panel](assets/build-audience-1-turn-on-show-full-schema-1.png)
 
 
 
-![Turn on show full schema 2](assets/turn-on-show-full-schema-2.png)
+![Show Full Schema enabled, revealing additional attribute fields](assets/build-audience-1-turn-on-show-full-schema-2.png)
 
-Let's build on what we started.  Click on the Placed card, then **clear “placed” from the Search** on the left rail and drill down into:
+Build on what you started.  Click on the Placed card, then **clear “placed” from the Search** on the left rail and drill down into:
 
 XDM Experience Event -> Product List items folder 
 
@@ -148,7 +148,7 @@ XDM Experience Event -> Product List items folder
 >
 >A common confusion for your Marketer would be to use Device instead of Product here (since we will filter on iPhone). Again, another reason for good descriptions.
 
-![L9WbTFv again another reason for good descriptions](assets/again-another-reason-for-good-descriptions.png)
+![Drill into XDM Experience Event Product list items, not Device, to avoid confusion](assets/build-audience-1-device-vs-product-field-confusion.png)
 
 We are looking for something that we can filter on that might have iPhone. Notice we have three options 
 
@@ -156,7 +156,7 @@ We are looking for something that we can filter on that might have iPhone. Notic
 - Product
 - SKU
 
-![DrG53WgMychk4qtND we are l](assets/we-are-l.png)
+![Three field options to filter on: Name, Product, and SKU](assets/build-audience-1-name-product-sku-field-options.png)
 
 They all could be good candidates, but we don’t know.  Click on the "i" for more detail on each one.
 
@@ -172,7 +172,7 @@ They all could be good candidates, but we don’t know.  Click on the "i" for mo
 
 Turn "show only fields with data" on
 
-![Turn 22show only fields with data 22 on](assets/turn-22show-only-fields-with-data-22-on.png)
+![Turn on "show only fields with data"](assets/build-audience-1-turn-on-show-only-fields-with-data.png)
 
 >[!NOTE]
 >
@@ -184,25 +184,25 @@ Turn "show only fields with data" on
 >
 >This is all the fields in the Union Schema regardless if any data has been loaded into them.
 
-Once we turn on "show only fields with data" we notice the fields we were thinking of using go away.
+Once you turn on "show only fields with data," you notice the fields you were thinking of using go away.
 
 Drill down to XDM ExperienceEvent > Product list items > Dep > Model
 
-![Drill do](assets/drill-do.png)
+![Drill down to XDM ExperienceEvent > Product list items > Dep > Model](assets/build-audience-1-drill-down-to-product-list-items-model.png)
 
 Model looks like it, but doesn't have any descriptions.
 
 Drag it onto the Placed Event Card.
 
-![P7s04WPQDpIS7LhDLmmk drag it onto the placed event card](assets/drag-it-onto-the-placed-event-card.png)
+![Drag the Model field onto the Placed event card](assets/build-audience-1-drag-it-onto-the-placed-event-card.png)
 
 Add iPhone 14
 
-![Add iphone 14](assets/add-iphone-14.png)
+![Add iPhone 14 as the filter value](assets/build-audience-1-add-iphone-14.png)
 
 Above the Placed Event, change "Any time" to "Today"
 
-![S2l0SJwJLf 6dmK1KhT 20250715 192957](assets/use-case-1-acquisition-1.png)
+![Change the event time filter from Any time to Today](assets/build-audience-1-change-any-time-to-today.png)
 
 >[!NOTE]
 >
@@ -214,17 +214,17 @@ Provide a description
 
 Change evaluation method to **Streaming**
 
-![Change evaluation method to streamin](assets/change-evaluation-method-to-streamin.png)
+![Change the evaluation method to Streaming](assets/build-audience-1-change-evaluation-method-to-streaming.png)
 
 **Save Audience** as “*Placed Order iPhone 14*” 
 
 Click the blue button **Activate Audience** to Destination
 
-![Activate audience to destination](assets/activate-audience-to-destination-2.png)
+![Click Activate Audience to Destination](assets/build-audience-1-activate-audience-to-destination.png)
 
 Select the **Streaming DEP Webhook** Destination and click Next
 
-![Streaming dep webhook destination](assets/streaming-dep-webhook-destination.png)
+![Select the Streaming DEP Webhook destination and click Next](assets/build-audience-1-select-streaming-dep-webhook-destination.png)
 
 Do not change the mapping, click Next and Finish
 
@@ -236,7 +236,7 @@ Do not change the mapping, click Next and Finish
 >
 >
 >
->![Called product list items in our example](assets/called-product-list-items-in-our-example.png)
+>![Container automatically added for the Product list items array](assets/build-audience-1-product-list-items-container.png)
 >
 >Containers are a way of referencing an Event variable or Array element. You can read more about what the ramification of this is in this Blog, but for simplicity’s sake, this allows you to specify if a single element in the array meets both conditions or the condition can be spread across two elements. 
 >

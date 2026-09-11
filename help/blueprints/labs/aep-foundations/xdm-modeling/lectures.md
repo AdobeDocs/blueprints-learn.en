@@ -14,12 +14,16 @@ XDM (Experience Data Model) is Adobe’s standardized framework for organizing c
 
 ## Building in XDM
 
+In this video you will learn how the Real-Time Customer Profile is built in XDM, including how schemas are composed of a class and field groups, how dot notation paths work, and how to create a mapping sheet from your ERD.
+
 >[!VIDEO](https://video.tv.adobe.com/v/3459091/?quality=12&learn=on)
 
 
 
 
 
-## Advanced XDM Information
+## Advanced XDM information
+
+In this video you will learn the rules around schema evolution and breaking changes, plus the friendly name, data usage label, and deprecated field descriptors you'll encounter in XDM.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459090/?quality=12&learn=on)
