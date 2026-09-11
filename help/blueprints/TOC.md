@@ -397,21 +397,3 @@ nudge: orange
         + [Brand Alignment](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/brand-alignment.md)
         + [Test the Email](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/test-the-email.md)
         + [Summary](/help/blueprints/labs/ajo-foundations/content-authoring-with-ai/summary.md)
-  + Technical Deep Dives{#deep-dives}
-    + Working with Identity Graph{#identity-graph}
-      + [Overview](/help/blueprints/labs/identity-graph/overview.md)
-      + Identity Service Explained{#identity-service-explained}
-        + Introduction to Identity Service{#identity-intro}
-          + [Overview](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/overview.md)
-          + [Identity Service Overview](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/identity-service-overview.md)
-          + [Graph Database Architecture](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/graph-database-architecture.md)
-          + [Person-based Identity Graphs](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/person-based-identity-graphs.md)
-          + [How Identity Service is Utilized](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/how-identity-service-is-utilized.md)
-          + [That's a Wrap](/help/blueprints/labs/identity-graph/identity-service-explained/introduction-to-identity-service/thats-a-wrap.md)
-        + Namespaces and Types{#identity-namespaces}
-          + [Overview](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/overview.md)
-          + [Identity Namespaces](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/identity-namespaces.md)
-          + [Identity Types](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/identity-types.md)
-          + [Creating Identity Namespaces](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/creating-identity-namespaces.md)
-          + [Putting it All Together](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/putting-it-all-together.md)
-          + [That's the End](/help/blueprints/labs/identity-graph/identity-service-explained/namespaces-and-types/thats-the-end.md)
