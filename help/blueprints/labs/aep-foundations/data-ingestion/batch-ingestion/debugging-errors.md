@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Debugging errors
 description: Use preview error diagnostics to investigate a failed dataflow run and distinguish INGEST format errors from MAPPER conversion warnings.
 doc-type: article

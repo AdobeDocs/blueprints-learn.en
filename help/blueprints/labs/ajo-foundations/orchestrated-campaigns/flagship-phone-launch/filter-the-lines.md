@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Filter the lines
 description: Learn how to filter out opted-out customer lines with a Split activity and use Change Dimension to align a workflow's target dimension with the SMS channel configuration.
 doc-type: article

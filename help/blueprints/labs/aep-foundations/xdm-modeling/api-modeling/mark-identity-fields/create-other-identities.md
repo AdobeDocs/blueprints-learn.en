@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create other identities
 description: Use the schema registry API to create a non-primary email address identity descriptor for the Customer Account schema.
 doc-type: article

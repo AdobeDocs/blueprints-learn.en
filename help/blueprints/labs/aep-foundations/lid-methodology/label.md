@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Label
 description: Label relational data warehouse tables as XDM Individual Profile, Experience Event, or Lookup classes as part of the LID methodology.
 doc-type: article

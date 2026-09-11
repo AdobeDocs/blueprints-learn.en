@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Test journey
 description: Use the journey Test Mode simulator to trigger an Order Shipped event and confirm the trigger and action logic run correctly before publishing.
 doc-type: article

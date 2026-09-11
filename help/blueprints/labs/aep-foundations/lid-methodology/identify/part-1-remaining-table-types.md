@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Part 1 - Remaining table types
 description: Identify and label bridge tables and tables requiring denormalization across the Individual Profile, Experience Event, and Lookup ERDs.
 doc-type: article

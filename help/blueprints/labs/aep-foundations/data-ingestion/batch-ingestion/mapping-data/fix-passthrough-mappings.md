@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Fix passthrough mappings
 description: Identify and correct incorrect AI/ML passthrough mappings, such as duplicate or mismatched target field assignments, before validating.
 doc-type: article

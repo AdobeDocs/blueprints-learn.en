@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Set up Custom Personalization destination
 description: Configure a Custom Personalization destination to send profile attributes to the Edge Network for real-time use by a third-party personalization system.
 doc-type: article

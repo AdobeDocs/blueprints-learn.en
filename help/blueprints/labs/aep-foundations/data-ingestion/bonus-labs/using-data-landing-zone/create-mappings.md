@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create mappings
 description: Apply prior lab techniques to independently map a Data Landing Zone source file to the target XDM schema.
 doc-type: article

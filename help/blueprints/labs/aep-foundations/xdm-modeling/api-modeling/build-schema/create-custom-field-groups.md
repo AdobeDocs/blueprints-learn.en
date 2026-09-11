@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create Custom Field Groups
 description: Use the schema registry API to create a custom Customer Account Details field group and save its $id for use in a later schema.
 doc-type: article

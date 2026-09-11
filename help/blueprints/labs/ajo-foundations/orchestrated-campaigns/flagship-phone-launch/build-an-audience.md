@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Build an audience
 description: Learn how to use the Build Audience activity in an Orchestrated Campaign to target active customer lines with a specific phone make using relational schema conditions.
 doc-type: article

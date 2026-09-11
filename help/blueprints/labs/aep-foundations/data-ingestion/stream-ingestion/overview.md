@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Stream ingestion
 description: Load Customer Account data via a streaming source into the Data Lake and Profile using a streaming inlet and the REST API.
 doc-type: overview-page

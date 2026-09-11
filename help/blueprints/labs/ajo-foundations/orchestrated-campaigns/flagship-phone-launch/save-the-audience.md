@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Save the audience
 description: Learn how to change dimension, deduplicate, and save an audience to the Audience Portal from an Orchestrated Campaign workflow.
 doc-type: article

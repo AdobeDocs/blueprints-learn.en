@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Lecture
 description: Watch a video lecture explaining the segmentation service and activation architecture in Adobe Experience Platform.
 doc-type: article

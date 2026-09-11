@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Read an audience
 description: Learn how to use the Read Audience activity with a Profile Target Dimension in an Orchestrated Campaign and test how unmatched profiles are dropped when reconciling relational data.
 doc-type: article

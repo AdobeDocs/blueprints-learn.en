@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Setup
 description: Complete the sandbox and Postman setup steps required before starting the AEP Foundations bootcamp labs.
 doc-type: article

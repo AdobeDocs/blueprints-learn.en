@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create code-based experience channel
 description: Configure a Code-Based Experience channel in Adobe Journey Optimizer that returns JSON offer data to any web, mobile, or IoT system requesting a decision.
 doc-type: article

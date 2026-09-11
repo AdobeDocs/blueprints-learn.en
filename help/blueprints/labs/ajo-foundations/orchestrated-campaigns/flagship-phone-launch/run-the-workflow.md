@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Run the workflow
 description: Learn how to run an Orchestrated Campaign workflow in test mode and troubleshoot why some records are dropped from an SMS send due to missing target dimension joins.
 doc-type: article

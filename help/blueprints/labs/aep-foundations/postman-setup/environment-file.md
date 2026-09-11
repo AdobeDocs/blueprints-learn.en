@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Environment file
 description: Import the Postman environment file and populate its developer project and sandbox variables needed for the bootcamp's API calls.
 doc-type: article

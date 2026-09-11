@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Experience Edge
 description: Watch a video overview of how Experience Edge operates as foundational context before working with decisioning.
 doc-type: article

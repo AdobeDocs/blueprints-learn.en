@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Fix MAPPER errors for CreateDate
 description: Troubleshoot and resolve a MAPPER error caused by a badly formatted createDate value that was transforming into an empty field.
 doc-type: article

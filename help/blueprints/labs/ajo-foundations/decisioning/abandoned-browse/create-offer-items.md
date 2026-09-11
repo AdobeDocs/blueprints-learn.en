@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create offer items
 description: Create tiered iPhone offer items with priorities, eligibility rules, and frequency capping for use in a decisioning package.
 doc-type: article

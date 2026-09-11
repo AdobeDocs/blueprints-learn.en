@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Abandoned browse
 description: Learn how to build an end-to-end abandoned-browse decisioning workflow that delivers personalized, eligibility-aware phone offers across channels.
 doc-type: overview-page

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: View Schema
 description: View a newly created customer schema in both the Experience Platform UI and via a Get Schema API call.
 doc-type: article

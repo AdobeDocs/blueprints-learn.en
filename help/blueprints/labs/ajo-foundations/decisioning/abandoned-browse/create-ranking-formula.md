@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create ranking formula
 description: Build a ranking formula that dynamically boosts offer priority scores based on profile attributes such as age.
 doc-type: article

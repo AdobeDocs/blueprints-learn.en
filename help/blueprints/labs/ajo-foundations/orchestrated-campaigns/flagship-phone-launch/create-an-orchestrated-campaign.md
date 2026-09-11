@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create an Orchestrated Campaign
 description: Learn how to create the shell of an Orchestrated Campaign and review its default scheduling options.
 doc-type: article

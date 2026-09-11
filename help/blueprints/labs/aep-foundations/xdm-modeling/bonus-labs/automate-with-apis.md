@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Automate with APIs
 description: Run a Postman collection that automates creating schemas, field groups, identity and relationship descriptors, and datasets in one pass.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Lab introduction
 description: Watch a video introducing the lab exercise on mapping business use cases to AJO architecture components.
 doc-type: article

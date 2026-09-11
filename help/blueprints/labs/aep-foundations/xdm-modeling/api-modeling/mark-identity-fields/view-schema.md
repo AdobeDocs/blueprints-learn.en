@@ -1,5 +1,4 @@
 ---
-hold: true
 title: View schema
 description: View a schema's identity descriptors via the UI and API, and compare Accept header options for resolved versus unresolved schema responses.
 doc-type: article

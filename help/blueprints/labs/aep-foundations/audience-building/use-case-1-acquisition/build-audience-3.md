@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Build Audience #3
 description: Build an audience of iPhone 14 product page visitors and combine it with other audiences using audience-of-audiences to enable streaming activation.
 doc-type: article

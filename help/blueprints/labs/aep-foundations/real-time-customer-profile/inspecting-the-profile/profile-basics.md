@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Profile basics
 description: Explore the profile union schema, look up a profile in the UI, and inspect its attributes, identity map, and identity graph relationships.
 doc-type: article

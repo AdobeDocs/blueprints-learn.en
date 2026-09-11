@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Recap
 description: Review the API modeling lab steps, from creating the Customer Account schema through JSON Patching, marking identities, and building the lookup relationship.
 doc-type: article

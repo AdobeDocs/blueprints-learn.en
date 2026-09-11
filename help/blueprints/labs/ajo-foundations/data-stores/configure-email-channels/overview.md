@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Configure email channels
 description: Configure two email channel configurations, one using an AEP Profile attribute and one using a Relational schema attribute, for Orchestrated Campaigns.
 doc-type: overview-page

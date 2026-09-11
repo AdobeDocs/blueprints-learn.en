@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Get Plan Schema ID
 description: Query the tenant schema registry API to find and save the $id of the Plan lookup schema for use in a relationship descriptor.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Login & browse
 description: Log in to Adobe Experience Platform and navigate to the Schemas section to browse existing schemas, field groups, and data types.
 doc-type: article

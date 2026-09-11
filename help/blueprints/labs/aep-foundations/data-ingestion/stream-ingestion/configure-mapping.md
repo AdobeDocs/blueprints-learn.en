@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Configure mapping
 description: Import the mapping set from the batch ingestion lab and update calculated date fields to match the streaming source's date format.
 doc-type: article

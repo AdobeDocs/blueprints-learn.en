@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Sample Files
 description: Download the sample data files used throughout the AEP Foundations data ingestion labs.
 doc-type: article

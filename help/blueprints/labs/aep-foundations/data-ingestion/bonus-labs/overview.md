@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Bonus labs
 description: Explore optional bonus labs covering MAPPER error fixes, streaming order events, and ingesting data via the Data Landing Zone.
 doc-type: overview-page

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Postman installation
 description: Install Postman and get familiar with its collections, environments, and workspace interface before making API calls in later labs.
 doc-type: article

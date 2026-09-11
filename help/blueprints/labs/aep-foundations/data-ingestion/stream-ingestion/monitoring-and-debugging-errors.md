@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Monitoring and debugging errors
 description: Use the Streaming End-to-End monitoring dashboard to identify and interpret INGEST, DCVS, and MAPPER errors in a streaming dataflow.
 doc-type: article

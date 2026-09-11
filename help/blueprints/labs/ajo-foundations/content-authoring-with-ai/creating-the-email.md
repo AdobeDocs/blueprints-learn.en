@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Creating the email
 description: Learn how to apply a branded content template to a campaign email in Adobe Journey Optimizer and replace hero and product images.
 doc-type: article

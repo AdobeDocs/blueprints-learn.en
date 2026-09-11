@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Lectures
 description: Watch introductory videos covering personalization at scale and how the Real-Time Customer Profile works.
 doc-type: article

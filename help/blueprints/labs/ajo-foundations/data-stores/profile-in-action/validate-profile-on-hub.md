@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Validate Profile on Hub
 description: Learn how to look up a profile on the Real-Time Customer Profile Hub and verify its events and segment membership after a streamed event.
 doc-type: article

@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Validate event on Data Lake
 description: Learn how to query the Data Lake to verify that a streamed web event was written to the correct dataset.
 doc-type: article

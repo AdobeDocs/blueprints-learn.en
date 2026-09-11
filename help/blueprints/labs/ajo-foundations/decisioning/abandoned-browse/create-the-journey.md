@@ -1,5 +1,4 @@
 ---
-hold: true
 title: Create the Journey
 description: Build a journey that triggers a Code-Based Experience action and decision policy to serve JSON offers to qualifying profiles.
 doc-type: article
