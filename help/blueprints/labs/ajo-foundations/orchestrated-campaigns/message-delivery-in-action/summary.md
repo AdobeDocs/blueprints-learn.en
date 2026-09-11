@@ -19,7 +19,7 @@ Through this lab you did the following activities:
 
 
 
-> [!TIP]
+>[!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

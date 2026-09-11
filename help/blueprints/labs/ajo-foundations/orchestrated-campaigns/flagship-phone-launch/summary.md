@@ -29,7 +29,7 @@ If you had tried this in Journeys you would not have been able to satisfy both t
 
 
 
-> [!TIP]
+>[!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

@@ -140,7 +140,7 @@ Leave with the default settings
 1. Review all details again to ensure they match. 
 1. Scroll up and click on **Submit**. 
 
-> [!NOTE]
+>[!NOTE]
 >
 >The processing of the Email channel configuration has been observed to take up to 2hrs!  Yikes! 
 >

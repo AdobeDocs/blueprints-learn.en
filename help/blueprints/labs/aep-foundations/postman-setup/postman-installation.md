@@ -8,7 +8,7 @@ exl-id: 012878d9-fe87-4178-8b36-40b267b06760
 
 # Postman installation
 
-> [!NOTE]
+>[!NOTE]
 >
 >Postman is required for various labs in this course.  Even if you already have Postman installed you will need to go through this lab to ensure you have the Environment Files and API Collection installed and properly set up.
 

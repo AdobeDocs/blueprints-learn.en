@@ -73,7 +73,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
    ![Add a contains condition for "iPhone 14"](assets/build-audience-3-add-contains-iphone-14.png)
 
-   > [!TIP]
+   >[!TIP]
    >
    >**Searching for "Page"**
    >
@@ -146,7 +146,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >The requirements had no time requirements, so if someone visited three years ago, they would qualify. Depending on our use case that may or may not work. It is worth asking. We added one because we are activating based on people who visited our website today.  That may not work in all use cases.  If we add a time filter, how far back can we go before an Edge Audience becomes Streaming or even Batch? 
 
-> [!NOTE]
+>[!NOTE]
 >
 >**Ramifications of breaking this up**
 >

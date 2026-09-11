@@ -9,7 +9,7 @@ exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
 
 # Deployment instructions
 
-> [!NOTE]
+>[!NOTE]
 >
 >This is only required if you're working through the labs at your own pace. If you're in a live training course or event, your sandbox has already been deployed for you.
 
@@ -84,7 +84,7 @@ From the main menu, select **AEP foundations**. There are three steps, and they 
 
 Step 1 takes about 2 minutes to run, Step 2 about 6 minutes, and Step 3 is a quick validation with no wait of its own. The 60- and 15-minute gaps between steps are for AEP to finish propagating data behind the scenes — that's most of your 2-hour timeline.
 
-> [!NOTE]
+>[!NOTE]
 >
 >The CLI checks these wait times automatically. If you run a step too early, it blocks and tells you how many minutes remain — you don't need to track the clock yourself.
 

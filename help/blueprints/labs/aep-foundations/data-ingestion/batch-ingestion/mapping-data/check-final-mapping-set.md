@@ -8,7 +8,7 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 
 # Check final mapping set
 
-> [!NOTE]
+>[!NOTE]
 >
 >If you are coming from the Streaming Ingestion Lab please click the below link to proceed to the next step in that lab:
 >
@@ -45,7 +45,7 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | shipping\_state           | shippingAddress.state             |
 | shipping\_street\_address | shippingAddress.street1           |
 
-> [!NOTE]
+>[!NOTE]
 >
 >Ensure your final mapping matches what is shown below before continuing.
 
@@ -59,6 +59,6 @@ exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
 | concat(date\_part("month", date(birth\_Date,"M/d/yyyy")).toString(), "-", date\_part("day", date(birth\_Date,"M/d/yyyy")).toString()) | person.birthDayAndMonth    |
 | date\_part("yyyy",date(birth\_Date,"M/d/yyyy"))                                                                                       | person.birthYear           |
 
-> [!NOTE]
+>[!NOTE]
 >
 >Ensure your final mapping matches what is shown below before continuing

@@ -16,7 +16,7 @@ After configuring the journey, you tested the setup and sent a simulated event u
 
 
 
-> [!TIP]
+>[!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

@@ -16,7 +16,7 @@ Through these steps, you demonstrated how events move through the Edge, Real-Tim
 
 
 
-> [!TIP]
+>[!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

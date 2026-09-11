@@ -144,7 +144,7 @@ One way to think about priority adjustment rules is to treat them as standard if
 >
 >You're now taken back to the 'Strategy Setup' page, and you see the single Ranking Formula that you just created. 
 
-> [!NOTE]
+>[!NOTE]
 >
 >What happens if two offers result in the same priority? Offers with the same priority score are chosen at random for return to the requesting system. 
 

@@ -23,6 +23,6 @@ Perform the following set of tasks just as you did in the previous lab.
 1. In Postman populate the **Create Order Event** with the necessary information to successfully stream in the data and attach it to your previously created Customer Account record
 1. Verify the Order is linked to your profile
 
-> [!TIP]
+>[!TIP]
 >
 >Good luck and may the Adobe Experience Platform gods be with you!

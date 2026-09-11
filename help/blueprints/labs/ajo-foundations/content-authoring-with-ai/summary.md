@@ -29,7 +29,7 @@ Throughout this course, you've explored the full journey of building personalize
 
 
 
-> [!TIP]
+>[!TIP]
 >
 >**IF YOU ARE READING THIS IT MEANS YOU ARE AT THE END OF THE LAB.**
 >

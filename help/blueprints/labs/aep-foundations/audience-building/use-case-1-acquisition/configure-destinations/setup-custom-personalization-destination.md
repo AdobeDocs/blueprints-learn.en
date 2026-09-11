@@ -98,7 +98,7 @@ Add a **new mapping** as follows:
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Plan Name    |
 
-> [!NOTE]
+>[!NOTE]
 >
 >Remember to replace **\_tenantName** with your tenant name
 

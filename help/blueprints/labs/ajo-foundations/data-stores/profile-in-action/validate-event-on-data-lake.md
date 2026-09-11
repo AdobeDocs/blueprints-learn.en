@@ -14,7 +14,7 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 ## Validate event
 
-> [!NOTE]
+>[!NOTE]
 >
 >Eventually the data will appear in the Data Lake.  **This could take up to 60 minutes**.  We know the dataset is enabled for profile and thus the event will create a profile fragment.
 >
@@ -33,7 +33,7 @@ Verify that the web event was written to the Experience Platform Data Lake.
 
 3. **Run** Query
 
-> [!NOTE]
+>[!NOTE]
 >
 >**Remember**: Eventually the data will appear in the Data Lake.  **This could take up to 60 minutes**.
 >

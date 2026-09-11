@@ -8,7 +8,7 @@ exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
 
 # Configure mapping
 
-> [!NOTE]
+>[!NOTE]
 >
 >Only follow this section if you successfully completed the Batch Ingestion lab.  Otherwise follow the [Mapping Data](../batch-ingestion/mapping-data/overview.md) steps found in the Batch Ingestion lab.
 

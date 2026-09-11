@@ -120,7 +120,7 @@ You see the header fragment that you created in the previous exercise appear her
 
 ![Header fragment shown live with a blue dot in the left sidebar](assets/building-content-template-header-fragment-live-sidebar.png)
 
-> [!NOTE]
+>[!NOTE]
 >
 >If you do not see your fragment here it means that you did not save it properly and need to re-upload it.
 

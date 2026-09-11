@@ -20,7 +20,7 @@ Confirm that the profile does not yet appear in the Profile Snapshot dataset.
 
 2. In the **search box** type `profile`, then **click on the row** with title "Profile-Snapshot...".   and in the right rail **copy the table name** and paste it somewhere you can reference in the next step.
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >You may have to clear any filters if you don't see the "Profile-Snapshot..." dataset.
 

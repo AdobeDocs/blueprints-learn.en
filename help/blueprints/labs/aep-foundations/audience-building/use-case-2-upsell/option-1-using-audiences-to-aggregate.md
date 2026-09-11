@@ -138,7 +138,7 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 9. Validate that you can now save this as Streaming. Save Audience as “*Billing Data Usage High But No Ultimate Plan*” 
 
-> [!NOTE]
+>[!NOTE]
 >
 >While this evaluation method is Streaming, it is basing Audience qualification on two batch Audiences.
 

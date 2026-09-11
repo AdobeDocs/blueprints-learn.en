@@ -23,7 +23,7 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 
 ![Search for usage in Events - no description shown](assets/pre-work-search-usage-in-events.png)
 
-> [!NOTE]
+>[!NOTE]
 >
 >Neither of these have any descriptions, so the Marketer may make some assumptions and guess wrong. 
 >
@@ -35,7 +35,7 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 >
 >By providing this information in descriptions we can better guide them.
 
-> [!NOTE]
+>[!NOTE]
 >
 >Try searching for “Billing”.  Notice it doesn't show up as a Profile Attribute.  It shows up as an Event Type Card along with the "Billing Data Usage" field.
 >

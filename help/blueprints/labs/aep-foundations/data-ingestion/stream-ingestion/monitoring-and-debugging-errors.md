@@ -58,7 +58,7 @@ exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
 
 1. To recover from the errors, you need to go to **Sources->Dataflows->Dataflow Name->Update dataflow** and fix your mappings. 
 
-> [!NOTE]
+>[!NOTE]
 >
 >You need to re-upload the JSON sample file by first deleting it and adding it back again so that the mapper is now refreshed with a new copy for validation.
 

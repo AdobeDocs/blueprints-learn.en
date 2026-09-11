@@ -44,7 +44,7 @@ Start by gathering the following values:
 1. Find the record for **dep: Orders (stream)** click on the dataflows link
 1. In the right rail copy and save the **Dataflow ID** values somewhere you can reference later
 
-> [!WARNING]
+>[!WARNING]
 >
 >Click in an empty space on the row.  DO NOT click on the blue links!
 
@@ -73,7 +73,7 @@ Launch Postman on your computer and navigate to the following API call:
    - **Green** --> `Dataflow ID`
      - Value looks like a GUID (does not start with http)
 
-> [!CAUTION]
+>[!CAUTION]
 >
 >DO NOT EXECUTE YET!
 

@@ -64,7 +64,7 @@ Now you will map this API credential to a channel configuration that journeys an
    - **Channel:**  `Mobile Message`
    - **Marketing Action:**  `SMS Targeting`
 
-> [!NOTE]
+>[!NOTE]
 >
 >If you get an error stating the user does not have permission, ignore it and continue.
 

@@ -113,7 +113,7 @@ Step 1 takes about 2 minutes, Step 2 about 6 minutes.
 >
 >Use Step 6 instead of running Steps 4 and 5 separately — it does the same thing in one pass with the propagation wait handled for you.
 
-> [!NOTE]
+>[!NOTE]
 >
 >All wait times above are checked automatically by the CLI. If you run a step too early, it blocks and tells you how long to wait.
 

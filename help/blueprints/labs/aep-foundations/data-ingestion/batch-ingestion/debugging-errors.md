@@ -59,6 +59,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-> [!NOTE]
+>[!NOTE]
 >
 >This error is not a serious one as this leads to only warnings during mapping. The dataflow run does not fail because of this, so this lab does not fix this error.

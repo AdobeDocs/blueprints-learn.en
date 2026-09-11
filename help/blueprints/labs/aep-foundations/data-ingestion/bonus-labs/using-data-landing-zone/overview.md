@@ -79,6 +79,6 @@ You should now see a screen that looks like below
 
 ![Azure Storage Explorer showing the successfully connected Data Landing Zone account](assets/overview-successfully-connected-account.png)
 
-> [!TIP]
+>[!TIP]
 >
 >Congratulations!  You've successfully configured Azure Storage Explorer

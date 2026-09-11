@@ -33,7 +33,7 @@ It can:
 
 For this exercise, you improve the email that you created using the AI Assistant. 
 
-> [!NOTE]
+>[!NOTE]
 >
 >The AI Assistant is **non-deterministic**, which means it may generate slightly different content each time it is used. What you see during your practice may not exactly match the screenshots or examples in this guide. That’s okay—focus on learning the process and concepts rather than expecting identical results.
 
@@ -58,7 +58,7 @@ For this exercise, you improve the email that you created using the AI Assistant
 
 ![Selecting the best-aligned subject line variant from AI Assistant](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
-> [!NOTE]
+>[!NOTE]
 >
 >Your results may be completely different from the lab guide, so you do not need to worry. Select what you think is a right title and continue with the lab. 
 

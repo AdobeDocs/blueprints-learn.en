@@ -152,7 +152,7 @@ Marketing walked in today and gave us a requirement to have this Streaming and u
 
 8. Click **Next** and **Finish**
 
-> [!NOTE]
+>[!NOTE]
 >
 >Considerations why you may want to select Batch vs Streaming or Edge:
 >

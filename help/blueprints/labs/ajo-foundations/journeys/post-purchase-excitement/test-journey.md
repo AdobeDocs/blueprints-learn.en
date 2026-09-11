@@ -46,7 +46,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
    ![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
 
-   > [!WARNING]
+   >[!WARNING]
    >
    >Some students get errors and need to send this a few times. You may have to do this **multiple** times.
    >
@@ -62,7 +62,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 ![Show Log option under Results after triggering the test event](assets/test-journey-show-log-results.png)
 
-> [!NOTE]
+>[!NOTE]
 >
 >Some students who received errors sometimes receive different logs showing an empty instances array `{"instances": []}`. This is not a blocker, go ahead and move on to the next step.
 

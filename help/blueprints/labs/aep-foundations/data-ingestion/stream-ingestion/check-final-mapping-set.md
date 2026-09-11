@@ -10,7 +10,7 @@ exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 
 ## Passthrough mappings
 
-> [!NOTE]
+>[!NOTE]
 >
 >Ensure your final mapping matches what is shown below before continuing.
 
@@ -55,7 +55,7 @@ exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
 | concat(date\_part("mm", date(birth\_Date, "yyyy-M-d")).toString(), "-", date\_part("dd", date(birth\_Date, "yyyy-M-d")).toString()) | person.birthDayAndMonth    |
 | date\_part("yyyy",date(birth\_Date,"yyyy-M-d"))                                                                                     | person.birthYear           |
 
-> [!NOTE]
+>[!NOTE]
 >
 >Ensure your final mapping matches what is shown below before continuing
 

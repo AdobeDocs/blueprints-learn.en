@@ -61,7 +61,7 @@ You can click the toggle at the top to **exclude test events** if you want and y
 6. Go check your **email inbox** and see if you got the email (it looks similar to this below)
    - *,*your order has shipped ETA: *10/17/2026* Tracking Number: *051009364*
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Check your Spam folder for AJO Campaigns [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 

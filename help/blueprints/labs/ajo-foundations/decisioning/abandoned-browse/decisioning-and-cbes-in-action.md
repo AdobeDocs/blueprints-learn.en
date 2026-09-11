@@ -37,7 +37,7 @@ Locate these profiles in AEP
 
 ## Sending in Experience Events
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >Do not skip the opening text explanation of this section!
 

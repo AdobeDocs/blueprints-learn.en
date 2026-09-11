@@ -50,7 +50,7 @@ As in the previous exercise, you will need to verify the mapping and in some cas
 
 If the mapping screen now complains there is a duplicate mapping such as **orderStatus** mapped to **order.\_devbc.acqSource,** click the "-" icon to remove the mapping.
 
-> [!NOTE]
+>[!NOTE]
 >
 >Remember that multiple input fields cannot be mapped to the same output field as this makes the mapping ambiguous. But a single input field can be mapped to multiple output fields in the XDM schema. 
 

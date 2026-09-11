@@ -111,7 +111,7 @@ Now that the generic offer item has been created, you can create the next priori
    >
    >![Example of an additional capping rule based on a purchase event](assets/create-offer-items-additional-capping-rule-example.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >The 'days' mentioned in frequency capping rules refer to days in the GMT timezone.  Frequency capping with days in the logic resets at midnight, GMT.  
 
