@@ -26,6 +26,6 @@ A successful response looks like so:
 >
 >The **name** value should match the sandbox\_name variable in your postman environment
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You are ready to start using the Experience Platform APIs

@@ -105,7 +105,7 @@ Result --> Orchestrated Campaigns drops those 4 records on message execution
 >1. Make sure an exclusion log is created for records that are missing a targeting dimension on send
 >2. Update the Change dimension activity to do an inner join vs. external join which would drop those 4 records up front
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! You are now officially certified to unleash your very own Orchestrated Campaigns and broadcast messages to the world—responsibly, we hope. Go forth and market like a majestic digital wizard!
 

@@ -87,6 +87,6 @@ When you are done your environment file should look like this:
 
 ![Environment file after updating the SANDBOX_NAME and TENANT_NAME values](assets/environment-file-with-sandbox-name-and-tenant-name.png "Environment File with SANDBOX_NAME")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! You have completed your Postman Environment configuration

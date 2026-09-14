@@ -12,7 +12,7 @@ The below video recaps how you built the schema, identities, and relationship de
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
->[!TIP]
+>[!SUCCESS]
 >
 >First off congratulations! Building things via API isn't easy, but understanding how it works will help you understand the system as a whole. Kudos!
 

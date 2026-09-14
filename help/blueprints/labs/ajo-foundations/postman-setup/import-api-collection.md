@@ -26,7 +26,7 @@ In this step you will be importing the API collection which contains all the var
 
 ![verify postman collection import](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully imported the bootcamp's Postman Collection
 

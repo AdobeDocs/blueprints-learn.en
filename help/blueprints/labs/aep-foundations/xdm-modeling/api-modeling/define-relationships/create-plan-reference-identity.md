@@ -63,6 +63,6 @@ You should now see a `201 Created` response like below
 >
 >Reference Identity descriptors are created automatically in the backend when you create relationships from Schema UI. **You only need create them explicitly when utilizing the APIs to create schemas**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Awesome! You just created all the required descriptors to relate the `dep: Lookup Plan` schema to the `Customer Account` schema and enabled it to be referenced during batch segmentation

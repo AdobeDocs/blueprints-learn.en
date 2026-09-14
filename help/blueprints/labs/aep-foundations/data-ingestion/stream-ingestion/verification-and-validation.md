@@ -82,6 +82,6 @@ exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully ingested and created a sample set of Real-Time Customer Profiles

@@ -58,6 +58,6 @@ To see how you can automate deployments using APIs you execute a folder of APIs 
 
 ![Two datasets created with the postman: prefix matching the automated schemas](assets/automate-with-apis-datasets-created-in-ui.png "Automation Datasets")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema

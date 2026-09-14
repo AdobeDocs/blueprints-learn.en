@@ -48,6 +48,6 @@ exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 
 ![201 Created response after successfully creating primary identity descriptor](assets/create-primary-identity-201-created-response.png "Successfully created primary identity descriptor")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You just created a primary identity descriptor in your schema

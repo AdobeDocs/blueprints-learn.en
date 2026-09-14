@@ -78,6 +78,6 @@ To access the data in the `postalCode` **node**, you can type:
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully ingested and created a sample set of Real-Time Customer Profiles

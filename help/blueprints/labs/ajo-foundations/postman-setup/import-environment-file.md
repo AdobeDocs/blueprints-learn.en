@@ -64,6 +64,6 @@ Postman was designed for testing and interacting with APIs. However, we're using
 
 ![Verify changes saved](assets/import-environment-file-changes-saved-confirmation.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! You have completed your Postman Environment file

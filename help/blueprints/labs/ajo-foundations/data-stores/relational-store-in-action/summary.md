@@ -20,6 +20,6 @@ Through this lab you did the following activities:
 
 
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations, you now can proceed to the next lab and do that one as well!

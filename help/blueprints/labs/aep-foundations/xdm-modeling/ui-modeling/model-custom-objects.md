@@ -110,7 +110,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 1.  **Save** your schema
 
->[!TIP]
+>[!SUCCESS]
 >
 >You have successfully created your first custom object and fields within the XDM schema registry!
 
@@ -183,6 +183,6 @@ Your final result should look like the screenshot below when you are complete
 
 ![Final schema with all custom objects and fields added](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Final schema with custom objects")
 
->[!TIP]
+>[!SUCCESS]
 >
 >You have built your first XDM schema! In the next section you will configure the schema for use with the Real-Time Customer Profile.

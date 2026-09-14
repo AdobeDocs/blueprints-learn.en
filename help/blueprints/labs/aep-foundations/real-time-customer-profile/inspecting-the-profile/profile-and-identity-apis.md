@@ -99,7 +99,7 @@ A successful request should respond with a `200 OK` and you should see only the 
 
 ![Filtered 200 OK response showing only First Name, Last Name, and Active Products fields](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Successful Profile Entity Lookup (attributes) API Response with filter enabled")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You've successfully looked up a profile's attributes utilizing the Profile Entity API
 

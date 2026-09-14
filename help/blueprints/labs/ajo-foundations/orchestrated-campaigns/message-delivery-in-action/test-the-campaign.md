@@ -94,7 +94,7 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 Click on the **Stop** button to stop the **Test mode** for the campaign
 
->[!TIP]
+>[!SUCCESS]
 >
 >Both email channel configurations were tested within the same campaign, and differences were observed between using an AEP Profile attribute and using the Target Dimension in the Email channel configuration.
 >

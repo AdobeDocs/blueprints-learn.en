@@ -132,7 +132,7 @@ Now you need to provide a sample payload so the action knows what the response p
 
 4. Click the **Cancel** button to go back to the Action screen and then scroll back up in top right rail and click the **Save** button
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congrats! Your Custom Action is live, thanks to your expert-level Ctrl+C, Ctrl+V skills.
 

@@ -166,6 +166,6 @@ When you are done your final schema should now look like this.  Be sure to click
 
 ![Schema after managing related fields for the Consent and Preferences field group](assets/model-standard-objects-final-consent-and-preferences-fields.png "Managed related fields for the Consent and Preferences field group")
 
->[!TIP]
+>[!SUCCESS]
 >
 >You are now finished with adding standard components to your schema. Great job! Move on to building some custom attributes for your schema.

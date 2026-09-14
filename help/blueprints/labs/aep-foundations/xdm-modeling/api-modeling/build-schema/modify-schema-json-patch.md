@@ -153,7 +153,7 @@ You should see a `200 OK `response and should now see the `planDescription` fiel
 
 ![200 OK response after successfully patching the field group with planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "Step 3 - 200 OK Successful PATCH")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! You have successfully updated a field group/schema using JSON PATCH
 

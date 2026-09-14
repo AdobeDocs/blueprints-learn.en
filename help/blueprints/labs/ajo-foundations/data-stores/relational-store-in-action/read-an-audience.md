@@ -170,7 +170,7 @@ Orchestrated Campaign uses the Relational schema for all the activities. When us
 >
 >Hence, maintaining data consistency is critical when using AEP Profiles along with their relational counterparts for enrichment.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations, this completes the lab on using the Read Audience activity with Relational schema.
 

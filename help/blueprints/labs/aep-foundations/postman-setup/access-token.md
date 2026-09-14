@@ -73,7 +73,7 @@ Successful Response
 
 `expires_in` - milliseconds until the access token expires (24hrs expiration period today)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! You've successfully authenticated and your access\_token is now saved to your environment file
 

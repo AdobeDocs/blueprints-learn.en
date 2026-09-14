@@ -44,6 +44,6 @@ Details about each folder can be found below:
 - **Data Ingestion Lab** - contains a set of requests for streaming data into the Experience Platform
 - **Profile Lab** - contains a set of requests for viewing the Real-Time Customer Profile's traits and behaviors
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully imported the bootcamp's Postman Collection

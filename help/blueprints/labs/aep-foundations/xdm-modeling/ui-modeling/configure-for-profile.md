@@ -113,7 +113,7 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 ![Enable button in the modal that appears after toggling the Profile switch](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You just created a schema to use with the Real-Time Customer Profile.
 

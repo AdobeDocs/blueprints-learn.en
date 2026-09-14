@@ -72,6 +72,6 @@ A successful response for creating the schema should result in a `201 Created` s
 >
 >Do not continue until you have saved the `$id` and `$meta:altId` somewhere.  They will be required in future lab steps
 
->[!TIP]
+>[!SUCCESS]
 >
 >**Congratulations! You have just created a schema using only the APIs**

@@ -94,7 +94,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 >
 >The name of the record created is a concatenation of the schema name *(dep-rel: Customer Account)* and the field labeled with the identity *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! This concludes the Profile Target Dimension creation step in the lab.
 

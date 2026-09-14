@@ -147,6 +147,6 @@ Sample 200 OK Response
 >
 >Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as it's a tracer bullet used by our support teams to debug any environment issues
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You've successfully streamed in a profile record into the Adobe Experience Platform
