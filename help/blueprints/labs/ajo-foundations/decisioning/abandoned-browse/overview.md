@@ -17,29 +17,29 @@ exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
 - **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Profile in Action** **-->** [Create Datastream](../../data-stores/profile-in-action/create-datastream.md)
 
-If you have not completed these labs please do so now before continuing.
+If you have not completed these labs, do so now before continuing.
 
 ## Lab overview
 
-In this video you will learn how the abandoned browse use case description reveals its decisioning elements, and what you'll build in this lab to deliver a personalized, eligibility-aware phone offer in real time.
+In this video, you learn how the abandoned browse use case description reveals its decisioning elements, and what you'll build in this lab to deliver a personalized, eligibility-aware phone offer in real time.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491316/)
 
 ## Business objectives
 
-The business use case for this lab is that Connection 5G wants to increase sales of the new Apple flagship phone, the iPhone 17, by targeting customers who have browsed the iPhone 17 overview page but haven't purchased. The key objectives of the campaign are as follows:
+For this lab, Connection 5G wants to increase sales of the new Apple flagship phone, the iPhone 17, by targeting customers who browsed the iPhone 17 overview page but haven't purchased. The key objectives of the campaign are as follows:
 
 - **Identify high-intent customers** by detecting when a user views a flagship phone page multiple times without completing a purchase. 
-- **Trigger a real-time personalized experience** across all Connection 5G-owned digital surfaces when this behavior occurs. 
+- **Trigger a real-time personalized experience** across all of Connection 5G's digital surfaces when this behavior occurs. 
 - **Deliver contextual offers** based on key customer attributes such as the **account holder's age** and their **current mobile plan**. 
 - **Ensure offer eligibility is enforced** so that customers only see phone offers that are compatible with their plan. 
-- **Dynamically adjust the phone tier offered** (e.g., base, pro, ultra) based on the customer's engagement or response to previous offers. 
+- **Dynamically adjust the phone tier offered** (for example, base, pro, ultra) based on the customer's engagement or response to previous offers. 
 - **Provide consistent personalization across channels** by using centralized decisioning logic to determine the best offer in real time. 
 - **Increase conversion likelihood** by presenting the most relevant flagship phone offer to each customer at the right moment.
 
 ## Lab learning objectives
 
-To meet the above business objectives in this lab, you will learn how to:
+To meet the above business objectives in this lab, you learn how to:
 
 - **Extend the offer data model** by adding custom attributes to the offer schema so they can be used in decisioning logic. 
 - **Create eligibility rules** that determine which profiles qualify for specific offers based on profile attributes. 
@@ -50,4 +50,4 @@ To meet the above business objectives in this lab, you will learn how to:
 - **Set up a Code-Based Experience (CBE) channel** to allow external systems to request decision results and receive offers in JSON format. 
 - **Test the end-to-end decisioning workflow** by sending experience events and decision requests to validate eligibility logic, ranking behavior, and frequency capping. 
 
-By completing this lab, you will gain hands-on experience designing and validating a **complete offer decisioning workflow in Adobe Journey Optimizer** to meet the business use case.
+By completing this lab, you gain practical experience designing and validating a **complete offer decisioning workflow in Adobe Journey Optimizer** to meet the business use case.

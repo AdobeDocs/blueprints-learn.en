@@ -1,6 +1,6 @@
 ---
 title: Automate with APIs
-description: Run a Postman collection that automates creating schemas, field groups, identity and relationship descriptors, and datasets in one pass.
+description: Run a Postman collection that automates creating schemas, field groups, identity and relationship descriptors, and datasets in a single run.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
@@ -38,19 +38,19 @@ To see how you can automate deployments using APIs you execute a folder of APIs 
 
 
 
-1. A new window should appear that shows all the API calls in the folder. Set the **Delay** to **500ms** and then click on the **Run** button.
+1. A new window appears that shows all the API calls in the folder. Set the **Delay** to **500ms** and then click on the **Run** button.
 
    ![Execute Automation dialog with Delay set to 500ms before clicking Run](assets/automate-with-apis-execute-automation-dialog.png "Execute automation")
 
 
 
-1. You see the API calls start to execute in order, and when complete you should see 32 passed tests.
+1. You see the API calls start to execute in order, and when complete you see 32 passed tests.
 
    ![Successful automation run with 32 passed tests](assets/automate-with-apis-successful-automation-32-passed-tests.png "Successful Automation")
 
 
 
-1. Go to the Experience Platform UI and you should see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
+1. Go to the Experience Platform UI and you see two schemas and two datasets created and enabled for profile with the prefix of **postman:**
 
 ![Two schemas created and enabled for profile with the postman: prefix](assets/automate-with-apis-schemas-created-in-ui.png "Automation Schemas")
 
@@ -60,4 +60,4 @@ To see how you can automate deployments using APIs you execute a folder of APIs 
 
 >[!SUCCESS]
 >
->Congratulations!  You just automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabling a schema for profile and generating a dataset utilizing the schema
+>Congratulations!  You automated the deployment of identity namespaces, field groups, schemas, identity/relationship descriptors and enabled a schema for profile and generated a dataset utilizing the schema

@@ -10,9 +10,9 @@ exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
 
 ## Profile Entity API
 
-Knowing how to utilize the profile APIs is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to endless possibilities around system integrations from call centers to kiosks.
+Knowing how to utilize the profile APIs is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to many possible system integrations, from call centers to kiosks.
 
-One of the most important APIs is the Profile Entity API.  This API allows you to lookup an individual profile (just like you saw in the UI) but uses params to dictate whether you want to see the attributes or events of the profile.
+One of the most important APIs is the Profile Entity API. This API allows you to look up an individual profile, just like you saw in the UI. It uses params to dictate whether you want to see the attributes or events of the profile.
 
 Below is the entire spec for the GET method for the Profile Entity API
 
@@ -34,7 +34,7 @@ Send this parameter with every request. Its value depends on whether you're look
 
 ### Identifying the entity to look up
 
-Most requests use `entityId` and `entityIdNS` to identify the entity by any known identity value — such as an email address, CRM ID, or loyalty ID — rather than requiring you to already know its XID. An XID is a base64-encoded identifier that Identity Service generates and assigns internally to represent an identity, consolidating its namespace and ID value into a single compact token (see [Native XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en) for details):
+Most requests use `entityId` and `entityIdNS` to identify the entity by any known identity value — such as an email address, CRM ID, or loyalty ID — rather than requiring you to know its XID already. An XID is a base64-encoded identifier that Identity Service generates and assigns internally to represent an identity, consolidating its namespace and ID value into a single compact token (see [Native XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en) for details):
 
 | Parameter    | Type   | Description                                                                                                                                    | Example                |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -83,7 +83,7 @@ To get a feel for the Entity Lookup API you use the Depeche Mode profile from th
    >
    >By default if no merge policy is specified in a profile entity request it uses the default merge policy in the sandbox
 
-   With the Entity API there are a number of query parameters that you can utilize to change what is returned in response.  
+   With the Entity API, use the query parameters to change what is returned in response.  
 
 1. In the Entity Lookup (attributes) request click on the **Params** option for the request
 1. Check the box next to **Key** named **fields**
@@ -93,7 +93,7 @@ To get a feel for the Entity Lookup API you use the Depeche Mode profile from th
 
 >[!NOTE]
 >
->Notice there is also a parameter for specifying the `mergePolicyId`.  You can find the value for this utilizing other APIs or looking up the ID using the UI.
+>Notice there is also a parameter for specifying the `mergePolicyId`. To find the value for this, use other APIs or look up the ID using the UI.
 
 A successful request should respond with a `200 OK` and you should see only the fields specified in the param filter you just enabled:  First Name, Last Name and an array of Active Products.
 
@@ -118,25 +118,25 @@ A successful request should respond with a `200 OK` and you should see a result 
 
 ![200 OK response containing all events for the Depeche Mode profile](assets/profile-and-identity-apis-successful-events-api-response.png "Successful Profile Entity Lookup (events) API Response")
 
-Just like when looking up profile attributes the Entity API has even more query parameters that can be utilized to change what is returned in response.
+When looking up profile attributes, the Entity API has even more query parameters that change what is returned in response.
 
-You can try a few of them by enabling them in the Params section and executing the request.  Try it out and see how it works!
+Try a few of them by enabling them in the Params section and executing the request. See how it works!
 
 ![Entity Lookup (events) request with additional query parameters enabled in the Params section](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "Profile Entity Lookup for Experience Events")
 
 **Sample Query Param Definitions**
 
-| Key           | Value                           | Description                                                                                                                                               |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \<blank>                        | If provided you can switch the merge policy used to perform the lookup. For the lab leaving it blank means it will use the sandboxes default merge policy |
-| fields        | eventType,timestamp,identityMap | Only displays these fields from each event regardless if the field specified has a value                                                                 |
-| property      | eventType="order.placed"        | Filters down the events of the profile to only those that are of type "order.placed"                                                                      |
-| orderby       | +timestamp                      | Sorts the events in descending order                                                                                                                      |
-| limit         | 5                               | Only shows 5 events in the response                                                                                                                       |
+| Key           | Value                           | Description                                                                                             |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \<blank>                        | Switches the merge policy used for the lookup. Leaving it blank uses the sandbox's default merge policy |
+| fields        | eventType,timestamp,identityMap | Displays only these fields from each event, whether or not they have a value                            |
+| property      | eventType="order.placed"        | Filters events to only those of the specified type                                                      |
+| orderby       | +timestamp                      | Sorts events in ascending order                                                                         |
+| limit         | 5                               | Shows only 5 events in the response                                                                     |
 
 >[!NOTE]
 >
->You can learn more about all the Query Parameter options here -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>Learn more about all the Query Parameter options here -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 
@@ -151,13 +151,13 @@ Try it yourself:
 
 >[!NOTE]
 >
->Note the parameters in the request are the identity namespace and id (i.e. value)
+>Note the parameters in the request are the identity namespace and id (that is, value)
 
 
 
 ![Postman request pane for the List Linked Identities call before sending](assets/profile-and-identity-apis-list-linked-identities-request.png "List Linked Identities API")
 
-A successful response should look like the below screenshot
+A successful response should look like the screenshot below
 
 
 

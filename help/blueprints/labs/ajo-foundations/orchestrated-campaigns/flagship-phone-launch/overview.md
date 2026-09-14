@@ -17,9 +17,9 @@ exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
 - **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Relational](../../data-stores/configure-email-channels/configure-for-relational.md)
-  *(this setup step takes up to 3hrs to complete)*
+  *(this setup step takes up to 3 hours to complete)*
 
-If you have not completed these labs please do so now before continuing.
+If you have not completed these labs, do so now before continuing.
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ If you have not completed these labs please do so now before continuing.
 
 ## Lab overview
 
-In this video you will learn how the flagship phone launch use case maps to orchestrated campaigns, recapping the critical thinking questions and architecture before you build the campaign targeting account holders and individual lines.
+In this video, you learn how the flagship phone launch use case maps to orchestrated campaigns, recapping the critical thinking questions and architecture before you build the campaign targeting account holders and individual lines.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486217/)
 
@@ -43,7 +43,7 @@ In this video you will learn how the flagship phone launch use case maps to orch
 
 ## Use case description
 
-Immediately following the launch of a manufacturer's latest flagship device, send a targeted message to account holders and line users with older models -- inviting them to upgrade and experience the future of mobile.
+Immediately following the launch of a manufacturer's latest flagship device, send a targeted message to account holders and line users with older models -- inviting them to upgrade to the latest mobile technology.
 
 **Key callouts:**
 

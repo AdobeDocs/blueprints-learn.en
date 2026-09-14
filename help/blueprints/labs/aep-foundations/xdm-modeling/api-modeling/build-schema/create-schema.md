@@ -12,7 +12,7 @@ exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
 
 >[!CAUTION]
 >
->**Do not execute the call...yet**
+>**Do not execute the call yet**
 
 1. Click on the `Step 4 - Create Customer Account Schema` API call in the `XDM Schema Lab -> Create Schema` folder.
 
@@ -27,7 +27,7 @@ exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
    - Title -> `Sample Customer Schema - <your sandbox number>`
    - Description -> `Sample Customer Schema - <your sandbox number>`
 
-4. Populate the `$ref` fields with the `$ids` you saved from the previous lab sections you completed: [Create Custom Field Groups](./create-custom-field-groups.md)  and [Get Profile Class](./get-profile-class.md). You should have $ids for each of the following items:
+4. Populate the `$ref` fields with the `$ids` you saved from the previous lab sections that you completed: [Create Custom Field Groups](./create-custom-field-groups.md)  and [Get Profile Class](./get-profile-class.md). You have $ids for each of the following items:
 
    - Class -> XDM Individual Profile
    - Field Group -> Demographic Details
@@ -70,8 +70,8 @@ A successful response for creating the schema should result in a `201 Created` s
 
 >[!WARNING]
 >
->Do not continue until you have saved the `$id` and `$meta:altId` somewhere.  They will be required in future lab steps
+>Do not continue until you have saved the `$id` and `$meta:altId` somewhere.  They are required in future lab steps
 
 >[!SUCCESS]
 >
->**Congratulations! You have just created a schema using only the APIs**
+>**Congratulations! You created a schema using only the APIs**

@@ -8,7 +8,7 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 # Overview
 
-## Pre-requisites
+## Prerequisites
 
 >[!WARNING]
 >
@@ -17,7 +17,7 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 - **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Relational](../data-stores/configure-email-channels/configure-for-relational.md)
 
-If you have not completed these labs please do so now before continuing.
+If you have not completed these labs, do so now before continuing.
 
 >[!CAUTION]
 >
@@ -25,13 +25,13 @@ If you have not completed these labs please do so now before continuing.
 
 ## Lab overview
 
-In this video you will learn what to expect across the three acts of this hands-on lab -- setting up the Connection 5G brand, building fragments, templates, and an AI-assisted email, and validating it through simulation and a proof send.
+In this video, you learn what to expect across the three parts of this hands-on lab: setting up the Connection 5G brand, building fragments and templates, creating an AI-assisted email, and validating it through simulation and a proof send.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## Learning objectives
 
-By the end of this module, you will be able to:
+By the end of this module, you can:
 
 1. Explain the importance of content creation in Adobe Journey Optimizer.
 1. Identify and describe key concepts, including Brands, Brand Guidelines, Journeys, and Templates.
@@ -52,7 +52,7 @@ This lab introduces the core elements required to create and manage branded cont
 
 ### 1. Brands
 
-A Brand in AJO represents a unique identity (e.g., Connection 5G). Each brand includes:
+A Brand in AJO represents a unique identity (for example, Connection 5G). Each brand includes:
 
 - Visual identity
 - Writing style
@@ -66,7 +66,7 @@ Brand Guidelines define:
 - Writing style and tone
 - Voice rules
 - Legal requirements
-- Visual standards such as colour, imagery, and iconography
+- Visual standards (colour, imagery, iconography)
 
 ### 3. Journeys
 
@@ -91,7 +91,7 @@ Templates are reusable structures for channels, for example:
 
 1. Open Adobe Journey Optimizer in your browser.
 1. Sign in with your credentials.
-1. You land on the main dashboard.
+1. The main dashboard appears.
 
 ### Locate the main navigation menu
 
@@ -111,7 +111,7 @@ Before you begin building your brand, take a moment to explore the **content cre
 - Content Templates
 - Fragments
 
-Click on each of them and get familiar with the UI. This lab goes through each section in detail. 
+To get familiar with the UI, select each one. This lab goes through each section in detail. 
 
 ![Content creation tools including Assets, Content Templates, and Fragments in the navigation menu](assets/overview-content-creation-tools-navigation-menu.png)
 

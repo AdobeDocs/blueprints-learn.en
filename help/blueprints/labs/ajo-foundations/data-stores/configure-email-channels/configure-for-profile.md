@@ -10,7 +10,7 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 
 ## Objective
 
-In the next set of steps you will create an Email Channel Configuration with both Journeys and Orchestrated Campaigns using the `personalEmail.address` AEP Profile attribute 
+In the next set of steps, you create an Email Channel Configuration with both Journeys and Orchestrated Campaigns using the `personalEmail.address` AEP Profile attribute 
 
 ## Create channel configuration
 
@@ -74,11 +74,11 @@ From the **IP pool** dropdown, select **marketing**
 
 ## Configure BCC email
 
-Leave this blank
+Leave this field blank
 
 >[!NOTE]
 >
->You can keep a copy of sent emails by sending them to a BCC inbox. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. Note that the BCC address domain must be different from any subdomain delegated to Adobe. This feature is optional. *How to use BCC for emails*
+>You can keep a copy of sent emails by sending them to a BCC inbox. To copy every sent email to this BCC address, enter the email address of your choice. Note that the BCC address domain must be different from any subdomain delegated to Adobe. This feature is optional. *How to use BCC for emails*
 
 ## Configure email retry parameters
 
@@ -136,7 +136,7 @@ Leave with the default settings
 
 >[!NOTE]
 >
->For Orchestrated Campaigns, you target the customer account with an email, so you only need to send *one message per Profile*.  The Execution address you use comes from the Profile itself (i.e. what is stored in AEP Profile under the **personalEmail.address** attribute)
+>For Orchestrated Campaigns, you target the customer account with an email, so you only need to send *one message per Profile*.  The Execution address you use comes from the Profile itself (specifically, what is stored in AEP Profile under the **personalEmail.address** attribute)
 
 
 ## Review & save
@@ -146,7 +146,7 @@ Leave with the default settings
 
 >[!NOTE]
 >
->The processing of the Email channel configuration has been observed to take up to 2hrs!  Yikes! 
+>The processing of the Email channel configuration has been observed to take up to 2 hours! 
 >
 >Continue on to the next exercise while you wait for this channel configuration to process.
 

@@ -46,7 +46,7 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
 ## Name your schema
 
-The XDM Individual Profile class-based schemas allow you to collect attributes about an individual that will be stitched to the profile. The class itself contains fields that are not editable such as *modifiedByBatchID*, *PersonID*, etc.
+The XDM Individual Profile class-based schemas allow you to collect attributes about an individual that are stitched to the profile. The class itself contains fields that are not editable such as *modifiedByBatchID*, *PersonID*, etc.
 
 1. Give your schema a name and description.
    - **Schema Display Name** --> *Customer Account – \[Your Initials]*
@@ -57,7 +57,7 @@ The XDM Individual Profile class-based schemas allow you to collect attributes a
 
 ## Add Demographic Details field group
 
-There are many field groups that exist as standard XDM in Adobe Experience Platform for you to add to your schema and customize. 
+There are many field groups that exist as standard XDM in Adobe Experience Platform for you to add to your schema and customize them. 
 
 1. Click the **+ (add)** on the left rail in the field group section.
 
@@ -67,7 +67,7 @@ There are many field groups that exist as standard XDM in Adobe Experience Platf
 
 1. Search for **Demographic Details**, or find it by browsing the list. 
 
-   - When you find the field group click on the magnifying glass to the right of the field group to view its structure.  This is a useful way to preview what you are about to add to your schema without actually adding it.
+   - When you find the field group click on the magnifying glass to the right of the field group to view its structure.  This step is a useful way to preview what you are about to add to your schema without adding it.
    - Close the preview when done reviewing
 
 
@@ -90,7 +90,7 @@ You need to add additional standard field groups to your schema. Repeat the prev
 - Personal Contact Details
 - Consent and Preference Details
 
-When you are done your schema should look like the below image when done. Be sure to click the **Save** button and save your work!
+When you are done, your schema looks like the image below. Be sure to click the **Save** button and save your work!
 
 ![Schema after adding Demographic Details, Personal Contact Details, and Consent and Preference Details field groups](assets/model-standard-objects-final-schema-after-adding-field-groups.png "Final schema after saving ")
 
@@ -114,7 +114,7 @@ The Demographic Details field group brought in many fields, but based on your sc
 - person.birthDayAndMonth
 - person.birthYear
 
-To remove fields from any Adobe standard field group you can utilize the **Manage related fields** option. Manage related fields allows you to remove standard fields from your schema, so you are only left with the fields you need.
+To remove fields from any Adobe standard field group, use the **Manage related fields** option. Manage related fields allows you to remove standard fields from your schema, so only the fields you need remain.
 
 1. Select the **person** object in your schema
 1. Click on the **Manage related fields** in the right rail
@@ -130,7 +130,7 @@ To remove fields from any Adobe standard field group you can utilize the **Manag
    - person.birthDayAndMonth
    - person.birthYear
 
-   When you are done click the **Confirm** button in the upper right corner.
+   When you are done, click the **Confirm** button in the upper right corner.
 
    ![Manage related fields dialog showing selected Demographic Details person fields](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Manage related fields of the Demographic Details person object")
 
@@ -140,7 +140,7 @@ To remove fields from any Adobe standard field group you can utilize the **Manag
 
 
 
-1. When done you should see the person object in your schema as shown below. If everything looks good click the **Save** button to save your schema.
+1. When done you should see the person object in your schema as shown below. To save your schema, click the **Save** button if everything looks good.
 
 ![Final Demographic Details person object with only the necessary fields](assets/model-standard-objects-final-demographic-details-person-object.png "Final Demographic Details field group with only necessary fields")
 
@@ -149,7 +149,7 @@ To remove fields from any Adobe standard field group you can utilize the **Manag
 Perform the same set of steps as you did previously but this time for the Consent and Preferences field group.
 
 1. Click on the **Consent and Preferences** field group name in the left rail to highlight its fields in your schema.
-1. Select the **consents** object and then use the **Manage related fields** process to remove fields not needed from the consent object. Keep only the following fields:
+1. Select the **consents** object and then use the **Manage related fields** process to remove fields not needed from the consents object. Keep only the following fields:
 
 - consents.marketing.email.val
 - consents.marketing.sms.val
@@ -162,7 +162,7 @@ Perform the same set of steps as you did previously but this time for the Consen
 
 
 
-When you are done your final schema should now look like this.  Be sure to click **Save** before continuing on.
+When you are done, your final schema now looks like this. Be sure to click **Save** before continuing on.
 
 ![Schema after managing related fields for the Consent and Preferences field group](assets/model-standard-objects-final-consent-and-preferences-fields.png "Managed related fields for the Consent and Preferences field group")
 

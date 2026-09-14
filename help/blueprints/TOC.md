@@ -2,7 +2,7 @@
 user-guide-title: Customer Experience Orchestration Business Objectives, Use Cases, Architecture Diagrams & Blueprints
 breadcrumb-title: Use Cases & Blueprints 
 user-guide-description: xplore key business objectives, use case patterns, and industry use cases for Adobe Experience Platform and applications. Visual architecture diagrams and blueprints provide technical references for system integration, data flows, and solution design — connecting business value to implementation.
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange

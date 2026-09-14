@@ -10,7 +10,7 @@ exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
 
 ## Objective
 
-On this page, you will import the Postman Environment File.  This file contains a number of global variables that will be utilized within various API calls you will make during other labs throughout the bootcamp.
+On this page, you import the Postman Environment File.  This file contains a number of global variables that are used within various API calls you make during other labs throughout the bootcamp.
 
 ## Import environment file
 
@@ -19,11 +19,11 @@ On this page, you will import the Postman Environment File.  This file contains 
    Download File — [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
 
 2. Launch Postman on your local machine.
-3. If necessary, switch to the Workspace you are using for these labs (if you're using a Workspace at all) and click on the **Import** button.
+3. If necessary, switch to the Workspace you are using for these labs and click on the **Import** button.
 
    ![Postman begin import](assets/import-environment-file-click-import-button.png)
 
-4. Paste the local URL of the **AJO Bootcamp.postman\_environment.json** file into the import modal text box or drop it into the import dialog box.  This should trigger an automatic import
+4. Paste the local URL of the **AJO Bootcamp.postman\_environment.json** file into the import modal text box or drop it into the import dialog box.  This action triggers an automatic import
 
    ![Postman import dialog showing option to paste a file URL](assets/import-environment-file-import-button-overlay.png "Postman import via URL")
 
@@ -35,14 +35,14 @@ On this page, you will import the Postman Environment File.  This file contains 
 
 ## Set environment variables
 
-Postman was designed for testing and interacting with APIs. However, we're using it to simulate AEP Web SDK hits from a browser or for server-side real-time data collection calls. While these are still API calls in the strictest sense of the term, they aren't typical API calls that require things like authorization tokens in the header. The environment variables in these labs are mainly used for variables in URL paths (with one being used in a header). 
+Postman was designed for testing and interacting with APIs. However, this lab uses it to simulate AEP Web SDK hits from a browser or for server-side real-time data collection calls. While these requests are technically API calls, they aren't typical API calls that require things like authorization tokens in the header. The environment variables in these labs are mainly used for variables in URL paths (with one being used in a header). 
 
 1. If necessary, click on the **Environments** tab in the left sidebar of Postman
 2. Click on the **AJO Bootcamp** environment file. You see some values that you need to fill in
 
    ![Postman environment variables with empty values that need to be filled in](assets/import-environment-file-values-need-filling-in.png "Verify postman variables in environments")
 
-3. Skip the DATASTREAM\_CONFIG value for now. You will create a datastream configuration in a later lab.
+3. Skip the DATASTREAM\_CONFIG value for now. You create a datastream configuration in a later lab.
 4. Update the **EDGE\_REGION** field with the region code that is closest to where you are physically located for this bootcamp, using the table below as a look-up.
 
    | **Region** | **Region Code** |
@@ -54,13 +54,13 @@ Postman was designed for testing and interacting with APIs. However, we're using
    | Japan      | jpn3            |
    | Asia       | spg3            |
 
-   When done, your environment file should look similar to this:
+   When done, your environment file looks similar to this:
 
 
 
    ![Verify Postman region variable](assets/import-environment-file-region-variable-set.png)
 
-5. You now need to save your environment variables; however, there is no save button in the Postman UI. Use the Windows or Mac hot keys for saving (ctrl+s on Windows, for example). You know your changes have been saved when you see a **Changes saved** message in the lower-right-hand side of the Postman UI:
+5. You now need to save your environment variables; however, there is no save button in the Postman UI. Use the Windows or Mac hot keys for saving (ctrl+s on Windows, for example). You know your changes have been saved when you see a **Changes saved** message in the bottom-right corner of the Postman UI:
 
 ![Verify changes saved](assets/import-environment-file-changes-saved-confirmation.png)
 

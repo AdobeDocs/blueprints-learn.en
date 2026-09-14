@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Explore Adobe Journey Optimizer's architecture, journey orchestration, orchestrated campaigns, decisioning, and real-time customer profiles through hands-on labs.
+description: Explore Adobe Journey Optimizer's architecture, journey orchestration, orchestrated campaigns, decisioning, and Real-Time Customer Profiles through hands-on labs.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
@@ -8,10 +8,10 @@ exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
 
 # Overview
 
-## What you will learn
+## What you learn
 
 1. **Adobe Journey Optimizer Architecture & Capabilities:**
-   - Understand how AJO is built natively on Adobe Experience Platform and where it fits in the personalization stack
+   - Understand how AJO is built natively on Adobe Experience Platform and its place among personalization tools
    - Explore the core capabilities that power orchestrated, real-time customer journeys
 1. **Data Stores:**
    - Differentiate between the Real-Time Customer Profile and the Relational Store within AJO
@@ -52,6 +52,6 @@ If you're working through this bootcamp at your own pace, two labs need external
 
 ## Introduction
 
-This video introduces Adobe Journey Optimizer, explaining what personalization at scale means, why it's difficult to achieve, and how AJO — built natively on Adobe Experience Platform — addresses those challenges.
+This video introduces Adobe Journey Optimizer, explaining what large-scale personalization means, why it's difficult to achieve, and how AJO addresses those challenges. AJO is built natively on Adobe Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)

@@ -10,19 +10,19 @@ exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
 
 ## Prerequisites
 
-If you haven't downloaded Azure Storage Explorer do so now as it's a requirement for this lab.  You can find the download at the link below:
+If you haven't downloaded Azure Storage Explorer do so now as it's a requirement for this lab.  Find the download at the link below:
 
 [Download Azure Storage Explorer](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. Install the application
-1. On first launch accept the End User License Agreement
+1. The first time you open the application, accept the End User License Agreement
 
-![End User License Agreement screen in Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "End-User License Agreement screen")
+![End User License Agreement screen in Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "End User License Agreement screen")
 
 
 ## Configure Azure Storage Explorer with Experience Platform 
 
-1. Open Azure Storage Explorer and click on the **Select Resource icon** and then select **ADLS Gen 2 Container or directory**
+1. Open Azure Storage Explorer and click on the **Select Resource icon** and then select **ADLS Gen2 Container or directory**
 
    ![Selecting ADLS Gen2 Container or directory as the resource in Azure Storage Explorer](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -44,7 +44,7 @@ If you haven't downloaded Azure Storage Explorer do so now as it's a requirement
 
 
 
-1. Go to Adobe Experience Platform and perform the navigate to the Data Landing zone by doing the following:
+1. Go to Adobe Experience Platform and navigate to the Data Landing Zone by doing the following:
 
    - Navigate to **Sources -> Catalog**
    - Select **Cloud Storage** under the sources

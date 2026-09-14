@@ -14,7 +14,7 @@ Before you start the AEP Foundations labs, complete the setup steps below. Which
 
 >[!NOTE]
 >
->If you're in a live training course or event, your sandbox has already been deployed for you — skip this section and go straight to Postman Setup below.
+>If you're in a live training course or event, your sandbox has already been deployed for you — skip this section and go directly to Postman setup below.
 
 If you don't already have a working sandbox with the lab assets deployed, complete the following steps:
 

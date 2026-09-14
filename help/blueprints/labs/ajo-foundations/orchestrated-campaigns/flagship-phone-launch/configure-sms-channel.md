@@ -10,7 +10,7 @@ exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 
 ## Objective
 
-In the next set of steps you will configure the SMS channel. This is required so that you can send messages to individual line holders later on when you are building your campaign.
+In the next set of steps, you configure the SMS channel. This step is required so that you can send messages to individual line holders later on when you are building your campaign.
 
 
 
@@ -26,7 +26,7 @@ In the next set of steps you will configure the SMS channel. This is required so
 
 ## Define the SMS API credentials
 
-You will start by creating the API connector that AJO will use to send outbound SMS requests.
+You start by creating the API connector that AJO uses to send outbound SMS requests.
 
 1. Under SMS Vendor choose **Twilio**. 
 1. Enter the following API credential details, using your own [Twilio trial account](https://www.twilio.com/try-twilio):
@@ -45,7 +45,7 @@ You will start by creating the API connector that AJO will use to send outbound 
 
 ## Create SMS channel configuration
 
-Now you will map this API credential to a channel configuration that journeys and campaigns can use.
+Now you map this API credential to a channel configuration that journeys and campaigns can use.
 
 1. Navigate to **Channels** → **General Settings** → **Channel configurations**. 
 
@@ -107,7 +107,7 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
    >[!NOTE]
    >
-   >This is telling Orchestrated Campaigns that when it sends messages, it should deliver one message per record that matches to the Profile Target Dimension.
+   >This setting is telling Orchestrated Campaigns that when it sends messages, it should deliver one message per record that matches to the Profile Target Dimension.
 
 
 
@@ -133,7 +133,7 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
 ## Submit and review
 
-1. You can click the **Submit** button to complete the configuration and see a success message appear
+1. Click the **Submit** button to complete the configuration and see a success message appear
 
    ![Success message after submitting the channel configuration](assets/configure-sms-channel-submit-success-message.png)
 
@@ -145,7 +145,7 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
    >[!CAUTION]
    >
-   >Wait until the status turns **Active** otherwise future lab steps will fail miserably for you
+   >Wait until the status turns **Active** otherwise future lab steps will fail for you
 
 
 
@@ -159,6 +159,6 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
 ## Recap
 
-You have now seen how to successfully configure an SMS channel.  Note this is an API-based SMS so depending on your provider they may use alternative methods for authentication.
+You have now seen how to configure an SMS channel successfully.  Note this configuration is an API-based SMS so depending on your provider they may use alternative methods for authentication.
 
 You can read more [here ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) if you are interested.
