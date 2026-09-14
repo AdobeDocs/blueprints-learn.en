@@ -29,7 +29,7 @@ exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 
 >[!NOTE]
 >
->**Preview dataset** displays the most recent successful batch in this dataset. You are not able to see the previous batches. Also, complex data such as arrays and maps are not viewable today and appear as empty columns. Do not panic! To get a more comprehensive view, you need to use SQL to explore the dataset as explained below.
+>**Preview dataset** displays the most recent successful batch in this dataset. You are not able to see the previous batches. Also, complex data such as arrays and maps are not viewable today and appear as empty columns. To get a more comprehensive view, you need to use SQL to explore the dataset as explained below.
 
 
 
@@ -50,7 +50,7 @@ exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 
 
 
-1. Copy paste the following SQL query in the **Editor**. Remember to replace `<table_name>` with the value you obtained in step 6.
+1. Copy and paste the following SQL query in the **Editor**. Remember to replace `<table_name>` with the value you obtained in step 6.
 
    ```sql
    SELECT * FROM <table_name>
@@ -66,7 +66,7 @@ exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
 
 1. **Preview** the results
 
-1. Also, execute the following SQL query to retrieve the XDM schema along with the data:
+1. To retrieve the XDM schema along with the data, also execute the following SQL query:
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -78,6 +78,6 @@ To access the data in the `postalCode` **node**, you can type:
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully ingested and created a sample set of Real-Time Customer Profiles

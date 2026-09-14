@@ -10,7 +10,7 @@ exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
 
 ## Overview
 
-In order to utilize a schema for the Real-Time Customer Profile you need to first ensure its configured appropriately. This means taking what you identified during the LID lab as primary/person identities, relationship identities, etc. and ensuring those configurations are made to each schema. When everything is done you can then "flip the switch" and enable a schema for use with profile.
+To utilize a schema for the Real-Time Customer Profile, you first need to ensure it's configured appropriately. This step means taking what you identified during the LID lab as primary/person identities, relationship identities, etc. and ensuring those configurations are made to each schema. When everything is done, you enable a schema for use with profile.
 
 Looking at the XDM on paper Connection 5G ERD, you see the following information about the Customer Account schema.  This is the work that remains to utilize the schema within the Real-Time Customer Profile.
 
@@ -21,7 +21,7 @@ Looking at the XDM on paper Connection 5G ERD, you see the following information
 
 ## Mark the primary identity field
 
-Every schema requires a primary identity field if it's to be used with the Real-Time Customer Profile. Follow the steps below to mark a field as a primary identity.
+Every schema requires a primary identity field if it's to be used with the Real-Time Customer Profile. To mark a field as a primary identity, follow the steps below.
 
 1. Open the **Customer Account** schema you created
 1. Select the **\_\<tenant-name>.customerID** field by clicking on the field in the schema
@@ -41,7 +41,7 @@ Every schema requires a primary identity field if it's to be used with the Real-
 
 >[!NOTE]
 >
->Also note that in the left rail you should now see the following items. Identities (primary or non-primary) appear here, and **primary** identities are also marked as required fields.
+>Also note that in the left rail you now see the following items. Identities (primary or non-primary) appear here, and **primary** identities are also marked as required fields.
 >
 >
 >
@@ -51,7 +51,7 @@ Every schema requires a primary identity field if it's to be used with the Real-
 
 ## Mark the person identity field(s)
 
-Remember that every schema that is to be used with the Real-Time Customer profile **optionally can contain** other person identity fields. To mark a field as a person identity perform the following actions on the Customer Account schema you created previously.
+Every schema can **optionally contain** other person identity fields. This rule applies to any schema used with the Real-Time Customer Profile. To mark a field as a person identity, perform the following actions on the Customer Account schema you created previously.
 
 1. Select the **personalEmail.address** field
 1. Check the **Identity** checkbox found in the right rail
@@ -68,7 +68,7 @@ Remember that every schema that is to be used with the Real-Time Customer profil
 
 ## Create the schema relationship
 
-In order to relate the Plan schema to the Customer Account schema as outlined in the ERD you need to define a relationship. Follow the below steps to create a schema relationship between the Customer Account and Plan (lookup) schemas.
+To relate the Plan schema to the Customer Account schema as outlined in the ERD, you need to define a relationship. To create a schema relationship between the Customer Account and Plan (lookup) schemas, follow the steps below.
 
 ### Add relationship
 
@@ -82,7 +82,7 @@ In order to relate the Plan schema to the Customer Account schema as outlined in
 ### Define relationship
 
 1. In the Type select box select the **One-to-one** option
-1. In the Reference schema select box choose the schema named **dep: Plan \[Lookup]** (this was pre-created for you)
+1. In the Reference schema select box choose the schema named **dep: Plan \[Lookup]** (this schema was pre-created for you)
 1. Click **Apply** and **Save**
 
 ![Defining a one-to-one relationship to the dep: Plan [Lookup] schema](assets/configure-for-profile-define-one-to-one-relationship.png)
@@ -99,7 +99,7 @@ When you are done you should see the relationship you created display as seen in
 
 ## Configure schema for profile
 
-The Real-time Customer Profile merges data from disparate sources to construct a complete view of each individual customer. If you want the data captured by a schema to participate in this process, you must configure the schema for use in Profile. To do so you need to perform the following steps:
+The Real-Time Customer Profile merges data from disparate sources to construct a complete view of each individual customer. If you want the data captured by a schema to participate in this process, you must configure the schema for use in Profile. To do so you need to perform the following steps:
 
 
 
@@ -113,7 +113,7 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 ![Enable button in the modal that appears after toggling the Profile switch](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You just created a schema to use with the Real-Time Customer Profile.
 
@@ -121,11 +121,11 @@ The Real-time Customer Profile merges data from disparate sources to construct a
 
 ## Review the profile union schema
 
-As mentioned previously the power of XDM + the Real-Time Customer Profile is the ability to assemble a variety of fragments of an individual and their behaviors together.  This is referred to as the "Union View" of the customer.  In the steps below, you preview what this union looks like for each XDM class that is configured for the Real-Time Customer Profile
+As mentioned previously the power of XDM + the Real-Time Customer Profile is the ability to assemble a variety of fragments of an individual and their behaviors together.  This aggregation is referred to as the "Union View" of the customer.  In the steps below, you preview what this union looks like for each XDM class that is configured for the Real-Time Customer Profile
 
 1. Navigate to **Profiles** in the left rail
 1. Select the **Union Schema** tab on the top menu
-1. Select the **XDM Individual Profile** class from the drop down
+1. Select the **XDM Individual Profile** class from the dropdown
 
 Browse the XDM Individual Profile class and then take a few moments to review other classes such as XDM ExperienceEvent or Plan classes.
 
@@ -137,4 +137,4 @@ Browse the XDM Individual Profile class and then take a few moments to review ot
 
 >[!NOTE]
 >
->Only the XDM Individual Profile based class performs merges between similarly named fields.
+>Only the XDM Individual Profile-based class performs merges between similarly named fields.

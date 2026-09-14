@@ -43,7 +43,7 @@ EXAMPLE ONLY
 
 >[!NOTE]
 >
->Remember to update the tenant name above (\_devbc) with the your own
+>Remember to update the tenant name above (\_devbc) with your own
 
 
 
@@ -51,18 +51,18 @@ EXAMPLE ONLY
 
 4. Execute the API by clicking the `Send` button
 
-You should now see a `201 Created` response like below
+You now see a `201 Created` response like below
 
 ![201 Created response after creating the dep: Plan Lookup reference identity descriptor](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep: Plan Lookup Reference Identity descriptor")
 
 >[!NOTE]
 >
->A reference identity descriptor is always defined on the lookup schema (i.e. sourceSchema)
+>A reference identity descriptor is always defined on the lookup schema (that is, sourceSchema)
 
 >[!NOTE]
 >
->Reference Identity descriptors are created automatically in the backend when you create relationships from Schema UI. **You only need create them explicitly when utilizing the APIs to create schemas**
+>Reference Identity descriptors are created automatically on the server when you create relationships from Schema UI. **You only need to create them explicitly when utilizing the APIs to create schemas**
 
->[!TIP]
+>[!SUCCESS]
 >
->Awesome! You just created all the required descriptors to relate the `dep: Lookup Plan` schema to the `Customer Account` schema and enabled it to be referenced during batch segmentation
+>Awesome! To relate the `dep: Lookup Plan` schema to the `Customer Account` schema and enable it to be referenced during batch segmentation, you created all the required descriptors

@@ -10,7 +10,7 @@ exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
 
 ## Adding custom fields
 
-As discussed in the lecture, there are no standard out of the box field groups or data types that model the Customer Account custom fields.  The below fields currently are considered custom and must be modeled within the XDM schema.
+As discussed in the lecture, there are no standard prebuilt field groups or data types that model the Customer Account custom fields.  The below fields currently are considered custom and must be modeled within the XDM schema.
 
 - \_\<tenant-name>.account.createDate
 - \_\<tenant-name>.account.endDate
@@ -21,7 +21,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 >[!NOTE]
 >
->Note the \<tenant-name> will be specific to the environment you are working in
+>Note the \<tenant-name> is specific to the environment you are working in
 
 
 
@@ -37,15 +37,15 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
  
 
-1. Create the account object by utilizing the below details. When done click the **Apply** button in the right rail to see the change in the schema workspace
+1. Create the account object by using the below details. When done click the **Apply** button in the right rail to see the change in the schema workspace
 
 | Field Name | Display Name | Type     | Assign to a New Field Group                                                                                                   |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| *account*  | *Account*    | *Object* | *Customer Account Details - \[Your Initials]*<br />*(type this in and select the dropdown or hit enter)* |
+| *account*  | *Account*    | *Object* | *Customer Account Details - \[Your Initials]*<br />*(type this in and select the dropdown or press enter)* |
 
 >[!WARNING]
 >
->Your field names need to follow a specific casing. The reason is that we have already pre-created the same schema you are building. If your casing is off, it will cause a conflict with the field paths from the pre-existing schema in your sandbox
+>Your field names need to follow a specific casing. The reason is that the same schema you are building has already been pre-created. If your casing is off, it causes a conflict with the field paths from the pre-existing schema in your sandbox
 
 ![Adding the account object with its assigned field group](assets/model-custom-objects-adding-the-account-object.png "Adding the account object")
 
@@ -55,7 +55,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 >[!NOTE]
 >
->Notice that your new custom field group appears in the left rail under the `Field groups` without a lock icon.  This denotes it's a custom created field group.
+>Notice that your new custom field group appears in the left rail under the `Field groups` without a lock icon.  This missing lock icon denotes it's a custom-created field group.
 
 >[!WARNING]
 >
@@ -64,7 +64,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
  
 
-1. Add the following fields show below under the Account object you just created.
+1. Add the following fields shown below under the Account object you just created.
 
    | Field Name   | Display Name  | Type       |
    | ------------ | ------------- | ---------- |
@@ -77,7 +77,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 
 
-1. When done your schemas account object should look like below. **Save** your schema!
+1. When done, your schema's account object looks like below. **Save** your schema!
 
 
 
@@ -91,7 +91,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
    | ----------- | ----------------- | -------- | --------------------------------------- |
    | *acqSource* | *Acquired Source* | *String* | *web :: Web*<br />*inStore :: In Store* |
 
-   This field needs standardized values, so use the **Enum & Suggested values** option within the fields properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
+   This field needs standardized values, so use the **Enum & Suggested values** option within the field's properties. Select **Enum** radio button to add validation for this field at ingestion, as well as friendly labels. Add the enum values as shown below:
 
    - *web :: Web*
    - *inStore :: In Store*
@@ -102,7 +102,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
    >[!NOTE]
    >
-   >The goal of Enum & Suggested values is make segmentation easier for the end user. Enums enforce validation at time of data ingestion whereas Suggested values do not. To learn more about this feature you can read more in the documentation here -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >The goal of Enum & Suggested values is make segmentation easier for the end user. Enums enforce validation at time of data ingestion whereas Suggested values do not. To learn more about this feature, read more in the documentation here -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
  
 
@@ -110,7 +110,7 @@ As discussed in the lecture, there are no standard out of the box field groups o
 
 1.  **Save** your schema
 
->[!TIP]
+>[!SUCCESS]
 >
 >You have successfully created your first custom object and fields within the XDM schema registry!
 
@@ -155,9 +155,9 @@ When done validate your schema matches the below screenshot. If it looks good **
 
 ## Customer ID field creation
 
-Adding the **customerID** field as this field is critical because it will serve as the primary identity for the schema as well as a general field to hold data in.
+Adding the **customerID** field as this field is critical because it serves as the primary identity for the schema as well as a general field to hold data in.
 
-Perform the same steps as you have done previously and utilize the table below for referencing the metadata for the field.
+Perform the same steps as you have done previously and use the table below for referencing the metadata for the field.
 
 | Field Name   | Display Name  | Type     | Field Group                                   |
 | ------------ | ------------- | -------- | --------------------------------------------- |
@@ -165,13 +165,13 @@ Perform the same steps as you have done previously and utilize the table below f
 
 >[!NOTE]
 >
->The `customerID` could be put anywhere in the schema from a hierarchical perspective. In this lab we've chosen to keep it at the root and not nested within one of the custom objects you previously created.  This is where data architecture has opinions 
+>The `customerID` could be put anywhere in the schema from a hierarchical perspective. In this lab, the customerID field stays at the root and isn't nested within one of the custom objects you previously created.  This placement is where data architecture has opinions 
 >
 >😄
 
 
 
-Your final result should look like the screenshot below when you are complete
+Your final result looks like the screenshot below when you are complete
 
 ![Customer Account schema with customerID field added at the root](assets/model-custom-objects-customerid-field-added.png)
 
@@ -183,6 +183,6 @@ Your final result should look like the screenshot below when you are complete
 
 ![Final schema with all custom objects and fields added](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Final schema with custom objects")
 
->[!TIP]
+>[!SUCCESS]
 >
->You have built your first XDM schema! In the next section you will configure the schema for use with the Real-Time Customer Profile.
+>You have built your first XDM schema! In the next section, you configure the schema for use with the Real-Time Customer Profile.

@@ -66,7 +66,7 @@ A few important elements to note in the request above:
 
 ## Gather required values
 
-Before you can stream in data you need to gather a few of the required values listed above (i.e. specifically the streaming endpoint URL and body content 'header' values). 
+Before you stream in data, gather the required values listed above (specifically, the streaming endpoint URL and body content 'header' values). 
 
 Perform the following steps:
 
@@ -95,7 +95,7 @@ Perform the following steps:
 
 ## Update your API request
 
-Switch over to your Postman application and update the Create Customer Account request with the information you just gathered.
+Switch over to your Postman application and update the Create Customer Account request with the information you gathered.
 
 1. Open Postman and navigate to the **Data Ingestion Lab -> Create Customer Account** API request and open it
 
@@ -130,7 +130,7 @@ Switch over to your Postman application and update the Create Customer Account r
 
 
 
-1. You should receive a `200 OK` response indicating it was successfully received by the Adobe Experience Platform
+1. You receive a `200 OK` response indicating the Adobe Experience Platform successfully received it
 
 Sample 200 OK Response
 
@@ -145,8 +145,8 @@ Sample 200 OK Response
 
 >[!NOTE]
 >
->Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as it's a tracer bullet used by our support teams to debug any environment issues
+>Note the **xactionId** in the response.  If an error ever occurs where you do not see a record ingested this should always be provided as part of a customer support ticket as it's a key reference used by our support teams to debug any environment issues
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You've successfully streamed in a profile record into the Adobe Experience Platform

@@ -10,11 +10,11 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 
 ## Objective
 
-In the next set of steps you will navigate the UI to view the Schema and set up the Identity. Next, you will set up the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
+In the next set of steps you navigate the UI to view the Schema and set up the Identity. Next, you set up the Profile Target Dimension, which is the entity type the campaign is targeting and reconciling with the AEP Profile for delivery.
 
-## Why this is important
+## Why this configuration is important
 
-The Profile Target Dimension is used to tell Adobe Journey Optimizer how data between the Real-Time Customer Profile and Relational Store can be joined. The ingredients of this configuration are as follows:
+The Profile Target Dimension is used to tell Adobe Journey Optimizer how data between the Real-Time Customer Profile and Relational Store can be joined. The components of this configuration are as follows:
 
 - A relational schema
 - A single field from the relational schema
@@ -22,7 +22,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 >[!CAUTION]
 >
->Without this configuration in place no reading or sharing of audiences can happen nor can any messages be sent out of Orchestrated Campaigns
+>This configuration must be in place before you can read or share audiences, or send messages from Orchestrated Campaigns
 
 ## Label the Identity
 
@@ -44,7 +44,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
    ![Identity checkbox with the customerID namespace selected](assets/profile-target-dimension-choose-identity-namespace.png)
 
 6. Click the **Save** button to save your schema. A confirmation message shows up
-7. Click on **Cancel** button or the **Schemas** in the left hand rail to exit the schema UI
+7. Click on **Cancel** button or the **Schemas** in the left-hand rail to exit the schema UI
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 >[!NOTE]
 >
->After Save, it takes a few minutes (under 5 mins), before it shows up on the Profile Target Dimension drop down in the next step.
+>After Save, it takes a few minutes (under 5 mins), before it shows up on the Profile Target Dimension drop-down in the next step.
 
 ## Create the Profile Target Dimension 
 
@@ -94,7 +94,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 >
 >The name of the record created is a concatenation of the schema name *(dep-rel: Customer Account)* and the field labeled with the identity *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations! This concludes the Profile Target Dimension creation step in the lab.
 

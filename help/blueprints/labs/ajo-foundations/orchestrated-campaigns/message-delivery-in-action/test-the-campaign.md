@@ -10,11 +10,11 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 
 ## Objective
 
-In the next set of steps you will run the campaign in test mode to confirm the campaign functions as expected before publishing the campaign. In this case, test mode does not actually send emails, but it helps verify the entire flow and identify issues early.
+In the next set of steps you run the campaign in test mode to confirm the campaign functions as expected before publishing the campaign. In this case, test mode does not send emails, but it helps verify the entire flow and identify issues early.
 
 ## Start the workflow
 
-1. Once the two Email flows have been configured, the Campaign looks like the following. Click on **Start** button to run the campaign in **Test mode**
+1. Once the two Email flows have been configured, the Campaign looks like the following. Click on the **Start** button to run the campaign in **Test mode**
 
    ![Click Start to run the campaign in Test mode](assets/test-the-campaign-click-start-test-mode.png)
 
@@ -24,7 +24,7 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 
 
-2. The test execution of all the campaign activities starts, verify the results
+2. The test execution of all the campaign activities starts. Verify the results
 
 ![Test execution of campaign activities in progress](assets/test-the-campaign-verify-execution-results.png)
 
@@ -32,7 +32,7 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 ## Email report #1
 
-1. To test the Email delivery, click on the **Email using Profile attribute** activity and in the right hand pane, click on **Run test**
+1. To test the Email delivery, click on the **Email using Profile attribute** activity and in the right-hand pane, click on **Run test**
 
    ![Run test for Email using Profile attribute activity](assets/test-the-campaign-run-test-profile-attribute.png)
 
@@ -46,11 +46,11 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
    >[!NOTE]
    >
-   >You may need to refresh the page a few times to see the final test result.
+   >Refresh the page a few times if necessary to see the final test result.
 
 
 
-4. Once the Email test is complete, the results are presented. There is some percentage of errors; click on **View more** to know the reason.
+4. Once the Email test is complete, the results are presented. There is some percentage of errors; click on **View more** to see why.
 
    ![Error rate with View more link](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -78,7 +78,7 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
    ![Click View report to see Email test details](assets/test-the-campaign-view-report-2.png)
 
-3. Once the Email test is complete, the results are presented. In this case, there will be no errors
+3. Once the Email test is complete, the results are presented. In this case, there are no errors
 
 ![Campaign statistics with no errors](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -92,9 +92,9 @@ In the next set of steps you will run the campaign in test mode to confirm the c
 
 ## Stop the workflow
 
-Click on the **Stop** button to stop the **Test mode** for the campaign
+To stop the **Test mode** for the campaign, click on the **Stop** button
 
->[!TIP]
+>[!SUCCESS]
 >
 >Both email channel configurations were tested within the same campaign, and differences were observed between using an AEP Profile attribute and using the Target Dimension in the Email channel configuration.
 >
@@ -102,6 +102,6 @@ Click on the **Stop** button to stop the **Test mode** for the campaign
 
 ## Recap
 
-You have now seen how to test the campaign created to understand the flow and behavior. Here the nuances of using the different settings for Email channel configuration was well understood during the test flow execution.
+You have now seen how to test the campaign created to understand the flow and behavior. Here the nuances of using the different settings for Email channel configuration were well understood during the test flow execution.
 
-You can read more about the campaign test mode [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), if you are interested.
+Read more about the campaign test mode [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) if you are interested.

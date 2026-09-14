@@ -166,16 +166,16 @@ Orchestrated Campaign uses the Relational schema for all the activities. When us
 
 >[!NOTE]
 >
->While the Read audience showed **9** profiles. Since we built a filter on Source and the Source field exists in the Relational store, we had to join from the Profile store to the Relational store to check it. When it was joined with the Relational schema, via the Campaign Target Dimension, only a total of **7** profiles matched. These **7** matched customer ids are available for use in the following activities that attempts to use relational data. All of the **7** customer ids had `Source` set to **"In Store"**, which was evident via the Split flows.
+>The Read audience showed **9** profiles. Because you built a filter on Source, and the Source field exists in the Relational store, you had to join the Profile store with the Relational store to check it. When joined with the Relational schema via the Campaign Target Dimension, only a total of **7** profiles matched. These **7** matched customer ids are available for use in the following activities that attempt to use relational data. All of the **7** customer ids had `Source` set to **"In Store"**, which was evident via the Split flows.
 >
 >Hence, maintaining data consistency is critical when using AEP Profiles along with their relational counterparts for enrichment.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations, this completes the lab on using the Read Audience activity with Relational schema.
 
 ## Recap
 
-You have now seen how easy it is to create a Campaign, perform a Read Audience activity along with the Profile Target Dimension to leverage the relational schema. You used the Split activity to split the audience based on a condition. Finally, the test mode helped understand that it is important to have the data consistency between the Profile and the Relational schema.
+You have now seen how easy it is to create a Campaign, perform a Read Audience activity along with the Profile Target Dimension to use the relational schema. You used the Split activity to split the audience based on a condition. Finally, the test mode helped understand that it is important to have the data consistency between the Profile and the Relational schema.
 
 You can read more [here](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) if you are interested.

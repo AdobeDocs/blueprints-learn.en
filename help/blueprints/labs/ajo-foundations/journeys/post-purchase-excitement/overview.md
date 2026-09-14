@@ -14,17 +14,20 @@ exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
 >
 >The below labs must have been completed before starting this lab
 
-These labs must have been completed before starting this lab:
-
+- **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Profile](../../data-stores/configure-email-channels/configure-for-profile.md) 
-  *(this can take up to 3hrs to complete)*
+  *(this step takes up to 3hrs to complete)*
 
-If you have not done so please complete these now
+If you have not done so, complete these now
+
+>[!CAUTION]
+>
+>This lab requires a subdomain delegated to Adobe in your sandbox. See [Setup](../../setup.md) if you're self-paced and don't have one yet.
 
 ## Lab overview
 
-In this video you will learn how the post-purchase excitement use case maps to a journey, walking through the critical thinking questions and the architecture for sending a personalized shipping notification once an order ships.
+In this video you learn how the post-purchase excitement use case maps to a Journey, walking through the critical thinking questions and the architecture for sending a personalized shipping notification once an order ships.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491146/)
 
@@ -45,9 +48,9 @@ When a customer places an order, you want to send a confirmation message with or
 
 **Key callouts:**
 
-- The initial order placed would typically be implemented as transactional message as people don't want to wait around for a confirmation they just order something.
+- The initial order confirmation would typically be implemented as a transactional message because customers don't want to wait for a confirmation after they place an order.
 - The order shipped notification could also be implemented using transactional messaging, but it could be built in a journey, allowing for a custom action to retrieve shipping information and enhance the customer communication.
 
 >[!NOTE]
 >
->In this lab you will only build out the Order Shipped message and skip the Order Confirmation message.
+>In this lab you only build out the Order Shipped message and skip the Order Confirmation message.

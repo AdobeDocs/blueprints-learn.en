@@ -10,7 +10,7 @@ exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
 
 ## Objective
 
-In the next set of steps you will create an Email Channel Configuration for use with only Orchestrated Campaigns, using the `email` attribute from the Relational schema `dep-rel: Customer Account` 
+In the next set of steps, you create an Email Channel Configuration for use with only Orchestrated Campaigns, using the `email` attribute from the Relational schema `dep-rel: Customer Account` 
 
 ## Create channel configuration
 
@@ -46,6 +46,10 @@ From the **Subdomain** dropdown, select **email.dep-labs.com**
 
 ![Subdomain dropdown with email.dep-labs.com selected](assets/configure-for-profile-select-email-subdomain.png "Configure Subdomain")
 
+>[!NOTE]
+>
+>If you're self-paced and don't have a pre-provisioned subdomain, select your own subdomain delegated to Adobe here instead of `email.dep-labs.com`. See [Setup](../../setup.md) for how to delegate one.
+
 ## Configure IP pool details
 
 From the **IP pool** dropdown, select **marketing**
@@ -54,7 +58,7 @@ From the **IP pool** dropdown, select **marketing**
 
 ## Configure list unsubscribe
 
-1. Ensure that the toggle is **enabled** for list-unsubscribe
+1. Ensure that the toggle is **enabled** for list unsubscribe
 1. Under the List unsubscribe preference area make sure all the checkboxes are **checked**
 1. Under Link management make sure **Adobe managed** is selected
 1. For the Consent level make sure this is set to **Channel**
@@ -74,11 +78,11 @@ From the **IP pool** dropdown, select **marketing**
 
 ## Configure BCC email
 
-Leave this blank
+Leave the BCC email field blank
 
 >[!NOTE]
 >
->You can keep a copy of sent emails by sending them to a BCC inbox. Enter the email address of your choice so that every email sent is blind-copied to this BCC address. Note that the BCC address domain must be different from any subdomain delegated to Adobe. This feature is optional. *How to use BCC for emails*
+>To keep a copy of sent emails, send them to a BCC inbox. Enter the email address of your choice so that every email sent also goes to this BCC address. Note that the BCC address domain must be different from any subdomain delegated to Adobe. This feature is optional. *How to use BCC for emails*
 
 ## Configure email retry parameters
 
@@ -120,7 +124,7 @@ Leave with the default settings
 
 >[!NOTE]
 >
->For Orchestrated Campaigns, you target the customer account with an email, so you only need to send one message per Target Dimension.  The Execution address you use comes from the Target Dimension itself (i.e. what is stored in the **dep-rel: Customer Account** table for **email** address)
+>For Orchestrated Campaigns, you target the customer account with an email, so you only need to send one message per Target Dimension.  The Execution address you use comes from the Target Dimension itself (that is, what is stored in the **dep-rel: Customer Account** table for **email** address)
 
 
 ## Review & save

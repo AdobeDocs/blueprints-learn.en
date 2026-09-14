@@ -10,7 +10,7 @@ exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
 
 ## Learning objective
 
-Create a custom action that defines how the journey will communicate with an external endpoint or service to get an ETA for when the package will arrive.
+Create a custom action that defines how the journey communicates with an external endpoint or service to get an ETA for when the package arrives.
 
 ## Navigate to actions
 
@@ -51,7 +51,7 @@ In the Endpoint configuration area provide the following details:
 
 >[!NOTE]
 >
->A variable allows for us to pass in a value during a journey vs having a static value for all journeys
+>A variable allows you to pass in a value during a journey instead of using a static value for all journeys
 
 - **Authentication Type**: `No Authentication`
 
@@ -63,7 +63,7 @@ In the Endpoint configuration area provide the following details:
 
 ### Response payload details
 
-Now you need to provide a sample payload so the action knows what the response payload should look like.
+Now you need to provide a sample payload so the action knows what the response payload looks like.
 
 1. In the Payloads area click on the **Pencil icon** to open the Field configuration screen
 
@@ -87,19 +87,19 @@ Now you need to provide a sample payload so the action knows what the response p
    >This is the same JSON structure that the Mockaroo endpoint above should return:
 
 
-3. The response payload will display. Click the **Save** button.
+3. The response payload displays. Click the **Save** button.
 
 ![Response payload displayed with the Save button](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
->You can leave everything as a string but in real-life you would probably want to update this to match the data type
+>You can leave everything as a string but in real life you would probably want to update this to match the data type
 
 
 
 ### Test the action
 
-1. Click the **Send test request** button in the bottom right rail to validate you didn't mess anything up 😀
+1. Click the **Send test request** button in the bottom right rail to confirm your configuration works correctly
 
    ![Send test request button in the bottom right rail](assets/configure-custom-action-click-send-test-request.png)
 
@@ -126,13 +126,13 @@ Now you need to provide a sample payload so the action knows what the response p
 
    >[!WARNING]
    >
-   >If you are not seeing a 200 response or a Preview do not continue. Raise your ✋to get some help.
+   >If you are not seeing a 200 response or a Preview, do not continue. Ask your facilitator for help.
 
 
 
 4. Click the **Cancel** button to go back to the Action screen and then scroll back up in top right rail and click the **Save** button
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congrats! Your Custom Action is live, thanks to your expert-level Ctrl+C, Ctrl+V skills.
 

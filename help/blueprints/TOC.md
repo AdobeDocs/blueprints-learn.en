@@ -2,7 +2,7 @@
 user-guide-title: Customer Experience Orchestration Business Objectives, Use Cases, Architecture Diagrams & Blueprints
 breadcrumb-title: Use Cases & Blueprints 
 user-guide-description: xplore key business objectives, use case patterns, and industry use cases for Adobe Experience Platform and applications. Visual architecture diagrams and blueprints provide technical references for system integration, data flows, and solution design — connecting business value to implementation.
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
@@ -205,7 +205,6 @@ nudge: orange
             + [View Schema](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [Recap](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + Bonus Labs{#aep-xdm-bonus}
-          + [Overview](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [Automate with APIs](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + Data Ingestion{#aep-ingestion}
         + [Lectures](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -234,7 +233,6 @@ nudge: orange
           + [Monitoring and Debugging Errors](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [Verification and Validation](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + Bonus Labs{#aep-ingestion-bonus}
-          + [Overview](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [Fix MAPPER Errors for CreateDate](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [Stream an Order Event](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + Using Data Landing Zone{#aep-ingestion-dlz}
@@ -281,7 +279,6 @@ nudge: orange
           + [Build Use Case 3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [Critical Thinking Review](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + Bonus Labs{#aep-audiences-bonus}
-          + [Overview](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [Send Order Event to Hub](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [Send Web Event to Hub](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [Monitor Your Event](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

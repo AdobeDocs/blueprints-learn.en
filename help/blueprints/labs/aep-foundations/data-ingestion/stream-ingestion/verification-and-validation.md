@@ -29,7 +29,7 @@ exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
 
 >[!NOTE]
 >
->**Preview dataset** will only show the first few rows of the dataset. Array objects are not viewable. 
+>**Preview dataset** only shows the first few rows of the dataset. Array objects are not viewable. 
 
 
 
@@ -50,13 +50,13 @@ exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
 
 
 
-1. Turn the toggle for **Enhanced Query Editor**
+1. Enable the **Enhanced Query Editor** toggle
 
    ![Query editor interface with the Enhanced Query Editor toggle enabled](assets/verification-and-validation-enhanced-query-editor-toggle.png "Query editor interface")
 
 
 
-1. Copy paste the following SQL query in the **Editor**. Remember to replace `<table_name>` with the value you obtained in step 2.
+1. Copy and paste the following SQL query in the **Editor**. Remember to replace `<table_name>` with the value you obtained in step 2.
 
    ```sql
    SELECT * FROM <table_name>
@@ -76,12 +76,12 @@ exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
 
 
 
-1. To access the data in the `postalCode` **node**, you can type:
+1. Type the following to access the data in the `postalCode` **node**:
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully ingested and created a sample set of Real-Time Customer Profiles

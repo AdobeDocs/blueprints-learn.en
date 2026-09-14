@@ -44,10 +44,10 @@ exl-id: db690081-e857-4875-8bb9-7ac197d73cab
 
 1. Save your request before continuing using the `Save` button
 
-1. Execute the API by clicking the `Send` button. You should now see a `201 Created` response like below
+1. Execute the API by clicking the `Send` button. You now see a `201 Created` response as shown below
 
 ![201 Created response after successfully creating primary identity descriptor](assets/create-primary-identity-201-created-response.png "Successfully created primary identity descriptor")
 
->[!TIP]
+>[!SUCCESS]
 >
->Congratulations!  You just created a primary identity descriptor in your schema
+>Congratulations!  You created a primary identity descriptor in your schema

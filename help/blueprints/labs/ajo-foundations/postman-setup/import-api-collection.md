@@ -10,7 +10,7 @@ exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
 
 ## Objective
 
-In this step you will be importing the API collection which contains all the various requests you will need to make throughout the bootcamp.  These API requests are reliant on the environment file you just imported.
+In this step, you import the API collection, which contains all the various requests you need to make throughout the bootcamp.  These API requests are reliant on the environment file you just imported.
 
 
 
@@ -20,13 +20,13 @@ In this step you will be importing the API collection which contains all the var
 
    Download File — [AJO Bootcamp (Labs).postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-2. Like before, click on the **Import** button.
+2. As before, click on the **Import** button.
 3. Paste the local URL of the **AJO Bootcamp (Labs).postman\_collection.json** file into the import modal text box or drop it into the import dialog box.  This triggers an automatic import.
 4. After the import process is complete, click on **Collections** in the left navbar, expand the **AJO Bootcamp (Labs)** folder, and you see the newly imported collection
 
 ![verify postman collection import](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Congratulations!  You have successfully imported the bootcamp's Postman Collection
 
@@ -34,14 +34,14 @@ In this step you will be importing the API collection which contains all the var
 
 ## Validate environment variables
 
-The collection you imported contains all the necessary API calls you will need for labs throughout the bootcamp.  Each lab is organized into a specific folder with its own set of requests.  
+The collection you imported contains all the API calls you need for labs throughout the bootcamp.  Each lab is organized into a specific folder with its own set of requests.  
 
-Details about each folder can be found below:
+Details about each folder appear below:
 
 - **Profile & Journey Labs** - Contains a set of requests for sending a Web Event and an event that simulates a shipping confirmation.
 - **Decisioning Labs** - Contains requests for 3 visitors that mimic the top and bottom page calls that would typically be found on an AEP Web SDK-tagged site.
 
-To ensure that the environment and collection are functioning correctly together, please follow these steps. 
+To ensure that the environment and collection are functioning correctly together, follow these steps. 
 
 1. If necessary, click on **Collections** in the left rail and then expand the **Profile & Journey Labs** folder. 
 2. Click on the **Create Web Event** request, and you see that environment variables are **red**

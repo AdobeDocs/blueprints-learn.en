@@ -10,27 +10,27 @@ exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
 
 ## Objective
 
-In the next few steps you will learn how to test your workflow and more importantly your SMS activity using test mode. 
+In the next few steps you learn how to test your workflow and more importantly your SMS activity using test mode. 
 
 
 
 ## Verify workflow
 
-1. The final workflow looks something like the following when you are done. Double check everything looks good. You see:
+1. The final workflow looks something like the following when you are done. Double-check everything looks good. You see:
 
    ![Final workflow canvas ready for testing](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. If you haven't already stopped your workflow ensure you do so now by clicking the **Stop** button in the upper right.
+2. If you haven't already stopped your workflow, click the **Stop** button in the upper right.
 
    ![Stop button in the upper right of the workflow](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
-   >Optionally you can try clicking on the Restart button but it's likely you'll see an error since you've added activities after the workflow was created, and its cache is no longer valid.
+   >Optionally, try clicking on the Restart button, but it's likely you'll see an error since you've added activities after the workflow was created, and its cache is no longer valid.
 
 
 
-3. Next click the **Start** button to execute and test the workflow end to end
+3. Next click the **Start** button to execute and test the workflow end-to-end
 
    ![Start button to execute the workflow test](assets/run-the-workflow-click-start-button.png)
 
@@ -44,7 +44,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
 
 
-5. You see **33 records** and the targeting dimension matches the Customer ID (the join key if you will to profile)
+5. You see **33 records** and the targeting dimension matches the Customer ID (the join key to profile)
 
 ![33 records with targeting dimension matching Customer ID](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -64,7 +64,7 @@ In the next few steps you will learn how to test your workflow and more importan
 
    >[!NOTE]
    >
-   >This screen will not be populated initially as it takes some time to execute the test run. You may need to refresh a few times before you see results.
+   >This screen is not populated initially as it takes some time to execute the test run. You may need to refresh a few times before you see results.
 
 
 
@@ -90,11 +90,11 @@ In the next few steps you will learn how to test your workflow and more importan
 
 ## Explanation
 
-So here is what happened.
+Here is what happened.
 
-- You had 33 customer lines that you wanted to send a SMS message
+- You had 33 customer lines that you wanted to send an SMS message
 - After the change dimension activity 4 of those customer lines had no associated customer account
-- The join to the Real-Time Customer Profile requires you have a Customer ID and since there is none on those 4 records there is no way to lookup a profile or create a new one on the fly
+- The join to the Real-Time Customer Profile requires you have a Customer ID and since there is none on those 4 records there is no way to look up a profile or create a new one immediately
 
 Result --> Orchestrated Campaigns drops those 4 records on message execution 
 
@@ -105,9 +105,9 @@ Result --> Orchestrated Campaigns drops those 4 records on message execution
 >1. Make sure an exclusion log is created for records that are missing a targeting dimension on send
 >2. Update the Change dimension activity to do an inner join vs. external join which would drop those 4 records up front
 
->[!TIP]
+>[!SUCCESS]
 >
->Congratulations! You are now officially certified to unleash your very own Orchestrated Campaigns and broadcast messages to the world—responsibly, we hope. Go forth and market like a majestic digital wizard!
+>Congratulations! You are now officially certified to launch your very own Orchestrated Campaigns and broadcast messages to the world—responsibly. Now you can market with confidence!
 
 
 
@@ -116,7 +116,7 @@ Result --> Orchestrated Campaigns drops those 4 records on message execution
 You are not going to do this in the lab, but for context here is what happens at publication time:
 
 1. Scheduler kicks in if the campaign has a schedule set
-1. Save Audience activities create the audience shell within in the Audience Portal and the qualified profiles start ingesting
+1. Save Audience activities create the audience shell within the Audience Portal and the qualified profiles start ingesting
 1. Message execution starts for the first message activity in the workflow
    - Profile lookups occur against the Profile snapshot
      - Matching profiles honor the consent found on the profile
