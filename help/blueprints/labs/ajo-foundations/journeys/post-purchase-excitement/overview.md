@@ -16,11 +16,16 @@ exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
 
 These labs must have been completed before starting this lab:
 
+- **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Profile](../../data-stores/configure-email-channels/configure-for-profile.md) 
   *(this can take up to 3hrs to complete)*
 
 If you have not done so please complete these now
+
+>[!CAUTION]
+>
+>This lab requires a subdomain delegated to Adobe in your sandbox. See [Setup](../../setup.md) if you're self-paced and don't have one yet.
 
 ## Lab overview
 

@@ -37,7 +37,7 @@ You will start by creating the API connector that AJO will use to send outbound 
 
 >[!NOTE]
 >
->You'll need a free Twilio trial account with a verified phone number before starting this step. Sign up at [twilio.com/try-twilio](https://www.twilio.com/try-twilio), then find your Account SID and Auth Token on the Twilio Console dashboard.
+>You'll need a free Twilio trial account with a verified phone number before starting this step. Sign up at [twilio.com/try-twilio](https://www.twilio.com/try-twilio), then find your Account SID and Auth Token on the Twilio Console dashboard. See Twilio's [getting started guide](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) for a full walkthrough.
 
 ![SMS API credential fields for the Twilio vendor](assets/configure-sms-channel-enter-api-credentials.png)
 

@@ -14,11 +14,16 @@ exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
 >
 >The below labs must have been completed before starting this lab
 
+- **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Relational Store in Action** **-->** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Data Stores -- Configure Email Channels -->** [Configure for Relational](../../data-stores/configure-email-channels/configure-for-relational.md)
   *(this setup step takes up to 3hrs to complete)*
 
 If you have not completed these labs please do so now before continuing.
+
+>[!CAUTION]
+>
+>This lab requires SMS credentials in your sandbox to complete the Configure SMS channel step — no actual messages are sent, but Twilio credentials must be present. See [Setup](../../setup.md) if you're self-paced and haven't provisioned these yet.
 
 ## Lab overview
 

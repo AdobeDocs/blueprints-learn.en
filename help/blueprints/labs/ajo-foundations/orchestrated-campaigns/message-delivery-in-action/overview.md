@@ -19,6 +19,10 @@ exl-id: 84b16fff-f733-439a-9a93-726811e543ce
 
 If you have not completed these labs please do so now before continuing.
 
+>[!CAUTION]
+>
+>This lab requires a subdomain delegated to Adobe in your sandbox. See [Setup](../../setup.md) if you're self-paced and don't have one yet.
+
 ## Lab overview
 
 In this video you will learn how to build the orchestrated campaign for this lab, including building and forking a Basic plan member audience and comparing delivery results between the Profile and Relational email channels.

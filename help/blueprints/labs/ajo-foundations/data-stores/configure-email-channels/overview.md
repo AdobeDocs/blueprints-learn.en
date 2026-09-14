@@ -8,6 +8,10 @@ exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
 
 # Configure email channels
 
+>[!CAUTION]
+>
+>This lab requires a subdomain delegated to Adobe in your sandbox. If you're self-paced and haven't set one up yet, see [Setup](../../setup.md) before continuing — this step can take time to complete.
+
 ## Lab overview
 
 In this video you will learn how to create the two email channel configurations used in this lab -- one using an AEP Profile attribute and one using a Relational schema attribute as the execution address.

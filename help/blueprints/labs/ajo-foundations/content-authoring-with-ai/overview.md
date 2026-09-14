@@ -19,6 +19,10 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 If you have not completed these labs please do so now before continuing.
 
+>[!CAUTION]
+>
+>This lab requires a subdomain delegated to Adobe in your sandbox. See [Setup](../setup.md) if you're self-paced and don't have one yet.
+
 ## Lab overview
 
 In this video you will learn what to expect across the three acts of this hands-on lab -- setting up the Connection 5G brand, building fragments, templates, and an AI-assisted email, and validating it through simulation and a proof send.

@@ -45,6 +45,11 @@ exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
 - Exposure to CDPs, marketing automation, or other martech platforms
 
 
+## Prerequisites
+
+If you're working through this bootcamp at your own pace, two labs need external accounts arranged ahead of time: **Configure email channels** needs a subdomain delegated to Adobe, and **Flagship phone launch** needs SMS credentials. See [Setup](setup.md) for details.
+
+
 ## Introduction
 
 This video introduces Adobe Journey Optimizer, explaining what personalization at scale means, why it's difficult to achieve, and how AJO — built natively on Adobe Experience Platform — addresses those challenges.

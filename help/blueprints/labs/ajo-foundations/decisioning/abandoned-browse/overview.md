@@ -14,6 +14,7 @@ exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
 >
 >The below labs must have been completed before starting this lab
 
+- **Postman setup** **-->** [Postman installation](../../postman-setup/postman-installation.md)
 - **Data Stores -- Profile in Action** **-->** [Create Datastream](../../data-stores/profile-in-action/create-datastream.md)
 
 If you have not completed these labs please do so now before continuing.
