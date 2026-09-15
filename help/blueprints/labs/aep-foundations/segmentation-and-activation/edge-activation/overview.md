@@ -18,6 +18,10 @@ Adobe has three speeds of activation meant to address different needs:
 
 We will go through how to activate using the Adobe Edge with Event Forwarding, Edge Audiences and Edge Personalization. We will then show how to use Streaming Destinations from the Hub to both the Edge and to an external destination.
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../setup.md) before starting this lab. You also need access to [webhook.site](https://webhook.site/) to capture the event sent to the external destination.
+
 >[!NOTE]
 >
 >We will not be covering Batch Activation in this lab. Batch Activation can be scheduled at different intervals and the timing makes it hard to showcase in a lab environment without having at least 3-24 hours.

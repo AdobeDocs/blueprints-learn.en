@@ -8,6 +8,10 @@ exl-id: d5de39d7-7340-487a-86fa-504344daeab7
 
 # Send order event to Hub
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../postman-setup/postman-installation.md) before starting this lab. You also need access to [webhook.site](https://webhook.site/) and the **Streaming DEP Webhook** destination created in the [Acquisition use case](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
+
 ## Streaming to Hub vs Edge
 
 In Use Case #1 we sent in an Event to the Edge.  There are some use cases where we may have a back end system that wants to stream in an event, but does not need to send it to the Edge.  This lab shows how to do that by streaming in an Order event to the Hub.

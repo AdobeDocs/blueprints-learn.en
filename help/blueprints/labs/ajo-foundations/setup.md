@@ -30,6 +30,10 @@ Postman is required for the labs in this course, regardless of how your sandbox 
 - [Import environment file](postman-setup/import-environment-file.md)
 - [Import API collection](postman-setup/import-api-collection.md)
 
+## On-demand readiness
+
+Before starting the labs, complete the Postman configuration above. Self-paced learners also need a delegated subdomain for the email-dependent labs and SMS credentials for the Flagship phone launch lab.
+
 ## Channel prerequisites
 
 Two labs later in this bootcamp depend on external accounts that only self-paced learners need to arrange — if you're in a live training course or event, these are already provisioned for you.

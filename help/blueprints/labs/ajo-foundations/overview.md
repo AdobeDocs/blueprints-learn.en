@@ -47,7 +47,7 @@ exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
 
 ## Prerequisites
 
-If you're working through this bootcamp at your own pace, two labs need external accounts arranged ahead of time: **Configure email channels** needs a subdomain delegated to Adobe, and **Flagship phone launch** needs SMS credentials. See [Setup](setup.md) for details.
+If you're working through this bootcamp at your own pace, complete [Postman setup](setup.md#postman-setup) before starting the labs. **Configure email channels** and its dependent labs need a subdomain delegated to Adobe, and **Flagship phone launch** needs SMS credentials. See [Setup](setup.md) for details.
 
 
 ## Introduction

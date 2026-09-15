@@ -17,6 +17,10 @@ In this exercise, we will load the Customer Account data from a streaming source
 - Getting Dataflow ID and Dataset ID from the UI
 - Using REST API to ingest an event
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../setup.md) before starting this lab.
+
 >[!NOTE]
 >
 >If you did not complete the Customer Accounts schema creation in the previous labs, you can browse into the schema catalog and use **dep: Customer Account** instead

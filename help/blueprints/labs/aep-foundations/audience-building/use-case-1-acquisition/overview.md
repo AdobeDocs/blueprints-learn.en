@@ -20,6 +20,10 @@ In this video you will learn how to approach building the audience for the iPhon
 
 Activate all profiles who have visited an iPhone 14 product page and no order exists for an iPhone 14 or do not have an active iPhone 14.
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../setup.md) before starting this lab. You also need access to [webhook.site](https://webhook.site/) to capture the activated audience data.
+
 
 
 ## Analysis tasks
