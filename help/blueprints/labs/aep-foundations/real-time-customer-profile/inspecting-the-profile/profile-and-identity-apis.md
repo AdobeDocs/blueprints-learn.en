@@ -8,6 +8,10 @@ exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
 
 # Profile & identity APIs
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../setup.md) before starting the Profile and Identity API exercises.
+
 ## Profile Entity API
 
 Knowing how to utilize the profile APIs is critical when it comes to working with the Real-Time Customer Profile. It unlocks the ability for fast triage and debug while also exposing you to many possible system integrations, from call centers to kiosks.

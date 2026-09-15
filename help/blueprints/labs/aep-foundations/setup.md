@@ -10,6 +10,12 @@ exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
 
 Before you start the AEP Foundations labs, complete the setup steps below. Which steps you need depend on how you're taking this bootcamp.
 
+## Requirements and access
+
+- Complete the [Postman setup](#postman-setup) before starting labs that make API calls.
+- Access to [webhook.site](https://webhook.site/) is required for the Edge activation and audience activation labs that send events to an external destination.
+- The LID Methodology exercises require a printer to print the workbook and a pen or pencil to complete it. See [LID Methodology prerequisites](lid-methodology/prerequisites.md).
+
 ## Sandbox setup
 
 >[!NOTE]

@@ -8,6 +8,10 @@ exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
 
 # Send web event to Hub
 
+>[!IMPORTANT]
+>
+>Complete [Postman setup](../../postman-setup/postman-installation.md) before starting this lab. You also need access to [webhook.site](https://webhook.site/) for the related [external-destination activation workflow](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
+
 ## Open Postman
 
 Launch postman on your computer and navigate to the following API call:
@@ -79,9 +83,8 @@ A successful call should result in the following response...
    1. Any Event Edge (within 15 minutes)
       1. Remember: all audiences saved with an Edge evaluation also are evaluated on the Hub when streaming data comes in
    2. dep: Any Event Streaming (within the hour)
-1. You may not see anything appear at your webhook if you have no new Segments.  
-1. Event Forwarding won't send anything.
-   1. Why? This event went to the Hub, not the Edge, thus, the event will not appear as anything for Event Forward to send, nor in Assurance.
+1. This Hub event is not sent to your webhook.
+   1. Event Forwarding processes events sent to the Edge, not events sent directly to the Hub. Use the [external-destination activation workflow](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) to capture an event at webhook.site.
 1. After at least 30 minutes, you can even check your dataset with the following:
    1. Change the table name below to the one from your sandbox.  To find it, go to your dataset list and filter on "`dest`", open the dataset and copy the table name on the right rail.
 
