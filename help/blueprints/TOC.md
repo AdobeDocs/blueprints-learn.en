@@ -107,6 +107,7 @@ nudge: orange
   + B2B activation & marketing{#b2b-activation}
     + [Overview](/help/blueprints/b2b/overview.md)
     + [B2B activation](/help/blueprints/b2b/b2bactivation.md)
+    + [B2B Audience and Profile Activation](/help/blueprints/b2b/b2b-audience-profile-activation.md)
     + [B2B account activation](/help/blueprints/b2b/b2b-account-activation.md)
     + [Buying group-based marketing and journey management](/help/blueprints/b2b/b2b-buying-group-journeys.md)
     + [B2B journeys using Marketo data](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
