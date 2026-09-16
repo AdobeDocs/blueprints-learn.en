@@ -47,7 +47,7 @@ With this capability, you can deliver highly personalized experiences on your we
 
 >[!NOTE]
 >
->Edge profile access is specifically designed for high throughput, low latency use cases such as web/mobile inbound personalization and real-time offer decisioning. For lower throughput scenarios such as agent assisted support or sales interactions, the Hub profile lookup API is more appropriate. See the [Real-time Profile Access for Support and Sales Scenarios diagram](customer-activity.md) for hub-based profile access.
+>Edge profile access is specifically designed for high throughput, low latency use cases such as web/mobile inbound personalization and real-time offer decisioning. For lower throughput scenarios such as agent assisted support or sales interactions, the Hub profile lookup API is more appropriate.
 
 ## Applications
 

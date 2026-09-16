@@ -60,16 +60,7 @@ Both solutions enable outbound communication across traditional and digital chan
 The selection between these tools depends on architectural considerations such as latency tolerance, channel requirements, data integration strategy, and scalability.
 
 <br>
-
 | Diagram | Description |
 | --- | --- |
 | [Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md) | Combines event-driven, 1:1 profile orchestration, with audience-based brand communications across multiple channels like email, sms, web, push, in-app messaging, desktop, etc. |
 | [Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md) | Focused on batch-based, multi-channel campaign management, ideal for traditional marketing channels like email, SMS, and direct mail. |
-
-<br>
-
-## Deprecated diagrams
-
-| Diagram | Description |
-| --- | --- |
-| [Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md) | Legacy batch-based, multi-channel campaign management architecture, superseded by Campaign v8. |

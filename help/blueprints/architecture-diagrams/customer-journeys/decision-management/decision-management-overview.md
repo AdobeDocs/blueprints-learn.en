@@ -59,11 +59,11 @@ The Decision Management capability consists in two main components:
 
 <img src="images/offers_overview.png" alt="Decision Management" style="width:100%; border:1px solid #4a4a4a" />
 
-Decision Management can be deployed in one of two ways, on the edge or via the hub. Each of these methods has a specific set of interfaces and protocols for operating the service as outlined in the respective diagrams referenced below. Additional details can also be obtained in the [Decision Management documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
+Decision Management can be deployed in one of two ways, on the edge or via the hub. Each of these methods has a specific set of interfaces and protocols for operating the service. Additional details can also be obtained in the [Decision Management documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## Decision Management on the hub
 
-The first is via the Adobe Experience Platform hub, which is a central data center architecture. The hub architecture is best suited for customer experiences that do not demand low latency and high throughput, but do require a fuller view of the customer profile, examples include offer decisions which are provided for kiosks or agent assisted experiences such as in call centers or in person interactions. Offers that are inserted into emails, SMS messages, or push notifications and other outbound campaigns are also powered by the hub approach. To learn more about Decision Management on the hub refer to the [Decision Management on the hub](decision-management-hub.md) diagram.
+The first is via the Adobe Experience Platform hub, which is a central data center architecture. The hub architecture is best suited for customer experiences that do not demand low latency and high throughput, but do require a fuller view of the customer profile, examples include offer decisions which are provided for kiosks or agent assisted experiences such as in call centers or in person interactions. Offers that are inserted into emails, SMS messages, or push notifications and other outbound campaigns are also powered by the hub approach.
 
 * Offer eligibility can operate agains the full real-time customer profile, including all attributes and experience events
 
@@ -80,7 +80,7 @@ The first is via the Adobe Experience Platform hub, which is a central data cent
 
 ## Decision Management on the edge
 
-The second approach is via the Experience [!DNL Edge Network], which is a globally distributed geographically located infrastructure to serve fast sub-second and millisecond experiences. The end consumer experience being executed by the edge infrastructure closest to the consumers geo-location to minimize latency. Decision Management on the Edge is designed to serve real-time consumer experiences such as web or mobile inbound personalization requests. To learn more about Decision Management on the Edge refer to the [Decision Management on the edge](decision-management-edge.md) diagram.
+The second approach is via the Experience [!DNL Edge Network], which is a globally distributed geographically located infrastructure to serve fast sub-second and millisecond experiences. The end consumer experience being executed by the edge infrastructure closest to the consumers geo-location to minimize latency. Decision Management on the Edge is designed to serve real-time consumer experiences such as web or mobile inbound personalization requests.
 
 ### Use cases for Decision Management on the edge
 

@@ -97,15 +97,11 @@ nudge: orange
     + [Application SDKs](/help/blueprints/architecture-diagrams/architecture-overviews/appsdk.md)
   + Audience & Profile Activation{#audience-profile-activation}
     + [Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
-    + [Device Based - Anonymous audience targeting with Audience Manager](/help/blueprints/architecture-diagrams/audience-profile-activation/audience-manager.md)
     + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [Audience activation to social and advertising destinations](/help/blueprints/architecture-diagrams/audience-profile-activation/advertising-activation.md)
       + [Audience and profile activation to enterprise destinations](/help/blueprints/architecture-diagrams/audience-profile-activation/enterprise-destinations.md)
-      + [Real-time profile access for support and sales scenarios](/help/blueprints/architecture-diagrams/audience-profile-activation/customer-activity.md)
       + [Real-time edge profile access for web and mobile personalization](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
-      + [Audience collaboration with Segment Match](/help/blueprints/architecture-diagrams/audience-profile-activation/segment-match.md)
-      + [Known customer personalization with Target](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target.md)
-      + [Custom data science for profile enrichment](/help/blueprints/architecture-diagrams/audience-profile-activation/data-science.md)
+      + [RTCDP + Target Integration Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target.md)
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2bactivation.md)
@@ -133,8 +129,6 @@ nudge: orange
       + [Third-party messaging](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/3rd-party-messaging.md)
     + Decision Management{#decision-management}
       + [Overview](/help/blueprints/architecture-diagrams/customer-journeys/decision-management/decision-management-overview.md)
-      + [Decision Management on the Edge](/help/blueprints/architecture-diagrams/customer-journeys/decision-management/decision-management-edge.md)
-      + [Decision Management on the Hub](/help/blueprints/architecture-diagrams/customer-journeys/decision-management/decision-management-hub.md)
     + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview.md)
       + [Real-Time CDP with Adobe [!DNL Campaign] v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
@@ -144,7 +138,6 @@ nudge: orange
         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
         + [Real-Time CDP with Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
-        + [Campaign v7](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
 + Hands-on Labs{#labs}
   + [Hands-on Labs Overview](/help/blueprints/labs/overview.md)
