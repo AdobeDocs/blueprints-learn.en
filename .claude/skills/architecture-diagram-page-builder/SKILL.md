@@ -143,12 +143,11 @@ Read `references/toc-placement.md` for the full subsection-mapping table and rul
 
 | Topic folder | TOC subsection |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (sub-subsection of Architecture overviews) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Entry format (4-space indent + `+`):
 
@@ -183,5 +182,5 @@ Fix any validation issues before considering the task complete.
 - Always use `[!DNL ...]` syntax for Adobe product names in body text and bullets, following the convention of existing pages.
 - Architecture diagrams are typically SVG (preferred for crispness and scaling) but PNG is acceptable for raster-source artwork.
 - The `<img>` embed inline-styling string (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) and `class="modal-image"` are required -- they enable the Experience League modal-zoom interaction.
-- If the user is creating a page for a brand-new topic folder that does not exist yet, warn them that TOC.md needs a new top-level subsection under `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Handle that as a separate step with the user's explicit approval.
+- If the user is creating a page for a brand-new topic folder that does not exist yet, stop and use the `architecture-diagram-category-builder` skill instead -- it handles naming-convention enforcement, TOC.md subsection creation, the category `overview.md`, and the landing-page card grid. Do not create a new topic folder from within this skill.
 - If the architecture diagram extensively documents a *single use case end-to-end* (with KPIs, business objectives, capabilities), redirect the user to `use-case-pattern-builder` -- that is not an architecture page.

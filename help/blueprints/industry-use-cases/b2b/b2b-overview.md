@@ -10,7 +10,7 @@ Business-to-business organizations use Adobe Experience Platform to unify accoun
 
 >[!NOTE]
 >
->For B2B-specific architecture blueprints including account-based activation and buying group management, see the [B2B activation & marketing blueprints](/help/blueprints/b2b/overview.md).
+>For B2B-specific architecture blueprints including account-based activation and buying group management, see the [B2B activation & marketing blueprints](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md).
 
 ## Account-Based Marketing Personalization
 

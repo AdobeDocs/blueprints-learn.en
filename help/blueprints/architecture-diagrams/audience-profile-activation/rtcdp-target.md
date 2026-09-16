@@ -1,0 +1,121 @@
+---
+title: Known Customer Personalization with Target
+description: Integrate RTCDP profiles and audiences with Adobe Target.
+landing-page-description: Integrate RTCDP profiles and audiences with Adobe Target.
+short-description: Integrate RTCDP profiles and audiences with Adobe Target.
+solution: Real-Time Customer Data Platform, Target, Experience Platform
+kt: 7194
+thumbnail: thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
+TQID: https://experienceleague.adobe.com/1ti2SqfAFOgnKbaJ70xwGI-xHDE1WXJ7-oTStcJJy1E
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
+    internal-label: Segmentation
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+  - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
+subfeature_v2:
+  - id: cbd4a8d8-97a6-4ac9-b8d6-b6c1f28d3342
+    internal-label: Segments
+  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+    internal-label: B2B
+  - id: d1823595-9241-4128-8a33-e4ac3bf08773
+    internal-label: Audiences
+  - id: ee602049-8a18-43df-9299-a689a025a371
+    internal-label: Use cases
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+---
+# Known Customer Personalization with Target
+
+>[!TIP]
+>This architecture is also documented as a [use case pattern](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md) under Personalization.
+
+## Use cases
+
+* Online personalization with known customer data
+* Landing page optimization
+* Personalization based on prior product/content views, product/content affinity, environmental attributes, and demographics in addition to offline data such as transactions, loyalty and CRM data, and modeled insights
+* Share and target audiences defined in Real-time Customer Data Platform on websites and mobile apps using Adobe Target
+
+## Applications
+
+* [!UICONTROL Real-time Customer Data Platform]
+* Adobe Target
+
+### Reference documentation
+
+* [Adobe Target Connection for Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [Edge Datastream Configuration](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+
+## Integration patterns
+
+| Integration Pattern | Capability | Pre-Requisites |
+|--------------------|------------|---------------|
+| **Real-time segment evaluation on the Edge shared from Real-time Customer Data Platform to Target** | - Evaluate audiences in real-time for same or next page personalization on the Edge. <br>- Any segments evaluated in streaming or batch fashion will also be projected to the Edge Network to be included in edge segment evaluation and personalization. | - Web/Mobile SDK must be implemented or the Edge Network Server API. <br>- Datastream must be configured in Experience Edge with the Target and Experience Platform extension enabled. <br>- Target destination must be configured in Real-time Customer Data Platform Destinations. <br>- Integration with Target requires the same IMS Org as the Experience Platform instance. |
+| **Streaming and batch audience sharing from Real-time Customer Data Platform to Target via the Edge approach** | - Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network. <br>- Audiences evaluated in real-time require the Web SDK and Edge Network implementation. | - Web/Mobile SDK or Edge API implementation of Target is not required for sharing streaming and batch RTCDP audiences to Target but is required to enable real-time edge segment evaluation. <br>- If using AT.js, only profile integration against the ECID identity namespace is supported. <br>- For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required, and each identity must be set as an identity in the identity map. <br>- Target destination must be configured in Real-time Customer Data Platform Destinations, only the default production sandbox in RTCDP is supported. <br>- Integration with Target requires the same IMS Org as the Experience Platform instance. |
+| **Streaming and batch audience sharing from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing Service Approach** | - This integration pattern can be leveraged when additional enrichment from 3rd party data and audiences in Audience Manager is desired. | - Web/Mobile SDK is not required for sharing streaming and batch audiences to Target but is required to enable real-time edge segment evaluation. <br>- If using AT.js, only profile integration against the ECID identity namespace is supported. <br>- For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required, and each identity must be set as an identity in the identity map. <br>- Audience projection via audience sharing service must be provisioned. <br>- Integration with Target requires the same IMS Org as the Experience Platform instance. <br>- Only audiences from the default production sandbox support the audience sharing core service. |
+
+## Real-time, streaming, and batch audience sharing to Adobe Target
+
+Architecture
+
+![Reference architecture for the Online/Offline Web Personalization scenario](assets/RTCDP-Target.png)
+
+Sequence Detail
+
+![Reference architecture for the Online/Offline Web Personalization scenario](assets/RTCDP-Target_flow.png)
+
+Overview Architecture
+
+![Reference architecture for the Online/Offline Web Personalization scenario](assets/personalization_with_apps.png)
+
+## Related documentation
+
+### SDK documentation
+
+* [Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+* [Experience Cloud ID Service documentation](https://experienceleague.adobe.com/docs/id-service/using/home.html)
+
+### Segmentation documentation
+
+* [Experience Platform Segmentation Overview](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
+* [Real-time Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
+* [Streaming Segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Adobe Analytics Segment Sharing through Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Merge Policy Configuration](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
+
+### Tutorials
+
+* [Next-hit personalization with Real-Time CDP and Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)

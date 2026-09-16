@@ -57,7 +57,7 @@ High-level flow:
 
 ## Architecture Diagram
 
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B Paid Media Controller Architecture" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/b2b-activation-marketing/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B Paid Media Controller Architecture" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Data Modelling in B2B AEP
 
@@ -103,7 +103,7 @@ The following steps give guidance for implementing the Paid Media Controller wit
 
 ## Implementation Diagram
 
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/b2b-activation-marketing/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Audience activation
 

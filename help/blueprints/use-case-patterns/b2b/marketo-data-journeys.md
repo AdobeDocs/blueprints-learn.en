@@ -33,7 +33,7 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 
 ## Architecture
 
-![Solution architecture for Journey Optimizer B2B Edition with Marketo data](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
+![Solution architecture for Journey Optimizer B2B Edition with Marketo data](/help/blueprints/architecture-diagrams/b2b-activation-marketing/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
 
 ## Implementation steps
 

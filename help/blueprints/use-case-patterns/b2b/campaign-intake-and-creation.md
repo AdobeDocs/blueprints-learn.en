@@ -1,6 +1,6 @@
 ---
 title: Intake and Create blueprint
-description: Intake and Create - Marketo Engage and Workfront integration blueprint
+description: Intake and Create - Marketo Engage and Workfront integration
 ---
 # Intake and Create blueprint {#intake-and-create}
 
@@ -14,11 +14,11 @@ To achieve this integration, you'll use Workfront Fusion, a work automation laye
 
 The workflow below shows a request for a webinar being made by a campaign manager using a Workfront request form. The details submitted in the request then trigger a program and email to be created in Marketo Engage for the webinar. Additionally, details are taken from the request form to populate the content of the email.
 
-![Intake and Create blueprint](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
+![Intake and Create blueprint](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
->To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
+>To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/overview.md){target="_blank"}.
 
 ## Prepare your campaign development process for automation {#prepare-your-campaign-development-process-for-automation}
 
@@ -94,7 +94,7 @@ To learn more on creating your own center of excellence, check out the [Marketo 
 
 With Marketo Engage, tokens can be used to populate content into your campaign assets. For example, after cloning an email template from your center of excellence, Workfront Fusion can take details from the campaign request in Workfront and pass them to the My Tokens in the Marketo Engage program. The token values can then be inherited directly into the email to build the email out.
 
-![Use tokens to populate content diagram](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
+![Use tokens to populate content diagram](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Populate images from AEM Assets {#populate-images-from-aem-assets}
 
@@ -142,7 +142,7 @@ Some basic information to include in your Program Template Lookup Library are:
 
 Here's an example of how the workflow logic can be assembled in Fusion using prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules that enable you to deliver automation faster.
 
-![Intake and Create automation flow](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
+![Intake and Create automation flow](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/assets/intake-and-create-3.png)
 
 ## Resources {#resources}
 
@@ -150,4 +150,4 @@ Here's an example of how the workflow logic can be assembled in Fusion using pre
 
 * [Adobe Workfront Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
 
-* [Marketo and Workfront Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
+* [Marketo and Workfront Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/overview.md){target="_blank"}

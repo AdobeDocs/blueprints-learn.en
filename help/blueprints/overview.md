@@ -92,34 +92,36 @@ Visual architecture and data flow reference diagrams that illustrate system inte
 <table>
 <tr>
   <td>
-    <a href="experience-platform/guardrails.md">
-      <img alt="Experience Platform Hub and Edge Architecture" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
+    <a href="architecture-diagrams/architecture-overviews/guardrails.md">
+      <img alt="Experience Platform Hub and Edge Architecture" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency_v1.png" />
     </a>
     <div>
-      <a href="experience-platform/guardrails.md">
+      <a href="architecture-diagrams/architecture-overviews/guardrails.md">
     <strong>Experience Platform Hub and Edge Architecture and Guardrails Diagram</strong>
     </a>
     </div>
   </td>
    <td>
-    <a href="experience-platform/deployment/websdk.md">
-      <img alt="Edge Sequence Diagram" src="experience-platform/deployment/assets/web_sdk_sequence.svg" />
+    <a href="architecture-diagrams/architecture-overviews/websdk.md">
+      <img alt="Edge Sequence Diagram" src="architecture-diagrams/architecture-overviews/assets/web_sdk_sequence.svg" />
     </a>
     <div>
-      <a href="experience-platform/deployment/websdk.md">
+      <a href="architecture-diagrams/architecture-overviews/websdk.md">
     <strong>Web SDK and Edge Network Sequence Diagram</strong>
     </a>
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Journey Optimizer Overview Diagram" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
+    <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Journey Optimizer Overview Diagram" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Adobe Journey Optimizer Overview Diagram</strong>
     </a>
     </div>
   </td>
 </tr>
 </table>
+
+[View all architecture diagrams and blueprints](architecture-diagrams/overview.md)

@@ -124,20 +124,20 @@ completeness if any blueprint is fully retired:
 ```
 # Pattern blueprints — if deleted, redirect to the new pattern URL
 # (slugs are placeholders; finalize when each pattern is authored)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/customer-activity → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/data-science → use-case-patterns/audience-building-activation/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/real-time-lookup → use-case-patterns/personalization-patterns/<new-pattern-slug>
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo → use-case-patterns/b2b-patterns/marketo-data-journeys
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/ajo-b2b-paid-media-controller → use-case-patterns/b2b-patterns/paid-media-orchestration
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/intake-and-create → use-case-patterns/b2b-patterns/campaign-intake-and-creation
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint → use-case-patterns/b2b-patterns/campaign-review-and-approval
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview → use-case-patterns/campaign-orchestration-patterns/<new-pattern-slug>
 
 # Duplicate blueprints — if deleted, redirect to the existing pattern URL
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
-/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
-/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/advertising-activation → use-case-patterns/audience-building-activation/audience-activation-to-destinations
+/en/docs/blueprints-learn/architecture/architecture-diagrams/audience-profile-activation/known-customer-audience-activation/segment-match → use-case-patterns/audience-building-activation/audience-collaboration-segment-match
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2bactivation → use-case-patterns/b2b-patterns/account-audience-activation  (after b2b/ relocation)
+/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys → use-case-patterns/b2b-patterns/buying-group-marketing  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/b2b-cja → use-case-patterns/b2b-patterns/account-analytics  (after b2b/ relocation)
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys → use-case-patterns/campaign-orchestration-patterns/event-triggered-messaging
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns → use-case-patterns/campaign-orchestration-patterns/batch-outbound-message-activation
@@ -145,7 +145,7 @@ completeness if any blueprint is fully retired:
 /en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/decision-management/decision-management-hub → use-case-patterns/personalization-patterns/offer-decisioning
 
 # Optional one-off — if customer-journey-analytics/analysis.md is relocated to experience-platform/
-/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overview/analysis
+/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journey-analytics/analysis → architecture-diagrams/architecture-overviews/analysis
 ```
 
 When converting any of the above to active redirect rows, format as comma-separated `source,dest`

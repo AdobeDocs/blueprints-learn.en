@@ -1,6 +1,6 @@
 # Scope guardrails: architecture page vs. use case pattern page
 
-The blueprints site separates **architecture diagram pages** from **use case pattern pages** because they serve different reader needs. This document defines what belongs where and how to handle content that drifts across the boundary.
+This site separates **architecture diagram pages** from **use case pattern pages** because they serve different reader needs. This document defines what belongs where and how to handle content that drifts across the boundary.
 
 ## The core distinction
 

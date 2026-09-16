@@ -44,7 +44,7 @@ This blueprint requires the use of one of the following data collection methods 
 
 ## Architecture Diagram
 
-<img src="/help/blueprints/audience-activation/assets/real-time-edge-lookup.svg" alt="Reference Architecture for Edge Profile Access for Web and Mobile Personalization" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real-time-edge-lookup.svg" alt="Reference Architecture for Edge Profile Access for Web and Mobile Personalization" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardrails
 
@@ -63,7 +63,7 @@ Edge personalization can be implemented using the [Custom Personalization Connec
 * This approach provides low latency and best performance for edge personalization based on audience memberships.
 * Real-time edge segmentation requires the Web/Mobile SDK implementation.
 * Web SDK and Mobile SDK **alone support personalization based on audience membership only**.
-* [Refer to the Experience Platform Web and Mobile SDK Blueprint](/help/blueprints/experience-platform/deployment/websdk.md) for SDK-based implementation.
+* [Refer to the Experience Platform Web and Mobile SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md) for SDK-based implementation.
 * For Mobile SDK implementation, the [Adobe Journey Optimizer - Decisioning extension](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) must be installed in the Mobile SDK.
 
 ### Pattern 2: Attribute-based personalization with Edge Network Server API (Required for Profile Attributes)

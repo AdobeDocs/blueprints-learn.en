@@ -115,9 +115,9 @@ Example:
 
 ## Example references in this repo
 
-- **Scenario blueprint (long form)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **Overview/hub with tabs and tables**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Guardrails-focused**: `help/blueprints/experience-platform/guardrails.md`
+- **Scenario blueprint (long form)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Overview/hub with tabs and tables**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Guardrails-focused**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navigation**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Use these as patterns for section order, frontmatter, diagram placement, and Experience League link usage.

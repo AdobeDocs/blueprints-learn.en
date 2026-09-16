@@ -11,7 +11,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 
 ## Architecture
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

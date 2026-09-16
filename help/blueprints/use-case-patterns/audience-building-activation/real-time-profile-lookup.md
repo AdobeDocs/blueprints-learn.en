@@ -22,7 +22,7 @@ With this capability, you could surface rich context when a customer calls your 
 
 ## Architecture
 
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/customer_activity_hub.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardrails
 
