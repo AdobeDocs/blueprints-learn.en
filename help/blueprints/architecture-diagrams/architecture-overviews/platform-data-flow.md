@@ -31,7 +31,7 @@ topic_v2:
 
 The below diagram illustrates the various paths for data ingestion and egress out of Adobe Experience Platform.
 
-<img src="assets/aep_data_flow.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/aep_data_flows.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 ## Data ingress and egress patterns
 

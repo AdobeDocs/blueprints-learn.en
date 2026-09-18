@@ -93,7 +93,7 @@ Visual architecture and data flow reference diagrams that illustrate system inte
 <tr>
   <td>
     <a href="architecture-diagrams/architecture-overviews/guardrails.md">
-      <img alt="Experience Platform Hub and Edge Architecture" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency_v1.png" />
+      <img alt="Experience Platform Hub and Edge Architecture" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency.png" />
     </a>
     <div>
       <a href="architecture-diagrams/architecture-overviews/guardrails.md">
@@ -103,7 +103,7 @@ Visual architecture and data flow reference diagrams that illustrate system inte
   </td>
    <td>
     <a href="architecture-diagrams/architecture-overviews/websdk.md">
-      <img alt="Edge Sequence Diagram" src="architecture-diagrams/architecture-overviews/assets/web_sdk_sequence.svg" />
+      <img alt="Edge Sequence Diagram" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.svg" />
     </a>
     <div>
       <a href="architecture-diagrams/architecture-overviews/websdk.md">
