@@ -35,20 +35,6 @@ thumbnail: thumb-web-personalization-scenario2.jpg
 | **Streaming and batch audience sharing from Real-time Customer Data Platform to Target via the Edge approach** | - Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network. <br>- Audiences evaluated in real-time require the Web SDK and Edge Network implementation. | - Web/Mobile SDK or Edge API implementation of Target is not required for sharing streaming and batch RTCDP audiences to Target but is required to enable real-time edge segment evaluation. <br>- If using AT.js, only profile integration against the ECID identity namespace is supported. <br>- For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required, and each identity must be set as an identity in the identity map. <br>- Target destination must be configured in Real-time Customer Data Platform Destinations, only the default production sandbox in RTCDP is supported. <br>- Integration with Target requires the same IMS Org as the Experience Platform instance. |
 | **Streaming and batch audience sharing from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing Service Approach** | - This integration pattern can be leveraged when additional enrichment from 3rd party data and audiences in Audience Manager is desired. | - Web/Mobile SDK is not required for sharing streaming and batch audiences to Target but is required to enable real-time edge segment evaluation. <br>- If using AT.js, only profile integration against the ECID identity namespace is supported. <br>- For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required, and each identity must be set as an identity in the identity map. <br>- Audience projection via audience sharing service must be provisioned. <br>- Integration with Target requires the same IMS Org as the Experience Platform instance. <br>- Only audiences from the default production sandbox support the audience sharing core service. |
 
-## Real-time, streaming, and batch audience sharing to Adobe Target
-
-Architecture
-
-![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/RTCDP-Target.png)
-
-Sequence Detail
-
-![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/RTCDP-Target_flow.png)
-
-Overview Architecture
-
-![Reference architecture for the Online/Offline Web Personalization Blueprint](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/personalization_with_apps.png)
-
 ## Implementation patterns
 
 Known Customer Personalization is supported via several implementation approaches.

@@ -97,10 +97,9 @@ nudge: orange
   + Audience & Profile Activation{#audience-profile-activation}
     + [Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
     + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Audience activation to social and advertising destinations](/help/blueprints/architecture-diagrams/audience-profile-activation/advertising-activation.md)
-      + [Audience and profile activation to enterprise destinations](/help/blueprints/architecture-diagrams/audience-profile-activation/enterprise-destinations.md)
-      + [Real-time edge profile access for web and mobile personalization](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
-      + [RTCDP + Target Integration Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target.md)
+      + [Adobe Real-Time CDP activation](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-activation.md)
+      + [Real-time Edge Profile Access](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
+      + [Adobe Real-Time CDP & Adobe Target integration](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2bactivation.md)

@@ -14,7 +14,7 @@ The diagrams are organized into the following categories. Select a card to jump 
 <tr>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="architecture-overviews/overview.md">
-      <img alt="Architecture overviews" src="architecture-overviews/assets/aep+apps_overview.svg" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="Architecture overviews" src="architecture-overviews/assets/aep_apps_overview.svg" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="architecture-overviews/overview.md">
@@ -25,13 +25,13 @@ The diagrams are organized into the following categories. Select a card to jump 
   </td>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="audience-profile-activation/overview.md">
-      <img alt="Audience & profile activation" src="audience-profile-activation/assets/known_activation.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="Audience & profile activation" src="audience-profile-activation/assets/real_time_cdp_activation.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="audience-profile-activation/overview.md">
         <strong>Audience & profile activation</strong>
       </a>
-      <p>How audiences and profiles are built in Real-Time CDP and Audience Manager, and activated to destinations and applications.</p>
+      <p>How audiences and profiles are built in Adobe Real-Time CDP and activated to destinations and applications.</p>
     </div>
   </td>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">

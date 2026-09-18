@@ -1,5 +1,5 @@
 ---
-title: RTCDP + Target Integration Overview
+title: Adobe Real-Time CDP & Adobe Target integration
 description: Understand how Real-Time Customer Data Platform audiences and profile context integrate with Adobe Target through the Edge Network.
 landing-page-description: Understand how Real-Time Customer Data Platform audiences and profile context integrate with Adobe Target through the Edge Network.
 short-description: Understand how Real-Time Customer Data Platform audiences and profile context integrate with Adobe Target through the Edge Network.
@@ -56,7 +56,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# RTCDP + Target Integration Overview
+# Adobe Real-Time CDP & Adobe Target integration
 
 This architecture shows how [!DNL Real-Time Customer Data Platform] and [!DNL Adobe Target] integrate through the Edge Network. It helps you select between real-time audience evaluation at the edge and sharing streaming or batch audiences with Target.
 
@@ -81,13 +81,13 @@ Use this approach when audiences evaluated in [!DNL Real-Time Customer Data Plat
 
 This diagram shows the primary integration points among data collection, the Edge Network, [!DNL Real-Time Customer Data Platform], and [!DNL Adobe Target].
 
-<img src="assets/RTCDP-Target.png" alt="Architecture for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/real_time_cdp_target.svg" alt="Architecture for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 ## Data flow diagram
 
 This sequence shows how a client request reaches the Edge Network, evaluates audiences and profile context, sends a personalization request to [!DNL Adobe Target], and returns the resulting experience to the client.
 
-<img src="assets/RTCDP-Target_flow.png" alt="Data flow for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/real_time_cdp_target_data_flow_detail.svg" alt="Data flow for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 ## Implementation considerations
 

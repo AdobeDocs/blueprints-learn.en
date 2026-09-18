@@ -16,10 +16,6 @@ Modeled insights can be ingested into [!DNL Experience Platform] to enrich the r
 * Enrich the [!UICONTROL Real-time Customer Profile] with model driven insights and attributes for more granular personalization and optimized journeys.
 * Train and Score models to determine customer insights such as customer lifetime value, propensity to convert or churn, product and content affinities, and engagement scores.
 
-## Architecture
-
-<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/data_science.svg" alt="Reference Architecture for the Custom Data Science for Profile Enrichment Blueprint" style="width:90%; border:1px solid #4a4a4a" />
-
 ## Guardrails
 
 * For detailed guardrails and end to end latencies on ingesting data science results into [!DNL Experience Platform] and the Real-time Customer Profile refer to the data ingestion guardrails and latency diagram referenced in the [deployment guardrails document](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).

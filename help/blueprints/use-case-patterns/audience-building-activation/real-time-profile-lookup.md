@@ -20,10 +20,6 @@ With this capability, you could surface rich context when a customer calls your 
 
 * Provide deeper consumer context to agent-supported interactions, such as support and sales experiences. Using the profile lookup into Experience Platform, agents can receive more context on the consumer, such as recent purchases, campaign interactions, propensities, audience memberships, and other attributes and insights that are stored in the real-time customer profile.
 
-## Architecture
-
-<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/customer_activity_hub.svg" alt="Reference Architecture for the Customer Activity Hub Blueprint" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
-
 ## Guardrails
 
 * [Guardrails for [!UICONTROL Real-time Customer Profile] data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

@@ -1,5 +1,5 @@
 ---
-title: Real-time Edge Profile Access for Web and Mobile Personalization
+title: Real-time Edge Profile Access
 description: "[!UICONTROL Real-time Customer Profile] access at the edge to provide context for real-time web and mobile personalization."
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
@@ -34,7 +34,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
 ---
-# Real-time Edge Profile Access for Web and Mobile Personalization
+# Real-time Edge Profile Access
 
 >[!TIP]
 >This architecture is also documented as a [use case pattern](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md) under Personalization.
@@ -65,7 +65,7 @@ With this capability, you can deliver highly personalized experiences on your we
 
 ## Architecture Diagram
 
-<img src="assets/real-time-edge-lookup.svg" alt="Reference Architecture for Edge Profile Access for Web and Mobile Personalization" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="assets/real_time_edge_profile_access.svg" alt="Reference architecture for Real-time Edge Profile Access" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardrails
 

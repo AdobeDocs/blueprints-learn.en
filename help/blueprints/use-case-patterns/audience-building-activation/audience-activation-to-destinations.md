@@ -86,7 +86,7 @@ Improve return on marketing investment through better targeting, attribution, au
 
 The following reference architecture illustrates how audience and profile data flows from Real-Time CDP to enterprise destinations including cloud storage, streaming endpoints, and SaaS applications.
 
-![Reference architecture for audience and profile activation to enterprise destinations](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/known_activation.png)
+![Reference architecture for Adobe Real-Time CDP activation](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## Related documentation
 
