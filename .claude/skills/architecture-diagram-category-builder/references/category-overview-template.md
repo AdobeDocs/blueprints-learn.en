@@ -52,8 +52,6 @@ Customer Journey Analytics shows how brands can unify customer data and behavior
 
 | Diagram | Description |
 | --- | --- |
-| [B2B Customer Journey Analytics](b2b-cja.md) | Account-based reporting and analysis for B2B organizations |
-| [Sharing CJA audiences to RTCDP](cja-rtcdp.md) | Create and publish audiences from Customer Journey Analytics to Real-Time CDP |
-| [CJA and Journey Optimizer](cja-ajo.md) | Analyze Journey Optimizer delivery and interaction data in Customer Journey Analytics |
-| [Data analysis & intelligence](analysis.md) | Use Experience Platform Query Service for exploratory analysis of data lake data |
+| [Adobe Customer Journey Analytics](cja.md) | Core Customer Journey Analytics architecture, including B2B and audience-sharing derivations |
+| [Adobe Customer Journey Analytics & Adobe Journey Optimizer integration](cja-ajo-integration.md) | Campaign and journey insights integration between Customer Journey Analytics and Journey Optimizer |
 ```

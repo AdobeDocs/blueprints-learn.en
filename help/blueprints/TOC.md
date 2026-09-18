@@ -114,10 +114,8 @@ nudge: orange
       + [Customer success stories](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/customer-success-stories.md)
   + Customer Insights{#customer-insights}
     + [Overview](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
-    + [B2B Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/b2b-cja.md)
-    + [Sharing CJA audiences to RTCDP](/help/blueprints/architecture-diagrams/customer-insights/cja-rtcdp.md)
-    + [CJA and Journey Optimizer](/help/blueprints/architecture-diagrams/customer-insights/cja-ajo.md)
-    + [Data analysis & intelligence](/help/blueprints/architecture-diagrams/customer-insights/analysis.md)
+    + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
+    + [Adobe Customer Journey Analytics & Adobe Journey Optimizer integration](/help/blueprints/architecture-diagrams/customer-insights/cja-ajo-integration.md)
   + Customer journeys{#customer-journeys}
     + [Overview](/help/blueprints/architecture-diagrams/customer-journeys/overview.md)
     + Journey Optimizer{#journey-optimizer}

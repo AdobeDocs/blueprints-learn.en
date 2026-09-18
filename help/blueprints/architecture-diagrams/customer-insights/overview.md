@@ -22,14 +22,9 @@ topic_v2:
 ---
 # Customer Insights
 
-Customer Journey Analytics shows how brands can unify customer data and behavior from various interaction channels and sources to create a journey-based view of all customer interactions. Reporting and analysis can be performed in the Customer Journey Analytics application service to evaluate and gain insight into customer interaction and behavior patterns.
+Adobe Customer Journey Analytics unifies customer data and behavior from multiple interaction channels and sources to create a journey-based view of customer interactions. This category provides architecture references for core CJA, B2B CJA derivations, audience sharing to Real-Time CDP, and CJA and Journey Optimizer integration.
 
-| Diagram | Description |
-| --- | --- |
-| [B2B Customer Journey Analytics](b2b-cja.md) | Account-based reporting and analysis for B2B organizations |
-| [Sharing CJA audiences to RTCDP](cja-rtcdp.md) | Create and publish audiences from Customer Journey Analytics to Real-Time CDP |
-| [CJA and Journey Optimizer](cja-ajo.md) | Analyze Journey Optimizer delivery and interaction data in Customer Journey Analytics |
-| [Data analysis & intelligence](analysis.md) | Use Experience Platform Query Service for exploratory analysis of data lake data |
+The core [Adobe Customer Journey Analytics](cja.md) architecture includes derivations for B2B analysis and publishing CJA audiences to Real-Time CDP. The [Adobe Customer Journey Analytics & Adobe Journey Optimizer integration](cja-ajo-integration.md) architecture covers campaign and journey insights.
 
 ## Customer Journey Analytics use cases
 
@@ -37,14 +32,10 @@ Common Use Cases include:
 
 * Create and Publish Audiences to Real-time Customer Data Platform
 * Top/bottom converting paths
-* Channel engagement and conversion 
+* Channel engagement and conversion
 * Top viewed content
 * Top Categories and products
 * What campaigns resulted in conversion and increased engagement
 * Tool usage analysis to optimize self-service experiences
 
-A full list of use cases along with documentation can be found [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en).
-
-## Architecture for Customer Journey Analytics
-
-![Architecture diagram](assets/CJA.png){zoomable="yes"}
+A full list of Customer Journey Analytics use cases is available in the [Customer Journey Analytics use cases documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en).

@@ -52,10 +52,10 @@ https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-inges
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/intake-and-create
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/marketo-engage-and-workfront-integration-blueprint/overview,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/overview
 /en/docs/blueprints-learn/architecture/architecture-diagrams/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint,/en/docs/blueprints-learn/architecture/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/review-and-approve
-/en/docs/blueprints-learn/architecture/customer-journey-analytics/analysis,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/analysis
-/en/docs/blueprints-learn/architecture/customer-journey-analytics/b2b-cja,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/b2b-cja
-/en/docs/blueprints-learn/architecture/customer-journey-analytics/cja-ajo,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/cja-ajo
-/en/docs/blueprints-learn/architecture/customer-journey-analytics/cja-rtcdp,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/cja-rtcdp
+/en/docs/blueprints-learn/architecture/customer-journey-analytics/analysis,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/overview
+/en/docs/blueprints-learn/architecture/customer-journey-analytics/b2b-cja,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/cja
+/en/docs/blueprints-learn/architecture/customer-journey-analytics/cja-ajo,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/cja-ajo-integration
+/en/docs/blueprints-learn/architecture/customer-journey-analytics/cja-rtcdp,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/cja
 /en/docs/blueprints-learn/architecture/customer-journey-analytics/overview,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-insights/overview
 /en/docs/blueprints-learn/architecture/customer-journeys/overview,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/overview
 /en/docs/blueprints-learn/architecture/customer-journeys/campaign-v7/ajo-and-campaign-v7,/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/campaign-v7/ajo-and-campaign-v7

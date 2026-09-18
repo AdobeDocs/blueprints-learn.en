@@ -49,7 +49,7 @@ The diagrams are organized into the following categories. Select a card to jump 
 <tr>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="customer-insights/overview.md">
-      <img alt="Customer insights" src="customer-insights/assets/CJA.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="Customer insights" src="customer-insights/assets/cja.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="customer-insights/overview.md">
