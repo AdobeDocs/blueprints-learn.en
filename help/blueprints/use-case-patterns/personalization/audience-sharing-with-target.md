@@ -65,7 +65,7 @@ Known Customer Personalization is supported via several implementation approache
 Using traditional application-specific SDKs (for example, AT.js and AppMeasurement.js). Real-time Edge segment evaluation is not supported using this implementation approach. However streaming and batch audience sharing from Experience Platform hub are supported using this implemenation approach.
 
 [Refer to the Adobe Target Connector Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[Refer to the application specific SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/appsdk.md) 
+[Refer to the Experience Platform Web SDK Blueprint](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## Implementation considerations
 

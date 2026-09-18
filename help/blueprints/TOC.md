@@ -89,12 +89,11 @@ nudge: orange
   + [Overview](/help/blueprints/architecture-diagrams/overview.md)
   + Architecture overviews{#architecture-overviews}
     + [Overview](/help/blueprints/architecture-diagrams/architecture-overviews/overview.md)
-    + [Experience Cloud](/help/blueprints/architecture-diagrams/architecture-overviews/experience-cloud.md)
-    + [Experience Platform & applications](/help/blueprints/architecture-diagrams/architecture-overviews/platform-applications.md)
-    + [Experience Platform data flow](/help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
-    + [Experience Platform guardrails](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)
-    + [Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
-    + [Application SDKs](/help/blueprints/architecture-diagrams/architecture-overviews/appsdk.md)
+    + [Adobe Experience Cloud](/help/blueprints/architecture-diagrams/architecture-overviews/experience-cloud.md)
+    + [Adobe Experience Platform & applications](/help/blueprints/architecture-diagrams/architecture-overviews/platform-applications.md)
+    + [Adobe Experience Platform data flow](/help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
+    + [Adobe Experience Platform & application guardrails](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)
+    + [Adobe Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
   + Audience & Profile Activation{#audience-profile-activation}
     + [Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
     + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}

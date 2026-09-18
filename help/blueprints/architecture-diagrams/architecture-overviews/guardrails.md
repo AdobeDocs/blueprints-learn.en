@@ -1,5 +1,5 @@
 ---
-title: Experience Platform and Application Guardrails
+title: Adobe Experience Platform & application guardrails
 description: Guardrails define the performance expectations and impact for the components and services within Adobe Experience Platform and Applications
 solution: Experience Platform
 thumbnail: null
@@ -31,7 +31,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Guardrails
+# Adobe Experience Platform & application guardrails
 
 Guardrails reflect system constraints, expected latencies, and performance expectations to optimize customer architecture and use case performance and help to ensure stability, avoid errors or unexpected results.
 

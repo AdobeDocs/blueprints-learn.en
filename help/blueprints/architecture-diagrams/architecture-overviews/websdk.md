@@ -1,5 +1,5 @@
 ---
-title: Web/Mobile SDK, [!DNL Edge Network] Deployment architecture diagram
+title: Adobe Experience Platform Web SDK & [!DNL Edge Network]
 description: This architecture diagram shows the ingestion through the Experience Platform Web and Mobile SDK and [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 ---
-# Experience Platform Web SDK & [!DNL Edge Network] architecture diagram
+# Adobe Experience Platform Web SDK & [!DNL Edge Network]
 
 For an overview and detail on the Web and Mobile SDK, and the [!DNL Edge Network] Server API see the following.
 

@@ -1,5 +1,5 @@
 ---
-title: Experience Platform (AEP) and applications architecture diagrams
+title: Adobe Experience Platform & applications
 description: View architecture diagrams that show how Adobe Experience Platform (AEP) relates to other Experience Cloud applications and application services.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
@@ -51,7 +51,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 ---
-# Adobe Experience Platform and applications architecture diagrams
+# Adobe Experience Platform & applications
 
 These architecture diagrams show how Experience Platform (AEP) relates to other Experience Cloud applications and application services.
 

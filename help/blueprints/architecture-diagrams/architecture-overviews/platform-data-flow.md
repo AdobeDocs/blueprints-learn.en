@@ -1,5 +1,5 @@
 ---
-title: Experience Platform data flow architecture diagrams
+title: Adobe Experience Platform data flow
 description: This architecture diagram shows how data flows into and out of Adobe Experience Platform.
 solution: Data Collection
 kt: 7198
@@ -25,7 +25,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 ---
-# Adobe Experience Platform data flow architecture diagrams
+# Adobe Experience Platform data flow
 
 ## Data flow diagram
 
