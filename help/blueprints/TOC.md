@@ -103,6 +103,7 @@ nudge: orange
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2bactivation.md)
+    + [B2B audience and profile activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
     + [B2B account activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
     + [Buying group-based marketing and journey management](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys.md)
     + [B2B journeys using Marketo data](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo.md)
