@@ -102,17 +102,8 @@ nudge: orange
       + [Adobe Real-Time CDP & Adobe Target integration](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
-    + [B2B activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2bactivation.md)
     + [B2B audience and profile activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
     + [B2B account activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
-    + [Buying group-based marketing and journey management](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-buying-group-journeys.md)
-    + [B2B journeys using Marketo data](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-journeys-with-marketo.md)
-    + [B2B Paid Media Controller](/help/blueprints/architecture-diagrams/b2b-activation-marketing/ajo-b2b-paid-media-controller.md)
-    + Marketo Engage and Workfront integration{#marketo-engage-and-workfront-integration}
-      + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/overview.md)
-      + [Intake and create](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/intake-and-create.md)
-      + [Review and approve](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/review-and-approve.md)
-      + [Customer success stories](/help/blueprints/architecture-diagrams/b2b-activation-marketing/marketo-engage-and-workfront-integration/customer-success-stories.md)
   + Customer Insights{#customer-insights}
     + [Overview](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
     + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)

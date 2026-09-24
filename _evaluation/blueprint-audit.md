@@ -44,12 +44,7 @@ When fully populated, the category will contain **7 patterns**:
 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | **Author new** | `use-case-patterns/b2b/campaign-intake-and-creation.md` |
 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | **Author new** | `use-case-patterns/b2b/campaign-review-and-approval.md` |
 
-> **Initial transition state — writer-coordination gate.** The existing "B2B activation & marketing"
-> subsection in the architecture-diagrams area of [TOC.md](../help/blueprints/TOC.md) (lines 95–106) **stays intact
-> during the transition**. Each blueprint conversion and existing-pattern relocation requires
-> sign-off from the owning writer before content is migrated. The new `b2b/` use case pattern
-> section coexists with the existing blueprint section while migrations happen page by page, with
-> cross-links between them.
+> **B2B disposition completed.** The audit recommendations were used to retain the audience/profile and account-activation architecture pages, retire the remaining B2B architecture pages, and redirect retired URLs to the B2B category overview.
 
 When the relocations and new patterns have all landed:
 

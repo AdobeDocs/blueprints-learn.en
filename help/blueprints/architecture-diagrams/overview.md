@@ -36,13 +36,13 @@ The diagrams are organized into the following categories. Select a card to jump 
   </td>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="b2b-activation-marketing/overview.md">
-      <img alt="B2B activation & marketing" src="b2b-activation-marketing/assets/b2b-activation.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="B2B activation & marketing" src="b2b-activation-marketing/assets/b2b-audience-profile-activation.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="b2b-activation-marketing/overview.md">
         <strong>B2B activation & marketing</strong>
       </a>
-      <p>Account-based audience activation, buying-group journeys, and B2B marketing operations, including Marketo Engage and Workfront.</p>
+      <p>Account-based and people-based audience activation with Real-Time Customer Data Platform B2B Edition across channels and destinations.</p>
     </div>
   </td>
 </tr>

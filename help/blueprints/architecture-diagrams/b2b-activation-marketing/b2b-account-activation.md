@@ -76,7 +76,7 @@ LinkedIn Matched Audiences have a minimum audience size requirement (for example
 
 ## Related Documentation
 
-- [B2B Audience and Profile Activation blueprint](b2bactivation.md) — parent blueprint covering both people-level and account-level B2B activation.
+- [B2B Audience and Profile Activation blueprint](b2b-audience-profile-activation.md) — parent blueprint covering both people-level and account-level B2B activation.
 - [B2B Edition of Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
 - [Create and activate Account Audience – tutorial video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
 - [Create Account Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)

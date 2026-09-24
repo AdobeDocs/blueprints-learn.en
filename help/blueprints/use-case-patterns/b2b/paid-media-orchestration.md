@@ -55,10 +55,6 @@ High-level flow:
 2. **Orchestration** — AJO B2B account journey: **Read audience** (qualified accounts) → **Split path** (waterfall: e.g., Pursuit → Solution-Led → Persona → Category → Foundational) → **Activate to Destination** (per path to LinkedIn or other paid media).
 3. **Destinations** — Paid media channels (e.g., LinkedIn Matched Audiences) receive account-level activation from each journey path; no manual list uploads.
 
-## Architecture Diagram
-
-<img src="/help/blueprints/architecture-diagrams/b2b-activation-marketing/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B Paid Media Controller Architecture" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ## Data Modelling in B2B AEP
 
 With any data-driven orchestration, schema design is important. Account and person profiles in AEP/RTCDP must include the attributes used in **split-path conditions** (e.g., pursuit flag, solution interest, persona, intent category, engagement score). B2B schemas (XDM Business Account, XDM Individual Profile, relational) should represent your hierarchy and data sources. For details, see [RTCDP B2B schemas](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) and [Journey Optimizer B2B Edition documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
@@ -101,10 +97,6 @@ The following steps give guidance for implementing the Paid Media Controller wit
    - Confirm that each account enters only one path (the first matching condition).
    - Verify activation: accounts appear in the right destination and are excluded from lower-priority campaigns as intended.
 
-## Implementation Diagram
-
-<img src="/help/blueprints/architecture-diagrams/b2b-activation-marketing/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ### Audience activation
 
 1. **Activate to LinkedIn (and other destinations).**
@@ -121,6 +113,5 @@ The **Paid Media Controller** blueprint shows how **AJO B2B and AEP** work toget
 
 ## Related documentation
 
-- [Buying Group-based Marketing and Journey Management blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — Account and buying group journeys in AJO B2B.
 - [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Product documentation.
 - [Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Account audiences and activation.

@@ -2,15 +2,17 @@
 
 This document captures the state of the blueprint reorganization effort so it can be resumed cleanly across sessions.
 
-**Last updated:** 2026-04-29
+**Last updated:** 2026-09-24
 
 ## Where we are right now
 
-**Currently paused on:** `b2b/overview.md` (B2B section blueprint #1 of 10) — awaiting decision on whether to leave as-is, add a cross-reference to the new B2B Activation & Marketing patterns section, or update the table to list all blueprints + add cross-reference.
+The B2B section is no longer paused. Its published architecture scope is now limited to the audience/profile and account-activation pages, with retired pages redirected to the category overview.
 
-**To resume:** respond with **A** (leave as-is, recommended), **B** (add cross-reference), or **C** (update table + add cross-reference). Then continue with blueprint #2 (`b2b/b2bactivation.md`).
+**Current status:** The B2B architecture cleanup is complete. The audience/profile and account-activation pages remain in the architecture-diagrams category; the other B2B architecture pages were retired and redirected to the category overview.
 
 ## Working approach
+
+> The working approach below is historical; the B2B section has since been dispositioned as recorded above.
 
 The current working pattern, agreed in this session, is:
 
@@ -67,16 +69,16 @@ The section walkthrough applies the cross-link / diagram-migration / impl-trim a
 
 | # | Blueprint | Status |
 | --- | --- | --- |
-| 1 | `b2b/overview.md` | **PAUSED** — awaiting decision A/B/C (see "Where we are right now" above) |
-| 2 | `b2b/b2bactivation.md` | Pending — Phase E Duplicate; cross-link added; needs review for diagram + impl trim |
-| 3 | `b2b/b2b-account-activation.md` | Pending — Diagram-classified; needs cross-link to `b2b/account-audience-activation.md` + diagram migration consideration |
-| 4 | `b2b/b2b-buying-group-journeys.md` | Pending — Phase E Duplicate; cross-link added; needs review |
-| 5 | `b2b/b2b-journeys-with-marketo.md` | Pending — Phase B copy; pattern is a copy; needs impl-step trim |
-| 6 | `b2b/ajo-b2b-paid-media-controller.md` | Pending — Phase B copy; needs impl-step trim |
-| 7 | `b2b/marketo-engage-and-workfront-integration-blueprint/overview.md` | Pending — Section landing page |
-| 8 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | Pending — Phase B copy; needs impl-step trim |
-| 9 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | Pending — Phase B copy; needs impl-step trim |
-| 10 | `b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md` | Pending — Links-only page (audit flagged as Navigation) |
+| 1 | `b2b/overview.md` | Completed - B2B category overview updated |
+| 2 | `b2b/b2bactivation.md` | Retired - replaced by the architecture-diagrams audience/profile page |
+| 3 | `b2b/b2b-account-activation.md` | Retained - migrated to the architecture-diagrams B2B category |
+| 4 | `b2b/b2b-buying-group-journeys.md` | Retired |
+| 5 | `b2b/b2b-journeys-with-marketo.md` | Retired |
+| 6 | `b2b/ajo-b2b-paid-media-controller.md` | Retired |
+| 7 | `b2b/marketo-engage-and-workfront-integration-blueprint/overview.md` | Retired |
+| 8 | `b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md` | Retired |
+| 9 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | Retired |
+| 10 | `b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md` | Retired |
 
 ### ⚪ Customer Journey Analytics — 0/5 not yet started
 
@@ -106,7 +108,7 @@ Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md
 3. **`customer-journey-analytics/analysis.md`** — content is about Experience Platform Query Service, not CJA; consider relocating to `experience-platform/`.
 4. **Campaign v7 (3 deprecated files)** — migrate, leave, or remove from TOC?
 5. **`customer-success-stories.md`** — links-only page; confirm Navigation classification.
-6. **TOC anchor** for new B2B section is `{#b2b-patterns}` — confirm before any production-redirect creation.
+6. Historical TOC-anchor question superseded by the completed B2B architecture disposition.
 
 ## How to resume
 
@@ -114,4 +116,4 @@ Open a new Claude Code session in this repo and say:
 
 > Let's resume the blueprint migration. Read `_evaluation/migration-status.md` to pick up where we left off.
 
-The next concrete step: respond to the `b2b/overview.md` decision (A/B/C). Then continue with blueprint #2 (`b2b/b2bactivation.md`) and proceed through the B2B section, then Customer Journey Analytics, Customer Journeys, and Experience Platform.
+The B2B architecture cleanup is complete. Continue with the next planned architecture category after validation.

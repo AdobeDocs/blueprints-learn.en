@@ -29,11 +29,5 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 
 | Diagram | Description |
 | --- | --- |
-| [B2B Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html) | Include B2B account information in customer journey analysis |
-| [B2B Audience Activation](b2bactivation.md) | Target B2B audiences across web, email, and advertising channels |
+| [B2B Audience and Profile Activation](b2b-audience-profile-activation.md) | Activate account-based and people-based audiences with Real-Time Customer Data Platform B2B Edition |
 | [B2B Account Activation](b2b-account-activation.md) | Target B2B accounts via advertising and file-based destinations |
-| [Buying Group-Based Marketing and Journey Management](b2b-buying-group-journeys.md) | Design and build an account journey that qualifies leads for a buying group |
-| [B2B Journeys using Marketo Data](b2b-journeys-with-marketo.md) | Deploy Journey Optimizer B2B Edition with Marketo data for account journeys |
-| [B2B Paid Media Controller](ajo-b2b-paid-media-controller.md) | Orchestrate B2B paid media campaigns using waterfall logic |
-| [Marketo Engage and Workfront Integration: Overview](marketo-engage-and-workfront-integration/overview.md) | Optimize B2B marketing campaign planning, development, and execution |
-| [Marketo Engage and Workfront Integration: Intake and Create](marketo-engage-and-workfront-integration/intake-and-create.md) | Automate B2B marketing campaign request intake to campaign development execution |
