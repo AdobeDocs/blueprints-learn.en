@@ -14,7 +14,7 @@ The output of applying this rubric is [blueprint-audit.md](blueprint-audit.md).
   Canonical shape: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Architecture Diagram** — a visual diagram representing the functionality of a system, the
   integrations, and data flows. Minimal narrative; the diagram is the artifact.
-  Canonical example: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+  Canonical example: [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Scoring
 

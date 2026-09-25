@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overview
 description: Get an introduction to brands, brand guidelines, journeys, and templates, and learn to navigate Adobe Journey Optimizer's content creation tools.
 doc-type: overview-page

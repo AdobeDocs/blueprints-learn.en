@@ -39,7 +39,7 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-2. Provide a description and make it Streaming.  
+2. Provide a description and make it Streaming.
 
 3. Above the Placed Event, change "Any time" to "Today"
 
@@ -128,23 +128,23 @@ This Audience should be straight forward.  We might have multiple product pages,
 
 
 
-5. Provide a description.
+1. Provide a description.
 
-6. Change to Streaming
+1. Change to Streaming
 
-7. Save as “*Visited iPhone 14 Page but Not Owns/Ordered it*” 
+1. Save as “*Visited iPhone 14 Page but Not Owns/Ordered it*”
 
-8. Click the blue button **Activate Audience** to Destination
+1. Click the blue button **Activate Audience** to Destination
 
-9. Select the **Streaming DEP Webhook** Destination and click Next
+1. Select the **Streaming DEP Webhook** Destination and click Next
 
-10. Click Next and Finish
+1. Click Next and Finish
 
 >[!NOTE]
 >
 >**Time Filter**
 >
->The requirements had no time requirements, so if someone visited three years ago, they would qualify. Depending on our use case that may or may not work. It is worth asking. We added one because we are activating based on people who visited our website today.  That may not work in all use cases.  If we add a time filter, how far back can we go before an Edge Audience becomes Streaming or even Batch? 
+>The requirements had no time requirements, so if someone visited three years ago, they would qualify. Depending on our use case that may or may not work. It is worth asking. We added one because we are activating based on people who visited our website today.  That may not work in all use cases.  If we add a time filter, how far back can we go before an Edge Audience becomes Streaming or even Batch?
 
 >[!NOTE]
 >
@@ -158,9 +158,9 @@ This Audience should be straight forward.  We might have multiple product pages,
 >
 >**What are Audiences of Audiences Streaming**
 >
->Our *Peeking Underneath the Hood of Audience* blog (link below), talks a little about this below. It shows how the result of a Audience is stored on the Profile. This is important since as data streams in it is looking at the results of a Audience stored on the Profile, it is not rerunning the Audience at that point in time! A simple nuance but worth understanding. Most Profile attributes are updated periodically, so this approach makes sense. 
+>Our *Peeking Underneath the Hood of Audience* blog (link below), talks a little about this below. It shows how the result of a Audience is stored on the Profile. This is important since as data streams in it is looking at the results of a Audience stored on the Profile, it is not rerunning the Audience at that point in time! A simple nuance but worth understanding. Most Profile attributes are updated periodically, so this approach makes sense.
 >
->We need to understand that when using a Audience within a Audience, AEP will attempt to sequence when it can. There are edge cases where this is not possible, e.g. If a Audience of Audiences is used, profile disqualification will happen every 24 hours. 
+>We need to understand that when using a Audience within a Audience, AEP will attempt to sequence when it can. There are edge cases where this is not possible, e.g. If a Audience of Audiences is used, profile disqualification will happen every 24 hours.
 >
 >[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
@@ -174,7 +174,7 @@ If we were to have built all these Audiences in one Audience instead of four, we
 
 
 
-By breaking up these Audiences and using a Audience of Audiences, we get this behavior.  Real-time qualification of these Audiences as data streams in 
+By breaking up these Audiences and using a Audience of Audiences, we get this behavior.  Real-time qualification of these Audiences as data streams in
 
 - Ordered iPhone 14
 - Owns iPhone 14

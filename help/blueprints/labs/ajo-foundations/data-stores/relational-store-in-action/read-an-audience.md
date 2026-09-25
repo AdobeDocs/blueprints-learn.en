@@ -16,7 +16,7 @@ In the next set of steps you will create a campaign to read an audience from AEP
 
 This lab covers using the Read audience activity in conjunction with the Relational schema for enrichment.
 
-Orchestrated Campaign uses the Relational schema for all the activities. When using the Read audience activity, which reads the audience from AEP, a corresponding Entity (Target Dimension) should be configured to reconcile the audience with the Campaign Target Dimension. 
+Orchestrated Campaign uses the Relational schema for all the activities. When using the Read audience activity, which reads the audience from AEP, a corresponding Entity (Target Dimension) should be configured to reconcile the audience with the Campaign Target Dimension.
 
 ## Create a campaign
 
@@ -122,11 +122,11 @@ Orchestrated Campaign uses the Relational schema for all the activities. When us
 
    ![Source attribute selected from the Targeting dimension columns](assets/read-an-audience-select-source-attribute.png)
 
-11. The distinct values for the Source column are available in the drop down. For the **Custom condition**, select **"In Store"** from the drop down and click on **Confirm** to exit
+1. The distinct values for the Source column are available in the drop down. For the **Custom condition**, select **"In Store"** from the drop down and click on **Confirm** to exit
 
    ![Custom condition set to In Store](assets/read-an-audience-set-in-store-condition.png)
 
-12. Back in the details pane of the **Split** activity, the settings for the first Split are complete. Click on **Add segment** to the second split
+1. Back in the details pane of the **Split** activity, the settings for the first Split are complete. Click on **Add segment** to the second split
 
    ![Add segment button in the Split activity details pane](assets/read-an-audience-add-segment-button.png)
 
@@ -134,33 +134,33 @@ Orchestrated Campaign uses the Relational schema for all the activities. When us
 
    ![New segment named Result](assets/read-an-audience-new-result-segment.png)
 
-13. Rename "**Result**" to "**Not In Store**" and click on **Create filter** to set the filter condition
+1. Rename "**Result**" to "**Not In Store**" and click on **Create filter** to set the filter condition
 
    ![Segment renamed to Not In Store with the filter option](assets/read-an-audience-rename-not-in-store-segment.png)
 
-14. In the **Create filter** pane, click on **Add condition**. Follow the same approach as above, expand the **Targeting dimension** by clicking on **>**, then select `Source` from the list and click on **Confirm**
+1. In the **Create filter** pane, click on **Add condition**. Follow the same approach as above, expand the **Targeting dimension** by clicking on **>**, then select `Source` from the list and click on **Confirm**
 
    ![Targeting dimension expanded to show relational store columns](assets/read-an-audience-expand-targeting-dimension.png)
 
    ![Source attribute selected from the Targeting dimension columns](assets/read-an-audience-select-source-attribute.png)
 
-15. For the **Custom condition**, select **"In Store"** from the drop down and for the operator select "**not equal to**". Click on **Confirm** to exit
+1. For the **Custom condition**, select **"In Store"** from the drop down and for the operator select "**not equal to**". Click on **Confirm** to exit
 
    ![Custom condition set to not equal to In Store](assets/read-an-audience-set-not-in-store-condition.png)
 
-16. Back in the details pane of the **Split** activity, the settings for the two Splits are complete. Click on **Start** to run the campaign in **Test mode**
+1. Back in the details pane of the **Split** activity, the settings for the two Splits are complete. Click on **Start** to run the campaign in **Test mode**
 
    ![Start button to run the campaign in Test mode after configuring the Split](assets/read-an-audience-start-test-mode-second-run.png)
 
-17. The test execution begins and the results are displayed upon completion. Since  only **7** matching Target dimension were found in the Relational schema, the same count is observed post the Split operations (**7** and **0**) as well
+1. The test execution begins and the results are displayed upon completion. Since  only **7** matching Target dimension were found in the Relational schema, the same count is observed post the Split operations (**7** and **0**) as well
 
    ![Split activity results showing counts of 7 and 0](assets/read-an-audience-verify-split-counts.png)
 
-18. Click on each result box and **Preview results** to view the results
+1. Click on each result box and **Preview results** to view the results
 
    ![Preview results option for each Split result box](assets/read-an-audience-preview-split-results.png)
 
-19. Click on **Stop** to stop the **Test mode** of the campaign
+1. Click on **Stop** to stop the **Test mode** of the campaign
 
 ![Stop button to end the final Test mode run](assets/read-an-audience-stop-test-mode-final.png)
 

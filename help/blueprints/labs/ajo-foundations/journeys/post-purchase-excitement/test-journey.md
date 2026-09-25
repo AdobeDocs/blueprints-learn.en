@@ -99,16 +99,16 @@ You should see something like this in the log:
 
 
 
-8. **Close** the Browser **tab**
-9. **Close Test Mode** in the top right
+1. **Close** the Browser **tab**
+1. **Close Test Mode** in the top right
 
    ![Close Test Mode button in the top right](assets/test-journey-close-test-mode.png)
 
-10. Click on **Publish** the Journey in the top right
+1. Click on **Publish** the Journey in the top right
 
    ![Publish button for the Journey in the top right](assets/test-journey-publish-journey.png)
 
-11. **Close** the **Journey** by clicking \<- arrow in the top left
+1. **Close** the **Journey** by clicking \<- arrow in the top left
 
 ![Back arrow in the top left to close the Journey](assets/test-journey-close-journey-back-arrow.png)
 

@@ -10,11 +10,11 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 
 ## Objective
 
-In this section, you will create the actual offer items that the Code-Based Experience (CBE) will return to the requesting client. Some of the offer items will have eligibility requirements and frequency capping, while others will not. 
+In this section, you will create the actual offer items that the Code-Based Experience (CBE) will return to the requesting client. Some of the offer items will have eligibility requirements and frequency capping, while others will not.
 
 ## Scenario overview
 
-Before creating the offer items, however, here are a few quick reminders about our scenario. First, there are 3 iPhone 17 tiers in our scenario: Ultra, Pro, and Base. You create 4 total offers, 1 for each tier, plus a generic fallback offer that the receiving system can use to display general information about the iPhone 17 across all the tiers. 
+Before creating the offer items, however, here are a few quick reminders about our scenario. First, there are 3 iPhone 17 tiers in our scenario: Ultra, Pro, and Base. You create 4 total offers, 1 for each tier, plus a generic fallback offer that the receiving system can use to display general information about the iPhone 17 across all the tiers.
 
 Second, only customers with a plan ID of 2 or 3 are eligible for the Ultra and Pro tier phones.
 
@@ -24,7 +24,7 @@ Lastly, all things being equal, Connection 5G would prefer to sell the Ultra tie
 
 ## Create default/fallback offer item
 
-The first and easiest offer item you create is the fallback offer, which anyone can view for an unlimited period. 
+The first and easiest offer item you create is the fallback offer, which anyone can view for an unlimited period.
 
 1. If necessary, expand **Decisioning** in the left rail and click on **Catalogs**
 2. An empty offers page is shown:
@@ -32,13 +32,13 @@ The first and easiest offer item you create is the fallback offer, which anyone 
    ![Empty Offers catalog page before creating any offer items](assets/create-offer-items-empty-offers-page.png)
 
 3. Click the blue **Create Item** button. This opens the 'Create Offer Item' page.
-4. In the 'Offer name' field, enter the text **iphone:17\:generic**. Enter a description if you wish. 
+4. In the 'Offer name' field, enter the text **iphone:17\:generic**. Enter a description if you wish.
 
    >[!NOTE]
    >
-   >The all-lowercase, colon-separated naming convention is just one of our own designs that could serve as one to follow for a real customer. In practice, you can develop a different naming strategy for your offer items. Be sure that it is documented and consistent before creating offer items. This will ensure that offer items are easy to find and group together in collections. More on this later. 
+   >The all-lowercase, colon-separated naming convention is just one of our own designs that could serve as one to follow for a real customer. In practice, you can develop a different naming strategy for your offer items. Be sure that it is documented and consistent before creating offer items. This will ensure that offer items are easy to find and group together in collections. More on this later.
 
-5. Since this is the lowest-priority/default offer item, leave the default Priority at 1. 
+5. Since this is the lowest-priority/default offer item, leave the default Priority at 1.
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ The first and easiest offer item you create is the fallback offer, which anyone 
 6. Expand the **Device** item in the 'Custom Attributes' area, then enter the following information in the text boxes:
    - Tier: **Generic**
    - Model: **17**
-   - Make: **iPhone** 
+   - Make: **iPhone**
 
    These are the actual text values that both describe the offer and what can be used in sorting, ranking, and eligibility criteria. They are also the text values that can be returned to the requesting device.
 
@@ -61,7 +61,7 @@ The first and easiest offer item you create is the fallback offer, which anyone 
 
    >[!WARNING]
    >
-   >The previous section mentioned the need to take great care when adding custom attributes to the system-generated 'Personalized Offer Items - Experience Decisioning' schema. Each additional custom node will appear as a possible field for every offer item moving forward. Creating unnecessary or campaign-specific attributes will clutter the offer item creation UI and may cause confusion. 
+   >The previous section mentioned the need to take great care when adding custom attributes to the system-generated 'Personalized Offer Items - Experience Decisioning' schema. Each additional custom node will appear as a possible field for every offer item moving forward. Creating unnecessary or campaign-specific attributes will clutter the offer item creation UI and may cause confusion.
 
 7. Click the blue **Next** button in the upper right corner to move on to the next step.
 8. This offer should be available to everyone/All Visitors and not have any frequency capping, so there is no need to make changes to the 'Eligibility' or 'Capping' sections. Click the blue **Next** button again to proceed to the last step.
@@ -69,8 +69,8 @@ The first and easiest offer item you create is the fallback offer, which anyone 
 
    ![Review step confirming the generic offer item details before saving](assets/create-offer-items-generic-offer-review-step.png "Review step confirming the generic offer item details before saving")
 
-10. Make any necessary changes. When ready, click the blue **Save** button. 
-11. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title: 
+10. Make any necessary changes. When ready, click the blue **Save** button.
+11. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title:
 
    ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
 
@@ -78,7 +78,7 @@ The first and easiest offer item you create is the fallback offer, which anyone 
    >
    >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
 
-12. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
+1. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
 
 ## Create base model offer item
 
@@ -103,19 +103,19 @@ Now that the generic offer item has been created, you can create the next priori
 
    ![Capping rule for the base offer set to 3 impressions](assets/create-offer-items-base-offer-capping-rule.png)
 
-   Once correct, click the blue **Create** button to save the capping rule. 
+   Once correct, click the blue **Create** button to save the capping rule.
 
    >[!NOTE]
    >
-   >Notice how you could create an additional capping rule. In practice, you may want to add more than one rule. In this case, we could have added a rule to cap this if a specific event was seen, such as a purchase event. This lab keeps it simple with a single capping rule. 
+   >Notice how you could create an additional capping rule. In practice, you may want to add more than one rule. In this case, we could have added a rule to cap this if a specific event was seen, such as a purchase event. This lab keeps it simple with a single capping rule.
    >
    >![Example of an additional capping rule based on a purchase event](assets/create-offer-items-additional-capping-rule-example.png)
 
    >[!NOTE]
    >
-   >The 'days' mentioned in frequency capping rules refer to days in the GMT timezone.  Frequency capping with days in the logic resets at midnight, GMT.  
+   >The 'days' mentioned in frequency capping rules refer to days in the GMT timezone.  Frequency capping with days in the logic resets at midnight, GMT.
 
-7. Click **Next** to proceed to the review step. 
+7. Click **Next** to proceed to the review step.
 8. Ensure everything appears as expected and click the **Save** button. Once saved, click **Approve.**
 9. Once approved, click the left arrow next to the title and return to the offers page. You now see two offers, each with the appropriate priority.
 
@@ -123,13 +123,13 @@ Now that the generic offer item has been created, you can create the next priori
 
 ## Create upper tier model offer items
 
-Now that the generic and base model offers have been created, you can move to the offer items for the pro and ultra models. These offer items also need to include an element of eligibility because only members with a certain plan level should see these offers.  
+Now that the generic and base model offers have been created, you can move to the offer items for the pro and ultra models. These offer items also need to include an element of eligibility because only members with a certain plan level should see these offers.
 
 1. Following the same steps and naming patterns outlined in the above sections, create a new offer called **iphone:17\:pro** and set its priority to **3.**
 2. Set the **Tier** attribute to **Pro** and the other custom attributes as you did in the other offers.
 3. On the 'Eligibility' step, select the **By rule** radio button.
-4. The left rail shows only one Decision rule, the one created earlier called 'Upper Tier Plans'. Click the **+** icon next to that rule to add it to the canvas. 
-5. As mentioned earlier, the business has stated that non-fallback offers should have a frequency cap of 3 displays (or impressions) per day. Follow the steps in the previous section to create a capping rule for 3 Impressions per day. When finished, your page looks like this: 
+4. The left rail shows only one Decision rule, the one created earlier called 'Upper Tier Plans'. Click the **+** icon next to that rule to add it to the canvas.
+5. As mentioned earlier, the business has stated that non-fallback offers should have a frequency cap of 3 displays (or impressions) per day. Follow the steps in the previous section to create a capping rule for 3 Impressions per day. When finished, your page looks like this:
 
    ![Pro offer item eligibility and capping configuration for 3 impressions per day](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
@@ -137,14 +137,14 @@ Now that the generic and base model offers have been created, you can move to th
 
    ![Completed configuration for the Pro tier offer item](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Once everything looks correct, **Save** and **Approve** the offer item. 
+7. Once everything looks correct, **Save** and **Approve** the offer item.
 8. Return to the offers page and verify that the 3 offers are there and that they each have the proper priority.
 9. Create the final offer item and name it **iphone:17\:ultra,** give it a priority of **4,** and set the other custom attributes with the same values as the other offers.
 10. As with the last offer item, set the eligibility to the 'Upper Tier Plans' Decision rule and set a frequency capping of 3 impressions a day. When finished, your offer item looks like this:
 
    ![Completed configuration for the Ultra tier offer item](assets/create-offer-items-ultra-offer-final-config.png)
 
-11. Once you've verified that all of the settings are correct, save and approve this offer item. You now see all four of the offer items, each with a unique priority.
+1. Once you've verified that all of the settings are correct, save and approve this offer item. You now see all four of the offer items, each with a unique priority.
 
 ![Offers page listing all four offer items with unique priorities](assets/create-offer-items-all-four-offers-priority.png)
 

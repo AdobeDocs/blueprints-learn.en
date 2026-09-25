@@ -10,13 +10,13 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
 ## Navigate to schemas
 
-1. Click on the **Schemas** tab in the left rail 
+1. Click on the **Schemas** tab in the left rail
 
    ![Schemas tab in the left rail navigation](assets/model-standard-objects-schemas-tab-left-rail.png "Navigate to schemas using the left rail")
 
 
 
-1. In the top navigation you see options to browse existing schemas as well as view Field Groups and Data Types that are currently in the XDM registry. 
+1. In the top navigation you see options to browse existing schemas as well as view Field Groups and Data Types that are currently in the XDM registry.
 
 ![Top navigation options to browse schemas, field groups, and data types](assets/model-standard-objects-browse-schemas-top-nav.png "Browse Schemas Top Nav")
 
@@ -37,7 +37,7 @@ exl-id: ea516c0b-3644-483c-a167-0264cc795449
 
    ![Select Manual schema creation option](assets/model-standard-objects-select-manual-option.png "Select Manual")
 
-   
+
 
 1. Select **Individual Profile**
 
@@ -57,15 +57,15 @@ The XDM Individual Profile class-based schemas allow you to collect attributes a
 
 ## Add Demographic Details field group
 
-There are many field groups that exist as standard XDM in Adobe Experience Platform for you to add to your schema and customize them. 
+There are many field groups that exist as standard XDM in Adobe Experience Platform for you to add to your schema and customize them.
 
 1. Click the **+ (add)** on the left rail in the field group section.
 
    ![Add field group button in the left rail](assets/model-standard-objects-add-field-group-button.png "Add a field group")
 
-   
 
-1. Search for **Demographic Details**, or find it by browsing the list. 
+
+1. Search for **Demographic Details**, or find it by browsing the list.
 
    - When you find the field group click on the magnifying glass to the right of the field group to view its structure.  This step is a useful way to preview what you are about to add to your schema without adding it.
    - Close the preview when done reviewing
@@ -78,7 +78,7 @@ There are many field groups that exist as standard XDM in Adobe Experience Platf
 
 
 
-3. **Check** the checkbox next to the field group and then click the **Add field groups** button
+1. **Check** the checkbox next to the field group and then click the **Add field groups** button
 
 ![Select the Demographic Details field group to add it to your schema](assets/model-standard-objects-select-demographic-details-field-group.png "Select the Demographic Details field group to add it to your schema")
 
@@ -121,7 +121,7 @@ To remove fields from any Adobe standard field group, use the **Manage related f
 
    ![Manage related fields option for the person object in the Demographic Details field group](assets/model-standard-objects-manage-related-fields-person-object.png "Manage related fields for the person object as part of the Demographic Details field group")
 
-   
+
 
 1. Expand the person object by clicking the chevron to the left of person and expand the full name object by clicking the chevron to the left of the name object. Keep only the following fields:
 

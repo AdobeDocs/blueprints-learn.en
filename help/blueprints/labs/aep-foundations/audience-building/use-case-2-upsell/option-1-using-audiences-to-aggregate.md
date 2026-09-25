@@ -8,7 +8,7 @@ exl-id: da019755-07a3-406c-8ac7-7878325a14bf
 
 # Option #1 - using Audiences to aggregate
 
-Aggregates in Audiences allow us to aggregate Events in the Audience rule. But since we can only do one aggregate at a time, we need to split the two from our use case. 
+Aggregates in Audiences allow us to aggregate Events in the Audience rule. But since we can only do one aggregate at a time, we need to split the two from our use case.
 
 ## Audience #1 - billing data usage in the last 6 months > 140GB
 
@@ -48,7 +48,7 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 
 
-5. Provide a description and save.  
+5. Provide a description and save.
 
 6. Give the Audience the name “*Billing Usage Sum > 140 GB (last 6 months)*”
 
@@ -69,7 +69,7 @@ In this audience build, you determine total billing data usage in the last 6 mon
 >
 >![Sum and counts only aggregate modes used together](assets/option-1-using-audiences-to-aggregate-both-can-be-used-together.png)
 
-## Audience #2 - rolling 6 month avg. monthly data usage of >= 20GB 
+## Audience #2 - rolling 6 month avg. monthly data usage of >= 20GB
 
 1. Do not click on the hyperlink, but select the row in the Audience List UI so it is highlighting the one we just created. Once it is highlighted, click copy.
 
@@ -83,13 +83,13 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 
 
-3. Give the Audience the name “*Billing Usage Avg > 20 GB (last 6 months)*” 
+3. Give the Audience the name “*Billing Usage Avg > 20 GB (last 6 months)*”
 
 ## Audience #3 - does not have an ultimate phone plan
 
 1. Create a new Audience
 1. In Attributes, search for Plan Name
-1. Add Plan Name (Plan Name)  
+1. Add Plan Name (Plan Name)
 1. Select "Ultimate".  Change to Does Not Equal
 
    >[!NOTE]
@@ -102,15 +102,15 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 
 
-5. Click on Audiences --> Experience Platform. Drag Billing Usage Sum > 140 GB and Billing Usage Avg >= 20 GB next to Plan Name.
+1. Click on Audiences --> Experience Platform. Drag Billing Usage Sum > 140 GB and Billing Usage Avg >= 20 GB next to Plan Name.
 
    ![Drag the billing usage audiences next to Plan Name](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copy the pseudo code into the description
+1. Copy the pseudo code into the description
 
-7. Check this can be Streaming. **It can’t be Streaming**. Make some changes:
+1. Check this can be Streaming. **It can’t be Streaming**. Make some changes:
 
    >[!NOTE]
    >
@@ -120,7 +120,7 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 
 
-8. Replace **Plan Name (Plan Name)** with: XDM Individual Profile > Devbc > Plan Details > **Plan Name**
+1. Replace **Plan Name (Plan Name)** with: XDM Individual Profile > Devbc > Plan Details > **Plan Name**
 
    ![Replace Plan Name (Plan Name) with the denormalized Plan Name field](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -136,7 +136,7 @@ In this audience build, you determine total billing data usage in the last 6 mon
 
 
 
-9. Validate that you can now save this as Streaming. Save Audience as “*Billing Data Usage High But No Ultimate Plan*” 
+1. Validate that you can now save this as Streaming. Save Audience as “*Billing Data Usage High But No Ultimate Plan*”
 
 >[!NOTE]
 >

@@ -18,10 +18,10 @@ exl-id: c9079585-fff1-4ee1-8992-93825fcde759
 
 
 
-2. Update the following properties in the body of the API call. 
+2. Update the following properties in the body of the API call.
 
 - Set the value of the `xdm:sourceSchema` property to the `$id` of the Customer Account schema you saved from the [Create Schema](../build-schema/create-schema.md) lab step
-- Set the value of the `xdm:sourceProperty` to the path of the `planID` field from the Customer Account Schema. 
+- Set the value of the `xdm:sourceProperty` to the path of the `planID` field from the Customer Account Schema.
 - Set the value of the `xdm:destinationSchema` property to the `$id` of `dep: Lookup Plan` schema you saved in 1st step
 
 >[!NOTE]
@@ -51,9 +51,9 @@ EXAMPLE ONLY
 
 
 
-3. Save your request before continuing using the `Save` button
+1. Save your request before continuing using the `Save` button
 
-4. Execute the API by clicking the `Send` button
+1. Execute the API by clicking the `Send` button
 
 You should now see a `201 Created` response like below
 

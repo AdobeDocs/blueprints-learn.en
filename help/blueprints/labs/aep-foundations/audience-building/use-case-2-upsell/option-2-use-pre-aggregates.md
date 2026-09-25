@@ -17,7 +17,7 @@ The challenge with Aggregates in our Audience is that our Audience (while Stream
 >This is quite uncommon as most streamed data is designed around a single event vs an aggregate
 
 - Use the denormalized Plan Name
-- Stream the data in 
+- Stream the data in
 
 ## Create the Audience
 
@@ -30,15 +30,15 @@ Create an audience of all the profiles whose billing data usage is high but do n
 
 
 
-3. Search for the Plan Name on the Profile and add it (XDM Individual Profile > Devbc > Plan Details > Plan Name). Select Does not Equal “Ultimate”
+1. Search for the Plan Name on the Profile and add it (XDM Individual Profile > Devbc > Plan Details > Plan Name). Select Does not Equal “Ultimate”
 
    ![Select Plan Name Does Not Equal Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. Provide a description.  Validate evaluation method is Streaming.  
+1. Provide a description.  Validate evaluation method is Streaming.
 
-5. Save the Audience as “*Billing Data Usage High But No Ultimate Plan (Agg)*”
+1. Save the Audience as “*Billing Data Usage High But No Ultimate Plan (Agg)*”
 
 >[!NOTE]
 >

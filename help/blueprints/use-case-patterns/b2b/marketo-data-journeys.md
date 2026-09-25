@@ -31,10 +31,6 @@ This comprehensive guide outlines the process of integrating Marketo Engage with
 |[Marketo Engage connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)| Adobe Experience Platform facilitates the ingestion of data from Marketo, providing capabilities to structure, label, and enhance the data using its services.|
 |[Journey Optimizer B2B Edition - Marketo Engage actions](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions)| Synchronize Account-Based Marketing in Journey Optimizer B2B Edition with lead-based efforts in Marketo Engage using people-based actions to manage list memberships, and request campaigns.|
 
-## Architecture
-
-![Solution architecture for Journey Optimizer B2B Edition with Marketo data](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
-
 ## Implementation steps
 
 1. Install B2B schemas and namespaces using either of the following options:
