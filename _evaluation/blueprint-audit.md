@@ -10,6 +10,9 @@ will be drafted as a separate follow-on plan once recommendations are reviewed.
 
 ## Summary
 
+Decision Management and Campaign v7 content is now retired. The historical rows below remain to
+document those decisions and their approved redirects.
+
 **Total documents audited:** 43
 
 | Recommendation | Count | Action |

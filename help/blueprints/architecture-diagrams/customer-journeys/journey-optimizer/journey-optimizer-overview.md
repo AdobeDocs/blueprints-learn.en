@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Journey Optimizer] - Journeys"
+title: "[!DNL Journey Optimizer]"
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -55,7 +55,7 @@ This overview outlines the technical capabilities of the application and provide
 >[!BEGINTABS]
 >[!TAB Journey (Event-Driven, Real-Time)]
 
-- **Abandonment Recovery:** Trigger personalized messages when a user abandons a cart, form, or session—via email, push, or in-app.
+- **Abandonment Recovery:** Trigger personalized messages when a user abandons a cart, form, or sessionÃ¢â‚¬â€via email, push, or in-app.
 - **New User Sign-up:** Engage new users immediately after they register with new account preferences, relevant promotions or benefits
 - **Transactional Messaging:** Send real-time confirmations, alerts, or updates (e.g., order shipped, password reset) using event triggers.
 - **Contextual Targeting:** Communicate with users in-the-moment based on their signals and location to help guide and direct their experience
@@ -75,11 +75,11 @@ This overview outlines the technical capabilities of the application and provide
 
 ## Architecture
 
-<img src="images/ajo-architecture.svg" alt="Reference architecture Adobe Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/ajo-architecture.svg" alt="Reference architecture for Adobe Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
-## Example Scenarios
+## Example scenarios
 
 | Scenario | Description |
 | :-- | :-- |
@@ -88,11 +88,11 @@ This overview outlines the technical capabilities of the application and provide
 
 <br>
 
-## Integration Patterns
+## Integration patterns
 
 | Integration | Description | Technical Considerations |
 | :-- | :-- | :-- |
-| [3rd-party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can integrate with third-party messaging platforms to orchestrate and deliver personalized customer communications. | <ul><li>The third-party system must support **bearer token authentication**</li><li>**Static IPs are not supported** due to the multi-tenant architecture.</li><li>Be aware of **API rate limits** on third-party systems; customers may need to purchase additional capacity to handle traffic originating from **Adobe Journey Optimizer**.</li><li>**Decision Management** is not supported within message payloads or delivery logic.</li></ul> |
+| [Third-Party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can integrate with third-party messaging platforms to orchestrate and deliver personalized customer communications. | <ul><li>The third-party system must support **bearer token authentication**</li><li>**Static IPs are not supported** due to the multi-tenant architecture.</li><li>Be aware of **API rate limits** on third-party systems; customers may need to purchase additional capacity to handle traffic originating from **Adobe Journey Optimizer**.</li><li>**Decision Management** is not supported within message payloads or delivery logic.</li></ul> |
 | [[!DNL Journey Optimizer] with Adobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Demonstrates how Adobe [!DNL Journey Optimizer] can integrate with Adobe Campaign v8's transactional messaging capabilities to execute final message delivery. | <ul><li>There is no throttling of messages. Cap of 4,000 messages per 5 minutes.</li><li>Only supports event-initiated journey's</li><li>Decision Management is not supported in messages sent by Campaign</li></ul> |
 
 <br>

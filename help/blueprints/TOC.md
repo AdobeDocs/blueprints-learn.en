@@ -1,7 +1,7 @@
 ---
 user-guide-title: Customer Experience Orchestration Business Objectives, Use Cases, Architecture Diagrams & Blueprints
 breadcrumb-title: Use Cases & Blueprints 
-user-guide-description: xplore key business objectives, use case patterns, and industry use cases for Adobe Experience Platform and applications. Visual architecture diagrams and blueprints provide technical references for system integration, data flows, and solution design — connecting business value to implementation.
+user-guide-description: Explore key business objectives, use case patterns, and industry use cases for Adobe Experience Platform and applications. Visual architecture diagrams and blueprints provide technical references for system integration, data flows, and solution design â€” connecting business value to implementation.
 product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
@@ -60,7 +60,7 @@ nudge: orange
     + [Multi-Step Orchestrated Journey](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
     + [Cross-Channel Journey with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
     + [Campaign v8 Batch Orchestration & Transactional Messaging](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
-    + [Third-party Messaging Integration with Journey Optimizer](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
+    + [Third-Party Messaging Integration with Journey Optimizer](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
   + Analysis{#analysis-patterns}
     + [Customer Analytics & Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
   + B2B Activation & Marketing{#b2b-patterns}
@@ -115,8 +115,6 @@ nudge: orange
       + [AJO journeys](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO campaigns](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Third-party messaging](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/3rd-party-messaging.md)
-    + Decision Management{#decision-management}
-      + [Overview](/help/blueprints/architecture-diagrams/customer-journeys/decision-management/decision-management-overview.md)
     + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview.md)
       + [Real-Time CDP with Adobe [!DNL Campaign] v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
@@ -125,7 +123,6 @@ nudge: orange
       + Campaign Standard{#campaign-standard}
         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
         + [Real-Time CDP with Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
-      + Campaign v7{#campaign-v7}
 
 + Hands-on Labs{#labs}
   + [Hands-on Labs Overview](/help/blueprints/labs/overview.md)

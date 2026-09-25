@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Journey Optimizer] - Triggered Messaging and Adobe Experience Platform"
+title: "[!DNL Journey Optimizer] - Journeys"
 description: Execute triggered messages and experiences using Adobe Experience Platform as a central hub of streaming data, customer profiles, and segmentation.
 solution: Journey Optimizer
 exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
@@ -34,7 +34,7 @@ topic_v2:
 >[!TIP]
 >This architecture is also documented as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) under Campaign Management & Orchestration.
 
-Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deliver personalized, multi-step experiences based on individual customer behaviors. They support a wide range of channels—including email, SMS, push notifications, in-app messaging, code-based experiences and custom API-based integrations allowing brands to engage customers contextually across their preferred touchpoints.
+Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deliver personalized, multi-step experiences based on individual customer behaviors. They support a wide range of channelsâ€”including email, SMS, push notifications, in-app messaging, code-based experiences and custom API-based integrations allowing brands to engage customers contextually across their preferred touchpoints.
 
 <br>
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deli
 
 <br>
 
-## Architectural Considerations for Journeys
+## Architectural considerations for journeys
 
 - **Profile Freshness**: AJO Journeys rely on real-time updates to the customer profile. Ensure that data sources feeding into Adobe Experience Platform (AEP) are configured for low-latency ingestion to maintain profile accuracy.
 - **Scalable Event Processing:** Ensure that infrastructure can handle high volumes of journey triggers and message delivery.

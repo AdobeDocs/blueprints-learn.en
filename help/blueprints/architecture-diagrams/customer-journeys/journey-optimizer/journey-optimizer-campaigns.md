@@ -32,29 +32,29 @@ topic_v2:
 >[!TIP]
 >This architecture is also documented as a [use case pattern](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) under Campaign Management & Orchestration.
 
-AJO Campaign Orchestration enables marketers to design and execute scheduled, audience-based, multi-step communications across outbound channels like email, SMS, push and direct mail. Unlike AJO Journeys, which react to individual customer behaviors using real-time data from the Real-Time Customer Profile, campaigns are coordinated marketing efforts that target audiences at planned intervals. Together, campaigns and journeys offer complementary approaches—campaigns drive brand engagement strategies, while journeys deliver personalized, responsive experiences.
+AJO Campaign Orchestration enables marketers to design and execute scheduled, audience-based, multi-step communications across outbound channels like email, SMS, push and direct mail. Unlike AJO Journeys, which react to individual customer behaviors using real-time data from the Real-Time Customer Profile, campaigns are coordinated marketing efforts that target audiences at planned intervals. Together, campaigns and journeys offer complementary approachesâ€”campaigns drive brand engagement strategies, while journeys deliver personalized, responsive experiences.
 
 <br>
 
 ## Architecture
 
-<img src="images/ajo-campaigns-architecture.svg" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/ajo-orchestrated-campaigns.svg" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
-### Message Execution Architecture
+### Message execution architecture
 
-<img src="images/ajo-campaigns-message-sending-architecture.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
-
-### Relational Store - Data Ingestion Latency
-
-<img src="images/ajo-campaigns-data-ingestion-architecture.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/ajo-orchestrated-campaigns-message-sending.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
-## Architectural Considerations for Journeys
+### Relational store - data ingestion latency
+
+<img src="images/ajo-orchestrated-campaigns-data-ingestion.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+<br>
+
+## Architectural considerations for campaigns
 
 - **Data Architecture**: AJO Campaign Orchestration utilizes a relational database underneath for audience building and orchestration
 - **Audience Portal Integration**: natively integrated with the Audience Portal within the Real-Time Customer Profile to both read from existing audiences and save new audiences to when building campaigns

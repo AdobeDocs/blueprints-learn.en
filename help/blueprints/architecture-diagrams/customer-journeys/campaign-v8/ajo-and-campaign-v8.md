@@ -45,7 +45,7 @@ Demonstrates how Adobe [!DNL Journey Optimizer] can be used with Adobe [!DNL Cam
 
 ## Architecture
 
-<img src="images/ajo-campaign-v8-architecture.svg" alt="Reference architecture Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/campaign-v8-with-ajo.svg" alt="Reference architecture Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
 >Using both Journey Optimizer and Campaign to send messages independently of each other is possible but has some technical considerations that need to be thought through. If you wish to pursue this route, please work with your Pre-Sales Enterprise Architect to ensure that you have an understanding of what will be required to support the implementation

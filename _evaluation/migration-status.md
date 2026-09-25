@@ -1,4 +1,4 @@
-# Migration Status — Blueprints to Use Case Patterns
+# Migration Status â€” Blueprints to Use Case Patterns
 
 This document captures the state of the blueprint reorganization effort so it can be resumed cleanly across sessions.
 
@@ -16,7 +16,7 @@ The B2B section is no longer paused. Its published architecture scope is now lim
 
 The current working pattern, agreed in this session, is:
 
-1. **Keep blueprints alive** — no deprecation. Each blueprint stays in place as an architecture-focused page.
+1. **Keep blueprints alive** â€” no deprecation. Each blueprint stays in place as an architecture-focused page.
 2. **Add cross-link TIP** to every blueprint with a related/overlapping use case pattern, immediately after the H1:
 
    ```
@@ -24,48 +24,48 @@ The current working pattern, agreed in this session, is:
    >This blueprint is also available as a [use case pattern](<absolute path>) under <Category>.
    ```
 
-3. **Migrate diagrams** — if a blueprint has an architecture diagram that the related pattern lacks, add a `## Architecture` section to the pattern referencing the same SVG via absolute path. The asset stays in its original location (no file copies).
+3. **Migrate diagrams** â€” if a blueprint has an architecture diagram that the related pattern lacks, add a `## Architecture` section to the pattern referencing the same SVG via absolute path. The asset stays in its original location (no file copies).
 4. **Trim implementation steps** from the blueprint where covered in the pattern. Sections to remove typically include: `## Implementation steps`, `## Implementation patterns`, `## Implementation considerations`, sometimes `## Prerequisites`. Use judgment per-blueprint.
-5. **Walk through one by one** — propose changes per blueprint, get user approval, then apply.
+5. **Walk through one by one** â€” propose changes per blueprint, get user approval, then apply.
 
 ### Universal rules
 
 - Cross-link TIP wording is consistent: `>This blueprint is also available as a [use case pattern](...) under <Category>.`
-- New files (use case patterns created during migration) **do not include `exl-id`** — Adobe publication assigns these.
+- New files (use case patterns created during migration) **do not include `exl-id`** â€” Adobe publication assigns these.
 - Image references in newly authored files use absolute paths (`/help/blueprints/...`), not relative.
 - Existing `exl-id` values on existing pages are preserved.
 - Redirects in `redirects.csv` follow the format `source,dest` with `/en/docs/...` paths (no `.html`).
 
-## Phases A–E (initial structural work) — COMPLETE
+## Phases Aâ€“E (initial structural work) â€” COMPLETE
 
 | Phase | Result |
 | --- | --- |
-| A | Created `B2B Activation & Marketing` use case pattern category. Relocated 3 existing patterns (`b2b-audience-activation` → `b2b/account-audience-activation`, `buying-group-based-marketing` → `b2b/buying-group-marketing`, `b2b-analytics` → `b2b/account-analytics`). 3 redirects added. |
+| A | Created `B2B Activation & Marketing` use case pattern category. Relocated 3 existing patterns (`b2b-audience-activation` â†’ `b2b/account-audience-activation`, `buying-group-based-marketing` â†’ `b2b/buying-group-marketing`, `b2b-analytics` â†’ `b2b/account-analytics`). 3 redirects added. |
 | B | Copied 4 B2B blueprints to `use-case-patterns/b2b/` (`marketo-data-journeys`, `paid-media-orchestration`, `campaign-intake-and-creation`, `campaign-review-and-approval`). |
 | C | Copied 4 non-B2B blueprints (`real-time-profile-lookup`, `data-science-profile-enrichment`, `edge-profile-access`, `campaign-v8-orchestration`). |
 | D | Copied 2 Split blueprints (`audience-sharing-with-target`, `third-party-messaging`). |
 | E | Added cross-link TIP to 9 Duplicate-classified blueprints. |
 
-Use Case Patterns total after A–E: **26 patterns** across 6 categories.
+Use Case Patterns total after Aâ€“E: **26 patterns** across 6 categories.
 
 ## Section-by-section walkthrough (in progress)
 
 The section walkthrough applies the cross-link / diagram-migration / impl-trim approach to each blueprint individually under user review.
 
-### ✅ Audience & Profile Activation — 8/8 complete
+### âœ… Audience & Profile Activation â€” 8/8 complete
 
 | # | Blueprint | Action taken |
 | --- | --- | --- |
 | 1 | `audience-manager.md` | Cross-link TIP + diagram migrated to pattern (`anonymous-visitor-web-personalization`) + RTCDP impl steps removed |
 | 2 | `enterprise-destinations.md` | Cross-link TIP + diagram migrated to pattern (`audience-activation-to-destinations`) |
-| 3 | `advertising-activation.md` | Impl steps removed (99 → 35 lines) |
-| 4 | `customer-activity.md` | Impl steps removed (51 → 40 lines) |
-| 5 | `data-science.md` | Impl considerations removed (46 → 40 lines) |
-| 6 | `real-time-lookup.md` | Prereqs + impl patterns/steps/considerations removed (156 → 73 lines) |
+| 3 | `advertising-activation.md` | Impl steps removed (99 â†’ 35 lines) |
+| 4 | `customer-activity.md` | Impl steps removed (51 â†’ 40 lines) |
+| 5 | `data-science.md` | Impl considerations removed (46 â†’ 40 lines) |
+| 6 | `real-time-lookup.md` | Prereqs + impl patterns/steps/considerations removed (156 â†’ 73 lines) |
 | 7 | `segment-match.md` | **No changes** (user opted to leave as-is) |
-| 8 | `rtcdp-target.md` | Impl patterns + considerations removed (99 → 74 lines) |
+| 8 | `rtcdp-target.md` | Impl patterns + considerations removed (99 â†’ 74 lines) |
 
-### 🟡 B2B Activation & Marketing — 1/10 in progress
+### ðŸŸ¡ B2B Activation & Marketing â€” 1/10 in progress
 
 | # | Blueprint | Status |
 | --- | --- | --- |
@@ -80,17 +80,20 @@ The section walkthrough applies the cross-link / diagram-migration / impl-trim a
 | 9 | `b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md` | Retired |
 | 10 | `b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md` | Retired |
 
-### ⚪ Customer Journey Analytics — 0/5 not yet started
+### âšª Customer Journey Analytics â€” 0/5 not yet started
 
-Files: `overview.md`, `b2b-cja.md` (Phase E Duplicate, cross-link added), `cja-rtcdp.md` (Group 2 — recommend cross-link to `customer-analytics-insight-generation`), `cja-ajo.md` (Group 2 — same), `analysis.md` (Group 3, possibly relocate to experience-platform/).
+Files: `overview.md`, `b2b-cja.md` (Phase E Duplicate, cross-link added), `cja-rtcdp.md` (Group 2 â€” recommend cross-link to `customer-analytics-insight-generation`), `cja-ajo.md` (Group 2 â€” same), `analysis.md` (Group 3, possibly relocate to experience-platform/).
 
-### ⚪ Customer Journeys — 0/14 not yet started
+### âšª Customer Journeys â€” retirement cleanup complete; retained-page migration pending
 
-Files: `overview.md`; `journey-optimizer/` (4 files: overview, journeys [Phase E], campaigns [Phase E], 3rd-party-messaging [Phase D]); `decision-management/` (3 files: overview, edge [Phase E], hub [Phase E]); `campaign-v8/` (3 files: overview [Phase C], rtcdp-and-v8, ajo-and-v8); `campaign-v7/` (3 deprecated files).
+Files: `overview.md`; `journey-optimizer/` (4 files: overview, journeys [Phase E], campaigns [Phase E], 3rd-party-messaging [Phase D]); `campaign-v8/` (3 files: overview [Phase C], rtcdp-and-v8, ajo-and-v8). `decision-management/` and `campaign-v7/` are fully retired; their historical entries remain in the audit and their URLs redirect to the approved overview pages.
 
-### ⚪ Experience Platform — 0/6 not yet started
+### âšª Experience Platform â€” 0/6 not yet started
 
-Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md`, `guardrails.md`, `deployment/websdk.md`, `deployment/appsdk.md`. All scored as Diagram-only with 0 pattern signals in the audit. **Likely all "no change"** — they are foundational architecture that no use case pattern overlaps with.
+Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md`, `guardrails.md`, `deployment/websdk.md`, `deployment/appsdk.md`. All scored as Diagram-only with 0 pattern signals in the audit. **Likely all "no change"** â€” they are foundational architecture that no use case pattern overlaps with.
+
+The Decision Management and Campaign v7 retirement decisions are complete. Their related open questions
+are historical only and should not block the remaining migration work.
 
 ## Reference files
 
@@ -103,12 +106,10 @@ Files: `experience-cloud.md`, `platform-applications.md`, `platform-data-flow.md
 
 ## Open questions still unresolved (from audit)
 
-1. **Decision Management edge + hub** — both currently cross-link to `offer-decisioning`. Consider consolidating into a single deployment-options diagram?
-2. **`journey-optimizer-journeys.md`** — flagged as uncertain duplicate of `event-triggered-messaging`; verify scope before trimming.
-3. **`customer-journey-analytics/analysis.md`** — content is about Experience Platform Query Service, not CJA; consider relocating to `experience-platform/`.
-4. **Campaign v7 (3 deprecated files)** — migrate, leave, or remove from TOC?
-5. **`customer-success-stories.md`** — links-only page; confirm Navigation classification.
-6. Historical TOC-anchor question superseded by the completed B2B architecture disposition.
+2. **`journey-optimizer-journeys.md`** â€” flagged as uncertain duplicate of `event-triggered-messaging`; verify scope before trimming.
+3. **`customer-journey-analytics/analysis.md`** â€” content is about Experience Platform Query Service, not CJA; consider relocating to `experience-platform/`.
+4. **`customer-success-stories.md`** â€” links-only page; confirm Navigation classification.
+5. Historical TOC-anchor question superseded by the completed B2B architecture disposition.
 
 ## How to resume
 

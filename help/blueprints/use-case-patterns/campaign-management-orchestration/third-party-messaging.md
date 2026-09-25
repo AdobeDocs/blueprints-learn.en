@@ -1,17 +1,17 @@
 ---
-title: Journey Optimizer - 3rd-party Messaging blueprint
-description: Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to send personalized communications.
+title: Journey Optimizer - Third-Party Messaging blueprint
+description: Demonstrates how Adobe Journey Optimizer can be utilized with third-party messaging systems to send personalized communications.
 solution: Journey Optimizer
 ---
-# 3rd-party Messaging blueprint
+# Third-Party Messaging blueprint
 
-Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to send personalized communications.
+Demonstrates how Adobe Journey Optimizer can be utilized with third-party messaging systems to send personalized communications.
 
 <br>
 
 ## Architecture
 
-<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -23,7 +23,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 * For Experience Event class-based schemas, add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
 * For Individual Profile class-based schemas, add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
 
-**3rd-party Messaging Application**
+**Third-Party Messaging Application**
 
 * Must support REST API calls for sending transactional payloads
 
@@ -65,9 +65,9 @@ Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messagin
 1. Configure your Experience Platform datasource and determine what fields should be cached as part of the journey
 1. Streaming data, used to initiate a customer journey, must be configured first to get an orchestration ID. This orchestration ID is then supplied to the developer to use during ingestion
 1. Configure external data sources
-1. Configure custom actions for 3rd party application
+1. Configure custom actions for third-party application
 
-### Mobile push configuration (optional as 3rd party may collect tokens)
+### Mobile push configuration (optional as third-party may collect tokens)
 
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:

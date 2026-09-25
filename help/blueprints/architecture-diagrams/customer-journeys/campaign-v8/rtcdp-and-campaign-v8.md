@@ -29,7 +29,7 @@ Showcases how the Adobe [!DNL Experience Platform] and its Real-Time Customer Pr
 
 ## Architecture
 
-<img src="images/rtcdp-campaign-v8-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform integration pattern" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/campaign-v8-with-rtcdp.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform integration pattern" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br> 
 
