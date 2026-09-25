@@ -96,10 +96,9 @@ nudge: orange
     + [Adobe Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
   + Audience & Profile Activation{#audience-profile-activation}
     + [Overview](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
-    + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Adobe Real-Time CDP activation](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-activation.md)
-      + [Real-time Edge Profile Access](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
-      + [Adobe Real-Time CDP & Adobe Target integration](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
+    + [Adobe Real-Time CDP activation](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-activation.md)
+    + [Real-time Edge Profile Access](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
+    + [Adobe Real-Time CDP & Adobe Target integration](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B audience and profile activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
@@ -119,10 +118,6 @@ nudge: orange
       + [Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview.md)
       + [Real-Time CDP with Adobe [!DNL Campaign] v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer with Adobe Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
-    + Deprecated blueprints{#deprecated-blueprints}
-      + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDP with Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
 
 + Hands-on Labs{#labs}
   + [Hands-on Labs Overview](/help/blueprints/labs/overview.md)
