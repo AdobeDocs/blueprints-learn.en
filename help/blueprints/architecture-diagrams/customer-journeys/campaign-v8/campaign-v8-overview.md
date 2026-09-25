@@ -82,13 +82,13 @@ Learn more about [Campaign v8 deployment models](https://experienceleague.adobe.
 
 ### Campaign enterprise (FFDA) deployment
 
-<img src="images/campaign-v8-ffda.svg" alt="Reference architecture for Campaign v8 (FFDA) Deployment" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture for Campaign v8 (FFDA) Deployment](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
 
 <br>
 
 ### Campaign v8 FDA deployment
 
-<img src="images/campaign-v8-fda.svg" alt="Reference architecture for Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture for Campaign v8 (FDA)](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
 
 <br>
 

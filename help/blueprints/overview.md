@@ -103,7 +103,7 @@ Visual architecture and data flow reference diagrams that illustrate system inte
   </td>
    <td>
     <a href="architecture-diagrams/architecture-overviews/websdk.md">
-      <img alt="Edge Sequence Diagram" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.svg" />
+      <img alt="Edge Sequence Diagram" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.png" />
     </a>
     <div>
       <a href="architecture-diagrams/architecture-overviews/websdk.md">
@@ -113,7 +113,7 @@ Visual architecture and data flow reference diagrams that illustrate system inte
   </td>
   <td>
     <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Journey Optimizer Overview Diagram" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
+      <img alt="Journey Optimizer Overview Diagram" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.png" />
     </a>
     <div>
       <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">

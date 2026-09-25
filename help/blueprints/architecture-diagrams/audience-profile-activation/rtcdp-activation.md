@@ -11,7 +11,7 @@ This architecture shows how Adobe [!DNL Real-Time Customer Data Platform] ([!DNL
 
 The architecture illustrates the shared activation path from [!DNL Real-Time CDP] audiences and profiles to destination applications. It includes destination activation for advertising and social platforms, as well as enterprise destinations used for storage, analysis, and downstream application workflows.
 
-<img src="assets/real_time_cdp_activation.png" alt="Adobe Real-Time CDP audience and profile activation architecture" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![Adobe Real-Time CDP audience and profile activation architecture](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
 
 ## Use case patterns supported
 

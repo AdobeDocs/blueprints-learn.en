@@ -14,7 +14,7 @@ The diagrams are organized into the following categories. Select a card to jump 
 <tr>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="architecture-overviews/overview.md">
-      <img alt="Architecture overviews" src="architecture-overviews/assets/aep_apps_overview.svg" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="Architecture overviews" src="architecture-overviews/assets/aep_apps_overview.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="architecture-overviews/overview.md">
@@ -60,7 +60,7 @@ The diagrams are organized into the following categories. Select a card to jump 
   </td>
   <td style="width:33%; vertical-align:top; padding:10px; box-sizing:border-box;">
     <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Customer journeys" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
+      <img alt="Customer journeys" src="customer-journeys/journey-optimizer/images/ajo-architecture.png" style="display:block; width:100%; height:160px; object-fit:contain; background-color:#ffffff; border:1px solid #d3d3d3; padding:10px; box-sizing:border-box;" />
     </a>
     <div style="min-height:100px;">
       <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">

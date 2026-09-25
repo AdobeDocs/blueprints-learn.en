@@ -44,7 +44,7 @@ This blueprint requires the use of one of the following data collection methods 
 
 ## Architecture Diagram
 
-<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.svg" alt="Reference architecture for Real-time Edge Profile Access" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.png" alt="Reference architecture for Real-time Edge Profile Access" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardrails
 

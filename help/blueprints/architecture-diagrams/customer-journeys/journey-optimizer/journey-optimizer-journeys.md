@@ -40,7 +40,7 @@ Adobe Journey Optimizer Journeys are real-time, event-driven workflows that deli
 
 ## Architecture
 
-<img src="images/ajo-journeys-architecture.svg" alt="Reference architecture Adobe Journey Optimizer - Journeys" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture Adobe Journey Optimizer - Journeys](images/ajo-journeys-architecture.png){width="1000" zoomable="yes"}
 
 <br>
 
