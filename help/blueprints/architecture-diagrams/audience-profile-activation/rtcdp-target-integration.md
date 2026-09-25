@@ -81,13 +81,13 @@ Use this approach when audiences evaluated in [!DNL Real-Time Customer Data Plat
 
 This diagram shows the primary integration points among data collection, the Edge Network, [!DNL Real-Time Customer Data Platform], and [!DNL Adobe Target].
 
-<img src="assets/real_time_cdp_target.svg" alt="Architecture for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![Architecture for Real-Time Customer Data Platform and Adobe Target integration](assets/real_time_cdp_target.png){zoomable="yes"}
 
 ## Data flow diagram
 
 This sequence shows how a client request reaches the Edge Network, evaluates audiences and profile context, sends a personalization request to [!DNL Adobe Target], and returns the resulting experience to the client.
 
-<img src="assets/real_time_cdp_target_data_flow_detail.svg" alt="Data flow for Real-Time Customer Data Platform and Adobe Target integration" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![Data flow for Real-Time Customer Data Platform and Adobe Target integration](assets/real_time_cdp_target_data_flow_detail.png){zoomable="yes"}
 
 ## Implementation considerations
 

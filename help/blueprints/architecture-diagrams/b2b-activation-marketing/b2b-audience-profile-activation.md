@@ -44,7 +44,7 @@ Various B2B data sources can be used to map account, lead, opportunity, and pers
 
 ## Architecture
 
-<img src="assets/b2b-audience-profile-activation.png" alt="Reference architecture for the B2B Audience and Profile Activation blueprint" style="border:1px solid #4a4a4a"  width="100%" />
+![Reference architecture for the B2B Audience and Profile Activation blueprint](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
 ## Guardrails
 

@@ -36,7 +36,7 @@ Typical integration patterns for this blueprint include:
 
 ## Architecture
 
-<img src="assets/b2b-account-activation.png" alt="Reference architecture for the B2B Account Activation blueprint" style="border:1px solid #4a4a4a"  width="100%" />
+![Reference architecture for the B2B Account Activation blueprint](assets/b2b-account-activation.png){width="1000" zoomable="yes"}
 
 ## Account audience destinations
 

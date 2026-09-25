@@ -11,7 +11,7 @@ This architecture shows how Adobe Journey Optimizer delivery and interaction dat
 
 The architecture connects Journey Optimizer delivery and interaction data with Experience Platform and Customer Journey Analytics for reporting, analysis, and audience creation.
 
-<img src="assets/cja_ajo_integration.png" alt="Adobe Customer Journey Analytics and Adobe Journey Optimizer integration architecture" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![Adobe Customer Journey Analytics and Adobe Journey Optimizer integration architecture](assets/cja_ajo_integration.png){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 

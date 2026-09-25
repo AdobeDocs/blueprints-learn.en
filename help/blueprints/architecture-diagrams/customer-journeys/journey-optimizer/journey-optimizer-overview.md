@@ -75,7 +75,7 @@ This overview outlines the technical capabilities of the application and provide
 
 ## Architecture
 
-<img src="images/ajo-architecture.svg" alt="Reference architecture for Adobe Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture for Adobe Journey Optimizer](images/ajo-architecture.svg){width="1000" zoomable="yes"}
 
 <br>
 

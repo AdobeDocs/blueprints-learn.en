@@ -65,7 +65,7 @@ With this capability, you can deliver highly personalized experiences on your we
 
 ## Architecture Diagram
 
-<img src="assets/real_time_edge_profile_access.svg" alt="Reference architecture for Real-time Edge Profile Access" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+![Reference architecture for Real-time Edge Profile Access](assets/real_time_edge_profile_access.svg){width="1000" zoomable="yes"}
 
 ## Guardrails
 

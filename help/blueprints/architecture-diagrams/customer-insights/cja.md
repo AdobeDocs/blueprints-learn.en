@@ -22,7 +22,7 @@ Adobe Customer Journey Analytics unifies customer interaction data from Adobe Ex
 
 This diagram shows the core flow of customer interaction data into Customer Journey Analytics for connections, data views, analysis, and audience creation.
 
-<img src="assets/cja.png" alt="Adobe Customer Journey Analytics core architecture" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![Adobe Customer Journey Analytics core architecture](assets/cja.png){width="1000" zoomable="yes"}
 
 ## Architecture derivations
 

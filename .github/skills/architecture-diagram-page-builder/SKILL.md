@@ -115,8 +115,8 @@ Use `./references/diagram-template.md` as the source template. Fill in all place
    - 1-2 sentences explaining the diagram's purpose
    - The image embed using the standard convention:
 
-     ```html
-     <img src="assets/{filename}" alt="{Alt Text}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+       ```markdown
+       ![{Alt Text}](assets/{filename}){width="1000" zoomable="yes"}
      ```
 
 6. **`## Use case patterns supported`** -- bulleted list. Each bullet:
@@ -181,6 +181,6 @@ Fix any validation issues before considering the task complete.
 
 - Always use `[!DNL ...]` syntax for Adobe product names in body text and bullets, following the convention of existing pages.
 - Architecture diagrams are typically SVG (preferred for crispness and scaling) but PNG is acceptable for raster-source artwork.
-- The `<img>` embed inline-styling string (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) and `class="modal-image"` are required -- they enable the Experience League modal-zoom interaction.
+- Use a Markdown image with descriptive alt text, a relative `assets/{filename}` path, and `{width="1000" zoomable="yes"}` for diagram zoom.
 - If the user is creating a page for a brand-new topic folder that does not exist yet, stop and use the `architecture-diagram-category-builder` skill instead -- it handles naming-convention enforcement, TOC.md subsection creation, the category `overview.md`, and the landing-page card grid. Do not create a new topic folder from within this skill.
 - If the architecture diagram extensively documents a *single use case end-to-end* (with KPIs, business objectives, capabilities), redirect the user to `use-case-pattern-builder` -- that is not an architecture page.

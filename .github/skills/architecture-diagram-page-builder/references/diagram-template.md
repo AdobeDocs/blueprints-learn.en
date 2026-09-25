@@ -22,13 +22,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -64,7 +64,7 @@ The architecture above supports the following use case patterns:
 
 - **One H1** -- the page title. Match the `title` frontmatter exactly.
 - **One H2 per diagram.** No H3 inside diagram sections; keep them to a 1-2 sentence intro plus the image.
-- **`<img>` embed** -- the inline style and `class="modal-image"` are required. They drive the Experience League modal-zoom interaction.
+- **Markdown image embed** -- provide descriptive alt text and use `{width="1000" zoomable="yes"}` for diagrams.
 - **Image path** -- always `assets/{filename}` (relative to the page's topic folder). Do not use absolute paths.
 - **Adobe product names** -- wrap in `[!DNL ...]` in body text and bullets. Example: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Use case pattern links** -- always use the absolute `/help/blueprints/use-case-patterns/{category}/{file}.md` form so the link resolves from any page that may transclude this content.

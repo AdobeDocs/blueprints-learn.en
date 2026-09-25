@@ -38,19 +38,19 @@ AJO Campaign Orchestration enables marketers to design and execute scheduled, au
 
 ## Architecture
 
-<img src="images/ajo-orchestrated-campaigns.svg" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture Adobe Journey Optimizer Campaign Orchestration](images/ajo-orchestrated-campaigns.svg){width="1000" zoomable="yes"}
 
 <br>
 
 ### Message execution architecture
 
-<img src="images/ajo-orchestrated-campaigns-message-sending.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture Adobe Journey Optimizer Campaign Orchestration](images/ajo-orchestrated-campaigns-message-sending.png){width="1000" zoomable="yes"}
 
 <br>
 
 ### Relational store - data ingestion latency
 
-<img src="images/ajo-orchestrated-campaigns-data-ingestion.png" alt="Reference architecture Adobe Journey Optimizer Campaign Orchestration" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Reference architecture Adobe Journey Optimizer Campaign Orchestration](images/ajo-orchestrated-campaigns-data-ingestion.png){width="1000" zoomable="yes"}
 
 <br>
 
