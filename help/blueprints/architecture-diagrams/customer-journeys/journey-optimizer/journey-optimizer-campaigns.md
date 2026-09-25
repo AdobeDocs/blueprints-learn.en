@@ -38,7 +38,7 @@ AJO Campaign Orchestration enables marketers to design and execute scheduled, au
 
 ## Architecture
 
-![Reference architecture Adobe Journey Optimizer Campaign Orchestration](images/ajo-orchestrated-campaigns.svg){width="1000" zoomable="yes"}
+![Reference architecture Adobe Journey Optimizer Campaign Orchestration](images/ajo-orchestrated-campaigns.png){width="1000" zoomable="yes"}
 
 <br>
 

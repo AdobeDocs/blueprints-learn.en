@@ -41,7 +41,7 @@ Demonstrates how Adobe Journey Optimizer can be utilized with third-party messag
 
 ## Architecture
 
-![Reference architecture Journey Optimizer](images/ajo-third-party-messaging.svg){width="1000" zoomable="yes"}
+![Reference architecture Journey Optimizer](images/ajo-third-party-messaging.png){width="1000" zoomable="yes"}
 
 <br>
 

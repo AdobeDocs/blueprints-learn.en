@@ -50,11 +50,11 @@ For details related to migration from application specific SDKs to the Web and M
 
 The below architecture diagram illustrates the deployment and data collection utilizing the Experience Platform Web SDK.
 
-![Reference architecture for implementation using the Experience Platform Web and Mobile SDK](assets/sdk_data_flow_diagram.svg){width="1000" zoomable="yes"}
+![Reference architecture for implementation using the Experience Platform Web and Mobile SDK](assets/sdk_data_flow_diagram.png){width="1000" zoomable="yes"}
 
 Sequence Diagram of Experience Edge, Experience Platform Services, and Applications
 
-![Reference architecture for the Online/Offline Web Personalization scenario](assets/sdk_sequence_diagram.svg){width="1000" zoomable="yes"}
+![Reference architecture for the Online/Offline Web Personalization scenario](assets/sdk_sequence_diagram.png){width="1000" zoomable="yes"}
 
 ## Reference documentation
 

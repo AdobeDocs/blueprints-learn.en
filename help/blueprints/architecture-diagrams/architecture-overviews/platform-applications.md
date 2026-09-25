@@ -64,8 +64,8 @@ These architecture diagrams show how Experience Platform (AEP) relates to other 
 
 This architecture diagram shows how Adobe Experience Platform relates to Adobe Experience Cloud applications and application services.
 
-![Experience Platform & Applications](assets/aep_apps_overview.svg){width="1000" zoomable="yes"}
+![Experience Platform & Applications](assets/aep_apps_overview.png){width="1000" zoomable="yes"}
 
 ## Detailed architecture diagram
 
-![Experience Platform & Applications](assets/aep_apps_detailed.svg){width="1000" zoomable="yes"}
+![Experience Platform & Applications](assets/aep_apps_detailed.png){width="1000" zoomable="yes"}
