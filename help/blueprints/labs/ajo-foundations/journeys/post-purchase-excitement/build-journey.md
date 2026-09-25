@@ -153,8 +153,8 @@ For content, you are going to keep things simple. Like stupid simple.
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. Add the personalization fields as follows (**click the plus '+' sign next to the field on the left rail**):
@@ -182,7 +182,7 @@ For content, you are going to keep things simple. Like stupid simple.
 
    ![Save button and back arrow in the top right and top left](assets/build-journey-save-and-back-arrow.png)
 
-12. Finally, click the **\< Back icon** in top left to get back to the Journey Canvas
+1. Finally, click the **\< Back icon** in top left to get back to the Journey Canvas
 
 ![Back icon in the top left to return to the Journey Canvas](assets/build-journey-back-icon-to-journey-canvas.png)
 

@@ -10,7 +10,7 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 
 ## Objective
 
-In the next set of steps, you will build on the campaign to add two Email activities to the two Fork activity branches. You will configure the two Email activities to use the Email channels, created previously. Finally you will also add basic Email setup (subject and body) to each of these Email activity. 
+In the next set of steps, you will build on the campaign to add two Email activities to the two Fork activity branches. You will configure the two Email activities to use the Email channels, created previously. Finally you will also add basic Email setup (subject and body) to each of these Email activity.
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ In the next set of steps, you will build on the campaign to add two Email activi
 
    ![Confirmation dialog with Save & close button](assets/add-email-activities-save-and-close-dialog.png)
 
-11. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
+1. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
 
 ![Navigate back to Campaign canvas](assets/add-email-activities-back-to-campaign-canvas.png)
 

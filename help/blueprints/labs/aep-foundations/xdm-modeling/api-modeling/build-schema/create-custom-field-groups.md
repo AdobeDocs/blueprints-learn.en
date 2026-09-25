@@ -50,7 +50,7 @@ Review the body of the request before executing. Notice that the required fields
 
 
 
-Also notice how each specific field from the mapping sheet is substantiated within the XDM JSON structure. 
+Also notice how each specific field from the mapping sheet is substantiated within the XDM JSON structure.
 
 
 
@@ -62,7 +62,7 @@ Also notice how each specific field from the mapping sheet is substantiated with
 
 
 
-2. Update the `title` and `description` for the field group using the following format: `Customer Account Details - Sandbox <your number here>`
+1. Update the `title` and `description` for the field group using the following format: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -70,9 +70,9 @@ Also notice how each specific field from the mapping sheet is substantiated with
 
 
 
-3. Execute by clicking the `Send` button.  You should see a response similar to the screenshot below.
+1. Execute by clicking the `Send` button.  You should see a response similar to the screenshot below.
 
-4. Copy the `$id` value of your newly created Customer Account Details field group. 
+1. Copy the `$id` value of your newly created Customer Account Details field group.
 
 ![Successful API response after creating the custom field group](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Step 2 - Create Custom Field Group Success")
 

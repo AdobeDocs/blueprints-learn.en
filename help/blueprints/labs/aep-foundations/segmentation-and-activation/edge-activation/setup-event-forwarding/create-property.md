@@ -125,7 +125,7 @@ When done you should see the following screen confirming your data element has b
 >
 >A Rule contains:
 >
->1. Conditions on what to forward 
+>1. Conditions on what to forward
 >2. Actions that can transform the payload and define where to send it
 
 
@@ -202,7 +202,7 @@ When you are done validate your screen looks similar to below and then click on 
 
 
 
-4. When done you should see your action added to your rule. Click **Save** to continue.
+1. When done you should see your action added to your rule. Click **Save** to continue.
 
 ![Rule editor showing the configured action with the Save button highlighted](assets/create-property-save-rule-button.png "Save your rule")
 

@@ -19,13 +19,13 @@ For this Use Case there isn’t much pre work to do. We basically have two thing
 
 
 
-3. Search for "usage" in Events.  Click on the "i" to review the description (there is none).
+1. Search for "usage" in Events.  Click on the "i" to review the description (there is none).
 
 ![Search for usage in Events - no description shown](assets/pre-work-search-usage-in-events.png)
 
 >[!NOTE]
 >
->Neither of these have any descriptions, so the Marketer may make some assumptions and guess wrong. 
+>Neither of these have any descriptions, so the Marketer may make some assumptions and guess wrong.
 >
 >Descriptions are important.  Without descriptions, how will the Marketer know:
 >

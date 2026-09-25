@@ -18,7 +18,7 @@ exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
 
 
 
-2. Update the following properties in the body of the API call. 
+2. Update the following properties in the body of the API call.
 
 - Update the value of the `xdm:sourceSchema` property to the `$id` of the `Customer Account` schema you saved from the [Create Schema](../build-schema/create-schema.md)  step
 - Update the value of the `xdm:sourceProperty` to the path of the `planID` field from the `Customer Account` schema
@@ -47,9 +47,9 @@ EXAMPLE ONLY
 
 
 
-3. Save your request before continuing using the `Save` button
+1. Save your request before continuing using the `Save` button
 
-4. Execute the API by clicking the `Send` button
+1. Execute the API by clicking the `Send` button
 
 You now see a `201 Created` response like below
 

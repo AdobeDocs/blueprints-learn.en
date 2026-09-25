@@ -28,26 +28,26 @@ exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
 
 1. Name --> \[Sandbox] Edge Session
 1. URL --> https\://www\.adobe.com
-   - Note this URL would be replaced by your customer's actual site 
+   - Note this URL would be replaced by your customer's actual site
 1. Click the Next button
 
    ![Click Next after entering the session name and URL](assets/monitor-your-event-click-next-button.png)
 
-4. Copy the link somewhere you can reference later
+1. Copy the link somewhere you can reference later
 
-5. Click the **Done** button
+1. Click the **Done** button
 
    ![Copy the Assurance session link and click Done](assets/monitor-your-event-copy-link.png)
 
 
 
-6. Navigate to **Settings**
+1. Navigate to **Settings**
 
    ![Navigate to the Settings tab in the Assurance session](assets/monitor-your-event-navigate-to-settings.png "Click on settings")
 
 
 
-7. Enable **Event Transactions** and **Edge Delivery** by clicking on the **+** button, then **Done**
+1. Enable **Event Transactions** and **Edge Delivery** by clicking on the **+** button, then **Done**
 
 ![Enable Event Transactions and Edge Delivery, then click Done](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -63,7 +63,7 @@ Go to Postman -> Create Web Event Edge (No Auth) -> Headers
 
 
 
-3. In Postman, save and execute the **Create Web Event Edge (No Auth)** request
+1. In Postman, save and execute the **Create Web Event Edge (No Auth)** request
 
 
 

@@ -69,7 +69,7 @@ Before you can execute the API request you need to add some additional pieces of
 
 ## Execute the API
 
-Execute your request by clicking the **Send** button. 
+Execute your request by clicking the **Send** button.
 
 ![Successful 200 OK response returned from the Edge Network](assets/send-an-edge-event-successful-response-from-edge.png)
 
@@ -111,7 +111,7 @@ Below is an example of an error you may encounter. This means the edge segmentat
 
 ## Validate event forwarding
 
-On webhook.site you should immediately see the same payload body you sent via your Postman request appear. 
+On webhook.site you should immediately see the same payload body you sent via your Postman request appear.
 
 ![Payload appears on webhook.site after event forwarding](assets/send-an-edge-event-payload-appears-on-webhook-site.png)
 
@@ -136,13 +136,13 @@ In Adobe Experience Platform look up the profile you just sent in from the event
 
 
 
-3. Click on **Events** in the top nav and you can see the event you just sent in
+1. Click on **Events** in the top nav and you can see the event you just sent in
 
    ![View the event in the Events tab of the profile](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4. Validate the Profile has qualified for the Audiences by reviewing the Audience Membership tab in the top nav.  You should see the following:
+1. Validate the Profile has qualified for the Audiences by reviewing the Audience Membership tab in the top nav.  You should see the following:
 
 - Any Event Edge (within last 15 minutes)
 - Any Event Streaming (within the last hour)

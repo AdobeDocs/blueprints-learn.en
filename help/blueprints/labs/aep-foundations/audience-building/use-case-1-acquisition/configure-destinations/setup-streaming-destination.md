@@ -56,7 +56,7 @@ In the Experience Platform UI navigate to the destinations catalog by doing the 
 
 
 
-3. Fill in the configuration details of your destination as follows:
+1. Fill in the configuration details of your destination as follows:
 
 - **Name** -> `Streaming DEP Webhook - [Your Initials]`
 - **Description** ->  `[your webhook endpoint you copied above]`
@@ -115,12 +115,12 @@ When done ensure your configure matches what you see below.  If it looks good cl
 
 >[!NOTE]
 >
->This is mapping a field on Profile, not Experience Event. Even though we are sending profiles to a Destination based on Audience Qualification, we have to keep in mind what is happening. 
+>This is mapping a field on Profile, not Experience Event. Even though we are sending profiles to a Destination based on Audience Qualification, we have to keep in mind what is happening.
 >
->1. An event comes in 
->2. Audience qualifies the Profile based on rules 
->3. Qualification is stored on the Profile 
->4. The Destination is notified the Profile has qualified 
+>1. An event comes in
+>2. Audience qualifies the Profile based on rules
+>3. Qualification is stored on the Profile
+>4. The Destination is notified the Profile has qualified
 >5. The Destination sends the Profile. What this means is when the Destination goes to send the Profile it no longer has awareness of the Event that triggered the Audience evaluation.
 
 ## Review step

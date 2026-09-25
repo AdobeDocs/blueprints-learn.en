@@ -13,10 +13,7 @@ feature_v2:
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
     internal-label: Components
 ---
-title: Adobe Customer Journey Analytics
-description: Core architecture for unifying customer interaction data in Adobe Customer Journey Analytics, with B2B analysis and audience sharing derivations.
-solution: Customer Journey Analytics, Experience Platform
----
+
 # Adobe Customer Journey Analytics
 
 Adobe Customer Journey Analytics unifies customer interaction data from Adobe Experience Platform and other sources into a journey-based analysis service. This architecture provides the core reference for cross-channel analysis, B2B CJA derivations, and publishing CJA audiences to Real-Time CDP.
