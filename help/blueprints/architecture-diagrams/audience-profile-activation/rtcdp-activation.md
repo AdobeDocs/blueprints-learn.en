@@ -2,6 +2,11 @@
 title: Adobe Real-Time CDP activation
 description: Architecture reference for activating audiences and profile data from Adobe Real-Time CDP to advertising, social, cloud storage, and enterprise destinations.
 solution: Real-Time Customer Data Platform, Experience Platform
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Adobe Real-Time CDP activation
 

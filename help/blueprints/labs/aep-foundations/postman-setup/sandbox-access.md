@@ -4,6 +4,9 @@ description: Verify your Postman environment can successfully retrieve your assi
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Sandbox access

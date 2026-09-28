@@ -4,6 +4,9 @@ description: Practice building an HTTP API streaming dataflow to send a sample o
 doc-type: article
 solution: Experience Platform
 exl-id: 558c21d1-f9b7-489b-9153-5f10d0b8448a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Stream an order event

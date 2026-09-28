@@ -4,6 +4,9 @@ description: Learn how identity descriptors mark schema fields as primary or non
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Mark identity fields

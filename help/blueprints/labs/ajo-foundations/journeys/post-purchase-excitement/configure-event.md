@@ -4,6 +4,9 @@ description: Create and configure a unitary Order Shipped event, including ident
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Configure event

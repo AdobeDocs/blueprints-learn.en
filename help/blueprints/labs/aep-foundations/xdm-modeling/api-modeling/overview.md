@@ -4,6 +4,9 @@ description: Learn how to build an XDM schema entirely through the Experience Pl
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f0ae0459-719c-4602-8dfa-e5819658f0b0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # API modeling

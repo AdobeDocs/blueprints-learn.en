@@ -2,9 +2,11 @@
 title: Deployment instructions
 description: Use the DEP CLI to deploy the AJO Architectural Foundations lab pack's schemas, datasets, dataflows, and sample data to your sandbox.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Deployment instructions

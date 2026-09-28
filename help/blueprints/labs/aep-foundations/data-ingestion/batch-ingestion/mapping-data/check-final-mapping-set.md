@@ -4,6 +4,9 @@ description: Compare your simple and calculated field mappings for the Customer 
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Check final mapping set

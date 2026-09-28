@@ -4,6 +4,9 @@ description: Apply the LID methodology's denormalization rules to fold bridge an
 doc-type: article
 solution: Experience Platform
 exl-id: c98c9f58-03bc-4b28-becb-f84f3de04300
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Denormalize

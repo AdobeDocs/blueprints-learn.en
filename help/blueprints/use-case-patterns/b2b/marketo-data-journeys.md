@@ -2,6 +2,9 @@
 title: B2B Journeys using Marketo Data blueprint
 description: Blueprint for Rapid Deployment of Journey Optimizer B2B Edition Using Marketo Engage Data.
 solution: Journey Optimizer B2B Edition
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 ---
 # B2B Journeys using Marketo Data blueprint
 

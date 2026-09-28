@@ -4,6 +4,9 @@ description: Query the tenant schema registry API to find and save the $id of th
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Get Plan Schema ID

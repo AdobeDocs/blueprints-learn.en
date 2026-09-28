@@ -2,6 +2,9 @@
 title: B2B Audience and Profile Activation
 description: Deliver account-based and people-based audiences with Real-Time Customer Data Platform B2B Edition for activation across channels and destinations.
 solution: Real-Time Customer Data Platform
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 
 # B2B Audience and Profile Activation

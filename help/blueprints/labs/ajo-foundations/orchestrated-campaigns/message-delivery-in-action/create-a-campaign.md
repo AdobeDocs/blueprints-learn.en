@@ -4,6 +4,9 @@ description: Learn how to create and configure the basic settings of a new Orche
 doc-type: article
 solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create a campaign

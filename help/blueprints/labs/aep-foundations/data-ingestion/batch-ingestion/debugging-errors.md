@@ -4,6 +4,9 @@ description: Use preview error diagnostics to investigate a failed dataflow run 
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Debugging errors

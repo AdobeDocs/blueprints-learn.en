@@ -4,6 +4,9 @@ description: Build a Decisioning Rule that restricts eligibility for premium pho
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create Decision Rule

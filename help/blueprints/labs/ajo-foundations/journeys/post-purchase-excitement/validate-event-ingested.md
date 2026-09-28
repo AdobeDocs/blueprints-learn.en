@@ -4,6 +4,9 @@ description: Confirm an Order Shipped event was ingested into a profile and qual
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Validate event ingested

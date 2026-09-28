@@ -4,6 +4,9 @@ description: Learn how to add a Fork activity to an Orchestrated Campaign to cre
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Add fork activity

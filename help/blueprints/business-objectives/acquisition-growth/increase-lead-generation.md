@@ -3,6 +3,13 @@ title: Increase Lead Generation
 description: Learn how to generate more qualified leads for the sales pipeline through forms, events, content, and multi-channel engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Increase lead generation
 

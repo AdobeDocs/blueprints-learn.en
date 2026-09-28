@@ -3,6 +3,11 @@ title: Brand Concierge Conversational Experience
 description: Learn how to transform digital properties into AI-powered, brand-safe conversational experiences that guide customer discovery.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Brand Concierge conversational experience
 

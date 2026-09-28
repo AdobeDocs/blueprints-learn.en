@@ -3,6 +3,13 @@ title: Increase Conversion Rates
 description: Learn how to improve the percentage of visitors and prospects who complete desired actions such as purchases, sign-ups, or form submissions.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Increase conversion rates
 

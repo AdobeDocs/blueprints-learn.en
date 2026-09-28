@@ -4,6 +4,9 @@ description: View a schema's identity descriptors via the UI and API, and compar
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # View schema

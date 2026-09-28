@@ -3,6 +3,9 @@ title: Architecture Diagrams
 description: Visual architecture and data flow reference diagrams for Adobe Experience Platform and applications, covering platform architecture, audience activation, B2B marketing, customer insights, and customer journeys.
 solution: Experience Platform
 doc-type: overview-page
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Architecture diagrams
 

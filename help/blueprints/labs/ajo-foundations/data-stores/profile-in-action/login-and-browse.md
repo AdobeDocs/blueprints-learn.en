@@ -4,6 +4,9 @@ description: Learn how to log in to Adobe Experience Platform with your sandbox 
 doc-type: article
 solution: Experience Platform
 exl-id: 6aa8d05f-25dc-40b1-84fd-c8cc4b11797f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Login & browse

@@ -4,6 +4,9 @@ description: Use Postman to stream a simulated Order Shipped event directly to t
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Send an event

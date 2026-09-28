@@ -4,6 +4,9 @@ description: Apply prior lab techniques to independently map a Data Landing Zone
 doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create mappings

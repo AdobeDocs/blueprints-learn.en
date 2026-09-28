@@ -4,6 +4,9 @@ description: Recap browsing schemas, configuring a Profile Target Dimension, and
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Summary

@@ -4,6 +4,9 @@ description: Retry a failed dataflow run so the source data is reprocessed again
 doc-type: article
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Retry a failed dataflow

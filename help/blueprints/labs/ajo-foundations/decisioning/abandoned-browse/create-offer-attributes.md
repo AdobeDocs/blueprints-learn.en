@@ -4,6 +4,9 @@ description: Add custom device attributes like make, model, and tier to the stan
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create offer attributes

@@ -4,6 +4,9 @@ description: Import the Postman environment file and set global variables like E
 doc-type: article
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Import environment file

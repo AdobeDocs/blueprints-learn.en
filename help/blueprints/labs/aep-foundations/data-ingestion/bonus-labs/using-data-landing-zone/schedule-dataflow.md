@@ -4,6 +4,9 @@ description: Configure a recurring 15-minute dataflow schedule with backfill ena
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Schedule dataflow

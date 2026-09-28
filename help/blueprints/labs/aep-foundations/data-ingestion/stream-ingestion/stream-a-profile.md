@@ -4,6 +4,9 @@ description: Use Postman and the streaming endpoint and dataflow ID to send a cu
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Stream a profile

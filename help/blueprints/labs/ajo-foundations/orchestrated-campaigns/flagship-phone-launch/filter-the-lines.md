@@ -4,6 +4,9 @@ description: Learn how to filter out opted-out customer lines with a Split activ
 doc-type: article
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Filter the lines

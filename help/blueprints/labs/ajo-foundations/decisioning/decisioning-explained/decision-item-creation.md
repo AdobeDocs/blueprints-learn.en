@@ -2,9 +2,11 @@
 title: Decision item creation
 description: Learn how decision item attributes differ from eligibility settings, plus the org-level guardrail on decision items and impressions versus decision events.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Decision item creation

@@ -2,9 +2,11 @@
 title: Developer Console setup
 description: Create an Adobe Developer Console project with OAuth Server-to-Server credentials for the Experience Platform and Journey Optimizer APIs used by the DEP CLI.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Developer Console setup

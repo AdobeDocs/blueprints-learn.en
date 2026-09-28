@@ -4,6 +4,9 @@ description: Create calculated field expressions to backfill missing SMS consent
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Calculated fields

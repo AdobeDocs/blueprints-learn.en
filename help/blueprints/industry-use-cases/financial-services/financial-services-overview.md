@@ -3,6 +3,13 @@ title: Financial Services Use Cases
 description: Discover how financial services organizations use Adobe Experience Platform to personalize product offers, prevent churn, and deepen customer relationships.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Financial Services Use Cases
 

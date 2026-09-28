@@ -4,6 +4,9 @@ description: Recap how a simulated web event flows through the Edge Network, Rea
 doc-type: article
 solution: Experience Platform
 exl-id: 2f2a2c92-0359-4101-973f-3cb012debb63
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Summary

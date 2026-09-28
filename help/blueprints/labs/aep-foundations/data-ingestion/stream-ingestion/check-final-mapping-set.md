@@ -4,6 +4,9 @@ description: Compare your streaming ingestion mappings against the expected fina
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Check final mapping set

@@ -4,6 +4,9 @@ description: Learn how to check the Edge profile store and Audience Membership t
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Validate Profile on Edge

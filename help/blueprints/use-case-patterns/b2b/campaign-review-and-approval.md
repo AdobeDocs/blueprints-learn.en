@@ -1,6 +1,9 @@
 ---
 title: Review and approve
 description: Review and approve - Marketo Engage and Workfront integration
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Review and approve {#review-and-approve}
 

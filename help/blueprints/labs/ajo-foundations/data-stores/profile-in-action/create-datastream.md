@@ -4,6 +4,9 @@ description: Learn how to create and configure a datastream with Adobe Experienc
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create datastream

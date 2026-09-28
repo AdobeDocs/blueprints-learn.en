@@ -4,6 +4,9 @@ description: Install Postman and get familiar with its collections, environments
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Postman installation

@@ -3,6 +3,9 @@ title: Audience & Profile Activation
 description: Diagrams showing how audiences and profiles are built in Adobe Real-Time CDP and activated to destinations and applications.
 solution: Real-Time Customer Data Platform
 doc-type: overview-page
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Audience & Profile Activation
 

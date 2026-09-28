@@ -2,9 +2,11 @@
 title: Experience Edge
 description: Watch a video overview of how Experience Edge operates as foundational context before working with decisioning.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 031ea8eb-a366-48f8-ac4f-4cafb45d38f4
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Experience Edge

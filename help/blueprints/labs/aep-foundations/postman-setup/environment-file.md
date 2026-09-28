@@ -4,6 +4,9 @@ description: Import the Postman environment file and populate its developer proj
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Environment file

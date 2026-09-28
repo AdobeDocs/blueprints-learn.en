@@ -4,6 +4,9 @@ description: Use Adobe Journey Optimizer's AI Assistant to generate on-brand sub
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # AI assistant and content personalization

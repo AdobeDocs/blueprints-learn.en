@@ -4,6 +4,9 @@ description: Configure a batch source dataflow with a new dataset, enable Profil
 doc-type: article
 solution: Experience Platform
 exl-id: 70145966-d6c0-4741-8216-903de0d61e1d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create dataflow

@@ -2,9 +2,11 @@
 title: Decision policies
 description: Learn how decision policies apply selection strategies to a delivery channel and how individual versus grouped combination methods change offer order.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 21dc67fd-76ac-4b82-ae78-be024c7bfc55
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Decision policies

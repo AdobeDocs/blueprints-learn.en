@@ -3,6 +3,11 @@ title: Customer Analytics & Insight Generation
 description: Learn how to build cross-channel analysis workspaces, computed metrics, and dashboards for behavior and performance analysis.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Customer analytics & insight generation
 

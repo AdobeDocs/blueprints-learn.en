@@ -3,6 +3,9 @@ title: Architecture overviews
 description: Top-level diagrams showing how Adobe Experience Cloud applications, Adobe Experience Platform, and their SDKs fit together, plus guardrails and latencies.
 solution: Experience Platform
 doc-type: overview-page
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Architecture overviews
 

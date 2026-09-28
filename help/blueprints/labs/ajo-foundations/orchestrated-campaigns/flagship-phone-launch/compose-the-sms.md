@@ -4,6 +4,9 @@ description: Learn how to compose and personalize an SMS message in Orchestrated
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Compose the SMS

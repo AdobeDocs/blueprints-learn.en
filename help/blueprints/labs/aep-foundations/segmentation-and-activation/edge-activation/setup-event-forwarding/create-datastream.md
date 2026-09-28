@@ -4,6 +4,9 @@ description: Create and configure a datastream with Event Forwarding and Adobe E
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create Datastream

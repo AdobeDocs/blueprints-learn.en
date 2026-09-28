@@ -3,6 +3,13 @@ title: Drive Cross-Sell & Upsell Revenue
 description: Learn how to promote complementary and premium products or services to existing customers based on behavior and purchase history.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Drive cross-sell & upsell revenue
 

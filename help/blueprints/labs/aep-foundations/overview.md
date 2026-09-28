@@ -4,6 +4,9 @@ description: Preview the AEP Foundations bootcamp's coverage of relational-to-No
 doc-type: overview-page
 solution: Experience Platform
 exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Overview

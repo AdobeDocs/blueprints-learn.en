@@ -2,6 +2,13 @@
 title: Adobe Customer Journey Analytics & Adobe Journey Optimizer integration
 description: Architecture for analyzing Adobe Journey Optimizer campaign and journey insights in Adobe Customer Journey Analytics and publishing audiences back for journey execution.
 solution: Customer Journey Analytics, Journey Optimizer, Experience Platform
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Adobe Customer Journey Analytics & Adobe Journey Optimizer integration
 

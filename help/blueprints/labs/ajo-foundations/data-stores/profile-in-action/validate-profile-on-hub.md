@@ -4,6 +4,9 @@ description: Learn how to look up a profile on the Real-Time Customer Profile Hu
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Validate Profile on Hub

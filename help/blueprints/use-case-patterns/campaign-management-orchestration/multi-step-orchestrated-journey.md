@@ -3,6 +3,11 @@ title: Multi-Step Orchestrated Journey
 description: Learn how to guide a profile through a branching, multi-touch journey with waits, conditions, and multiple message actions over time.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Multi-step orchestrated journey
 

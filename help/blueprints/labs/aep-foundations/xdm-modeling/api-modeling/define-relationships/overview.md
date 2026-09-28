@@ -4,6 +4,9 @@ description: Learn how relationship descriptors link a customer schema to a look
 doc-type: overview-page
 solution: Experience Platform
 exl-id: be672c84-09ac-4941-b40e-da7bd3fd6704
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Define Relationships

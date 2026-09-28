@@ -4,6 +4,9 @@ description: Import the mapping set from the batch ingestion lab and update calc
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Configure mapping

@@ -2,9 +2,11 @@
 title: Lecture
 description: Watch a video explaining how Journey Orchestration building blocks work together with the Real-Time Customer Profile data store.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 296aab72-d1e4-4d62-8757-ec175bc70ac4
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lecture

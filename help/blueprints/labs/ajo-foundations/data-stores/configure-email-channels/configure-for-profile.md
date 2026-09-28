@@ -4,6 +4,9 @@ description: Learn how to configure an email channel using the AEP Profile perso
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Configure for Profile

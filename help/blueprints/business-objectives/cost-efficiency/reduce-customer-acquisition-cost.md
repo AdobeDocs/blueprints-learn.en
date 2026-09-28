@@ -3,6 +3,11 @@ title: Reduce Customer Acquisition Cost
 description: Learn how to improve targeting efficiency, suppress existing customers from acquisition campaigns, and optimize media spend.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 2e913e53-a4f8-4d03-bfd6-f82de5104516
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Reduce customer acquisition cost
 

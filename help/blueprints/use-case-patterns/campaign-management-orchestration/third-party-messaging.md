@@ -2,6 +2,9 @@
 title: Journey Optimizer - Third-Party Messaging blueprint
 description: Demonstrates how Adobe Journey Optimizer can be utilized with third-party messaging systems to send personalized communications.
 solution: Journey Optimizer
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Third-Party Messaging blueprint
 

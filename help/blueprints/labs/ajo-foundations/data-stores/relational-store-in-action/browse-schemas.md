@@ -4,6 +4,9 @@ description: Learn how to browse relational schemas and view entity relationship
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Browse schemas

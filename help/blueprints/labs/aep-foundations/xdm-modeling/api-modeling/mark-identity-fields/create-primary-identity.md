@@ -4,6 +4,9 @@ description: Use the schema registry API to create a primary customerID identity
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create primary identity

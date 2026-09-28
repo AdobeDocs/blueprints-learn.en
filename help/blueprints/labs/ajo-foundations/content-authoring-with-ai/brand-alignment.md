@@ -4,6 +4,9 @@ description: Learn how to evaluate email content against brand guidelines using 
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Brand alignment

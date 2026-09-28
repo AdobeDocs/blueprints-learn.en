@@ -4,6 +4,9 @@ description: Send an unauthenticated web event to the Edge via Postman and verif
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Send an Edge Event

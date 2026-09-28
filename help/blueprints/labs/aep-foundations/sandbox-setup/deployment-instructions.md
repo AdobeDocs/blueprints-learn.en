@@ -2,9 +2,11 @@
 title: Deployment instructions
 description: Use the DEP CLI to deploy the AEP Foundations lab pack's schemas, datasets, dataflows, and sample profile data to your sandbox.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Deployment instructions

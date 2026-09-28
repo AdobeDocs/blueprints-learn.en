@@ -4,6 +4,9 @@ description: Identify and label bridge tables and tables requiring denormalizati
 doc-type: article
 solution: Experience Platform
 exl-id: 742b58fa-3feb-4275-ab45-eb8d3aade22c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Part 1 - Remaining table types

@@ -4,6 +4,9 @@ description: Learn how to send and verify proof emails in Adobe Journey Optimize
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Test the email

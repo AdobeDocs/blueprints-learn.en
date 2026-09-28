@@ -4,6 +4,9 @@ description: Install and configure Azure Storage Explorer with a SAS URL to conn
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Using Data Landing Zone

@@ -3,6 +3,11 @@ title: Buying Group-Based Marketing & Journey Management
 description: Learn how to develop account-level journeys that qualify leads into buying groups to improve B2B marketing effectiveness.
 solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Buying group-based marketing & journey management
 

@@ -4,6 +4,9 @@ description: Self-paced, bring-your-own-sandbox workshops for Adobe Experience P
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Adobe Experience Platform Hands-on Labs

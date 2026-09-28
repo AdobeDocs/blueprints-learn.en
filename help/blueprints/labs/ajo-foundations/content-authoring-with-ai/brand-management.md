@@ -4,6 +4,9 @@ description: Learn how to create a brand in Adobe Journey Optimizer by uploading
 doc-type: article
 solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Brand management

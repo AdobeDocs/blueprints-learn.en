@@ -3,6 +3,11 @@ title: Campaign v8 Blueprint, Campaign & Platform
 description: Learn about the blueprint for Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 # Campaign v8 Blueprint
 
