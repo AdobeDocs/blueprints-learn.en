@@ -3,6 +3,13 @@ title: Media & Entertainment Use Cases
 description: Discover how media and entertainment organizations use Adobe Experience Platform to personalize content discovery, reduce subscriber churn, and grow audience engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Media & Entertainment Use Cases
 

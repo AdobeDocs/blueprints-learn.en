@@ -4,6 +4,9 @@ description: Learn how to query the Data Lake to verify that a streamed web even
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Validate event on Data Lake

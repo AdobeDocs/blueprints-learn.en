@@ -3,6 +3,13 @@ title: Increase Revenue & Sales
 description: Learn how to drive top-line revenue growth through optimized digital channels, campaigns, and customer journeys.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Increase revenue & sales
 

@@ -4,6 +4,9 @@ description: Configure a Code-Based Experience channel in Adobe Journey Optimize
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create code-based experience channel

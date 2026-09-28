@@ -4,6 +4,9 @@ description: Learn the two-part Identify step of the LID methodology - labeling 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Identify

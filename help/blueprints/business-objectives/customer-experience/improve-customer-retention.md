@@ -3,6 +3,13 @@ title: Improve Customer Retention
 description: Learn how to keep existing customers engaged and renewing through value-driven experiences and ongoing relationship nurturing.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Improve customer retention
 

@@ -4,6 +4,9 @@ description: Recap of building and validating an Order Shipped event-driven jour
 doc-type: article
 solution: Experience Platform
 exl-id: c6f87223-a060-49d8-a784-d37d3422edd0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Summary

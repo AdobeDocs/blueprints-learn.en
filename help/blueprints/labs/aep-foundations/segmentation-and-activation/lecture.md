@@ -4,6 +4,9 @@ description: Watch a video lecture explaining the segmentation service and activ
 doc-type: article
 solution: Experience Platform
 exl-id: 7056e79c-df13-4756-bd1b-f4204a7e4532
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lecture

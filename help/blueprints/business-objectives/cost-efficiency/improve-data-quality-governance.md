@@ -3,6 +3,11 @@ title: Improve Data Quality & Governance
 description: Learn how to ensure clean, complete, and compliant data for accurate targeting, reduced waste, and reliable analytics.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: ecede85f-9af8-4d97-a33c-a14dfe1ed61c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Improve data quality & governance
 

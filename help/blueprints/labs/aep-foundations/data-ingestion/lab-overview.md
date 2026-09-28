@@ -4,6 +4,9 @@ description: Review the goals and syllabus for the data ingestion labs, from sch
 doc-type: article
 solution: Experience Platform
 exl-id: 04decc87-65d2-40b4-8c14-e2f7e911304d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lab overview

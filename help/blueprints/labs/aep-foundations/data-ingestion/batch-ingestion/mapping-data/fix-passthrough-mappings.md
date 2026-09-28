@@ -4,6 +4,9 @@ description: Identify and correct incorrect AI/ML passthrough mappings, such as 
 doc-type: article
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Fix passthrough mappings

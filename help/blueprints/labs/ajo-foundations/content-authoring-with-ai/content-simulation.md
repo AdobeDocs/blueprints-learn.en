@@ -4,6 +4,9 @@ description: Learn how to use Adobe Journey Optimizer's Simulation tool with sam
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Content simulation

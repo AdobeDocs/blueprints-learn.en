@@ -2,9 +2,11 @@
 title: Developer console setup
 description: Create an Adobe Developer Console project with OAuth Server-to-Server credentials for the DEP CLI to authenticate to your sandbox.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Developer console setup

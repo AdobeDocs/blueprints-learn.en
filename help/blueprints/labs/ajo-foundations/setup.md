@@ -2,9 +2,11 @@
 title: Setup
 description: Complete the sandbox deployment and Postman configuration steps required before starting the AJO Foundations labs.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Setup

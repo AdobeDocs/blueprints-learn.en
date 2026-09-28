@@ -3,6 +3,13 @@ title: Deliver Personalized Customer Experiences
 description: Learn how to tailor content, offers, and messaging to individual preferences, behaviors, and lifecycle stage.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Deliver personalized customer experiences
 

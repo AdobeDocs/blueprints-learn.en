@@ -4,6 +4,9 @@ description: Configure a selection strategy that ties an offer collection, eligi
 doc-type: article
 solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Create Selection Strategy

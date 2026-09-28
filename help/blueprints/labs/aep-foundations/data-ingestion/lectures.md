@@ -4,6 +4,9 @@ description: Watch video lectures on Adobe Experience Platform's batch and strea
 doc-type: article
 solution: Experience Platform
 exl-id: fabcd658-2a40-4014-8135-1a6ce5d76c13
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lectures

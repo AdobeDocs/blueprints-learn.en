@@ -3,6 +3,11 @@ title: Optimize Marketing Spend & ROI
 description: Learn how to improve return on marketing investment through better targeting, attribution, audience suppression, and budget allocation.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Optimize marketing spend & ROI
 

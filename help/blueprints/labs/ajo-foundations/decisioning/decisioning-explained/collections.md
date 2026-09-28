@@ -2,9 +2,11 @@
 title: Collections
 description: Learn how decision items are grouped into collections using attribute or metadata rules, including the 500-item guardrail per collection.
 doc-type: article
-
 solution: Experience Platform
 exl-id: b155ceb1-476f-4401-8158-f8abe7eb2f27
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Collections

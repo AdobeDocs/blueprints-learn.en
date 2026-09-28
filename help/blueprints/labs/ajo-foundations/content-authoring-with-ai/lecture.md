@@ -2,9 +2,11 @@
 title: Lecture
 description: Explore the four-layer content anatomy model, AJO and AEM content integration patterns, and AI-assisted content governance for personalization at scale.
 doc-type: article
-
 solution: Experience Platform
 exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lecture

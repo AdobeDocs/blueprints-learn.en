@@ -4,6 +4,9 @@ description: Get an overview of browsing relational schemas, setting up a Profil
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Relational Store in action

@@ -3,6 +3,11 @@ title: Enable Data-Driven Decision Making
 description: Learn how to empower teams with self-service analytics, real-time customer insights, and AI-powered predictions to guide strategy.
 solution: Experience Platform, Customer Journey Analytics
 exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 ---
 # Enable data-driven decision making
 

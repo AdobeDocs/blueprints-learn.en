@@ -4,6 +4,9 @@ description: Watch introductory videos covering personalization at scale and how
 doc-type: article
 solution: Experience Platform
 exl-id: dbe4b648-67a7-41f9-9110-380b3bb7d014
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Lectures

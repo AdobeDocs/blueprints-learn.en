@@ -4,6 +4,9 @@ description: Watch an introductory video on exploring and validating profile dat
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0dc44337-0b5a-44b7-9169-ac3599d985af
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Inspecting the profile

@@ -4,6 +4,9 @@ description: Learn how Event Forwarding uses properties, data elements, rules, a
 doc-type: overview-page
 solution: Experience Platform
 exl-id: da3d1c7f-3642-4de7-a297-fc36d09e7336
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Setup Event Forwarding

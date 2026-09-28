@@ -4,6 +4,9 @@ description: Verify the complete Orders mapping set, preview the output, and sch
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Verify and schedule dataflow

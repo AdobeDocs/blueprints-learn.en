@@ -4,6 +4,9 @@ description: Learn how to add a Fork activity to an Orchestrated Campaign to bra
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Fork the result

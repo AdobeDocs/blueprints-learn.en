@@ -2,9 +2,11 @@
 title: Selection strategies
 description: Learn the three components of a selection strategy and how item-level versus strategy-level eligibility and ranking methods work together.
 doc-type: article
-
 solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Selection strategies

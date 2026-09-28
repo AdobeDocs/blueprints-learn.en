@@ -4,6 +4,9 @@ description: Look up a streamed profile in the Profiles browser using its primar
 doc-type: article
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Verify ingested profile

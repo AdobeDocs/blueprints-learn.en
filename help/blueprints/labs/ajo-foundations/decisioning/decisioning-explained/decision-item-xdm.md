@@ -2,9 +2,11 @@
 title: Decision item XDM
 description: Learn the pre-built XDM schema every decision item shares and how custom attributes are nested under a tenant namespace.
 doc-type: article
-
 solution: Experience Platform
 exl-id: c42503a2-24e7-4a5d-98bf-38c16fe69733
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Decision item XDM

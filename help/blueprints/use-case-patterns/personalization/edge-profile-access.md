@@ -3,6 +3,9 @@ title: Real-time Edge Profile Access for Web and Mobile Personalization
 description: '[!UICONTROL Real-time Customer Profile] access at the edge to provide context for real-time web and mobile personalization.'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Real-time Edge Profile Access for Web and Mobile Personalization
 

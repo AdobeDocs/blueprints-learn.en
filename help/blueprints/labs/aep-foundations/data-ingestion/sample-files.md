@@ -4,6 +4,9 @@ description: Download the sample data files used throughout the AEP Foundations 
 doc-type: article
 solution: Experience Platform
 exl-id: 77be94b8-81f2-4372-a724-d0e5b12f5f9d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Sample Files

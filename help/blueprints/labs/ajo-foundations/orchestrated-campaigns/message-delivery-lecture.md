@@ -2,9 +2,11 @@
 title: Message delivery lecture
 description: Watch a video lecture on the architecture of message delivery within Orchestrated Campaigns and how it differs from Journeys.
 doc-type: article
-
 solution: Experience Platform
 exl-id: d6b08e96-3914-450e-8bd3-7cde9ddb2cae
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Message delivery lecture

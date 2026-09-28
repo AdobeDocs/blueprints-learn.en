@@ -4,6 +4,9 @@ description: Review the LID methodology's training scenario, learning objectives
 doc-type: article
 solution: Experience Platform
 exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Prerequisites

@@ -3,6 +3,11 @@ title: Anonymous Visitor Web Personalization
 description: Learn how to deliver personalized web content to unidentified visitors based on in-session behavioral signals.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Anonymous visitor web personalization
 

@@ -3,6 +3,11 @@ title: Acquire New Customers
 description: Learn how to expand the customer base through targeted acquisition campaigns, lookalike audiences, and paid media optimization.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Acquire new customers
 

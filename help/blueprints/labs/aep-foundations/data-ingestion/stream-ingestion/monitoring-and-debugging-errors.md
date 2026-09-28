@@ -4,6 +4,9 @@ description: Use the Streaming End-to-End monitoring dashboard to identify and i
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Monitoring and debugging errors

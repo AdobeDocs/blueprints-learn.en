@@ -3,6 +3,13 @@ title: Increase Customer Loyalty & Lifetime Value
 description: Learn how to deepen customer relationships and maximize long-term value through loyalty programs, rewards, and personalized engagement.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 # Increase customer loyalty & lifetime value
 

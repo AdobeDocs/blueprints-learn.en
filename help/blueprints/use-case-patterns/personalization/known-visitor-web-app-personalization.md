@@ -3,6 +3,11 @@ title: Known-Visitor Web/App Personalization
 description: Learn how to deliver personalized content, offers, or promotions to identified visitors based on real-time profile and segment membership.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Known-visitor web/app personalization
 
