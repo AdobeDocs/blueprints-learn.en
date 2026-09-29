@@ -35,21 +35,21 @@ product_v2:
 ## Configure the CBE and decision policy
 
 1. Expand the **Actions** accordion just left of the canvas, drag the **Action** element onto the canvas, and connect it to the first node.
-2. When the 'Select action type' overlay appears, select the **Code-base experience** action and click the blue **Add** button.
-3. In the now visible 'Action\:Code-based experience' properties, click the **Configure Action** button.
+1. When the 'Select action type' overlay appears, select the **Code-base experience** action and click the blue **Add** button.
+1. In the now visible 'Action\:Code-based experience' properties, click the **Configure Action** button.
 
    ![Code-based experience action properties with the Configure Action button](assets/create-the-journey-configure-action-button.png)
 
-4. Change the **Code-base configuration** dropdown to the **jsonOffer\_cbe** cbe that you created in the last section.
+1. Change the **Code-base configuration** dropdown to the **jsonOffer\_cbe** cbe that you created in the last section.
 
    ![Code-base configuration dropdown set to the jsonOffer_cbe channel](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Click the **Edit content** button just above the 'Code-based configuration' drop-down.
-6. On the resulting Code-base experience editor screen, click the **Edit code** button. The resulting screen is where you add the JSON that's returned to the Experience Event requests
+1. Click the **Edit content** button just above the 'Code-based configuration' drop-down.
+1. On the resulting Code-base experience editor screen, click the **Edit code** button. The resulting screen is where you add the JSON that's returned to the Experience Event requests
 
    ![Edit code screen for the Code-based experience editor](assets/create-the-journey-edit-code-screen.png)
 
-7. On the far left side of the code editor, click the **Decision policy** menu item, followed by a click on the **Add decision policy** button in the new menu.
+1. On the far left side of the code editor, click the **Decision policy** menu item, followed by a click on the **Add decision policy** button in the new menu.
 
    ![Decision policy menu with the Add decision policy button](assets/create-the-journey-add-decision-policy-button.png)
 
@@ -57,14 +57,14 @@ product_v2:
    >
    >If a selection strategy is where you tie an offer collection to a ranking method (and apply strategy-level eligibility), then a decision policy is where you tie a selection strategy to a specific delivery of a channel.
 
-8. Name this decision policy **iPhone 17 DP** and leave the Number of items set to 1.
+1. Name this decision policy **iPhone 17 DP** and leave the Number of items set to 1.
 
    >[!NOTE]
    >
    >Up to this point, you've configured the offers and how to order them, but you haven't configured how many to return. This is where you configure how many offers should be returned.
 
-9. Click the blue **Next** button. This is where you add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
-10. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, this is what you see:
+1. Click the blue **Next** button. This is where you add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
+1. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, this is what you see:
 
    ![iPhone 17 Selection Strategy selected for the decision policy](assets/create-the-journey-selection-strategy-selected.png)
 
