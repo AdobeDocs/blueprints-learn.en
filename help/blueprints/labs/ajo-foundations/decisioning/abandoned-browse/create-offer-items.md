@@ -30,24 +30,25 @@ Lastly, all things being equal, Connection 5G would prefer to sell the Ultra tie
 The first and easiest offer item you create is the fallback offer, which anyone can view for an unlimited period.
 
 1. If necessary, expand **Decisioning** in the left rail and click on **Catalogs**
-2. An empty offers page is shown:
+1. An empty offers page is shown:
 
    ![Empty Offers catalog page before creating any offer items](assets/create-offer-items-empty-offers-page.png)
 
-3. Click the blue **Create Item** button. This opens the 'Create Offer Item' page.
-4. In the 'Offer name' field, enter the text **iphone:17\:generic**. Enter a description if you wish.
+1. Click the blue **Create Item** button. This opens the 'Create Offer Item' page.
+1. In the 'Offer name' field, enter the text **iphone:17\:generic**. Enter a description if you wish.
 
    >[!NOTE]
    >
    >The all-lowercase, colon-separated naming convention is just one of our own designs that could serve as one to follow for a real customer. In practice, you can develop a different naming strategy for your offer items. Be sure that it is documented and consistent before creating offer items. This will ensure that offer items are easy to find and group together in collections. More on this later.
 
-5. Since this is the lowest-priority/default offer item, leave the default Priority at 1.
+1. Since this is the lowest-priority/default offer item, leave the default Priority at 1.
 
    >[!NOTE]
    >
    >In Decisioning, the lower the number, the lower the priority. For example, an offer item with a priority of 100 is shown before an offer item with a priority of 1
 
-6. Expand the **Device** item in the 'Custom Attributes' area, then enter the following information in the text boxes:
+1. Expand the **Device** item in the 'Custom Attributes' area, then enter the following information in the text boxes:
+
    - Tier: **Generic**
    - Model: **17**
    - Make: **iPhone**
@@ -66,14 +67,14 @@ The first and easiest offer item you create is the fallback offer, which anyone 
    >
    >The previous section mentioned the need to take great care when adding custom attributes to the system-generated 'Personalized Offer Items - Experience Decisioning' schema. Each additional custom node will appear as a possible field for every offer item moving forward. Creating unnecessary or campaign-specific attributes will clutter the offer item creation UI and may cause confusion.
 
-7. Click the blue **Next** button in the upper right corner to move on to the next step.
-8. This offer should be available to everyone/All Visitors and not have any frequency capping, so there is no need to make changes to the 'Eligibility' or 'Capping' sections. Click the blue **Next** button again to proceed to the last step.
-9. On the 'Review' step, verify that all the data is correct:
+1. Click the blue **Next** button in the upper right corner to move on to the next step.
+1. This offer should be available to everyone/All Visitors and not have any frequency capping, so there is no need to make changes to the 'Eligibility' or 'Capping' sections. Click the blue **Next** button again to proceed to the last step.
+1. On the 'Review' step, verify that all the data is correct:
 
    ![Review step confirming the generic offer item details before saving](assets/create-offer-items-generic-offer-review-step.png "Review step confirming the generic offer item details before saving")
 
-10. Make any necessary changes. When ready, click the blue **Save** button.
-11. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title:
+1. Make any necessary changes. When ready, click the blue **Save** button.
+1. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title:
 
    ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
 
