@@ -3,13 +3,10 @@ title: Customer Experience Orchestration Use Cases, Architecture Diagrams, and B
 description: Explore key business objectives, use case patterns, and industry use cases for Adobe Experience Platform and applications. Visual architecture diagrams and blueprints provide technical references for system integration, data flows, and solution design — connecting business value to implementation.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
+TQID: 'https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
