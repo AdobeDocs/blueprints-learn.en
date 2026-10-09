@@ -2,18 +2,16 @@
 title: Adobe Experience Platform Web SDK & [!DNL Edge Network]
 description: This architecture diagram shows the ingestion through the Experience Platform Web and Mobile SDK and [!DNL Edge Network]
 solution: Experience Platform,Data Collection
-kt: null
-thumbnail: null
+kt: 
+thumbnail: 
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-TQID: https://experienceleague.adobe.com/s56Vkgc-UvIUNPhcB8x3WFlzhfeEUpRxXZCMu0zf58Y
+TQID: 'https://experienceleague.adobe.com/s56Vkgc-UvIUNPhcB8x3WFlzhfeEUpRxXZCMu0zf58Y'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

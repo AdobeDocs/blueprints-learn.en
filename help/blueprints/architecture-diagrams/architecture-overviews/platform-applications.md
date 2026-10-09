@@ -3,9 +3,9 @@ title: Adobe Experience Platform & applications
 description: View architecture diagrams that show how Adobe Experience Platform (AEP) relates to other Experience Cloud applications and application services.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
-thumbnail: null
+thumbnail: 
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-TQID: https://experienceleague.adobe.com/BcNyVDQlxj1mL89FzMJKjz0F8GSp17hPpKmTnDk24JI
+TQID: 'https://experienceleague.adobe.com/BcNyVDQlxj1mL89FzMJKjz0F8GSp17hPpKmTnDk24JI'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -30,17 +30,18 @@ feature_v2:
     internal-label: Configuration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-    internal-label: Integrations
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
+subfeature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554

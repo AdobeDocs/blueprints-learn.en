@@ -3,17 +3,15 @@ title: Adobe Experience Platform data flow
 description: This architecture diagram shows how data flows into and out of Adobe Experience Platform.
 solution: Data Collection
 kt: 7198
-thumbnail: null
+thumbnail: 
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-TQID: https://experienceleague.adobe.com/eBb-Fl5UILtmCJNG7PfJbNZ4hTeDjb6EuI9XItV--44
+TQID: 'https://experienceleague.adobe.com/eBb-Fl5UILtmCJNG7PfJbNZ4hTeDjb6EuI9XItV--44'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

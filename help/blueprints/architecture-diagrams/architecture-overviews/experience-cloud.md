@@ -3,9 +3,9 @@ title: Adobe Experience Cloud
 description: Learn how Experience Cloud applications, application services, and Experience Platform fit into an enterprise marketing architecture.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
-thumbnail: null
+thumbnail: 
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-TQID: https://experienceleague.adobe.com/MsdGurAa8sjRgm8fmputBBTrk7pY89UHRLP2JxxK9gw
+TQID: 'https://experienceleague.adobe.com/MsdGurAa8sjRgm8fmputBBTrk7pY89UHRLP2JxxK9gw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -16,7 +16,7 @@ product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
     internal-label: Journey Orchestration
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
     internal-label: Audience Manager
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
