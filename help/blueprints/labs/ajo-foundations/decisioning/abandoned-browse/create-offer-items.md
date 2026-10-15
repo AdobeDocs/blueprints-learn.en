@@ -78,7 +78,7 @@ The first and easiest offer item you create is the fallback offer, which anyone 
       >
       >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
 
-1. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
+12. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
 
 ## Create base model offer item
 
