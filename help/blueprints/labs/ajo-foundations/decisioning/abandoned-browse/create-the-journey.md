@@ -63,13 +63,13 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 9. Click the blue **Next** button. This is where you add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
 10. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, this is what you see:
 
-      ![iPhone 17 Selection Strategy selected for the decision policy](assets/create-the-journey-selection-strategy-selected.png)
+    ![iPhone 17 Selection Strategy selected for the decision policy](assets/create-the-journey-selection-strategy-selected.png)
 
-      >[!NOTE]
-      >
-      >Note how you can add multiple selection strategies or just add the decision items themselves. When would you use multiple selection strategies? Imagine that you have a 4 X 4 grid of recommendations on one of your digital properties. You want to fill all of them with 16 offers. You may have those offers spread across a few collections, or perhaps the first two rows require one selection strategy, while the bottom two rows need a different strategy. In the previous screen, you would have chosen 16 and then used this screen to add as many selection strategies or offers as needed to reach 16.
-      >
-      >The fallback offer is optional because it would only apply if it were possible for end users to be (or become) ineligible for any of the offers. In our case, our selection strategy was for all visitors, and the only people who would reach the CBE node were those who entered the Journey. Being authenticated is a requirement for Journey entrance (the namespace set in the Journey is one they'd only have if they were authenticated). We also built a fallback offer into our Ranking formula, so in our case, there's no need to set this fallback offer.
+    >[!NOTE]
+    >
+    >Note how you can add multiple selection strategies or just add the decision items themselves. When would you use multiple selection strategies? Imagine that you have a 4 X 4 grid of recommendations on one of your digital properties. You want to fill all of them with 16 offers. You may have those offers spread across a few collections, or perhaps the first two rows require one selection strategy, while the bottom two rows need a different strategy. In the previous screen, you would have chosen 16 and then used this screen to add as many selection strategies or offers as needed to reach 16.
+    >
+    >The fallback offer is optional because it would only apply if it were possible for end users to be (or become) ineligible for any of the offers. In our case, our selection strategy was for all visitors, and the only people who would reach the CBE node were those who entered the Journey. Being authenticated is a requirement for Journey entrance (the namespace set in the Journey is one they'd only have if they were authenticated). We also built a fallback offer into our Ranking formula, so in our case, there's no need to set this fallback offer.
 
 11. Click the blue **Next** button to review the decision policy.
 
