@@ -72,11 +72,11 @@ The first and easiest offer item you create is the fallback offer, which anyone 
 10. Make any necessary changes. When ready, click the blue **Save** button.
 11. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title:
 
-      ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
+    ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
 
-      >[!NOTE]
-      >
-      >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
+    >[!NOTE]
+    >
+    >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
 
 12. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
 
