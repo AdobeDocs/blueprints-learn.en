@@ -66,75 +66,75 @@ product_v2:
 1. Click the blue **Next** button. This is where you add the selection strategy. Click the **+Add** button (you may need to scroll down to see it), and choose **Selection strategy**.
 1. Tick the box next to the only selection strategy you should have (**iPhone 17 Selection Strategy**) and click **Save**. When finished, this is what you see:
 
-   ![iPhone 17 Selection Strategy selected for the decision policy](assets/create-the-journey-selection-strategy-selected.png)
+    ![iPhone 17 Selection Strategy selected for the decision policy](assets/create-the-journey-selection-strategy-selected.png)
 
-   >[!NOTE]
-   >
-   >Note how you can add multiple selection strategies or just add the decision items themselves. When would you use multiple selection strategies? Imagine that you have a 4 X 4 grid of recommendations on one of your digital properties. You want to fill all of them with 16 offers. You may have those offers spread across a few collections, or perhaps the first two rows require one selection strategy, while the bottom two rows need a different strategy. In the previous screen, you would have chosen 16 and then used this screen to add as many selection strategies or offers as needed to reach 16.
-   >
-   >The fallback offer is optional because it would only apply if it were possible for end users to be (or become) ineligible for any of the offers. In our case, our selection strategy was for all visitors, and the only people who would reach the CBE node were those who entered the Journey. Being authenticated is a requirement for Journey entrance (the namespace set in the Journey is one they'd only have if they were authenticated). We also built a fallback offer into our Ranking formula, so in our case, there's no need to set this fallback offer.
+    >[!NOTE]
+    >
+    >Note how you can add multiple selection strategies or just add the decision items themselves. When would you use multiple selection strategies? Imagine that you have a 4 X 4 grid of recommendations on one of your digital properties. You want to fill all of them with 16 offers. You may have those offers spread across a few collections, or perhaps the first two rows require one selection strategy, while the bottom two rows need a different strategy. In the previous screen, you would have chosen 16 and then used this screen to add as many selection strategies or offers as needed to reach 16.
+    >
+    >The fallback offer is optional because it would only apply if it were possible for end users to be (or become) ineligible for any of the offers. In our case, our selection strategy was for all visitors, and the only people who would reach the CBE node were those who entered the Journey. Being authenticated is a requirement for Journey entrance (the namespace set in the Journey is one they'd only have if they were authenticated). We also built a fallback offer into our Ranking formula, so in our case, there's no need to set this fallback offer.
 
-1. Click the blue **Next** button to review the decision policy.
+11. Click the blue **Next** button to review the decision policy.
 
-   ![Review step for the decision policy before creating it](assets/create-the-journey-review-decision-policy.png)
+    ![Review step for the decision policy before creating it](assets/create-the-journey-review-decision-policy.png)
 
-1. Once everything looks correct, click the blue **Create** button. Once it's created, you're returned to the expression editor page.
-1. You should see a screen similar to the one below; if not, click on **Decision policy** again, and you see your decision policy appear.
+12. Once everything looks correct, click the blue **Create** button. Once it's created, you're returned to the expression editor page.
+13. You should see a screen similar to the one below; if not, click on **Decision policy** again, and you see your decision policy appear.
 
-   ![Expression editor showing the decision policy is ready to insert](assets/create-the-journey-decision-policy-ready.png)
+    ![Expression editor showing the decision policy is ready to insert](assets/create-the-journey-decision-policy-ready.png)
 
-1. Click the **+ Insert policy** button, and you see a ForEach loop appear in the code editor:
+14. Click the **+ Insert policy** button, and you see a ForEach loop appear in the code editor:
 
-   ![ForEach loop inserted into the code editor after inserting the decision policy](assets/create-the-journey-foreach-loop-inserted.png)
+    ![ForEach loop inserted into the code editor after inserting the decision policy](assets/create-the-journey-foreach-loop-inserted.png)
 
-   >[!NOTE]
-   >
-   >Why a for each loop? In our case, we're just returning a single offer. However, consider the previous steps where we could return multiple offers. When considering the functionality, the looping mechanism here makes sense.
+    >[!NOTE]
+    >
+    >Why a for each loop? In our case, we're just returning a single offer. However, consider the previous steps where we could return multiple offers. When considering the functionality, the looping mechanism here makes sense.
 
-1. Add valid JSON within the bounds of the loop to return the make, model, and tier of the phone that should be offered to the end user. Since frequency capping is in place as well, a trackingToken needs to be added to the response. More on this later in the instructions. To save time, simply copy and paste these lines of code into the code editor within the For Each loop:
+15. Add valid JSON within the bounds of the loop to return the make, model, and tier of the phone that should be offered to the end user. Since frequency capping is in place as well, a trackingToken needs to be added to the response. More on this later in the instructions. To save time, simply copy and paste these lines of code into the code editor within the For Each loop:
 
-   ```javascript
-   {
-        "make":"",
-        "model":"",
-        "tier":"",
-        "trackingToken":""
-    },
-   ```
+    ```javascript
+    {
+         "make":"",
+         "model":"",
+         "tier":"",
+         "trackingToken":""
+     },
+    ```
 
-   ![Initial JSON with make, model, tier, and trackingToken fields inside the ForEach loop](assets/create-the-journey-initial-json-in-loop.png)
+    ![Initial JSON with make, model, tier, and trackingToken fields inside the ForEach loop](assets/create-the-journey-initial-json-in-loop.png)
 
-   >[!NOTE]
-   >
-   >Recall that you added attributes to the standard offer XDM schema, specifically, the make, model, and tier. You then populated those attributes when the offers were created. You now add those attributes as variables that are populated with values from the selected offer. The trackingToken field is a system-generated value used for tracking clicks and impressions.
+    >[!NOTE]
+    >
+    >Recall that you added attributes to the standard offer XDM schema, specifically, the make, model, and tier. You then populated those attributes when the offers were created. You now add those attributes as variables that are populated with values from the selected offer. The trackingToken field is a system-generated value used for tracking clicks and impressions.
 
-1. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make** node.  Click the **+** icon on the **Make** element, and you see it populate the editor.
+16. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make** node.  Click the **+** icon on the **Make** element, and you see it populate the editor.
 
-   ![Make attribute from the decision policy populated into the JSON editor](assets/create-the-journey-populate-make-attribute.png)
+    ![Make attribute from the decision policy populated into the JSON editor](assets/create-the-journey-populate-make-attribute.png)
 
-1. Add the **model** and **tier** attributes in a similar manner.
-1. Click on **Decision policy** in the attribute navigation to return to the root level.
-1. Populate the trackingToken attribute by navigating to the Tracking Token value via **\_experience > decisioning > decisionitem > Tracking Token** path.
-1. Finally, encase the entire piece of code in a set of square bracket (**\[]**). Your final JSON code should look like this:
+17. Add the **model** and **tier** attributes in a similar manner.
+18. Click on **Decision policy** in the attribute navigation to return to the root level.
+19. Populate the trackingToken attribute by navigating to the Tracking Token value via **\_experience > decisioning > decisionitem > Tracking Token** path.
+20. Finally, encase the entire piece of code in a set of square bracket (**\[]**). Your final JSON code should look like this:
 
-   ![Final JSON code enclosed in square brackets for the CBE response](assets/create-the-journey-final-json-code.png)
+    ![Final JSON code enclosed in square brackets for the CBE response](assets/create-the-journey-final-json-code.png)
 
-   >[!WARNING]
-   >
-   >Make sure you included the brackets "\[ ]" around your entire decision item. Confused? See step #20 again.
+    >[!WARNING]
+    >
+    >Make sure you included the brackets "\[ ]" around your entire decision item. Confused? See step #20 again.
 
 
 
-1. Once everything looks the screenshot above, click the **Save and close** in the upper right to save your code. You're then returned to the Code-based Experience page.
-1. Click the back arrow **\<** icon next to the Journey name, and you're returned to the canvas.
+21. Once everything looks the screenshot above, click the **Save and close** in the upper right to save your code. You're then returned to the Code-based Experience page.
+22. Click the back arrow **\<** icon next to the Journey name, and you're returned to the canvas.
 
-   ![Journey canvas after returning from the Code-based experience editor](assets/create-the-journey-return-to-canvas.png)
+    ![Journey canvas after returning from the Code-based experience editor](assets/create-the-journey-return-to-canvas.png)
 
-1. Click the blue **Save** button to save the CBE action node. Your Journey now looks like this:
+23. Click the blue **Save** button to save the CBE action node. Your Journey now looks like this:
 
-   ![Journey canvas showing the completed CBE action node](assets/create-the-journey-completed-canvas.png)
+    ![Journey canvas showing the completed CBE action node](assets/create-the-journey-completed-canvas.png)
 
-1. With the Journey completed, click the blue **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you see that your Journey is now live!
+24. With the Journey completed, click the blue **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you see that your Journey is now live!
 
 ![Published and live iPhone 17 Abandon Browse Journey](assets/create-the-journey-published-live.png)
 
