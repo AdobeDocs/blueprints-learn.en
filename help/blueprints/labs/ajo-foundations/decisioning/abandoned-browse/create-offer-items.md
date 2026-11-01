@@ -76,21 +76,21 @@ The first and easiest offer item you create is the fallback offer, which anyone 
 1. Make any necessary changes. When ready, click the blue **Save** button.
 1. Once saved, a white 'Approve' button appears where the 'Save' button used to be. Click the white **Approve** button to approve this offer item. You see a green 'Approved' indicator below the offer item title:
 
-    ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
+   ![Green Approved indicator on the generic offer item](assets/create-offer-items-generic-offer-approved.png)
 
-    >[!NOTE]
-    >
-    >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
+   >[!NOTE]
+   >
+   >In practice, and with more complex offers, a proper approval process should be in place to ensure that the offer items have been created correctly. To save time in this lab, you simply approve every offer item you create.
 
-12. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
+1. Click the **left arrow** next to the offer item title to return to the 'Offers' page, and you see your iphone:17\:generic offer listed.
 
 ## Create base model offer item
 
 Now that the generic offer item has been created, you can create the next priority offer item for the base model of the iPhone 17.
 
 1. Click the blue **Create Item** button again and name the offer **iphone:17\:base**
-2. Because this is the next lowest priority offer item, increase the **Priority** field to **2**
-3. Expand the **Device** area and give the fields these values:
+1. Because this is the next lowest priority offer item, increase the **Priority** field to **2**
+1. Expand the **Device** area and give the fields these values:
    - Tier: **Base**
    - Model: **17**
    - Make: **iPhone**
@@ -101,9 +101,9 @@ Now that the generic offer item has been created, you can create the next priori
 
    When everything is correct, click the blue **Next** button to proceed to the next step.
 
-4. This offer item should be available to everyone, so there is no eligibility requirement; however, it should be capped at 3 impressions per day. Click the  '**+ Create capping'** button.
-5. On the new capping rule, change the **Choose capping event** to **Impression.**
-6. Change the **Capping event count** to **3**. Once finished, your capping rule looks like this:
+1. This offer item should be available to everyone, so there is no eligibility requirement; however, it should be capped at 3 impressions per day. Click the  '**+ Create capping'** button.
+1. On the new capping rule, change the **Choose capping event** to **Impression.**
+1. Change the **Capping event count** to **3**. Once finished, your capping rule looks like this:
 
    ![Capping rule for the base offer set to 3 impressions](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -119,9 +119,9 @@ Now that the generic offer item has been created, you can create the next priori
    >
    >The 'days' mentioned in frequency capping rules refer to days in the GMT timezone.  Frequency capping with days in the logic resets at midnight, GMT.
 
-7. Click **Next** to proceed to the review step.
-8. Ensure everything appears as expected and click the **Save** button. Once saved, click **Approve.**
-9. Once approved, click the left arrow next to the title and return to the offers page. You now see two offers, each with the appropriate priority.
+1. Click **Next** to proceed to the review step.
+1. Ensure everything appears as expected and click the **Save** button. Once saved, click **Approve.**
+1. Once approved, click the left arrow next to the title and return to the offers page. You now see two offers, each with the appropriate priority.
 
 ![Offers page listing the generic and base offer items with their priorities](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -130,21 +130,21 @@ Now that the generic offer item has been created, you can create the next priori
 Now that the generic and base model offers have been created, you can move to the offer items for the pro and ultra models. These offer items also need to include an element of eligibility because only members with a certain plan level should see these offers.
 
 1. Following the same steps and naming patterns outlined in the above sections, create a new offer called **iphone:17\:pro** and set its priority to **3.**
-2. Set the **Tier** attribute to **Pro** and the other custom attributes as you did in the other offers.
-3. On the 'Eligibility' step, select the **By rule** radio button.
-4. The left rail shows only one Decision rule, the one created earlier called 'Upper Tier Plans'. Click the **+** icon next to that rule to add it to the canvas.
-5. As mentioned earlier, the business has stated that non-fallback offers should have a frequency cap of 3 displays (or impressions) per day. Follow the steps in the previous section to create a capping rule for 3 Impressions per day. When finished, your page looks like this:
+1. Set the **Tier** attribute to **Pro** and the other custom attributes as you did in the other offers.
+1. On the 'Eligibility' step, select the **By rule** radio button.
+1. The left rail shows only one Decision rule, the one created earlier called 'Upper Tier Plans'. Click the **+** icon next to that rule to add it to the canvas.
+1. As mentioned earlier, the business has stated that non-fallback offers should have a frequency cap of 3 displays (or impressions) per day. Follow the steps in the previous section to create a capping rule for 3 Impressions per day. When finished, your page looks like this:
 
    ![Pro offer item eligibility and capping configuration for 3 impressions per day](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Once you've verified that everything is correct, click **Next**. The final offer item config looks like this:
+1. Once you've verified that everything is correct, click **Next**. The final offer item config looks like this:
 
    ![Completed configuration for the Pro tier offer item](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Once everything looks correct, **Save** and **Approve** the offer item.
-8. Return to the offers page and verify that the 3 offers are there and that they each have the proper priority.
-9. Create the final offer item and name it **iphone:17\:ultra,** give it a priority of **4,** and set the other custom attributes with the same values as the other offers.
-10. As with the last offer item, set the eligibility to the 'Upper Tier Plans' Decision rule and set a frequency capping of 3 impressions a day. When finished, your offer item looks like this:
+1. Once everything looks correct, **Save** and **Approve** the offer item.
+1. Return to the offers page and verify that the 3 offers are there and that they each have the proper priority.
+1. Create the final offer item and name it **iphone:17\:ultra,** give it a priority of **4,** and set the other custom attributes with the same values as the other offers.
+1. As with the last offer item, set the eligibility to the 'Upper Tier Plans' Decision rule and set a frequency capping of 3 impressions a day. When finished, your offer item looks like this:
 
    ![Completed configuration for the Ultra tier offer item](assets/create-offer-items-ultra-offer-final-config.png)
 
