@@ -2,6 +2,9 @@
 name: Adobe Experience League Authoring Guidelines
 description: Complete reference for Adobe Experience League markdown authoring rules, crawled from the official authoring guide in March 2026.
 type: reference
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Adobe Experience League Authoring Guidelines

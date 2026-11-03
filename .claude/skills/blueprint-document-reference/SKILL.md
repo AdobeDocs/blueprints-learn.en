@@ -1,6 +1,9 @@
 ---
 name: blueprint-document-reference
 description: Reference for creating and editing Adobe Digital Experience Blueprint documents. Use when creating new blueprints, adding blueprint pages, or when the user asks about blueprint structure, sections, templates, or referencing Adobe Experience League.
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Blueprint Document Reference

@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+---
+
 # Migration Status â€” Blueprints to Use Case Patterns
 
 This document captures the state of the blueprint reorganization effort so it can be resumed cleanly across sessions.
