@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+---
+
 # Adobe Experience League — Approved Metadata Fields Reference
 
 *Sourced from Adobe ExL Authoring Guide (crawled Feb 2026) + repo analysis of blueprints-learn.en*
