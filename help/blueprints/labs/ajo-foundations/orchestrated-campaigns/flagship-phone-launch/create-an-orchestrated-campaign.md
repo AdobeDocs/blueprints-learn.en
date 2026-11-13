@@ -32,7 +32,7 @@ In the next set of steps you create the shell of an Orchestrated Campaign (no ac
 
 
 
-4. In the modal that displays select **Orchestration - Marketing** and the click **Confirm**
+4. In the modal that displays select **Orchestration Marketing and transactional** and then click **Confirm**
 
 ![Select Orchestration - Marketing and click Confirm](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
