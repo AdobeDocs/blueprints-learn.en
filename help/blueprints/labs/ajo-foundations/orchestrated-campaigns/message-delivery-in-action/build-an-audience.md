@@ -34,11 +34,11 @@ In the next set of steps you will build an audience from the relational schema b
 
    ![Click Add condition in Create audience pane](assets/build-an-audience-add-condition.png)
 
-6. Scroll down and expand the `dep-rel: Plan Lookup` by clicking on the **>** next to it
+6. Scroll down and expand the `dep-rel: Plan [Lookup]` by clicking on the **>** next to it
 
    ![Expand dep-rel: Plan Lookup](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Select `dep-rel: Plan Name` and click on **Confirm**
+7. Select `Plan Name` and click on **Confirm**
 
    ![Select dep-rel: Plan Name](assets/build-an-audience-select-plan-name.png)
 
