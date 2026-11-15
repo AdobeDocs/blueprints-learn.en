@@ -159,6 +159,6 @@ It's zero. Do you know why?
 
 ## Recap
 
-You have successfully created your first audience and should now see how easy it is to develop and validate your counts within the Build Audience activity.
+You have successfully created an audience and should now see how easy it is to develop and validate your counts within the Build Audience activity.
 
 ![Completed Build Audience activity after the recap](assets/build-an-audience-recap-completed-audience.png)
