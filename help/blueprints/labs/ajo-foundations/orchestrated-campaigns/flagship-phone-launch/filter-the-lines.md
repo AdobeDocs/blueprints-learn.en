@@ -55,111 +55,27 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 ## Add the SMS activity
 
-1. On the workflow canvas, click the **+** icon after the split condition you added and select the **SMS Activity**
+1. On the workflow canvas, click the **+** icon after the split condition you added and select the **Mobile message Activity**
 
-   ![Add the SMS activity after the split condition](assets/filter-the-lines-add-sms-activity.png)
+   ![Add the Mobile message activity after the split condition](assets/filter-the-lines-add-sms-activity.png)
 
    ![SMS activity added to the workflow canvas](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
-2. In the right rail click on the Edit SMS button to start configuration of the SMS message
+2. In the right rail click on the Edit Mobile message button to start configuration of the SMS message
 
-   ![Edit SMS button in the right rail](assets/filter-the-lines-edit-sms-button.png)
-
-
-
-3. In the top nav click on the Actions menu item and then from the SMS configuration drop-down select the channel you previously created.
-
-![SMS configuration drop-down showing no results error](assets/filter-the-lines-sms-configuration-no-results.png)
-
->[!CAUTION]
->
->Oh no 🫨!  Why are you getting No results?  Didn't you set up your SMS channel already?  Is the product broken?
->
->FREAK OUT!!!!!!!!!
+   ![Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button.png)
 
 
 
-## Freak out moment
-
-The transition of the fork currently has a targeting dimension of Customer Line (i.e., what table the current result relates to in the Relational Store).  What is unique with Orchestrated Campaigns though is you always join back to the Real-Time Customer Profile at send time so delivery and tracking information from messages is attributed to a profile.  This join was pre-built for you from the Customer Account table. 
-
-The channel configuration for SMS was already set up for you beforehand and it currently looks like so...
-
-![Execution details configuration set up during the Configure SMS channel lab](assets/configure-sms-channel-final-execution-details.png)
-
-**How you read this is as follows:**
-
-- Deliver one message per the target dimension (i.e. Customer Account) on the number of related records found in the secondary dimension (i.e. Customer Line)
-- Execute each SMS delivery using the mobile phone number found in the secondary dimension (i.e. Customer Line)
-
-This unique ability to send many messages to one profile is one of the primary features of Orchestrated Campaigns that makes it different from Journeys.
-
-
-So how do you get this to work?  Add a change dimension 😀
-
-
-
-## Add Change Dimension
-
-1. Click the back button on the SMS edit screen
-
-   ![Back button to exit the SMS edit screen](assets/filter-the-lines-exit-sms-editor.png)
-
-
-
-2. On the workflow canvas, click the **+** **icon** between the Filter and SMS activities and select **Change Dimension**. 
-
-   ![Add a Change Dimension activity between Filter and SMS](assets/filter-the-lines-add-change-dimension.png)
-
-
-
-3. In the right update the change dimension with the following information:
-   - **Label:**  `Convert Line to Account`
-   - **New target dimension:**`dep-rel: Customer Account`
-
-   ![Change Dimension configured to convert Line to Account](assets/filter-the-lines-change-dimension-settings.png)
-
-
-
-4. Click the **Save** button in the upper right of the canvas to save your work. When done, your workflow now looks like this...
-
-![Workflow canvas after adding the change dimension](assets/filter-the-lines-workflow-after-change-dimension.png)
-
-
-
-## SMS message configuration
-
-Now that you've fixed the workflow, reconfigure the SMS.
-
-
-
-1. Click on the SMS activity in the workflow canvas and then, in the left rail, click on the **Edit SMS** button
-
-   ![Edit SMS button to reconfigure the SMS message](assets/filter-the-lines-edit-sms-button.png)
-
-   >[!NOTE]
-   >
-   >This screen takes a while to load.  I know it's annoying, trust me it's being fixed
-
-
-
-
-
-2. In the top nav click on the **Actions** menu item and then from the SMS configuration drop-down select the channel you previously created.
+3. In the top nav click on the Actions menu item and then from the Mobile message configuration drop-down select the channel you previously created.
 
 ![SMS configuration successfully showing the selected channel](assets/filter-the-lines-sms-configuration-selected.png)
 
->[!TIP]
->
->Feels good doesn't it 😮‍💨
 
 
 
 ## Recap
 
-You made it through this one and hopefully learned two very important things:
-
-1. Your final results targeting dimension has to match the channel configuration you want to use
-1. The Change dimension activity is likely going to become your best friend for ensuring this happens
+You filtered out all the lines that were not allowed to be targeted with an SMS message due to opt out and you added an SMS activity for those who were allowed to be targeted.
