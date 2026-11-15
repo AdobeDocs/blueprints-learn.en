@@ -25,9 +25,9 @@ In the next set of steps you will start with creating an Orchestrated Campaign.
 
    ![Click Create campaign button](assets/create-a-campaign-click-create-campaign.png)
 
-3. Select **Orchestration - Marketing**  and click on **Confirm**
+3. Select **Orchestration Marketing and transactional**  and click on **Confirm**
 
-   ![Select Orchestration - Marketing and click Confirm](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![Select Orchestration Marketing and transaction, then click Confirm](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. Provide Campaign details below and then click the **Save button** when done
    - **Name:** `OC-MDL-Campaign-Test`
