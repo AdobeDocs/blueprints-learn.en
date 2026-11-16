@@ -89,7 +89,7 @@ The Profile Target Dimension is used to tell Adobe Journey Optimizer how data be
 
 
 
-6. Click the **Save** button to create the Profile Target Dimension. You then see the record appear.
+6. Click the **Create** button to create the Profile Target Dimension. You then see the record appear.
 
 ![Saved Profile Target Dimension record in the list](assets/profile-target-dimension-saved-record.png)
 
