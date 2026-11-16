@@ -15,7 +15,13 @@ Use **Real-Time Customer Data Platform B2B Edition** to bring together account, 
 
 - Create audiences of people for targeting and personalization across channels based on B2B data including accounts, opportunities, and leads.
 - Create multi-entity audiences that combine account- and opportunity-level attributes with person-level behavior by using a **segment-of-segments** approach (for example, "People who visited the pricing page in the last 3 days and are decision makers in opportunities at stage X for accounts in industry Y").
-- Activate people and account audiences to Experience Platform and cloud storage destinations—such as Marketo Engage, LinkedIn Matched Audiences, Google Customer Match, DV360, The Trade Desk, Amazon Ads, Bombora, and Demandbase—for targeting, personalization, sales outreach, and analytics.
+- Activate people audiences to supported Experience Platform destinations for targeting and personalization, and account audiences to supported advertising and cloud storage destinations for targeting, sales outreach, and analytics. Destination support differs by audience type; see [Account audience destinations](#account-audience-destinations) for account activation.
+
+### Account-based use cases
+
+- **Fill buying group gaps:** Build an audience of accounts without contacts in roles such as CMO or CIO. Activate it to LinkedIn Matched Audiences or another supported advertising destination, then use the destination's job-title targeting to reach new contacts in those roles.
+- **Upsell or cross-sell to other divisions of an existing customer:** Build an account audience that purchased product X between 3 and 9 months ago but does not yet own product Y. Activate it to supported advertising destinations or export it to cloud storage for sales and marketing outreach.
+- **Target companies using competing products:** Use partner or intent data to identify accounts using a competitor's product, even when no contacts are known. Activate the account audience to supported advertising destinations to reach contacts at those companies.
 
 ## Applications
 
@@ -29,7 +35,7 @@ Typical B2B integration patterns for this blueprint include:
 
 - **B2B engagement and CRM sources → RTCDP B2B → destinations**
 
-  B2B engagement and CRM systems such as Marketo Engage, Salesforce, and Microsoft Dynamics send leads/contacts, accounts, and opportunities into **Real-Time CDP B2B Edition** using the standard B2B schemas. From there, audiences of people and accounts are activated to destinations including:
+  B2B engagement and CRM systems such as Marketo Engage, Salesforce, and Microsoft Dynamics send leads/contacts, accounts, and opportunities into **Real-Time CDP B2B Edition** using the standard B2B schemas and relationships. From there, people audiences are activated to supported destinations including:
 
   - Marketo Engage
   - LinkedIn / LinkedIn Matched Audiences
@@ -39,9 +45,11 @@ Typical B2B integration patterns for this blueprint include:
   - Trade Desk CRM, Criteo, Bing, and other advertising platforms
   - Cloud storage destinations such as Amazon S3, ADLS, and Snowflake for downstream use
 
+  Account audiences use the same unified B2B data model and are activated separately to supported advertising and file destinations listed under [Account audience destinations](#account-audience-destinations).
+
 - **B2B intent and event sources → RTCDP B2B → audiences → destinations**
 
-  B2B intent and event sources such as Bombora Intent, Demandbase Intent, PathFactory, and RainFocus stream intent and engagement events into RTCDP B2B. These events are mapped to standard B2B schemas and used to build people and account audiences that can be activated to advertising and marketing destinations.
+  B2B intent and event sources such as Bombora Intent, Demandbase Intent, PathFactory, and RainFocus stream intent and engagement events into RTCDP B2B. These events are mapped to standard B2B schemas and used to build people and account audiences that can be activated to advertising and marketing destinations. For example, accounts showing intent on competitor topics can be activated to supported account destinations such as Bombora and Demandbase.
 
 Various B2B data sources can be used to map account, lead, opportunity, and person data to the B2B Edition of Real-Time Customer Data Platform using the standard **B2B schemas and relationships**.
 
@@ -49,11 +57,28 @@ Various B2B data sources can be used to map account, lead, opportunity, and pers
 
 ![Reference architecture for the B2B Audience and Profile Activation blueprint](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
+## Account audience destinations
+
+Account audiences can be activated to the following advertising and cloud storage destinations:
+
+- LinkedIn Matched Audiences
+- Bombora
+- Demandbase
+- Azure Data Lake Storage Gen2
+- Data Landing Zone
+- SFTP
+- Azure Blob
+- AWS S3
+
+Refer to [Activate account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) for the latest supported destinations and required mappings. The people-audience destinations listed in the integration patterns do not necessarily support account audiences.
+
 ## Guardrails
 
 Refer to the following guardrails and eligibility documentation when designing B2B audiences and profiles:
 
 - [Guardrails for Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activate account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
 - [Segmentation use cases for Real-Time CDP B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
 - [Profile and Segmentation Guardrails](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - [Streaming segmentation eligibility criteria update](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
@@ -103,6 +128,12 @@ Two implementation patterns are common:
 
 As part of the RTCDP B2B architecture upgrades, some previously used patterns are now deprecated for B2B entities. For more in-depth details refer detailed documentation [here](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
 
+For account audience creation and activation, see:
+
+- [Create account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- [Activate account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en).
+- [Required mappings for LinkedIn Matched Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+
 ## Implementation considerations
 
 Guidance on key considerations and configurations of the blueprint.
@@ -113,10 +144,18 @@ Guidance on key considerations and configurations of the blueprint.
   - If there are additional CRM tables or attributes that are not passed through Marketo (for example, custom objects or additional fields), connect the CRM source directly to Experience Platform using the CRM source connectors and map those tables to the standard B2B schemas and relationships.
   - Design CRM + Marketo ingestion together to avoid duplicate or conflicting representations of B2B entities in RTCDP B2B and ensure that all B2B entities conform to the standard schemas.
 
+- **LinkedIn Matched Audiences minimum audience size**
+
+  LinkedIn Matched Audiences has a minimum audience size requirement (for example, 300 matched members). If an activated account audience does not meet the requirement, broaden the audience definition to increase the matchable audience size before launching a campaign. Refer to the [LinkedIn destination documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) for current requirements.
+
 ## Related documentation
 
 - [B2B Edition of Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 - [Getting Started with Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Create and activate account audiences tutorial](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Create account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activate account audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [LinkedIn destination connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
 - [Guardrails for Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
 - [Schemas in Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
 - [Architecture upgrades to Real-Time CDP B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
