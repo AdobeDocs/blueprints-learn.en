@@ -73,7 +73,8 @@ In order to create a Journey that uses a Unitary Event, we need to first configu
 
 9. Next update the last two values of Namespace and Profile Identifier with the values shown below:
    - **Namespace** --> `Email`
-   - **Profile Identifier** --> `personalEmail`
+   - **Profile Identifier** --> `personalEmail` 
+   (You will find it under the tenant name of your environment starting with underscore, in this example _dep.)
 
 ![Namespace set to Email and Profile Identifier set to personalEmail](assets/configure-event-select-profile-identifier.png)
 
