@@ -29,5 +29,4 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 
 | Diagram | Description |
 | --- | --- |
-| [B2B Audience and Profile Activation](b2b-audience-profile-activation.md) | Activate account-based and people-based audiences with Real-Time Customer Data Platform B2B Edition |
-| [B2B Account Activation](b2b-account-activation.md) | Target B2B accounts via advertising and file-based destinations |
+| [B2B Audience and Profile Activation](b2b-audience-profile-activation.md) | Activate people audiences across supported channels and account audiences to advertising and file destinations with Real-Time Customer Data Platform B2B Edition |

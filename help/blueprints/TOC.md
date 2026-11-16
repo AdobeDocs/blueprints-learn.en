@@ -102,7 +102,6 @@ nudge: orange
   + B2B activation & marketing{#b2b-activation-marketing}
     + [Overview](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B audience and profile activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
-    + [B2B account activation](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
   + Customer Insights{#customer-insights}
     + [Overview](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
     + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
