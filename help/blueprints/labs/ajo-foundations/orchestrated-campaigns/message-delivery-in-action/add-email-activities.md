@@ -65,17 +65,13 @@ In the next set of steps, you will build on the campaign to add two Email activi
 
    ![Click left arrow to exit Email Designer](assets/add-email-activities-exit-email-designer.png)
 
-10. A confirmation dialog pops up, click on the **Save & close** button
-
-   ![Confirmation dialog with Save & close button](assets/add-email-activities-save-and-close-dialog.png)
-
-1. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
+10. Review the Email properties and actions including the text added to the Email body. Click on the **left arrow** to navigate back to the campaign canvas
 
 ![Navigate back to Campaign canvas](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## Add bottom branch email activity
 
-Back in the campaign canvas, click on the **+** of the bottom flow and select **Email** from the **Channel activities**. Follow the same steps as above (Steps 2 to 11) except for the following:
+Back in the campaign canvas, click on the **+** of the bottom flow and select **Email** from the **Channel activities**. Follow the same steps as above (Steps 2 to 10) except for the following:
 
 - Rename the label to **Email using Target Dimension** for the **Email** activity
 - In the Email settings, choose the **Relational-Email** Email channel config
