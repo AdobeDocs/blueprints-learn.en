@@ -14,7 +14,7 @@ Create a unitary journey that begins with the configured Order Shipped event, ge
 
 ## Create journey
 
-Go to **Journeys** and click **Create Journey - Create from scratch**
+Go to **Journeys** and click **Create Journey**
 
 ![Create Journey - Create from scratch screen in Adobe Journey Optimizer](assets/build-journey-create-journey-from-scratch.png)
 
@@ -25,7 +25,7 @@ Go to **Journeys** and click **Create Journey - Create from scratch**
 1. Update the Journey Properties in the right rail with the following:
    - **Name**: `Order Shipped Journey`
    - **Description**: `Notify customer that order has shipped. Include shipping details.`
-   - **Tags**: `Default`
+   - **Tags**: *leave blank*
    - **Journey metrics**: *leave blank*
 
       >[!NOTE]
@@ -65,7 +65,7 @@ Go to **Journeys** and click **Create Journey - Create from scratch**
 
 ### Add a unitary event
 
-From the left pane under the **Events menu** drag 'n drop the **orderShipped** event onto the canvas as shown below
+Click on a plus icon, navigate to **Custom events** and select the **orderShipped** event as shown below
 
 ![Drag the orderShipped event from the Events menu onto the journey canvas](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -79,7 +79,7 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped** e
 
 ### Add a custom action
 
-1. If the left pane expand the **Actions menu** and then drag 'n drop onto the canvas the action you built named **GetShippingDetails** after the orderShipped event
+1. Click on a plus icon, navigate to **Custom actions** and select the action you built named **GetShippingDetails** so it appears after the orderShipped event
 
    ![Drag the GetShippingDetails custom action onto the canvas after the orderShipped event](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -103,7 +103,7 @@ From the left pane under the **Events menu** drag 'n drop the **orderShipped** e
 
 ### Add email action
 
-1. Under the Actions menu drag 'n drop the **Action** action onto the canvas after the GetShippingDetails action
+1. Click the plus icon after your GetShippingDetails custom event and select **Action**. 
 
    ![Drag the Action node onto the canvas after the GetShippingDetails action](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -133,11 +133,11 @@ For content, you are going to keep things simple. Like stupid simple.
 
    ![Design from Scratch content block in the top bar](assets/build-journey-click-design-from-scratch.png)
 
-3. From the left bar under the Structure container drag 'n drop the **1:1 Column** onto the canvas
+3. In the left bar go to the Components tab and from under the Structure container drag 'n drop the **1:1 Column** onto the canvas
 
    ![Drag the 1:1 Column structure element onto the email canvas](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. Then under the Contents container drag 'n drop the **Text** component into your **1:1 Column**
+4. Then from under the Contents container drag 'n drop the **Text** component into your **1:1 Column**
 
    ![Drag the Text component into the 1:1 Column](assets/build-journey-drag-text-component-into-column.png)
 
@@ -203,6 +203,7 @@ Back on the main Journey Canvas, on the Email node, make sure you can see the re
    ![Enable parameter override icon under Email Parameters](assets/build-journey-enable-parameter-override.png)
 
 2. Click in the empty text box and then in the left rail drill down into **Context** -> **orderShipped** -> **\_dep** and click on the **personalEmail** field.  Then click the **OK button**
+(Note that the tenant name starting with underscore may be different for your environment, in this example it is _dep.)
 
    ![Select the personalEmail field under orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
 
