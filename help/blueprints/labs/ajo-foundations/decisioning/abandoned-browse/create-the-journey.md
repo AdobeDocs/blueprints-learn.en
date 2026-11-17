@@ -15,7 +15,6 @@ product_v2:
 
 1. If necessary, expand the **Journey management** menu item in the left rail and click on **Journeys**. You land on the 'Journeys' page.
 1. Click on the blue **Create Journey** button.
-1. When the 'Create a Journey' overlay appears, select **Create from scratch** and click **Confirm**
 1. In the right rail, name the Journey **iPhone 17 Abandon Browse** and click the blue **Save** button so that you can start adding actions to the Journey canvas.
 1. Drag the **Audience Qualification** event onto the canvas.
 1. In the right rail, click the **Pencil** icon to select the audience for this event.
