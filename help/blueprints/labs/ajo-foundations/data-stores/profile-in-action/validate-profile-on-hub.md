@@ -31,7 +31,7 @@ In Adobe Experience Platform look up the profile you just sent in from the event
 
 ## Check the Hub Profile
 
-1. Click on the **Profile ID** to open the profile
+1. Click on the profile's **View** button to open the profile
 1. Click on the **Attributes** tab first and the **Hub** radio button to see the **Hub Profile**
 
 ![Hub Profile shown on the Attributes tab](assets/validate-profile-on-hub-attributes-tab.png)
