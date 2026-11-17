@@ -49,7 +49,7 @@ Click the **Edit content** button, or navigate directly to the **Content** tab
 
 
 
-3. Update the two fields in the message called **phone\_make** and **phone\_model** below using the **Target attributes** option in the left rail.  When done your message should match the screenshot. 
+3. Replace the two fields in the message called **phone\_make** and **phone\_model** below with the corresponding **Target attributes** options in the left rail.  When done your message should match the screenshot below. (The variables naming path should give you a clue where to find them.)
 
    ![Final SMS message with phone make and model personalized](assets/compose-the-sms-final-message-text.png)
 
