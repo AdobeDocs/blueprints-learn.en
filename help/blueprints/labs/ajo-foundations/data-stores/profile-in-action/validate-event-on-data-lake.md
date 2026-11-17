@@ -34,7 +34,7 @@ Verify that the web event was written to the Experience Platform Data Lake.
    where identityMap['email'][0].id = 'henry.creel@emailsim.io'
    ```
 
-3. **Run** Query
+3. **Run** Query by pressing the Play arrow
 
 >[!NOTE]
 >

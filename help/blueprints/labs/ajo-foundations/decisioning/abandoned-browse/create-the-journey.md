@@ -15,9 +15,8 @@ product_v2:
 
 1. If necessary, expand the **Journey management** menu item in the left rail and click on **Journeys**. You land on the 'Journeys' page.
 1. Click on the blue **Create Journey** button.
-1. When the 'Create a Journey' overlay appears, select **Create from scratch** and click **Confirm**
 1. In the right rail, name the Journey **iPhone 17 Abandon Browse** and click the blue **Save** button so that you can start adding actions to the Journey canvas.
-1. Drag the **Audience Qualification** event onto the canvas.
+1. Click the Plus icon after journey's Start and add the **Audience Qualification** event onto the canvas.
 1. In the right rail, click the **Pencil** icon to select the audience for this event.
 1. Select the **dep: Interested in iPhone 17** audience.
 1. Ensure that the **Namespace** drop-down is set to **customerID.** At this point, your Journey looks like this:
@@ -34,9 +33,9 @@ product_v2:
 
 ## Configure the CBE and decision policy
 
-1. Expand the **Actions** accordion just left of the canvas, drag the **Action** element onto the canvas, and connect it to the first node.
+1. Click the plus icon after your audience qualification and add the **Action** element onto the canvas.
 1. When the 'Select action type' overlay appears, select the **Code-base experience** action and click the blue **Add** button.
-1. In the now visible 'Action\:Code-based experience' properties, click the **Configure Action** button.
+1. In the now visible 'Action\:Code-based experience' properties, click the **Configure action** button.
 
    ![Code-based experience action properties with the Configure Action button](assets/create-the-journey-configure-action-button.png)
 
@@ -108,7 +107,7 @@ product_v2:
    >
    >Recall that you added attributes to the standard offer XDM schema, specifically, the make, model, and tier. You then populated those attributes when the offers were created. You now add those attributes as variables that are populated with values from the selected offer. The trackingToken field is a system-generated value used for tracking clicks and impressions.
 
-1. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make** node.  Click the **+** icon on the **Make** element, and you see it populate the editor.
+1. Place the cursor between the **""** of the 'make' node. Insert the make of the offer by navigating in the decision policy menu to the **\_dep > Device > Make** node.  Click the **+** icon on the **Make** element, and you see it populate the editor. (Note that the tenant name starting with an underscore may be different for your environment, in this case it is _dep.)
 
    ![Make attribute from the decision policy populated into the JSON editor](assets/create-the-journey-populate-make-attribute.png)
 
@@ -130,11 +129,11 @@ product_v2:
 
    ![Journey canvas after returning from the Code-based experience editor](assets/create-the-journey-return-to-canvas.png)
 
-1. Click the blue **Save** button to save the CBE action node. Your Journey now looks like this:
+1. Click the blue **Save** button to save the Code Based Experience action node. Your Journey now looks like this:
 
    ![Journey canvas showing the completed CBE action node](assets/create-the-journey-completed-canvas.png)
 
-1. With the Journey completed, click the blue **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you see that your Journey is now live!
+1. With the Journey completed, first click **Validate** and then click the **Publish** button in the upper right and **Publish** again when the confirmation box appears. After a moment or two, you see that your Journey is now live!
 
 ![Published and live iPhone 17 Abandon Browse Journey](assets/create-the-journey-published-live.png)
 

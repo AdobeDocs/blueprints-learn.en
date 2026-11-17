@@ -17,9 +17,13 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 ## Test the journey
 
-1. Click on **Journeys** on the left rail and the **Browse tab** if you don't see a list of Journeys
+1. If you are not already in the journey, click on **Journeys** in the left rail and the **Browse tab** if you don't see a list of Journeys
 2. Click on your **Journey** to open it
-3. Click on **Alerts** & ensure no errors (warnings are ok)
+3. First click on **Validate** button at the top right
+
+   ![Click to validate the journey](assets/test-journey-click-validate.png)
+   
+5. Click on **Alerts** & ensure there are no errors (warnings are ok)
 
    ![Alerts panel showing no errors after opening the journey](assets/test-journey-alerts-no-errors.png)
 
@@ -29,9 +33,11 @@ Use the journey testing tools to verify that the event trigger and journey logic
    >
    >Indicates the opt-out link is missing in an email variant
 
-4. Click on the **Simulate** and on the left side, select **Test Mode**
+6. Click on the **Simulate** and then, select **Test Mode**
 
-   ![Test Mode selected under Simulate on the left side](assets/test-journey-select-test-mode.png)
+   ![Press Simulate ](assets/test-journey-select-test-mode.png)
+
+   ![Test Mode selected in pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -41,11 +47,11 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-5. Click **Trigger an Event** and fill out these properties:
+7. Click **Trigger an Event** on the left side and fill out these properties:
    - **Event Type**: `orders.shipped`
    - **Personal Email**: `henry.creel@emailsim.io`
    - **Order ID**: `123`
-6. Click **Send** (note, it takes a few seconds to respond after clicking send)
+8. Click **Send** (note, it takes a few seconds to respond after clicking send)
 
    ![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
 
@@ -61,7 +67,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-7. Under **Results** -> Click **Show Log** on left side
+9. Under **Results** -> Click **Show Log** on left side
 
 ![Show Log option under Results after triggering the test event](assets/test-journey-show-log-results.png)
 
@@ -102,12 +108,12 @@ You should see something like this in the log:
 
 
 
-1. **Close** the Browser **tab**
+1. **Close** the Browser **tab** for the log
 1. **Close Test Mode** in the top right
 
    ![Close Test Mode button in the top right](assets/test-journey-close-test-mode.png)
 
-1. Click on **Publish** the Journey in the top right
+1. Click on **Validate** again and then **Publish** the Journey in the top right
 
    ![Publish button for the Journey in the top right](assets/test-journey-publish-journey.png)
 

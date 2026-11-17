@@ -13,11 +13,11 @@ product_v2:
 
 ## Objective
 
-In the next set of steps you run the campaign in test mode to confirm the campaign functions as expected before publishing the campaign. In this case, test mode does not send emails, but it helps verify the entire flow and identify issues early.
+In the next set of steps you run the campaign in Test mode to confirm the campaign functions as expected before publishing the campaign. In this case, the test mode does not send emails, but it helps verify the entire flow and identify issues early.
 
 ## Start the workflow
 
-1. Once the two Email flows have been configured, the Campaign looks like the following. Click on the **Start** button to run the campaign in **Test mode**
+1. Once the two Email flows have been configured, the Campaign looks like the following. Click on the **Start** button to run the campaign in Test mode
 
    ![Click Start to run the campaign in Test mode](assets/test-the-campaign-click-start-test-mode.png)
 
