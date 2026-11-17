@@ -47,6 +47,7 @@ From the **Subdomain** dropdown, select **email.dep-labs.com**
 
 >[!NOTE]
 >
+>The subdomain may be different for your environment.
 >If you're self-paced and don't have a pre-provisioned subdomain, select your own subdomain delegated to Adobe here instead of `email.dep-labs.com`. See [Setup](../../setup.md) for how to delegate one.
 
 ## Configure IP pool details
