@@ -53,9 +53,25 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 
 
+## Add Change Dimension
+
+1. On the workflow canvas, click the **+** icon after the split condition you added and select the **Change dimension** activity
+
+   ![Add the Change dimension activity after the split condition](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. Update the properties of the change dimension as outlined below and click **Confirm**:
+Label: `Convert Line to Account`
+New target dimension: `dep-rel: Customer Account`
+
+   ![Edit target dimension](assets/filter-the-lines-add-edit-target-dimension.png)
+   
+   ![Edit target dimension](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## Add the SMS activity
 
-1. On the workflow canvas, click the **+** icon after the split condition you added and select the **Mobile message Activity**
+1. Click the **+** icon after the Change dimension you added and select the **Mobile message Activity**
 
    ![Add the Mobile message activity after the split condition](assets/filter-the-lines-add-sms-activity.png)
 
@@ -63,9 +79,9 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 
 
-2. In the right rail click on the Edit Mobile message button to start configuration of the SMS message
+2. In the right rail first change the Target choice to **One message per secondary dimension** and then click on the **Edit Mobile message** button to start configuration of the SMS message
 
-   ![Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button.png)
+   ![Target and Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -78,4 +94,4 @@ In the next set of steps you are going to filter out all the lines that are actu
 
 ## Recap
 
-You filtered out all the lines that were not allowed to be targeted with an SMS message due to opt out and you added an SMS activity for those who were allowed to be targeted.
+You filtered out all the lines that were not allowed to be targeted with an SMS message due to opt out, changed the dimension from line to account and you added an SMS activity for those who were allowed to be targeted.
