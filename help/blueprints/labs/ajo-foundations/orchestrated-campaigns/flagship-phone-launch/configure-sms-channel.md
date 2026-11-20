@@ -102,7 +102,7 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 3. Next under the sub-section **Execution dimension** ensure the following are set up as follows:
    - **Deliver on message per:** `Target + Secondary Dimension`
    - **Profile Target Dimension:**  `dep-rel: Customer Account - customer_id`
-   - **Secondary Dimension:**  `Customer Line`
+   - **Secondary Dimension:**  `dep-rel: Customer Line`
 
    ![Execution dimension settings with target and secondary dimension](assets/configure-sms-channel-execution-dimension-setup.png)
 
