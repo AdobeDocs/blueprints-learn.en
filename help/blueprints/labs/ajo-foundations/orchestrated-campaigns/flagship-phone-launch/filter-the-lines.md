@@ -101,7 +101,7 @@ New target dimension: `dep-rel: Customer Account`
 
 The transition of the fork currently has a targeting dimension of Customer Line (i.e., what table the current result relates to in the Relational Store).  What is unique with Orchestrated Campaigns though is you always join back to the Real-Time Customer Profile at send time so delivery and tracking information from messages is attributed to a profile.  This join was pre-built for you from the Customer Account table. 
 
-The channel configuration for SMS was already set up for you beforehand and it currently looks like so...
+The channel configuration for SMS was already set up by you beforehand and it currently looks like so...
 
 ![Execution details configuration set up during the Configure SMS channel lab](assets/configure-sms-channel-final-execution-details.png)
 
@@ -110,10 +110,10 @@ The channel configuration for SMS was already set up for you beforehand and it c
 - Deliver one message per the target dimension (i.e. Customer Account) on the number of related records found in the secondary dimension (i.e. Customer Line)
 - Execute each SMS delivery using the mobile phone number found in the secondary dimension (i.e. Customer Line)
 
-This unique ability to send many messages to one profile is one of the primary features of Orchestrated Campaigns that makes it different from Journeys.
+This unique ability to send many messages to one profile is one of the primary features of Orchestrated Campaigns that makes it different from Journeys. However, your transition leading into Mobile Message activity is set to Customer Account. This enables you to join it back to the Real-Time Customer Profile at send time, so that delivery and tracking information from messages is attributed to a profile.
 
 
-So how do you get this to work? Change the target 😀
+So how do you get this to work? Change the target for message execution to match your channel configuration 😀
 
 
 
