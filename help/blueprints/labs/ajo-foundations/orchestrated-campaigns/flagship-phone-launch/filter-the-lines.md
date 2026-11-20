@@ -79,19 +79,63 @@ New target dimension: `dep-rel: Customer Account`
 
 
 
-2. In the right rail first change the Target choice to **One message per secondary dimension** and then click on the **Edit Mobile message** button to start configuration of the SMS message
+2. In the right rail click on the **Edit Mobile message** button to start configuration of the SMS message
 
-   ![Target and Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button.png)
+   ![Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
 3. In the top nav click on the Actions menu item and then from the Mobile message configuration drop-down select the channel you previously created.
 
-![SMS configuration successfully showing the selected channel](assets/filter-the-lines-sms-configuration-selected.png)
+![SMS configuration drop-down showing no results error](assets/filter-the-lines-sms-configuration-no-results.png)
+
+>[!CAUTION]
+>
+>Oh no 🫨!  Why are you getting No results?  Didn't you set up your SMS channel already?  Is the product broken?
+>
+>FREAK OUT!!!!!!!!!
 
 
 
+## Freak out moment
 
+The channel configuration for SMS was already set up by you beforehand and it currently looks like so...
+
+![Execution details configuration set up during the Configure SMS channel lab](assets/configure-sms-channel-final-execution-details.png)
+
+**How you read this is as follows:**
+
+- Deliver one message per the target dimension (i.e. Customer Account) on the number of related records found in the secondary dimension (i.e. Customer Line)
+- Execute each SMS delivery using the mobile phone number found in the secondary dimension (i.e. Customer Line)
+
+This unique ability to send many messages to one profile is one of the primary features of Orchestrated Campaigns that makes it different from Journeys. However, your transition leading into Mobile Message activity is set to Customer Account. This enables you to join it back to the Real-Time Customer Profile at send time, so that delivery and tracking information from messages is attributed to a profile.
+
+
+So how do you get this to work? Change the target for message execution to match your channel configuration 😀
+
+
+
+## Change Target and complete SMS message configuration
+
+1. Click the back button on the SMS edit screen
+
+   ![Back button to exit the SMS edit screen](assets/filter-the-lines-exit-sms-editor.png)
+
+
+
+2. With the mobile message activity selected, in the right rail first change the Target choice from default option of one message per profile to the **One message per secondary dimension** option and then click back into **Edit Mobile message** 
+
+   ![Change target and then Edit Mobile message button in the right rail](assets/filter-the-lines-edit-sms-button.png)
+
+   
+
+3. In the top nav click on the **Actions** menu item and then from the Mobile message configuration drop-down select the channel you previously created.
+
+   ![SMS configuration successfully showing the selected channel](assets/filter-the-lines-sms-configuration-selected.png)
+
+
+   
 ## Recap
 
-You filtered out all the lines that were not allowed to be targeted with an SMS message due to opt out, changed the dimension from line to account and you added an SMS activity for those who were allowed to be targeted.
+You filtered out all the lines that were not allowed to be targeted with an SMS message due to opt out, changed the dimension from line to account and in the end you successfully configured the SMS activity for those who were allowed to be targeted.
+Hopefully you also learned a very important thing - **your target has to match the channel configuration you want to use**
