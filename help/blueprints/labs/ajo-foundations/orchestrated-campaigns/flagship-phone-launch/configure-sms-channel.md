@@ -106,7 +106,7 @@ On selecting Channel as Mobile Message, a new section called SMS settings shows 
 
    ![Execution dimension settings with target and secondary dimension](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Secondary Dimension set to Customer Line in execution dimension settings "Secondary Dimension"](assets/configure-sms-channel-secondary-dimension-detail.png "Secondary Dimension")
+   ![Secondary Dimension set to dep-rel: Customer Line in execution dimension settings "Secondary Dimension"](assets/configure-sms-channel-secondary-dimension-detail.png "Secondary Dimension")
 
    >[!NOTE]
    >
