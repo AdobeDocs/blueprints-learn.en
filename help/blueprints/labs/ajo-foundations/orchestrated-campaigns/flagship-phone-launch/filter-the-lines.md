@@ -99,8 +99,6 @@ New target dimension: `dep-rel: Customer Account`
 
 ## Freak out moment
 
-The transition of the fork currently has a targeting dimension of Customer Line (i.e., what table the current result relates to in the Relational Store).  What is unique with Orchestrated Campaigns though is you always join back to the Real-Time Customer Profile at send time so delivery and tracking information from messages is attributed to a profile.  This join was pre-built for you from the Customer Account table. 
-
 The channel configuration for SMS was already set up by you beforehand and it currently looks like so...
 
 ![Execution details configuration set up during the Configure SMS channel lab](assets/configure-sms-channel-final-execution-details.png)
