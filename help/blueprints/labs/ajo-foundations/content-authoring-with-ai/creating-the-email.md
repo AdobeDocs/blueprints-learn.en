@@ -136,4 +136,4 @@ In this module, you successfully:
 - Updated hero and product images
 - Enhanced styling
 
-You are now ready to move on to the next module - **AI assistant and content personalization**, where you will use AI to refine text and generate images automatically.
+You are now ready to move on to the next module - **AI assisted content personalization**, where you will use AI to refine text and generate images automatically.
