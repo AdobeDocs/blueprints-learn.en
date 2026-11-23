@@ -1,6 +1,6 @@
 ---
-title: AI assistant and content personalization
-description: Use Adobe Journey Optimizer's AI Assistant to generate on-brand subject lines, refine email copy and tone, and create Firefly-generated images inside the email designer.
+title: AI assisted content personalization
+description: Use Adobe Journey Optimizer's AI to generate on-brand subject lines, refine email copy and tone, and create Firefly-generated images inside the email designer.
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
@@ -9,15 +9,15 @@ product_v2:
     internal-label: Experience Platform
 ---
 
-# AI assistant and content personalization
+# AI assisted content personalization
 
-**Purpose:** Learn how to use Adobe Journey Optimizer’s AI Assistant to generate subject lines, refine email text, adjust tone, and create on-brand Firefly images directly inside the email designer.
+**Purpose:** Learn how to use Adobe Journey Optimizer’s AI to generate subject lines, refine email text, adjust tone, and create on-brand Firefly images directly inside the email designer.
 
 ## Learning objectives
 
 By the end of this module, you will be able to:
 
-1. Use the AI Assistant to generate subject lines and pre-headers.
+1. Use AI to generate subject lines and pre-headers.
 1. Refine hero text, descriptions, tone, and messaging.
 1. Apply AI-driven rephrasing, summarization, and tone adjustments.
 1. Generate images using Adobe Firefly with reference style and brand settings.
@@ -25,7 +25,7 @@ By the end of this module, you will be able to:
 
 ## Introduction
 
-The AI Assistant in AJO helps you build smarter, on-brand content.
+AI assistance in AJO helps you build smarter, on-brand content.
 It can:
 
 - Generate subject lines
@@ -34,21 +34,21 @@ It can:
 - Create branded images using Firefly
 - Ensure everything aligns with Connection 5G guidelines
 
-For this exercise, you improve the email that you created using the AI Assistant. 
+For this exercise, you improve the email that you created using AI. 
 
 >[!NOTE]
 >
->The AI Assistant is **non-deterministic**, which means it may generate slightly different content each time it is used. What you see during your practice may not exactly match the screenshots or examples in this guide. That’s okay—focus on learning the process and concepts rather than expecting identical results.
+>AI is **non-deterministic**, which means it may generate slightly different content each time it is used. What you see during your practice may not exactly match the screenshots or examples in this guide. That’s okay—focus on learning the process and concepts rather than expecting identical results.
 
-## Create email subject line using AI Assistant
+## Create email subject line using AI
 
 1. Go back to the Campaign by clicking the back button, or edit the email you created in the previous module. From the previous step, you can click the **Settings** tab on the right-hand side.
 2. Click on Email Container > Click on Edit Email button. 
 3. Click on the content tab, and then click on Email body
 4. Select the **Subject Line** field.
-5. Click the **AI Assistant icon**. (see below)
+5. Click the **AI icon**. (see below)
 
-   ![AI Assistant icon in the Subject Line field toolbar](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   ![AI icon in the Subject Line field toolbar](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. You notice that Brand Guideline is selected by default. 
 7. Enter the prompt:
@@ -59,7 +59,7 @@ For this exercise, you improve the email that you created using the AI Assistant
 9. Review the four variants generated.
 10. Choose the variant with the best alignment score and click **Select**.
 
-![Selecting the best-aligned subject line variant from AI Assistant](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
+![Selecting the best-aligned subject line variant from AI](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ For this exercise, you improve the email that you created using the AI Assistant
    ![Edit email body button in Campaign editor](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. Click on the **Product Catchy line** heading.
-3. Open AI Assistant by clicking on **Generate and select a text**
+3. Launch AI assistance by clicking on **Generate and select a text**
 
-   ![Generate and select a text option opening AI Assistant](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![Generate and select a text option opening AI](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
 4. Select **Connection 5G Brand Guidelines** from the dropdown.
 
-   ![Connection 5G Brand Guidelines option selected in AI Assistant dropdown](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
+   ![Connection 5G Brand Guidelines option selected in the AI dropdown](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
 5. Prompt:
 
@@ -113,7 +113,7 @@ This time, you test how AI can help find issues.
 
 2. Click on evaluate button as shown below. 
 
-   ![Evaluate button in AI Assistant text panel](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![Evaluate button in AI text panel](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. Your original content is automatically selected with your brand, as shown in Steps 1 and 2 below. Click the **Evaluate** button to proceed.
 
@@ -121,7 +121,7 @@ This time, you test how AI can help find issues.
 
 4. As expected, you notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case you don't revise the existing materials. Instead, you leave them as they are and create new content from scratch that fully aligns with brand standards.
 
-   ![AI Assistant evaluation results showing brand guideline violations](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![AI evaluation results showing brand guideline violations](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. Use the new paragraph that's generated for you using AI with the prompt below. You can use the same approach for the description text using the prompt below.
 
@@ -142,7 +142,7 @@ Your email looks like the example shown below.
 
 ## Add a Firefly-generated image
 
-Until now, we have tested AI Assistant on Subject line and Text. What about images? 
+Until now, we have tested the AI on Subject line and Text. What about images? 
 
 Before diving into AI image generation, look at what types of experiences you can build. 
 
@@ -224,7 +224,7 @@ At this point, you should feel confident using AI to accelerate and elevate cont
 
 ## Recap
 
-You successfully used the AI Assistant to:
+You successfully used the AI to:
 
 - Generate subject lines
 - Refine hero text
