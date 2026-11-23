@@ -22,7 +22,7 @@ By the end of this module, you will be able to:
 - Upload and extract brand guideline information from a PDF.
 - Review and refine brand details across About the Brand, Writing Style, and Visual Content tabs.
 - Add an exclusion rule to avoid pushy email button copy.
-- Publish the brand so it is available to templates, fragments, AI Assistant, and Brand Alignment. 
+- Publish the brand so it is available to templates, fragments, AI, and Brand Alignment. 
 
 Download File — [toolkit.zip](assets/toolkit.zip)
 
@@ -127,7 +127,7 @@ The **Writing Style** tab defines how the brand communicates. It includes:
 
 ![Writing Style tab defining brand tone, phrasing, and legal rules](assets/brand-management-writing-style-tab.png)
 
-You can add and refine rules in natural language and even apply them only to specific channels, such as email or SMS. This gives you flexible but precise control over how AI Assistant and content authors should write.
+You can add and refine rules in natural language and even apply them only to specific channels, such as email or SMS. This gives you flexible but precise control over how AI and content authors should write.
 
 ### Visual content
 
@@ -219,9 +219,9 @@ Next, enhance the brand by adding a rule that ensures email buttons are never wr
 
 7. Click **Save**.
 
-This rule applies wherever AI Assistant or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
+This rule applies wherever AI or authors work on email button copy, keeping CTAs aligned with the Connection 5G tone.
 
-![Email button exclusion rule applied for AI Assistant and authors](assets/brand-management-email-button-exclusion-rule-applied.png)
+![Email button exclusion rule applied for AI and authors](assets/brand-management-email-button-exclusion-rule-applied.png)
 
 >[!NOTE]
 >
@@ -260,6 +260,6 @@ In this module, you:
 - Uploaded the brand guideline file and allowed AJO to extract key information.
 - Reviewed and refined the About the Brand, Writing Style, and Visual Content tabs.
 - Added a specific exclusion rule so email buttons are never pushy.
-- Published the brand so it can power AI Assistant, Brand Alignment, templates, and fragments.
+- Published the brand so it can power AI, Brand Alignment, templates, and fragments.
 
 You now have a fully configured and published **Connection 5G** brand profile that will be used across the rest of the lab to keep all content on-brand.
