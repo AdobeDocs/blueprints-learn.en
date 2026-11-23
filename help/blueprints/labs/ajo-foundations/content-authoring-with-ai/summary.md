@@ -17,7 +17,7 @@ Throughout this course, you've explored the full journey of building personalize
 
 - You can confidently create, configure, and test branded communications in Adobe Journey Optimizer (AJO). 
 - Using **fragments** and **templates** streamlines content creation and ensures brand consistency across messages. 
-- The **AI Assistant** and **Brand Alignment Score** tools help maintain tone, quality, and compliance before launch. 
+- The **AI** and **Brand Alignment Score** tools help maintain tone, quality, and compliance before launch. 
 - **Personalization** allows you to tailor content one-to-one based on real-time profile attributes and behavior. 
 - **Dynamic content** enables message variation across segments using targeting rules and conditional logic. 
 - Testing with **simulation profiles** and running **compliance checks** ensures messages render correctly and match brand standards before going live.
@@ -26,7 +26,7 @@ Throughout this course, you've explored the full journey of building personalize
 
 - [ ] Did you create and configure the Connection 5G brand?
 - [ ] Did you build and apply header/footer fragments?
-- [ ] Did you use the AI Assistant to generate content?
+- [ ] Did you use the AI to generate content?
 - [ ] Did you run brand alignment checks and resolve issues?
 - [ ] Did you test your journey with a test profile and review the email?
 
