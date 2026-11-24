@@ -29,7 +29,7 @@ At this point, you have learned that we can not only personalize the profile att
 1. Click **Simulate Content**.
 2. Select **Simulate content variation**.
 
-   ![Clicking Simulate Content and selecting Simulate content variation](assets/content-simulation-click-simulate-content-variation.png)
+   ![Clicking Simulate Content variation](assets/content-simulation-click-simulate-content-variation.png)
 
    A simulation panel opens.
 
@@ -45,7 +45,7 @@ At this point, you have learned that we can not only personalize the profile att
 
 
 
-5. Select both variants.
+5. Select first two variants (third is the fallback).
 6. Add Subject Line Prefix
    1. Variant 1: Above 40 
    2. Variant 2: Below 40 
