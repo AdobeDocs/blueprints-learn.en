@@ -126,35 +126,33 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
 
-10. Click on **"Browse"** to select the logo image that you have been provided and already uploaded to the Assets. 
+10. Click on **"Browse"** to select the logo image that you have been provided and already uploaded to the Assets.
 
-   ![Click Browse button to select the logo image](assets/building-content-fragments-click-browse-button.png)
+    ![Click Browse button to select the logo image](assets/building-content-fragments-click-browse-button.png)
 
 11. Navigate to your folder, click on the logo image (*C5G-Logo.png*) and click **Select**.
 
-   ![Selecting C5G-Logo.png from the Assets folder](assets/building-content-fragments-select-logo-from-assets.png)
-   
+    ![Selecting C5G-Logo.png from the Assets folder](assets/building-content-fragments-select-logo-from-assets.png)
+
 12. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Styles** tab in right column and set the width to 40% by dragging the slider, as shown below.
 
-   >[!NOTE]
-   >
-   >Note that when the toggle button is on, the 40 number represents % and not pixels. If you want an absolute pixel-perfect value, toggle the button to px.
+    >[!NOTE]
+    >
+    >Note that when the toggle button is on, the 40 number represents % and not pixels. If you want an absolute pixel-perfect value, toggle the button to px.
 
-
-
-   ![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
+    ![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
 13. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation.
 
-   ![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
 14. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button.
 
-   ![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
+    ![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
 
 15. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation.
 
-![Publish button and publishing fragment confirmation message](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![Publish button and publishing fragment confirmation message](assets/building-content-fragments-click-publish-fragment-button.png)
 
 You see the status change to **"Live"**. At this point, you have completed building a header fragment, which is used in the next step.
 

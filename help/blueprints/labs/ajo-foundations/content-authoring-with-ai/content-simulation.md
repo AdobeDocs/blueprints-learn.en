@@ -45,7 +45,7 @@ A simulation panel opens after few seconds.
 
    ![Upload button for input data in the simulation panel](assets/content-simulation-click-upload-input-data.png)
 
-3. Choose **sample.csv** and click **Continue**.
+2. Choose **sample.csv** and click **Continue**.
 
    ![Choosing sample.csv and clicking Open](assets/content-simulation-choose-sample-csv-continue.png)
 
