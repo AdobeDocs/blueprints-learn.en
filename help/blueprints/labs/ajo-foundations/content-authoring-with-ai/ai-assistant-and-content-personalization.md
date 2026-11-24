@@ -160,7 +160,7 @@ We understand that we have the year of birth of the profile. One of the experien
 
    ![Connection 5G Brand Guideline selected for image reference style](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-3. Click on Upload Image
+3. Click on **Upload Image**
 
    ![Upload Image button in Firefly reference style panel](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
@@ -175,43 +175,45 @@ We understand that we have the year of birth of the profile. One of the experien
 
 ## Choose image settings
 
-Choose your **Image settings**:
+Scroll down the left column and click on **More settings**
+
+![Select mre settings](assets/ai-assistant-and-content-personalization-select-more-settings.png)
 
 1. Choose the following settings:
    - **Ratio:** Landscape (4:3)
    - **Content type:** Photo
    - **Color & tone:** Cool tone
    - **Lighting:** Dramatic Lighting
-1. Press **Generate** button 
+   
+2. Press **Generate** button 
 
 ![Firefly image settings including ratio, content type, and lighting before generating](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
+3. Select the variations on the right side to view them and **Save** few of your favourites into your Assets folder for use later. You can also click Generate a few more times to get more variations. 
 
-## Select & insert the generated image
+![Browse through variations and save a few](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-1. Review Firefly results by checking all images generated.
+![Save to your Assets folder](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-   ![Reviewing Firefly-generated image results](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
+4. Then just **Cancel** out of the image generation interface for now.
 
-2. Click **Select** for your desired chosen image.
 
-   ![Selecting the desired generated Firefly image](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
-
-3. If prompted with an upload modal, click **Next**.
-
-   ![Upload modal prompting to click Next](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
-
-4. Then click **Import**.
-
-![Import button to insert the selected image](assets/ai-assistant-and-content-personalization-click-import-button.png)
 
 ## Finalize block design
 
-Apply a rounded border radius of 10 just to make it look modern, if you have time. 
+1. Back in the email designer interface click **Browse** on the image block.
 
-After a few iterations and variations, you have the final design. Your final layout resembles the example.
+![Click Browse in image block](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+
+2. Select one of your variations and click **Select**
+
+![Select one of your variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+
+3. Select the **Styles** tab in right column and apply a rounded border radius of 10 to the image
 
 ![Final email block design with rounded image corners](assets/ai-assistant-and-content-personalization-final-block-design.png)
+
+After a few iterations and variations, you have the final design. Your final layout resembles the example above.
 
 At this point, you should feel confident using AI to accelerate and elevate content creation.
 
