@@ -45,7 +45,7 @@ A simulation panel opens after few seconds.
 
    ![Upload button for input data in the simulation panel](assets/content-simulation-click-upload-input-data.png)
 
-3. Choose **sample.csv** and click **Open**.
+3. Choose **sample.csv** and click **Continue**.
 
    ![Choosing sample.csv and clicking Open](assets/content-simulation-choose-sample-csv-continue.png)
 
@@ -74,7 +74,7 @@ Click on the pencil icon above the second variant to **Show variant details**
 
 Swap the view from Side by side to **Vertically stacked** to look at Jason's details and personalisation side by side
 
-![Jason profile rendering Variant 2 for age below 40](assets/content-simulation-variant-2-age-below-40.png)
+![Jason profile rendering Variant 2 for age below 40](assets/content-simulation-swap-view-to-vertically-stacked.png)
 
 When scrolling on the email content we can see Jason's full name as well as the conditional content image we chose. How cool is that!
 
