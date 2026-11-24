@@ -128,7 +128,7 @@ Create a header fragment to start with. However, before creating the fragment, s
 
 10. Click on **"Browse"** to select the logo image that you have been provided and already uploaded to the Assets. 
 
-   ![Click Browse button to select the logo image](assets/building-content-fragments-browse-button.png)
+   ![Click Browse button to select the logo image](assets/building-content-fragments-click-browse-button.png.png)
 
 11. Navigate to your folder, click on the logo image (*C5G-Logo.png*) and click **Select**.
 
