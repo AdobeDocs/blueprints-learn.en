@@ -92,7 +92,9 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Naming the new asset folder with your first and last name](assets/building-content-fragments-name-asset-folder.png)
 
-5. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
+5. Double click on your newly created folder to open it
+
+6. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
 
    ![Fragments option under Content Management to create a new fragment](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -106,25 +108,25 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Header fragment name, description, and Visual fragment type fields](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. Click on **Create button** on your top right.
+7. Click on **Create button** on your top right.
 
    ![Create button in the top right of the new fragment dialog](assets/building-content-fragments-click-create-button-top-right.png)
 
    This opens a blank fragment creator screen.
 
-7. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
+8. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
    ![Animated demo of dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-8. Next, drag "**image**" on the 1:1 row which we just added
+9. Next, drag "**image**" on the 1:1 row which we just added
 
    ![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. Upload the logo image that you have been provided. Click on **"Import media button"**
+10. Upload the logo image that you have been provided. Click on **"Import media button"**
 
    ![Import media button to upload the logo image](assets/building-content-fragments-click-import-media-button.png)
 
-10. **Upload the logo:** Upload the logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
+11. **Upload the logo:** Upload the logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
 
    ![Selecting C5G-Logo.png from the toolkit folder to upload](assets/building-content-fragments-upload-logo-select-file.png)
 
