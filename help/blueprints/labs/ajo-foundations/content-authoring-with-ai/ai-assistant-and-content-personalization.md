@@ -184,34 +184,32 @@ Scroll down the left column and click on **More settings**
    - **Content type:** Photo
    - **Color & tone:** Cool tone
    - **Lighting:** Dramatic Lighting
-   
-2. Press **Generate** button 
 
-![Firefly image settings including ratio, content type, and lighting before generating](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+2. Press **Generate** button
 
-3. Select the variations on the right side to view them and **Save** few of your favourites into your Assets folder for use later. You can also click Generate a few more times to get more variations. 
+   ![Firefly image settings including ratio, content type, and lighting before generating](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-![Browse through variations and save a few](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+3. Select the variations on the right side to view them and **Save** few of your favourites into your Assets folder for use later. You can also click Generate a few more times to get more variations.
 
-![Save to your Assets folder](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Browse through variations and save a few](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+
+   ![Save to your Assets folder](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
 4. Then just **Cancel** out of the image generation interface for now.
-
-
 
 ## Finalize block design
 
 1. Back in the email designer interface click **Browse** on the image block.
 
-![Click Browse in image block](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![Click Browse in image block](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
 2. Select one of your variations and click **Select**
 
-![Select one of your variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![Select one of your variations](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
 3. Select the **Styles** tab in right column and apply a rounded border radius of 10 to the image
 
-![Final email block design with rounded image corners](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![Final email block design with rounded image corners](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 After a few iterations and variations, you have the final design. Your final layout resembles the example above.
 
