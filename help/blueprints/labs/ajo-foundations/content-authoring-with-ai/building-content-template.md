@@ -98,7 +98,7 @@ Select the third option. Click **Import HTML**
 
 ### Left panel
 
-The "**Structures**" and "**Contents**" components in Adobe Journey Optimizer (AJO) are essential elements used when designing emails, landing pages, and content fragments. Structures define the layout framework, while Contents provide the actual building blocks placed inside those layouts.
+Under Components tab the "**Structures**" and "**Contents**" components in Adobe Journey Optimizer (AJO) are essential elements used when designing emails, landing pages, and content fragments. Structures define the layout framework, while Contents provide the actual building blocks placed inside those layouts.
 
 The body section in Adobe Journey Optimizer is the main container for your email or page content. It serves as the root of the visual design space, where all structure components (columns, layouts) and content components (text, images, buttons, etc.) are nested.
 
