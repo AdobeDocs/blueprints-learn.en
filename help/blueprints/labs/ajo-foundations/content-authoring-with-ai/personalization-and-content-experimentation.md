@@ -40,12 +40,12 @@ Personalization in Adobe Journey Optimizer empowers you to craft tailored, impac
 This part of the exercise keeps personalisation simple. Add the first and last name to the email based on the profile. Personalization is based on the profile data that are managed by the XDM Individual Profile schema which you have defined. The XDM Individual Profile schema is the only schema you can use to personalize content in Journey Optimizer.
 
 1. Open your email created in earlier modules.
-2. Add a text block above the hero title with the content: **Hi,**
+2. Add text **"Hi, "** in the block of hero title just above your title copy 
 3. Click the **Personalisation** icon.
 
    ![Personalisation icon in the email text toolbar](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Search for **F****irst Name**.
+4. Search for **First Name**.
 
    ![Searching for the First Name attribute in the personalisation panel](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
@@ -112,13 +112,13 @@ Create another image for those aged below 40 (remember, you created a Firefly im
    ![Creating and renaming a new variant to Age below 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
 5. You could potentially create an image using Firefly by using a prompt such as “mid-20-year-old.” However, to save time, we already have an image in the toolkit called “**variant-age-below-40.jpg**. 
-6. Click on the image and Import Media.
+6. Click on the image and **Select an asset**.
 
-   ![Clicking the image and Import Media for the below-40 variant](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![Clicking the image and Select An Asset for the below-40 variant](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. Select **variant-age-below-40.jpg** image. Import it by clicking **Next** and finally press **Import** in your folder (you should already be in your folder by default).
+7. Select **variant-age-below-40.jpg** image in your Assets folder and click **Select**.
 
-   ![Selecting and importing the variant-age-below-40.jpg image](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![Selecting and importing the variant-age-below-40.jpg image](assets/personalization-and-content-experimentation-select-below-40-image-from-assets.png)
 
 8. Try to toggle between variants and you see a different image applied. 
 

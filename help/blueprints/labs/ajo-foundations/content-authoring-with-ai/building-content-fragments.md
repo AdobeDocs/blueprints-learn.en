@@ -92,7 +92,13 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Naming the new asset folder with your first and last name](assets/building-content-fragments-name-asset-folder.png)
 
-5. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
+5. Double click on your newly created folder to **open** it. Then click on **Add Assets** and browse or drop all the .png and .jpg images from your toolkit folder. Then click **Upload**
+
+   ![Click Add assets and upload image files](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![Click Upload](assets/building-content-fragments-click-upload.png)
+
+6. **Create a new fragment:** Under Content Management click on **Fragments** and create new fragment.
 
    ![Fragments option under Content Management to create a new fragment](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -106,35 +112,29 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Header fragment name, description, and Visual fragment type fields](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. Click on **Create button** on your top right.
+7. Click on **Create button** on your top right.
 
    ![Create button in the top right of the new fragment dialog](assets/building-content-fragments-click-create-button-top-right.png)
 
    This opens a blank fragment creator screen.
 
-7. Click on 1:1 Columns under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
+8. Go to **Components** tab in the left column. Then click on **1:1 Column** under Structures and drag on the canvas as shown below. (Please click on the image below to see animated graphic)
 
-   ![Animated demo of dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Dragging a 1:1 Columns structure onto the fragment canvas](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. Next, drag "**image**" on the 1:1 row which we just added
+9. Next, drag "**image**" on the 1:1 row which we just added
 
    ![Dragging an image component onto the 1:1 row](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. Upload the logo image that you have been provided. Click on **"Import media button"**
+10. Click on **"Browse"** to select the logo image that you have been provided and already uploaded to the Assets. 
 
-   ![Import media button to upload the logo image](assets/building-content-fragments-click-import-media-button.png)
+   ![Click Browse button to select the logo image](assets/building-content-fragments-click-browse-button.png)
 
-10. **Upload the logo:** Upload the logo (*C5G-Logo.png*) from the toolkit folder of images and click next.
+11. Navigate to your folder, click on the logo image (*C5G-Logo.png*) and click **Select**.
 
-   ![Selecting C5G-Logo.png from the toolkit folder to upload](assets/building-content-fragments-upload-logo-select-file.png)
-
-   ![Clicking Next after selecting the logo upload](assets/building-content-fragments-upload-logo-click-next.png)
-
-1. Select the **asset folder** that you have created, then click **Import**. The file is saved in your folder.
-
-   ![Selecting the created asset folder and clicking Import](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Style tab** and set the width to 40% by dragging the slider, as shown below.
+   ![Selecting C5G-Logo.png from the Assets folder](assets/building-content-fragments-select-logo-from-assets.png)
+   
+12. The logo is placed correctly, but it is too large and needs to be resized. To resize the logo, update its properties. Click the **Styles** tab in right column and set the width to 40% by dragging the slider, as shown below.
 
    >[!NOTE]
    >
@@ -144,15 +144,15 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation.
+13. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation.
 
    ![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button.
+14. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button.
 
    ![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
 
-1. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation.
+15. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation.
 
 ![Publish button and publishing fragment confirmation message](assets/building-content-fragments-click-publish-fragment-button.png)
 
