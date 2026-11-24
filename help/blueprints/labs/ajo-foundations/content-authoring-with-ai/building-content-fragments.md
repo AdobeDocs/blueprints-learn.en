@@ -144,15 +144,15 @@ Create a header fragment to start with. However, before creating the fragment, s
 
    ![Style tab width slider set to 40 percent to resize the logo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation.
+13. Click **“Save”** and your fragment is saved. You get a green bar notification on the confirmation.
 
    ![Green confirmation bar after saving the fragment](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button.
+14. The fragment saved is in a draft mode. Before you use it, you need to publish it. Click on the **back** button.
 
    ![Back button to leave the draft fragment before publishing](assets/building-content-fragments-click-back-button-draft.png)
 
-1. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation.
+15. Click "**Publish**" button. You see a message "Publishing fragment, this may take some time. We will notify once done." on confirmation. Your fragment is ready to be used for template creation.
 
 ![Publish button and publishing fragment confirmation message](assets/building-content-fragments-click-publish-fragment-button.png)
 
