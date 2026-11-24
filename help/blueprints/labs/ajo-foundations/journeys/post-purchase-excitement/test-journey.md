@@ -23,7 +23,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
    ![Click to validate the journey](assets/test-journey-click-validate.png)
    
-5. Click on **Alerts** & ensure there are no errors (warnings are ok)
+4. Click on **Alerts** & ensure there are no errors (warnings are ok)
 
    ![Alerts panel showing no errors after opening the journey](assets/test-journey-alerts-no-errors.png)
 
@@ -33,7 +33,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
    >
    >Indicates the opt-out link is missing in an email variant
 
-6. Click on the **Simulate** and then, select **Test Mode**
+5. Click on the **Simulate** and then, select **Test Mode**
 
    ![Press Simulate ](assets/test-journey-select-test-mode.png)
 
@@ -47,11 +47,11 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-7. Click **Trigger an Event** on the left side and fill out these properties:
+6. Click **Trigger an Event** on the left side and fill out these properties:
    - **Event Type**: `orders.shipped`
    - **Personal Email**: `henry.creel@emailsim.io`
    - **Order ID**: `123`
-8. Click **Send** (note, it takes a few seconds to respond after clicking send)
+7. Click **Send** (note, it takes a few seconds to respond after clicking send)
 
    ![Trigger an Event form filled out and Send clicked](assets/test-journey-trigger-event-send.png)
 
@@ -67,7 +67,7 @@ Use the journey testing tools to verify that the event trigger and journey logic
 
 
 
-9. Under **Results** -> Click **Show Log** on left side
+8. Under **Results** -> Click **Show Log** on left side
 
 ![Show Log option under Results after triggering the test event](assets/test-journey-show-log-results.png)
 
