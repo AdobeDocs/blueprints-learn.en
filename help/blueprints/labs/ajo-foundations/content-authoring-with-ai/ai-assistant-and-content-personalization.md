@@ -87,19 +87,12 @@ For this exercise, you improve the email that you created using AI.
 
    >*Write a bold, attention-grabbing headline for the iPhone 17 launch. Keep it under 10 words*
 
-6. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English** and Tone to **Exciting**. Use shorter version by scaling down the dial. 
+6. Click on Text settings to change the tone and communication strategy. Change Communication strategy to **FOMO (Fear of Missing Out)**, Language to **English** and Tone to **Exciting**.  
 
    ![Text settings panel with FOMO communication strategy and Exciting tone selected](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. Click the **Generate** button
-8. Review and select the best version, 
-9. If your text is long, then use the slider to **"shorter text"** and regenerate the text. 
-
-
-
-   ![Shorter text slider used to regenerate a shorter headline](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
-
-10. Once you are happy with the text click on **Select**
+8. Review and **Select** the best version
 
 ![Selecting the generated hero headline text](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -119,17 +112,17 @@ This time, you test how AI can help find issues.
 
    ![Original content automatically selected with brand guidelines before evaluation](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-4. As expected, you notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case you don't revise the existing materials. Instead, you leave them as they are and create new content from scratch that fully aligns with brand standards.
+4. As expected, you notice many errors that violate brand guidelines. Although these could be corrected using AI, in this case you don't need to revise this placeholder text. Instead, you could enter all new content for the description.
 
    ![AI evaluation results showing brand guideline violations](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-5. Use the new paragraph that's generated for you using AI with the prompt below. You can use the same approach for the description text using the prompt below.
+5. You can either follow the same steps as as you did with the hero title before, using the below prompt or... to save time you could also replace the placeholder text with a ready made paragraph provided below.
 
 Prompt:
 
 >*Write a compelling product description for the new iPhone 17. Highlight its most impressive features, such as advanced camera, battery life, and performance. The tone should be premium, exciting, and easy to understand for a wide audience. Keep it under 3 sentences.*
 
-To save time, the text has already been created for you. Copy and paste below to get your text.
+Ready made paragraph:
 
 >Discover the iPhone 17™ - featuring an advanced camera for stunning photos, all-day battery life to keep you going, and lightning-fast performance that keeps you ahead. Don’t miss out on this innovative experience.
 
