@@ -37,7 +37,7 @@ This step demonstrates how templates can be reused across journeys, allowing tea
 
    ![Create Campaign button in Journeys Management](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Select "**Orchestration - Marketing**" and click **confirm**
+3. Select "**Orchestration Marketing and transactional**" and click **Confirm**
 
    ![Selecting Orchestration - Marketing and clicking confirm](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -103,19 +103,15 @@ Change the hero and phone images. You need to upload content to assets from the 
 
    ![Removing the temporary source URL from the image](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. Click on **Import Media**
+3. Click on **Select an asset**
 
-   ![Import Media button for the hero image](assets/creating-the-email-click-import-media.png)
+   ![Select an asset button for the hero image](assets/creating-the-email-click-import-media.png)
 
-4. Upload `hero.png` from your toolkit. (You can drag the file)
+4. Select the `hero.png` from your folder and click **Select**. 
 
-   ![Uploading hero.png from the toolkit folder](assets/creating-the-email-upload-hero-png-file.png)
+   ![Selecting hero.png from the Assets folder](assets/creating-the-email-select-hero-png-file.png)
 
-5. Click **Next,** Select **your folder for assets** and press **import**
-
-   ![Selecting the assets folder and clicking import for the hero image](assets/creating-the-email-select-folder-import-hero.png)
-
-6. Your email template is coming up nicely. It appears like the following. Click on **"Save"** to save your work.
+5. Your email template is coming up nicely. It appears like the following. Click on **"Save"** to save your work.
 
 ![Updated email template with the new hero image before saving](assets/creating-the-email-save-updated-email-template.png)
 
@@ -124,7 +120,7 @@ Change the hero and phone images. You need to upload content to assets from the 
 
 ### Replace product images
 
-Go ahead and update all the product images (images provided in the toolkit folder) and also add rounded border to your liking. Your email looks nicer without any broken links, as shown below. Repeat the process for all product cards.
+Go ahead and update all the product images (images were provided in the toolkit folder, you uploaded them into Assets) and also add rounded border to your liking. Your email looks nicer without any broken links, as shown below. Repeat the process for all product cards.
 
 ![Email with all product images updated and no broken links](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
